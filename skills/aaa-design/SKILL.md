@@ -221,6 +221,8 @@ Run this loop at most 3 times:
 - every axis scores ≥ 7 with a total ≥ 64/80, or
 - you have done 3 loops (report what's left).
 
+Scoring below the bar after the first loop is normal, not a reason to stop. Loop 2 is where the design gets good: fix the weakest axis, re-render and look again. Also view at least one non-default state, such as an open menu, an error, a later step or a hover, through a quick Playwright script or by reading the screenshot of it. The audit only renders the initial state.
+
 ## Final craft pass (two minutes, before you hand over)
 
 Check the top 15 from `references/craft-checklist.md`, which has 86 items:

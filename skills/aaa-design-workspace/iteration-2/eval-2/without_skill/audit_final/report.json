@@ -1,0 +1,349 @@
+{
+ "url": "file:///home/user/design-master/skills/aaa-design-workspace/iteration-2/eval-2/without_skill/outputs/index.html",
+ "widths": {
+  "390": {
+   "overflowPx": 324,
+   "smallTargets": [
+    {
+     "el": "<a href=\"#\" aria-current=\"page\"><svg viewBox=\"0 0 24 24\"><path d=\"M3 1",
+     "w": 38,
+     "h": 36
+    },
+    {
+     "el": "<a href=\"#orders\"><svg viewBox=\"0 0 24 24\"><path d=\"M6 7h12l-1 13H7zM9",
+     "w": 38,
+     "h": 36
+    },
+    {
+     "el": "<a href=\"#stock\"><svg viewBox=\"0 0 24 24\"><path d=\"M3 8l9-5 9 5v8l-9 5",
+     "w": 38,
+     "h": 36
+    },
+    {
+     "el": "<a href=\"#\"><svg viewBox=\"0 0 24 24\"><circle cx=\"9\" cy=\"8\" r=\"3.5\"></c",
+     "w": 38,
+     "h": 36
+    },
+    {
+     "el": "<a href=\"#\"><svg viewBox=\"0 0 24 24\"><path d=\"M4 20V10M10 20V4M16 20v-",
+     "w": 38,
+     "h": 36
+    },
+    {
+     "el": "<a href=\"#\"><svg viewBox=\"0 0 24 24\"><path d=\"M20 12l-8 8-9-9V3h8zM7.5",
+     "w": 38,
+     "h": 36
+    },
+    {
+     "el": "<a href=\"#\"><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"3\"></c",
+     "w": 38,
+     "h": 36
+    },
+    {
+     "el": "<button data-p=\"7\" aria-pressed=\"false\">7 days</button>",
+     "w": 67,
+     "h": 31
+    },
+    {
+     "el": "<button data-p=\"30\" aria-pressed=\"true\">30 days</button>",
+     "w": 77,
+     "h": 31
+    },
+    {
+     "el": "<button id=\"cmp\" aria-pressed=\"true\">vs prior period</button>",
+     "w": 121,
+     "h": 31
+    },
+    {
+     "el": "<button class=\"btn\" data-i=\"0\">Reorder</button>",
+     "w": 71,
+     "h": 31
+    },
+    {
+     "el": "<button class=\"btn\" data-i=\"1\">Reorder</button>",
+     "w": 71,
+     "h": 31
+    },
+    {
+     "el": "<button class=\"btn\" data-i=\"2\">Reorder</button>",
+     "w": 71,
+     "h": 31
+    },
+    {
+     "el": "<button class=\"btn\" data-i=\"3\">Reorder</button>",
+     "w": 71,
+     "h": 31
+    },
+    {
+     "el": "<button class=\"btn\" data-i=\"4\">Reorder</button>",
+     "w": 71,
+     "h": 31
+    },
+    {
+     "el": "<button data-f=\"all\" aria-pressed=\"true\">All</button>",
+     "w": 40,
+     "h": 31
+    },
+    {
+     "el": "<button data-f=\"pending\" aria-pressed=\"false\">Pending</button>",
+     "w": 78,
+     "h": 31
+    },
+    {
+     "el": "<button data-f=\"paid\" aria-pressed=\"false\">Paid</button>",
+     "w": 53,
+     "h": 31
+    },
+    {
+     "el": "<button data-f=\"shipped\" aria-pressed=\"false\">Shipped</button>",
+     "w": 79,
+     "h": 31
+    },
+    {
+     "el": "<button data-f=\"refunded\" aria-pressed=\"false\">Refunded</button>",
+     "w": 88,
+     "h": 31
+    },
+    {
+     "el": "<input type=\"search\" id=\"q\" placeholder=\"Search customer or order\" ari",
+     "w": 236,
+     "h": 35
+    }
+   ]
+  },
+  "768": {
+   "overflowPx": 218
+  },
+  "1440": {
+   "overflowPx": 0
+  }
+ },
+ "gates": {
+  "contrast": {
+   "pass": false,
+   "fails": 2,
+   "note": "text over background-images is listed but must be verified visually"
+  },
+  "noOverflow390": {
+   "pass": false,
+   "overflowPx": 324
+  },
+  "focusVisible": {
+   "pass": false,
+   "stops": 12,
+   "invisible": [
+    "a:Overview",
+    "a:Orders6",
+    "a:Inventory",
+    "a:Customers",
+    "a:Analytics",
+    "a:Promotions",
+    "a:Settings"
+   ]
+  },
+  "reducedMotion": {
+   "pass": true,
+   "normal": 0,
+   "reduced": 0,
+   "hasMediaQuery": true
+  },
+  "minTextSize": {
+   "pass": false,
+   "tiny": [
+    {
+     "text": "6",
+     "size": 11
+    },
+    {
+     "text": "£0k",
+     "size": 11
+    },
+    {
+     "text": "£1k",
+     "size": 11
+    },
+    {
+     "text": "£2k",
+     "size": 11
+    },
+    {
+     "text": "£3k",
+     "size": 11
+    },
+    {
+     "text": "£4k",
+     "size": 11
+    },
+    {
+     "text": "8 Sept",
+     "size": 11
+    },
+    {
+     "text": "14 Sept",
+     "size": 11
+    },
+    {
+     "text": "20 Sept",
+     "size": 11
+    },
+    {
+     "text": "26 Sept",
+     "size": 11
+    }
+   ]
+  },
+  "altAndNames": {
+   "pass": true,
+   "imgsWithoutAlt": 0,
+   "unnamedControls": []
+  }
+ },
+ "warnings": [
+  "21 touch targets < 44px at 390px",
+  "6 distinct radii: 7, 8, 9, 10, 14, 99 (aim for 2-3 + pill)",
+  "3 saturated hue families (aim for 1 accent unless colour-coding categories)"
+ ],
+ "textNodes": 159,
+ "contrastFails": [
+  {
+   "text": "Pending",
+   "fg": "#b7791f",
+   "bg": "#fffdf9",
+   "ratio": 3.58,
+   "need": 4.5,
+   "size": 12.5,
+   "imageBehind": false,
+   "selector": "span.st.pending"
+  },
+  {
+   "text": "Wednesday 7 October · here's how Bramble & Co is t",
+   "fg": "#7a7367",
+   "bg": "#f6f3ee",
+   "ratio": 4.24,
+   "need": 4.5,
+   "size": 14,
+   "imageBehind": false,
+   "selector": "p"
+  }
+ ],
+ "tiny": [
+  {
+   "text": "6",
+   "size": 11
+  },
+  {
+   "text": "£0k",
+   "size": 11
+  },
+  {
+   "text": "£1k",
+   "size": 11
+  },
+  {
+   "text": "£2k",
+   "size": 11
+  },
+  {
+   "text": "£3k",
+   "size": 11
+  },
+  {
+   "text": "£4k",
+   "size": 11
+  },
+  {
+   "text": "8 Sept",
+   "size": 11
+  },
+  {
+   "text": "14 Sept",
+   "size": 11
+  },
+  {
+   "text": "20 Sept",
+   "size": 11
+  },
+  {
+   "text": "26 Sept",
+   "size": 11
+  }
+ ],
+ "fontFamilies": [
+  "Inter",
+  "Fraunces"
+ ],
+ "radii": [
+  7,
+  8,
+  9,
+  10,
+  14,
+  99
+ ],
+ "accentHueBuckets": 3,
+ "imgsWithoutAlt": 0,
+ "unnamedControls": [],
+ "h1": 1,
+ "headingSkips": 0,
+ "reducedMotionCSS": true,
+ "focusStops": [
+  {
+   "el": "a:Overview",
+   "visible": false
+  },
+  {
+   "el": "a:Orders6",
+   "visible": false
+  },
+  {
+   "el": "a:Inventory",
+   "visible": false
+  },
+  {
+   "el": "a:Customers",
+   "visible": false
+  },
+  {
+   "el": "a:Analytics",
+   "visible": false
+  },
+  {
+   "el": "a:Promotions",
+   "visible": false
+  },
+  {
+   "el": "a:Settings",
+   "visible": false
+  },
+  {
+   "el": "button:7 days",
+   "visible": true
+  },
+  {
+   "el": "button:30 days",
+   "visible": true
+  },
+  {
+   "el": "button:vs prior period",
+   "visible": true
+  },
+  {
+   "el": "button:Reorder",
+   "visible": true
+  },
+  {
+   "el": "button:Reorder",
+   "visible": true
+  }
+ ],
+ "runningAnimations": {
+  "normal": 0,
+  "reduced": 0
+ },
+ "hardFails": [
+  "contrast",
+  "noOverflow390",
+  "focusVisible",
+  "minTextSize"
+ ]
+}

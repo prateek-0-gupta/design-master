@@ -1,0 +1,128 @@
+{
+ "url": "file:///home/user/design-master/skills/aaa-design-workspace/iteration-2/eval-5/with_skill/outputs/index.html",
+ "widths": {
+  "390": {
+   "overflowPx": 0,
+   "smallTargets": [
+    {
+     "el": "<a class=\"mail\" id=\"mail\" href=\"mailto:hallo@miraokafor.studio\">hallo@",
+     "w": 193,
+     "h": 29
+    }
+   ]
+  },
+  "768": {
+   "overflowPx": 0
+  },
+  "1440": {
+   "overflowPx": 0
+  }
+ },
+ "gates": {
+  "contrast": {
+   "pass": true,
+   "fails": 0,
+   "note": "text over background-images is listed but must be verified visually"
+  },
+  "noOverflow390": {
+   "pass": true,
+   "overflowPx": 0
+  },
+  "focusVisible": {
+   "pass": true,
+   "stops": 12,
+   "invisible": []
+  },
+  "reducedMotion": {
+   "pass": true,
+   "normal": 0,
+   "reduced": 0,
+   "hasMediaQuery": true
+  },
+  "minTextSize": {
+   "pass": true,
+   "tiny": []
+  },
+  "altAndNames": {
+   "pass": true,
+   "imgsWithoutAlt": 0,
+   "unnamedControls": []
+  }
+ },
+ "warnings": [
+  "1 touch targets < 44px at 390px"
+ ],
+ "textNodes": 121,
+ "contrastFails": [],
+ "tiny": [],
+ "fontFamilies": [
+  "Inter",
+  "Instrument Serif",
+  "JetBrains Mono"
+ ],
+ "radii": [
+  10,
+  999
+ ],
+ "accentHueBuckets": 1,
+ "imgsWithoutAlt": 0,
+ "unnamedControls": [],
+ "h1": 1,
+ "headingSkips": 0,
+ "reducedMotionCSS": true,
+ "focusStops": [
+  {
+   "el": "a:Skip to work",
+   "visible": true
+  },
+  {
+   "el": "a:Mira Okafor.",
+   "visible": true
+  },
+  {
+   "el": "a:Work",
+   "visible": true
+  },
+  {
+   "el": "a:About",
+   "visible": true
+  },
+  {
+   "el": "a:Contact",
+   "visible": true
+  },
+  {
+   "el": "a:M1Halde",
+   "visible": true
+  },
+  {
+   "el": "a:M2Nordlicht",
+   "visible": true
+  },
+  {
+   "el": "a:M3Pfand",
+   "visible": true
+  },
+  {
+   "el": "a:M4Kiez",
+   "visible": true
+  },
+  {
+   "el": "a:Read the full story ",
+   "visible": true
+  },
+  {
+   "el": "a:Read the full story ",
+   "visible": true
+  },
+  {
+   "el": "a:Read the full story ",
+   "visible": true
+  }
+ ],
+ "runningAnimations": {
+  "normal": 0,
+  "reduced": 0
+ },
+ "hardFails": []
+}

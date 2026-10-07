@@ -1,0 +1,264 @@
+{
+ "url": "file:///home/user/design-master/skills/aaa-design-workspace/iteration-2/eval-4/without_skill/outputs/index.html",
+ "widths": {
+  "390": {
+   "overflowPx": 0,
+   "smallTargets": [
+    {
+     "el": "<a href=\"#logo\">Logo</a>",
+     "w": 31,
+     "h": 22
+    },
+    {
+     "el": "<a href=\"#colour\">Colour</a>",
+     "w": 43,
+     "h": 22
+    },
+    {
+     "el": "<a href=\"#type\">Type</a>",
+     "w": 32,
+     "h": 22
+    },
+    {
+     "el": "<a href=\"#photo\">Photography</a>",
+     "w": 83,
+     "h": 22
+    },
+    {
+     "el": "<a href=\"#voice\">Voice</a>",
+     "w": 36,
+     "h": 22
+    },
+    {
+     "el": "<a href=\"#apply\">Applications</a>",
+     "w": 81,
+     "h": 22
+    }
+   ]
+  },
+  "768": {
+   "overflowPx": 0
+  },
+  "1440": {
+   "overflowPx": 0
+  }
+ },
+ "gates": {
+  "contrast": {
+   "pass": false,
+   "fails": 6,
+   "note": "text over background-images is listed but must be verified visually"
+  },
+  "noOverflow390": {
+   "pass": true,
+   "overflowPx": 0
+  },
+  "focusVisible": {
+   "pass": true,
+   "stops": 12,
+   "invisible": []
+  },
+  "reducedMotion": {
+   "pass": true,
+   "normal": 0,
+   "reduced": 0,
+   "hasMediaQuery": false
+  },
+  "minTextSize": {
+   "pass": false,
+   "tiny": [
+    {
+     "text": "HUILA · COLOMBIA",
+     "size": 6.5
+    },
+    {
+     "text": "red plum · jasmine",
+     "size": 9
+    },
+    {
+     "text": "WHOLE BEAN · 250 G",
+     "size": 7
+    },
+    {
+     "text": "COFFEE ROASTERS",
+     "size": 7
+    },
+    {
+     "text": "TUE – SUN · 8 – 17",
+     "size": 7
+    }
+   ]
+  },
+  "altAndNames": {
+   "pass": true,
+   "imgsWithoutAlt": 0,
+   "unnamedControls": []
+  }
+ },
+ "warnings": [
+  "6 touch targets < 44px at 390px",
+  "5 distinct radii: 10, 14, 16, 18, 99 (aim for 2-3 + pill)",
+  "4 saturated hue families (aim for 1 accent unless colour-coding categories)",
+  "no @media (prefers-reduced-motion) rule found"
+ ],
+ "textNodes": 116,
+ "contrastFails": [
+  {
+   "text": "Still life — a cup in side light, steam visible",
+   "fg": "#ffffff",
+   "bg": "#f4ecdd",
+   "ratio": 1.17,
+   "need": 4.5,
+   "size": 13,
+   "imageBehind": true,
+   "selector": "span"
+  },
+  {
+   "text": "01 — Logo",
+   "fg": "#c8643b",
+   "bg": "#f4ecdd",
+   "ratio": 3.35,
+   "need": 4.5,
+   "size": 12,
+   "imageBehind": false,
+   "selector": "div.eyebrow"
+  },
+  {
+   "text": "Telha#C8643BRGB 200 100 59 · Accent",
+   "fg": "#ffffff",
+   "bg": "#c8643b",
+   "ratio": 3.93,
+   "need": 4.5,
+   "size": 13,
+   "imageBehind": false,
+   "selector": "button.sw"
+  },
+  {
+   "text": "Telha",
+   "fg": "#ffffff",
+   "bg": "#c8643b",
+   "ratio": 3.93,
+   "need": 4.5,
+   "size": 22,
+   "imageBehind": false,
+   "selector": "strong"
+  },
+  {
+   "text": "Display / 64",
+   "fg": "#7b6f64",
+   "bg": "#f4ecdd",
+   "ratio": 4.18,
+   "need": 4.5,
+   "size": 12,
+   "imageBehind": false,
+   "selector": "small"
+  },
+  {
+   "text": "bom dia.",
+   "fg": "#2a1b14",
+   "bg": "#c8643b",
+   "ratio": 4.22,
+   "need": 4.5,
+   "size": 14,
+   "imageBehind": false,
+   "selector": "text"
+  }
+ ],
+ "tiny": [
+  {
+   "text": "HUILA · COLOMBIA",
+   "size": 6.5
+  },
+  {
+   "text": "red plum · jasmine",
+   "size": 9
+  },
+  {
+   "text": "WHOLE BEAN · 250 G",
+   "size": 7
+  },
+  {
+   "text": "COFFEE ROASTERS",
+   "size": 7
+  },
+  {
+   "text": "TUE – SUN · 8 – 17",
+   "size": 7
+  }
+ ],
+ "fontFamilies": [
+  "DM Sans",
+  "Fraunces"
+ ],
+ "radii": [
+  10,
+  14,
+  16,
+  18,
+  99
+ ],
+ "accentHueBuckets": 4,
+ "imgsWithoutAlt": 0,
+ "unnamedControls": [],
+ "h1": 1,
+ "headingSkips": 0,
+ "reducedMotionCSS": false,
+ "focusStops": [
+  {
+   "el": "a:Logo",
+   "visible": true
+  },
+  {
+   "el": "a:Colour",
+   "visible": true
+  },
+  {
+   "el": "a:Type",
+   "visible": true
+  },
+  {
+   "el": "a:Photography",
+   "visible": true
+  },
+  {
+   "el": "a:Voice",
+   "visible": true
+  },
+  {
+   "el": "a:Applications",
+   "visible": true
+  },
+  {
+   "el": "button:Azulejo#1F4E8CRGB 31",
+   "visible": true
+  },
+  {
+   "el": "button:Telha#C8643BRGB 200 ",
+   "visible": true
+  },
+  {
+   "el": "button:Crema#F4ECDDRGB 244 ",
+   "visible": true
+  },
+  {
+   "el": "button:Espresso#2A1B14RGB 4",
+   "visible": true
+  },
+  {
+   "el": "button:Oliveira#8A9A7BRGB 1",
+   "visible": true
+  },
+  {
+   "el": "button:Areia#D9C7A3RGB 217 ",
+   "visible": true
+  }
+ ],
+ "runningAnimations": {
+  "normal": 0,
+  "reduced": 0
+ },
+ "hardFails": [
+  "contrast",
+  "minTextSize"
+ ]
+}

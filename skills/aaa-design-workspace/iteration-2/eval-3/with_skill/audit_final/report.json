@@ -1,0 +1,124 @@
+{
+ "url": "file:///home/user/design-master/skills/aaa-design-workspace/iteration-2/eval-3/with_skill/outputs/index.html",
+ "widths": {
+  "390": {
+   "overflowPx": 0,
+   "smallTargets": []
+  },
+  "768": {
+   "overflowPx": 0
+  },
+  "1440": {
+   "overflowPx": 0
+  }
+ },
+ "gates": {
+  "contrast": {
+   "pass": true,
+   "fails": 0,
+   "note": "text over background-images is listed but must be verified visually"
+  },
+  "noOverflow390": {
+   "pass": true,
+   "overflowPx": 0
+  },
+  "focusVisible": {
+   "pass": true,
+   "stops": 12,
+   "invisible": []
+  },
+  "reducedMotion": {
+   "pass": true,
+   "normal": 3,
+   "reduced": 0,
+   "hasMediaQuery": true
+  },
+  "minTextSize": {
+   "pass": true,
+   "tiny": []
+  },
+  "altAndNames": {
+   "pass": true,
+   "imgsWithoutAlt": 0,
+   "unnamedControls": []
+  }
+ },
+ "warnings": [
+  "3 saturated hue families (aim for 1 accent unless colour-coding categories)"
+ ],
+ "textNodes": 8,
+ "contrastFails": [],
+ "tiny": [],
+ "fontFamilies": [
+  "Plus Jakarta Sans",
+  "Fraunces",
+  "Arial"
+ ],
+ "radii": [
+  12,
+  24,
+  40,
+  999
+ ],
+ "accentHueBuckets": 3,
+ "imgsWithoutAlt": 0,
+ "unnamedControls": [],
+ "h1": 1,
+ "headingSkips": 0,
+ "reducedMotionCSS": true,
+ "focusStops": [
+  {
+   "el": "button:Skip",
+   "visible": true
+  },
+  {
+   "el": "button:Let's get growing",
+   "visible": true
+  },
+  {
+   "el": "button:Undo",
+   "visible": true
+  },
+  {
+   "el": "button:Don't allow",
+   "visible": true
+  },
+  {
+   "el": "button:Allow",
+   "visible": true
+  },
+  {
+   "el": "button:Don't allow",
+   "visible": true
+  },
+  {
+   "el": "button:Allow",
+   "visible": true
+  },
+  {
+   "el": "button:Don't allow",
+   "visible": true
+  },
+  {
+   "el": "button:Allow",
+   "visible": true
+  },
+  {
+   "el": "button:Don't allow",
+   "visible": true
+  },
+  {
+   "el": "button:Allow",
+   "visible": true
+  },
+  {
+   "el": "button:Don't allow",
+   "visible": true
+  }
+ ],
+ "runningAnimations": {
+  "normal": 3,
+  "reduced": 0
+ },
+ "hardFails": []
+}

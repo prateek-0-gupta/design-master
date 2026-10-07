@@ -1,0 +1,134 @@
+{
+ "url": "file:///home/user/design-master/skills/aaa-design-workspace/iteration-2/eval-4/with_skill/outputs/index.html",
+ "widths": {
+  "390": {
+   "overflowPx": 0,
+   "smallTargets": [
+    {
+     "el": "<a href=\"mailto:brand@halcyoncoffee.example\">brand@halcyoncoffee.examp",
+     "w": 207,
+     "h": 20
+    }
+   ]
+  },
+  "768": {
+   "overflowPx": 0
+  },
+  "1440": {
+   "overflowPx": 0
+  }
+ },
+ "gates": {
+  "contrast": {
+   "pass": true,
+   "fails": 0,
+   "note": "text over background-images is listed but must be verified visually"
+  },
+  "noOverflow390": {
+   "pass": true,
+   "overflowPx": 0
+  },
+  "focusVisible": {
+   "pass": true,
+   "stops": 12,
+   "invisible": []
+  },
+  "reducedMotion": {
+   "pass": true,
+   "normal": 0,
+   "reduced": 0,
+   "hasMediaQuery": true
+  },
+  "minTextSize": {
+   "pass": true,
+   "tiny": []
+  },
+  "altAndNames": {
+   "pass": true,
+   "imgsWithoutAlt": 0,
+   "unnamedControls": []
+  }
+ },
+ "warnings": [
+  "1 touch targets < 44px at 390px",
+  "4 font families: Hanken Grotesk, Instrument Serif, JetBrains Mono, Arial",
+  "5 distinct radii: 2, 4, 6, 12, 999 (aim for 2-3 + pill)"
+ ],
+ "textNodes": 405,
+ "contrastFails": [],
+ "tiny": [],
+ "fontFamilies": [
+  "Hanken Grotesk",
+  "Instrument Serif",
+  "JetBrains Mono",
+  "Arial"
+ ],
+ "radii": [
+  2,
+  4,
+  6,
+  12,
+  999
+ ],
+ "accentHueBuckets": 2,
+ "imgsWithoutAlt": 0,
+ "unnamedControls": [],
+ "h1": 1,
+ "headingSkips": 0,
+ "reducedMotionCSS": true,
+ "focusStops": [
+  {
+   "el": "a:Skip to content",
+   "visible": true
+  },
+  {
+   "el": "a:Halcyon",
+   "visible": true
+  },
+  {
+   "el": "a:01Idea",
+   "visible": true
+  },
+  {
+   "el": "a:02Logo",
+   "visible": true
+  },
+  {
+   "el": "a:03Colour",
+   "visible": true
+  },
+  {
+   "el": "a:04Type",
+   "visible": true
+  },
+  {
+   "el": "a:05Photography",
+   "visible": true
+  },
+  {
+   "el": "a:06Voice",
+   "visible": true
+  },
+  {
+   "el": "a:07Applications",
+   "visible": true
+  },
+  {
+   "el": "a:08Use",
+   "visible": true
+  },
+  {
+   "el": "input",
+   "visible": true
+  },
+  {
+   "el": "button:00:01 Turning point",
+   "visible": true
+  }
+ ],
+ "runningAnimations": {
+  "normal": 0,
+  "reduced": 0
+ },
+ "hardFails": []
+}
