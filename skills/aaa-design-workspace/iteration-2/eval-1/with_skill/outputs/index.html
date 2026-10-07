@@ -122,7 +122,7 @@ header.nav{position:sticky;top:0;z-index:50;background:color-mix(in oklab,var(--
 .msg{max-width:84%;padding:9px 13px;border-radius:18px;animation:pop var(--dur-3) var(--ease-out) both}
 .msg.in{align-self:flex-start;background:var(--surface-2);border-bottom-left-radius:6px}
 .msg.out{align-self:flex-end;background:var(--accent);color:#fff;border-bottom-right-radius:6px}
-.msg .t{display:block;font:400 11px var(--font-mono);opacity:.75;margin-bottom:2px}
+.msg .t{display:block;font:400 12px var(--font-mono);opacity:.75;margin-bottom:2px}
 .msg.out .t{opacity:.85}
 .typing{align-self:flex-start;display:flex;gap:4px;padding:12px 14px;background:var(--surface-2);border-radius:18px;border-bottom-left-radius:6px}
 .typing i{width:6px;height:6px;border-radius:50%;background:var(--text-3);animation:blink 1s infinite}
@@ -136,7 +136,7 @@ header.nav{position:sticky;top:0;z-index:50;background:color-mix(in oklab,var(--
 .chip:active{transform:scale(.97)}
 .chip[disabled]{opacity:.45;pointer-events:none}
 
-.slip{position:absolute;left:-8px;bottom:36px;width:260px;background:var(--white);border:1px solid var(--hairline);border-radius:0;padding:16px 18px 18px;box-shadow:var(--shadow-2);transform:rotate(-2.2deg);transition:transform var(--dur-4) var(--ease-out),box-shadow var(--dur-3);--r:9px;
+.slip{position:absolute;left:-36px;bottom:128px;width:270px;background:var(--white);border:1px solid var(--hairline);border-radius:0;padding:16px 18px 18px;box-shadow:var(--shadow-2);transform:rotate(-2.2deg);transition:transform var(--dur-4) var(--ease-out),box-shadow var(--dur-3);--r:9px;
   -webkit-mask:radial-gradient(var(--r) at 0 62%,#0000 98%,#000) left/51% 100% no-repeat,radial-gradient(var(--r) at 100% 62%,#0000 98%,#000) right/51% 100% no-repeat;
   mask:radial-gradient(var(--r) at 0 62%,#0000 98%,#000) left/51% 100% no-repeat,radial-gradient(var(--r) at 100% 62%,#0000 98%,#000) right/51% 100% no-repeat}
 .slip.is-confirmed{transform:rotate(-1deg) translateY(-6px)}
@@ -332,7 +332,7 @@ footer{border-top:1px solid rgb(255 255 255/.1);padding:var(--s-8) 0 var(--s-6)}
   .stage{min-height:0;padding-bottom:150px}
   .phone{width:min(300px,100%)}
   .phone-screen{height:540px}
-  .slip{left:50%;margin-left:-130px;bottom:0}
+  .slip{left:50%;margin-left:-135px;bottom:0}
   .logos{grid-template-columns:repeat(2,1fr)}
   .nav-cta .btn{display:none}
   .slot{grid-template-columns:56px 1fr;}
@@ -415,7 +415,7 @@ footer{border-top:1px solid rgb(255 255 255/.1);padding:var(--s-8) 0 var(--s-6)}
       <div class="slip" id="slip" role="group" aria-label="Appointment in the clinic schedule">
         <div class="row"><span class="mono-label">Schedule · Thu 9 Oct</span><span class="mono-label num">#2417</span></div>
         <div class="who">Maria Delgado</div>
-        <div class="when num">2:30 PM · Dr. Okafor · 20 min</div>
+        <div class="when num">2:30 PM · Dr. Okafor</div>
         <hr>
         <div class="status" id="slipStatus" aria-live="polite">
           <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.5"/><path d="M8 4.5V8l2.2 1.4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>

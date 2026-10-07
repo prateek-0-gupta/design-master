@@ -1,0 +1,126 @@
+{
+ "url": "file:///home/user/design-master/skills/aaa-design-workspace/iteration-2/eval-2/with_skill/outputs/index.html",
+ "widths": {
+  "390": {
+   "overflowPx": 0,
+   "smallTargets": []
+  },
+  "768": {
+   "overflowPx": 0
+  },
+  "1440": {
+   "overflowPx": 0
+  }
+ },
+ "gates": {
+  "contrast": {
+   "pass": true,
+   "fails": 0,
+   "note": "text over background-images is listed but must be verified visually"
+  },
+  "noOverflow390": {
+   "pass": true,
+   "overflowPx": 0
+  },
+  "focusVisible": {
+   "pass": true,
+   "stops": 12,
+   "invisible": []
+  },
+  "reducedMotion": {
+   "pass": true,
+   "normal": 0,
+   "reduced": 0,
+   "hasMediaQuery": true
+  },
+  "minTextSize": {
+   "pass": true,
+   "tiny": []
+  },
+  "altAndNames": {
+   "pass": true,
+   "imgsWithoutAlt": 0,
+   "unnamedControls": []
+  }
+ },
+ "warnings": [
+  "5 distinct radii: 2, 6, 9, 12, 999 (aim for 2-3 + pill)",
+  "3 saturated hue families (aim for 1 accent unless colour-coding categories)"
+ ],
+ "textNodes": 221,
+ "contrastFails": [],
+ "tiny": [],
+ "fontFamilies": [
+  "Inter",
+  "Fraunces",
+  "JetBrains Mono"
+ ],
+ "radii": [
+  2,
+  6,
+  9,
+  12,
+  999
+ ],
+ "accentHueBuckets": 3,
+ "imgsWithoutAlt": 0,
+ "unnamedControls": [],
+ "h1": 1,
+ "headingSkips": 0,
+ "reducedMotionCSS": true,
+ "focusStops": [
+  {
+   "el": "a:Skip to dashboard",
+   "visible": true
+  },
+  {
+   "el": "a:Overview",
+   "visible": true
+  },
+  {
+   "el": "a:Orders4",
+   "visible": true
+  },
+  {
+   "el": "a:Inventory5",
+   "visible": true
+  },
+  {
+   "el": "a:Customers",
+   "visible": true
+  },
+  {
+   "el": "a:Analytics",
+   "visible": true
+  },
+  {
+   "el": "a:Promotions",
+   "visible": true
+  },
+  {
+   "el": "a:Refunds",
+   "visible": true
+  },
+  {
+   "el": "button:Refresh",
+   "visible": true
+  },
+  {
+   "el": "button:Export report",
+   "visible": true
+  },
+  {
+   "el": "button:Revenue",
+   "visible": true
+  },
+  {
+   "el": "button:Orders",
+   "visible": true
+  }
+ ],
+ "runningAnimations": {
+  "normal": 0,
+  "reduced": 0
+ },
+ "hardFails": []
+}

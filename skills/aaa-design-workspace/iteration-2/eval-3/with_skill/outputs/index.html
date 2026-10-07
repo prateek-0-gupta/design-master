@@ -65,7 +65,7 @@ button{font:inherit;color:inherit;cursor:pointer;background:none;border:0;paddin
 .backleaf.a{left:-80px;bottom:-60px;width:420px;transform:rotate(-12deg)}
 .backleaf.b{right:-100px;top:-70px;width:460px;transform:rotate(168deg)}
 .caption{position:absolute;bottom:-4px;left:0;right:0;text-align:center;font-size:var(--fs-sm);color:var(--text-2);display:none}
-.phone{position:relative;z-index:1;width:390px;height:min(844px,calc(100dvh - 48px));min-height:640px;background:var(--canvas);border-radius:var(--radius-3);box-shadow:var(--shadow-phone), var(--highlight);overflow:hidden;display:flex;flex-direction:column;isolation:isolate}
+.phone{position:relative;z-index:1;width:390px;height:min(844px,calc(100dvh - 88px));min-height:640px;background:var(--canvas);border-radius:var(--radius-3);box-shadow:var(--shadow-phone), var(--highlight);overflow:hidden;display:flex;flex-direction:column;isolation:isolate}
 
 /* ---------- header: back, progress, skip ---------- */
 .top{display:grid;grid-template-columns:48px 1fr 56px;align-items:center;gap:var(--s-2);padding:var(--s-4) var(--s-4) var(--s-2) var(--s-3);min-height:72px}
@@ -159,6 +159,7 @@ fieldset{border:0;margin:0;padding:0;min-width:0}
 .seg3 input:checked + span{background:var(--surface-1);color:var(--accent-ink);box-shadow:var(--shadow-1),var(--highlight),0 0 0 1px var(--hairline)}
 .seg3 input:checked + span small{color:var(--text-2)}
 .seg3 input:focus-visible + span{outline:2px solid var(--accent-ink);outline-offset:2px}
+.watch{display:flex;margin:var(--s-5) 0 var(--s-2);padding-left:10px;min-height:0}.watch svg{width:52px;height:52px;padding:6px;overflow:hidden;margin-left:-10px;background:var(--surface-1);border-radius:var(--radius-pill);border:2px solid var(--canvas);box-shadow:var(--shadow-1)}.watch .more{width:52px;height:52px;margin-left:-10px;border-radius:var(--radius-pill);background:var(--accent-soft);color:var(--accent-ink);font-weight:700;font-size:var(--fs-sm);display:grid;place-items:center;border:2px solid var(--canvas)}
 .reassure{margin-top:var(--s-4);display:flex;gap:var(--s-2);font-size:var(--fs-sm);color:var(--text-2);align-items:flex-start}
 .reassure svg{flex:none;width:20px;height:20px;color:var(--accent-ink);margin-top:1px}
 .alert{margin-top:var(--s-4);display:flex;gap:var(--s-3);background:var(--danger-soft);color:var(--text-1);border-radius:var(--radius-1);padding:var(--s-3) var(--s-4);font-size:var(--fs-sm);border:1px solid rgb(180 35 42/.35)}
@@ -167,9 +168,10 @@ fieldset{border:0;margin:0;padding:0;min-width:0}
 .alert[hidden]{display:none}
 
 /* ---------- done ---------- */
-.done-art{position:relative;margin:var(--s-2) 0 var(--s-4);min-height:220px;display:grid;place-items:end center}
+.done-art{position:relative;margin:auto 0 var(--s-5);min-height:200px;display:grid;place-items:end center}
 .shelf{display:flex;align-items:flex-end;justify-content:center;gap:2px;flex-wrap:nowrap;max-width:100%;padding-bottom:10px;position:relative;z-index:1}
-.shelf svg{width:62px;height:62px;flex:none;margin:0 -6px;animation:grow var(--dur-4) var(--ease-spring) both;transform-box:fill-box;transform-origin:50% 100%}
+.shelf svg{width:78px;height:78px;flex:none;margin:0 -6px;animation:grow var(--dur-4) var(--ease-spring) both;transform-box:fill-box;transform-origin:50% 100%}
+.done-art::before{content:"";position:absolute;left:50%;top:50%;width:300px;height:260px;transform:translate(-50%,-56%);border-radius:50%;background:var(--leaf-fill)}
 .plank{position:absolute;left:0;right:0;bottom:6px;height:16px;border-radius:var(--radius-pill);background:#c9a77c;box-shadow:inset 0 2px 0 rgb(255 255 255/.4),0 6px 0 -2px #a98558}
 .shelf-empty{font-size:var(--fs-sm);color:var(--text-2);text-align:center;max-width:26ch;padding-bottom:var(--s-3)}
 .stats{display:grid;grid-template-columns:1fr 1fr;gap:var(--s-3);margin-top:var(--s-2)}
@@ -393,6 +395,7 @@ fieldset{border:0;margin:0;padding:0;min-width:0}
             <label><input type="radio" name="time" value="evening"><span>Evening<small>18:00</small></span></label>
           </div>
         </fieldset>
+        <div class="watch" id="watch" aria-label="Plants we will watch"></div>
         <p class="reassure"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg><span id="freq">About 2 reminders a week. Never at night, never spam.</span></p>
         <div class="alert" id="denied" role="alert" hidden>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7.5v5.5M12 16.5v.01"/></svg>
@@ -495,6 +498,8 @@ document.documentElement.classList.add('js');
   }
   function plantById(id){return PLANTS.filter(function(x){return x.id===id})[0]}
   function renderNotif(){
+    var wt=$('#watch'); wt.innerHTML=''; state.picked.slice(0,5).forEach(function(id){wt.insertAdjacentHTML('beforeend','<svg viewBox="0 0 80 80" aria-hidden="true"><use href="#p-'+id+'"/></svg>')});
+    if(state.picked.length>5) wt.insertAdjacentHTML('beforeend','<span class="more">+'+(state.picked.length-5)+'</span>');
     var first=state.picked.length?plantById(state.picked[0]):null;
     var more=state.picked.length-1;
     $('#ntitle').textContent=first?first.nick+' is thirsty':'Your first plant is thirsty';

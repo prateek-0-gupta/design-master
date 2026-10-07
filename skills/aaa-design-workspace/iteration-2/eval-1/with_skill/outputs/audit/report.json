@@ -1,0 +1,142 @@
+{
+ "url": "file:///home/user/design-master/skills/aaa-design-workspace/iteration-2/eval-1/with_skill/outputs/index.html",
+ "widths": {
+  "390": {
+   "overflowPx": 0,
+   "smallTargets": [
+    {
+     "el": "<a href=\"#top\">About</a>",
+     "w": 39,
+     "h": 44
+    },
+    {
+     "el": "<a href=\"#top\">Terms</a>",
+     "w": 41,
+     "h": 44
+    }
+   ]
+  },
+  "768": {
+   "overflowPx": 0
+  },
+  "1440": {
+   "overflowPx": 0
+  }
+ },
+ "gates": {
+  "contrast": {
+   "pass": true,
+   "fails": 0,
+   "note": "text over background-images is listed but must be verified visually"
+  },
+  "noOverflow390": {
+   "pass": true,
+   "overflowPx": 0
+  },
+  "focusVisible": {
+   "pass": true,
+   "stops": 12,
+   "invisible": []
+  },
+  "reducedMotion": {
+   "pass": true,
+   "normal": 0,
+   "reduced": 0,
+   "hasMediaQuery": true
+  },
+  "minTextSize": {
+   "pass": true,
+   "tiny": []
+  },
+  "altAndNames": {
+   "pass": true,
+   "imgsWithoutAlt": 0,
+   "unnamedControls": []
+  }
+ },
+ "warnings": [
+  "2 touch targets < 44px at 390px",
+  "9 distinct radii: 4, 6, 8, 9, 16, 18, 35, 44, 999 (aim for 2-3 + pill)",
+  "3 saturated hue families (aim for 1 accent unless colour-coding categories)"
+ ],
+ "textNodes": 200,
+ "contrastFails": [],
+ "tiny": [],
+ "fontFamilies": [
+  "Inter",
+  "Fraunces",
+  "JetBrains Mono"
+ ],
+ "radii": [
+  4,
+  6,
+  8,
+  9,
+  16,
+  18,
+  35,
+  44,
+  999
+ ],
+ "accentHueBuckets": 3,
+ "imgsWithoutAlt": 0,
+ "unnamedControls": [],
+ "h1": 1,
+ "headingSkips": 0,
+ "reducedMotionCSS": true,
+ "focusStops": [
+  {
+   "el": "a:Skip to content",
+   "visible": true
+  },
+  {
+   "el": "a:Cadence",
+   "visible": true
+  },
+  {
+   "el": "a:Product",
+   "visible": true
+  },
+  {
+   "el": "a:Customers",
+   "visible": true
+  },
+  {
+   "el": "a:Pricing",
+   "visible": true
+  },
+  {
+   "el": "a:FAQ",
+   "visible": true
+  },
+  {
+   "el": "a:Sign in",
+   "visible": true
+  },
+  {
+   "el": "a:Start free trial",
+   "visible": true
+  },
+  {
+   "el": "a:Start 14-day free tr",
+   "visible": true
+  },
+  {
+   "el": "a:See how it works",
+   "visible": true
+  },
+  {
+   "el": "button:C Confirm",
+   "visible": true
+  },
+  {
+   "el": "button:R Reschedule",
+   "visible": true
+  }
+ ],
+ "runningAnimations": {
+  "normal": 0,
+  "reduced": 0
+ },
+ "hardFails": []
+}
