@@ -2,8 +2,6 @@
 
 Four complete `:root` systems. All text pairs were checked with `scripts/contrast.py`, and the ratios are noted in comments. Copy the closest preset, rename the accent to fit the brand, then re-run the contrast check on any colour you change.
 
-Every preset has a `--font-display`. Use it for the hero, section titles and big numbers; never ship a page in the text face alone.
-
 Shared rules in every preset:
 - text-1 ≥ 12:1, text-2 ≥ 7:1 and text-3 ≥ 4.5:1 on canvas and surface-1;
 - control borders ≥ 3:1;
@@ -43,7 +41,6 @@ Shared rules in every preset:
   --shadow-2:0 1px 2px rgb(17 17 19/.04), 0 8px 24px -6px rgb(17 17 19/.10);
   --highlight:inset 0 1px 0 rgb(255 255 255/.7);
   /* type */
-  --font-display:"Bricolage Grotesque","Schibsted Grotesk","Inter Tight",sans-serif;   /* or an editorial serif — see typography.md */
   --font-sans:"Inter","InterVariable",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
   --font-mono:"JetBrains Mono","Geist Mono",ui-monospace,"SF Mono",Menlo,monospace;
   --radius-1:8px; --radius-2:14px; --radius-pill:9999px;
@@ -68,7 +65,6 @@ Signature-friendly layers: hairline/technical details, a physical metaphor (rece
   --shadow-1:none; --shadow-2:0 0 0 1px var(--hairline), 0 12px 32px -8px rgb(0 0 0/.6);
   --highlight:inset 0 1px 0 rgb(255 255 255/.06);
   --glow:0 0 0 1px rgb(180 165 255/.25), 0 20px 60px -10px rgb(180 165 255/.35);
-  --font-display:"Instrument Serif","Space Grotesk",serif;  /* serif display on dark reads premium; or mono-as-voice */
   --font-sans:"Inter","Geist",ui-sans-serif,system-ui,sans-serif;
   --font-mono:"Geist Mono","JetBrains Mono",ui-monospace,monospace;
   --radius-1:10px; --radius-2:16px; --radius-pill:9999px;
@@ -120,7 +116,6 @@ Rules for this preset:
   --shadow-1:0 1px 0 rgb(26 21 48/.06);
   --shadow-2:0 2px 0 rgb(26 21 48/.08), 0 16px 32px -10px rgb(91 46 224/.25);   /* hue-tinted */
   --highlight:inset 0 1px 0 rgb(255 255 255/.8);
-  --font-display:"Fraunces","Baloo 2",serif;   /* Fraunces with font-variation-settings:"SOFT" 100,"WONK" 1 is warm and playful */
   --font-sans:"Plus Jakarta Sans","Figtree","Nunito Sans",ui-rounded,system-ui,sans-serif;
   --font-mono:"JetBrains Mono",ui-monospace,monospace;
   --radius-1:12px; --radius-2:24px; --radius-3:32px; --radius-pill:9999px;

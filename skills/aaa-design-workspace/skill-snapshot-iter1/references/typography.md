@@ -9,21 +9,6 @@
 - **Number of sizes:** sites used **9** distinct sizes (up to 21). The best systems use 6–8 named steps.
 - **Typefaces:** 80% of showcase work uses a neo-grotesk, with Inter the most common. The differentiator is the **second voice**: mono for metadata and numbers, or a serif for display.
 
-## Display voices (pick one for every design; all are free on Google Fonts)
-
-| Voice | Faces | Feels | Good for |
-|---|---|---|---|
-| Editorial serif | Instrument Serif, Fraunces (opsz, SOFT axis), Newsreader, Gloock, Young Serif, DM Serif Display | considered, human, premium | portfolios, brands, health and food, editorial landing pages, fintech for people |
-| Grotesk with personality | Bricolage Grotesque, Familjen Grotesk, Schibsted Grotesk, Space Grotesk, Instrument Sans (tight), Hanken Grotesk 600 | confident, contemporary, a little quirky | SaaS landing pages, dev tools, dashboards' headings and KPI numbers |
-| Wide or expressive | Unbounded, Syne, Archivo (wdth 125), Big Shoulders Display | loud, poster-like | events, culture, campaign heroes |
-| Rounded / friendly | Nunito 800, Baloo 2, Fredoka, Fraunces SOFT 100 | warm, playful | consumer, kids, onboarding |
-| Mono as voice | JetBrains Mono, Space Mono, IBM Plex Mono, Geist Mono | technical, honest | AI, infra, data products (numbers, labels, sometimes headings) |
-
-Rules:
-- The display voice appears in the hero headline, section titles and big numbers. Body and UI stay in a quiet text face (Inter, Instrument Sans, Hanken, DM Sans).
-- Use one italic or one weight contrast as the expressive move. Fraunces and Instrument Serif italics are signature-worthy.
-- Inter used for everything is the most common reason a page reads as a template. In blind evaluations it lost on typography to builds with a serif or characterful grotesk display.
-
 ## Pairings (pick one row)
 
 | Direction | Display | Text/UI | Data/meta | Notes |

@@ -77,17 +77,6 @@ Pick **exactly one structural base** and **at most one expressive layer**. The t
 | Brand / identity page | editorial-warm or swiss-poster | the brand's own device used as texture | template look |
 | Mobile flow | neutral-swiss or playful-soft | one illustration or material per screen | hover-only affordances |
 
-**Restraint is not blandness.** In blind tests, builds that were correct but used Inter for everything with no bespoke art lost on direction and typography to riskier designs. Every design needs both of these:
-
-1. **A characterful display voice.** Pick it from the display list in `references/typography.md`: an editorial serif (Instrument Serif, Fraunces, Newsreader, Gloock), a grotesk with personality (Bricolage Grotesque, Familjen Grotesk, Schibsted Grotesk, Space Grotesk, Unbounded), or a rounded face for playful briefs. Pair it with a quiet text face. Inter or system-ui alone is acceptable only for dense app chrome, and even then give headings or numbers a second voice (a mono or a display cut).
-2. **At least one piece of bespoke art in the first viewport.** This can be:
-   - an inline-SVG illustration or mascot;
-   - a product mock built in HTML and CSS with real-looking data;
-   - a typographic composition (oversized, cropped or overlapping type);
-   - the signature object (receipt, ticket, orb).
-
-   Stock-looking icon grids don't count. The art should *be* or *stage* the signature moment, and it must be visible in the hero, not below the fold.
-
 Write one sentence stating the direction. For example: *"Neutral-swiss base, dark hero band, one physical layer: the invoice prints out of the CTA when you click it."*
 
 `references/style-recipes.md` gives the exact parameters and CSS for each base and layer.
@@ -174,11 +163,6 @@ The non-negotiable UX coverage:
   - progress shown in two synchronised ways for long tasks.
 - **Empty, error and loading** get designed layouts, not afterthoughts. An empty state names what will appear, gives one action, and uses the page's signature device. Errors say what happened and what to do. A skeleton shares the result's geometry, so nothing shifts.
 - **Reduced motion:** `@media (prefers-reduced-motion: reduce)` removes transforms, parallax and auto-play, and keeps short opacity fades of ≤ 150ms.
-- **Scroll reveals are progressive enhancement.** Content must be fully visible with JS off, for crawlers and print, and in full-page screenshots.
-  - Hide elements only behind a class that JS adds to `<html>`, e.g. `.js .reveal{opacity:0}`.
-  - Reveal once, never re-hide.
-  - Keep the reveal ≤ 400ms, with a ≤ 12px translate.
-  - Under reduced motion, show everything immediately.
 - **Motion choreography** (measured median 0.33s across 1,368 reference transitions):
   - use ease-out for entries and ease-in only for exits and things falling;
   - open 1.5–3× slower than you close;
@@ -205,14 +189,6 @@ Run this loop at most 3 times:
 
    For React or Tailwind projects, build or serve the page first and pass its URL.
 2. **Look at the screenshots yourself.** Open `shot-1440.png` and `shot-390.png` with your image viewer. Check them against the brief: is the signature moment visible? Is there one focal point? Does anything look generic?
-
-   **Template test:** if this could pass as a stock UI-kit template with the logo swapped, it fails Direction. Push one of these and re-render:
-   - a more characterful display face;
-   - bespoke art in the hero;
-   - one bold composition move (oversized or cropped type, an asymmetric 7/5 split, overlap between art and type, a full-bleed colour band);
-   - a stronger signature interaction.
-
-   **Blank-section test:** if any section looks empty or faded in the full-page shot, your reveal animation is hiding content. Fix it (see step 5).
 3. **Score** with `rubric.md`: 8 axes scored 1–10 plus the hard gates. Write the scores and the three biggest problems.
 4. **Fix the three biggest problems first.** Usually that means hierarchy, spacing rhythm, contrast or a missing state, not new decoration. Then re-run.
 
