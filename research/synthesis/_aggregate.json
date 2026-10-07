@@ -1,0 +1,659 @@
+{
+ "n": 1,
+ "by_group": {
+  "ALL": {
+   "n": 1,
+   "failed": [],
+   "styles": [
+    [
+     "dark-premium",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "glassmorphism",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "physical-material",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ]
+   ],
+   "patterns": [
+    [
+     "hero-orb-status",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "pill-list-rows",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "selected-row-lift",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "mono-numerals",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "segmented-filter-chips",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "device-mockup-on-gradient-backdrop",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ]
+   ],
+   "craft_signals": [
+    [
+     "hairline-rim-on-orb",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "horizon-gradient-echoes-backdrop",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "mono-for-money",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "row-selection-by-surface-lift",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "giant-radius-rows",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "scene-backdrop-matches-ui-palette",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ]
+   ],
+   "anti_patterns": [
+    [
+     "low-contrast-secondary-text",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "cropped-content-in-hero-slide",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ]
+   ],
+   "type_class": [
+    [
+     "neo-grotesk",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "mono",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ]
+   ],
+   "mode": [
+    [
+     "dark",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ]
+   ],
+   "scores": {
+    "aesthetics": {
+     "mean": 9.0,
+     "median": 9.0,
+     "n": 1
+    },
+    "originality": {
+     "mean": 8.0,
+     "median": 8.0,
+     "n": 1
+    },
+    "usability": {
+     "mean": 6.0,
+     "median": 6.0,
+     "n": 1
+    },
+    "craft": {
+     "mean": 8.0,
+     "median": 8.0,
+     "n": 1
+    }
+   },
+   "radius_px": [
+    [
+     "9999",
+     1
+    ],
+    [
+     "48",
+     1
+    ],
+    [
+     "24",
+     1
+    ],
+    [
+     "22",
+     1
+    ]
+   ],
+   "top10": [
+    [
+     "insp-glass-circle-with-a-gradient",
+     {
+      "aesthetics": 9,
+      "originality": 8,
+      "usability": 6,
+      "craft": 8
+     }
+    ]
+   ],
+   "bottom10": [
+    [
+     "insp-glass-circle-with-a-gradient",
+     {
+      "aesthetics": 9,
+      "originality": 8,
+      "usability": 6,
+      "craft": 8
+     }
+    ]
+   ]
+  },
+  "inspora:ALL": {
+   "n": 1,
+   "failed": [],
+   "styles": [
+    [
+     "dark-premium",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "glassmorphism",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "physical-material",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ]
+   ],
+   "patterns": [
+    [
+     "hero-orb-status",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "pill-list-rows",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "selected-row-lift",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "mono-numerals",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "segmented-filter-chips",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "device-mockup-on-gradient-backdrop",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ]
+   ],
+   "craft_signals": [
+    [
+     "hairline-rim-on-orb",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "horizon-gradient-echoes-backdrop",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "mono-for-money",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "row-selection-by-surface-lift",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "giant-radius-rows",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "scene-backdrop-matches-ui-palette",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ]
+   ],
+   "anti_patterns": [
+    [
+     "low-contrast-secondary-text",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "cropped-content-in-hero-slide",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ]
+   ],
+   "type_class": [
+    [
+     "neo-grotesk",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "mono",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ]
+   ],
+   "mode": [
+    [
+     "dark",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ]
+   ],
+   "scores": {
+    "aesthetics": {
+     "mean": 9.0,
+     "median": 9.0,
+     "n": 1
+    },
+    "originality": {
+     "mean": 8.0,
+     "median": 8.0,
+     "n": 1
+    },
+    "usability": {
+     "mean": 6.0,
+     "median": 6.0,
+     "n": 1
+    },
+    "craft": {
+     "mean": 8.0,
+     "median": 8.0,
+     "n": 1
+    }
+   },
+   "radius_px": [
+    [
+     "9999",
+     1
+    ],
+    [
+     "48",
+     1
+    ],
+    [
+     "24",
+     1
+    ],
+    [
+     "22",
+     1
+    ]
+   ],
+   "top10": [
+    [
+     "insp-glass-circle-with-a-gradient",
+     {
+      "aesthetics": 9,
+      "originality": 8,
+      "usability": 6,
+      "craft": 8
+     }
+    ]
+   ],
+   "bottom10": [
+    [
+     "insp-glass-circle-with-a-gradient",
+     {
+      "aesthetics": 9,
+      "originality": 8,
+      "usability": 6,
+      "craft": 8
+     }
+    ]
+   ]
+  },
+  "inspora:Product": {
+   "n": 1,
+   "failed": [],
+   "styles": [
+    [
+     "dark-premium",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "glassmorphism",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "physical-material",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ]
+   ],
+   "patterns": [
+    [
+     "hero-orb-status",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "pill-list-rows",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "selected-row-lift",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "mono-numerals",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "segmented-filter-chips",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "device-mockup-on-gradient-backdrop",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ]
+   ],
+   "craft_signals": [
+    [
+     "hairline-rim-on-orb",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "horizon-gradient-echoes-backdrop",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "mono-for-money",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "row-selection-by-surface-lift",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "giant-radius-rows",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "scene-backdrop-matches-ui-palette",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ]
+   ],
+   "anti_patterns": [
+    [
+     "low-contrast-secondary-text",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "cropped-content-in-hero-slide",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ]
+   ],
+   "type_class": [
+    [
+     "neo-grotesk",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ],
+    [
+     "mono",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ]
+   ],
+   "mode": [
+    [
+     "dark",
+     1,
+     [
+      "insp-glass-circle-with-a-gradient"
+     ]
+    ]
+   ],
+   "scores": {
+    "aesthetics": {
+     "mean": 9.0,
+     "median": 9.0,
+     "n": 1
+    },
+    "originality": {
+     "mean": 8.0,
+     "median": 8.0,
+     "n": 1
+    },
+    "usability": {
+     "mean": 6.0,
+     "median": 6.0,
+     "n": 1
+    },
+    "craft": {
+     "mean": 8.0,
+     "median": 8.0,
+     "n": 1
+    }
+   },
+   "radius_px": [
+    [
+     "9999",
+     1
+    ],
+    [
+     "48",
+     1
+    ],
+    [
+     "24",
+     1
+    ],
+    [
+     "22",
+     1
+    ]
+   ],
+   "top10": [
+    [
+     "insp-glass-circle-with-a-gradient",
+     {
+      "aesthetics": 9,
+      "originality": 8,
+      "usability": 6,
+      "craft": 8
+     }
+    ]
+   ],
+   "bottom10": [
+    [
+     "insp-glass-circle-with-a-gradient",
+     {
+      "aesthetics": 9,
+      "originality": 8,
+      "usability": 6,
+      "craft": 8
+     }
+    ]
+   ]
+  }
+ }
+}
