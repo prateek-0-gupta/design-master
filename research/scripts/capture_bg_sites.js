@@ -8,6 +8,8 @@ const RAW = path.join(__dirname, '../raw/brandguidelines');
 const inv = JSON.parse(fs.readFileSync(path.join(__dirname, '../inventory.json')))
   .filter(r => r.source === 'brandguidelines' && r.asset_type !== 'pdf');
 const only = process.argv.slice(2);
+// OVERRIDES='{"bg-x":"https://web.archive.org/web/2025if_/https://…"}' captures an archived snapshot instead of the live URL
+const OVR = JSON.parse(process.env.OVERRIDES || '{}');
 const MAX_H = 26000;
 const KEY = /logo|colou?r|typo|type|font|image|photo|icon|motion|anim|voice|tone|illustr|layout|grid|component|brand|identity|visual|guideline|principle|foundation|spacing|elevation|graphic|pattern|accessib/i;
 
@@ -79,7 +81,8 @@ async function visit(page, url, waitMs = 3500) {
     page.on('response', async res => { if ((res.headers()['content-type'] || '').includes('text/css')) { try { css.push(`/* ${res.url()} */\n` + await res.text()); } catch {} } });
     try {
       const wait = r.asset_type === 'figma-prototype' ? 15000 : 3500;
-      await visit(page, r.url, wait);
+      const target = OVR[r.id] || r.url;
+      await visit(page, target, wait);
       const h = await shoot(page, path.join(d, 'shots', 'd00_home.png'));
       const c = await page.evaluate(census); c.fullHeight = h;
       fs.writeFileSync(path.join(d, 'census_home.json'), JSON.stringify(c, null, 1));
@@ -102,10 +105,10 @@ async function visit(page, url, waitMs = 3500) {
       }
       // mobile home
       const mp = await mob.newPage();
-      try { await visit(mp, r.url, wait); await shoot(mp, path.join(d, 'shots', 'm00_home.png')); } catch (e) { subLog.push({ mobile: false, err: e.message.slice(0, 120) }); }
+      try { await visit(mp, target, wait); await shoot(mp, path.join(d, 'shots', 'm00_home.png')); } catch (e) { subLog.push({ mobile: false, err: e.message.slice(0, 120) }); }
       await mp.close();
       fs.writeFileSync(path.join(d, 'all.css'), css.join('\n\n'));
-      fs.writeFileSync(path.join(d, 'site_meta.json'), JSON.stringify({ requested: r.url, final: page.url(), title: c.title, subpages: subLog, cssFiles: css.length }, null, 1));
+      fs.writeFileSync(path.join(d, 'site_meta.json'), JSON.stringify({ requested: r.url, captured_from: target, archived: !!OVR[r.id], final: page.url(), title: c.title, subpages: subLog, cssFiles: css.length }, null, 1));
       fs.writeFileSync(path.join(d, '_site_done'), 'ok');
       console.log('ok', r.id, 'subs', subs.length, 'h', h);
     } catch (e) { fails[r.id] = e.message.slice(0, 300); console.log('FAIL', r.id, e.message.slice(0, 150)); }

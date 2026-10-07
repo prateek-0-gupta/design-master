@@ -12,11 +12,11 @@ const { launch, sleep } = require('./lib'); const fs = require('fs'); const path
   for (let step = 0; step < total * 4 && seen.size < total; step++) {
     const pages = await p.$$('div[class*="_page_"]');
     for (const el of pages) {
-      const info = await el.evaluate(e => { const r = e.getBoundingClientRect(); const img = e.querySelector('img'); return { top: r.top, bottom: r.bottom, h: r.height, off: e.offsetTop, ok: !!(img && img.complete && img.naturalWidth > 0) }; });
+      const info = await el.evaluate(e => { const r = e.getBoundingClientRect(); const img = e.querySelector('img'); let sc = e.parentElement; while (sc && !(sc.scrollHeight > sc.clientHeight + 100 && /(auto|scroll)/.test(getComputedStyle(sc).overflowY))) sc = sc.parentElement; return { top: r.top, bottom: r.bottom, h: r.height, off: Math.round(r.top + (sc ? sc.scrollTop : scrollY)), src: img ? img.src : '', ok: !!(img && img.complete && img.naturalWidth > 0) }; });
       if (!info.ok) continue;
       const idx = Math.round(info.off / (info.h + 16)) + 1;   // approximate; corrected below by unique sort
-      const key = info.off; if (seen.has(key)) continue; seen.add(key);
-      await el.screenshot({ path: path.join(out, `_off${String(key).padStart(7, '0')}.jpg`), type: 'jpeg', quality: 88 });
+      const key = info.src; if (seen.has(key)) continue; seen.add(key);
+      await el.screenshot({ path: path.join(out, `_off${String(info.off + 1000000).padStart(8, '0')}.jpg`), type: 'jpeg', quality: 88 });
     }
     const moved = await p.evaluate(() => { let best = null; for (const el of document.querySelectorAll('*')) { const s = getComputedStyle(el); if (/(auto|scroll)/.test(s.overflowY) && el.scrollHeight > el.clientHeight + 100 && (!best || el.scrollHeight > best.scrollHeight)) best = el; }
       if (!best) return -1; const before = best.scrollTop; best.scrollTop += Math.round(best.clientHeight * 0.45); return best.scrollTop - before; });
