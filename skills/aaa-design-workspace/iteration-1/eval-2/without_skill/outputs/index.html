@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bramble & Co — Operations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f3ee;--surface:#fffdf9;--line:#e8e2d8;--ink:#23201b;--mute:#7a7367;--accent:#3f5d4a;--accent-soft:#e3ebe4;--up:#2f7a4f;--down:#b4432f;--warn:#b7791f;--side:#232a25;--side-ink:#d9dcd5;--shadow:0 1px 2px rgba(35,32,27,.04),0 8px 24px -12px rgba(35,32,27,.12)}
+@media(prefers-color-scheme:dark){:root{--bg:#151714;--surface:#1d201c;--line:#2d322c;--ink:#ece8df;--mute:#9a9588;--accent:#8fb59b;--accent-soft:#26332a;--up:#6fc08e;--down:#e07a64;--warn:#e0a94d;--side:#101210;--side-ink:#c5c8bf;--shadow:none}}
+*{box-sizing:border-box;margin:0}
+body{font:14px/1.5 Inter,system-ui,sans-serif;background:var(--bg);color:var(--ink);display:grid;grid-template-columns:232px 1fr;min-height:100vh}
+h1,h2,.serif{font-family:Fraunces,Georgia,serif;font-weight:600;letter-spacing:-.01em}
+aside{background:var(--side);color:var(--side-ink);padding:24px 14px;position:sticky;top:0;height:100vh;display:flex;flex-direction:column;gap:28px}
+.brand{display:flex;align-items:center;gap:10px;padding:0 10px;font-family:Fraunces,serif;font-size:19px;color:#fff}
+.brand svg{flex:none}
+nav{display:flex;flex-direction:column;gap:2px}
+nav a{display:flex;align-items:center;gap:12px;padding:9px 10px;border-radius:8px;color:inherit;text-decoration:none;transition:.15s}
+nav a:hover{background:rgba(255,255,255,.06)}
+nav a[aria-current]{background:rgba(255,255,255,.12);color:#fff}
+nav a .n{margin-left:auto;font-size:11px;background:var(--warn);color:#1a1a1a;border-radius:99px;padding:0 7px;font-weight:600}
+nav svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.me{margin-top:auto;display:flex;gap:10px;align-items:center;padding:10px;border-top:1px solid rgba(255,255,255,.08)}
+.av{width:32px;height:32px;border-radius:50%;background:#c9a96e;color:#2a2418;display:grid;place-items:center;font-weight:600;font-size:12px}
+.me small{display:block;opacity:.6;font-size:12px}
+main{padding:28px 36px 48px;max-width:1280px;width:100%}
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:24px}
+header h1{font-size:30px;line-height:1.1}
+header p{color:var(--mute);margin-top:4px}
+.seg{display:inline-flex;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:3px}
+.seg button{border:0;background:none;color:var(--mute);font:inherit;padding:5px 12px;border-radius:7px;cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--accent);color:#fff}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:16px}
+.kpi{padding:18px 18px 14px}
+.kpi .l{color:var(--mute);font-size:12.5px;text-transform:uppercase;letter-spacing:.06em}
+.kpi .v{font-family:Fraunces,serif;font-size:32px;font-weight:500;margin:6px 0 4px;font-variant-numeric:tabular-nums}
+.kpi .d{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:var(--mute)}
+.pill{font-weight:600;padding:2px 8px;border-radius:99px;font-size:12px}
+.pill.good{color:var(--up);background:color-mix(in srgb,var(--up) 13%,transparent)}
+.pill.bad{color:var(--down);background:color-mix(in srgb,var(--down) 13%,transparent)}
+.spark{width:84px;height:28px}
+.grid{display:grid;grid-template-columns:2fr 1fr;gap:16px;margin-bottom:16px}
+.pad{padding:20px}
+.ch{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px;gap:12px}
+.ch h2{font-size:18px}.ch p{color:var(--mute);font-size:13px}
+#chart{position:relative}
+#chart svg{width:100%;height:auto;display:block}
+.tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--bg);padding:6px 10px;border-radius:8px;font-size:12px;white-space:nowrap;transform:translate(-50%,-110%);opacity:0;transition:opacity .1s}
+.tip b{display:block;font-size:14px}
+.stock{list-style:none;padding:0;display:flex;flex-direction:column;gap:14px}
+.stock li{display:grid;grid-template-columns:40px 1fr auto;gap:12px;align-items:center}
+.sw{width:40px;height:40px;border-radius:10px}
+.stock .nm{font-weight:500}
+.bar{height:5px;background:var(--line);border-radius:9px;margin-top:6px;overflow:hidden}
+.bar i{display:block;height:100%;border-radius:9px}
+.stock small{color:var(--mute)}
+.btn{border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;font-size:12.5px;padding:5px 11px;border-radius:8px;cursor:pointer}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.btn.done{background:var(--accent-soft);color:var(--accent);border-color:transparent;cursor:default}
+.tools{display:flex;gap:10px;flex-wrap:wrap}
+input[type=search]{font:inherit;background:var(--bg);border:1px solid var(--line);color:var(--ink);border-radius:9px;padding:6px 12px;min-width:200px}
+.tw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:640px}
+th{text-align:left;font-weight:500;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--mute);padding:8px 12px;border-bottom:1px solid var(--line)}
+td{padding:12px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+tr:last-child td{border:0}
+tbody tr:hover{background:var(--bg)}
+.r{text-align:right}
+.cust{display:flex;align-items:center;gap:10px}
+.cust .av{width:28px;height:28px;font-size:11px;background:var(--accent-soft);color:var(--accent)}
+.st{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:500}
+.st::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.st.paid{color:var(--up)}.st.pending{color:var(--warn)}.st.shipped{color:var(--accent)}.st.refunded{color:var(--down)}
+.empty{padding:28px;text-align:center;color:var(--mute)}
+@media(max-width:1100px){.kpis{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}}
+@media(max-width:760px){body{grid-template-columns:1fr}
+aside{position:static;height:auto;flex-direction:row;align-items:center;padding:10px 12px;gap:8px;overflow-x:auto}
+.brand span,.me,nav a span{display:none}nav{flex-direction:row}nav a .n{margin:0;position:absolute;transform:translate(10px,-10px);font-size:10px}nav a{position:relative}
+main{padding:20px 16px 40px}.kpis{grid-template-columns:1fr 1fr;gap:10px}.kpi .v{font-size:24px}.spark{display:none}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<aside>
+  <div class="brand"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" stroke="#c9d8cc" stroke-width="1.6" stroke-linecap="round"><path d="M13 23V11M13 15c-4 0-6-3-6-7 4 0 6 3 6 7ZM13 12c0-4 2-7 6-7 0 4-2 7-6 7Z"/></svg><span>Bramble &amp; Co</span></div>
+  <nav aria-label="Main">
+    <a href="#" aria-current="page"><svg viewBox="0 0 24 24"><path d="M3 12l9-8 9 8M5 10v10h14V10"/></svg><span>Overview</span></a>
+    <a href="#orders"><svg viewBox="0 0 24 24"><path d="M6 7h12l-1 13H7zM9 7a3 3 0 016 0"/></svg><span>Orders</span><b class="n">6</b></a>
+    <a href="#stock"><svg viewBox="0 0 24 24"><path d="M3 8l9-5 9 5v8l-9 5-9-5zM3 8l9 5 9-5M12 13v8"/></svg><span>Inventory</span></a>
+    <a href="#"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.5-4 3-6 6.500-6s6 2 6.500 6M17 11a3 3 0 100-6M21.500 19c-.3-2.500-1.500-4-3.500-4.700"/></svg><span>Customers</span></a>
+    <a href="#"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg><span>Analytics</span></a>
+    <a href="#"><svg viewBox="0 0 24 24"><path d="M20 12l-8 8-9-9V3h8zM7.500 7.500h.01"/></svg><span>Promotions</span></a>
+    <a href="#"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg><span>Settings</span></a>
+  </nav>
+  <div class="me"><div class="av">MH</div><div><div>Mara Holt</div><small>Store owner</small></div></div>
+</aside>
+<main>
+  <header>
+    <div><h1>Good morning, Mara</h1><p id="sub">Wednesday 7 October · here's how Bramble &amp; Co is trading</p></div>
+    <div class="seg" role="group" aria-label="Period"><button data-p="7" aria-pressed="false">7 days</button><button data-p="30" aria-pressed="true">30 days</button></div>
+  </header>
+  <section class="kpis" id="kpis" aria-label="Key metrics"></section>
+  <section class="grid">
+    <div class="card pad">
+      <div class="ch"><div><h2>Revenue</h2><p id="chsub"></p></div><div class="seg" role="group" aria-label="Compare"><button id="cmp" aria-pressed="true">vs prior period</button></div></div>
+      <div id="chart"><div class="tip" id="tip"></div></div>
+    </div>
+    <div class="card pad" id="stock">
+      <div class="ch"><div><h2>Low stock</h2><p>Below reorder point</p></div></div>
+      <ul class="stock" id="stockList"></ul>
+    </div>
+  </section>
+  <section class="card pad" id="orders">
+    <div class="ch"><div><h2>Recent orders</h2><p id="ocount"></p></div>
+      <div class="tools"><div class="seg" id="filters" role="group" aria-label="Status filter"></div><input type="search" id="q" placeholder="Search customer or order" aria-label="Search orders"></div></div>
+    <div class="tw"><table><thead><tr><th>Order</th><th>Customer</th><th>Items</th><th>Placed</th><th>Status</th><th class="r">Total</th></tr></thead><tbody id="rows"></tbody></table></div>
+  </section>
+</main>
+<script>
+const $=s=>document.querySelector(s);
+const gbp=n=>'£'+Math.round(n).toLocaleString('en-GB');
+// deterministic data
+let seed=7;const rnd=()=>(seed=(seed*16807)%2147483647)/2147483647;
+const rev=[];for(let i=0;i<60;i++){const dow=(i+2)%7;const base=1900+i*14+(dow>=5?420:0)+(i%11===0?650:0);rev.push(Math.round(base+rnd()*520-200))}
+const prior=rev.slice(0,30),cur=rev.slice(30);
+const D=new Date(2026,9,7);
+const dateOf=i=>{const d=new Date(D);d.setDate(d.getDate()-(29-i));return d};
+const fmtD=d=>d.toLocaleDateString('en-GB',{day:'numeric',month:'short'});
+const sum=a=>a.reduce((x,y)=>x+y,0);
+let period=30,compare=true;
+function metrics(p){
+  const c=cur.slice(-p),pr=p===30?prior:rev.slice(30-p,30).length?rev.slice(60-2*p,60-p):prior;
+  const R=sum(c),Rp=sum(pr),aov=64.2,o=Math.round(R/aov),op=Math.round(Rp/(aov*.97));
+  const cv=3.1+(p===7?.2:0),cvp=cv-.4,ref=R*.027,refp=Rp*.0305;
+  return[
+   {l:'Revenue',v:gbp(R),d:(R/Rp-1)*100,good:1,s:c},
+   {l:'Orders',v:o.toLocaleString('en-GB'),d:(o/op-1)*100,good:1,s:c.map(x=>x*(.9+Math.sin(x)*.05))},
+   {l:'Conversion rate',v:cv.toFixed(2)+'%',d:(cv-cvp)/cvp*100,good:1,s:c.map((x,i)=>x+Math.sin(i)*300)},
+   {l:'Refunds',v:gbp(ref),d:(ref/refp-1)*100,good:0,s:c.map((x,i)=>1+((i*7)%5)+Math.sin(i*2))}
+  ]}
+function spark(a,good){const w=84,h=28,mn=Math.min(...a),mx=Math.max(...a);
+  const pts=a.map((v,i)=>[i/(a.length-1)*w,h-2-(v-mn)/(mx-mn||1)*(h-4)].map(n=>n.toFixed(1)).join(',')).join(' ');
+  return`<svg class="spark" viewBox="0 0 ${w} ${h}" aria-hidden="true"><polyline points="${pts}" fill="none" stroke="var(--${good?'up':'down'})" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>`}
+function renderKpis(){
+  $('#kpis').innerHTML=metrics(period).map(m=>{
+    const up=m.d>=0,good=m.good?up:!up;
+    return`<article class="card kpi"><div class="l">${m.l}</div><div class="v">${m.v}</div><div class="d"><span><span class="pill ${good?'good':'bad'}">${up?'▲':'▼'} ${Math.abs(m.d).toFixed(1)}%</span> vs last period</span>${spark(m.s,good)}</div></article>`}).join('')}
+function renderChart(){
+  const p=period,c=cur.slice(-p),pr=p===30?prior:rev.slice(60-2*p,60-p);
+  const W=760,H=300,L=48,B=28,T=10,Rr=10,iw=W-L-Rr,ih=H-T-B;
+  const mx=Math.ceil(Math.max(...c,...pr)/1000)*1000;
+  const x=i=>L+i/(p-1)*iw,y=v=>T+ih-v/mx*ih;
+  const line=a=>a.map((v,i)=>(i?'L':'M')+x(i).toFixed(1)+' '+y(v).toFixed(1)).join('');
+  let g='';for(let t=0;t<=mx;t+=mx/4)g+=`<line x1="${L}" x2="${W-Rr}" y1="${y(t)}" y2="${y(t)}" stroke="var(--line)"/><text x="${L-8}" y="${y(t)+4}" text-anchor="end" font-size="11" fill="var(--mute)">£${t/1000}k</text>`;
+  const step=p===30?6:1;let xl='';for(let i=0;i<p;i+=step)xl+=`<text x="${x(i)}" y="${H-8}" text-anchor="middle" font-size="11" fill="var(--mute)">${fmtD(dateOf(30-p+i))}</text>`;
+  $('#chart').querySelector('svg')?.remove();
+  $('#chart').insertAdjacentHTML('afterbegin',`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Daily revenue over the last ${p} days">
+  <defs><linearGradient id="gr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--accent)" stop-opacity=".28"/><stop offset="1" stop-color="var(--accent)" stop-opacity="0"/></linearGradient></defs>
+  ${g}${xl}
+  ${compare?`<path d="${line(pr)}" fill="none" stroke="var(--mute)" stroke-width="1.5" stroke-dasharray="4 4" opacity=".7"/>`:''}
+  <path d="${line(c)} L${x(p-1)} ${y(0)} L${x(0)} ${y(0)}Z" fill="url(#gr)"/>
+  <path d="${line(c)}" fill="none" stroke="var(--accent)" stroke-width="2.4" stroke-linejoin="round"/>
+  <line id="hl" y1="${T}" y2="${T+ih}" stroke="var(--mute)" stroke-dasharray="3 3" opacity="0"/><circle id="dot" r="5" fill="var(--surface)" stroke="var(--accent)" stroke-width="2.4" opacity="0"/>
+  <rect id="hit" x="${L}" y="${T}" width="${iw}" height="${ih}" fill="transparent"/></svg>`);
+  $('#chsub').textContent=`${gbp(sum(c))} total · avg ${gbp(sum(c)/p)}/day · best ${fmtD(dateOf(30-p+c.indexOf(Math.max(...c))))}`;
+  const svg=$('#chart svg'),tip=$('#tip'),hit=$('#hit');
+  const move=e=>{const r=svg.getBoundingClientRect(),px=(e.clientX-r.left)/r.width*W;
+    const i=Math.max(0,Math.min(p-1,Math.round((px-L)/iw*(p-1))));
+    $('#hl').setAttribute('x1',x(i));$('#hl').setAttribute('x2',x(i));$('#hl').style.opacity=1;
+    $('#dot').setAttribute('cx',x(i));$('#dot').setAttribute('cy',y(c[i]));$('#dot').style.opacity=1;
+    tip.innerHTML=`${fmtD(dateOf(30-p+i))}<b>${gbp(c[i])}</b>${compare?`<span style="opacity:.7">prior ${gbp(pr[i])}</span>`:''}`;
+    tip.style.left=(x(i)/W*r.width)+'px';tip.style.top=(y(c[i])/H*r.height)+'px';tip.style.opacity=1};
+  hit.addEventListener('pointermove',move);hit.addEventListener('pointerleave',()=>{tip.style.opacity=0;$('#hl').style.opacity=0;$('#dot').style.opacity=0})}
+// stock
+const stock=[
+ {n:'Linen tea towels, set of 3',sku:'BR-1042',q:4,min:20,c:'#c98f6b'},
+ {n:'Stoneware mug, oat',sku:'BR-2210',q:9,min:30,c:'#d9cdb4'},
+ {n:'Beeswax taper candles',sku:'BR-3318',q:12,min:25,c:'#e0b84f'},
+ {n:'Walnut serving board',sku:'BR-0877',q:3,min:10,c:'#7d5a3f'},
+ {n:'Ceramic planter, sage',sku:'BR-4120',q:7,min:15,c:'#8fa893'}];
+function renderStock(){
+  $('#stockList').innerHTML=stock.sort((a,b)=>a.q/a.min-b.q/b.min).map((s,i)=>{const r=s.q/s.min,col=r<.25?'var(--down)':'var(--warn)';
+  return`<li><div class="sw" style="background:${s.c}"></div><div><div class="nm">${s.n}</div><small>${s.sku} · ${s.q} left of ${s.min} min</small><div class="bar"><i style="width:${Math.max(r*100,6)}%;background:${col}"></i></div></div>
+  ${s.ord?'<button class="btn done" disabled>Ordered ✓</button>':`<button class="btn" data-i="${i}">Reorder</button>`}</li>`}).join('')}
+$('#stockList').addEventListener('click',e=>{const b=e.target.closest('[data-i]');if(!b)return;stock[b.dataset.i].ord=1;renderStock()});
+// orders
+const names=['Elena Marsh','Tomás Rivera','Priya Nair','Oliver Grant','Hannah Weiss','Kofi Mensah','Sophie Laurent','Daniel Cho','Isla Fraser','Marcus Bell','Aiko Tanaka','Ruth Okafor'];
+const prods=['Linen tea towels','Oat stoneware mug ×4','Taper candles','Walnut board','Sage planter','Wool throw','Brass trivet','Ceramic jug'];
+const sts=['paid','shipped','pending','shipped','paid','refunded','paid','pending','shipped','paid','shipped','paid'];
+const ago=['4 min ago','17 min ago','42 min ago','1 hr ago','2 hr ago','3 hr ago','5 hr ago','6 hr ago','8 hr ago','Yesterday','Yesterday','Yesterday'];
+const orders=names.map((n,i)=>({id:'#BC-'+(10482-i),n,it:prods[i%8]+(i%3?'':' + 2 more'),t:ago[i],s:sts[i],tot:28+((i*37)%140)+.5*(i%2)}));
+let filt='all',q='';
+const labels={all:'All',pending:'Pending',paid:'Paid',shipped:'Shipped',refunded:'Refunded'};
+function renderOrders(){
+  $('#filters').innerHTML=Object.keys(labels).map(k=>`<button data-f="${k}" aria-pressed="${k===filt}">${labels[k]}</button>`).join('');
+  const l=orders.filter(o=>(filt==='all'||o.s===filt)&&(o.n+o.id).toLowerCase().includes(q));
+  $('#ocount').textContent=`${l.length} of ${orders.length} shown`;
+  $('#rows').innerHTML=l.length?l.map(o=>`<tr><td><b>${o.id}</b></td><td><div class="cust"><div class="av">${o.n.split(' ').map(w=>w[0]).join('')}</div>${o.n}</div></td><td>${o.it}</td><td>${o.t}</td><td><span class="st ${o.s}">${labels[o.s]}</span></td><td class="r">£${o.tot.toFixed(2)}</td></tr>`).join(''):'<tr><td colspan="6" class="empty">No orders match.</td></tr>'}
+$('#filters').addEventListener('click',e=>{const b=e.target.closest('[data-f]');if(b){filt=b.dataset.f;renderOrders()}});
+$('#q').addEventListener('input',e=>{q=e.target.value.toLowerCase();renderOrders()});
+document.querySelector('header .seg').addEventListener('click',e=>{const b=e.target.closest('[data-p]');if(!b)return;period=+b.dataset.p;
+  document.querySelectorAll('[data-p]').forEach(x=>x.setAttribute('aria-pressed',x===b));renderKpis();renderChart()});
+$('#cmp').addEventListener('click',e=>{compare=!compare;e.target.setAttribute('aria-pressed',compare);renderChart()});
+renderKpis();renderChart();renderStock();renderOrders();
+</script>
+</body>
+</html>

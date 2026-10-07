@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Sprout – Welcome</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Nunito:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f1e6;--card:#fffdf6;--ink:#1f3a2b;--mute:#6b7d70;--leaf:#2f8f5b;--leaf-d:#1f6b42;--lime:#b9e07a;--clay:#d9825b;--sun:#f6c453;--water:#6ec1e4;--line:#e3ddc8;--r:22px}
+@media(prefers-color-scheme:dark){:root{--bg:#0f1a14;--card:#182720;--ink:#eef5e6;--mute:#9db1a4;--line:#2b4034;--leaf:#4fbf80;--leaf-d:#3aa56b}}
+*{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent}
+body{font-family:Nunito,system-ui,sans-serif;background:var(--bg);color:var(--ink);min-height:100dvh;display:grid;place-items:center}
+@media(min-width:600px){body{background:radial-gradient(circle at 20% 20%,#dcebc4,transparent 40%),radial-gradient(circle at 80% 90%,#f3d9b8,transparent 40%),var(--bg);padding:24px}}
+.app{width:100%;max-width:390px;height:100dvh;max-height:844px;background:var(--card);position:relative;overflow:hidden;display:flex;flex-direction:column}
+@media(min-width:600px){.app{height:844px;border-radius:44px;box-shadow:0 0 0 10px #1c2b22,0 40px 80px -20px rgba(31,58,43,.45)}}
+header{display:flex;align-items:center;gap:10px;padding:max(18px,env(safe-area-inset-top)) 20px 8px;z-index:3}
+.icon-btn,.skip{border:0;background:none;font:inherit;color:var(--ink);cursor:pointer}
+.icon-btn{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;transition:.2s}
+.icon-btn:hover{background:var(--line)}.icon-btn[hidden]{display:none}
+.icon-btn.ph{visibility:hidden}
+.prog{flex:1;display:flex;gap:6px}
+.prog i{flex:1;height:6px;border-radius:9px;background:var(--line);overflow:hidden;position:relative}
+.prog i::after{content:"";position:absolute;inset:0;background:var(--leaf);border-radius:9px;transform:scaleX(0);transform-origin:left;transition:transform .5s cubic-bezier(.3,1.3,.5,1)}
+.prog i.on::after{transform:scaleX(1)}
+.skip{font-weight:800;font-size:14px;color:var(--mute);padding:8px 10px;border-radius:12px}.skip:hover{color:var(--ink)}
+.stage{flex:1;position:relative}
+.step{position:absolute;inset:0;padding:8px 24px 0;display:flex;flex-direction:column;opacity:0;pointer-events:none;transform:translateX(40px);transition:opacity .35s,transform .45s cubic-bezier(.2,.9,.3,1)}
+.step.active{opacity:1;pointer-events:auto;transform:none}
+.step.past{transform:translateX(-40px)}
+h1{font-family:Fraunces,serif;font-size:34px;line-height:1.08;letter-spacing:-.5px}
+h1 em{color:var(--leaf);font-style:normal}
+.sub{color:var(--mute);margin-top:10px;line-height:1.5;font-weight:500}
+.hero{flex:1;display:grid;place-items:center;min-height:0}
+.hero svg{width:100%;max-height:100%;overflow:visible}
+.sway{transform-origin:50% 100%;animation:sway 4s ease-in-out infinite}
+.sway.b{animation-delay:-1.5s;animation-duration:5s}
+@keyframes sway{50%{transform:rotate(3deg)}}
+.drop{animation:fall 2.6s ease-in infinite;opacity:0}
+@keyframes fall{0%{transform:translateY(-14px);opacity:0}20%{opacity:1}80%{opacity:1}100%{transform:translateY(34px);opacity:0}}
+.float{animation:fl 3s ease-in-out infinite}@keyframes fl{50%{transform:translateY(-8px)}}
+footer{padding:12px 24px max(24px,env(safe-area-inset-bottom));z-index:3}
+.cta{width:100%;border:0;border-radius:20px;padding:17px;font:800 17px Nunito;color:#fff;background:var(--leaf);box-shadow:0 5px 0 var(--leaf-d);cursor:pointer;transition:transform .1s,box-shadow .1s,opacity .2s}
+.cta:active{transform:translateY(4px);box-shadow:0 1px 0 var(--leaf-d)}
+.cta:disabled{opacity:.45}
+.ghost{display:block;width:100%;margin-top:10px;border:0;background:none;font:800 14px Nunito;color:var(--mute);padding:8px;cursor:pointer}
+.ghost[hidden]{display:none}
+/* grid */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:16px;overflow-y:auto;padding:4px 2px 12px;flex:1;scrollbar-width:none}
+.grid::-webkit-scrollbar{display:none}
+.plant{position:relative;border:2px solid var(--line);background:var(--card);border-radius:var(--r);padding:8px 4px 10px;font:800 12.5px Nunito;color:var(--ink);cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;transition:transform .25s cubic-bezier(.3,1.6,.5,1),border-color .2s,background .2s}
+.plant>svg{width:64px;height:64px}
+.plant:hover{transform:translateY(-2px)}
+.plant[aria-pressed=true]{border-color:var(--leaf);background:color-mix(in srgb,var(--lime) 28%,var(--card));transform:scale(1.04)}
+.plant .chk{position:absolute;top:6px;right:6px;width:22px;height:22px;border-radius:50%;background:var(--leaf);display:grid;place-items:center;transform:scale(0);transition:transform .3s cubic-bezier(.3,2,.5,1)}
+.plant[aria-pressed=true] .chk{transform:scale(1)}
+.plant[aria-pressed=true]>svg{animation:pop .5s}
+@keyframes pop{40%{transform:scale(1.18) rotate(-5deg)}}
+.count{display:inline-block;background:var(--lime);color:#27441d;border-radius:99px;padding:2px 10px;font-size:13px;font-weight:800;margin-left:6px;vertical-align:middle;transition:transform .2s}
+.count.bump{transform:scale(1.3)}
+/* notif */
+.notif{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:14px;display:flex;gap:12px;align-items:center;box-shadow:0 14px 30px -12px rgba(31,58,43,.35);animation:slide 4s ease-in-out infinite}
+@keyframes slide{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.notif .ic{width:42px;height:42px;border-radius:12px;background:var(--leaf);display:grid;place-items:center;flex:none}
+.notif b{display:block;font-size:14px}.notif span{font-size:13px;color:var(--mute);line-height:1.35}
+.notif small{margin-left:auto;font-size:11px;color:var(--mute);align-self:flex-start}
+.perks{list-style:none;padding:0;margin-top:18px;display:grid;gap:10px}
+.perks li{display:flex;gap:10px;align-items:center;font-weight:700;font-size:15px}
+.perks i{width:28px;height:28px;border-radius:9px;background:color-mix(in srgb,var(--lime) 40%,var(--card));display:grid;place-items:center;font-style:normal;flex:none}
+.time{display:flex;gap:8px;margin-top:16px}
+.time button{flex:1;border:2px solid var(--line);background:none;border-radius:14px;padding:10px 4px;font:800 13px Nunito;color:var(--ink);cursor:pointer}
+.time button[aria-pressed=true]{border-color:var(--leaf);background:color-mix(in srgb,var(--lime) 28%,var(--card))}
+/* done */
+.done{position:absolute;inset:0;background:var(--card);z-index:5;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px;opacity:0;pointer-events:none;transition:opacity .4s}
+.done.show{opacity:1;pointer-events:auto}
+.done svg{width:200px}
+.done .cta{margin-top:26px;max-width:260px}
+.conf{position:absolute;top:-10px;width:9px;height:14px;border-radius:2px;animation:cf linear forwards}
+@keyframes cf{to{transform:translateY(900px) rotate(720deg)}}
+.toast{font-size:13px;color:var(--mute);margin-top:10px;text-align:center;min-height:18px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition-duration:.01s!important}}
+:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+</style>
+</head>
+<body>
+<main class="app" id="app">
+  <header>
+    <button class="icon-btn ph" id="back" aria-label="Back"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <div class="prog" role="progressbar" aria-valuemin="1" aria-valuemax="3" aria-valuenow="1" id="prog"><i class="on"></i><i></i><i></i></div>
+    <button class="skip" id="skip">Skip</button>
+  </header>
+
+  <div class="stage">
+    <!-- 1 -->
+    <section class="step active" data-i="0">
+      <div class="hero">
+        <svg viewBox="0 0 300 300" aria-hidden="true">
+          <ellipse cx="150" cy="268" rx="100" ry="12" fill="#000" opacity=".08"/>
+          <g class="float"><circle cx="232" cy="70" r="22" fill="#f6c453"/><circle cx="232" cy="70" r="32" fill="#f6c453" opacity=".25"/></g>
+          <g class="sway b"><path d="M150 210 C130 150 80 140 70 90 C120 95 150 130 150 210Z" fill="#6fbf73"/><path d="M150 210 C170 140 220 140 232 100 C180 100 150 140 150 210Z" fill="#4fa564"/></g>
+          <g class="sway"><path d="M150 215 C150 150 140 100 150 50" stroke="#2f8f5b" stroke-width="7" fill="none" stroke-linecap="round"/>
+          <path d="M150 90 C110 90 92 55 98 30 C135 35 152 60 150 90Z" fill="#8fd47a"/><path d="M150 70 C190 70 210 40 202 16 C165 20 148 45 150 70Z" fill="#2f8f5b"/></g>
+          <path d="M92 205 H208 L192 262 Q190 270 180 270 H120 Q110 270 108 262Z" fill="#d9825b"/><rect x="86" y="196" width="128" height="20" rx="8" fill="#e8946d"/>
+          <circle cx="135" cy="238" r="5" fill="#3a2418"/><circle cx="165" cy="238" r="5" fill="#3a2418"/><path d="M140 248 Q150 257 160 248" stroke="#3a2418" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+          <circle cx="124" cy="246" r="5" fill="#f4a08a" opacity=".7"/><circle cx="176" cy="246" r="5" fill="#f4a08a" opacity=".7"/>
+          <path class="drop" d="M60 120 q8 14 0 20 q-8 -6 0 -20z" fill="#6ec1e4"/><path class="drop" style="animation-delay:-1.2s" d="M255 150 q8 14 0 20 q-8 -6 0 -20z" fill="#6ec1e4"/>
+        </svg>
+      </div>
+      <h1>Hi, I'm <em>Sprout</em>.<br>Let's keep your plants happy.</h1>
+      <p class="sub">Tell us what's on your windowsill and we'll remind you exactly when each one is thirsty.</p>
+    </section>
+
+    <!-- 2 -->
+    <section class="step" data-i="1">
+      <h1>What's in your <em>jungle</em>?<span class="count" id="count">0</span></h1>
+      <p class="sub">Pick every plant you own. You can add more later.</p>
+      <div class="grid" id="grid" role="group" aria-label="Plants"></div>
+    </section>
+
+    <!-- 3 -->
+    <section class="step" data-i="2">
+      <div class="hero" style="align-items:end;padding-bottom:6px">
+        <div style="width:100%">
+          <div class="notif"><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M12 3C8 8 6 11 6 14a6 6 0 0012 0c0-3-2-6-6-11z" fill="#fff"/></svg></div><div><b>Monty is thirsty 💧</b><span>It's been 7 days. A cup of water will do!</span></div><small>now</small></div>
+        </div>
+      </div>
+      <h1>Never forget a <em>watering</em>.</h1>
+      <ul class="perks"><li><i>⏰</i>Gentle nudges, only when needed</li><li><i>🌤</i>Adjusts to the season</li><li><i>🔕</i>Mute anytime in settings</li></ul>
+      <div class="time" id="time" role="group" aria-label="Reminder time"><button aria-pressed="false">Morning</button><button aria-pressed="true">Midday</button><button aria-pressed="false">Evening</button></div>
+      <p class="toast" id="toast" role="status"></p>
+    </section>
+  </div>
+
+  <footer>
+    <button class="cta" id="cta">Get started</button>
+    <button class="ghost" id="later" hidden>Maybe later</button>
+  </footer>
+
+  <div class="done" id="done">
+    <svg viewBox="0 0 200 200" aria-hidden="true"><g class="float"><circle cx="100" cy="100" r="78" fill="#b9e07a" opacity=".5"/><path d="M100 150V90" stroke="#2f8f5b" stroke-width="8" stroke-linecap="round"/><path d="M100 100C60 100 50 65 56 45 90 50 103 70 100 100Z" fill="#8fd47a"/><path d="M100 90C140 90 152 58 144 38 110 42 98 66 100 90Z" fill="#2f8f5b"/><path d="M70 150h60l-8 28H78z" fill="#d9825b"/></g></svg>
+    <h1 style="margin-top:8px">You're all <em>set</em>!</h1>
+    <p class="sub" id="doneMsg">Your garden is ready to grow.</p>
+    <button class="cta" id="restart">Open my garden</button>
+  </div>
+</main>
+
+<script>
+(function(){
+const plants=[
+ ['Monstera','#2f8f5b','leaf'],['Snake plant','#3d7a4a','spike'],['Pothos','#6fbf73','vine'],
+ ['Cactus','#5aa86a','cactus'],['Succulent','#8fd47a','rosette'],['Fiddle fig','#2f7d4f','round'],
+ ['Peace lily','#3d9a68','lily'],['Aloe','#7cc48a','spike'],['Orchid','#e58bb4','flower'],
+ ['Herbs','#74b84f','herb'],['Fern','#4fa564','fern'],['Not sure yet','#c9bfa0','q']];
+const pot=(c='#d9825b')=>`<path d="M20 44h24l-3 14q-.5 3-3 3H26q-2.5 0-3-3z" fill="${c}"/><rect x="18" y="40" width="28" height="6" rx="3" fill="#e8946d"/>`;
+function art(t,c){let b='';
+ switch(t){
+ case 'leaf':b=`<path d="M32 40C14 38 10 22 14 12c12 2 20 12 18 28z" fill="${c}"/><path d="M32 40C50 36 56 22 50 10 38 14 30 24 32 40z" fill="#8fd47a"/><path d="M32 40V16" stroke="#1f6b42" stroke-width="2.5"/>`;break;
+ case 'spike':b=[[-14,24],[-6,14],[0,10],[7,16],[15,26]].map(([x,h])=>`<path d="M${32+x/2} 40L${32+x} ${40-h*1.5}L${35+x/2} 40z" fill="${c}"/>`).join('');break;
+ case 'vine':b=`<path d="M32 40C20 30 40 24 28 12M32 40C46 32 38 22 50 20" stroke="#2f8f5b" stroke-width="2.5" fill="none"/>`+[[28,12],[24,26],[40,26],[50,20],[36,16]].map(([x,y])=>`<ellipse cx="${x}" cy="${y}" rx="6" ry="4.5" fill="${c}"/>`).join('');break;
+ case 'cactus':b=`<rect x="26" y="14" width="12" height="28" rx="6" fill="${c}"/><path d="M26 30h-5v-8" stroke="${c}" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M38 26h5v-8" stroke="${c}" stroke-width="5" fill="none" stroke-linecap="round"/><circle cx="32" cy="12" r="3" fill="#f08fb0"/>`;break;
+ case 'rosette':b=[0,60,120,180,240,300].map(a=>`<ellipse cx="32" cy="32" rx="4.5" ry="11" fill="${c}" transform="rotate(${a} 32 40) translate(0 -4)"/>`).join('')+`<circle cx="32" cy="38" r="4" fill="#b9e07a"/>`;break;
+ case 'round':b=`<path d="M32 42V24" stroke="#6b4a2f" stroke-width="3"/><circle cx="32" cy="20" r="13" fill="${c}"/><circle cx="26" cy="16" r="6" fill="#4fa564"/>`;break;
+ case 'lily':b=`<path d="M32 42C14 40 14 20 24 14 30 22 32 30 32 42zM32 42C50 40 50 20 40 14 34 22 32 30 32 42z" fill="${c}"/><path d="M32 36C26 28 30 16 32 12c4 6 6 16 0 24z" fill="#fffdf6" stroke="#e3ddc8"/>`;break;
+ case 'flower':b=`<path d="M32 42V22C32 14 40 14 44 10" stroke="#2f8f5b" stroke-width="2.5" fill="none"/>`+[[44,10],[38,14],[48,16],[42,20]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="5" fill="${c}"/>`).join('')+`<ellipse cx="22" cy="38" rx="9" ry="4" fill="#4fa564" transform="rotate(-20 22 38)"/>`;break;
+ case 'herb':b=[[-8,18],[0,12],[8,18]].map(([x,y])=>`<path d="M${32+x/2} 40V${y+4}" stroke="#2f8f5b" stroke-width="2"/><circle cx="${32+x}" cy="${y}" r="7" fill="${c}"/>`).join('');break;
+ case 'fern':b=[-50,-25,0,25,50].map(a=>`<path d="M32 42Q32 22 32 14" stroke="${c}" stroke-width="3.5" fill="none" stroke-linecap="round" transform="rotate(${a} 32 42)"/>`).join('');break;
+ default:b=`<text x="32" y="36" text-anchor="middle" font-size="26" font-weight="800" fill="${c}" font-family="Fraunces">?</text>`;
+ }
+ return `<svg viewBox="0 0 64 64" aria-hidden="true">${b}${pot()}</svg>`}
+const grid=document.getElementById('grid');
+plants.forEach(([n,c,t])=>{const b=document.createElement('button');b.className='plant';b.setAttribute('aria-pressed','false');
+ b.innerHTML=art(t,c)+`<span>${n}</span><span class="chk"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg></span>`;
+ b.onclick=()=>{b.setAttribute('aria-pressed',b.getAttribute('aria-pressed')!=='true');upd()};grid.appendChild(b)});
+const $=id=>document.getElementById(id);
+const steps=[...document.querySelectorAll('.step')],bars=[...document.querySelectorAll('.prog i')];
+let cur=0,notif='';
+function upd(){const n=grid.querySelectorAll('[aria-pressed=true]').length,c=$('count');c.textContent=n;c.classList.add('bump');setTimeout(()=>c.classList.remove('bump'),180);render()}
+function render(){
+ steps.forEach((s,i)=>{s.classList.toggle('active',i===cur);s.classList.toggle('past',i<cur)});
+ bars.forEach((b,i)=>b.classList.toggle('on',i<=cur));$('prog').setAttribute('aria-valuenow',cur+1);
+ $('back').classList.toggle('ph',cur===0);$('skip').style.visibility=cur===2?'hidden':'visible';
+ const n=+$('count').textContent;
+ $('cta').textContent=cur===0?'Get started':cur===1?(n?`Continue with ${n} plant${n>1?'s':''}`:'Pick at least one'):'Turn on reminders';
+ $('cta').disabled=cur===1&&!n;$('later').hidden=cur!==2;
+}
+function go(d){cur=Math.max(0,Math.min(2,cur+d));render()}
+function finish(msg){$('doneMsg').textContent=msg;$('done').classList.add('show');confetti()}
+$('back').onclick=()=>go(-1);
+$('skip').onclick=()=>go(1);
+$('later').onclick=()=>finish("No reminders for now. You can switch them on in Settings.");
+$('time').onclick=e=>{const b=e.target.closest('button');if(!b)return;[...$('time').children].forEach(x=>x.setAttribute('aria-pressed',x===b))};
+$('cta').onclick=async()=>{
+ if(cur<2)return go(1);
+ let res='granted';
+ try{if('Notification' in window&&Notification.permission!=='granted')res=await Notification.requestPermission()}catch(e){}
+ finish(res==='denied'?"Reminders are blocked in your browser. You can change that in settings any time.":"Reminders on. We'll nudge you at just the right moment.");
+};
+$('restart').onclick=()=>{$('done').classList.remove('show');cur=0;render()};
+function confetti(){const cols=['#2f8f5b','#b9e07a','#f6c453','#d9825b','#6ec1e4'];
+ for(let i=0;i<40;i++){const e=document.createElement('i');e.className='conf';e.style.left=Math.random()*100+'%';e.style.background=cols[i%5];
+  e.style.animationDuration=(1.6+Math.random()*1.6)+'s';e.style.animationDelay=Math.random()*.4+'s';$('done').appendChild(e);setTimeout(()=>e.remove(),4000)}}
+render();
+})();
+</script>
+</body>
+</html>
