@@ -1,0 +1,10 @@
+{
+  "skill_name": "aaa-design",
+  "evals": [
+    {"id": 1, "name": "saas-landing", "prompt": "Build a marketing landing page for \"Cadence\", a scheduling tool for small medical clinics that cuts no-shows with two-way SMS reminders. Include: nav, hero with primary CTA, social proof, three feature sections, pricing with three tiers, an FAQ, and a footer. Make it look like a top-tier 2026 SaaS site.", "expected_output": "single self-contained index.html"},
+    {"id": 2, "name": "ops-dashboard", "prompt": "Build an operations dashboard for \"Bramble & Co\", a small online homeware store. Include a sidebar nav, KPI cards (revenue, orders, conversion rate, refunds) with deltas vs last period, a 30-day revenue chart, a recent-orders table with statuses, and low-stock alerts. It should feel premium and be genuinely usable.", "expected_output": "single self-contained index.html"},
+    {"id": 3, "name": "mobile-onboarding", "prompt": "Design a 3-step mobile onboarding flow for \"Sprout\", a plant-care app: (1) welcome, (2) pick the plants you own (multi-select grid), (3) enable watering reminders (notification permission). Include progress, back and skip. Mobile-first at 390px; on desktop, show the flow centred. Make it delightful.", "expected_output": "single self-contained index.html (interactive steps)"},
+    {"id": 4, "name": "brand-identity-page", "prompt": "Create a brand identity page for \"Halcyon Coffee Roasters\", a specialty roaster in Lisbon. Cover the logo (with usage rules), colour palette, typography, photography direction, tone of voice, and a few application examples (packaging, cup, signage).", "expected_output": "single self-contained index.html"},
+    {"id": 5, "name": "designer-portfolio", "prompt": "Build a portfolio site for Mira Okafor, an independent product designer in Berlin. Include an intro, four selected case studies, an about section, and contact. It should feel distinctive and crafted, not like a template.", "expected_output": "single self-contained index.html"}
+  ]
+}
