@@ -1,7 +1,9 @@
 {
  "requested": "https://wise.design/foundations",
- "final": "https://wise.design/foundations",
- "title": "",
+ "captured_from": "https://wise.design/",
+ "archived": true,
+ "final": "https://wise.design/",
+ "title": "Wise Design | Building a System for a Borderless World",
  "subpages": [],
- "cssFiles": 0
+ "cssFiles": 1
 }
