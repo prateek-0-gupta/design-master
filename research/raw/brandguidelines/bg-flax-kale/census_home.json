@@ -1,5 +1,5 @@
 {
- "url": "https://web.archive.org/web/20231015154452if_/https://my.corebook.io/flaxandkale/general-information/introduction",
+ "url": "https://web.archive.org/web/20240106014211if_/https://my.corebook.io/flaxandkale/general-information/introduction",
  "title": "Flax&Kale - Introduction",
  "scrollHeight": 1357,
  "customProperties": {
@@ -14,13 +14,13 @@
   "--breakpoint-xs": "0",
   "--teal": "#20c997",
   "--gray-dark": "#343a40",
-  "--breakpoint-sm": "576px",
   "--breakpoint-md": "768px",
+  "--breakpoint-sm": "576px",
   "--breakpoint-lg": "992px",
   "--primary": "#007bff",
   "--blue": "#007bff",
-  "--danger": "#dc3545",
   "--white": "#fff",
+  "--danger": "#dc3545",
   "--success": "#28a745",
   "--gray": "#6c757d",
   "--warning": "#ffc107",
@@ -80,7 +80,7 @@
   "rgb(0, 3, 165)": 1
  },
  "bg": {
-  "rgb(21, 24, 171)": 3,
+  "rgb(21, 24, 171)": 4,
   "rgb(255, 255, 255)": 3,
   "rgba(21, 22, 27, 0.9)": 1,
   "rgba(255, 255, 255, 0.5)": 1,
@@ -90,27 +90,28 @@
  "radius": {
   "50%": 8,
   "6px": 4,
+  "5px": 1,
   "6px 6px 0px 0px": 1,
   "0px 0px 6px 6px": 1,
   "3px": 1
  },
  "shadow": {
   "rgba(0, 0, 0, 0.45) 0px 4px 20px 0px": 1,
-  "rgba(255, 255, 255, 0.5) 0px 28.475px 20px 0px": 1,
-  "rgba(255, 255, 255, 0.5) 0px 13.475px 20px 0px": 1,
-  "rgba(255, 255, 255, 0.5) 0px -1.525px 20px 0px": 1,
-  "rgba(255, 255, 255, 0.5) 0px -8.9125px 23.2625px 0px": 1,
-  "rgba(255, 255, 255, 0.5) 0px -6.4125px 30.7625px 0px": 1,
-  "rgba(255, 255, 255, 0.5) 0px -3.9125px 38.2625px 0px": 1,
-  "rgba(255, 255, 255, 0.5) 0px -1.4125px 45.7625px 0px": 1,
-  "rgba(255, 255, 255, 0.5) 0px 43.475px 20px 0px": 1
+  "rgba(255, 255, 255, 0.5) 0px -4.08px 37.76px 0px": 1,
+  "rgba(255, 255, 255, 0.5) 0px -1.58px 45.26px 0px": 1,
+  "rgba(255, 255, 255, 0.5) 0px 44.48px 20px 0px": 1,
+  "rgba(255, 255, 255, 0.5) 0px 29.48px 20px 0px": 1,
+  "rgba(255, 255, 255, 0.5) 0px 14.48px 20px 0px": 1,
+  "rgba(255, 255, 255, 0.5) 0px -0.52px 20px 0px": 1,
+  "rgba(255, 255, 255, 0.5) 0px -9.08px 22.76px 0px": 1,
+  "rgba(255, 255, 255, 0.5) 0px -6.58px 30.26px 0px": 1
  },
  "transition": {
   "all 0.2s ease": 3,
+  "opacity 0.2s ease": 2,
   "opacity 0.3s ease-in-out": 1,
   "all 0.3s ease-in-out": 1,
   "margin 0.55s ease-in-out": 1,
-  "opacity 0.2s ease": 1,
   "left 0.2s ease": 1,
   "all 0.4s ease": 1
  },
