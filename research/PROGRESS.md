@@ -59,7 +59,9 @@ Brief: `analysis/AGENT_BRIEF.md`; exemplar `analysis/inspora/insp-glass-circle-w
 - [x] Inspora batches insp_07–24 (all 287 done)
 - [x] bg-kazam (from viewer screenshots)
 - [x] Sites S1–S5 (sonnet) + templates/promoted (haiku)
-- [ ] Sites S6–S7 (archived, sonnet) + UI8 templates (haiku) — running
+- [x] Sites S6–S7 (archived, sonnet) + UI8 templates (haiku)
+
+**Final: 353/353 examples have an analysis file; 348 analyzed, 5 failed with reasons** (bg-wispr: archived JS app renders blank; bg-radesk, bg-roleno, bg-brand-social-media-kit, bg-brand-marketplace-ui-kit: Cloudflare-blocked live pages and Wayback snapshots without preview images / unrendered template markup).
 
 Cost note (user request): from site analyses onward, subagents use cheaper models (sonnet for guideline sites, haiku for templates/promoted/tag normalisation).
 
@@ -77,8 +79,13 @@ Cost note (user request): from site analyses onward, subagents use cheaper model
 | insp_01 | insp-hairlines-v2: dark signal line on beige, tick ruler, "NN NAME STATE" mono labels | confirmed on sheet |
 
 ## Phase 4 — Synthesis
+- [x] `synthesis/`: README (top 10 insights), patterns-by-category (regex-clustered tags, `scripts/cluster_tags.py`), style-taxonomy, token-benchmarks (`_token_bench.json` from 41 sites' computed styles; `_motion_stats.json` from 1,368 measured transitions), craft-checklist (86), brand-system-anatomy, anti-patterns, gaps (`_contrast_stats.json`).
+
 ## Phase 5 — Skill
+- [x] `skills/aaa-design/`: SKILL.md (procedural, 6 steps + final pass), rubric.md, 9 references, scripts/audit.mjs + contrast.py, 3 audited examples.
+
 ## Phase 6 — Evals
+- [x] 5 briefs × with/without skill, blind Sonnet graders, objective audit. Iteration 1 → diagnosis (safe/bland) → v2 → iteration 2: skill wins all 5 on raw quality (mean 64.0 vs 50.2) and gates (30/30 vs 18/30). See `skills/aaa-design/EVALS.md`.
 
 ## Failures log
 - bg-mastercard-foundation: original PDF URL → HTTP 410. Recovered via Wayback (not a failure, but provenance differs).

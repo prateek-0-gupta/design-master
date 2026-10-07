@@ -1,0 +1,187 @@
+[
+ [
+  "eval-1",
+  {
+   "with_skill": {
+    "raw": 65,
+    "capped": 65,
+    "axes": {
+     "direction": 8,
+     "typography": 9,
+     "colour": 8,
+     "layout": 8,
+     "craft": 8,
+     "motion": 7,
+     "ux": 8,
+     "content": 9
+    },
+    "gates": "6/6"
+   },
+   "without_skill": {
+    "raw": 51,
+    "capped": 50,
+    "axes": {
+     "direction": 6,
+     "typography": 7,
+     "colour": 7,
+     "layout": 7,
+     "craft": 5,
+     "motion": 6,
+     "ux": 6,
+     "content": 7
+    },
+    "gates": "3/6"
+   },
+   "winner": "with_skill",
+   "why": "A passes every gate and has a distinctive editorial voice with feature visuals that tell the product story and highly specific copy. B is competent but generic, has a visibly clipped hero card, and fails contrast, focus and min-text gates."
+  }
+ ],
+ [
+  "eval-2",
+  {
+   "without_skill": {
+    "raw": 43,
+    "capped": 43,
+    "axes": {
+     "direction": 5,
+     "typography": 6,
+     "colour": 6,
+     "layout": 6,
+     "craft": 5,
+     "motion": 4,
+     "ux": 5,
+     "content": 6
+    },
+    "gates": "2/6"
+   },
+   "with_skill": {
+    "raw": 61,
+    "capped": 61,
+    "axes": {
+     "direction": 8,
+     "typography": 8,
+     "colour": 7,
+     "layout": 7,
+     "craft": 8,
+     "motion": 6,
+     "ux": 8,
+     "content": 9
+    },
+    "gates": "6/6"
+   },
+   "winner": "with_skill",
+   "why": "B passes every gate and turns the dashboard into a working tool with prioritised stock, per-row actions and a readable chart. A has real accessibility failures (mobile overflow, invisible focus, contrast) and a more generic, less actionable design."
+  }
+ ],
+ [
+  "eval-3",
+  {
+   "with_skill": {
+    "raw": 63,
+    "capped": 63,
+    "axes": {
+     "direction": 8,
+     "typography": 8,
+     "colour": 7,
+     "layout": 7,
+     "craft": 8,
+     "motion": 8,
+     "ux": 9,
+     "content": 8
+    },
+    "gates": "6/6"
+   },
+   "without_skill": {
+    "raw": 55,
+    "capped": 50,
+    "axes": {
+     "direction": 7,
+     "typography": 7,
+     "colour": 7,
+     "layout": 7,
+     "craft": 6,
+     "motion": 7,
+     "ux": 6,
+     "content": 8
+    },
+    "gates": "5/6"
+   },
+   "winner": "with_skill",
+   "why": "A passes every gate and has much deeper state design (permission dialog, denied recovery, undo, time choice) with a refined type pairing. B is cute but fails contrast, has multiple h1s and small targets, and is thinner on UX."
+  }
+ ],
+ [
+  "eval-4",
+  {
+   "without_skill": {
+    "raw": 46,
+    "capped": 46,
+    "axes": {
+     "direction": 6,
+     "typography": 7,
+     "colour": 7,
+     "layout": 6,
+     "craft": 5,
+     "motion": 4,
+     "ux": 5,
+     "content": 6
+    },
+    "gates": "4/6"
+   },
+   "with_skill": {
+    "raw": 66,
+    "capped": 50,
+    "axes": {
+     "direction": 9,
+     "typography": 9,
+     "colour": 8,
+     "layout": 8,
+     "craft": 7,
+     "motion": 8,
+     "ux": 8,
+     "content": 9
+    },
+    "gates": "6/6"
+   },
+   "winner": "with_skill",
+   "why": "B has a real signature idea, rigorous and specific guidelines, and far richer interaction and states. Its mobile hero overlap needs fixing, but A is generic and also fails contrast."
+  }
+ ],
+ [
+  "eval-5",
+  {
+   "with_skill": {
+    "raw": 65,
+    "capped": 65,
+    "axes": {
+     "direction": 8,
+     "typography": 9,
+     "colour": 8,
+     "layout": 8,
+     "craft": 8,
+     "motion": 7,
+     "ux": 8,
+     "content": 9
+    },
+    "gates": "6/6"
+   },
+   "without_skill": {
+    "raw": 56,
+    "capped": 50,
+    "axes": {
+     "direction": 7,
+     "typography": 8,
+     "colour": 7,
+     "layout": 7,
+     "craft": 6,
+     "motion": 7,
+     "ux": 6,
+     "content": 8
+    },
+    "gates": "4/6"
+   },
+   "winner": "with_skill",
+   "why": "A passes every gate and has a distinctive, coherent concept (the metro-line index) with purposeful per-project diagrams and a polished typographic system. B is lively but has visible clipped/overlapping text in its illustrations and fails contrast and minimum text size."
+  }
+ ]
+]

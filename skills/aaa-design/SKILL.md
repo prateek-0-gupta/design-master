@@ -239,7 +239,7 @@ Check the top 15 from `references/craft-checklist.md`, which has 86 items:
 10. Every animation maps to a state change, with ease-out by default and close faster than open.
 11. Focus rings are visible, hover and focus are distinct, and Esc closes overlays.
 12. Empty, error and loading states are designed.
-13. 390px works: no overflow, 44px targets, and a collapsed nav.
+13. 390px works: no overflow, 44px targets, a collapsed nav, and no decorative art sitting behind or over text. Hero art that sits beside the copy on desktop must move above or below it on mobile. The audit cannot see this; your eyes on `shot-390.png` can.
 14. Copy is real, specific and proofread, with no lorem ipsum.
 15. `prefers-reduced-motion` and `prefers-color-scheme` (if you ship dark mode) are handled.
 
