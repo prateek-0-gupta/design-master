@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Relay — agent runs</title>
+<!-- Direction: Dark Premium base + ONE expressive layer (a status orb whose SHAPE encodes agent state).
+     Data-dense details: mono metadata, tabular numbers, one hue per tool threaded through rows/bars/legend.
+     Covers states: running, needs-approval, failed (with retry), empty filter result, toast with Undo. -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --canvas:#0b0b0d; --surface-1:#141417; --surface-2:#1c1c20; --surface-3:#26262b;
+  --hairline:rgb(255 255 255/.08); --border-control:#6e6e78;
+  --text-1:#f5f5f7; --text-2:#a1a1aa; --text-3:#8b8b94;
+  --accent:#b4a5ff; --on-accent:#0b0b0d; --accent-soft:rgb(180 165 255/.12);
+  --ok:#4ade80; --warn:#fbbf24; --bad:#ff8b6b;
+  /* one hue per tool, threaded everywhere */
+  --t-search:#7cc4ff; --t-code:#b4a5ff; --t-browser:#ffb86b;
+  --highlight:inset 0 1px 0 rgb(255 255 255/.06);
+  --font-sans:"Inter",ui-sans-serif,system-ui,sans-serif; --font-mono:"Geist Mono","JetBrains Mono",ui-monospace,monospace;
+  --radius-1:10px; --radius-2:16px; --radius-pill:9999px;
+  --dur-1:120ms; --dur-2:200ms; --dur-3:320ms; --ease-out:cubic-bezier(.2,.8,.2,1); --ease-in:cubic-bezier(.5,0,.75,0);
+  --focus-ring:0 0 0 2px var(--canvas),0 0 0 4px var(--accent);
+  color-scheme:dark;
+}
+*{box-sizing:border-box;margin:0}
+body{font:400 15px/1.5 var(--font-sans);background:var(--canvas);color:var(--text-1);-webkit-font-smoothing:antialiased}
+:focus-visible{outline:none;box-shadow:var(--focus-ring)}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+.app{display:grid;grid-template-columns:248px 1fr;min-height:100vh}
+/* sidebar */
+aside{border-right:1px solid var(--hairline);padding:20px 14px;display:flex;flex-direction:column;gap:24px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;letter-spacing:-.02em;padding:0 8px}
+.brand b{width:22px;height:22px;border-radius:var(--radius-1);background:conic-gradient(from 200deg,#7cc4ff,#b4a5ff,#ffb86b,#7cc4ff)}
+.label{font:500 12px/1 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--text-3);padding:0 8px 8px}
+aside nav a{display:flex;align-items:center;gap:10px;height:40px;padding:0 10px;border-radius:var(--radius-1);color:var(--text-2);text-decoration:none;font-size:14px;transition:background var(--dur-1) var(--ease-out),color var(--dur-1)}
+aside nav a:hover{background:var(--surface-1);color:var(--text-1)}
+aside nav a[aria-current=page]{background:var(--surface-2);color:var(--text-1);box-shadow:var(--highlight)}
+aside nav a .n{margin-left:auto;font:500 12px/1 var(--font-mono);color:var(--text-3)}
+/* main */
+main{padding:28px clamp(16px,3vw,40px) 64px;min-width:0}
+.top{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap}
+h1{font-size:28px;letter-spacing:-.022em;font-weight:500}
+.sub{color:var(--text-2);margin-top:4px}
+.btn{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 16px;border-radius:var(--radius-pill);font-weight:500;font-size:14px;transition:background var(--dur-1) var(--ease-out),transform var(--dur-1)}
+.btn:active{transform:scale(.98)}
+.btn-primary{background:var(--accent);color:var(--on-accent)} .btn-primary:hover{background:#c5b9ff}
+.btn-ghost{border:1px solid var(--border-control);color:var(--text-1)} .btn-ghost:hover{background:var(--surface-1)}
+
+.btn kbd{font:500 12px/1 var(--font-mono);opacity:.75}
+/* hero status card with orb */
+.live{margin-top:24px;display:grid;grid-template-columns:auto 1fr auto;gap:28px;align-items:center;padding:24px;border-radius:var(--radius-2);
+  background:linear-gradient(180deg,rgb(255 255 255/.03),transparent 50%),var(--surface-1);border:1px solid var(--hairline);box-shadow:var(--highlight)}
+.orb{width:96px;height:96px;position:relative;display:grid;place-items:center}
+.orb i{position:absolute;inset:0;border-radius:50%;background:radial-gradient(60% 60% at 35% 30%,#fff9 0,#fff0 45%),conic-gradient(from 210deg,#6d5efc,#b4a5ff,#7cc4ff,#6d5efc);
+  box-shadow:0 0 0 1px #fff3 inset,0 18px 60px -12px #8b7cffaa;transition:border-radius var(--dur-3) var(--ease-out),transform var(--dur-3) var(--ease-out)}
+.live[data-state=thinking] .orb i{animation:breathe 3.2s cubic-bezier(.65,0,.35,1) infinite}
+.live[data-state=waiting] .orb i{border-radius:28%;transform:rotate(45deg) scale(.86)}  /* shape, not just colour, encodes "needs you" */
+@keyframes breathe{50%{transform:scale(1.06) rotate(10deg)}}
+.state{font:500 12px/1 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.live h2{font-size:20px;letter-spacing:-.015em;font-weight:500;margin:8px 0 4px}
+.steps{color:var(--text-2);font-size:14px}
+.steps span{color:var(--text-1)}
+.bar{margin-top:14px;display:flex;height:6px;border-radius:var(--radius-pill);overflow:hidden;background:var(--surface-3);gap:2px}
+.bar i{display:block;height:100%}
+.legend{display:flex;gap:16px;margin-top:10px;font:400 12px/1 var(--font-mono);color:var(--text-3)}
+.legend span::before{content:"";display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px;background:var(--c)}
+.approve{display:flex;flex-direction:column;gap:8px;align-items:stretch}
+/* filters */
+.filters{display:flex;gap:4px;padding:4px;background:var(--surface-1);border-radius:var(--radius-pill);width:max-content;margin:32px 0 12px;border:1px solid var(--hairline)}
+.filters button{height:32px;padding:0 14px;border-radius:var(--radius-pill);color:var(--text-2);font-size:13px;transition:background var(--dur-2) var(--ease-out),color var(--dur-2)}
+.filters button[aria-pressed=true]{background:var(--surface-3);color:var(--text-1);box-shadow:var(--highlight)}
+/* table */
+.table{position:relative;border:1px solid var(--hairline);border-radius:var(--radius-2);overflow:auto}
+table{width:100%;border-collapse:collapse;min-width:720px}
+th{font:500 12px/1 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--text-3);text-align:left;padding:14px 16px;border-bottom:1px solid var(--hairline);background:var(--surface-1)}
+td{padding:0 16px;height:52px;border-bottom:1px solid var(--hairline);font-size:14px}
+tr:last-child td{border-bottom:0}
+tbody tr{transition:background var(--dur-1)} tbody tr:hover{background:var(--surface-1)}
+.r{text-align:right;font-variant-numeric:tabular-nums;font-family:var(--font-mono);font-size:13px}
+.r small{color:var(--text-3);font-size:12px}
+.pill{display:inline-flex;align-items:center;gap:7px;height:24px;padding:0 10px;border-radius:var(--radius-pill);font:500 12px/1 var(--font-mono);background:var(--surface-2)}
+.pill::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.ok{color:var(--ok)} .warn{color:var(--warn)} .bad{color:var(--bad)}
+.tool{display:inline-flex;align-items:center;gap:6px;color:var(--text-2);font:400 12px/1 var(--font-mono)}
+.tool::before{content:"";width:8px;height:8px;border-radius:2px;background:var(--c)}
+.task{color:var(--text-1)} .task small{display:block;color:var(--text-3);font:400 12px/1.3 var(--font-mono)}
+.link{color:var(--accent);text-decoration:underline;text-underline-offset:3px;font-size:13px}
+.empty{display:none;padding:56px 24px;text-align:center;color:var(--text-2)}
+.empty b{display:block;color:var(--text-1);font-weight:500;font-size:16px;margin-bottom:6px}
+.table[data-empty] table{display:none}.table[data-empty] .empty{display:block}
+/* toast */
+.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);opacity:0;display:flex;align-items:center;gap:14px;padding:10px 10px 10px 16px;border-radius:var(--radius-pill);
+  background:var(--surface-3);border:1px solid var(--hairline);box-shadow:0 20px 50px -10px #000c;transition:opacity var(--dur-2) var(--ease-in),transform var(--dur-2) var(--ease-in);pointer-events:none}
+.toast[data-show]{opacity:1;transform:translate(-50%,0);pointer-events:auto;transition-duration:var(--dur-3);transition-timing-function:var(--ease-out)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media (max-width:900px){.btn,.filters button{height:44px}.link{display:inline-flex;align-items:center;min-height:44px}.app{grid-template-columns:1fr}aside{display:none}.live{grid-template-columns:1fr;text-align:left}.approve{flex-direction:row;flex-wrap:wrap}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition-duration:120ms!important;transition-property:opacity,color,background-color!important}}
+</style>
+</head>
+<body>
+<div class="app">
+  <aside aria-label="Workspace">
+    <div class="brand"><b aria-hidden="true"></b>Relay</div>
+    <nav aria-label="Main"><p class="label">Agents</p>
+      <a href="#" aria-current="page">Runs <span class="n">128</span></a><a href="#">Schedules <span class="n">6</span></a><a href="#">Tools <span class="n">14</span></a><a href="#">Settings</a></nav>
+  </aside>
+  <main>
+    <div class="top">
+      <div><h1>Agent runs</h1><p class="sub">Support-triage agent · last 24 hours</p></div>
+      <div style="display:flex;gap:8px"><button class="btn btn-ghost">Export CSV</button><button class="btn btn-primary">New run <kbd aria-hidden="true">⌘K</kbd></button></div>
+    </div>
+
+    <section class="live" data-state="waiting" aria-labelledby="live-h" id="live">
+      <div class="orb" aria-hidden="true"><i></i></div>
+      <div>
+        <p class="state" id="state-label">Needs approval</p>
+        <h2 id="live-h">Refund $240 to order #A-20931?</h2>
+        <p class="steps"><span>Step 4 of 5</span> · read 3 tickets, searched order history, drafted refund · 1 min 52 s</p>
+        <div class="bar" role="img" aria-label="Time by tool: search 38%, code 22%, browser 40%"><i style="width:38%;background:var(--t-search)"></i><i style="width:22%;background:var(--t-code)"></i><i style="width:40%;background:var(--t-browser)"></i></div>
+        <div class="legend"><span style="--c:var(--t-search)">search 38%</span><span style="--c:var(--t-code)">code 22%</span><span style="--c:var(--t-browser)">browser 40%</span></div>
+      </div>
+      <div class="approve"><button class="btn btn-primary" id="approve">Approve refund <kbd aria-hidden="true">↵</kbd></button><button class="btn btn-ghost">Edit amount</button></div>
+    </section>
+
+    <div class="filters" role="group" aria-label="Filter runs">
+      <button aria-pressed="true" data-f="all">All 128</button><button aria-pressed="false" data-f="bad">Failed 3</button><button aria-pressed="false" data-f="paused">Paused 0</button>
+    </div>
+    <div class="table" id="table">
+      <table>
+        <caption class="sr">Recent agent runs</caption>
+        <thead><tr><th scope="col">Task</th><th scope="col">Status</th><th scope="col">Tools</th><th scope="col" class="r">Tokens</th><th scope="col" class="r">Duration</th><th scope="col"><span class="sr">Action</span></th></tr></thead>
+        <tbody>
+          <tr data-s="ok"><td class="task">Close duplicate tickets<small>run_8f2a · 09:41</small></td><td><span class="pill ok">Done</span></td><td><span class="tool" style="--c:var(--t-search)">search</span></td><td class="r">18.4<small>k</small></td><td class="r">42<small> s</small></td><td><a class="link" href="#">View</a></td></tr>
+          <tr data-s="bad"><td class="task">Sync Shopify refunds<small>run_7c19 · 09:12</small></td><td><span class="pill bad">Failed · 401</span></td><td><span class="tool" style="--c:var(--t-browser)">browser</span></td><td class="r">6.1<small>k</small></td><td class="r">11<small> s</small></td><td><button class="link">Retry</button></td></tr>
+          <tr data-s="ok"><td class="task">Draft weekly CSAT summary<small>run_77b0 · 08:55</small></td><td><span class="pill ok">Done</span></td><td><span class="tool" style="--c:var(--t-code)">code</span></td><td class="r">31.0<small>k</small></td><td class="r">1<small> m </small>08<small> s</small></td><td><a class="link" href="#">View</a></td></tr>
+          <tr data-s="running"><td class="task">Tag VIP conversations<small>run_75e4 · 08:51</small></td><td><span class="pill warn">Running</span></td><td><span class="tool" style="--c:var(--t-search)">search</span></td><td class="r">9.7<small>k</small></td><td class="r">3<small> m </small>20<small> s</small></td><td><button class="link">Stop</button></td></tr>
+        </tbody>
+      </table>
+      <div class="empty" role="status"><b>No paused runs</b>Runs you pause from a schedule will wait here until you resume them.</div>
+    </div>
+  </main>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"><span>Refund approved · $240.00</span><button class="btn btn-ghost" id="undo" style="height:32px">Undo</button></div>
+<script>
+const live = document.getElementById('live'), label = document.getElementById('state-label'), toast = document.getElementById('toast');
+document.getElementById('approve').addEventListener('click', () => {
+  live.dataset.state = 'thinking'; label.textContent = 'Running · issuing refund';
+  toast.toggleAttribute('data-show', true); clearTimeout(window.t); window.t = setTimeout(() => toast.removeAttribute('data-show'), 7000);
+});
+document.getElementById('undo').addEventListener('click', () => { live.dataset.state = 'waiting'; label.textContent = 'Needs approval'; toast.removeAttribute('data-show'); });
+document.querySelectorAll('.filters button').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('.filters button').forEach(x => x.setAttribute('aria-pressed', x === b));
+  let n = 0; document.querySelectorAll('tbody tr').forEach(r => { const show = b.dataset.f === 'all' || r.dataset.s === b.dataset.f; r.hidden = !show; n += show; });
+  document.getElementById('table').toggleAttribute('data-empty', n === 0);
+}));
+addEventListener('keydown', e => { if (e.key === 'Escape') toast.removeAttribute('data-show'); });
+</script>
+</body>
+</html>

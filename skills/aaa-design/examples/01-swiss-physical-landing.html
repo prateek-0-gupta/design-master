@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tally — invoices that settle themselves</title>
+<!-- Direction: Neutral Swiss base + ONE physical layer (a receipt that prints the real line items when you press the CTA).
+     Tokens: preset 1 (Neutral Swiss). Signature moment: confirmation IS the data. -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --canvas:#ffffff; --surface-1:#f7f7f8; --surface-2:#f0f0f2; --surface-3:#e7e7ea;
+  --hairline:rgb(17 17 19/.08); --border-control:#8a8a93;
+  --text-1:#111113; --text-2:#4a4a50; --text-3:#6b6b72;
+  --accent:#2747d6; --accent-ink:#1d3bb8; --on-accent:#fff; --accent-soft:#e9edfc;
+  --success-ink:#117f3a;
+  --shadow-2:0 1px 2px rgb(17 17 19/.04),0 8px 24px -6px rgb(17 17 19/.10); --highlight:inset 0 1px 0 rgb(255 255 255/.7);
+  --font-sans:"Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; --font-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  --radius-1:8px; --radius-2:14px; --radius-pill:9999px;
+  --fs-sm:14px; --fs-base:16px; --fs-md:19px; --fs-lg:23px; --fs-display:clamp(2.5rem,4.2vw + 1rem,4.75rem);
+  --dur-1:120ms; --dur-2:200ms; --dur-3:320ms; --dur-4:560ms; --ease-out:cubic-bezier(.2,.8,.2,1); --ease-in:cubic-bezier(.5,0,.75,0);
+  --focus-ring:0 0 0 2px var(--canvas),0 0 0 4px var(--accent-ink);
+  --margin:clamp(16px,4vw,64px);
+}
+*{box-sizing:border-box;margin:0}
+body{font:400 var(--fs-base)/1.55 var(--font-sans);color:var(--text-1);background:var(--canvas);-webkit-font-smoothing:antialiased;font-feature-settings:"cv11","ss01"}
+a{color:inherit}
+:focus-visible{outline:none;box-shadow:var(--focus-ring);border-radius:6px}
+.wrap{max-width:1240px;margin:0 auto;padding:0 var(--margin)}
+.skip{position:absolute;left:-999px}.skip:focus{left:16px;top:16px;background:var(--canvas);padding:8px 12px;z-index:10}
+/* nav */
+header{position:sticky;top:0;z-index:5;background:rgb(255 255 255/.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--hairline)}
+.nav{display:flex;align-items:center;gap:32px;height:68px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:600;letter-spacing:-.02em;text-decoration:none;font-size:18px}
+.logo svg{width:22px;height:22px}
+.nav nav{margin-left:auto}.nav ul{display:flex;gap:4px;list-style:none;padding:0}
+.nav ul a{display:inline-flex;align-items:center;height:44px;padding:0 12px;text-decoration:none;color:var(--text-2);font-size:var(--fs-sm);border-radius:var(--radius-pill);transition:background var(--dur-1) var(--ease-out),color var(--dur-1)}
+.nav ul a:hover{background:var(--surface-2);color:var(--text-1)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:44px;padding:0 18px;border-radius:var(--radius-pill);font:500 15px/1 var(--font-sans);border:1px solid transparent;cursor:pointer;text-decoration:none;
+  transition:background var(--dur-1) var(--ease-out),transform var(--dur-1) var(--ease-out)}
+.btn:active{transform:translateY(1px) scale(.985)}
+.btn-primary{background:var(--accent);color:var(--on-accent);box-shadow:var(--highlight),0 1px 2px rgb(0 0 0/.12)}
+.btn-primary:hover{background:#2140c4}
+.btn-ghost{background:var(--canvas);color:var(--text-1);border-color:var(--border-control)}
+.btn-ghost:hover{background:var(--surface-1)}
+.btn kbd{font:500 12px/1 var(--font-mono);opacity:.8}
+.menu-btn{display:none}
+/* hero */
+.hero{display:grid;grid-template-columns:7fr 5fr;gap:64px;align-items:center;padding-block:112px 96px}
+.eyebrow{font:500 12px/1 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--text-3);display:flex;align-items:center;gap:10px}
+.eyebrow i{width:6px;height:6px;border-radius:50%;background:var(--success-ink);display:inline-block}
+h1{font-size:var(--fs-display);line-height:1.02;letter-spacing:-.032em;font-weight:500;margin:20px 0 20px;text-wrap:balance}
+h1 span{color:var(--text-3)}
+.lead{font-size:var(--fs-md);color:var(--text-2);max-width:46ch;line-height:1.5}
+.cta{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}
+.proof{margin-top:28px;font-size:var(--fs-sm);color:var(--text-3)}
+.proof strong{color:var(--text-1);font-weight:500}
+/* receipt (the one physical layer) */
+.printer{position:relative;background:var(--surface-1);border:1px solid var(--hairline);border-radius:22px;padding:22px 22px 0;box-shadow:var(--highlight)}
+.slot{height:10px;border-radius:6px;background:linear-gradient(#cfcfd6,#e6e6ea);box-shadow:inset 0 2px 3px rgb(0 0 0/.18)}
+.paper-clip{overflow:hidden;margin:0 14px;height:var(--paper-h,168px);transition:height var(--dur-4) linear;
+  mask:linear-gradient(#000 calc(100% - 28px),#0000)} .printer[data-state=done] .paper-clip{mask:none}
+.paper .stamp{opacity:0;transform:rotate(-3deg) scale(1.4);transition:opacity var(--dur-2) var(--ease-in) var(--dur-4),transform var(--dur-2) var(--ease-in) var(--dur-4)}
+.printer[data-state=done] .paper .stamp{opacity:1;transform:rotate(-3deg) scale(1)}  /* machines move linearly */
+.paper{background:var(--canvas);padding:18px 18px 22px;font:400 13px/1.7 var(--font-mono);color:var(--text-2);
+  mask:radial-gradient(6px at 50% 100%,#0000 96%,#000) bottom/14px 7px repeat-x, linear-gradient(#000 0 0) top/100% calc(100% - 6px) no-repeat}
+.paper .row{display:flex;justify-content:space-between;font-variant-numeric:tabular-nums}
+.paper .row b{color:var(--text-1);font-weight:500}
+.paper hr{border:0;border-top:1px dashed var(--border-control);margin:10px 0}
+.paper .total{font:500 15px/1.4 var(--font-mono);color:var(--text-1)}
+.paper .stamp{display:inline-block;margin-top:12px;padding:4px 10px;border:1.5px solid var(--success-ink);color:var(--success-ink);border-radius:6px;font:600 12px/1 var(--font-mono);letter-spacing:.08em}
+.printer-foot{display:flex;justify-content:space-between;align-items:center;padding:16px 4px 18px;font-size:var(--fs-sm);color:var(--text-3)}
+.status{display:inline-flex;align-items:center;gap:8px}
+.status i{width:8px;height:8px;border-radius:50%;background:var(--border-control);transition:background var(--dur-2)}
+.printer[data-state=printing] .status i{background:#b98500} .printer[data-state=done] .status i{background:var(--success-ink)}
+/* features */
+.section{padding:96px 0;border-top:1px solid var(--hairline)}
+.section h2{font-size:clamp(1.75rem,2vw + 1rem,2.5rem);letter-spacing:-.022em;line-height:1.1;font-weight:500;max-width:22ch}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:48px}
+.tray{background:var(--surface-2);border-radius:22px;padding:8px;display:flex;flex-direction:column}
+.tray header{position:static;background:none;backdrop-filter:none;border:0;display:flex;justify-content:space-between;padding:10px 12px 12px;font:500 12px/1 var(--font-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--text-3)}
+.card{background:var(--canvas);border-radius:14px;padding:22px;box-shadow:var(--shadow-2);flex:1;display:flex;flex-direction:column}
+.card .metric{margin-top:auto!important;padding-top:20px}  /* 22 − 8 = 14: nested radius */
+.card h3{font-size:var(--fs-md);font-weight:500;letter-spacing:-.01em;margin-bottom:8px}
+.card p{color:var(--text-2);font-size:15px}
+.card .metric{font-size:40px;line-height:1;letter-spacing:-.03em;font-weight:500;margin-top:20px;color:var(--text-1)}
+.num{font-variant-numeric:tabular-nums}
+.card .metric small{font-size:20px;color:var(--text-3);margin-left:2px;letter-spacing:-.01em}
+footer{border-top:1px solid var(--hairline);padding:40px 0 56px;color:var(--text-3);font-size:var(--fs-sm)}
+footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr;padding-block:64px}
+  .grid3{grid-template-columns:1fr}
+  .nav ul,.nav .btn-primary{display:none}
+  .menu-btn{display:inline-flex;margin-left:auto}
+  .paper{font-size:11.5px;padding:14px 12px 18px}.paper .row b{white-space:nowrap}.paper-clip{margin:0 6px}
+  .printer-foot{flex-direction:column;align-items:flex-start;gap:4px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{transition-duration:120ms!important;transition-property:opacity,color,background-color,border-color!important;animation:none!important}
+  .paper-clip{height:auto!important}
+  .paper .stamp{transition:opacity 120ms!important}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#" aria-label="Tally home"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="#111113"/><path d="M8 9h8M12 9v7" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg>Tally</a>
+    <nav aria-label="Primary"><ul><li><a href="#features">Product</a></li><li><a href="#pricing">Pricing</a></li><li><a href="#">Customers</a></li><li><a href="#">Docs</a></li></ul></nav>
+    <a class="btn btn-primary" href="#start">Start free</a>
+    <button class="btn btn-ghost menu-btn" aria-label="Open menu" aria-expanded="false">Menu</button>
+  </div>
+</header>
+<main id="main">
+  <section class="wrap hero" aria-labelledby="h">
+    <div>
+      <p class="eyebrow"><i aria-hidden="true"></i> 2,418 invoices settled today</p>
+      <h1 id="h">Invoices that settle themselves.<br><span>Chased, matched, filed.</span></h1>
+      <p class="lead">Tally matches every payment to its invoice the moment it lands, chases what's late in your voice, and files a receipt your accountant can read.</p>
+      <div class="cta">
+        <button class="btn btn-primary" id="print" aria-describedby="printer-status">Settle a sample invoice <kbd aria-hidden="true">↵</kbd></button>
+        <a class="btn btn-ghost" href="#features">See how it works</a>
+      </div>
+      <p class="proof">Average time to reconcile: <strong class="num">4.2 s</strong> · used by <strong class="num">11,900</strong> studios</p>
+    </div>
+    <div class="printer" data-state="idle" aria-label="Receipt preview">
+      <div class="slot" aria-hidden="true"></div>
+      <div class="paper-clip" id="clip">
+        <div class="paper" id="paper" aria-live="polite">
+          <div class="row"><span>INV-0428 · Northwind Studio</span><span>15 Sep</span></div>
+          <hr>
+          <div class="row"><span>Brand identity, phase 2</span><b class="num">$4,800.00</b></div>
+          <div class="row"><span>Motion system (12 h × $95)</span><b class="num">$1,140.00</b></div>
+          <div class="row"><span>VAT 20%</span><b class="num">$1,188.00</b></div>
+          <hr>
+          <div class="row total"><span>Paid</span><span class="num">$7,128.00</span></div>
+          <span class="stamp">SETTLED 15 SEP 09:41</span>
+        </div>
+      </div>
+      <div class="printer-foot"><span class="status" id="printer-status"><i aria-hidden="true"></i><span id="status-text">Payment received — press settle</span></span><span class="num">Stripe · ••4242</span></div>
+    </div>
+  </section>
+
+  <section class="section" id="features" aria-labelledby="f">
+    <div class="wrap">
+      <h2 id="f">Three jobs you'll stop doing on Friday afternoons.</h2>
+      <div class="grid3">
+        <div class="tray"><header><span>01 Match</span><span>auto</span></header>
+          <div class="card"><h3>Payments find their invoice</h3><p>Bank and card payments are matched by amount, reference and payer — partials included.</p><p class="metric num">98.6<small>%</small></p></div></div>
+        <div class="tray"><header><span>02 Chase</span><span>3 sent</span></header>
+          <div class="card"><h3>Reminders in your voice</h3><p>Polite on day 3, firmer on day 14. Every message is editable and pauses when the client replies.</p><p class="metric num">−11<small> days</small></p></div></div>
+        <div class="tray"><header><span>03 File</span><span>synced</span></header>
+          <div class="card"><h3>Receipts your accountant can read</h3><p>Each settlement exports to Xero or QuickBooks with the invoice, payment and fees attached.</p><p class="metric num">0<small> spreadsheets</small></p></div></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap"><span>© 2026 Tally Ledger Ltd.</span><span><a href="#">Privacy</a> · <a href="#">Security</a> · <a href="#">Status</a></span></div></footer>
+<script>
+const btn = document.getElementById('print'), clip = document.getElementById('clip'), paper = document.getElementById('paper');
+const box = document.querySelector('.printer'), text = document.getElementById('status-text');
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+btn.addEventListener('click', () => {
+  if (box.dataset.state === 'printing') return;
+  box.dataset.state = 'printing'; btn.setAttribute('aria-busy','true'); btn.firstChild.textContent = 'Settling… ';
+  text.textContent = 'Printing receipt';
+  clip.style.setProperty('--paper-h', paper.offsetHeight + 'px');
+  setTimeout(() => { box.dataset.state = 'done'; btn.removeAttribute('aria-busy'); btn.firstChild.textContent = 'Settled ';
+    text.textContent = 'Settled · $7,128.00'; }, reduce ? 0 : 600);
+});
+</script>
+</body>
+</html>

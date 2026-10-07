@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fieldnote — brand standards</title>
+<!-- Direction: Editorial Warm base + ONE expressive layer (type-as-image hero). Brand-page anatomy from references/brand-system-template.md:
+     numbered chapters, rule → spec (mono) → proof → do/don't → copy action; swatches print computed contrast + AA badges. -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --canvas:#f6f3ee; --surface-1:#efebe4; --surface-2:#e6e0d6; --ink-band:#1c1917;
+  --hairline:rgb(28 25 23/.12); --border-control:#857c74;
+  --text-1:#1c1917; --text-2:#57534e; --text-3:#6b645e; --on-ink:#f6f3ee; --on-ink-2:#c9c2b8;
+  --accent:#b3401f; --on-accent:#ffffff; --danger:#a3271b;
+  --font-display:"Instrument Serif",Georgia,serif; --font-sans:"Inter",ui-sans-serif,system-ui,sans-serif; --font-mono:"JetBrains Mono",ui-monospace,monospace;
+  --radius-1:4px; --radius-2:10px; --radius-pill:9999px;
+  --dur-1:120ms; --dur-2:200ms; --ease-out:cubic-bezier(.2,.8,.2,1);
+  --focus-ring:0 0 0 2px var(--canvas),0 0 0 4px var(--text-1);
+  --margin:clamp(16px,6vw,104px);
+}
+*{box-sizing:border-box;margin:0}
+body{font:400 17px/1.55 var(--font-sans);background:var(--canvas);color:var(--text-1);-webkit-font-smoothing:antialiased}
+:focus-visible{outline:none;box-shadow:var(--focus-ring)}
+a{color:inherit}
+.mono{font:500 12px/1.3 var(--font-mono);letter-spacing:.08em;text-transform:uppercase}
+header.top{display:flex;justify-content:space-between;align-items:center;padding:20px var(--margin);border-bottom:1px solid var(--hairline);position:sticky;top:0;background:rgb(246 243 238/.92);backdrop-filter:blur(10px);z-index:5}
+header.top nav{display:flex;gap:4px;overflow-x:auto}
+header.top nav a{display:inline-flex;align-items:center;min-height:44px;padding:0 10px;text-decoration:none;color:var(--text-2);white-space:nowrap}
+header.top nav a:hover{color:var(--text-1)}
+.hero{padding:clamp(56px,10vw,140px) var(--margin) 64px;display:grid;grid-template-columns:repeat(12,1fr);gap:24px;border-bottom:1px solid var(--hairline)}
+.hero h1{grid-column:1/-1;font:400 clamp(4rem,13vw,13rem)/.86 var(--font-display);letter-spacing:-.035em}
+.hero h1 em{color:var(--accent)}
+.hero .meta{grid-column:1/5;margin-top:40px;color:var(--text-3)}
+.hero .idea{grid-column:6/12;margin-top:40px;font:400 clamp(1.35rem,1.2vw + 1rem,1.9rem)/1.3 var(--font-display);letter-spacing:-.01em;max-width:30ch}
+section.ch{padding:96px var(--margin);border-bottom:1px solid var(--hairline);display:grid;grid-template-columns:repeat(12,1fr);gap:24px}
+.ch > .head{grid-column:1/4}
+.ch > .body{grid-column:4/-1}
+.ch h2{font:400 clamp(2.25rem,3vw + 1rem,3.5rem)/1 var(--font-display);letter-spacing:-.02em;margin-top:12px}
+.rule{font:400 clamp(1.4rem,1vw + 1rem,1.85rem)/1.3 var(--font-display);max-width:34ch}
+.spec{color:var(--text-3);margin-top:12px}
+/* swatches */
+.swatches{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px}
+.sw{border-radius:var(--radius-2);overflow:hidden;border:1px solid var(--hairline);background:var(--canvas)}
+.sw .chip{aspect-ratio:4/3;padding:14px;display:flex;flex-direction:column;justify-content:space-between}
+.sw .chip b{font:400 28px/1 var(--font-display)}
+.sw dl{padding:14px;display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font:400 13px/1.4 var(--font-mono)}
+.sw dt{color:var(--text-3)} .sw dd{margin:0;font-variant-numeric:tabular-nums}
+.badge{display:inline-flex;align-items:center;gap:6px;height:22px;padding:0 8px;border-radius:var(--radius-pill);font:500 12px/1 var(--font-mono);border:1px solid currentColor;width:max-content}
+.copy{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;margin:0 14px 14px;border-radius:var(--radius-pill);border:1px solid var(--border-control);background:transparent;font:500 13px/1 var(--font-sans);color:var(--text-1);cursor:pointer;transition:background var(--dur-1) var(--ease-out)}
+.copy:hover{background:var(--surface-1)}
+/* type scale */
+.scale{margin-top:40px;border-top:1px solid var(--hairline)}
+.scale div{display:grid;grid-template-columns:180px 1fr;gap:24px;align-items:baseline;padding:18px 0;border-bottom:1px solid var(--hairline)}
+.scale .s{color:var(--text-3)}
+/* logo */
+.logo-proof{margin-top:40px;display:grid;grid-template-columns:1.4fr 1fr;gap:16px}
+.stage{border-radius:var(--radius-2);background:var(--surface-1);display:grid;place-items:center;padding:56px;position:relative;min-height:300px}
+.mark{font:400 64px/1 var(--font-display);letter-spacing:-.03em;position:relative;padding:28px;outline:1px dashed var(--border-control);outline-offset:0}
+.mark::after{content:"x";position:absolute;top:4px;left:8px;font:500 12px/1 var(--font-mono);color:var(--text-3)}
+.donts{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.dont{border-radius:var(--radius-2);background:var(--surface-1);display:grid;place-items:center;min-height:144px;position:relative;overflow:hidden;font:400 32px/1 var(--font-display)}
+.dont::before{content:"";position:absolute;inset:-20%;background:linear-gradient(to top right,transparent calc(50% - 1px),var(--danger) calc(50% - 1px) calc(50% + 1px),transparent calc(50% + 1px))}
+.dont figcaption{position:absolute;bottom:10px;left:12px;font:500 12px/1.2 var(--font-mono);color:var(--text-2);background:var(--surface-1);padding:2px 4px}
+.band{background:var(--ink-band);color:var(--on-ink)}
+.band .spec,.band .mono.k{color:var(--on-ink-2)}
+footer{padding:40px var(--margin);color:var(--text-3)}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink-band);color:var(--on-ink);padding:10px 16px;border-radius:var(--radius-pill);opacity:0;transition:opacity var(--dur-2) var(--ease-out);pointer-events:none}
+.toast[data-show]{opacity:1}
+@media (max-width:900px){
+  .hero .meta,.hero .idea,.ch > .head,.ch > .body{grid-column:1/-1}
+  .swatches{grid-template-columns:1fr 1fr}.logo-proof{grid-template-columns:1fr}.scale div{grid-template-columns:1fr;gap:4px}
+}
+@media (prefers-reduced-motion:reduce){*{transition-duration:120ms!important}}
+</style>
+</head>
+<body>
+<header class="top">
+  <a href="#" class="mono" style="text-decoration:none">Fieldnote · Standards v2.1</a>
+  <nav aria-label="Chapters"><a href="#colour">01 Colour</a><a href="#type">02 Type</a><a href="#logo">03 Logo</a></nav>
+</header>
+<main>
+  <section class="hero" aria-labelledby="h">
+    <h1 id="h">Field<em>note</em></h1>
+    <p class="meta mono">Brand standards · updated 07 Oct 2026 · owner: design@fieldnote.co</p>
+    <p class="idea">A notebook for people who measure the world: precise enough for a lab, warm enough for a kitchen table.</p>
+  </section>
+
+  <section class="ch" id="colour" aria-labelledby="c">
+    <div class="head"><p class="mono" style="color:var(--text-3)">01</p><h2 id="c">Colour</h2></div>
+    <div class="body">
+      <p class="rule">Paper and ink carry 90% of every surface. Rust is a signal, never a field — one use per view.</p>
+      <p class="spec mono">Proportion 70 paper · 20 ink · 10 rust — every pair below is computed (WCAG 2.2)</p>
+      <div class="swatches">
+        <article class="sw"><div class="chip" style="background:#f6f3ee;color:#1c1917"><span class="mono">Paper</span><b>Aa</b></div>
+          <dl><dt>HEX</dt><dd>#F6F3EE</dd><dt>Ink on it</dt><dd>15.8:1</dd><dt>Use</dt><dd>canvas</dd></dl><span class="badge" style="margin:0 14px 10px;color:#2f6b3a">AAA ✓</span><br><button class="copy" data-hex="#F6F3EE">Copy hex</button></article>
+        <article class="sw"><div class="chip" style="background:#1c1917;color:#f6f3ee"><span class="mono">Ink</span><b>Aa</b></div>
+          <dl><dt>HEX</dt><dd>#1C1917</dd><dt>Paper on it</dt><dd>15.8:1</dd><dt>Use</dt><dd>text, bands</dd></dl><span class="badge" style="margin:0 14px 10px;color:#2f6b3a">AAA ✓</span><br><button class="copy" data-hex="#1C1917">Copy hex</button></article>
+        <article class="sw"><div class="chip" style="background:#b3401f;color:#ffffff"><span class="mono">Rust</span><b>Aa</b></div>
+          <dl><dt>HEX</dt><dd>#B3401F</dd><dt>White on it</dt><dd>5.7:1</dd><dt>Use</dt><dd>signal only</dd></dl><span class="badge" style="margin:0 14px 10px;color:#2f6b3a">AA ✓</span><br><button class="copy" data-hex="#B3401F">Copy hex</button></article>
+        <article class="sw"><div class="chip" style="background:#e6e0d6;color:#57534e"><span class="mono">Clay</span><b>Aa</b></div>
+          <dl><dt>HEX</dt><dd>#E6E0D6</dd><dt>Stone on it</dt><dd>5.9:1</dd><dt>Use</dt><dd>surfaces</dd></dl><span class="badge" style="margin:0 14px 10px;color:#2f6b3a">AA ✓</span><br><button class="copy" data-hex="#E6E0D6">Copy hex</button></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="ch" id="type" aria-labelledby="t">
+    <div class="head"><p class="mono" style="color:var(--text-3)">02</p><h2 id="t">Type</h2></div>
+    <div class="body">
+      <p class="rule">Instrument Serif speaks; Inter explains; JetBrains Mono measures. Serif only at 32px and above.</p>
+      <div class="scale">
+        <div><span class="s mono">Display 96 / 0.9 / −3.5%</span><span style="font:400 clamp(3rem,6vw,6rem)/.9 var(--font-display);letter-spacing:-.035em">Observe</span></div>
+        <div><span class="s mono">Heading 40 / 1.05 / −2%</span><span style="font:400 40px/1.05 var(--font-display);letter-spacing:-.02em">Notes from the field</span></div>
+        <div><span class="s mono">Body 17 / 1.55 / 0</span><span style="max-width:60ch">Write what you saw before what you think. Numbers get units; units get a space.</span></div>
+        <div><span class="s mono">Data 12 / 1.3 / +8%</span><span class="mono">Temp 21.4 °C · RH 48 % · 07 Oct 09:41</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ch band" id="logo" aria-labelledby="l">
+    <div class="head"><p class="mono k">03</p><h2 id="l">Logo</h2></div>
+    <div class="body">
+      <p class="rule">Clearspace is one x — the height of the wordmark's “o”. Minimum width 72 px on screen, 18 mm in print.</p>
+      <div class="logo-proof">
+        <div class="stage"><span class="mark" style="color:var(--text-1)">Fieldnote</span></div>
+        <div class="donts">
+          <figure class="dont" style="color:var(--text-1)"><span style="transform:scaleX(1.4)">Fn</span><figcaption>Don't stretch</figcaption></figure>
+          <figure class="dont" style="color:#2747d6"><span>Fn</span><figcaption>Don't recolour</figcaption></figure>
+          <figure class="dont" style="color:var(--text-1)"><span style="transform:rotate(-12deg)">Fn</span><figcaption>Don't rotate</figcaption></figure>
+          <figure class="dont" style="color:var(--text-1)"><span style="text-shadow:0 6px 10px rgb(0 0 0/.4)">Fn</span><figcaption>Don't add effects</figcaption></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="mono">© 2026 Fieldnote Instruments · Questions: design@fieldnote.co · Changelog v2.1 — rust reserved for signals</footer>
+<div class="toast" role="status" aria-live="polite" id="toast"></div>
+<script>
+const toast = document.getElementById('toast');
+document.querySelectorAll('.copy').forEach(b => b.addEventListener('click', async () => {
+  try { await navigator.clipboard.writeText(b.dataset.hex); } catch {}
+  toast.textContent = 'Copied ' + b.dataset.hex; toast.toggleAttribute('data-show', true); setTimeout(() => toast.removeAttribute('data-show'), 1800);
+}));
+</script>
+</body>
+</html>
