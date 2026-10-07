@@ -1,9 +1,9 @@
 # Audit: file:///home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-2/with_skill/outputs/index.html
 
-**Hard gates:** FAIL → noOverflow390
+**Hard gates:** all pass
 
 - ✓ contrast: {"fails":0,"note":"text over background-images is listed but must be verified visually"}
-- ✗ noOverflow390: {"overflowPx":264}
+- ✓ noOverflow390: {"overflowPx":0}
 - ✓ focusVisible: {"stops":12,"invisible":[]}
 - ✓ reducedMotion: {"normal":0,"reduced":0,"hasMediaQuery":true}
 - ✓ minTextSize: {"tiny":[]}

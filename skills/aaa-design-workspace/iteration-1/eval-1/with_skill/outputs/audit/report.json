@@ -50,21 +50,8 @@
    "hasMediaQuery": true
   },
   "minTextSize": {
-   "pass": false,
-   "tiny": [
-    {
-     "text": "Wed 9:00 AM",
-     "size": 11
-    },
-    {
-     "text": "Appt #4821",
-     "size": 11
-    },
-    {
-     "text": "Pending",
-     "size": 11
-    }
-   ]
+   "pass": true,
+   "tiny": []
   },
   "altAndNames": {
    "pass": true,
@@ -79,20 +66,7 @@
  ],
  "textNodes": 96,
  "contrastFails": [],
- "tiny": [
-  {
-   "text": "Wed 9:00 AM",
-   "size": 11
-  },
-  {
-   "text": "Appt #4821",
-   "size": 11
-  },
-  {
-   "text": "Pending",
-   "size": 11
-  }
- ],
+ "tiny": [],
  "fontFamilies": [
   "Inter",
   "Arial",
@@ -167,7 +141,5 @@
   "normal": 0,
   "reduced": 0
  },
- "hardFails": [
-  "minTextSize"
- ]
+ "hardFails": []
 }

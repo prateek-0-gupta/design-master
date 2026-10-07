@@ -2,7 +2,7 @@
  "url": "file:///home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-2/with_skill/outputs/index.html",
  "widths": {
   "390": {
-   "overflowPx": 264,
+   "overflowPx": 0,
    "smallTargets": [
     {
      "el": "<button role=\"tab\" id=\"tab-all\" aria-selected=\"true\" tabindex=\"0\" data",
@@ -55,8 +55,8 @@
    "note": "text over background-images is listed but must be verified visually"
   },
   "noOverflow390": {
-   "pass": false,
-   "overflowPx": 264
+   "pass": true,
+   "overflowPx": 0
   },
   "focusVisible": {
    "pass": true,
@@ -156,7 +156,5 @@
   "normal": 0,
   "reduced": 0
  },
- "hardFails": [
-  "noOverflow390"
- ]
+ "hardFails": []
 }

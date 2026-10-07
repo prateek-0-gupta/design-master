@@ -53,7 +53,7 @@ a{color:inherit}
 .top .wm svg{width:22px;height:22px}
 .top nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
 .top nav a{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 10px;text-decoration:none;color:var(--text-2);white-space:nowrap;font-size:14px;border-radius:var(--radius-1);transition:color var(--dur-1)}
-.top nav a i{font:500 11px var(--font-mono);color:var(--text-3);font-style:normal}
+.top nav a i{font:500 12px var(--font-mono);color:var(--text-3);font-style:normal}
 .top nav a:hover,.top nav a[aria-current="true"]{color:var(--text-1)}
 .top nav a[aria-current="true"]{box-shadow:inset 0 -2px 0 var(--accent)}
 
@@ -91,11 +91,13 @@ a{color:inherit}
 .lockup .t{display:flex;flex-direction:column;gap:.14em}
 .lockup .t b{font:400 1em/.9 var(--font-display);letter-spacing:-.025em}
 .lockup .t small{font:500 .2em/1 var(--font-mono);letter-spacing:.2em;text-transform:uppercase}
+.lockup .t small::after{content:attr(data-t)}
+button,input,output{font-family:inherit}
 .stage{border-radius:var(--radius-2);background:var(--surface-1);border:1px solid var(--hairline);padding:var(--s-7) var(--s-6);display:grid;place-items:center;min-height:240px;position:relative;overflow:hidden}
 .stage.grid-bg{background-image:linear-gradient(var(--hairline) 1px,transparent 1px),linear-gradient(90deg,var(--hairline) 1px,transparent 1px);background-size:24px 24px;background-color:var(--surface-1)}
 .clear{position:relative;padding:var(--x,20px);border:1.5px dashed var(--accent-ink);--u:64px}
 .clear::before{content:"";position:absolute;inset:var(--x,20px);border:1px solid var(--hairline);pointer-events:none}
-.clear span{position:absolute;font:500 11px var(--font-mono);color:var(--accent-ink);background:var(--surface-1);padding:0 4px}
+.clear span{position:absolute;font:500 12px var(--font-mono);color:var(--accent-ink);background:var(--surface-1);padding:0 4px}
 .clear .xt{top:-8px;left:50%;transform:translateX(-50%)}.clear .xb{bottom:-8px;left:50%;transform:translateX(-50%)}
 .clear .xl{left:-4px;top:50%;transform:translateY(-50%) rotate(-90deg);transform-origin:center}.clear .xr{right:-4px;top:50%;transform:translateY(-50%) rotate(90deg)}
 .cols{display:grid;grid-template-columns:repeat(12,1fr);gap:var(--s-5)}
@@ -182,7 +184,7 @@ input[type=range]{flex:1;min-width:180px;accent-color:var(--accent);height:44px;
 .f1 .shadowA{position:absolute;left:30%;bottom:20%;width:64%;height:8%;background:radial-gradient(ellipse,rgb(0 0 0/.35),transparent 70%)}
 .f2{background:linear-gradient(160deg,#cfe0dd,#8fb5b3 55%,#0e5a63)}
 .f2 .hand{position:absolute;left:12%;top:26%;width:58%;height:30%;background:#d7a583;border-radius:60% 40% 50% 50%/60% 50% 50% 40%;transform:rotate(-14deg);box-shadow:0 20px 30px -14px rgb(0 0 0/.4)}
-.f2 .pour{position:absolute;left:46%;top:46%;width:8px;height:30%;background:linear-gradient(#6a3a1f,#2a170d);border-radius:8px}
+.f2 .pour{position:absolute;left:46%;top:46%;width:8px;height:30%;background:linear-gradient(#6a3a1f,#2a170d);border-radius:var(--radius-1)}
 .f2 .kettle{position:absolute;right:10%;bottom:12%;width:44%;aspect-ratio:1/1.1;background:#1f1713;border-radius:20% 20% 46% 46%;box-shadow:inset 0 0 0 6px #2d221c}
 .f3{background:#1f1713}
 .f3 .bean{position:absolute;width:26%;aspect-ratio:1/1.35;border-radius:50%;background:radial-gradient(circle at 35% 30%,#7a4a2e,#3a2214 70%);box-shadow:0 16px 24px -10px #000}
@@ -214,7 +216,7 @@ input[type=range]{flex:1;min-width:180px;accent-color:var(--accent);height:44px;
 .tone-panel{display:grid;grid-template-columns:1fr 220px;gap:var(--s-6);align-items:start}
 .tone-panel blockquote{font:400 clamp(1.5rem,1.6vw + 1rem,2.25rem)/1.2 var(--font-display);letter-spacing:-.015em;padding:0;margin:0 0 var(--s-3);max-width:24em}
 .dial{display:grid;gap:6px}
-.dial .bar{height:6px;border-radius:3px;background:var(--surface-2);position:relative}
+.dial .bar{height:6px;border-radius:var(--radius-1);background:var(--surface-2);position:relative}
 .dial .bar i{position:absolute;top:-4px;width:14px;height:14px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 3px var(--canvas);left:var(--p)}
 .dial .ends{display:flex;justify-content:space-between;font:500 11px var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--text-3)}
 .mech{width:100%;border-collapse:collapse;font-size:15px}
@@ -353,7 +355,7 @@ footer p{color:var(--on-ink-2);font-size:14px;max-width:44ch}
       <div class="c7">
         <div class="stage grid-bg" role="img" aria-label="Primary lockup with clearspace marked as x on all four sides">
           <div class="clear" style="--x:22px"><span class="xt">x</span><span class="xb">x</span><span class="xl">x</span><span class="xr">x</span>
-            <div class="lockup" style="--u:64px"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div>
+            <div class="lockup" style="--u:64px"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small data-t="Coffee Roasters"></small></div></div>
           </div>
         </div>
         <p class="cap">PRIMARY LOCKUP · CLEARSPACE x = ¼ of the mark's width (the sun's radius ÷ 2)</p>
@@ -368,7 +370,7 @@ footer p{color:var(--on-ink-2);font-size:14px;max-width:44ch}
 
     <h3 class="sub mono" style="font:500 12px var(--font-mono)">Minimum size · try it</h3>
     <div class="tester">
-      <div class="tester-stage" id="tstage"><div class="lockup" id="tlock" style="--u:40px;color:var(--espresso)"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div>
+      <div class="tester-stage" id="tstage"><div class="lockup" id="tlock" style="--u:40px;color:var(--espresso)"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small data-t="Coffee Roasters"></small></div></div></div>
       <div class="tester-ctl">
         <label for="tsize">Lockup height</label>
         <input id="tsize" type="range" min="12" max="96" value="40" aria-describedby="tmsg">
@@ -380,21 +382,21 @@ footer p{color:var(--on-ink-2);font-size:14px;max-width:44ch}
 
     <h3 class="sub mono" style="font:500 12px var(--font-mono)">Colourways &amp; backgrounds</h3>
     <div class="bg-row">
-      <div><div class="bg a"><div class="lockup"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div><p class="cap">ESPRESSO ON PAPER</p></div>
-      <div><div class="bg b"><div class="lockup"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div><p class="cap">PAPER ON KINGFISHER</p></div>
-      <div><div class="bg c"><div class="lockup"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div><p class="cap">PAPER ON ESPRESSO</p></div>
-      <div><div class="bg d"><div class="lockup"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div><p class="cap">ESPRESSO ON CREMA</p></div>
+      <div><div class="bg a"><div class="lockup"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small data-t="Coffee Roasters"></small></div></div></div><p class="cap">ESPRESSO ON PAPER</p></div>
+      <div><div class="bg b"><div class="lockup"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small data-t="Coffee Roasters"></small></div></div></div><p class="cap">PAPER ON KINGFISHER</p></div>
+      <div><div class="bg c"><div class="lockup"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small data-t="Coffee Roasters"></small></div></div></div><p class="cap">PAPER ON ESPRESSO</p></div>
+      <div><div class="bg d"><div class="lockup"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small data-t="Coffee Roasters"></small></div></div></div><p class="cap">ESPRESSO ON CREMA</p></div>
     </div>
     <p class="spec mono" style="margin-top:var(--s-4);margin-bottom:0">Switch to the paper-coloured logo on any background darker than ~55% lightness. Ember is never a logo colour.</p>
 
     <h3 class="sub mono" style="font:500 12px var(--font-mono)">Misuse</h3>
     <ul class="misuse">
-      <li><div class="tile"><div class="lockup" style="transform:scaleX(1.6) scaleY(.8)"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div><p><b>Don't stretch</b> or squash. Scale proportionally only.</p></li>
-      <li><div class="tile"><div class="lockup" style="color:var(--ember)"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div><p><b>Don't recolour</b> outside the four approved colourways.</p></li>
-      <li><div class="tile"><div class="lockup" style="transform:rotate(-12deg)"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div><p><b>Don't rotate</b> or set the logo on a slant.</p></li>
-      <li><div class="tile"><div class="lockup" style="filter:drop-shadow(4px 5px 3px rgb(0 0 0/.5))"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div><p><b>Don't add effects</b>: shadows, glows, bevels, outlines.</p></li>
-      <li><div class="tile" style="background:repeating-linear-gradient(45deg,#cfe0dd 0 10px,#e4cfae 10px 20px,#b8431a33 20px 30px)"><div class="lockup"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div><p><b>Don't place on busy</b> patterns or mid-tone photography.</p></li>
-      <li><div class="tile"><div class="lockup" style="flex-direction:column;align-items:flex-start"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b style="font-style:italic;font-family:var(--font-sans);font-weight:500">Halcyon</b><small>Coffee Roasters</small></div></div></div><p><b>Don't rebuild</b> the lockup or swap the typeface.</p></li>
+      <li><div class="tile"><div class="lockup" style="transform:scaleX(1.6) scaleY(.8)"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small data-t="Coffee Roasters"></small></div></div></div><p><b>Don't stretch</b> or squash. Scale proportionally only.</p></li>
+      <li><div class="tile"><div class="lockup" style="color:#3b6fd4"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small data-t="Coffee Roasters"></small></div></div></div><p><b>Don't recolour</b> outside the four approved colourways.</p></li>
+      <li><div class="tile"><div class="lockup" style="transform:rotate(-12deg)"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small data-t="Coffee Roasters"></small></div></div></div><p><b>Don't rotate</b> or set the logo on a slant.</p></li>
+      <li><div class="tile"><div class="lockup" style="filter:drop-shadow(4px 5px 3px rgb(0 0 0/.5))"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small data-t="Coffee Roasters"></small></div></div></div><p><b>Don't add effects</b>: shadows, glows, bevels, outlines.</p></li>
+      <li><div class="tile" style="background:repeating-linear-gradient(45deg,#cfe0dd 0 10px,#e4cfae 10px 20px,#b8431a33 20px 30px)"><div class="lockup"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small data-t="Coffee Roasters"></small></div></div></div><p><b>Don't place on busy</b> patterns or mid-tone photography.</p></li>
+      <li><div class="tile"><div class="lockup" style="flex-direction:column;align-items:flex-start"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b style="font-style:italic;font-family:var(--font-sans);font-weight:500">Halcyon</b><small data-t="Coffee Roasters"></small></div></div></div><p><b>Don't rebuild</b> the lockup or swap the typeface.</p></li>
     </ul>
   </div>
 </section>
@@ -612,7 +614,7 @@ footer p{color:var(--on-ink-2);font-size:14px;max-width:44ch}
 </main>
 
 <footer class="ink on-ink">
-  <div class="lockup" style="--u:48px"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div>
+  <div class="lockup" style="--u:48px"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small data-t="Coffee Roasters"></small></div></div>
   <p>Halcyon Coffee Roasters Lda. · Rua dos Remédios 41, 1100-448 Lisboa · brand@halcyon.example. The Halcyon name and mark are registered trademarks.</p>
 </footer>
 

@@ -1,12 +1,12 @@
 # Audit: file:///home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-1/with_skill/outputs/index.html
 
-**Hard gates:** FAIL → minTextSize
+**Hard gates:** all pass
 
 - ✓ contrast: {"fails":0,"note":"text over background-images is listed but must be verified visually"}
 - ✓ noOverflow390: {"overflowPx":0}
 - ✓ focusVisible: {"stops":12,"invisible":[]}
 - ✓ reducedMotion: {"normal":0,"reduced":0,"hasMediaQuery":true}
-- ✗ minTextSize: {"tiny":[{"text":"Wed 9:00 AM","size":11},{"text":"Appt #4821","size":11},{"text":"Pending","size":11}]}
+- ✓ minTextSize: {"tiny":[]}
 - ✓ altAndNames: {"imgsWithoutAlt":0,"unnamedControls":[]}
 
 **Warnings:**

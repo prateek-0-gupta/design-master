@@ -402,7 +402,7 @@ function draw(){
  const peak=rev.indexOf(Math.max(...rev));
  let s=`<defs><linearGradient id="ag" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#5a2a6b" stop-opacity=".16"/><stop offset="1" stop-color="#5a2a6b" stop-opacity="0"/></linearGradient></defs>`;
  ticks.forEach(t=>{s+=`<line class="grid" x1="${pad.l}" x2="${W-pad.r}" y1="${Y(t)}" y2="${Y(t)}"/><text x="${pad.l-8}" y="${Y(t)+4}" text-anchor="end">${t?'$'+(t/1000).toFixed(1)+'k':'0'}</text>`});
- [0,7,14,21,29].forEach(i=>{s+=`<text x="${X(i)}" y="${H-6}" text-anchor="${i==0?'start':i==29?'end':'middle'}">${dm(dayLabel(i))}</text>`});
+ (W<520?[0,14,29]:[0,7,14,21,29]).forEach(i=>{s+=`<text x="${X(i)}" y="${H-6}" text-anchor="${i==0?'start':i==29?'end':'middle'}">${dm(dayLabel(i))}</text>`});
  s+=`<path class="area" d="${path(rev)}L${X(days-1)},${Y(0)}L${X(0)},${Y(0)}Z"/>`;
  s+=`<path class="prior" d="${path(pr)}"/>`;
  s+=`<path class="line${animated||reduce?'':' draw'}" id="ln" d="${path(rev)}"/>`;
