@@ -1,0 +1,2204 @@
+             Version 1.0
+
+
+
+
+Brand
+guidelines
+Discord brand guidelines
+
+
+
+
+Welcome to a
+little place we
+like to call The
+Discord Brand
+Guidelines.
+Please keep your hands within the document at all time as we
+
+
+guide you through the basic elements of our identity system and
+
+
+explain how we use them to build our brand. Understanding and
+
+
+adhering to these guidelines will be essential for maintaining a
+
+
+consistent, unforgettable and meaningful experience of Discord.
+Index
+
+
+ 01
+ INtroduction
+                              02
+                              LogO, symbol,  
+                                                         03
+                                                         Brand Colors
+                                                                                        04
+                                                                                        Typography
+                                                                                                                     05
+                                                                                                                     Brand in use
+                              Wordmark & tagline
+ What is Discord?        5    The Logo             14    Discord Blurple          27    Typefaces              41    Brand Lines        54 
+ Mission                 7    Logo Clear Space     15    Brand Color Palette      28    Typestyles             42    Community Lines    58 
+ Vision                  8    The Icon: Clyde      16    Applying Colors          29    Line Heights           43    User Quotes        61 
+ Positioning             9    Clyde Expressions    17    Color Pairings           30    Text Lockups           46    Chat Dialog        64 
+ Tone of Voice          10    Wordmark             18    Color Schemes            32    Styling User Quotes    48    Audio Dialog       65 
+ Messaging Variations   12    Placement            19    User Interface Colors    35    Placement              49    End Cards          67 
+                              Usage                23    Usage                    36    Usage                  50    Stationery         69
+                                                                                        3D Type                52
+01
+Introduction
+                                                        01 INTRODUCTION / WHAT IS DISCORD
+
+
+
+
+                                                             A place to  
+                                                         be yourself?
+
+
+
+                                                                                                                             A place to
+                   Friendship?
+                                                                                                                             hang out?
+
+
+
+
+          THE OPPOSITE
+                                                                                                           A Community?
+          OF CONCORD?
+
+
+                          WHAT IS
+                          DISCORD?
+                                                   Discord is a million things. And that’s okay! 
+
+
+                                                  Just like our users, we cannot be put in a box.   
+            Sandwich?                                                                                                                     Life?
+
+                            Discord is what you bring to it. It’s like a potluck, online, but not a meal. And you share it
+
+
+                             with friends, but also some friends of friends you just met, and you’re like “she’s cool”.
+
+
+
+
+                   AN Escape?                                                                                                 Home?
+Discord
+
+
+
+
+                                                          Everything?
+
+5
+                                   01 INTRODUCTION / WHAT IS DISCORD
+
+
+
+
+          IMAGINE  
+          A PLACE
+           In a world of polarization, curation, and loneliness, we believe in the value of genuine human
+
+
+          connection. Our ambition is to make Discord a truly human place: Inclusive, generous and open.
+
+Discord
+
+
+
+
+6
+                                                                             01 INTRODUCTION / Mission
+          02 BRAND DESIGN PRINCIPLES
+
+          A brand  
+          design system
+          directly
+          inspired by the
+          product.
+
+
+                Create space
+          We’ve extracted the shapes from the product in order to set
+          guidance for how we visually create our communications.
+
+
+
+
+
+
+                for everyone
+          Users can visually be articulated as a community when they
+          are presented in a group of profile pictures (circles). We also
+          want to make sure to take cues from platform to show the
+          state of the user in focus.
+
+
+
+
+
+
+                   to find
+          Bringing to life the vast diversity of communities on Discord.
+
+
+
+          The users are behind the content.
+
+
+ 
+
+
+
+
+                 belonging.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+          elementum diam malesuada sed feugiat sit id magna. Congue
+          laoreet aenean eleifend odio laoreet commodo. Et sem amet
+          rhoncus nam adipiscing tristique. Cras vulputate enim id
+          elementum sed vel.
+Discord
+
+
+
+
+  7
+                                                                             01 INTRODUCTION / Vision
+          02 BRAND DESIGN PRINCIPLES
+
+          A brand  
+          design system
+          directly
+          inspired by the
+          product.
+
+               An inclusive
+               world where
+          We’ve extracted the shapes from the product in order to set
+          guidance for how we visually create our communications.
+
+
+
+          Users can visually be articulated as a community when they
+          are presented in a group of profile pictures (circles). We also
+
+
+
+
+               no one feels
+          want to make sure to take cues from platform to show the
+          state of the user in focus.
+
+
+
+          Bringing to life the vast diversity of communities on Discord.
+
+
+
+
+
+
+                  like an
+          The users are behind the content.
+
+
+ 
+
+
+
+
+                outsider.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+          elementum diam malesuada sed feugiat sit id magna. Congue
+          laoreet aenean eleifend odio laoreet commodo. Et sem amet
+          rhoncus nam adipiscing tristique. Cras vulputate enim id
+          elementum sed vel.
+Discord
+
+
+
+
+  8
+                                                                             01 INTRODUCTION / Positioning
+          02 BRAND DESIGN PRINCIPLES
+
+          A brand  
+          design system
+          directly
+          inspired by the
+          product.
+          We’ve extracted the shapes from the product in order to set
+          guidance for how we visually create our communications.
+
+
+
+
+
+
+                        Playfully
+          Users can visually be articulated as a community when they
+          are presented in a group of profile pictures (circles). We also
+          want to make sure to take cues from platform to show the
+          state of the user in focus.
+
+
+
+
+
+
+                       purposeful.
+          Bringing to life the vast diversity of communities on Discord.
+
+
+
+          The users are behind the content.
+
+
+ 
+
+
+
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+          elementum diam malesuada sed feugiat sit id magna. Congue
+          laoreet aenean eleifend odio laoreet commodo. Et sem amet
+          rhoncus nam adipiscing tristique. Cras vulputate enim id
+          elementum sed vel.
+Discord
+
+
+
+
+  9
+          01 INTRODUCTION / TONE OF VOICE
+
+          Imagine a place 
+
+          NARRATED by us
+          Hello intrepid traveler on the road to discovering Discord’s tone
+          and voice.                                                            Protagonist
+
+          As you know Discord is an absolutely awesome place. At any
+          given point, discussions range from whether a hotdog is a
+                                                                              Belonging
+          sandwich, which Pokémon would be the most likely to work at
+          the DMV, whether or not mentos are a real thing, if eating plain
+          toast is a sign of being genius, to regular old homework chat,
+          streaming gameplay and long convos over movies and
+          wholesome talks just about everything. There’s no place like it
+          on the internet and there shouldn’t be any place that sounds
+          like us either. It’s quite a challenge and an honor. 
+
+
+          Which is why when we write, we should “Imagine a Place”
+          where copy feels as unique and interesting as the people,
+          convos, and experiences on Discord. 
+
+
+          But wait! There’s more. (That should be read in a made for TV
+          ad voice).
+
+
+
+                                                                                Antagonist
+
+                                                                              Isolation
+
+                   Download Messaging Guidelines
+Discord
+
+
+
+
+ 10
+          01 INTRODUCTION / TONE OF VOICE
+
+          Brand Values  
+          & Tone of voice
+          If we want the amazing, unique and talented people who use
+          our platform to feel reflected in what we do, then it is
+          important for our copy to do just that. To have our brand
+          values of being playful, original, relatable and reliable really      PLAYFUL    ORIGINAL
+          shine through. 
+
+
+          Playful 
+          We hope to add bits of joy to your life by making the small
+          moments memorable. We want to remind you to have fun and
+          be delighted, even when life gets boring. There’s nothing a little
+          confetti can’t help. 
+
+
+          Original 
+          We love to see what you come up with. Discord was originally
+          built around games, until our users began to do the unexpected.
+          Karaoke nights, math tutoring, podcast recording; we’ve seen
+          endless, surprising fun. We celebrate and cherish the unique
+          perspective every person brings to the world and to Discord. 
+
+
+          Relatable 
+          Every person deserves to feel heard, understood, and
+          appreciated for who they are. We try and express a range of
+          emotions so you feel comfortable talking with us. Let’s
+          celebrate and chat about what you love over a cup of virtual tea.     RELIABLE   RELATABLE
+          Reliable 
+          We listen. We’re honest. We are constantly working to gain
+          your trust. We believe that being dependable, consistent, and
+          acting with integrity is the foundation of great relationships.
+          Our promise is that Discord just works, no matter the time,
+          place, device, or planet you’re on. Maybe not the last one, but
+          we’re aspirational.
+Discord
+
+
+
+
+  11
+          01 INTRODUCTION / TONE OF VOICE
+
+          MESSAGING 
+
+          VARIATIONS
+          In a general sense, our messaging can be divided into three tiers
+                                                                                            We speak the universal feeling
+          that will influence the way we write and which audience we aim
+                                                                              THAT 
+        of Discord with a metaphorical       Imagine you’re an
+          to reflect and connect with: 
+
+
+                                                                              DISCORD 
+     layer that transforms our copy        astronaut and
+                                                                              FEELING       into conversation starters          stumble on others
+          Brand lines
+
+          These lines are the brand speaking. OMG IT’S SENTIENT! Not                        between friends. 
+                 hanging out in space.
+          quite, but written by Discord to support the “Imagine a Place”
+          brand narrative and address the general feeling or features of
+          Discord.  
+
+
+          User quotes
+
+          Community Quotes are… ummm… just that? They’re quotes                             Using community-specific lingo
+          generated from our community in events like Snowsgiving,                          to craft copy with witticism and     IMAGINE A PLACE
+          Workshops and through specific server initiated events. 
+           COMMUNITY 
+   double meaning, making it 
+        WHERE YOU CAN HANG
+          These lines truly reflect the belief that Discord is something      BELONGING
+                                                                                            understood universally 
+           WITH FRIENDS MINUS
+          different to everyone. And that’s OK! Because that means we                       while it nods to the edges. 
+         THE BUNK BEDS.
+          can all find belonging on Discord. 
+
+
+
+
+
+
+                                                                                            Clever and playful twists
+                                                                                            on functional benefits and          Imagine a place to
+                                                                              PRODUCT 
+     core product features,                enjoy cookies
+                                                                              VALUE
+                                                                                            addressing the value it              without spilling
+                                                                                            brings to our user’s lives.             your data.
+
+
+
+                   Download Messaging Guidelines
+Discord
+
+
+
+
+  12
+02
+LogO  
+symbol
+
+Wordmark
+
+tagline
+          02 logo, symbol, wordmark & tagline
+
+          The logo
+             The Discord logo 
+             The Discord logo consists of two elements; the icon (Clyde)
+             and the wordmark. It’s an instantly recognisable brand
+             element and should be represented consistently throughout
+             our product and marketing efforts. The logo should always
+             try to exist with the symbol and wordmark together. In no     1   The Discord Logo
+             way should the logo be modified, distorted, or redrawn
+             The Small Discord Logo 
+             For smaller sizes we have optimized the kerning to increase
+             legibility. This would be used for placement below 
+
+             80px x 15px (60pt x 11.25pt). The Small Discord logo can be
+             found in the logopack.
+
+
+
+
+          Who is Clyde?                                                        ICON: Clyde   The Wordmark
+          The Discord Bot. Clyde is a "bot" integrated into Discord
+          notifying you when you are attempting to do unsupported
+          operations. Clyde is the icon seen in Discord’s logo.
+                                                                           2   The Small Discord Logo
+
+
+
+
+                   Download logo files
+Discord
+
+
+
+
+  14
+          02 logo, symbol, wordmark & tagline
+
+          Logo 
+          Clear space
+          To ensure the right amount of breathing space around the
+          Discord logo the following process should be applied:
+
+
+          Step 1
+
+          Pick the letter ‘o’
+
+
+          Step 2
+                                                    x   x/2
+          Rotate it 90 degrees
+
+
+          Step 2
+
+          Duplicate it
+
+
+          x=
+Discord
+
+
+
+
+  15
+          02 logo, symbol, wordmark & tagline                                1   2
+
+
+          The Icon:
+
+          Clyde
+          We use Clyde as a standalone brand element, as well as part of
+          the logo. By doing so, it creates a strong and distinctive brand
+          symbol. 
+
+
+          Clyde should be used as the reduced form of our logo in tight
+          spaces. Using it associated with blurple, our primary brand
+          color, should always be the favourite option. For any other use
+          cases, a monochrome version is allowed too.
+
+
+          Usage hierarchy
+             White Clyde on a blurple background 
+             Preferred option
+             Blurple Clyde on a white background 
+             To be used when option one is not working out
+                                                                             3   4
+             White Clyde on a black background 
+             Whenever incorporating blurple is not an option, our
+             preferred option is a white version of Clyde on a black
+             background
+             Black Clyde on a white background 
+             Used when a white version of Clyde is not working.
+
+
+
+
+                   Download icon files
+Discord
+
+
+
+
+  16
+          02 logo, symbol, wordmark & tagline
+
+          The Icon:
+
+          Clyde
+          expressions
+          Our icon comes to life as a real character through a range of
+          different facial expressions.
+
+
+          Clyde is able to express a wide range of emotions by only a
+          slight change in the shape of his eyes. What’s Clyde really
+          thinking though? The world may never know.
+
+
+
+
+                   Download icon expressions files
+Discord
+
+
+
+
+  17
+          02 logo, symbol, wordmark & tagline                               1   2
+
+
+          wordmark
+          We prefer to use our logo with Clyde included. However, some
+          use cases will steer you towards the sole use of the wordmark.
+          For example, this may happen when Clyde is used elsewhere in
+          the layout. Here are four ways of using our wordmark
+             White wordmark on a blurple background 
+             Preferred option
+             Blurple wordmark on a white background 
+             To be used when option one is not working out
+             White wordmark on a black background (small version) 
+             Whenever incorporating blurple is not an option, one should
+             always fallback on a white version of the wordmark on a
+             black background.  
+             Note that for smaller sizes we have optimised the kerning to
+             increase legibility. This would be used for placement below    3   4
+             80px 15px (60pt x 11.25pt)
+             Black wordmark on a white background (small version) 
+             Used when a white version of the wordmark is not working.
+
+
+
+
+                   Download wordmark files
+Discord
+
+
+
+
+  18
+          02 logo, symbol, wordmark & tagline
+
+          Placement
+
+                                                                           1   2
+
+
+          logo
+          When it comes to logo placement, we have a few options listed
+          on this page. Whenever’s possible, place the logo centered in
+          the bottom of the layout. However, you might sometimes need
+          to give the rest of the content more space, thus move the logo
+          elsewhere. In this scenario, here are a few examples on how to
+          work with it
+             Portrait 
+             Our default option would be to place our logo in
+             center-bottom of the layout                                   3
+
+             Logo animated 
+             When working with animated and masked compositions,
+             we prefer to combine our tagline and logo in the centre to
+             give them maximum visibility
+             Landscape 
+             When working with a key visual and text on landscape
+             layouts, we prefer to place our logo in the bottom-right
+             corner of the layout
+             Landscape wide 
+             When working with extra wide landscape layouts, we prefer
+             to place our logo to the right, vertically centered.
+                                                                           4
+Discord
+
+
+
+
+  19
+          02 logo, symbol, wordmark & tagline
+
+          Placement
+
+          tagline                                                             1             2              3
+
+
+          We prefer to devide our tagline ‘Imagine a Place’ into two lines.
+          By doing so, it creates a strong and compact visual element.
+          Here are some use cases for how to work with our tagline.                                            Imagine
+                                                                                                                a Place
+             Tagline only (portrait)                                                                            where
+                                                                                  Imagine                      sample
+             When working with the tagline only, place it in the center of
+                                                                                  a Place                        copy
+             the layout                                                                                        becomes
+                                                                                                                 real
+             Tagline and key visual                                                              Imagine
+             When working with the tagline and the creative canvas, the                          a Place
+             content will push the tagline down and place it right above
+             the logo
+                                                                                                           4
+             Tagline integrated with text 
+             The tagline is sometimes integrated into the headline in the     5
+             layout. In this case, the tagline shouldn’t be repeated a
+             second time                                                                                       Imagine
+                                                                                                               a Place
+             Tagline animated                                                          Imagine
+             When working with animated and masked compositions,                       a Place
+             combine tagline and logo in the center to give them
+             maximum visibility
+             Tagline only (landscape)                                         6
+             When working with animated and masked compositions,
+             combine tagline and logo in the center to give them
+             maximum visibility
+                                                                                  Imagine a Place
+             Tagline only (extra wide) 
+             When working with extra wide layouts, put the tagline on
+             one line to ensure the best legibility and to make a bold
+             statement.
+Discord
+
+
+
+
+ 20
+          02 logo, symbol, wordmark & tagline
+
+          placement
+
+          logo &  
+          tagline
+          Whenever the logo and tagline are used together, follow the
+          same grid as the clear space lockup.
+
+
+          The text size of ‘Imagine a Place’ is defined by the x-height of   1       x/2           x
+          the wordmark
+               Vertical logo & tagline Locku
+               Horizontal logo & tagline lockup
+
+
+          The vertical logo and tagline lockup is our default option.                IMAGINE A PLACE
+          However, when working with small heights, use the horizontal           x
+          alternative.
+
+                                                                                     x     x/2     x
+          x=                                                                 2
+
+
+
+                                                                                                       IMAGINE A PLACE
+Discord
+
+
+
+
+  21
+          02 logo, symbol, wordmark & tagline
+
+          placement
+
+          partner &
+          sponsors
+          When combining the Discord logo with other logos, it’s
+          important to make sure there is enough spacing provided
+          between the logos. The logos should be separated by a 1px
+          white stroke                                                1       x   x/2   x   x         x
+
+               Horizontal partnership locku
+               Square Partnership Lockup
+                                                                          x
+          x=
+
+
+
+
+                                                                      2       x   x/2   x   x
+                                                                                                x/2
+
+
+
+
+                                                                          x
+Discord
+
+
+
+
+ 22
+          02 logo, symbol, wordmark & tagline
+
+          usage
+
+          color
+          combinations
+          The default version of the Discord logo uses our primary brand
+          color blurple. However, the logo can live with different colors. 
+
+
+          Here, you will find an overview of possible color combinations.
+
+
+          For more information around color combinations see page 32.
+Discord
+
+
+
+
+ 23
+          02 logo, symbol, wordmark & tagline                                 1   2
+
+          Usage
+
+          successful
+
+          logo examples                                                               Discord · Imagine a place
+
+
+
+
+          Here are some recommended examples of how the Discord
+          logo should be integrated
+                                                                                                                  Download         Wh
+             Use the preferred logo 
+             Our preferred logo consists of our symbol and wordmark
+             associated to blurple, the core brand color, and with the
+             right amount of whitespace
+             Use the icon by itself and the smaller version of the logo in
+             tight places  
+             In formats with limited space, use the smaller version of our
+             logo (<80x15) to improve legibility. For favicons we prefer to
+             use our symbol only
+             Use the Discord logo on top of key visuals                       4   4
+             Only place the logo on-top of key visuals when the space
+             allows it and when it’s legible
+             Use the Discord logo when first introducing the brand                                                   Version 1.0
+
+
+
+             For example on covers.
+
+
+
+
+                                                                                  Brand
+                                                                                  guidelines
+Discord
+
+
+
+
+ 24
+          02 logo, symbol, wordmark & tagline                                  1   2
+
+          Usage
+
+          unsuccessful
+
+          logo examples
+          Feeling quirky today? Save it for your late night chat on Discord,
+          but please don’t mess with our logo. Avoid the examples
+          mentioned below at all times.
+
+
+          1. Don’t go crazy with your color mix
+
+          For more guidance around which colors are allowed, see page
+          32.
+
+
+          2. Don’t apply effects
+
+          Glowing edges, drop shadows and gradients are forbidden.
+
+
+          3. Don’t twist and turn the Discord logo around 
+          Use it within the provided ratios.
+
+
+          4. Don’t stack the elements of the Discord logo                      3   4
+          Also no other color combinations are allowed besides the ones
+          provided in these guidelines.
+Discord
+
+
+
+
+ 25
+03
+brand
+
+colors
+          03 brand colors
+
+          DISCORD
+
+          BLURPLE
+          Blurple is the core color of Discord, it’s the one color that holds
+          most brand equity and which current users assocciate with the
+          brand.
+
+
+
+
+                                                                                Blurple
+
+
+                                                                                HEX 5865F2
+
+                                                                                RGB 88, 101, 242
+
+                                                                                CMYK 80, 60, 0, 0
+
+Discord
+
+
+
+
+                                                                                PMS 2726 C
+
+
+ 27
+          03 brand colors
+
+          BRAND COLOR
+          PALETTE
+          The brand color palette is meant to bridge marketing
+          communications and product interface in order to enhance
+          familiarity and visual recognition.
+
+
+          The blurple, green and red are closely tied to the colors you see
+          in product, while yellow and fuchsia are brought in to represent
+          the colorful content from the users.                                Blurple
+
+            Green
+
+              Yellow
+
+              Fuchsia
+
+
+                                                                              HEX 5865F2
+          HEX 57F287
+          HEX FEE75C
+           HEX EB459E
+
+                                                                              RGB 88, 101, 242
+    RGB 87, 242, 135
+    RGB 254, 231, 92
+     RGB 235, 69, 158
+
+                                                                              CMYK 80, 60, 0, 0
+   CMYK 50, 0, 55, 0
+   CMYK 0, 5, 80, 0
+     CMYK 0, 90, 0, 0
+
+                                                                              PMS 2726 C           PMS 3385 C           PMS 102 C             PMS Pantone rhodamine red
+
+
+
+
+                                                                              Red
+
+                White
+
+              Black
+
+
+                                                                              HEX ED4245
+          HEX FFFFFF
+          HEX 23272A
+
+                                                                              RGB 237, 66, 69
+     RGB 255, 255, 255
+   RGB 35, 39, 42
+
+                                                                              CMYK 0, 90, 65, 0
+   CMYK 0, 0, 0, 0
+     CMYK 35, 0, 0, 100
+
+                                                                              PMS 032 C            PMS 0                PMS 426 C
+
+
+
+
+                   Download RGB & CMYK Adobe swatches
+Discord
+
+
+
+
+ 28
+          03 brand colors
+
+          USAGE
+
+          Applying
+
+          Colors
+          Pairing colors is a tricky task, and there are colors that work
+          better together than others.
+
+
+                                                                                ?
+
+
+
+
+                                                                            ?
+Discord
+
+
+
+
+ 29
+          04 brand colors
+
+          USAGE
+
+          Suggested
+          color pairings
+          Here is a collection of suggested color pairings. These colors
+          work well on-top of each other and provide enough contrast for
+          the reader.                                                      Blurple + White    Blurple + Black   Blurple + Green
+
+
+
+
+                                                                           Blurple + Yellow   Fuchsia + White   Fuchsia + Yellow
+Discord
+
+
+
+
+                                                                           Red + White
+
+ 30
+          03 brand colors
+
+          USAGE
+
+          color pairings
+
+          TO AVOID
+          Here are color pairings to avoid when creating layouts. 
+
+
+          These colors don’t work well when text is applied on top of         Blurple + Fuchsia                  Fuchsia + Green                    Yellow + Green
+          them. It might happen to use green on yellow when bringing in
+          product interface. That is tolerated since that module is not the   DON’t USE                          DON’t USE                          DON’t USE
+          essential information of the layout.                                Avoid using this combination as    These two colors are too           These two colors are too similar
+                                                                              it’s too hard to read.             vibrant when combined,             when combined and don’t create
+                                                                                                                 creating an uncomfortable          enough contrast.
+                                                                                                                 reading experience.
+
+
+
+
+                                                                              White + Yellow                     Fuchsia + Red
+
+
+                                                                              DON’t USE                          DON’t USE
+                                                                              These two colors are too similar   These two colors are too similar
+                                                                              when combined and don’t create     when combined and don’t create
+                                                                              enough contrast.                   enough contrast.
+Discord
+
+
+
+
+  31
+          03 brand colors
+
+          USAGE
+
+          Suggested
+          color SCHEMES
+          Here are the color schemes that successfully work well with the
+          brand palette. 
+
+
+          Please note that the order of these layers matters and cannot     Blurple + White + Green    Fuchsia + White + Yellow   Blurple + White + Yellow
+          be shuffled around.
+ 
+
+                                Decorative Color
+                                Text Color
+                                Background Color
+
+
+
+
+                                                                            Yellow + Blurple + White   Green + White + Blurple    Red + White + Yellow
+Discord
+
+
+
+
+ 32
+          03 brand colors
+
+          USAGE
+
+          color Schemes
+
+          TO AVOID
+          Here are color pairings to avoid when creating layouts. 
+
+
+          These colors don’t work well when text is applied on top of
+          them. It might happen to use green on yellow when bringing in
+          product interface. That is tolerated since that module is not the
+          essential information of the layout.
+
+
+
+
+                                                                              Blurple + Fuchsia + Red                              Yellow + Fuchsia + Red
+
+
+
+
+                                                                              DON’t USE                                            DON’t USE
+                                                                              These colors simply don’t provide enough contrast.   These colors simply don’t provide enough contrast.
+Discord
+
+
+
+
+ 33
+          03 brand colors
+
+          USAGE
+
+          How to pick a
+          color scheme                                                          1
+                                                                                    →      imagine a
+                                                                                         place where
+                                                                                         friendship is
+                                                                                        not a request.
+                                                                                         it just sorta
+                                                                                           happens.      Yellow + White + Blurple
+          To pick the right color scheme can be a tricky task with all the
+                                                                                             81   14
+
+
+
+          color options you might have. Here are a few rules that will
+          create a harmonious layout
+
+             For illustrations using many colors, here blurple, fuchsia
+             and green.  
+             Do not use the same color for both the background of the
+             illustration and the background of the layout. Here, blurple
+             is out. 
+             Keep an eye on the illustration elements breaking the frame
+             and overlapping the layout. Here, the balloon dog is in
+             fuchsia, so fuchsia can not be used as the layout
+             background.  
+                                                                                2
+                                                                                    →
+             If an illustration element if far from the edge, here the green
+             cactus, it doesn’t affect the color choice.                                                 Blurple + White + Yellow
+             That leaves us with either yellow or green for the
+             background
+             For illustrations with one dominant color, here fuchsia. 
+             In this illustration, fuchsia is clearly the main color used. Do
+             not use fuschia as the background colour of your layout, as
+             it will blend in with the illustration
+             For illustrations with many colors, here yellow, green and
+             blurple 
+             In this illustration it’s best to use a color that gives enough
+             contrast with the background. Here, fuchsia or green would
+             be an option.
+                                                                                3
+                                                                                    →     imagine a
+                                                                                           place to
+                                                                                        enjoy cookies
+                                                                                           without
+                                                                                        spilling your
+                                                                                            data.        Fuchsia + White + Yellow
+                                                                                             72   72
+Discord
+
+
+
+
+ 34
+                                                                             1
+          03 brand colors
+
+          USAGE
+
+          USER INTERFACE
+          COLORS
+          It is crucial that the interface elements used in our
+          communications stay true to the original interface on the                 where
+          product. Colors always have to be adjusted accordingly to the
+          product                                                                friendship
+                                                                                   is not a
+             User status                                                         request. It
+             An active or online user is always indicated with green color       just sorta
+             in different graphic variations. 
+             Use the red color to show a user on a “Do Not Disturb”
+                                                                                  happens.
+                                                                                        @Gregz#2347
+             status. 
+             Use yellow for “Idle” and Black for “Invisible”                                  55   43
+
+             Server channel 
+             Keep the server channels either in white or black. Invert the
+             content color to black or white according to which
+             background color is used. Use green for user status and red
+             for LIVE badge.                                                 2
+
+
+
+                                                                                 Space City                    Space City
+                                                                                     Allan                         Allan
+                                                                                     Katelin            LIVE       Katelin   LIVE
+
+                                                                                     Mary                          Mary
+                                                                                     Conner                        Conner
+Discord
+
+
+
+
+ 35
+          03 brand colors
+
+          USAGE
+
+          USER INTERFACE
+          COLORS
+
+          CONTinued                                                         4   5
+
+
+
+
+          4. Server channel 
+             When showing a server channel you should always have
+             circles above and below for horizontal formats and to the
+             left and right for vertical formats. These are made by using
+             25% opacity Black with the Multiply layer style
+          5. Call buttons 
+             Always use white icons on black or red background for the          6
+             call buttons. This can’t be inverted. Watch out for using
+             fuchsia background when showing call buttons as the red
+             can blend into the background
+          6. Reactions 
+             Use mainly white text on a 25% transparent white                       43   28
+             background for the Reactions. If they are on yellow
+             background, use 60% transparent white background on
+             Blurple text. When using emojis, always keep in mind the
+             background color of the layout to achieve optimum contrast
+             and legibility.
+                                                                                    43   28
+Discord
+
+
+
+
+ 36
+          03 brand colors                                                      1                                 2
+
+          USAGE
+
+          SUCCESSFUL
+          Color usage
+                                                                                                                     imagine falling
+                                                                                                                     down  a rabbit
+                                                                                                                        Imagine a
+                                                                                                                     hole andwhere
+                                                                                                                        place  all
+          Here are a few examples of how to use the brand colors in a                                                your friendsis
+                                                                                                                        friendship
+          correct manner                                                                                             arenot
+                                                                                                                         there.
+                                                                                                                            a request.
+                                                                                                                            It just sorta
+                                                                                                                     @FIDGET_M #0000
+                                                                                                                       34   happens.
+                                                                                                                             30
+             This execution uses a suggested color scheme. Text in white                                                       43   23
+             gives the highest contrast
+                                                                                                      32   30
+             This execution uses a suggested color scheme. Text in white                           @Gregz#2347
+             gives the highest contrast
+             When creating an animated communication, make sure to
+             always use the same color scheme throughout
+             When a communication is quite dense with elements, it’s
+             important to keep it clean in terms of color. This execution is
+             using a recommended color scheme which helps it do so.            3                                 4
+
+
+
+
+                                                                                   The slow                          Imagine
+                                                                                    cooker
+                                                                                   of chats:
+                          not
+                                                                                   the more                           trying
+                                                                                    random                           to fit in,
+                                                                                   stuff you
+                                                                                   throw in,                         you just
+                                                                                      the
+                                                                                    better.                             do.
+                                                                                                                               43    13
+                                                                                        12   44
+
+                                                                                     @Gregz#2347                            @Gregz#2347
+Discord
+
+
+
+
+ 37
+          03 brand colors                                                 1                                 2
+
+          USAGE
+
+          UNSUCCESSFUL
+          color usage
+                                                                                                                    imagine falling
+                                                                                                                    down  a rabbit
+                                                                                                                       Imagine a
+                                                                                                                    hole andwhere
+                                                                                                                       place  all
+          Here are a few executions to avoid
+                                                                                                                FPO your friendsis
+                                                                                                                       friendship
+                                                                                                                    arenot
+                                                                                                                        there.
+                                                                                                                           a request.
+             Using a color scheme that’s not suggested can result in                                                      It just sorta
+                                                                                                                   @FIDGET_M #0000
+                                                                                                                     34   happens.
+                                                                                                                           30
+             readability issues.                                                                                            43   23
+
+
+             While these colors contrast each other well, white should                          32   30
+             be avoided as background color in brand communications.
+                                                                                              @Gregz#2347
+             This execution also tweaks the original product interface,
+             which should be avoided
+             In an animated communication made of multiple frames, do
+             not mix more than one color scheme
+             Do not use color to highlight words in text.
+                                                                          3                                 4
+
+
+
+
+                                                                              The slow
+                                                                               cooker                               Imagine
+                                                                              of chats:
+                              not
+                                                                              the more                               trying
+                                                                               random
+                                                                              stuff you                             to fit in,
+                                                                              throw in,                             you just
+                                                                                 the
+                                                                               better.
+                                                                                                                       do.
+                                                                                                                            43    13
+                                                                                  43    13
+                                                                                @Gregz#2347
+Discord
+
+
+
+
+ 38
+          03 brand colors                                                   1                    2
+
+          USAGE
+
+          Community
+          pattern
+          The Community Pattern is representing many users at once
+          and is playing multiple roles in the brand design language.              imagine a
+          Here are the color rules for the pattern                               place where
+                                                                                 friendship is
+             Always use a white Community Pattern underneath                    not a request.
+                                                                                 it just sorta
+             content. we don’t want the pattern to take over the actual            happens.
+             content, nor the text in the execution                                  72   72
+
+             When using the Community Pattern on its own, feel free to
+             use a color from your current color scheme and fill some
+             circles with avatars to highlight users in your storytelling
+             The Community Pattern behind content should always be in
+             white
+                                                                            3                    4
+             This Community Pattern is using colors outside of the color
+             scheme and mixing them all together. This creates an
+             inelegant and misleading representation of the community.
+
+
+
+
+                                                                                   imagine a
+                                                                                 place where
+                                                                                 friendship is
+                                                                                not a request.
+                                                                                 it just sorta
+                                                                                   happens.
+                                                                                     72   72
+Discord
+
+
+
+
+ 39
+04
+Typography
+                                                                             GINTO
+          04 typography
+
+          Typefaces
+
+
+
+
+                                                                             NORD
+          Our typography consists of two font families, Ginto Nord and
+          Whitney.
+
+
+          Primary Typeface: Ginto Nord
+
+          Our primary typeface is Ginto Nord, an exuberant
+          geometric-humanist typeface that delights in tension,
+          especially its own tension between circular and rectangular
+          forms. The font is developed while researching sans-serif
+          typefaces from the twentieth century, focusing on the shift from
+          strict Modernist “purity” to the more baroque, animated styles
+          that emerged during the phototypesetting period of the ’50s
+          and ’60s. These two historic impulses have been remixed to
+          create a dynamic and charismatic set of forms. 
+
+
+          Secondary Typeface: Whitney
+
+          Our secondary typeface is Whitney. It bridges the divide           Primary Typeface: Ginto Nord
+          between editorial mainstays such as News Gothic (1908),
+          which is an American gothic typeface, and signage application
+          standards such as Frutiger (1975), which is a European
+          humanist typeface. Moreover, “its compact forms and broad
+          x-height use space efficiently, and its ample counters and open    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et vehicula est. In eget erat quis ex
+          shapes make it clear under any circumstances.”
+
+                   vestibulum pretium in eu augue. Proin fringilla ullamcorper ligula, vitae vehicula lacus vulputate
+                                                                             eget. Nunc mauris dui, tristique sed dignissim vitae, dignissim sed orci. Praesent pellentesque,
+          Fallback fonts
+                                                    felis sed convallis pellentesque, odio erat vestibulum magna, in pharetra justo metus quis lorem.
+          Whenever it’s not possible to use our font families, the           Morbi nec magna a mi venenatis finibus id ut nulla. Nulla quis lobortis quam, at rutrum diam.
+          following alternative options should be used.
+
+                    Nullam accumsan, tellus in volutpat commodo, dolor sem fringilla ante, in elementum libero est
+                                                                             ut odio. Etiam tincidunt metus at diam dictum scelerisque.
+          Ginto Nord could be replaced with Poppins Black (all caps).
+
+          Whitney could be replaced with Roboto Normal.                      Secondary Typeface: Whitney
+
+
+                   Download fonts
+Discord
+
+
+
+
+  41
+          04 typography
+
+          typestyles                                                           GINTO
+
+                                                                               NORD
+
+                                                                               ULTRA
+          Our typestyles consists of headlines styles & a paragraph style.
+
+
+          Headlines
+
+          We always use Ginto Nord for our headline style, since it’s our
+          primary typeface. Headlines are always written in uppercase,
+          and could be applied as Ultra, Primary or Secondary titles.
+
+
+          For more guidance around line heights, see next page                 Ultra Headline | Example: 90pt / Line-height 80% with some copy, 95% with a bit more copy / Letter-spacing 0%
+
+
+
+                                                                               GINTO NORD BLACK 
+             Ultra Headline 
+             Typeface: Ginto Nord 
+
+                                                                               【 】( )〔 〕 · × : & ? ● ◆ → ↘ ↓ ↗
+
+             Font-weight: Ultra 
+             To be used for short and large headlines as for instance
+             tagline.
+             Primary Headline 
+             Typeface: Ginto Nord  
+             Font-weight: Black 
+             To be used for all headlines
+                                                                               0123456789
+                                                                               Primary Headline | Example: 50pt / Line-height: 90% with some copy, 110% with a bit more copy / Letter-spacing 0%
+
+
+             Secondary Headline                                                GINTO NORD MEDIUM
+
+             Typeface: Whitney 
+             Font-weight: Book, Book Italic, Semibold, Semibold Italic         【 】()〔〕 · × : & ? ● ◆ → ↘ ↓ ↗ 0123456789
+                                                                               Secondary Headline | Example: 24pt/ Line-height 90% / Letter-spacing 0%
+             To be used in combination with the primary headline. 
+
+
+          Paragraphs
+                                                          Whitney - Book, Book Italic, Semibold, Semibold Italic 
+          For our paragraph style we always use Whitney to achieve the         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et vehicula est. In eget erat quis ex
+          best legibility. This applies to all supporting text as well.        vestibulum pretium in eu augue. Proin fringilla ullamcorper ligula, vitae vehicula lacus vulputate
+                                                                               eget. Nunc mauris dui, tristique sed dignissim vitae, dignissim sed orci. Praesent pellentesque,
+                                                                               felis sed convallis pellentesque, odio erat v pharetra justo metus quis lorem. Morbi nec magna a
+                                                                               mi venenatis finibus id ut nulla. Nulla quis lobortis quam, at rutrum diam. Nullam accumsan,
+                                                                               tellus in volutpat commodo, dolor sem fringilla ante, in elementum libero est ut odio. Etiam
+                                                                               tincidunt metus at diam dictum scelerisque.
+Discord
+
+
+
+
+                                                                               Paragraph Text | Example: 15pt / Line-height: 130% / Letter-spacing 0% 
+  42
+          04 typography
+
+          Usage 
+          line heights
+          Applying the right line height is important since it creates a
+          cohesive and legible reading experience. In the next pages we
+          explain how our typestyles are setup for success.
+
+                                                                           GIN
+                                                                           NOR
+                                                                           ULT
+Discord
+
+
+
+
+  43
+          04 typography                                                      1                       2
+
+          Usage 
+          line heights  
+          & rules  for                                                                                     Lorem
+          headlines                                                                 Lorem                  ipsum
+                                                                                    ipsum                dolor sit
+          Our headline fonts work best with less than 100% line height,                                   alor si
+          because it is important to give it a compact feeling. However,
+          sometimes we need a bit more line height to increase legibility.
+          To do so, the following rules should be applied
+                                                                                                          consec.
+             Ultra Headline - Short copy 
+             Ginto Nord Ultra / 80% line heigh
+             Ultra Headline - Longer copy 
+             Ginto Nord Ultra / 95% line heigh
+             Primary Headline - Short copy 
+             Ginto Nord Black / 90% line heigh
+                                                                             3                       4
+             Primary Headline - Longer copy 
+             Ginto Nord Black / 110% line height
+                                                                                                          OREM IPSUM DOLOR
+                                                                                                           SIT AMET CONSECT
+                                                                                   Lorem ipsum           ETUR ADIPISCING ELIT.
+                                                                                  dolor sit alor
+          ALIQUAM CONSEC
+                                                                                 amet consectetur           TETUR ODIO QUIS
+                                                                                  adipiscing elit.         MAGNA PLACERAT
+                                                                                                         ULLAMCORPER UT EU
+                                                                                                                DOLOR.
+Discord
+
+
+
+
+  44
+          04 typography                                                       1                                                                                                     2
+
+          Usage 
+          line heights &
+          rules  for
+          paragraphs                                                                                                                                                           Lorem ipsum dolor sit amet,
+                                                                                                                                                                               consectetur adipiscing elit.
+                                                                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula est. In                Sed et vehicula est. In eget
+                                                                                  eget erat quis ex vestibulum pretium in eu augue. Proin fringilla ullamcorper                erat quis ex vestibulum
+          For our paragraph style we should always follow a line-height of        ligula, vitae vehicula lacus vulputate eget. Nunc mauris dui, tristique sed                  pretium in eu augue. Proin
+          135%. 
+
+                                                                dignissim vitae, dignissim sed orci. Praesent pellentesque, felis sed convallis              fringilla ullamcorper ligula,
+                                                                                  pellentesque, odio erat v pharetra justo metus quis lorem. Morbi nec magna                   vitae vehnt pellentesque,
+          It’s also important to apply the right length for paragraph text.       a mi venenatis finibus id ut nulla. Nulla quis lobortis quam, at rutrum diam.                felis sed convallis pellen 
+          Generally a line of type in a paragraph should be between 50            Nullam accumsan, tellus in volutpat commodo, dolor sem fringilla ante, in                    tesqu icula lacus vulputate
+          and 75 characters long, or about 11 words in English                    elementum libero est ut odio. Etia metus at diam dictum scelerisque.                         eget. Nunc mauris dui,
+                                                                                  Curabitur iaculis viverra fermentum. Suspendisse consectetur ornare justo.                   tristique sed dignissim
+             Right text widt                                                                                                                                                   vitae, dignissim sed orci.
+             Too narro                                                                                                                                                         Praesent pellentesque, felis
+             Too wide                                                                                                                                                          sed convallis pellentesque,
+                                                                                                                                                                               odio erat v pharetra justo
+                                                                                                                                                                               metus quis lorem.
+
+
+
+
+                                                                              3
+
+
+                                                                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et vehicula est. In eget erat quis ex vestibulum pretium in
+                                                                                  eu augue. Proin fringilla ullamcorper ligula, vitae vehicula lacus vulputate eget. Nunc mauris dui, tristique sed
+                                                                                  dignissim vitae, dignissim sed orci. Praesent pellentesque, felis sed convallis pellentesque, odio erat v pharetra justo
+                                                                                  metus quis lorem. Morbi nec magna a mi venenatis finibus id ut nulla. Nulla quis lobortis quam, at rutrum diam.
+                                                                                  Nullam accumsan, tellus in volutpat commodo, dolor sem fringilla ante, in elementum libero est ut odio. Etiam
+                                                                                  tincidunt metus at diam dictum scelerisque. Curabitur iaculis viverra fermentum. Suspendisse consectetur ornare.
+Discord
+
+
+
+
+  45
+          04 typography
+
+                                                                                                                                                               Lorem
+                                                                      1                                                                                  2
+
+          Usage 
+          text lockups                                                            Lorem
+                                                                                  ipsum                                                                        ipsum
+                                                                                                                                                             dolor sit
+          A few examples on how to combine our headlines styles and
+                                                                                                                                                              alor si
+                                                                                                                                                              consec.
+          paragraph style                                                 Lorem ipsum dolor sit
+                                                                            amet consectetur.
+                                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula est.
+             Ultra, primary headline, body tex                              In eget erat quis ex vestibulum pretium in eu augue. Proin fringilla
+                                                                            ullamcorper ligula, vitae vehicula lacus vulputate eget. Nunc mauris dui,
+             Ultra (adjusted line height), body tex                         tristique sed dignissim vitae, dignissim sed orci. Praesent pellentesque,
+                                                                            felis sed convallis pellentesque, odio erat v pharetra justo metus quis           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula est.
+             Label, secondary headline, body tex                            lorem. Morbi nec magna a mi venenatis finibus id ut nulla. Nulla quis             In eget erat quis ex vestibulum pretium in eu augue. Proin fringilla
+                                                                                                                                                              ullamcorper ligula, vitae vehicula lacus vulputate eget. Nunc mauris dui,
+             Ultra, secondary headline                                      lobortis quam, at rutrum diam. Nullam accumsan, tellus in volutpat
+                                                                            commodo, dolor sem fringilla ante, in elementum libero est ut odio. Etia
+                                                                            metus at diam dictum scelerisque. Curabitur iaculis viverra fermentum.
+                                                                                                                                                              tristique sed dignissim vitae, dignissim sed orci. Praesent pellentesque,
+                                                                                                                                                              felis sed convallis pellentesque, odio erat v pharetra justo metus quis
+                                                                            Suspendisse consectetur ornare justo.                                             lorem. Morbi nec magna a mi venenatis finibus id ut nulla. Nulla quis
+                                                                                                                                                              lobortis quam, at rutrum diam. Nullam accumsan, tellus in volutpat
+                                                                                                                                                              commodo, dolor sem fringilla ante, in elementum libero est ut odio. Etia
+                                                                                                                                                              metus at diam dictum scelerisque. Curabitur iaculis viverra fermentum.
+                                                                                                                                                              Suspendisse consectetur ornare justo.
+
+
+
+
+                                                                      3                                                                                  4
+
+
+                                                                            Lorem ipsum dolor sit amet,
+                                                                          consectetur adipiscing elit. Sed
+                                                                          vehicula est. In eget erat quis ex
+                                                                          vestibulum pretium in eu augue.
+                                                                           Proin fringilla ullamcorper
+                                                                                                                                                                                   Lorem
+                                                                                                                                                                                   ipsum
+                                                                            ligula vitae vehicula lacus
+                                                                                     vulputate.
+                                                                                                                                                                  Lorem ipsum dolor sit amet,
+                                                                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula est.            consectetur adipiscing elit. Sed
+                                                                          In eget erat quis ex vestibulum pretium in eu augue. Proin fringilla
+                                                                          ullamcorper ligula, vitae vehicula lacus vulputate eget. Nunc mauris dui,             vehicula est. In eget erat quis ex
+                                                                          tristique sed dignissim vitae, dignissim sed orci. Praesent pellentesque,          vestibulum pretium in eu augue. Proin
+                                                                          felis sed convallis pellentesque, odio erat v pharetra justo metus quis             fringilla ullamcorper ligula vitae
+                                                                          lorem. Morbi nec magna a mi venenatis finibus id ut nulla. Nulla quis
+                                                                          lobortis quam, at rutrum diam. Nullam accumsan, tellus in volutpat
+                                                                                                                                                                   vehicula lacus vulputate.
+                                                                          commodo, dolor sem fringilla ante, in elementum libero est ut odio. Etia
+                                                                          metus at diam dictum scelerisque. Curabitur iaculis viverra fermentum.
+                                                                          Suspendisse consectetur ornare justo.
+Discord
+
+
+
+
+  46
+                               Vivamus
+                               elit non suscipit
+                                        dignissim
+                               tincidunt  ex sem
+          04 typography
+          Usage
+
+          Tweak
+          comma  the
+                  in
+          headlines  the
+                               et dignissim elit ,                       1
+                                                                             Vivamus
+                                                                             elit non suscipit
+                                                                                      dignissim
+                                                                                                ,
+
+                               scelerisque  erat                             tincidunt , ex sem,
+                                                                             et dignissim elit
+                               sem in metus.
+          When writing primary headlines with commas, please manually
+          adjust the baseline of the comma.
+                                                                             scelerisque
+                                                                             sem in metus. erat
+             In this example the comma has been slightly moved up to
+             clear up some space from the letters below. This brings
+
+
+
+
+                       Vivamus  suscipit,
+             clear legibility to all letters in the text
+             This is the original baseline for the comma when it’s not
+             being moved up. The commas blend in with the letters
+
+
+
+                       elit non dignissim
+             underneath, disrupting legibility.
+
+
+
+
+                       tincidunt,
+                       et         ex
+                          dignissim  sem
+                                    elit,                                2
+                                                                             Vivamus
+                                                                             elit non suscipit,
+                                                                                      dignissim
+                       scelerisque  erat
+                                                                             tincidunt,
+                                                                             et         ex
+                                                                                dignissim  sem
+                                                                                          elit,
+                                                                             scelerisque  erat
+                       sem in metus.                                         sem in metus.
+Discord
+
+
+
+
+  47
+          04 typography
+          Usage
+
+          Styling user
+                                                                                1
+
+
+
+          quotes
+          There are two styles to chose from when featuring a user quote
+                                                                                       Vivamus
+                                                                                       non             suscipit
+                                                                                                dignissim       elit
+                                                                                                             risque
+          in a layout
+             Quote with avatar 
+             Show the user avatar next to the quote as your preferred
+                                                                                       erat
+                                                                                       @Gregz#0000
+                                                                                                  sem   in
+                                                                                                    43 23
+                                                                                                           metus.
+             option whenever possible. Hide the quotation marks since
+             it’s clear that it’s coming from a user. Do not forget the users
+             name and tag below, together with reactions
+             Quote without avatar 
+             When the user avatar isn’t available, fall back on this option.
+             Then we simple add quotation marks to the quote. Please
+             note that the opening mark should be hanging in order to
+             align the text with the other elements.
+                                                                                2
+
+
+
+
+                                                                                “ Vivamus
+                                                                                  non             suscipit
+                                                                                           dignissim       elit
+                                                                                                        risque
+                                                                                  erat
+                                                                                  @Gregz#0000
+                                                                                             sem   in
+                                                                                               43 23
+                                                                                                      metus. “
+Discord
+
+
+
+
+  48
+          04 typography
+          USAGE
+
+          Text Placement                                                         1   2
+
+
+          There are a few simple rules when designing layouts. We
+          always want to keep the text-layout simple to allow for the
+          content to be the main focus
+             Text-only Layout - Center aligned 
+             Our text should be placed in the centre when used in a text
+             only layout
+             Portrait-ratio Layout - Below the creative canvas 
+             In portrait ratios, text will be placed below the visual, aligned
+             in the centre
+                                                                                         4
+             Landscape-ratio Layout - Next to the Creative Canvas                3
+             In landscape ratios text will be placed right next to the
+             visual, aligned to the left
+             Part of a story 
+             The text placement is allowed to be more dynamic when it
+             adds value. For example, when talking about chat
+             functionality in layouts.
+Discord
+
+
+
+
+  49
+          04 typography                                                    1                           2
+
+          Usage
+
+          succeSsful 
+
+          type variations
+                                                                                 Stack
+
+                                                                                  me up
+
+          Here are a few examples on how to use our text styles
+          successfully
+                                                                                 Imagine
+
+                                                                                 butter
+                                                                                 acup
+                                                                                   Place
+             Line-height and stacking                                                                         This is an
+                                                                                                             IMAGINE
+                                                                                                             example   A
+                                                                                                                       of
+                                                                                                           PLACE  WHERE
+                                                                                                             a headline
+             Text is centrally aligned when used as standalone content                                      EVERYBODY
+                                                                                                             placement
+                                                                                                           KNOWS    YOUR
+                                                                                                            icw a visual
+                                                                                                           SCREEN   NAME.
+             Give whitespace                                                                                             22           45
+             Enought whitespace has been applied to let the text breathe
+             Text next to key visual 
+             Working together to create a strong layout
+             Text used as part of a story 
+             Creates a dynamic layout.
+                                                                           3                           4
+
+
+                                                                                                             Shawn Today at 9:18 AM
+                                                                                                             Imagine a
+                                                                                                             group hug  
+                                                                                                             from the
+                                                                                     Imagine a 
+talk         internet.
+                                                                               FPO     Imagine
+
+                                                                                     place
+                                                                                     fresh
+                                                                                       a
+                                                                                     deep
+                                                                                           to
+                                                                                           cuts,or
+                                                                                         Place
+                                                                                          cuts,
+                                                                                                                  43        28
+
+                                                                                                             Gregz Today at 9:18 AM
+                                                                                     how you like            I’m here
+                                                                                     cold cuts.              for  a
+                                                                                                             good  
+                                                                                      16   25
+                                                                                                             cuddle
+                                                                                                             puddle.
+                                                                                                             moongirl Today at 9:19 AM
+                                                                                                             yassssss
+Discord
+
+
+
+
+  50
+          04 typography                                                       1                         1
+
+          Usage
+
+          unsucceSsful                                                                                      Squad fill
+          type variations                                                                                   with people
+                                                                                                            you’ll want
+                                                                                                            to talk to
+                                                                                                                            23         48
+
+
+          Here are a few type variations examples to avoid
+             Don’t warp the text 
+             Ginto Nord Ultra header should always be aligned in the
+             centre of layout. In no way should still text be modified or
+             distorted. In the intro or outro of animations, the type could
+             be transformed, but when it lands it should always be
+             presented centered and free of distortions
+             Apply the right text style setting  
+             Provided line heights and kerning should always be applied
+             to create consistency
+             Don’t combine text styles within sentences 
+             When using full sentences, never mix various text styles         3                         4
+             within the same sentence
+             Freeze the text on motion frames 
+             In motion we distort the elements on the screen, but we                                          Shawn Today at 9:18 AM
+                                                                                                              Imagine a
+             never use that for static layouts.                                                               group hug  
+                                                                                   imagine                    from the
+                                                                                   a place                    internet.
+                                                                                  Imagine
+                                                                                   to enjoy
+                                                                                  place   toa 
+talk                43        28
+                                                                                   cookies
+                                                                                  fresh  cuts,
+                                                                                   without       deep
+                                                                                  cuts,
+                                                                                  you   or
+                                                                                   spillinghow
+                                                                                      likedata.
+                                                                                           cold
+                                                                                                              Gregz Today at 9:18 AM
+
+                                                                                   your
+                                                                                  cuts                        I’m here
+                                                                                   1672   2572
+                                                                                                              for  a
+                                                                                                              good  
+                                                                                                              cuddle
+                                                                                                              puddle.
+                                                                                                              moongirl Today at 9:19 AM
+                                                                                                              yassssss
+Discord
+
+
+
+
+  51
+          04 typography
+
+          3d type
+          variations
+          We use 3D type animations for special occasions, aiming to
+          create variety to our layouts and celebrate key moments and
+          communities. It should always be used with purpose and part of    1       2
+          a bigger initiative. Either combined with supporting visuals or
+          text.
+
+
+          Example variation
+             Art Base
+             Prid
+             Sleep Da
+             Dog Day                                                            1
+
+
+
+                                                                            3       4
+Discord
+
+
+
+
+  52
+05
+Brand 
+in use
+           05 brand in use / BRAND LINES
+
+
+
+
+                     IMAGINE A
+                     PLACE WHERE
+                     FRIENDSHIP IS
+                     NOT A REQUEST.  
+                     IT JUST SORTA
+                     HAPPENS.
+
+                         72    48
+ Discord
+
+
+
+
+54
+55
+     Discord
+56
+     Discord
+           Imagine a place
+
+           where friendship
+
+           is not a request.  
+
+           It just sorta
+
+           happens.
+
+            55   43
+ Discord
+
+
+
+
+57
+           Lorem ipsum   05 brand in use / community LINES
+
+
+
+
+                                       It's like
+                                       hanging with
+                                       your friends
+                                       minus the
+                                       bunk beds.
+
+                                           12      11
+ Discord
+
+
+
+
+58
+           it’s like hanging
+           with friends
+           minus the  
+           bunk beds.
+            16   43
+ Discord
+
+
+
+
+59
+     Discord
+
+
+
+
+60
+           05 brand in use / user quotes
+
+
+
+
+             imagine a
+
+          place where
+
+                 happy
+
+            accidents
+
+               become
+
+          masterpieces.
+
+               @naviking #0000
+
+
+
+
+                      23     34
+Discord
+
+
+
+
+61
+           imagine a place
+                             Learn more
+
+
+
+
+                                           it’s like
+                                          school on
+                                          a sundae.
+
+                                           @omukade #0000
+
+
+
+
+                                               15   22
+ Discord
+
+
+
+
+62
+63
+     Discord
+          10 BRAND IN USE   05 brand in use / chat DIALOG
+
+
+
+
+          CHAT DIALOG
+
+          EXECUTIONS
+
+
+
+          Lorem ipsum
+
+
+
+
+                                Shawn    Today at 9:18 AM
+
+
+
+
+                                Imagine a
+                                group hug  
+
+                                from the
+
+                                internet.
+
+                                    56           43
+
+
+
+
+                                Moongirl    Today at 9:18 AM
+
+
+
+
+                                yassssss
+Discord
+
+
+
+
+64
+           05 brand in use / audio DIALOG
+
+
+
+
+                                            Imagine
+
+                                            a Place
+ Discord
+
+
+
+
+65
+66
+     Discord
+                         05 brand in use / end cards in animation
+
+
+
+
+           Imagine
+
+                      Imagine
+
+           a Place
+                      a Place                                         WUMPUS
+
+
+
+
+                                                    Imagine
+        Imagine
+
+                                                     a Place        a Place
+ Discord
+
+
+
+
+67
+68
+     Discord
+           05 brand in use / stationery
+ Discord
+
+
+
+
+69
+70
+     Discord
+71
+     Discord
+Discord brand guidelines
+
+
+
+
+asset  
+library
+
+
+
+
+      Download Discord brand design
+Discord brand guidelines
+
+
+
+Questions?
+For any questions regarding the brand guidelines,  
+please contact one of the Discord design teams.
+
+
+
+brand@discordapp.com
+

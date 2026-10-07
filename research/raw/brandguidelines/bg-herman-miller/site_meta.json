@@ -1,0 +1,38 @@
+{
+ "requested": "https://brandstandards.hermanmiller.com/",
+ "final": "https://brandstandards.hermanmiller.com/illustration",
+ "title": "Herman Miller",
+ "subpages": [
+  {
+   "href": "https://brandstandards.hermanmiller.com/accessibility",
+   "t": "8      Accessibility",
+   "ok": true
+  },
+  {
+   "href": "https://brandstandards.hermanmiller.com/identity",
+   "t": "9      Identity",
+   "ok": true
+  },
+  {
+   "href": "https://brandstandards.hermanmiller.com/color",
+   "t": "10    Color",
+   "ok": true
+  },
+  {
+   "href": "https://brandstandards.hermanmiller.com/typography",
+   "t": "11     Typography",
+   "ok": true
+  },
+  {
+   "href": "https://brandstandards.hermanmiller.com/photography",
+   "t": "12     Photography",
+   "ok": true
+  },
+  {
+   "href": "https://brandstandards.hermanmiller.com/illustration",
+   "t": "13     Illustration",
+   "ok": true
+  }
+ ],
+ "cssFiles": 14
+}

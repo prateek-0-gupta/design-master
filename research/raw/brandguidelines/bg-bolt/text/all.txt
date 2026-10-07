@@ -1,0 +1,483 @@
+Brand Guidelines
+
+January 2024
+     Tone of Voice
+2
+20
+                     ToV Principles
+                                                       ToV Principle One
+
+
+
+                                                       Thoughtfully concise
+    Tone of Voice
+   We have three guiding tone  
+    Logo
+            of voice principles that help  
+                     bring Bolt to life:
+    Color
+
+    Typography
+
+
+
+
+                                                       ToV Principle Two
+
+
+
+                                                       Knowingly playful
+                                                       ToV Principle Three
+
+
+
+                                                       Comfortably at ease
+3
+    Logo
+4
+                     Our logo
+    Tone of Voice
+   Our logo is our brand’s most
+    Logo
+            important element. It is a unique
+                     and bold signifier of the Bolt
+    Color
+
+                     brand. The lightning shape in the
+    Typography       logo supports our lightning quick
+                     product offering while the solid,
+                     capital forms of the letters are
+                     reflective of our unending
+                     trustworthiness.
+
+
+
+
+5
+                     Logo color                            ➀   ➁
+
+
+
+    Tone of Voice
+   Our logo may be used in Lightning
+    Logo
+            Yellow, Light gray, and Bolt Black
+                     (more on these colors later).
+
+    Color
+
+    Typography       Use the elements in your piece of
+                     communication to determine the
+                     color of your logo for maximum
+                     contrast and clarity.
+
+                     If your background light, you
+                     should be using a Bolt Black logo.
+                     If your background is dark, use
+                     the logo in Light gray or Lightning
+                     Yellow.
+
+                     Over photography, you may use
+                     Light gray or Lightning Yellow, but
+                     be sure it is clear and legible.
+
+                     Never use the logo in any of the
+                     secondary colors.
+
+
+                     ➀ Bolt Black logo for Lightning       ➂   ➃
+                       Yellow backgrounds.
+
+
+
+                     ➁ Light Gray logo for 
+                       dark backgrounds.
+
+
+
+                     ➂ Bolt Black logo for  
+                       light backgrounds.
+
+
+
+                     ➃ Lightning Yellow or Light Gray  
+                       logo for use on photographs.
+
+
+
+
+6
+                     Clearspace                                1x
+
+
+
+
+    Tone of Voice
+   Minimum Size
+                        1x
+    Logo
+            For clarity across digital and  
+    Color
+
+                     print applications our logo
+                     should never be reproduced at
+    Typography       any size below the adjacent
+                     guidance.
+
+
+
+                     Clear Space
+                         1x
+                     To look its best, our logo needs 
+                     space to stand out. We have
+                     defined parameters to make 
+                     sure no other elements
+                     encroach on this clear space.
+                                                          1x
+
+
+
+
+                                                                    30pt
+
+
+
+
+7
+                     Logo usage                         ➀   ➁
+
+
+
+    Tone of Voice
+   The Bolt logo may be used as the
+    Logo
+            large primary element in a piece
+                     of communication, or secondarily
+    Color
+
+                     to support text or imagery.
+
+    Typography
+                     Be conscious of sizing and
+                     contrast to ensure its primary  
+                     or secondary functionality. We
+                     don’t want the logo and adjacent
+                     elements to feel exactly the
+                     same.
+
+
+                     ➀ Logo as primary element
+
+
+
+                     ➁ Logo as secondary element
+
+
+
+
+8
+                     Co-branding
+    Tone of Voice
+   Sometimes, we may need to
+                                                         x   0.28x
+    Logo
+            lockup our logo with another
+                     business or partner.
+
+    Color
+
+    Typography       We separate our logo and a
+                     partner’s logo by the distance 
+                     of 0.28x. ‘x’ is defined by the  
+                     width of our logo. Our partner’s
+                     logo should never exceed the 
+                     size height of our symbol,  
+                     with the exception of small
+                     overhanging elements. For
+                     example due to the Fanatics
+                     logo’s irregular size, we have to
+                     optically align to their wordmark
+                     as opposed to the flag’s edge.      x   0.28x
+
+
+
+
+                                                         x   0.28x
+
+
+
+
+9
+ Tone of Voice
+
+ Logo
+
+ Color
+
+                  Our logo is our most sacred asset.  
+ Typography
+
+
+
+
+                  Please treat it with the  
+                  utmost respect. Thank you.
+                              Don’t add gradients.   Don’t make it 3D.            Don’t stretch it.
+
+
+
+
+                              Don’t fill the bolt.   Don’t use multiple colors.   Don’t stroke it.
+
+
+
+
+10
+     Color
+
+11
+                  Primary colors                     Lightning Yellow
+                        Bolt Black
+          Dark Grey
+           Mid Grey
+            Light Grey
+
+                                                     #E1FF00
+                                 #11190C
+             #787664
+             #CAC4B7
+             #F3F1EE
+
+                                                     RGB: 230.255.0
+                          RGB: 17.25.12
+       RGB: 124.122.106
+    RGB: 202.196.183
+    RGB: 243.241.238
+
+ Tone of Voice
+   Our main set of colors are a       CMYK: 16.0.100.0                         CMYK: 72.59.74.81    CMYK: 51.43.57.13    CMYK: 21.18.26.0     CMYK: 3.3.4.0 
+ Logo
+            handful of neutral warm greys,  
+                                                     Pantone: 809 U
+
+                         Pantone: 419 C       Pantone: 403 CP      Pantone: P 178-1 U   Pantone: P 134-9 U
+                  a deep beautiful Bolt Black and 
+ Color
+
+                  our vibrant hero color Lightning
+ Typography       Yellow. These colors are used on   While printing (recco in this order): 
+                  all pieces of Bolt communication   Safety Yellow 13-0630 TN 
+
+                  in one form or another.            Backup: 809 U or 809 C.
+
+                                                     Last resort: CMYK: 16.0.100.0
+
+
+
+
+12
+ Tone of Voice
+
+ Logo
+
+ Color
+
+ Typography
+
+
+
+
+13
+     Typography
+14
+                                                       AaBbCc
+                  Primary type                         Agrandir Narrow by Pangram Pangram
+ Tone of Voice
+   We have one typeface we use  
+ Logo
+            for all of our headlines: Agrandir
+                  Narrow Bold. Featuring many  
+ Color
+           fine details, moderate contrast
+ Typography       and slightly unusual anatomy, the
+                  typeface can be a loud and proud
+                  hero or a humble supporting actor
+                  for all sorts of designs.
+
+
+
+
+                                                       Checkout faster than
+                                                       you can say ‘one-click.’
+                                                       Narrow Medium                        Narrow Bold
+
+                                                       abcdefghijklmn                       abcdefghijklmn 
+                                                       opqrstuvwxyz
+                        opqrstuvwxyz
+
+                                                       ABCDEFGHIJKLMN                       ABCDEFGHIJKLMN 
+                                                       OPQRSTUVWXYZ
+                        OPQRSTUVWXYZ
+
+                                                       1234567890!@#$%^&*                   1234567890!@#$%^&*
+15
+                                                       AaBbCc
+                  Secondary type                       Inter by Rasmus Andersson
+ Tone of Voice
+   Our secondary typeface is Inter.  
+ Logo
+            It is used across all body copy
+                  when we need to be a bit more
+ Color
+
+                  clear and digestible versus
+ Typography       expressive. We use Inter Medium
+                  for the most part, but will
+                  occasionally highlight key words
+                  or phrases in Inter Semi Bold.
+
+
+
+
+                                                       Checkout faster than
+
+                                                       you can say ‘one-click.’
+
+                                                       Medium                      Semi Bold
+                                                       abcdefghijklmn              abcdefghijklmn 
+                                                       opqrstuvwxyz
+               opqrstuvwxyz
+
+                                                       ABCDEFGHIJKLMN              ABCDEFGHIJKLMN 
+                                                       OPQRSTUVWXYZ
+               OPQRSTUVWXYZ
+
+                                                       1234567890!@#$%^&*          1234567890!@#$%^&*
+16
+                  Type hierarchy
+ Tone of Voice
+   Whenever we write and design      Headline: Agrandir Narrow Bold
+
+
+
+
+                                                    Shockingly simple.
+
+
+ Logo
+            copy, please ensure to use the
+                  following examples as guidance.
+ Color
+
+ Typography
+
+
+
+
+                                                    Subline: Agrandir Narrow Medium
+
+
+                                                    The quickest, safest effortless-est 
+                                                    way to pay for something online.
+                                                    Body copy: Inter
+
+                                                    Checkout often causes e-commerce anxiety. A less than seamless
+                                                    checkout experience can cause abandoned carts, fraud concerns, 
+                                                    and general frustration that can stop a purchase in its tracks.
+
+                                                    Bolt relieves that burden, enabling shoppers to breeze through 
+                                                    checkout and consistently converting guest shoppers into loyal 
+                                                    account holders for better business in the short term and long run.
+
+                                                    Annotation: Inter
+
+                                                    Visit bolt.com for more information.
+
+
+                                                    Button: Inter
+
+
+                                                           Checkout
+
+
+
+17
+                  Type color use cases
+ Tone of Voice
+
+ Logo
+
+                  When combining our primary
+                  colors in a piece of communication,
+                  always try to ensure legibility. Do
+                                                        Shockingly Simple.   Shockingly Simple.
+ Color
+
+                  not layer bright colors atop on
+ Typography       another or dark colors atop one
+                  another in a way that would make
+                  something difficult to read. 
+
+
+
+
+                                                        Shockingly Simple.   Shockingly Simple.
+                  Here are a set of primary color
+                  combinations that could be a  
+                  good place to start.
+
+
+
+
+                                                        Shockingly Simple.   Shockingly Simple.
+
+                                                        Shockingly Simple.
+
+                                                        Shockingly Simple.
+18
+                  Highlights                                ➀                  ➁
+
+
+
+ Tone of Voice
+   Sometimes we use color to
+ Logo
+            highlight certain words on a page
+                  for emphasis. The highlight color
+ Color
+
+                  should be brighter than the rest of
+ Typography       the sentence or paragraph, and is
+                  usually Lightning Yellow or Light
+                  Gray.
+
+
+
+
+                                                                 Checkout
+         Checkout
+
+                  ➀ Background: dark gray, text: light  
+                    gray, highlight: lightning yellow.
+
+
+
+                  ➁ Background: Bolt black, text: light  
+
+
+
+
+                                                                faster than
+        in (half)
+
+                    gray, highlight: lightning yellow
+
+
+
+
+
+                                                                you can say        the blink 
+                                                                 one-click.        of an eye.
+
+19
+

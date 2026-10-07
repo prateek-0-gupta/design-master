@@ -1,0 +1,67 @@
+{
+ "url": "https://ui8.net/designer-goods/products/brand-icons?rel=1042",
+ "title": "Just a moment...",
+ "scrollHeight": 900,
+ "customProperties": {},
+ "loadedFonts": [],
+ "fontFamily": {
+  "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"": 7,
+  "monospace": 1
+ },
+ "fontSize": {
+  "12px": 5,
+  "40px": 1,
+  "24px": 1,
+  "16px": 1
+ },
+ "fontWeight": {
+  "400": 6,
+  "600": 2
+ },
+ "lineHeight": {
+  "18px": 5,
+  "50px": 1,
+  "30px": 1,
+  "24px": 1
+ },
+ "letterSpacing": {
+  "normal": 8
+ },
+ "textColor": {
+  "rgb(49, 49, 49)": 6,
+  "rgb(0, 0, 238)": 2
+ },
+ "bg": {},
+ "radius": {},
+ "shadow": {},
+ "transition": {},
+ "border": {
+  "1px solid rgb(217, 217, 217)": 2
+ },
+ "textTransform": {
+  "none": 8
+ },
+ "typePairs": {
+  "system-ui | 12px | 400 | lh 18px | ls normal": 4,
+  "system-ui | 40px | 600 | lh 50px | ls normal": 1,
+  "system-ui | 24px | 600 | lh 30px | ls normal": 1,
+  "system-ui | 16px | 400 | lh 24px | ls normal": 1,
+  "monospace | 12px | 400 | lh 18px | ls normal": 1
+ },
+ "headings": [
+  "H1 ui8.net",
+  "H2 Performing security verification",
+  "H2 Verification successful. Waiting for ui8.net to respond"
+ ],
+ "nav": [
+  {
+   "t": "Cloudflare",
+   "h": "https://www.cloudflare.com/?utm_source=challenge&utm_campaign=m"
+  },
+  {
+   "t": "Privacy",
+   "h": "https://www.cloudflare.com/privacypolicy/"
+  }
+ ],
+ "fullHeight": 900
+}

@@ -1,0 +1,38 @@
+{
+ "requested": "https://playbook.ebay.com/",
+ "final": "https://playbook.ebay.com/foundations/iconography/our-icons",
+ "title": "eBay Playbook — One system for everyone to love.",
+ "subpages": [
+  {
+   "href": "https://playbook.ebay.com/foundations",
+   "t": "Foundations",
+   "ok": true
+  },
+  {
+   "href": "https://playbook.ebay.com/foundations/logo",
+   "t": "Logo",
+   "ok": true
+  },
+  {
+   "href": "https://playbook.ebay.com/foundations/color",
+   "t": "Color",
+   "ok": true
+  },
+  {
+   "href": "https://playbook.ebay.com/foundations/typography",
+   "t": "Typography",
+   "ok": true
+  },
+  {
+   "href": "https://playbook.ebay.com/foundations/photography",
+   "t": "Photography",
+   "ok": true
+  },
+  {
+   "href": "https://playbook.ebay.com/foundations/iconography/our-icons",
+   "t": "Iconography",
+   "ok": true
+  }
+ ],
+ "cssFiles": 413
+}

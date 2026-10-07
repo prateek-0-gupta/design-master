@@ -1,0 +1,1992 @@
+BIG
+GREEN
+GUIDE
+                                                   2
+
+
+
+
+Welcome to the Big Green Guide.
+This is your roadmap (and tour guide) to
+everything you need to know about the
+Hulu brand.
+You’ll find plenty of info in here to help you
+bring our brand to life, plus links to deep-dive
+guides. To access downloadable assets,
+you can go to to our toolkit site, This Is Hulu.
+Stream on!
+BRAND
+                                                                3
+
+
+
+
+CREATIVE
+GUIDELINES
+             Global Design Principles   Tone of Voice
+             Design Toolkit
+                 Trademarks             Campaigns
+                 Color                      Time to Have Hulu
+                 Hulu Green                 Culture Campaigns
+                 Typography
+                 Iconography
+                 Grids                  Evergreen Brand
+                 Vessel                     Social
+                 Illustration               Email
+                                            Marketing Web
+                                            Swag
+             Product Design
+
+
+             Motion Toolkit
+                 Motion Theory
+                 Network Ident System
+                 Promo Structure
+                                             4
+
+
+
+
+             Orwell fan?
+             Dystopian futures?
+
+Night Off?                        SEASON 3
+We’ve created a fully adaptive          5
+
+unifying system that unites Marketing
+and Product Design.
+At the heart of the design system is The Vessel.   6
+
+Born from our name and logo.
+1.0                7
+
+
+
+
+      GLOBAL
+      DESIGN
+      PRINCIPLES
+X.X
+1.0           Global Design Principles                                                                                                       8
+
+
+
+
+        Stories connect us. With each                 1                                   2     We are all about the true TV Lover.
+      other and with the world. We truly                                                        We get them, like a good friend. We
+       understand the power of a great         Always                           Delightfully   know how passionate they are for TV,
+         story, and always put it first.       a story.                          human.        so everything we do is approachable,
+                                                                                                       warm and delightful.
+
+
+
+                                                                TV for
+                                                              TV people.
+                                                            Empowering everyone to
+                                                          discover, share and celebrate
+                                                           the stories that connect us.
+
+                                                  3                                       4
+          There’s always been a little
+      rebelliousness in our DNA, and we
+                                                Do it                              Simply            We are the ‘skinny jeans’ of TV.
+      can’t help but let it out. We entice,   different.                          essential.   Your great value staple that makes your
+                                                                                                 life easier. Utterly essential – stylish,
+      provoke and instigate people with
+                                                                                                 comfortable and infinitely adaptive.
+       bold ideas and behaviors – but all
+                with good fun.
+2.0             9
+
+
+
+
+      DESIGN
+      TOOLKIT
+2.0
+X.X        Design Toolkit                                                                       10
+
+
+
+
+Overview
+
+
+
+
+                                                               ABC
+                            Logo    Lockups       Color         Typography     Iconography
+
+
+
+
+                            Grid   The Vessel   Illustration   Motion Theory   Sonic Identity
+2.1   Design Toolkit   11
+
+
+
+
+      Trademarks
+2.1
+X.X   Trademarks                   12
+
+
+
+
+      We use our logo with pride
+      and fill it with meaning.
+2.1
+X.X    Trademarks                            13
+
+
+
+
+Logo   The Hulu logo is the primary visual
+       icon of our identity. The stylized,
+       mono-weight lower-case letter
+       forms should never be altered or
+       compromised.
+       This and other toolkit assets can
+       be downloaded here.
+2.1              Trademarks                                  14
+
+
+
+
+Logo Safe Zone   The logo’s safe zone is equivalent to the
+                 height of the ‘u’ on all sides.
+2.1            Trademarks                                  15
+
+
+
+
+Logo           Wherever possible, the logo should be
+Hero Palette   filled with Hulu green. In cases where we
+               want to make an impact by using a green
+               background, the logo can be black.
+
+               A green logo over gradient background is
+               preferred in most cases.
+2.1          Trademarks                                              16
+
+
+
+
+Hulu Badge   In cases where a green logo will not
+             be legible over the background, we
+             can use the Hulu badge.
+
+             Note that this is not our hero logo and is
+                                                          Examples
+             only used when the Hulu logo would not
+             be legible on its own.
+X.X
+2.1            Trademarks                                                                                      17
+
+
+
+
+Logo Lockups                                                                                    Examples
+
+
+
+
+               The Lockups                           The Badge
+               The Hulu Originals logo lockups are   Used in Product to denote exclusive
+               comprised of the Hulu logo and the    Hulu Originals, this badge ensures
+               word “Originals” set in Graphik.      legibility regardless of the background.
+
+
+
+
+                                                                                                Hulu Product
+
+
+
+
+                                                                                                A/V Open
+2.1
+X.X            Trademarks                                                                                                                               18
+
+
+
+
+Logo Lockups   There are different lockup formats depending
+               on the type of partnership. The Hulu and partner
+               logos should always have equal visual weight.
+
+
+
+
+               Premium Add-ons                                    Ongoing Partnerships                       One-off Partnerships
+               Use for content partnerships.                      Use a vertical pipe which is 150% of the   Use an “x” set in white Graphik Semibold
+               These can also live without The Vessel.            height of the “l” in Hulu for ongoing      raised above the baseline to appear
+                                                                  business-level partnerships.               vertically centered.
+
+
+
+
+                                                                                                                              X
+
+
+
+
+                                                                                                                              X
+2.1               Trademarks                                              19
+
+
+
+
+Logo Lockups      Typically used by our partners, these
+Tune In / Avail   logo lockups remain inside The Vessel
+for Partners      to ensure the legibility of our green logo
+                  over any background.
+                                                               Examples
+                  They are available in both static and
+                  animated form.
+2.1         Trademarks                               20
+
+
+
+
+App Icons   App icons are individually designed,
+            based on specifications, but the light
+            source in the gradient should always
+            come from the top right to align with
+            gradients in our UI.
+
+            The following schematic provides
+            guidance on the logo sizing.
+2.2   Design Toolkit   21
+
+
+
+
+      Color
+X.X
+2.2   Color                              22
+
+
+
+
+      Color is how we tell stories and
+      turn heads. We’re no wallflower.
+      Our green is strong enough to
+      melt through your screen.
+2.2          Color                                23
+
+
+
+
+Hulu Green   Green is good. It sets us apart,
+             and it’s the first thing you think
+             of when you think Hulu.
+
+
+
+
+             Hulu Green
+2.2       Color                                                                                                                                                   24
+
+
+
+
+Primary   Our primary colors form the base
+Colors    of our design system.
+
+
+
+
+              Hulu Green                                              Hulu Black                               Dynamic Gradient
+              Our primary brand color                    #1CE783      Our secondary color is     #040405       Used as a background        #040405 to #183949
+              represents the fresh                                    used only in combination                 to create depth and bring
+              distinctiveness of our                     R 28         with green.                R 4           a cinematic quality.        Light source generally
+              brand and stands out                       G 231                                   G 4                                       comes from the bottom
+              from more traditional                      B 131                                   B 5                                       right for Marketing.
+              entertainment palettes.                                                                                                      For Product Design, it
+                                                         C   76                                  C   60                                    generally comes from
+                                                         M   0                                   M   40                                    the top right.
+                                                         Y   70                                  Y   40
+                                                         K   0                                   K   100                                   Print-specific files
+                                                                                                                                           available here
+                                                         PMS 7479 C                              PMS Black C
+
+
+
+
+              Secondary Green
+              Secondary Green is used sparingly          #29A869
+              in digital creative. It is to be used in
+              combination with white or very light       R 41
+              colors. Unlike our hero green, this        G 168
+              meets color contrast accessibility         B 105
+              standards.
+X.X
+2.2   Color                              25
+
+
+
+
+      But there’s more than green.
+      Three unique color worlds
+      let us tell a variety of stories
+      as only Hulu can.
+2.2
+X.X                 Color                                                                                                26
+
+
+
+
+Color Worlds
+Overview
+
+
+
+
+Show Time                                 Clean Green                          Business Time
+Show Time is bold, atmospheric and        Green is good. It sets us apart,     When we want to be clear and
+immersive. The color world we use most    and it’s the first thing you think   inviting. Use it when we talk about our
+of the time as we show off our content.   of when you think Hulu.              business, our culture and our teams.
+2.2         Color                                   27
+
+
+
+
+Show Time   Use this color world for showing off
+Overview    our wide range of content.
+
+
+
+
+            Background
+                ATMOSPHERIC                 BLACK
+
+
+
+
+            Text and graphics
+                HULU GREEN                  WHITE
+
+
+
+
+                SHOW COLOR
+
+
+
+
+            Where to use
+            •   Product experience
+            •   Brand campaigns
+            •   Webpages
+            •   Performance marketing banners
+            •   Social
+2.2             Color                                                                                                                                                                                                          28
+
+
+
+
+Show Time       Content color adds depth and personality to our creative.
+Content Color   This is present in both Product and Marketing design.
+
+
+
+
+                User Interface                                                                                     Marketing
+                The Vessel is used as a selection state and uses an algorithm to match the color to the key art.   Similar to what we see in Hulu UI, color can be integrated into Marketing content through The Vessel
+                The gradient glow overlay increases the legibility of the information presented over the art.      and a gradient glow overlay. The glow overlay is used to increase legibility of text or title treatments.
+2.2             Color                                                                         29
+
+
+
+
+Show Time       Vessels and gradient glows in Marketing should match the color that is
+Content Color   assigned by Hulu UI.
+
+                You can determine the correct color by using a browser extension such
+                as Colorzilla that allows you to eyedrop the color in our ui. Pick from the
+                horizontal bar below the key art on web to get the correct value.
+2.2             Color                                                            30
+
+
+
+
+Show Time       If you are featuring photos that are not used in Hulu UI, such
+Content Color   as episodic stills, please pick the most dominant color from
+                within the photo to use for The Vessel and gradient glow.
+                Examples below.
+2.2           Color                                   31
+
+
+
+
+Clean Green   The use of green creates
+Overview      ownership and punctuates our stories.
+
+
+
+
+              Background
+               HULU GREEN
+
+
+
+
+              Text and graphics
+               BLACK                        WHITE
+
+
+
+
+              Where to use
+              • Hulu + Live TV
+2.2             Color                               32
+
+
+
+
+Business Time   Business Time is used across
+Overview        more formal touch-points. Our
+                secondary green can be used on a
+                white background to meet contrast
+                accessibility standards.
+
+
+
+
+                Background
+                 WHITE
+
+
+
+
+                Text and graphics
+                 BLACK
+
+
+
+
+                 SECONDARY GREEN
+
+
+
+
+                Usage
+                • Internal and B2B presentations
+                • Recruitment webpages
+                • Product design
+2.2           Color                                                                           33
+
+
+
+
+Usage         The main color world is Show Time,
+Proportions   used around 60% of the time. Clean
+              Green allows us to deliver a striking
+              brand presence when needed. The
+              Business Time color world should
+              be used more sparingly, making up
+              a very small part of the identity.
+
+
+
+
+              Show time: 60%                          Clean Green: 30%   Business time: 10%
+2.3   Design Toolkit   34
+
+
+
+
+      Typography
+X.X
+2.3   Typography                         35
+
+
+
+
+      Typography is our visual voice.
+      Bringing range, nuance and
+      attitude to what we have to say.
+2.3
+X.X        Typography
+
+                                                           Graphik Re
+                                                                    36
+
+
+
+
+                                                           Graphik Reg
+Typeface   Hulu uses the Graphik type
+           family in all applications.
+
+
+
+
+                                                           Graphik Bo
+           Google Slides
+           When using Google Slides, use Proxima Nova.
+
+           Vendors
+                                                           GRAPHIK B
+           Coordinate with Commercial Type on
+           purchase of the appropriate license for their
+           project (e.g. Web, App, Desktop, etc.)
+X.X
+2.3                Typography                                                                                                                                          37
+
+
+
+
+Type Expression    Our typographic system is bold and
+Overview           flexible. Four distinct typographic
+                   expressions allow for range in tone.
+
+
+
+
+Core                                                      Active                                Narrative                            Cinematic
+Our everyday expression.                                  Dynamic and filled with energy.       Combines words, images and           Elegant and singular. Use it to
+It’s simple, accessible                                   Use it to represent Hulu + Live TV.   The Vessel to tell engaging visual   embellish dramatic imagery
+and contemporary.                                                                               stories about our content.           with messaging.
+
+
+
+
+                                                                                                                                               THE FUTURE IS HERE
+2.3        Typography                                                                                        38
+
+
+
+
+Core       This is our everyday expression.
+Overview   Clear hierarchy of information
+           ensures ease of use for more
+           functional moments in our brand.
+
+
+
+
+           Where to use
+           • Brand campaigns                                   Weight    Leading   Tracking
+
+
+
+                                              HEADLINE
+           • Evergreen brand creative
+           • Performance marketing                                                 Ems          Percent
+
+                                                               Bold      90%       -25          -3%
+
+
+
+                                              Conversational
+                                              Headline
+                                                               Bold      115%      -18          -2%
+
+
+
+
+                                              Section Header   Regular   115%      -18          -2%
+
+
+
+
+                                              Subhead          Regular   125%      0            0
+
+
+
+
+                                              Body             Regular   Auto      10           +1%
+                                                                                   +/- based    +/- based
+                                                                                   on size &    on size &
+                                                                                   legibility   legibility
+2.3        Typography                                                                                                                                                          39
+
+
+
+
+Core
+Examples
+
+
+
+
+           HEADLINE                                                  Conversational Headline                                  Section Header
+           Use for shorter headlines which aren’t a full sentence,   Use to convey Hulu’s voice in longer headlines which     Use in instances where there are multiple
+           declarative statements, or tune-in messaging.             are full sentences. Sentence case should be used here.   headers (i.e on a landing page). These usually
+                                                                                                                              come after / below a bold headline.
+2.3        Typography                                                                                       40
+
+
+
+
+Active     A mix of Super Italic, Bold, and
+Overview   Medium font weights is used
+           to create dynamic and active
+           expressions across different types
+           of Live TV messages.
+
+
+
+
+           Where to use
+           • Hulu + Live TV                                       Weight         Leading   Tracking
+
+
+
+                                                SPORTS HEADLINE
+                                                                                           Ems        Percent
+
+                                                                  Super Italic   85%       -20        -3%
+
+
+
+
+                                                ENTERTAINMENT
+                                                HEADLINE
+                                                                  Bold           85%       -20        -3%
+
+
+
+
+                                                News headline     Medium         115%      -10        -1%
+2.3        Typography                                                                                                                                                                              41
+
+
+
+
+Active
+Examples
+
+
+
+
+           SPORTS HEADLINE                                              ENTERTAINMENT HEADLINE                                          News headline.
+           Impactful and energetic typography with its negative space   The right energy and the versatility for a wide range of live   A gentle voice with a strong attitude that allows us to
+           set to a minimum. Use when talking about live sports.        shows, delivered through clean and striking typesetting.        deliver a straightforward message in a trustworthy tone.
+2.3         Typography                                                                           42
+
+
+
+
+Narrative   By combining words and imagery through
+Overview    The Vessel, we create a narrative around the
+            content to guide the viewer.
+
+
+
+
+            Where to use                                   Type styles
+            • Brand campaigns
+            • Evergreen brand creative
+            • Performance marketing
+
+
+
+
+                                                              Headline         Emphasis
+                                                           Graphik Bold    Graphik Bold Italic
+                                                           Inside Vessel   Inside Vessel
+
+
+
+
+                                                              HEADLINE         EMPHASIS
+                                                           Graphik Bold    Graphik Bold Italic
+                                                           All Caps        All Caps
+                                                           Inside Vessel   Inside Vessel
+2.3         Typography                                                                                                                                43
+
+
+
+
+Narrative
+Examples
+
+
+
+
+                          HEADER
+
+            Always center align typography   Contain text and images within Vessels. Type interacts with   Combine typography that sits both inside
+            to The Vessel.                   iconography to create direction.                              and outside The Vessel to add interest.
+2.3         Typography                                                                                  44
+
+
+
+
+Cinematic   Cinematic expressions are used to dial
+Overview    up our premium content. This is the only
+            expression where we use Graphik light.
+
+
+
+
+            Where to use                               Type styles
+            • Promotion of premium content
+
+
+
+
+                                                       HEADLINE
+                                                       Graphik Light
+                                                       All Caps
+
+
+
+
+                                                           H       E       A      D     L   I   N   E
+
+
+                                                       Graphik Light
+                                                       All Caps
+                                                       Inside Vessel
+
+
+
+
+                                                       We have flexible tracking from
+                                                       +150 to +2000 depending on
+                                                       amount of text and content.
+2.3         Typography                                                                                          45
+
+
+
+
+Cinematic
+Examples
+
+
+
+
+                                                                                           THE FUTURE IS HERE
+                                                 T H E   T E A R S   S T A R T   H E R E
+
+                 T H I S   I S   T H E   E N D
+2.3          Typography                                                                                                                   46
+
+
+
+
+Typography
+DON’TS
+
+
+
+
+                       RITE                          THE
+                      W
+                                                                              FEEL THE HEAT                      KEEPING SECRETS
+
+                                               FUTURE
+             Don’t rotate typography.                      Don’t use multiple content colors   Don’t use the dimensional glow
+                                                           on typography.                      on typography.
+
+
+
+
+             EVIL TAKES MANY FORMS                                     DOCTOR SLEEP                         SAME KING, DIFFERENT THRONE
+
+
+
+
+             Don’t use outlined text over imagery.         Avoid blocking key features and     Don’t match typography
+                                                           faces with typography.              color to Vessel.
+2.4   Design Toolkit   47
+
+
+
+
+      Iconography
+2.4
+X.X   Iconography            48
+
+
+
+
+      Our icons help tell
+      a story while adding
+      some fun.
+X.X
+2.4       Iconography                                                                                               49
+
+
+
+
+Product   Hulu product iconography is
+Icons     organized into two categories,
+          Each with its own use cases.
+
+
+
+
+                                      Utililty Icons                              Pictographs
+                                      Use for navigation, notifications, and to   Use when a Utility icon doesn’t
+                                      represent actions.                          tell enough of a story.
+X.X
+2.4         Iconography                     50
+
+
+
+
+Marketing   A selected set of our product
+Icons       utility icons become a part
+            our emotive and navigational
+            language in marketing.
+2.4
+X.X       Iconography                                                                                                                          51
+
+
+
+
+Icon      An icon’s meaning can shift
+Journey   depending on context.
+
+
+
+
+                                                     TIME TO
+                                                     CATCH UP
+
+
+                    Product                          Evergreen Brand                              Brand Culture Campaign
+                    This icon is used to represent   In this example, the icon’s meaning          Here, the same icon is used as part of the
+                    ADD TO MY STUFF.                 changes slightly and is used to illustrate   larger set to represent inclusion.
+                                                     the story of catch-up messaging.
+2.5   Design Toolkit   52
+
+
+
+
+      Grids
+X.X
+2.5   Grids                       53
+
+
+
+
+      Don’t underestimate
+      the power of the grid.
+      A simple, flexible system
+      that aligns Hulu on
+      all platforms.
+2.5
+X.X          Grids                                                                                                 54
+
+
+
+
+Grid         We have three principles for
+Principles   creating our grid system.
+
+
+
+
+             Even Spacing                      Even Margins                       Flexibility
+             A 1:1 grid ensures even spacing   Margins must be equally balanced   1:1 grid density adapts to
+             between elements.                 and consist of two grid units.     accommodate different formats.
+2.5                  Grids                                                                                                                                                                                            55
+
+
+
+
+Grid                 Using the following approach, we can
+Construction         create a consistent 1:1 grid system that
+                     works across all formats.
+
+
+
+
+                                         16
+
+
+
+                                                                9
+
+
+
+
+Define the aspect ratio of the format.                              Use the aspect ratio to create a 1:1 grid. 16 units across by 9 down.   Then multiply the grid units equally to ensure the grid is dense enough
+                                                                                                                                            and creates a flexible design canvas.
+
+Digital Landscape                                                   Digital Landscape                                                       Digital Landscape
+Aspect Ratio: 16:9                                                  Units: 16 x 9                                                           Grid: 48 x 27
+2.5               Grids                                                                                                  56
+
+
+
+
+Digital formats   Please note that each format requires a
+                  different multiplication of its aspect ratio
+                  to create the desired density of the grid.
+                  This should be considered optically.
+
+
+
+
+                                                                                                    Digital Landscape
+                                                                                                    Aspect Ratio: 16:9
+                  Social 1080x1080                                                                  Grid: 48 x 27
+                  Aspect Ratio: 1:1
+                  Grid: 30 x 30
+
+
+                                                                 Performance Marketing Ad 300x600
+                                                                 Aspect Ratio: 3:6
+                                                                 Grid: 30 x 60
+2.5             Grids                                                                                                                                      57
+
+
+
+
+Print Formats   Please note that each format requires a
+                different multiplication of its aspect ratio
+                to create the desired density of the grid.
+                This should be considered optically.
+
+
+
+
+                Billboard 40x 12ft
+                Aspect Ratio: 40:12
+                Grid: 80 x 24
+
+
+
+
+                                                               A- Size Poster                                US Letter
+                                                               Aspect Ratio: 6:8 | In instances of decimal   Aspect Ratio: 5:7 | In instances of decimal
+                                                               places in aspect ratios, round to whole       places in aspect ratios, round to whole
+                                                               numbers.                                      numbers.
+                                                               Grid: 24 x 32                                 Grid: 25 x 35
+2.6   Design Toolkit   58
+
+
+
+
+      Vessel
+2.6
+X.X   Vessel                           59
+
+
+
+
+      The Vessel.
+      Bringing our key motif to
+      life and using it to celebrate
+      everything Hulu.
+2.6
+X.X       Vessel                                      60
+
+
+
+
+Concept   Hulu loosely translates to “the holder of
+          precious things.” Born from our logo,
+          The Vessel becomes the holder of what
+          is most essential.
+X.X
+2.6         Vessel                                                                                                    61
+
+
+
+
+Behaviors   The Vessel has a range of
+            behaviors and expressions.
+
+
+
+
+            Tell stories                                Emphasize what’s important         Be a window into content
+
+
+
+                                   The CIA?
+                                                                  85,000 shows                        THE SAGA
+                                   1980s Los Angeles?             and movies.
+                                                                It’s kind of a big deal.
+                                                                                                     CONTINUES
+2.6
+X.X         Vessel                                                                         62
+
+
+
+
+Behaviors   The Vessel has a range of
+            behaviors and expressions.
+
+
+
+
+            Highlight the best part      Spotlight characters   Guide the viewer
+
+
+
+                                                                         Ready to watch?
+                                                                          LET’S GO
+X.X
+2.6   Vessel                 63
+
+
+
+
+      Creating The Vessel.
+X.X
+2.6           Vessel                                                                                                                                                                          64
+
+
+
+
+Quick         Pay special attention to the Min/Max
+Cheat Sheet   corner radius dimensions for larger units.
+
+
+
+
+                                                           Corner radius                                Stroke width                              Type padding
+                                                           Divide shortest edge                         Regular stroke:                           Compact padding:
+                                                           of The Vessel by 6.                          Divide longest edge                       Typography is scaled
+                                                                                                        of The Vessel by 100.                     at 90% of the width of
+                                                           If using multiple Vessels all corner radii                                             The Vessel.
+                                                           align to the average pixel radius (not
+                                                           smallest, not largest).                      Heavy stroke:
+                                                           Each format has a pre-defined Min and        Divide longest edge                       Wide padding:
+                                                           Max corner radius to create a cohesive
+                                                           aesthetic across all formats.
+                                                                                                        of The Vessel by 50.                      Typography is scaled
+                                                                                                                                                  at 70% of the width of
+                                                           2160X 3840
+                                                                                                        If using multiple stroke weights,         The Vessel.
+                                                           Min corner radius: 26px                      including icons, in one piece of
+                                                           Max corner radius: 120px                     creative, align them all to the average
+                                                                                                        weight (not smallest, not largest).       The Vessel always aligns to the grid,
+                                                           1920X1080
+                                                           Min corner radius: 13px
+                                                                                                                                                  but the type can freely sit within The
+                                                           Max corner radius: 60px                                                                Vessel. Just make sure it is horizontally
+                                                                                                                                                  and vertically aligned within The Vessel.
+                                                           1080X1080
+                                                           Min corner radius: 13px
+                                                                                                                                                  The height of The Vessel is optically
+                                                           Max corner radius: 30px                                                                aligned to the grid.
+                                                           Performance Marketing Banners
+                                                           Min corner radius: 4px
+                                                           Max corner radius: 16px
+2.6             Vessel                                                                                              65
+
+
+
+
+Corner Radius   To calculate the corner radius of The
+                Vessel we use the ratio of 6:1. If using
+                multiple Vessels in one piece of
+                creative, all corner radii align to the
+                average px radius.
+
+
+
+
+                                                                                                            196px
+
+
+
+
+                                   231px
+
+
+
+
+                Horizontal Example:                           Portrait Example:
+                Divide the shortest side of The Vessel by 6   Divide the shortest side of The Vessel by 6
+                to calculate the corner radius value.         to calculate the corner radius value.
+
+                Vessel height: 154px                          Vessel width: 196px
+                Corner radius: 38px                           Corner radius: 32px
+2.6         Vessel                                                                                              66
+
+
+
+
+Radius      We have defined a minimum and
+Minimum     maximum corner radius for common
+& Maximum   formats to avoid The Vessel becoming
+            too square or rounded.
+            A general rule of thumb is that the
+            corner radius should relate to the curves
+            of the Hulu logo in that piece of creative.
+
+
+
+
+                                                                                3840X2160
+                                                                                Min corner radius: 26px
+                                                                                Max corner radius: 120px
+
+
+                                                                                1920X1080
+                                                                                Min corner radius: 13px
+                                                                                Max corner radius: 60px
+
+
+                                                                                1080X1080
+                                                                                Min corner radius: 13px
+                                                                                Max corner radius: 30px
+
+
+                                                                                Billboard 40x12 ft
+                                                                                Min corner radius: 1.5”
+                                                                                Max corner radius: 11”
+
+            1920X1080 Minimum:                            1080x1920 Maximum:
+            Corner radius: 16px                           Corner radius: 60px   Performance Marketing Banners
+                                                                                Min corner radius: 4px
+                                                                                Max corner radius: 16px
+2.6             Vessel                                                                                         67
+
+
+
+
+Stroke Weight   To calculate the stroke weight of The
+Variations      Vessel, divide the longest side by 100.
+                If using multiple Vessels all stroke
+                weights align to the average weight.
+
+
+
+
+                                                          904px                                        904px
+
+
+
+
+                Regular                                           Heavy
+                Use primarily for evergreen brand,                Use primarily for promoting sports
+                Hulu Originals, and general                       on Hulu + Live TV.
+                entertainment properties.
+                                                                  The stroke width of The Vessel is
+                The stroke width of The Vessel is                 longest side divided by 50.
+                longest side divided by 100.
+                                                                  Vessel width: 904px
+                Vessel width: 904px                               Stroke weight: 18pt
+                Stroke weight: 9pt
+X.X
+2.6             Vessel                                      68
+
+
+
+
+Stroke Weight
+Examples
+
+
+
+
+                Regular              Heavy
+                Clean and concise.   Attitude and impact.
+2.6       Vessel                                                                                                                    69
+
+
+
+
+Type      There are two padding styles
+Padding   for type inside The Vessel.
+
+
+
+
+                                                                   X
+                                                                                                                                X
+
+
+
+
+                                                HEADER                                               HEADER
+                                                                                                                           90% X
+                                                              70% X
+
+
+
+          Wide Padding                                                 Compact Padding
+          Use primarily for evergreen brand,                           Use primarily for promoting sports
+          Hulu Originals, and general                                  on Hulu + Live TV.
+          entertainment properties.
+                                                                       To create compact padding, typography is at
+          To create wide padding we use typography at                  90% of the width of The Vessel. The Vessel always
+          70% of the width of The Vessel. The Vessel always            aligns to the grid, but the type can freely sit within
+          aligns to the grid, but the type can freely sit within       The Vessel. Just make sure it is horizontally and
+          The Vessel. Just make sure it is horizontally and            vertically aligned to The Vessel. The height of The
+          vertically aligned to the Vessel. The height of The          Vessel is optically aligned to the grid.
+          Vessel is optically aligned to the grid.
+2.6
+X.X          Vessel                                                                                                                       70
+
+
+
+
+Vessel and   The Vessel is able to interact in a range of
+Image        expression follwing three main principles.
+
+
+
+
+             Cut The Noise                                  Hero Our Talent                         Enter The Huluverse
+             Use a defocused image layer in the             The Vessel interacts with imagery       Using The Vessel as a lens into the
+             background, with The Vessel bringing           through layering to create ownership.   Huluverse, we draw the viewer in
+             the image into focus.                                                                  through vignettes of content.
+X.X
+2.6           Vessel                                                                                            71
+
+
+
+
+Vessel Glow   The glow is used to bring depth and
+              as a way of revealing information.
+              There are four styles of glow.
+
+
+
+
+                       Dimensional reveal                                                Left to right reveal
+                       Only used in motion
+
+
+
+                                                    Top-down reveal   Bottom-up reveal
+X.X
+2.6             Vessel                                                                                                                 72
+
+
+
+
+Corner Radius   For more consistency between radii in web                                               Note
+Product         design, we can assign one of three radius                                               Refer to the Product chapter
+                values based on the scale of the container.                                             for example components.
+
+
+
+
+                                                              Small                    Medium   Large
+
+
+
+
+                                                              4px                      16px     24px
+                                                               START YOUR FREE TRIAL
+
+
+
+
+                                                               START YOUR FREE TRIAL
+2.6      Vessel                                                                                                 73
+
+
+
+
+Vessel
+DON’TS
+
+
+
+
+         Don’t overlap Vessels.             Avoid picking a color that doesn’t   Avoid using heavy glows that
+                                            relate optically to the artwork.     compromise the artwork.
+
+
+
+
+                                                                                                 JUSTICE
+            Sore throat?
+            Seeing double?
+
+
+
+         Don’t match typography and icons   Avoid blocking key features and      Don’t use multiple colors
+         to Vessel color.                   faces with The Vessel or glow.       in same execution.
+2.7   Design Toolkit   74
+
+
+
+
+      Illustration
+75
+2.7
+X.X   Illustration                            76
+
+
+
+
+      Our illustration style builds off the
+      shapes in our logo. Adding a little
+      spice (and cute characters) to our
+      communications.
+2.7
+X.X        Illustration                                77
+
+
+
+
+Overview   The rounded corners of The Vessel are
+           aligned with characters’ bodily features.
+2.7     Illustration                                                 78
+
+
+
+
+Style   Illustration allows us to add our distinct
+        Hulu attitude, from simple character spot
+        illustrations to expressive hero renders.
+
+
+
+
+                                    Character Spots   Hero Renders
+3.0                    79
+
+
+
+
+      PRODUCT DESIGN
+80
+X.X
+3.0   Product Design                          81
+
+
+
+
+      In product and on the web,
+      Hulu combines many aspects of
+      our design system to guide users
+      with clarity, efficiency and swagger.
+X.X
+3.0                  Product Design                                                                                                                                                                          82
+
+
+
+
+User Interface      Keep the following principles in mind when
+                    designing user interfaces with the Hulu
+                    design system, to ensure coherence across
+                    the Hulu brand.
+
+
+
+
+Create confident hierarchy.                                  Let the copy sing.                               Elevate Originals.                             Use color purposefully.
+Keep layouts Simply Essential and focus                      Our copy is Hulu’s voice. Convey our             Originals are part of our secret sauce. Use    Help immerse users in our content and
+on conveying one message at a time.                          approachable personality by making room          Hulu Green and The Vessel to help them stand   communicate the depth of the Huluverse.
+This helps the Hulu experience feel clear,                   for powerful headlines and playful statements.   out from our catalogue of content.             Use color purposefully to highlight elements,
+intuitive and easy to navigate.                                                                                                                              guide the user, and create atmosphere.
+4.0             83
+
+
+
+
+      MOTION
+      TOOLKIT
+4.1   Motion Toolkit   84
+
+
+
+
+      Motion Theory
+4.1
+X.X   Motion Theory                         85
+
+
+
+
+      Using key visual elements of the
+      Network ID, the motion system has
+      been designed to elevate content
+      and flex across the multiple genres
+      and sub-brands of Hulu, on any
+      device, at any time.
+4.1
+X.X             Motion Theory                                                                                                                                     86
+
+
+
+
+Motion Theory   The global design principles are used to make
+Principles      sure everything we move moves like Hulu.
+
+
+
+
+                                                                Always a Story.                                  Delightfully Human.
+                                                                The Vessel immerses us in the breadth and        The Vessel is the narrator of diverse stories
+                                                                depth of endless entertainment by pulling        and adapts to fit the content it holds through
+                                                                us in and out of content using z-space. This     contracting and expanding as it transitions.
+                                                                creates a sense of discovery and takes us on a   The stoke subtly stretches as we move to
+                                                                journey as it seamlessly connects stories.       capture the energy of movement and gives a
+                                                                                                                 subtle tactile feeling.
+
+                                                                Simply Essential.                                Do it Different.
+                                                                Delivering content effortlessly and clearly,     We transition between content using bold
+                                                                The Vessel highlights and emphasizes what is     punches of green and hard cuts to instigate
+                                                                important with simple but energetic snappy       change and create unexpected moments
+                                                                movements and a warm glow that illuminates       of delight.
+                                                                the vessel as it gleams.
+4.2   Motion Toolkit   87
+
+
+
+
+      Network
+      Ident System
+X.X
+4.2   Network Ident System               88
+
+
+
+
+      The ident system transports
+      you into the Huluverse.
+      Through The Vessel and our
+      rich sonic identity we enter the
+      world of entertainment.
+4.2          Network Ident System                                                                                89
+
+
+
+
+Network ID   Our ID system consists of two versions that
+             have been created for the complete range of
+             formats. Each version has a defined use as
+             seen below.
+             More details can be found here.
+
+
+
+
+                                                                                             Available Ratios:
+                                                                                             16x9 (1920x1080)
+                                                                                             4K (3840x2160)
+                                                                                             1x1 (1080x1080)
+                                                                                             4x5 (1080x1350)
+                                                                                             9x16 (1080x1920)
+
+
+
+
+             Network ID: Hulu                              Network ID: Hulu Originals
+             Plays before all Hulu content                 Plays before all Hulu Originals
+4.2              Network Ident System   90
+
+
+
+
+Network ID:
+Hulu Landscape
+4.2              Network Ident System   91
+
+
+
+
+Network ID:
+Hulu Originals
+Landscape
+4.2        Network Ident System                       92
+
+
+
+
+App Open   The App Open uses a condensed
+           version of hero Hulu ID and is used as
+           the opening of Hulu digital experiences.
+           Only in landscape formats.
+4.3   Motion Toolkit   93
+
+
+
+
+      Promo
+      Structure
+4.3               Promo Structure   94
+
+
+
+
+Promo:
+Licensed Single Show
+Social - Sub Acq
+4.3               Promo Structure   95
+
+
+
+
+Promo:
+Licensed Multi Show
+Social - Sub Acq
+4.3               Promo Structure   96
+
+
+
+
+Promo:
+Premium Add-On
+Multi-Show / Retention
+4.3              Promo Structure   97
+
+
+
+
+Promo:
+New this Month
+Sizzle
+5.0                   98
+
+
+
+
+      TONE OF VOICE
+X.X
+5.0   Tone of Voice                      99
+
+
+
+
+      Our voice is our superpower.
+      Everything we say helps to bring
+      us closer to our customers.
+      And our customers closer to
+      incredible entertainment.
+X.X
+5.0       Tone of Voice                                                                                                           100
+
+
+
+
+Summary   This is Rebel Lover.
+          Our design principles also apply to our tone of
+          voice. Helping Rebel Lover to spread across all
+          our communications.
+
+
+
+
+          1. Always a Story.                                2. Delightfully Human.   3. Do it Different.   4. Simply Essential.
+          • Conversational                                  • Intelligent            • Confident           • Bold
+          • Emotional                                       • Empathetic             • Optimistic          • Energized
+          • Unexpected                                      • Inclusive              • Witty               • Clear
+5.0
+X.X           Tone of Voice                                                                          101
+
+
+
+
+              Always a Story
+Principle 1
+
+
+
+
+              What it
+              means
+                              Use your writing to tell a story –
+                              or start one the reader can finish.
+                                                                       Example
+                                                                       OOH       Hold your breath.
+                              Be unexpected, conversational.
+                                                                                 Thrillers on Hulu
+                              Write something that moves people.
+
+              What it         That we’re repetitive and predictable.
+              doesn’t         That we focus more on a clever arc
+                              than on our audience.
+X.X
+5.0           Tone of Voice                                                                                      102
+
+
+
+
+              Delightfully Human
+Principle 2
+
+
+
+
+              What it
+              means
+                              We’re nice people. So we keep
+                              things personal and inclusive.
+                                                                      Example
+                                                                      Sign Up     Welcome to the family.
+                              Our aim with our TV, and our copy,
+                                                                      Completed
+                                                                                  Now sit back and get ready
+                              is to find connections through                      to be seriously entertained.
+                              culture, intelligence and emotion.
+                              And we love all TV fans equally –
+                              so no judgements.
+
+
+              What it         That we’re fluffy, overly sentimental
+              doesn’t         or try to force relationships and
+                              opinions on people.
+X.X
+5.0           Tone of Voice                                                                                                   103
+
+
+
+
+              Do it Different
+Principle 3
+
+
+
+
+              What it
+              means
+                              Be unashamedly Hulu.
+                              We follow our own path. It’s an
+                                                                           Example
+                                                                           New Series   This is not a drill.
+                              optimistic, charming and witty one.
+                                                                           Teaser
+                                                                                        All-new Hulu originals have landed.
+                              That loves to be just a little bit cheeky.
+
+              What it         That everything is a joke. We need to
+              doesn’t         be loud, edgy and attention grabbing
+                              at all times.
+X.X
+5.0           Tone of Voice                                                                                                           104
+
+
+
+
+              Simply Essential
+Principle 4
+
+
+
+
+              What it
+              means
+                              Make every word count.
+                              Punchy statements. Clear CTAs. Bold lines.
+                                                                            Example
+                                                                            Renewal Notice   It’s renewal time.
+                                                                                             Got all the Hulu you need? Or thinking
+                              This is a waffle-free zone.                                    about treating yourself to ad-free?
+                                                                                             Our team will be happy to help you
+              What it         That we sacrifice clarity or personality in                    find your perfect Hulu.
+              doesn’t         order to reduce word counts. Replacing
+                              necessary explanations with jargon that
+                              can confuse people.
+5.0
+X.X        Tone of Voice                                                                               105
+
+
+
+
+Volume     Keeping it Hulu, whatever you’re writing.
+Controls   Our volume controls keep us sounding
+           authentic while staying relevant to the
+           subject and audience we’re writing for.
+
+
+
+
+           Volume 1                                    Volume 2                   Volume 3
+           Totally Hulu                                Getting Down to Business   Awkward Moments
+           • Fun                                       • Direct                   • Warm
+           • Provocative                               • Friendly                 • Human
+           • Loud                                      • Informative              • Solution focused
+5.0        Tone of Voice                                                                           106
+
+
+
+
+           Totally
+Volume 1                                       Example        You just leveled-up in
+                                               OOH
+                                                              the entertainment game.
+
+
+           Hulu                                Cancelled
+                                               Subscription
+                                                              Hey, Brad there’s no
+                                                              hard feelings here.
+                                                              But if you ever want to come back,
+           Who we are most of the time.                       we’ll welcome you with open arms.
+           Think our punchiest headlines,
+           witty storytelling and statements
+           that make people think twice.
+                                               Tweet          Looking for spies?
+                                                              Great outfits? A killer
+                                                              cast? All new #KillingEve
+                                                              Friday 9pm.
+5.0        Tone of Voice                                                                                          107
+
+
+
+
+           Getting Down
+Volume 2                                             Example     So, what are you into?
+                                                     Customer
+                                                                 Gore-fests? Sass? All the drama? We won’t
+                                                     Email
+                                                                 judge. Sharing what you love helps us to
+
+
+           to Business
+                                                                 keep your account safe, and means we can
+                                                                 recommend more shows and movies you’ll
+                                                                 really love.
+
+                                                     Business    Hulu does Ads better.
+                                                     Messaging   And we’ve got the data to prove it.
+           When the information needs to be the
+           star. We can still be friendly and fun,
+           just make sure you’re telling people
+           what they need to know.
+                                                     Renewal     It’s renewal time.
+                                                                 Got all the Hulu you need? Or thinking about
+                                                                 treating yourself to ad-free? Our team will be
+                                                                 happy to help you find your perfect Hulu.
+
+
+                                                     Business    Nobody likes a fraud.
+                                                     Messaging
+                                                                 That’s why Hulu built our advertising
+                                                                 platform with industry-leading viewability
+                                                                 and virtually no fraud.
+5.0        Tone of Voice                                                                                           108
+
+
+
+
+           Awkward                                             Hulu. We have a problem.
+Volume 3                                      Example
+                                              Error Message
+                                                               But we’re already putting things right. Try again
+                                                               or check out another great show while you wait.
+
+
+           Moments                            Missed Payment
+                                              Notification
+                                                               Well, this is awkward.
+                                                               Looks like we’ve had a problem processing your
+                                                               payment. Check your account and try again, or
+                                                               give our support team a call. We’ll soon get your
+           No one likes it when things go                      Hulu back.
+           wrong. So when something’s
+           not right we need to dial up the   Customer         Hulu’s mission is to bring you the
+           Delightfully Human to be warm,     Complaint
+           human and solution-focused.
+                                                               best in entertainment. If you’re not
+                                                               happy, we’re not happy.
+                                                               Our team’s looking into things for you, so how
+                                                               about a free month of Hulu while you wait?
+
+                                              Email Error      Now wait a minute.
+                                              Message
+                                                               Looks like that last email link wasn’t right.
+                                                               Try this one instead.
+6.0               109
+
+
+
+
+      CAMPAIGNS
+6.1   Campaigns   110
+
+
+
+
+      Time to
+      Have Hulu
+111
+8.1   112
+6.1           Time to Have Hulu   113
+
+
+
+
+WEB BANNERS
+6.1       Time to Have Hulu   114
+
+
+
+
+LANDING
+PAGE
+6.2   Campaigns   115
+
+
+
+
+      Culture
+      Campaigns
+6.2
+X.X   Culture Campaigns               116
+
+
+
+
+      Culture campaigns connect
+      Hulu to the world around us
+      in order to build brand love.
+    117
+
+
+
+
+X
+X.X
+6.2            Culture Campaigns                                                                                                                                                                        118
+
+
+
+
+Fix and Flex   The Fix and Flex system creates
+System         consistency while still allowing
+Overview       flexibility for each campaign.
+               More details can be found here.
+
+
+
+
+               Logo                                  Campaign Line                    Color Palette                            Graphic Language                       Typography
+               In addition to the Hulu logo, each    Each campaign has its creative   In addition to the core Brand colors,    Each campaign adds graphic elements,   An additional font can be used
+               campaign has its own distinct logo.   campaign line and look.          accent colors can be added, if needed.   fitting with the campaign concept.     in conjunction with Graphik for
+                                                                                                                                                                      personality and attitude.
+7.0               119
+
+
+
+
+      EVERGREEN
+      BRAND
+7.1   Evergreen Brand   120
+
+
+
+
+      Social
+7.1
+X.X        Organic Social                                                                                                                                                                                        121
+
+
+
+
+Channels   Approach will flex by channel
+Overview   depending on the audience
+           mindset and user behaviors.
+
+
+
+
+           Twitter                                Instagram                                    YouTube                             TikTok                                 Facebook
+           Conversational                         Aspirational                                 Edutainment                         Fun & Creative                         Personal
+           The Rebel Lover                        The Influencer                               The Director                        The Creator                            The Friend
+           Tweeting from a fan-first approach     Leveraging the platform like an              Focusing on long-form content,      Keeping the vibe light, fun, and       @Hulu will play the role of “friend”
+           and through the voice of our virtual   influencer, @Hulu will become a              @Hulu on YouTube will give fans a   entertaining, @hulu will act as        to users where conversations will
+           influencers, we will migrate 75% of    storyteller driven by talent-first visuals   home for new stories released in    a creator where fans can react,        take place around programming and
+           our content to be conversational and   and compelling conversations.                episodic form.                      recreate, and relate to our content.   marketing initiatives
+           editorially driven.
+7.1        Organic Social                    122
+
+
+
+
+IG Posts   The amount of visual brand cues
+           can be adjusted up or down.
+           Always featuring talent.
+7.1              Organic Social                            123
+
+
+
+
+Conversational   Using the conversational Vessel system,
+Story            we can mimic text conversations, native
+                 to the mobile environment
+7.1        Paid Social                                                                                                                      124
+
+
+
+
+Overview   There are 4 main categories of
+           acquisition creative as outlined below.
+           More details can be found here.
+
+
+
+
+           Text Only                                 Single Show - Full Bleed   Single Show - Non Full Bleed                   Multi Show
+                                                                                Used when partners ask that messaging not be
+                                                                                overlaid onto their key art.
+7.2   Evergreen Brand   125
+
+
+
+
+      Email
+X.X
+7.2   Email                              126
+
+
+
+
+      Email is an essential part of
+      our relationship with users.
+      It’s how we share the good, the
+      bad, and the just plain awesome.
+7.2        Email                                                                                                       127
+
+
+
+
+Overview   Common email types are shown.
+           More details can be found here.
+
+
+
+
+           Hulu Originals Launch             Multi Show - Disney Bundle   Multi Sports + Schedule   Multi Show - Gif
+7.3   Evergreen Brand   128
+
+
+
+
+      Marketing Web
+7.3        Marketing Web                            129
+
+
+
+
+Overview   The visual design of Marketing landing
+           pages adapts to fit the campaign, but
+           core components remain consistent.
+           More details can be found here.
+7.3        Marketing Web                            130
+
+
+
+
+Overview   The visual design of Marketing landing
+           pages adapts to fit the campaign, but
+           core components remain consistent.
+           More details can be found here.
+7.4   Evergreen Brand   131
+
+
+
+
+      Swag
+7.4   Swag   132
+7.4   Swag   133
+7.4   Swag   134
+7.4   Swag   135
+7.4   Swag   136
+7.4        Swag   137
+
+
+
+
+Stickers
+X.X
+

@@ -1,0 +1,394 @@
+{
+ "url": "https://blog.duolingo.com/vikram-redesign/",
+ "title": "Redesigning Vikram For Authentic Representation",
+ "scrollHeight": 6809,
+ "customProperties": {
+  "--ghost-accent-color": "#15171A"
+ },
+ "loadedFonts": [
+  "duolingo-sans 100 900 normal",
+  "duolingo-sans 100 900 italic",
+  "Feather bold normal",
+  "GenSenRounded bold normal"
+ ],
+ "fontFamily": {
+  "duolingo-sans": 85,
+  "Feather": 1,
+  "GenSenRounded": 1
+ },
+ "fontSize": {
+  "15px": 53,
+  "17px": 13,
+  "14.07px": 6,
+  "24px": 5,
+  "18.75px": 3,
+  "19px": 2,
+  "12px": 2,
+  "37.5px": 1,
+  "17.82px": 1,
+  "17.8125px": 1
+ },
+ "fontWeight": {
+  "400": 11,
+  "500": 1,
+  "700": 75
+ },
+ "lineHeight": {
+  "21px": 49,
+  "23.8px": 13,
+  "19.698px": 6,
+  "33.6px": 5,
+  "27px": 3,
+  "normal": 3,
+  "26.25px": 3,
+  "43.125px": 1,
+  "24.948px": 1,
+  "15px": 1,
+  "26.6px": 1,
+  "24.9375px": 1
+ },
+ "letterSpacing": {
+  "normal": 73,
+  "0.8px": 6,
+  "1px": 3,
+  "0.5px": 3,
+  "0.48px": 2
+ },
+ "textColor": {
+  "rgb(175, 175, 175)": 43,
+  "rgb(75, 75, 75)": 15,
+  "rgb(119, 119, 119)": 10,
+  "rgb(165, 165, 165)": 10,
+  "rgb(28, 176, 246)": 3,
+  "rgb(90, 90, 90)": 3,
+  "rgb(0, 155, 228)": 2,
+  "rgb(88, 204, 2)": 1
+ },
+ "bg": {
+  "rgb(255, 255, 255)": 7,
+  "rgb(175, 175, 175)": 3,
+  "rgb(221, 244, 255)": 2,
+  "rgb(229, 229, 229)": 2
+ },
+ "radius": {
+  "12px": 6,
+  "16px": 5,
+  "24px": 3,
+  "8px": 2,
+  "29px": 1,
+  "30px": 1
+ },
+ "shadow": {
+  "rgb(229, 229, 229) 0px 3px 0px 0px": 6
+ },
+ "transition": {
+  "transform 0.3s ease": 3
+ },
+ "border": {
+  "2px solid rgb(229, 229, 229)": 7
+ },
+ "textTransform": {
+  "none": 69,
+  "uppercase": 17,
+  "lowercase": 1
+ },
+ "typePairs": {
+  "duolingo-sans | 15px | 700 | lh 21px | ls normal": 45,
+  "duolingo-sans | 17px | 400 | lh 23.8px | ls normal": 10,
+  "duolingo-sans | 24px | 700 | lh 33.6px | ls normal": 5,
+  "duolingo-sans | 15px | 700 | lh 27px | ls 1px": 3,
+  "duolingo-sans | 17px | 700 | lh 23.8px | ls normal": 3,
+  "duolingo-sans | 14.07px | 700 | lh 19.698px | ls 0.8px": 3,
+  "duolingo-sans | 14.07px | 700 | lh 19.698px | ls normal": 3,
+  "duolingo-sans | 18.75px | 700 | lh 26.25px | ls normal": 3,
+  "duolingo-sans | 15px | 700 | lh 21px | ls 0.8px": 2,
+  "duolingo-sans | 12px | 700 | lh normal | ls 0.48px": 2,
+  "Feather | 37.5px | 700 | lh 43.125px | ls normal": 1,
+  "duolingo-sans | 17.82px | 400 | lh 24.948px | ls normal": 1,
+  "duolingo-sans | 15px | 700 | lh 15px | ls 0.8px": 1,
+  "duolingo-sans | 19px | 700 | lh normal | ls 0.5px": 1,
+  "duolingo-sans | 19px | 700 | lh 26.6px | ls 0.5px": 1,
+  "duolingo-sans | 17.8125px | 700 | lh 24.9375px | ls 0.5px": 1,
+  "GenSenRounded | 15px | 700 | lh 21px | ls normal": 1,
+  "duolingo-sans | 15px | 500 | lh 21px | ls normal": 1
+ },
+ "headings": [
+  "H1 vikram’s redesign: from negative stereotypes to authentic representation",
+  "H2 Step 1: Identifying problematic stereotypes",
+  "H2 Step 2: Researching positive stereotypes",
+  "H2 Step 3: Redesigning Vikram’s body shape",
+  "H2 Step 4: Iterating and Refining the Design",
+  "H2 Step 5: Finalizing the redesign",
+  "H3 RELATED ARTICLES",
+  "H3 5 things nobody told me about becoming an engineering leader",
+  "H3 How we created Chess Game Review: What’s a key moment?",
+  "H3 Making production-ready agents the default: building Duolingo’s agent platform",
+  "H3 RELATED ARTICLES",
+  "H3 5 things nobody told me about becoming an engineering leader",
+  "H3 How we created Chess Game Review: What’s a key moment?",
+  "H3 Making production-ready agents the default: building Duolingo’s agent platform"
+ ],
+ "nav": [
+  {
+   "t": "Derek Gieraltowski",
+   "h": "https://blog.duolingo.com/author/derek/"
+  },
+  {
+   "t": "DEREK GIERALTOWSKI",
+   "h": "https://blog.duolingo.com/author/derek/"
+  },
+  {
+   "t": "SAMIA KHALAF",
+   "h": "https://blog.duolingo.com/author/samia/"
+  },
+  {
+   "t": "shape design language",
+   "h": "https://blog.duolingo.com/shape-language-duolingos-art-style/"
+  },
+  {
+   "t": "Diljit Dosanjh",
+   "h": "https://www.instagram.com/diljitdosanjh/?hl=en&ref=blog.duolingo.com"
+  },
+  {
+   "t": "Waris Ahluwalia",
+   "h": "https://www.instagram.com/houseofwaris/?hl=en&ref=blog.duolingo.com"
+  },
+  {
+   "t": "DESIGN",
+   "h": "https://blog.duolingo.com/tag/design"
+  },
+  {
+   "t": "LIFE AT DUOLINGO",
+   "h": "https://blog.duolingo.com/tag/life-at-duolingo"
+  },
+  {
+   "t": "TOM WHITTAKER",
+   "h": "https://blog.duolingo.com/author/tom/"
+  },
+  {
+   "t": "5 things nobody told me about becoming an engineering leader",
+   "h": "https://blog.duolingo.com/engineering-leadership-lessons/"
+  },
+  {
+   "t": "ZIYAO WEI",
+   "h": "https://blog.duolingo.com/author/ziyao/"
+  },
+  {
+   "t": "How we created Chess Game Review: What’s a key moment?",
+   "h": "https://blog.duolingo.com/engineering-game-review/"
+  },
+  {
+   "t": "GUADALUPE ALISEDA-CANTON",
+   "h": "https://blog.duolingo.com/author/guadalupe/"
+  },
+  {
+   "t": "Making production-ready agents the default: building Duoling",
+   "h": "https://blog.duolingo.com/production-ready-ai-agent-platform/"
+  },
+  {
+   "t": "Tom Whittaker",
+   "h": "https://blog.duolingo.com/author/tom/"
+  },
+  {
+   "t": "5 things nobody told me about becoming an engineering leader",
+   "h": "https://blog.duolingo.com/engineering-leadership-lessons/"
+  },
+  {
+   "t": "Ziyao Wei",
+   "h": "https://blog.duolingo.com/author/ziyao/"
+  },
+  {
+   "t": "How we created Chess Game Review: What’s a key moment?",
+   "h": "https://blog.duolingo.com/engineering-game-review/"
+  },
+  {
+   "t": "Guadalupe Aliseda-Canton",
+   "h": "https://blog.duolingo.com/author/guadalupe/"
+  },
+  {
+   "t": "Making production-ready agents the default: building Duoling",
+   "h": "https://blog.duolingo.com/production-ready-ai-agent-platform/"
+  },
+  {
+   "t": "Courses",
+   "h": "https://duolingo.com/courses"
+  },
+  {
+   "t": "Mission",
+   "h": "https://duolingo.com/info"
+  },
+  {
+   "t": "Approach",
+   "h": "https://duolingo.com/approach"
+  },
+  {
+   "t": "Efficacy",
+   "h": "https://duolingo.com/efficacy"
+  },
+  {
+   "t": "Team",
+   "h": "https://careers.duolingo.com/about"
+  },
+  {
+   "t": "Research",
+   "h": "https://research.duolingo.com/"
+  },
+  {
+   "t": "Careers",
+   "h": "https://careers.duolingo.com/"
+  },
+  {
+   "t": "Brand guidelines",
+   "h": "https://design.duolingo.com/"
+  },
+  {
+   "t": "Press",
+   "h": "https://press.duolingo.com/#about"
+  },
+  {
+   "t": "Investors",
+   "h": "https://investors.duolingo.com/"
+  },
+  {
+   "t": "Contact us",
+   "h": "https://duolingo.com/contact"
+  },
+  {
+   "t": "Duolingo",
+   "h": "https://duolingo.com/"
+  },
+  {
+   "t": "Duolingo English Test",
+   "h": "https://englishtest.duolingo.com/"
+  },
+  {
+   "t": "Duolingo for Business",
+   "h": "https://duolingo.com/business"
+  },
+  {
+   "t": "Super Duolingo",
+   "h": "https://duolingo.com/super"
+  },
+  {
+   "t": "Store",
+   "h": "https://store.duolingo.com/"
+  },
+  {
+   "t": "Duolingo for Desktop",
+   "h": "http://duolingo.com/"
+  },
+  {
+   "t": "Duolingo for Android",
+   "h": "https://play.google.com/store/apps/details?hl=en&id=com.duolingo&referrer=utm_source%3Dduolingo.com%26utm_medium%3Dduolingo_web%26utm_content%3Ddownload_button%26utm_campaign%3Dsite_map"
+  },
+  {
+   "t": "Duolingo for iOS",
+   "h": "https://itunes.apple.com/app/duolingo-learn-spanish-french/id570060128?mt=8&at=1010lwpr"
+  },
+  {
+   "t": "Duolingo FAQs",
+   "h": "https://duolingo.com/help"
+  },
+  {
+   "t": "Duolingo English Test FAQs",
+   "h": "https://englishtest.duolingo.com/faq"
+  },
+  {
+   "t": "Status",
+   "h": "https://status.duolingo.com/"
+  },
+  {
+   "t": "Community guidelines",
+   "h": "https://duolingo.com/guidelines"
+  },
+  {
+   "t": "Terms",
+   "h": "https://duolingo.com/terms"
+  },
+  {
+   "t": "Privacy",
+   "h": "https://duolingo.com/privacy"
+  },
+  {
+   "t": "Respecting your \"do not sell my personal information\" rights",
+   "h": "https://www.duolingo.com/privacy#california"
+  },
+  {
+   "t": "Blog",
+   "h": "https://blog.duolingo.com/"
+  },
+  {
+   "t": "Instagram",
+   "h": "https://www.instagram.com/duolingo"
+  },
+  {
+   "t": "Facebook",
+   "h": "https://www.facebook.com/duolingo"
+  },
+  {
+   "t": "YouTube",
+   "h": "https://www.youtube.com/user/duolingo"
+  },
+  {
+   "t": "TikTok",
+   "h": "https://www.tiktok.com/@duolingo"
+  },
+  {
+   "t": "LinkedIn",
+   "h": "https://www.linkedin.com/company/duolingo/"
+  },
+  {
+   "t": "X",
+   "h": "https://x.com/duolingo"
+  },
+  {
+   "t": "Deutsch",
+   "h": "https://blog.duolingo.com/de/"
+  },
+  {
+   "t": "English",
+   "h": "https://blog.duolingo.com/en/"
+  },
+  {
+   "t": "Español",
+   "h": "https://blog.duolingo.com/es/"
+  },
+  {
+   "t": "Français",
+   "h": "https://blog.duolingo.com/fr/"
+  },
+  {
+   "t": "Português",
+   "h": "https://blog.duolingo.com/pt/"
+  },
+  {
+   "t": "日本語",
+   "h": "https://blog.duolingo.com/ja/"
+  },
+  {
+   "t": "한국어",
+   "h": "https://blog.duolingo.com/ko/"
+  },
+  {
+   "t": "About us",
+   "h": "https://www.duolingo.com/info"
+  },
+  {
+   "t": "Press",
+   "h": "https://press.duolingo.com/"
+  },
+  {
+   "t": "Careers",
+   "h": "https://careers.duolingo.com/"
+  },
+  {
+   "t": "Help and support",
+   "h": "https://support.duolingo.com/hc/en-us"
+  },
+  {
+   "t": "Privacy and terms",
+   "h": "https://www.duolingo.com/privacy"
+  }
+ ],
+ "fullHeight": 6809
+}

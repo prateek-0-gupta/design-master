@@ -1,0 +1,1261 @@
+{
+ "url": "https://www.framer.com/?via=lee72&dub_id=uH3piyAPAq1BmaBs",
+ "title": "Framer: AI design agent",
+ "scrollHeight": 10741,
+ "customProperties": {
+  "--one-if-corner-shape-supported": "1",
+  "--token-c534b380-e14e-4ddc-9802-ad88d1f94f8e": "#ffffff1a",
+  "--token-6ecb0037-dab8-4348-b657-00f38b638028": "#cbff00",
+  "--token-1ef30da2-9620-422c-b321-d10088e14610": "#000",
+  "--token-3d980185-7d0f-4837-b1d0-e3a68e16a293": "#0000001a",
+  "--token-5e0b3b72-9a97-43f8-96f2-85d741f3d8ca": "#1a1a1a",
+  "--token-958e2cd1-b113-4aa3-9235-7a2b959c8feb": "#000",
+  "--token-26e3cb56-8447-4a64-9b7d-37f16a9909d4": "#fff",
+  "--token-289cb3ad-ad59-4cce-aee5-0850b842d9c8": "#fffc",
+  "--token-8f5eb515-7a13-452b-a4ab-f35e2208a3f3": "#fff9",
+  "--token-f5637926-8ee6-41cb-a320-ec3462d62cd5": "#fff6",
+  "--token-bd71055c-0a2c-4476-8cc9-4310acba652d": "#09f",
+  "--token-eb0d9e00-7216-491c-99d5-7c1c2f3d0dbe": "#05f",
+  "--token-0245ad54-dffa-4280-9b49-9d43ad68acaa": "#60f",
+  "--token-66dfdba2-b084-43a3-a18d-237c2893b6a7": "#90f",
+  "--token-0c4c4e00-f4fc-4e6a-9a97-509a95a3e5d4": "#f06",
+  "--token-88cad303-8ee5-4c22-877f-e434faf14eee": "#f02",
+  "--token-61e699c7-742b-47d0-bb16-f42065b06637": "#fd7702",
+  "--token-be530db7-18b2-4273-89ab-17e94ce4aa9f": "#fb0",
+  "--token-ee053477-e115-4fec-a5f5-cdc637ed6ddc": "#0cf",
+  "--token-893b117c-1037-4f46-becb-94bc264ede3a": "#2dd",
+  "--token-2fbf5c4b-adb8-4940-91a4-ad94f8d791ba": "#141414",
+  "--token-281f665e-69f0-4f4c-a171-f40f50fe70d5": "#4cd963",
+  "--token-81eeded8-7d17-49fd-8f9d-4b09d4083be5": "#ffffff12",
+  "--token-5e2a9781-f258-43f3-ae02-0a76276a5519": "#111",
+  "--token-94a5bf9a-16a4-4639-b671-271526647eef": "#333",
+  "--token-a1269b3c-6c48-45d9-9f35-32a6df13b5e0": "#383838",
+  "--token-0670237f-f1ec-47e8-98e0-ecdf93f4467c": "#888",
+  "--token-ea0a2ab8-ce16-4a61-995f-9a3f03b39cf7": "#fff3",
+  "--token-5964e09d-3671-4c80-a557-31c1772b6c22": "#999",
+  "--token-4a5ab9b5-071f-4390-82c0-81f9558f671f": "#fff",
+  "--token-8015ce2b-ef6f-4fe0-944b-b61f872d0501": "#999",
+  "--token-e0051992-b662-4a7c-a4c8-9cd5b5125f7a": "#171717",
+  "--token-1ff51228-9678-411c-9a08-00381f0fc70b": "#fff",
+  "--token-3ead4217-f562-484f-ae35-d367de8b213a": "#09f",
+  "--token-e6ff4111-cae9-48d6-82e5-a990cf837703": "#ffffff12",
+  "--token-bed18f81-9cf1-4e2e-871f-69719f53f1d4": "#ffffff1a",
+  "--token-d4634443-ffec-443d-a754-10b0a24f2eba": "#fff",
+  "--token-c728f732-7c78-48e8-94a1-513a91a25137": "#fff6",
+  "--token-70c17056-82cb-4934-97c9-7213cf77c853": "#ffffff1a",
+  "--token-f6d5743a-73c0-417f-973c-02f663387ec8": "#ffffff80",
+  "--token-393d758b-714b-4628-a487-3e2609e109b7": "#242424",
+  "--token-ef3d81b5-78dc-4f92-b13e-1e8b0e28ba8c": "#212121",
+  "--token-bf566e33-485f-437d-9c8a-97c626fb8093": "#ffffff12",
+  "--token-1073b3db-8e72-4239-ada0-89e67ba85817": "#171717",
+  "--token-50d3edc6-ca3e-4e24-b5b6-95a9ef291fd3": "#00000012",
+  "--token-373c4b2f-375a-4a63-bd70-20575308a06b": "#303030",
+  "--token-a90119e0-cc91-4f7c-8117-a4827837d154": "#242424",
+  "--token-3326ab02-a399-4a0a-90ca-823d3eeec36a": "#404040",
+  "--token-023e584d-eb9f-45d0-a9bf-d481c0b53395": "#bbb",
+  "--token-e81b27a0-dbec-444a-a842-619222fcd818": "#999",
+  "--token-0d3c4e1f-33e0-4ebe-bdfa-af3c0ffb2b6e": "#ffffff1a",
+  "--token-ea7f6847-c578-4b96-834f-9880ebd5b2c8": "#ffffffa6",
+  "--token-565b745b-c313-43ee-aacc-dc06f90a5494": "#888",
+  "--token-1765427e-22ca-4432-9e46-90123c5bd8b0": "#0000000d",
+  "--token-3211d3ed-e082-412d-bec4-c06fb5bda768": "#666",
+  "--token-41903ea9-af7f-499e-a111-2c021ff53f36": "#fff",
+  "--token-7caf96a9-3685-4995-95cd-92a16705da21": "#09f",
+  "--token-8829ab2d-0ef5-4f78-a903-5d4c901eec75": "#333",
+  "--token-b8a0b4cf-70ff-4994-abad-931092f52d53": "#222",
+  "--token-e79b6732-da94-4bb4-b89e-c6c710bf538f": "#0000000a",
+  "--token-e2c6fd82-c978-4415-a4b5-37700001c928": "#09f",
+  "--token-86436fc2-2fa7-4338-9d69-653ef2fe605e": "#212121",
+  "--token-d127865a-b3de-47e9-b49b-fec1a4c5c097": "#0000001a",
+  "--token-df2a444d-c73c-41a8-b32b-15a8977e2f19": "#000",
+  "--token-224bfd43-9bd7-4029-a74c-dfb7dcb6da6e": "#cbff00",
+  "--token-08cb9138-e90e-4825-9f55-0aaa0c506cd8": "#000",
+  "--token-d8cf0a03-9d51-4c74-8f74-1ce6a40b7a93": "#1d1d1d",
+  "--token-7e405047-a8f7-4a29-ba60-27706f8aef99": "#ffffff0d",
+  "--token-f2ab3b7f-4a45-442b-ac7e-6535e4f5eaa4": "#1d1d1d",
+  "--token-34da55f6-98ee-406d-9f22-8bd807975463": "#141414",
+  "--token-e20050d3-1c28-4712-bab1-33daddb2d8d3": "#1d1d1d",
+  "--token-dfb83e06-5dc9-4927-841f-fa3a5687bbf5": "#0006",
+  "--token-ab22db3f-51d4-457b-b74d-36a1761e9043": "#f2f2f2",
+  "--token-1e7cee86-5b3c-4a5e-b650-927c556a0730": "#000",
+  "--token-494c7bf8-981d-4262-955c-7770a66e4aca": "#999",
+  "--token-f4d7f1ab-60e4-4112-93dc-10fa3370595e": "#0d6",
+  "--token-3636b58d-af99-4283-ab2c-55c8fcdd5b26": "#1f1f1f",
+  "--token-28fd9ca0-18c8-4b2c-b240-cbd29f83e8a5": "#666",
+  "--token-80b6d9ee-6797-4273-85d5-55a0c0e39c2c": "#666",
+  "--token-81dfd308-4a2d-423f-8ca6-7e503f3bc16a": "#333",
+  "--token-05c8a71b-796d-4e89-a88a-1fd7fb02e1c7": "#303030",
+  "--token-b5069c63-5952-4d18-89d9-c83e27c8dd95": "#fff",
+  "--token-3fe3801c-504b-4fed-bd23-95e1ceda4e02": "#000",
+  "--token-0ba2e88a-a3f7-47fb-83b9-ad2eb0f68dc9": "#f2f2f2",
+  "--token-7f1bc6d9-a60f-42df-8ff7-6d27d47209c5": "#000",
+  "--token-4e252111-446f-4e7a-b1c3-2cceb89b901b": "#000",
+  "--token-13ec5eb2-95cb-4f68-8622-21c1e5841f91": "#000",
+  "--token-3c51c799-b594-40bb-870a-2ecb57426fb5": "#212121",
+  "--token-66b4c800-8615-4d3f-b022-5740b5e73cff": "#1f1f1f",
+  "--token-5381f6a2-4123-4833-9f15-ece3362235bb": "#242424",
+  "--token-bd6e9b1d-d923-4381-a016-9ee35fa74d19": "#ffffff1a",
+  "--token-8dfe056b-123a-4b56-a293-a075f1447a42": "#09f",
+  "--token-ca716543-ec0e-4610-b24d-c4a813b8ab12": "#212121",
+  "--token-c8276e30-1f1d-4733-800f-3191605cbcc2": "#ffffff12",
+  "--token-7c6a6dd2-0dfd-431a-a4ce-82949a34d083": "#222",
+  "--token-18266cfa-4b92-4fbe-9260-6d874055f250": "#999",
+  "--token-4c236017-9c6f-4d47-8335-0eb6d859d1e3": "#242424",
+  "--token-501e078c-c5fb-4b79-9d3e-94a6d60e5388": "#212121",
+  "--token-c98b4872-09a5-4eef-84b0-cd9f352143db": "#ffffff1a",
+  "--token-b009d8a3-9fb6-47e5-ad22-64acdc1a43f1": "#999",
+  "--token-a55687bf-10ec-448e-8cff-7a38a8062829": "#fff",
+  "--token-c835256c-69c7-49f6-9ab5-223f8754be0b": "#242424",
+  "--token-75b23a6a-47c8-47c8-8583-14f60f534fa2": "#666",
+  "--token-43a73b1e-92dd-495c-9878-9ee05c726b8e": "#999",
+  "--token-7ca37c50-53e8-42ec-a9b7-a23785ef18d6": "#212121",
+  "--token-a5b679c7-75b3-4b56-b5ee-f7c78fdf6f09": "#242424",
+  "--token-753822fb-42c0-4245-bbf8-87bc278da308": "#242424",
+  "--token-648a89d7-4ba7-4aff-9f56-fe6a4791adfb": "#212121",
+  "--token-65257a2f-9705-4b8e-acce-914c518786ec": "#242424",
+  "--token-0d914219-51db-44da-9371-684daa097890": "#212121",
+  "--token-a798bd82-d3ed-489b-8536-bb5e3a370ab3": "#242424",
+  "--token-4ea7ddaa-edb2-4693-a52c-c8fbc21f91fd": "#212121",
+  "--token-c905498e-0f4e-46df-944f-7d0973c4d925": "#999",
+  "--token-1cfbd6a8-40d4-44a3-93b8-de4d8158716c": "#999",
+  "--token-242d6a6e-dcf9-428f-b28f-32484d98060a": "#242424",
+  "--token-626f3ee6-1979-4092-a33f-88f7cbf2b731": "#ffffff12",
+  "--token-79709539-c81c-4174-9647-38ce6b9aeb22": "#212121",
+  "--token-02d1ef49-b467-4c62-87d7-eec15dc1a1de": "#f3f3f3",
+  "--token-96473f7f-70c6-40df-9ce1-470c37694121": "#333",
+  "--token-8d5359f3-e2ba-4ea9-9e51-1eb2188326fa": "#000",
+  "--token-4343cc19-b41f-4b68-9f5e-46d190564c09": "#fff",
+  "--token-000292f1-e507-4938-9285-b0287d36c378": "#ffffff12",
+  "--token-49807cf3-be08-4d49-9536-d1deca93118a": "#242424",
+  "--token-9571e89f-c28f-4739-8163-f9a065ce86a7": "#fff",
+  "--token-027226a5-8d98-4e06-a4be-55361aa36010": "#242424",
+  "--token-7834935c-e4af-46fb-833b-c2e350356f85": "#ffffff12",
+  "--token-617907aa-d471-4e39-87ed-c88bddebc177": "#212121",
+  "--token-546c196d-1ff6-4c86-a518-b2a2f5cbd2bb": "#242424",
+  "--token-c2089353-c369-4b83-8aa0-ff14317d1378": "#ffffff12",
+  "--token-cf95d1fa-935c-4802-82e7-f14ff5b21f9c": "#303030",
+  "--token-2d8c2e40-9efe-42db-a854-852777e7a2fc": "#ffffff12",
+  "--token-0cc75308-4a6e-4bce-8d10-0b6ce313edb1": "#303030",
+  "--token-7d3f58d6-793b-4d75-98be-0f2ed1e5f289": "#242424",
+  "--token-842dd220-1af7-4cc5-88d9-f2b4719740c1": "#242424",
+  "--token-77053a7b-2b3a-40d3-8369-531af7b2d32b": "#212121",
+  "--token-a71eef55-e834-401a-b229-185b571b72fe": "#404040",
+  "--token-b493e89b-3e4a-4705-a618-7c7974b79464": "#303030",
+  "--token-0b3b53eb-3e91-4e9f-8bbe-cd6e24bede36": "#242424",
+  "--token-435ba6e6-7923-46aa-8bf0-2df8f639cb7d": "#ffffff12",
+  "--token-0eb29f98-94fb-47ef-acd3-f229c7741cbb": "#303030",
+  "--token-82346dff-d87f-4879-b2ef-71536504402c": "#ffffff12",
+  "--token-17f1922c-cbe7-4c12-8333-9a3fab854edf": "#303030",
+  "--token-b41e1c3f-a0f3-493d-bc17-25bd75dc184b": "#ffffff12",
+  "--token-36711a7c-92c6-4d69-94bf-123a35539aba": "#303030",
+  "--token-caf55c22-32a8-47d6-94dc-4333837c3b93": "#242424",
+  "--token-7ca336c6-1ed7-4269-b216-cbbdf5dca770": "#666",
+  "--token-34256e1b-6dc6-46bd-a1e5-879f0d9ce55f": "#303030",
+  "--token-ab6d2aa6-07fc-4f90-a49d-b710eba59a3f": "#242424",
+  "--token-a05b8143-c6cc-4243-bf33-e52c9e59bbd1": "#242424",
+  "--token-883ec69e-717f-4933-bc04-075e58e23acd": "#ccc",
+  "--token-ded025fa-15dd-4c1c-94f4-aee06d7d238a": "#9993",
+  "--token-30fd6b0d-9c3a-4ed1-b7e6-4bdbb9d0fff9": "#fff3",
+  "--token-29c58965-f89d-45e9-b6f4-01367c7eaffe": "#ffffff12",
+  "--token-2bc01aec-fd2e-41cc-af66-3246e2cbfd9c": "#303030",
+  "--token-7192a4a3-6f81-4ee7-8165-5646666e3478": "#242424",
+  "--token-aaee07a2-1f0b-4f9f-b40b-c0b000d5b462": "#242424",
+  "--token-a84bba7f-b874-4efe-85db-9b067724f56f": "#ffffff12",
+  "--token-bd800cdf-6bee-41d4-8f0c-903419cbf38c": "#303030",
+  "--token-9cf68d00-0d54-48b8-a5d0-b8f04a7ab3e9": "#ffffff12",
+  "--token-d6bcb53c-4b19-4a51-acaa-9de4375a33e2": "#242424",
+  "--token-977a0ed3-7c28-4aae-b6ea-4d8f27feded0": "#212121",
+  "--token-3ffc7cca-af02-4727-881c-f6a58650ac59": "#242424",
+  "--token-1c7d82e1-7369-4900-8f28-9e47992213fb": "#212121",
+  "--token-9f7557b0-6ed3-4934-8646-842006fcda6b": "#242424",
+  "--token-0861198a-4b2a-403d-b7bd-f4ed671ad3c2": "#404040",
+  "--token-a6dd5ab7-0552-4721-891d-644de4c37173": "#ffffff12",
+  "--token-3e908ce2-804b-49de-a849-79ecbe029f54": "#242424",
+  "--token-a8afeeed-23af-4eb5-b8d0-d9f93682584c": "#ffffff12",
+  "--token-27d56fa0-4902-4878-968e-342fbcd7a965": "#303030",
+  "--token-8f8354e5-c734-4346-a36c-98ef14013c27": "#242424",
+  "--token-b16226dd-61c1-41c8-b6bb-31a93c3565e4": "#ffffff12",
+  "--token-f539add3-94c0-422e-9fba-6a493de2178d": "#242424",
+  "--token-a7a91825-8026-44ba-98d3-95eb387f47dc": "#303030",
+  "--token-73f82776-2618-4c70-a6e0-19ccceb8fe9a": "#ffffff12",
+  "--token-b3b501b2-2f42-46a5-a5ff-1f4068c0fa69": "#303030",
+  "--token-72f0cdb9-d9d9-4d6f-b05c-23252a90cf3c": "#ffffff12",
+  "--token-90b00eaf-43c2-4cda-9207-8d2aa4bd34cf": "#000c",
+  "--token-e7694541-7e8b-44ac-bae8-1c80596b8c25": "#242424",
+  "--token-366bdd88-fb00-4631-9b16-f4f1513dc630": "#242424",
+  "--token-59eafd6c-da37-4218-a289-2f73b55a9343": "#212121",
+  "--token-ef633947-17fd-4fe2-99a1-2d1d3e55dcf0": "#404040",
+  "--token-f2d5296d-094a-425f-a6aa-8ce8cc8f9866": "#303030",
+  "--token-ee7a62da-32cb-4040-9d7e-9b0c644b20f7": "#242424",
+  "--token-8f5c2139-1d9e-4d90-aba4-546022fc9589": "#242424",
+  "--token-a57c3608-835b-4531-99a2-5791dced2bc0": "#ffffff12",
+  "--token-a48a3d23-9008-4c6c-91f7-b7ed21247b58": "#242424",
+  "--token-ca4aa901-2a55-4d08-89fd-802e1709fda4": "#ffffff12",
+  "--token-dd55fd97-72d7-4069-a4e8-92f7a1b78cb5": "#303030",
+  "--token-c21e04aa-a0e5-4f4d-853d-09e09aa40d71": "#888",
+  "--token-e0633a0d-cf57-4847-a570-b6e3ee41f945": "#8883",
+  "--token-0e2e6dbf-f126-4414-ab40-8aa056a1663d": "#242424",
+  "--token-436381f4-2de3-45e4-a467-f558a4b81c2d": "#242424",
+  "--token-ae620a86-f0cc-4dd6-afeb-327442208db3": "#303030",
+  "--token-18ebb84b-b7ff-4abb-a324-82832528f8ca": "#ffffff12",
+  "--token-49483990-ce22-4468-9b38-4836277a9d8a": "#303030",
+  "--token-9ac729c4-0d57-49c1-bc34-c8cc0d04401a": "#ffffff12",
+  "--token-76758004-7b53-46d6-9130-129866b814b0": "#ffffff12",
+  "--token-8412a50f-2c01-4d36-84e0-0a37e28cd520": "#242424",
+  "--token-86f7d633-b3d4-4953-bdbd-147c61c4b34d": "#ffffff12",
+  "--token-c8e7bab9-83dd-4a6a-97a1-d8000dd9e98b": "#242424",
+  "--token-df27af98-5313-4099-b2f6-eb1afdd402ec": "#ffffff12",
+  "--token-e3dcd0f7-350a-44f9-b4e8-0aee7db7ebd8": "#242424",
+  "--token-16a841c9-8b4a-4f08-b8e3-cae570868e14": "#ffffff12",
+  "--token-d115d13e-7730-429b-b595-6c4c394c9623": "#242424",
+  "--token-44dc6bfb-c347-419a-bd93-f28262ab1b67": "#303030",
+  "--token-0be8d8b8-c4f6-4de3-8a22-4faa6b2c6d85": "#ffffff12",
+  "--token-9f4de390-dd45-416a-a41c-9dfc060b5514": "#242424",
+  "--token-1f65bdd9-0a3f-4600-96c4-6964750745c7": "#ffffff12",
+  "--token-2a36ad49-fa34-4b61-8fe4-7950eeebdf75": "#242424",
+  "--token-7bee8464-d874-420a-855d-35342613873e": "#ffffff12",
+  "--token-cf0c9830-6dda-4185-925b-bb9988793875": "#242424",
+  "--token-6b23a0f2-e180-489a-a901-79eaf219b224": "#303030",
+  "--token-1d77c7be-fdee-4479-af09-ca7228538da0": "#ffffff12",
+  "--token-9cb76ae8-fe9e-4605-b765-4444b2a9ecba": "#ffffff12",
+  "--token-9d2b9baa-09e6-4a61-bf9d-d1eae11110e3": "#242424",
+  "--token-83d5bb67-b920-44af-a08a-e0ae5c68cbaa": "#242424",
+  "--token-463c363d-1216-47f6-9184-b958c9c426a4": "#0000000d",
+  "--token-fd9a7a5e-3865-4c86-9ecc-1a770f90acb8": "#ffffff12",
+  "--token-4d6784b6-e032-4f38-9c3f-74fd8b5d2a7d": "#fff",
+  "--token-59d2ba5c-2dfe-4990-93f8-1b37a0bf2017": "#303030",
+  "--token-bc0b4320-193d-47d8-ae82-dfa70e3aa6af": "#222",
+  "--token-77e39566-b00e-4163-9c94-dfbac239ccfc": "#eee",
+  "--token-8b2ef229-2b1e-47ab-a5e3-fa5fe4d2b845": "#f3f3f3",
+  "--token-eb9664b8-4d69-41aa-83e3-d6a02949def1": "#666",
+  "--token-ae91dd2e-0047-4f1c-ad17-e99188f82231": "#eee",
+  "--token-9af74e8e-943d-4584-bd40-3a5a740e80e9": "#fff",
+  "--token-8a4a011b-1a6a-45f4-bbae-7d463ef5c5cd": "#0000001a",
+  "--token-8b0d0dfe-a92c-4872-95a1-6dfbe783f70a": "#474747",
+  "--token-02d50b3b-5dcf-4107-9d74-2d1a6d84c8fe": "#666",
+  "--token-7d8c20e2-4a3c-4f56-bc8f-0b3ecb718dd0": "#999",
+  "--token-53823293-0135-4be2-bee2-c0c9d1c237d5": "#f3f3f3",
+  "--token-a67564f1-1309-4f4f-bd77-5e60656b2704": "#666",
+  "--token-4c1231ca-8433-4346-9a3c-bb84d341a08a": "#00000008",
+  "--token-f62792a8-74e6-43b7-8d07-cf9adc2846c5": "#f3f3f3",
+  "--token-c47565cb-23b2-472f-ab3b-28657c18119f": "#194666",
+  "--token-2af7e844-d3c5-48f3-b016-08deebe100a1": "#fff",
+  "--token-e334a9df-6f33-4dec-b315-f7efcd286f54": "#0000001a",
+  "--token-0ba41c9d-4796-4868-8475-f96a0235b575": "#fffc",
+  "--token-4fab7220-19ef-4cad-9548-f48ed362d6e1": "#0009",
+  "--token-83f34fde-34ed-4566-97ea-36025da15e7a": "#000",
+  "--token-755613c8-55a6-4065-8551-7e506a20f402": "#000",
+  "--token-cf72ffb6-1538-4989-ba02-3a89651a339c": "#303030",
+  "--token-65273d97-0333-454e-adde-b15968d8b9eb": "#ffffff12",
+  "--token-43f04d80-5215-42ec-b92d-bf9788ac73cc": "#303030",
+  "--token-8ca5e688-8f98-4620-8945-5943363b2918": "#ffffff12",
+  "--token-eb522190-7962-4432-aad7-cd31ec155b1e": "#303030",
+  "--token-3167752c-4724-4700-a708-5beeb055241b": "#242424",
+  "--token-e7229d51-efce-4090-b0f1-11c93633d99d": "#242424",
+  "--token-ac42aa63-82e6-4f48-8c97-36a648b3c331": "#f3f3f3",
+  "--token-6be0f47f-90ed-442a-a11e-2f5a40213101": "#242424",
+  "--token-69c0fb98-9e58-406f-90af-4d84f30fec75": "#eee",
+  "--token-5ba2de12-30b8-4085-a473-c3297d851b52": "#ffffff26",
+  "--token-fa89e4b4-d58c-409f-846e-192d6e8106df": "#ffffff12",
+  "--token-93cff29c-8615-459d-9cde-fa388e8e8c88": "#fff",
+  "--token-ab5e291e-8abb-4814-bdba-5680e3b61f0a": "#fff",
+  "--token-b7c86201-6d53-4f50-b119-f676619f5e4d": "#f3f3f3",
+  "--token-1499c432-6c5b-4f27-a79f-eb1f9ff073c3": "#242424",
+  "--token-7a759bf2-68c0-4cd4-a573-5478260f20d7": "#212121",
+  "--token-1ace538a-f91e-4fbc-b1a8-dc216fed7d51": "#ffffff12",
+  "--token-669b8736-6325-4cfa-8184-e079d3e7e0c0": "#1f1f1f",
+  "--token-d87a5aaa-e2ed-4442-87ba-fde83cd2ad51": "#242424",
+  "--token-5a901eee-ab03-49ac-8022-d5775eb07442": "#1f1f1f",
+  "--token-49991cb5-86a1-4aba-bb75-16de36dd0f51": "#ffffff12",
+  "--token-32cfea0c-9046-42e9-8d18-26533f440b3f": "#171717",
+  "--token-b21c9b45-1667-4977-a8c0-08651f4d2525": "#303030",
+  "--token-829c2910-b1ee-4b7e-b74b-8b57b90d1c73": "#ffffff12",
+  "--token-edc5d693-52be-4d0b-a545-479918e8a501": "#ffffff12",
+  "--token-f7684c04-8316-44ff-aa78-a194dd79b74e": "#2b2b2b",
+  "--token-2220a3f7-52ca-4488-99e8-d1a930ccf3c7": "#242424",
+  "--token-9db2807e-2f81-4369-87c7-1a20fee4a054": "#1f1f1f",
+  "--token-525166cb-97e2-40ab-8608-44332bfea87a": "#ffffff12",
+  "--token-195a5ea0-4195-4811-a6ee-ca21f1738d6f": "#2b2b2b",
+  "--token-eafa32b8-85b8-44d2-bdc8-8b93d6563958": "#303030",
+  "--token-cfc04255-211e-4204-bae4-21d2020d72f4": "#1f1f1f",
+  "--token-9cdd6bc9-20c0-4585-988a-4ee4360ea8ee": "#ffffff12",
+  "--token-e2730440-f04e-4049-95c4-1a39c6a47ebe": "#212121",
+  "--token-658f3a92-c923-420a-aaf4-cf1c93aeec50": "#242424",
+  "--token-0c90a592-7eca-4244-9a95-72d774c55a0e": "#8a58ff",
+  "--token-f0ba0599-7ef0-4ed8-a6cb-7a5d549e5951": "#2b2b2b",
+  "--token-b3657945-484f-431f-aa8d-fe155cdd32a8": "#1f1f1f",
+  "--token-b3cd75c0-4886-4511-8e19-b6885fdf608f": "#000",
+  "--token-a481b08c-f82d-413b-9a17-8116b62129a1": "#fff",
+  "--token-d348b5bf-d625-4d62-aa10-e895c1c3e392": "#212121",
+  "--token-5f3481b5-f0ad-4185-bc05-9d8e8008b42b": "#3c3c3c",
+  "--token-406b900c-74d6-4b2f-a816-03c0e72dfe6f": "#2b2b2b",
+  "--token-cac37d7b-ed60-4627-a7b6-32a931ea6137": "#242424",
+  "--token-c2bd6503-5c08-4078-a1dd-1344c644a0dc": "#1f1f1f",
+  "--token-0b4f29f0-a9dc-4b4c-9bf5-f8507de1e0de": "#212121",
+  "--token-fe006f4f-1497-45e3-b3be-90122cfa2a47": "#ffffff12",
+  "--token-4a8ce6e6-ad14-468a-bd7a-bd800520875d": "#1f1f1f",
+  "--token-825a2fc2-6cab-4da0-a0cb-195d56b32631": "#ffffff12",
+  "--token-bb50e3e1-b5f0-494f-aea4-b4b6d1f2439b": "#2b2b2b",
+  "--token-a40a8bb9-817f-4a0a-a33d-478779d1b726": "#fff",
+  "--token-25c4b682-fb33-4190-9329-3f229f8bd324": "#eee",
+  "--token-b6cf2d28-40a7-4c2a-84f8-c3aef4e48817": "#fff",
+  "--token-51830ec6-cba0-4913-93d3-16afe69f515a": "#222",
+  "--token-bec62ec1-fade-4373-a7dc-7a7da17253bc": "#f3f3f3",
+  "--token-939984a3-eb34-4576-b9a1-e0b216e47d3a": "#0000000d",
+  "--token-1896984b-a1eb-4403-95c9-09306c5d8bd8": "#fff",
+  "--token-2cfec996-7337-4991-adfa-64a9bf0533fc": "#666",
+  "--token-19a45aaf-24e0-4538-8018-515c34109bb1": "#f3f3f3",
+  "--token-2dee1377-197a-42a9-b5d7-7a437fcf8077": "#888",
+  "--token-ff1b67ed-0bcb-43d1-abca-66e126035fad": "#ffffffa6",
+  "--token-927e04d9-280d-48c4-8f60-fb577ffffe97": "#333",
+  "--token-ec7c3667-4e5e-4e1e-9c22-39c37f25323d": "#f3f3f3",
+  "--token-3e16aad9-3637-4d11-8116-537bcc824f33": "#00000008",
+  "--token-9d748c74-166a-4c7f-958f-7a864aa41cde": "#222",
+  "--token-5cb164f9-9f67-4e88-a9a0-6d5cdae071e4": "#f3f3f3",
+  "--token-5678d16a-b0ba-4c64-862c-113b4be35d16": "#888",
+  "--token-187afb27-27f8-4613-a434-2037846f4e91": "#1f1f1f",
+  "--token-4ed86deb-a5f2-4122-bc93-ce4e8c905eb0": "#212121",
+  "--token-ad311b05-cbbd-446a-be5d-64922dd489de": "#1f1f1f",
+  "--token-2cdaf281-7e2e-4c35-9c1c-01eaaeb53ced": "#ffffff12",
+  "--token-d737f29a-1373-404b-8043-d7f172a9162d": "#303030",
+  "--token-7c0c48ee-d448-4af8-8e56-c5c2fd834c14": "#ffffff12",
+  "--token-b9473ac5-6bc4-4a8f-a6f6-0f7e27680019": "#2b2b2b",
+  "--token-210d29b9-a453-4bd9-9f18-c11a9b2e4cfa": "#ffffff12",
+  "--token-4aa2c6e7-3faa-4265-9a9d-cc15fede35e5": "#303030",
+  "--token-71440901-3ac1-4239-8680-c3033169ab6a": "#1f1f1f",
+  "--token-6cf3a70e-a84b-4bd0-8aff-626389f41860": "#1f1f1f",
+  "--token-49cdae56-3852-4ccb-9127-0cd7bd3fb9e0": "#1f1f1f",
+  "--token-a06a30af-b2db-451c-8a24-6a2bcfe5f8e8": "#ffffff1a",
+  "--token-154bc5ce-1968-4967-b0aa-4c77d33ca01f": "#09f",
+  "--token-a1c01fbc-af12-46b6-804d-0ee10859c607": "#eee",
+  "--token-d6b3b1a3-a053-415b-9ba4-5774ee299c8d": "#1f1f1f",
+  "--token-b30c41e3-30b4-440a-b9cd-4e48370ea922": "#212121",
+  "--token-5b434d2a-5241-4e91-9c9d-fbbe9f339e73": "#1f1f1f",
+  "--token-44f27f50-297c-4614-b458-7e6e69473c53": "#0000000d",
+  "--token-5c06840f-84c0-45f1-9351-5d0a45c6aa36": "#ffffff12",
+  "--token-22ddf378-baad-41c1-a94f-e1f88e974e42": "#00de68",
+  "--token-4e4cf35a-da33-4a03-aed4-ce82148e083b": "#bbb",
+  "--token-325bcdff-3217-40c4-8161-880c6d0fb881": "#eee",
+  "--token-23df811c-3107-4895-8313-addfceb40d63": "#999",
+  "--token-c7ef14de-1ae7-4a34-aca8-95c03ebc1cfe": "#fff",
+  "--token-d366207a-05b9-40a7-a175-526705294d09": "#222",
+  "--token-fc794f5c-8b89-454b-b4cf-6f7411077e02": "#171717",
+  "--token-250bc2a8-44ba-4635-bf9a-78afa68d8315": "#f3f3f3",
+  "--token-a28c1c35-0151-4d3d-afee-093b344cdcac": "#1f1f1f",
+  "--token-09b25d8c-c7fb-4336-acbc-affcc5be5b03": "#212121",
+  "--token-fcd5b93d-9ef4-428d-b7a0-d7fa36c327ad": "#1f1f1f",
+  "--token-845d2247-7492-414e-b9fb-86bf55a411eb": "#0000000d",
+  "--token-d1728ac7-8690-467b-b7b2-9dd0d18be4f8": "#ffffff12",
+  "--token-1a07a928-6682-45d0-a9bd-680891c37a63": "#bbb",
+  "--token-5ed19596-72f0-43fc-890f-67f93a7c2048": "#999",
+  "--token-02175ead-b484-43cf-9cc9-e8df5ee32df6": "#222",
+  "--token-922d87cc-b7db-4ea1-b64e-dffbc8a9583e": "#ffffff12",
+  "--token-2fd01e93-bd5d-418a-bf8f-b13f7146fd6f": "#1f1f1f",
+  "--token-9b04534c-5051-40f7-91e7-4b23c4a56d9e": "#242424",
+  "--token-c46f39f7-8506-4310-bd76-2bc9b5dbdbf2": "#ffffff12",
+  "--token-6d141d26-8727-4526-8060-0cbca9386c05": "#2b2b2b",
+  "--token-c38df9be-2e52-4ce5-a30f-85da80b61d12": "#212121",
+  "--token-752dcedf-d112-4666-aa9e-21f93f3284bf": "#1f1f1f",
+  "--token-b58e5e3b-b511-4b87-baf9-356184b0295c": "#ffffff12",
+  "--token-628b8150-580d-43e0-8deb-f8c311638d82": "#ffffff12",
+  "--token-0198a942-4779-4026-afaa-da23034f2470": "#2b2b2b",
+  "--token-8b7deea2-829b-4329-bb82-f02b2e6fb994": "#999",
+  "--token-db2d5305-dc25-40f8-b3aa-0efab50a2a85": "#ffffff0d",
+  "--token-53632d59-7003-414b-8256-2e28378b0c49": "#999",
+  "--token-0bbc462f-c085-4179-9156-b00e91445d4f": "#999",
+  "--token-7b203702-e90d-486e-ade6-1b7d2bf5b0d0": "#999",
+  "--token-0fcf3fd1-e5c2-4cf8-977e-2494b47c2c2b": "#999",
+  "--token-7bbe33d4-29b2-4e88-b952-2b17a07b4f20": "#999",
+  "--token-569eabc3-a6ab-48f8-8b6b-8c0415470afd": "#999",
+  "--token-ccb176bf-1699-434f-8ef7-9ea3aee55c58": "#999",
+  "--token-76303b29-fed7-47b6-8024-8101be9ed078": "#999",
+  "--token-f29b66b7-b477-419a-be5d-c186211cf75a": "#999",
+  "--token-77fd4ce1-e48f-44b7-8256-44b5f0a88e0b": "#999",
+  "--token-55d3a543-c1dc-4ee7-ac2c-29222b54396e": "#999",
+  "--token-6790913c-b60a-4a26-a7a4-5831190c8d16": "#999",
+  "--token-739fdd4b-f043-41c8-aec7-d532167d4ad3": "#999",
+  "--token-18bd3e76-49c3-4cb1-9293-36a81e3b40d5": "#999",
+  "--token-57cfc592-6fbb-4874-a59e-3cd1aa072245": "#999",
+  "--token-09a705bc-c6cf-4208-bde2-1e94885ca960": "#000",
+  "--token-44cbbfba-2d4e-470d-a4ff-7951fa792297": "#999",
+  "--token-070c1e64-8fd6-431e-b716-9ba83f451c83": "#ffffff0d",
+  "--token-31b027f8-9143-4d6d-b115-56b6de2aef31": "#999",
+  "--token-35c98211-4a10-4ea8-8557-1724440dfb7c": "#999",
+  "--token-58effe0a-8b5c-4c0d-8ecb-23c1b042c7ad": "#999",
+  "--token-7e86078e-2e70-4265-a833-c9c33afe3e60": "#999",
+  "--token-966251d4-745c-4839-a388-b2b36814e8ae": "#999",
+  "--token-393559af-a730-443a-a7f6-b2bb00e1476e": "#ffffff0d",
+  "--token-c52192c4-b372-4d20-b8c0-196ad86f4fca": "#999",
+  "--token-e26ec471-05fa-4df0-b7b2-82212f59457d": "#ffffff0d",
+  "--token-26a3e0d4-8883-4a5b-9b7e-4c028234ee8a": "#ffffff12",
+  "--token-0c335e5d-a2c4-4294-8445-96d5f0e924cc": "#303030",
+  "--token-6692723b-166e-4ca4-83ff-fa040a8c0a31": "#ffffff0d",
+  "--token-3a8af9b6-1a30-4c89-9563-883156912a55": "#999",
+  "--token-7f4c0a06-19ce-4f73-b578-18a2e6160a06": "#999",
+  "--token-870af12b-6153-47bc-829f-adf975db5ace": "#ffffff0d",
+  "--token-77e26d19-9b98-480a-914f-77f40565b5b9": "#999",
+  "--token-b46dd8b1-f337-4e1e-a0d5-9c3e9ffb3d22": "#999",
+  "--token-84a16725-8455-4078-bd6c-4a50d73abadc": "#999",
+  "--token-7c408268-c750-4589-9842-8d95449d6eb2": "#1f1f1f",
+  "--token-3bd85e21-6ccf-4303-9a67-8fdd754e4b26": "#2b2b2b",
+  "--token-30521bab-7232-457d-86a0-ee88370b94c5": "#212121",
+  "--token-b030fbfe-28fd-4a6f-b8eb-4341da7b55dc": "#1f1f1f",
+  "--token-675d4384-a76e-4fbb-b7b8-869a4698cb2d": "#404040",
+  "--token-f5f65982-369f-4b87-949c-8bff95edcd46": "#171717",
+  "--token-3bdc4c8d-3641-4a20-934d-0b88dd4d0abf": "#ffffff12",
+  "--token-a280a9a3-f874-414c-8902-80402e4a46a3": "#303030",
+  "--token-b7ec899e-3806-4aab-bd7b-0ec4fe6eaea9": "#fff",
+  "--token-a460cf74-9d37-4dbe-bae6-34c6ed0df13d": "#999",
+  "--token-272f9bec-205e-4f93-bedb-c3f233c3c3bf": "#ffffff12",
+  "--token-b67fead7-8d2b-4b4f-a57a-d732a0903ff9": "#ffffff12",
+  "--token-7ddbde17-97f3-47b6-b960-1aa3ec8cfee2": "#eee",
+  "--token-39bc4a84-2aa6-46b2-901a-5b3b648ef3ef": "#ffffff12",
+  "--token-883f9645-0bd5-4faa-9446-edcfc69d7c4c": "#999",
+  "--token-0ef4853e-feed-41d2-9b1d-102a555be818": "#1f1f1f",
+  "--token-23e15794-e2a7-4357-863f-fb358f8e7007": "#ffffff12",
+  "--token-e844f50a-9498-40c9-a062-9a01c2559587": "#1f1f1f",
+  "--token-85fcddd4-2f55-428c-9d01-a4638e2bbe85": "#999",
+  "--token-c103b863-2f25-49d5-9bea-db5cca1a3652": "#ffffff12",
+  "--token-29c937c8-12b3-44c7-89f6-e6451f64a465": "#ffffff12",
+  "--token-47f72ce0-bc7c-461f-95de-9c2d053bf852": "#f3f3f3",
+  "--token-c74f4b61-d10c-424d-a8b8-34929745042c": "#eee",
+  "--token-b575c77f-cd98-4a1b-8818-970469cde62a": "#ffffff12",
+  "--token-6bd278f9-951c-4115-808f-46d939168241": "#242424",
+  "--token-1b9df055-9da6-4111-85ea-65cd3d724190": "#1f1f1f",
+  "--token-3f5fbe1c-01fe-4836-8844-0e6a9df10aa4": "#1f1f1f",
+  "--framer-will-change-override": "none",
+  "--framer-will-change-filter-override": "none"
+ },
+ "loadedFonts": [
+  "GT Walsheim Medium 500 normal",
+  "Input Mono Regular 400 normal",
+  "Inter 600 normal",
+  "Inter Variable 400 normal",
+  "JetBrains Mono 400 normal",
+  "Azeret Mono 400 normal",
+  "Inter Medium 500 normal",
+  "Input Mono Bold 700 normal",
+  "Inter 400 normal",
+  "Inter 700 normal",
+  "Inter 500 normal"
+ ],
+ "fontFamily": {
+  "Inter, \"Inter Placeholder\", sans-serif": 238,
+  "\"Inter Variable\", \"Inter Variable Placeholder\", sans-serif": 170,
+  "\"Input Mono Regular\", \"Input Mono Regular Placeholder\", monospace": 18,
+  "\"GT Walsheim Medium\", \"GT Walsheim Medium Placeholder\", sans-serif": 9,
+  "\"Input Mono Bold\", \"Input Mono Bold Placeholder\", monospace": 6,
+  "\"Inter Medium\", \"Inter Medium Placeholder\", sans-serif": 3,
+  "Inter": 1,
+  "\"JetBrains Mono\", \"JetBrains Mono Placeholder\", sans-serif": 1,
+  "sans-serif": 1
+ },
+ "fontSize": {
+  "12px": 172,
+  "14px": 114,
+  "13px": 83,
+  "18px": 28,
+  "10px": 16,
+  "15px": 11,
+  "44px": 5,
+  "20px": 5,
+  "54px": 4,
+  "9px": 3,
+  "16px": 2,
+  "7px": 2,
+  "22px": 1,
+  "6px": 1
+ },
+ "fontWeight": {
+  "400": 190,
+  "500": 211,
+  "600": 36,
+  "700": 10
+ },
+ "lineHeight": {
+  "19.6px": 104,
+  "14.4px": 83,
+  "20.8px": 45,
+  "19.5px": 36,
+  "12px": 32,
+  "24.3px": 27,
+  "15.6px": 26,
+  "16px": 25,
+  "16.8px": 12,
+  "20.25px": 11,
+  "14px": 10,
+  "48.4px": 5,
+  "24px": 5,
+  "10.8px": 3,
+  "18px": 3,
+  "15px": 3,
+  "54px": 2,
+  "20px": 2,
+  "43.2px": 2,
+  "13px": 2,
+  "7px": 2,
+  "18.2px": 1,
+  "22.4px": 1,
+  "21.6px": 1,
+  "30.8px": 1,
+  "16.2px": 1,
+  "normal": 1,
+  "6px": 1
+ },
+ "letterSpacing": {
+  "normal": 251,
+  "-0.1px": 112,
+  "-0.2px": 33,
+  "-0.6px": 11,
+  "-0.26px": 8,
+  "-0.28px": 7,
+  "-1.76px": 5,
+  "-0.8px": 5,
+  "-2.16px": 4,
+  "-0.01px": 3,
+  "-0.05px": 2,
+  "0.21px": 2,
+  "-0.56px": 1,
+  "-0.24px": 1,
+  "0.2px": 1,
+  "-0.7px": 1
+ },
+ "textColor": {
+  "rgb(255, 255, 255)": 154,
+  "rgb(153, 153, 153)": 126,
+  "rgba(255, 255, 255, 0.6)": 94,
+  "rgb(102, 102, 102)": 24,
+  "rgb(0, 187, 136)": 10,
+  "rgb(0, 153, 255)": 6,
+  "rgba(255, 255, 255, 0.8)": 5,
+  "rgb(204, 204, 204)": 5,
+  "rgb(214, 122, 92)": 5,
+  "rgb(0, 0, 0)": 3,
+  "rgba(255, 255, 255, 0.4)": 3,
+  "rgb(203, 203, 203)": 3,
+  "rgb(5, 5, 5)": 3,
+  "rgba(255, 255, 255, 0.5)": 2,
+  "rgb(136, 86, 255)": 1,
+  "rgba(0, 0, 0, 0)": 1,
+  "rgb(76, 217, 99)": 1,
+  "rgb(152, 105, 253)": 1
+ },
+ "bg": {
+  "rgb(0, 0, 0)": 45,
+  "rgb(36, 36, 36)": 33,
+  "rgba(255, 255, 255, 0.1)": 21,
+  "rgb(255, 255, 255)": 20,
+  "rgb(17, 17, 17)": 16,
+  "rgb(30, 30, 30)": 16,
+  "rgba(0, 187, 136, 0.1)": 10,
+  "rgb(31, 31, 31)": 8,
+  "rgb(0, 153, 255)": 7,
+  "rgb(153, 153, 153)": 6,
+  "rgba(34, 34, 34, 0.8)": 6,
+  "rgb(102, 102, 102)": 5,
+  "rgb(23, 23, 23)": 4,
+  "rgba(255, 255, 255, 0.5)": 4,
+  "rgba(255, 255, 255, 0.08)": 4,
+  "rgba(0, 153, 255, 0.216)": 3,
+  "rgba(0, 153, 255, 0.1)": 3,
+  "rgb(48, 48, 48)": 3,
+  "rgba(255, 255, 255, 0.2)": 3,
+  "rgb(135, 135, 135)": 3,
+  "rgba(255, 255, 255, 0)": 2,
+  "rgb(51, 51, 51)": 2,
+  "rgb(18, 18, 18)": 2,
+  "rgb(152, 105, 253)": 2,
+  "rgb(58, 146, 253)": 2,
+  "rgba(0, 0, 0, 0.7)": 1,
+  "rgba(255, 255, 255, 0.15)": 1,
+  "rgba(31, 31, 31, 0)": 1,
+  "rgba(153, 153, 153, 0.1)": 1,
+  "rgba(255, 255, 255, 0.05)": 1,
+  "rgba(0, 153, 255, 0.22)": 1,
+  "rgb(255, 0, 34)": 1,
+  "rgb(255, 187, 0)": 1,
+  "rgb(76, 217, 99)": 1,
+  "rgb(56, 56, 56)": 1,
+  "rgba(31, 31, 31, 0.5)": 1,
+  "rgb(0, 102, 255)": 1,
+  "rgba(0, 0, 0, 0.9)": 1,
+  "rgba(152, 105, 253, 0.1)": 1,
+  "rgb(26, 26, 26)": 1
+ },
+ "radius": {
+  "8px": 249,
+  "15px": 71,
+  "6px": 34,
+  "20px": 29,
+  "4px": 24,
+  "100px": 18,
+  "18px": 14,
+  "5px": 10,
+  "10px": 10,
+  "25px": 9,
+  "3px": 5,
+  "50px": 3,
+  "12px": 2,
+  "7px": 2,
+  "1px": 2,
+  "19px": 1,
+  "18px 0px 0px": 1,
+  "50%": 1,
+  "14px": 1,
+  "30px": 1,
+  "9px": 1,
+  "25px 0px 0px": 1,
+  "21px": 1
+ },
+ "shadow": {
+  "rgba(0, 0, 0, 0.2) 0px 2px 6px 0px": 6,
+  "rgba(0, 0, 0, 0.1) 0px 1px 2px 0px": 3,
+  "rgba(255, 255, 255, 0.1) 0px 0px 0px 1px": 2,
+  "rgba(255, 255, 255, 0.08) 0px 0px 0px 1px": 1,
+  "rgba(0, 153, 255, 0.15) 0px 1px 2px 0px, rgba(0, 153, 255, 0.2) 0px 2px 4px 0px": 1,
+  "rgba(0, 0, 0, 0.2) 0px 26.5542px 42.4868px 0px": 1,
+  "rgba(0, 0, 0, 0.2) 0px 36.2836px 58.0538px 0px": 1,
+  "rgba(0, 0, 0, 0.2) 0px 39.989px 63.9824px 0px": 1,
+  "rgba(0, 0, 0, 0.2) 0px 35.4998px 56.7997px 0px": 1,
+  "rgba(0, 0, 0, 0.2) 0px 25.4458px 40.7132px 0px": 1,
+  "rgba(0, 0, 0, 0.2) 0px 15.7164px 25.1462px 0px": 1,
+  "rgba(0, 0, 0, 0.2) 0px 12.011px 19.2176px 0px": 1,
+  "rgba(0, 0, 0, 0.2) 0px 16.5002px 26.4003px 0px": 1,
+  "rgba(0, 0, 0, 0.25) 0px 2px 4px 0px": 1
+ },
+ "transition": {},
+ "border": {
+  "1px solid rgb(0, 153, 255)": 8,
+  "1px solid rgba(255, 255, 255, 0.06)": 8,
+  "1px solid rgba(0, 153, 255, 0.416)": 3,
+  "1px solid rgba(0, 153, 255, 0.42)": 1,
+  "1px solid rgb(118, 118, 118)": 1
+ },
+ "textTransform": {
+  "none": 444,
+  "uppercase": 3
+ },
+ "typePairs": {
+  "Inter Variable | 14px | 400 | lh 19.6px | ls -0.1px": 104,
+  "Inter | 12px | 500 | lh 14.4px | ls normal": 53,
+  "Inter | 13px | 500 | lh 20.8px | ls normal": 45,
+  "Inter Variable | 18px | 400 | lh 24.3px | ls -0.2px": 27,
+  "Inter | 13px | 500 | lh 19.5px | ls normal": 24,
+  "Inter | 12px | 500 | lh 15.6px | ls normal": 18,
+  "Input Mono Regular | 12px | 400 | lh 16px | ls normal": 17,
+  "Inter | 10px | 500 | lh 12px | ls normal": 13,
+  "Inter | 12px | 500 | lh 16.8px | ls normal": 11,
+  "Inter | 12px | 600 | lh 12px | ls normal": 10,
+  "Inter | 12px | 500 | lh 14.4px | ls -0.6px": 9,
+  "Inter | 12px | 600 | lh 14.4px | ls normal": 8,
+  "Inter | 13px | 500 | lh 19.5px | ls -0.26px": 8,
+  "Inter | 12px | 600 | lh 15.6px | ls normal": 8,
+  "Inter Variable | 14px | 400 | lh 14px | ls -0.28px": 7,
+  "Inter Variable | 12px | 400 | lh 14.4px | ls normal": 7,
+  "Inter Variable | 15px | 400 | lh 20.25px | ls -0.1px": 7,
+  "Input Mono Bold | 12px | 700 | lh 16px | ls normal": 6,
+  "GT Walsheim Medium | 44px | 500 | lh 48.4px | ls -1.76px": 5,
+  "Inter | 12px | 500 | lh 12px | ls normal": 5,
+  "Inter | 20px | 600 | lh 24px | ls -0.8px": 5,
+  "Inter Variable | 15px | 400 | lh 20.25px | ls -0.2px": 4,
+  "Inter | 13px | 600 | lh 19.5px | ls normal": 4,
+  "Inter | 9px | 700 | lh 10.8px | ls normal": 3,
+  "Inter Medium | 12px | 500 | lh 14.4px | ls normal": 3,
+  "Inter | 12px | 500 | lh 18px | ls normal": 3,
+  "GT Walsheim Medium | 54px | 500 | lh 54px | ls -2.16px": 2,
+  "Inter | 12px | 500 | lh 20px | ls normal": 2,
+  "GT Walsheim Medium | 54px | 500 | lh 43.2px | ls -2.16px": 2,
+  "Inter | 12px | 500 | lh 14.4px | ls -0.05px": 2,
+  "Inter | 13px | 500 | lh 13px | ls normal": 2,
+  "Inter Variable | 7px | 400 | lh 7px | ls 0.21px": 2,
+  "Inter Variable | 12px | 400 | lh 15px | ls normal": 2,
+  "Inter Variable | 14px | 400 | lh 14px | ls -0.01px": 1,
+  "Inter Variable | 14px | 400 | lh 14px | ls -0.56px": 1,
+  "Inter Variable | 12px | 400 | lh 16.8px | ls -0.1px": 1,
+  "Inter | 10px | 500 | lh 14px | ls normal": 1,
+  "Inter | 12px | 400 | lh 14.4px | ls normal": 1,
+  "Input Mono Regular | 12px | 700 | lh 16px | ls normal": 1,
+  "Inter | 16px | 500 | lh 16px | ls -0.2px": 1
+ },
+ "headings": [
+  "H1 Framer is the design agent for every step from idea to launch",
+  "H2 Agents that work alongside you, not instead of you",
+  "H3 Design with an agent",
+  "H3 Run your CMS with an agent",
+  "H3 Code with an agent",
+  "H3 Connect to any AI",
+  "H2 Not just vibes, a full platform",
+  "H3 Performance",
+  "H3 CMS",
+  "H3 SEO",
+  "H3 Collaboration",
+  "H3 Localization",
+  "H3 Hosting",
+  "H3 Security",
+  "H3 Analytics",
+  "H3 A/B Testing",
+  "H2 Shipped with Framer",
+  "H2 Trusted by teams shipping big sites",
+  "H2 Built on a community that isn’t going anywhere",
+  "H2 Your next idea starts here"
+ ],
+ "nav": [
+  {
+   "t": "Framer",
+   "h": "https://www.framer.com/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Enterprise",
+   "h": "https://www.framer.com/enterprise/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Pricing",
+   "h": "https://www.framer.com/pricing?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Log in",
+   "h": "https://framer.com/r/login"
+  },
+  {
+   "t": "Sign up",
+   "h": "https://www.framer.com/r/signup/"
+  },
+  {
+   "t": "Brand guidelines",
+   "h": "https://www.framer.com/brand?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Get started for free",
+   "h": "https://framer.com/r/signup/"
+  },
+  {
+   "t": "Download app",
+   "h": "https://updates.framer.com/electron/darwin/arm64/Framer.zip?_ga=2.113395847.1447313862.1646043056-273660571.1642151053"
+  },
+  {
+   "t": "New:\n\nSkills",
+   "h": "https://www.framer.com/skills?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Meet our customers",
+   "h": "https://www.framer.com/stories/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Start with agents",
+   "h": "https://www.framer.com/agents/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Start with Agents",
+   "h": "https://www.framer.com/signup/"
+  },
+  {
+   "t": "Start with Agents",
+   "h": "https://www.framer.com/signup/"
+  },
+  {
+   "t": "Start with Agents",
+   "h": "https://www.framer.com/signup/"
+  },
+  {
+   "t": "Install",
+   "h": "https://www.framer.com/agents/external/?via=lee72&dub_id=uH3piyAPAq1BmaBs#connect"
+  },
+  {
+   "t": "Performance",
+   "h": "https://www.framer.com/performance/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "CMS",
+   "h": "https://www.framer.com/cms/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "SEO",
+   "h": "https://www.framer.com/seo/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Collaboration",
+   "h": "https://www.framer.com/collaborate/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Localization",
+   "h": "https://www.framer.com/academy/lessons/localization?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Hosting",
+   "h": "https://www.framer.com/hosting/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Security",
+   "h": "https://www.framer.com/legal/security?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Analytics",
+   "h": "https://www.framer.com/analytics?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "A/B Testing",
+   "h": "https://www.framer.com/analytics?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "See Framer sites",
+   "h": "https://www.framer.com/community/gallery/"
+  },
+  {
+   "t": "Read stories",
+   "h": "https://www.framer.com/stories/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Read story",
+   "h": "https://www.framer.com/stories/miro/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Read story",
+   "h": "https://www.framer.com/stories/perplexity/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Read story",
+   "h": "https://www.framer.com/stories/legora/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Read story",
+   "h": "https://www.framer.com/stories/mixpanel/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Read story",
+   "h": "https://www.framer.com/stories/zapier/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Read story",
+   "h": "https://www.framer.com/stories/flora/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Read story",
+   "h": "https://www.framer.com/stories/mutiny/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Read story",
+   "h": "https://www.framer.com/stories/stackai/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Browse the community",
+   "h": "https://www.framer.com/community/feed/"
+  },
+  {
+   "t": "Can this be built in Framer?\n\nFree · Adam",
+   "h": "https://www.framer.com/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Recraft\n\nFree · Fanny Mulet",
+   "h": "https://www.framer.com/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Tidy Up\n\n$67 · Darkroom",
+   "h": "https://www.framer.com/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Hover Zoom\n\nFree · Jurre",
+   "h": "https://www.framer.com/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Lou\n\n$99 · Gustave Flowbert",
+   "h": "https://www.framer.com/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Fanny Mulet",
+   "h": "https://www.framer.com/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "@fanny-mulet",
+   "h": "https://www.framer.com/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Bogdan Skripka",
+   "h": "https://www.framer.com/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "@bogdan-skripka",
+   "h": "https://www.framer.com/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Adam",
+   "h": "https://www.framer.com/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "@hemlok",
+   "h": "https://www.framer.com/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "darkroom.engineering",
+   "h": "https://www.framer.com/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "@darkroomengineering",
+   "h": "https://www.framer.com/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Bogdan Skripka",
+   "h": "https://www.framer.com/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "@bogdan-skripka",
+   "h": "https://www.framer.com/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Start without AI",
+   "h": "https://framer.com/signup"
+  },
+  {
+   "t": "AI",
+   "h": "https://www.framer.com/ai/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Agents",
+   "h": "https://www.framer.com/agents/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "External Agents",
+   "h": "https://www.framer.com/agents/external/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Design",
+   "h": "https://www.framer.com/design/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Collaborate",
+   "h": "https://www.framer.com/collaborate/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "CMS",
+   "h": "https://www.framer.com/cms/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Hosting",
+   "h": "https://www.framer.com/hosting/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Performance",
+   "h": "https://www.framer.com/performance/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "SEO",
+   "h": "https://www.framer.com/seo/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Skills\n\nNEW",
+   "h": "https://www.framer.com/skills?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Convert",
+   "h": "https://www.framer.com/convert/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Publish",
+   "h": "https://www.framer.com/publish/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Updates",
+   "h": "https://www.framer.com/updates?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Templates",
+   "h": "https://www.framer.com/community/marketplace/templates/"
+  },
+  {
+   "t": "Components",
+   "h": "https://www.framer.com/community/marketplace/components/"
+  },
+  {
+   "t": "Vectors",
+   "h": "https://www.framer.com/community/marketplace/vectors/"
+  },
+  {
+   "t": "Plugins",
+   "h": "https://www.framer.com/community/marketplace/plugins/"
+  },
+  {
+   "t": "Gallery",
+   "h": "https://www.framer.com/community/gallery/"
+  },
+  {
+   "t": "Hire Experts",
+   "h": "https://www.framer.com/community/members/"
+  },
+  {
+   "t": "Switch",
+   "h": "https://www.framer.com/switch/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Enterprise",
+   "h": "https://www.framer.com/enterprise/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Agencies",
+   "h": "https://www.framer.com/agencies/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Startups",
+   "h": "https://www.framer.com/startups/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Pricing",
+   "h": "https://www.framer.com/pricing?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Academy",
+   "h": "https://www.framer.com/academy/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Desktop App",
+   "h": "https://www.framer.com/downloads/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Developers",
+   "h": "https://www.framer.com/developers/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Affiliates",
+   "h": "https://www.framer.com/creators?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Experts\n\nNEW",
+   "h": "https://www.framer.com/expert/apply/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Guides",
+   "h": "https://www.framer.com/guides?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Blog",
+   "h": "https://www.framer.com/blog/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Newsletter",
+   "h": "https://www.framer.com/newsletter?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Stories",
+   "h": "https://www.framer.com/stories/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Students",
+   "h": "https://www.framer.com/education/students/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Ambassadors",
+   "h": "https://www.framer.com/education/ambassadors/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Help Articles",
+   "h": "https://www.framer.com/help/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Meetups",
+   "h": "https://www.framer.com/meetups/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Contact",
+   "h": "https://www.framer.com/contact/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Designers",
+   "h": "https://www.framer.com/solutions/designers/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Agencies",
+   "h": "https://www.framer.com/solutions/agencies/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Marketers",
+   "h": "https://www.framer.com/solutions/marketers/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Growth",
+   "h": "https://www.framer.com/solutions/growth/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Builders",
+   "h": "https://www.framer.com/solutions/builders/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Engineers",
+   "h": "https://www.framer.com/solutions/engineers/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Site Teams",
+   "h": "https://www.framer.com/solutions/site-teams/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Founders",
+   "h": "https://www.framer.com/solutions/founders/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "AI website builder",
+   "h": "https://www.framer.com/solutions/ai-website-builder/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "AI design agent",
+   "h": "https://www.framer.com/solutions/ai-designer/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Website builder",
+   "h": "https://www.framer.com/solutions/website-builder/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Landing pages",
+   "h": "https://www.framer.com/solutions/landing-pages/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Portfolio maker",
+   "h": "https://www.framer.com/solutions/portfolio-website/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "UI/UX design",
+   "h": "https://www.framer.com/solutions/ui-ux-design/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Figma to HTML",
+   "h": "https://www.framer.com/solutions/figma-to-html/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "No-code",
+   "h": "https://www.framer.com/solutions/no-code-website-builder/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Compare",
+   "h": "https://www.framer.com/compare?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Webflow",
+   "h": "https://www.framer.com/compare/framer-vs-webflow?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Figma",
+   "h": "https://www.framer.com/compare/framer-vs-figma?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Wix",
+   "h": "https://www.framer.com/compare/framer-vs-wix?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Squarespace",
+   "h": "https://www.framer.com/compare/framer-vs-squarespace?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "WordPress",
+   "h": "https://www.framer.com/compare/framer-vs-wordpress?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Readymag",
+   "h": "https://www.framer.com/compare/framer-vs-readymag?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Ceros",
+   "h": "https://www.framer.com/compare/framer-vs-ceros?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Unbounce",
+   "h": "https://www.framer.com/compare/framer-vs-unbounce?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Lovable",
+   "h": "https://www.framer.com/compare/framer-vs-lovable?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Claude Code",
+   "h": "https://www.framer.com/compare/framer-vs-claude-code?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "ChatGPT",
+   "h": "https://www.framer.com/compare/framer-vs-chatgpt?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Codex",
+   "h": "https://www.framer.com/compare/framer-vs-codex?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Contentful",
+   "h": "https://www.framer.com/compare/framer-vs-contentful?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Sanity",
+   "h": "https://www.framer.com/compare/framer-vs-sanity?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "AEM",
+   "h": "https://www.framer.com/compare/framer-vs-adobe-experience-manager?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Replit",
+   "h": "https://www.framer.com/compare/framer-vs-replit?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "v0",
+   "h": "https://www.framer.com/compare/framer-vs-v0?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Careers",
+   "h": "https://www.framer.com/careers/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Security",
+   "h": "https://www.framer.com/legal/security?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Brand",
+   "h": "https://www.framer.com/brand?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Abuse",
+   "h": "mailto:abuse@framer.com"
+  },
+  {
+   "t": "Legal",
+   "h": "https://www.framer.com/legal/community-terms?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Trust",
+   "h": "https://app.eu.vanta.com/framer.com/trust/ow67ujg7iav0t6qtd1o6r2"
+  },
+  {
+   "t": "Merch",
+   "h": "https://www.framer.com/store?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Keyboard",
+   "h": "https://www.framer.com/f1?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Stack Score",
+   "h": "https://www.framer.com/stack-score/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Free domains",
+   "h": "https://www.framer.com/domains/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "AEO scanner",
+   "h": "https://www.framer.com/aeo?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "State of Sites",
+   "h": "https://www.framer.com/state-of-sites-2026/"
+  },
+  {
+   "t": "CanvasBench",
+   "h": "https://www.framer.com/canvasbench/?via=lee72&dub_id=uH3piyAPAq1BmaBs"
+  },
+  {
+   "t": "Link Preview",
+   "h": "https://www.linkpreview.app/"
+  },
+  {
+   "t": "CCPA",
+   "h": "https://app.eu.vanta.com/framer.com/trust/ow67ujg7iav0t6qtd1o6r2"
+  },
+  {
+   "t": "All services online",
+   "h": "https://www.framerstatus.com/"
+  }
+ ],
+ "fullHeight": 10741
+}

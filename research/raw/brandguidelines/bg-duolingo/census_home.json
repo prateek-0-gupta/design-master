@@ -1,0 +1,183 @@
+{
+ "url": "https://web.archive.org/web/20260106022556if_/https://design.duolingo.com/",
+ "title": "Duolingo Brand Guidelines",
+ "scrollHeight": 1516,
+ "customProperties": {
+  "--guide-color": "#58cc02",
+  "--wm-toolbar-height": "65px"
+ },
+ "loadedFonts": [
+  "din-round 400 normal",
+  "din-round 700 normal",
+  "feather 700 normal"
+ ],
+ "fontFamily": {
+  "din-round, sans-serif": 29,
+  "feather, sans-serif": 6
+ },
+ "fontSize": {
+  "15px": 12,
+  "14px": 8,
+  "36px": 5,
+  "16px": 5,
+  "19px": 4,
+  "60px": 1
+ },
+ "fontWeight": {
+  "400": 8,
+  "700": 27
+ },
+ "lineHeight": {
+  "14px": 8,
+  "23.25px": 7,
+  "15px": 5,
+  "36px": 5,
+  "16px": 5,
+  "19px": 4,
+  "60px": 1
+ },
+ "letterSpacing": {
+  "normal": 22,
+  "0.75px": 8,
+  "0.6px": 5
+ },
+ "textColor": {
+  "rgb(255, 255, 255)": 27,
+  "rgb(175, 175, 175)": 7,
+  "rgb(0, 0, 0)": 1
+ },
+ "bg": {
+  "rgb(88, 204, 2)": 2,
+  "rgb(28, 176, 246)": 1,
+  "rgb(206, 130, 255)": 1,
+  "rgb(255, 177, 0)": 1,
+  "rgb(255, 120, 120)": 1,
+  "rgb(255, 255, 255)": 1
+ },
+ "radius": {
+  "16px": 7
+ },
+ "shadow": {},
+ "transition": {
+  "color 0.3s ease": 12,
+  "filter 0.3s ease": 5,
+  "transform 0.3s ease": 1
+ },
+ "border": {
+  "1px solid rgb(255, 255, 255)": 1,
+  "1px solid rgb(229, 229, 229)": 1,
+  "2px solid rgb(229, 229, 229)": 1
+ },
+ "textTransform": {
+  "none": 16,
+  "uppercase": 13,
+  "lowercase": 6
+ },
+ "typePairs": {
+  "din-round | 14px | 700 | lh 14px | ls 0.75px": 8,
+  "din-round | 15px | 400 | lh 23.25px | ls normal": 6,
+  "feather | 36px | 700 | lh 36px | ls normal": 5,
+  "din-round | 16px | 700 | lh 16px | ls 0.6px": 5,
+  "din-round | 19px | 700 | lh 19px | ls normal": 4,
+  "din-round | 15px | 700 | lh 15px | ls normal": 3,
+  "din-round | 15px | 400 | lh 15px | ls normal": 2,
+  "feather | 60px | 700 | lh 60px | ls normal": 1,
+  "din-round | 15px | 700 | lh 23.25px | ls normal": 1
+ },
+ "headings": [
+  "H2 hola",
+  "H3 QUICK LINKS",
+  "H1 identity",
+  "H1 writing",
+  "H1 illustration",
+  "H1 marketing",
+  "H1 resources"
+ ],
+ "nav": [
+  {
+   "t": "Downloads",
+   "h": "https://design.duolingo.com/resources"
+  },
+  {
+   "t": "Help",
+   "h": "https://duolingo.com/contact"
+  },
+  {
+   "t": "About Duolingo",
+   "h": "https://duolingo.com/info"
+  },
+  {
+   "t": "Careers",
+   "h": "https://duolingo.com/careers"
+  },
+  {
+   "t": "contact us",
+   "h": "https://duolingo.com/contact"
+  },
+  {
+   "t": "Press Kit",
+   "h": "https://duolingo.com/press"
+  },
+  {
+   "t": "Illustration Colors",
+   "h": "https://design.duolingo.com/illustration/shape-language#color"
+  },
+  {
+   "t": "Brand Colors",
+   "h": "https://design.duolingo.com/identity/color#core-brand-colors"
+  },
+  {
+   "t": "Duolingo.com",
+   "h": "https://duolingo.com"
+  },
+  {
+   "t": "identity\n\nSuccessfully represent Duolingo with core brand el",
+   "h": "https://design.duolingo.com/identity/logos"
+  },
+  {
+   "t": "writing\n\nProduce content in the spirit of Duolingo and ensur",
+   "h": "https://design.duolingo.com/writing/brand-narrative"
+  },
+  {
+   "t": "illustration\n\nCreate artwork that feels right at home in the",
+   "h": "https://design.duolingo.com/illustration/shape-language"
+  },
+  {
+   "t": "marketing\n\nCreate materials using all the critical elements ",
+   "h": "https://design.duolingo.com/marketing/assets"
+  },
+  {
+   "t": "resources\n\nLogos, fact sheets, images, and all the other dow",
+   "h": "https://design.duolingo.com/resources"
+  },
+  {
+   "t": "DUOLINGO",
+   "h": "https://duolingo.com"
+  },
+  {
+   "t": "ABOUT",
+   "h": "https://duolingo.com/info"
+  },
+  {
+   "t": "CAREERS",
+   "h": "https://duolingo.com/careers"
+  },
+  {
+   "t": "APPS",
+   "h": "https://duolingo.com/mobile"
+  },
+  {
+   "t": "HELP",
+   "h": "https://support.duolingo.com"
+  },
+  {
+   "t": "TERMS",
+   "h": "https://duolingo.com/terms"
+  },
+  {
+   "t": "PRIVACY",
+   "h": "https://duolingo.com/privacy"
+  }
+ ],
+ "fullHeight": 1516
+}

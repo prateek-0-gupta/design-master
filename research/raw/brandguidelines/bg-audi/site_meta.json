@@ -1,0 +1,15 @@
+{
+ "requested": "https://www.audi.com/ci/en/renewed-brand.html",
+ "captured_from": "https://styleguide.audi.com/",
+ "archived": true,
+ "final": "https://styleguide.audi.com/document/1811#/-/typography",
+ "title": "Home - Brand",
+ "subpages": [
+  {
+   "href": "https://styleguide.audi.com/r/tAzGPKqNqmrIblNFMgcASk5Nj2sJ0b5wFLp1D2qZGZ0",
+   "t": "More about Audi Type﻿ >",
+   "ok": true
+  }
+ ],
+ "cssFiles": 26
+}

@@ -1,0 +1,38 @@
+{
+ "requested": "https://freepik.design/",
+ "final": "https://www.magnific.com/app/tools/image-to-360?from_element=mainmenu_ai_tools_v1_3d_image-to-360",
+ "title": "Magnific: Press Resources and Brand Guidelines",
+ "subpages": [
+  {
+   "href": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator",
+   "t": "AI Image Generator",
+   "ok": true
+  },
+  {
+   "href": "https://www.magnific.com/ai/photo-editor?from_element=mainmenu_ai_tools_v1_image_image-editor",
+   "t": "Image Editor",
+   "ok": true
+  },
+  {
+   "href": "https://www.magnific.com/ai/image-upscaler?from_element=mainmenu_ai_tools_v1_image_image-upscaler",
+   "t": "Image Upscaler",
+   "ok": true
+  },
+  {
+   "href": "https://www.magnific.com/ai/image-extender?from_element=mainmenu_ai_tools_v1_image_image-extender",
+   "t": "Image Extender",
+   "ok": true
+  },
+  {
+   "href": "https://www.magnific.com/ai/voice-generator?from_element=mainmenu_ai_tools_v1_audio_voice-generator",
+   "t": "Text to Speech",
+   "ok": true
+  },
+  {
+   "href": "https://www.magnific.com/app/tools/image-to-360?from_element=mainmenu_ai_tools_v1_3d_image-to-360",
+   "t": "3D 360",
+   "ok": true
+  }
+ ],
+ "cssFiles": 67
+}

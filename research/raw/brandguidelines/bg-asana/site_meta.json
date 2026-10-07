@@ -1,0 +1,18 @@
+{
+ "requested": "https://www.micahdaigle.com/design/asana",
+ "final": "https://www.micahdaigle.com/design/hackpad",
+ "title": "Asana · Brand & Product",
+ "subpages": [
+  {
+   "href": "https://www.micahdaigle.com/design/pact",
+   "t": "Previous\nPact · Brand & Product",
+   "ok": true
+  },
+  {
+   "href": "https://www.micahdaigle.com/design/hackpad",
+   "t": "Next\nHackpad · Brand & Product",
+   "ok": true
+  }
+ ],
+ "cssFiles": 29
+}

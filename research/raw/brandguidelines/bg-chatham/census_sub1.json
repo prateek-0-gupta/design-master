@@ -1,0 +1,57 @@
+{
+ "url": "https://live.standards.site/Typography",
+ "title": "Page not found",
+ "scrollHeight": 900,
+ "customProperties": {},
+ "loadedFonts": [
+  "sohne 400 normal"
+ ],
+ "fontFamily": {
+  "sohne": 4
+ },
+ "fontSize": {
+  "13px": 3,
+  "26px": 1
+ },
+ "fontWeight": {
+  "400": 4
+ },
+ "lineHeight": {
+  "16.9px": 3,
+  "36px": 1
+ },
+ "letterSpacing": {
+  "normal": 4
+ },
+ "textColor": {
+  "rgb(0, 0, 0)": 2,
+  "rgb(115, 115, 115)": 2
+ },
+ "bg": {},
+ "radius": {},
+ "shadow": {},
+ "transition": {},
+ "border": {},
+ "textTransform": {
+  "none": 4
+ },
+ "typePairs": {
+  "sohne | 13px | 400 | lh 16.9px | ls normal": 3,
+  "sohne | 26px | 400 | lh 36px | ls normal": 1
+ },
+ "headings": [
+  "H1 This Standards site cannot be found. It may no longer be live, or the URL is inc",
+  "H2 Having an issue? Contact support@standards.site\n\nLearn more about Standards"
+ ],
+ "nav": [
+  {
+   "t": "support@standards.site",
+   "h": "mailto:support@standards.site"
+  },
+  {
+   "t": "Standards",
+   "h": "https://standards.site/"
+  }
+ ],
+ "fullHeight": 900
+}

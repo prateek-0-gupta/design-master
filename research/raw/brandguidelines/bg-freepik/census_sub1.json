@@ -1,0 +1,1584 @@
+{
+ "url": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator",
+ "title": "Free AI Image Generator - Text to Image Online | Magnific",
+ "scrollHeight": 16639,
+ "customProperties": {
+  "--color-surface-4": "#dbdbdb",
+  "--color-emphasis-soft": "#ff58ae26",
+  "--tw-backdrop-sepia": "",
+  "--color-apps-designer-foreground-0": "#cc7e80",
+  "--tw-ring-shadow": "0 0 #0000",
+  "--color-apps-video-0": "#17cb8d1a",
+  "--color-panel-2": "#fafafa",
+  "--color-emphasis-2": "#ff1a90",
+  "--color-form-foreground-1": "#1a1a1a",
+  "--color-alert-old-icon-success": "#358112",
+  "--color-ghost-2": "#73737326",
+  "--tw-sepia": "",
+  "--color-alert-old-warning": "#fdfcd5",
+  "--color-alert-gradient-warning-from": "#e7ad1640",
+  "--color-premium-foreground-0": "#1a1a1a",
+  "--color-surface-border-alpha-0": "#1010100d",
+  "--color-alert-icon-negative": "#f66950",
+  "--tw-ordinal": "",
+  "--color-primary-1": "#344ce7",
+  "--color-primary-2": "#2236d2",
+  "--color-default-0": "#7373730d",
+  "--color-form-0": "#ffffff",
+  "--tw-contain-style": "",
+  "--color-surface-3": "#e3e3e3",
+  "--color-overlay-thumbnail": "#00000033",
+  "--color-premium-2": "#ea7e11",
+  "--color-apps-spaces-0": "#8566dc1a",
+  "--tw-backdrop-invert": "",
+  "--color-form-border-error": "#f66950",
+  "--color-alert-gradient-success-from": "#107a5640",
+  "--color-marketing-border-solid-0": "#2c0000",
+  "--color-blurred-1": "#ffffff59",
+  "--color-alert-gradient-information-to": "#2236d240",
+  "--color-alert-icon-neutral": "#424242",
+  "--color-marketing-foreground-0": "#2c0000",
+  "--tw-border-spacing-x": "0",
+  "--color-alert-gradient-warning-to": "#e7ad1640",
+  "--color-overlay-dialog": "#101010cc",
+  "--color-alert-old-icon-information": "#031d73",
+  "--color-surface-1": "#f5f5f5",
+  "--color-form-border-solid-active": "#90abfa",
+  "--tw-hue-rotate": "",
+  "--tw-backdrop-grayscale": "",
+  "--color-marketing-primary-1": "#3f0808",
+  "--tw-pan-y": "",
+  "--color-outline-border-2": "#10101080",
+  "--color-surface-foreground-2": "#424242",
+  "--color-surface-foreground-4": "#737373",
+  "--tw-ring-color": "rgb(59 130 246/0.5)",
+  "--color-surface-accent-0": "#4f69f2",
+  "--tw-rotate": "0",
+  "--color-alert-old-gradient-success-from": "#55c32326",
+  "--color-surface-foreground-1": "#353535",
+  "--color-blurred-white-2": "#ffffff66",
+  "--tw-ring-offset-color": "#fff",
+  "--color-alert-negative": "#fef0ed",
+  "--color-surface-border-solid-10": "#1a1a1a",
+  "--color-alert-icon-success": "#14a372",
+  "--color-form-border-0": "#10101026",
+  "--color-panel-0": "#f5f5f5",
+  "--color-premium-1": "#f4980a",
+  "--color-emphasis-0": "#ff58ae",
+  "--color-apps-stock-foreground-0": "#101010",
+  "--color-alert-base": "#fafafa",
+  "--color-apps-spaces-foreground-0": "#8566dc",
+  "--color-emphasis-1": "#ff389f",
+  "--color-outline-1": "#1010101a",
+  "--color-alert-gradient-success-to": "#107a5640",
+  "--color-apps-base": "#ececec",
+  "--color-marketing-primary-2": "#3f08081a",
+  "--color-alert-old-gradient-warning-to": "#ffc9040d",
+  "--color-emphasis-foreground-0": "#101010",
+  "--tw-ring-offset-width": "0px",
+  "--tw-gradient-via-position": "",
+  "--color-premium-0": "#feb602",
+  "--color-blurred-2": "#ffffff66",
+  "--tw-saturate": "",
+  "--tw-scroll-snap-strictness": "proximity",
+  "--color-alert-old-icon-warning": "#8f6e09",
+  "--tw-grayscale": "",
+  "--tw-backdrop-hue-rotate": "",
+  "--tw-shadow-colored": "0 0 #0000",
+  "--color-surface-foreground-accent-0": "#4f69f2",
+  "--color-alert-neutral": "#fafafa",
+  "--tw-gradient-to-position": "",
+  "--tw-numeric-fraction": "",
+  "--color-apps-audio-0": "#00cdc61a",
+  "--color-form-foreground-0": "#737373",
+  "--color-apps-3d-0": "#b395811a",
+  "--color-alert-old-gradient-success-to": "#55c3230d",
+  "--color-blurred-white-0": "#ffffff40",
+  "--tw-skew-y": "0",
+  "--color-ghost-foreground-0": "#1a1a1a",
+  "--color-alert-gradient-information-from": "#2236d240",
+  "--color-ghost-0": "transparent",
+  "--tw-slashed-zero": "",
+  "--color-surface-foreground-3": "#616161",
+  "--color-alert-icon-warning": "#e7ad16",
+  "--color-form-border-alpha-0": "#10101026",
+  "--color-alert-old-base": "#e3e3e380",
+  "--tw-backdrop-opacity": "",
+  "--color-alert-old-gradient-information-to": "#336aea0d",
+  "--color-blurred-0": "#ffffff40",
+  "--color-marketing-primary-0": "#2c0000",
+  "--tw-gradient-from-position": "",
+  "--color-alert-old-success": "#e4fed7",
+  "--tw-pinch-zoom": "",
+  "--tw-contain-paint": "",
+  "--tw-ring-offset-shadow": "0 0 #0000",
+  "--color-apps-designer-0": "#cc7e801a",
+  "--color-panel-6": "#fcfcfc",
+  "--color-form-border-warning": "#e7ad16",
+  "--color-form-border-solid-success": "#17cb8d",
+  "--color-apps-video-foreground-0": "#3cd39f",
+  "--color-destructive-foreground-1": "#8c1b07",
+  "--color-ghost-1": "#7373731a",
+  "--color-secondary-2": "#616161",
+  "--color-apps-image-foreground-0": "#4f69f2",
+  "--color-form-border-solid-error": "#f66950",
+  "--color-alert-icon-information": "#4f69f2",
+  "--color-alert-success": "#e7f5f0",
+  "--color-apps-audio-foreground-0": "#00cdc6",
+  "--tw-backdrop-saturate": "",
+  "--color-alert-information": "#edf0fd",
+  "--color-default-foreground-0": "#1a1a1a",
+  "--color-surface-2": "#ececec",
+  "--color-outline-border-1": "#1010104d",
+  "--color-surface-foreground-0": "#1a1a1a",
+  "--color-blurred-foreground-0": "#1a1a1a",
+  "--tw-ring-inset": "",
+  "--color-destructive-1": "#f9c7be",
+  "--color-alert-old-information": "#e8edfe",
+  "--color-marketing-primary-foreground-0": "#fafafa",
+  "--tw-numeric-spacing": "",
+  "--color-surface-border-solid-4": "#dbdbdb",
+  "--color-default-1": "#7373731a",
+  "--color-surface-border-solid-0": "#ffffff",
+  "--color-form-foreground-warning": "#e7ad16",
+  "--color-surface-border-accent-solid-0": "#4f69f2",
+  "--tw-brightness": "",
+  "--color-alert-gradient-negative-from": "#da2a0b40",
+  "--color-marketing-surface-0": "#f4f3ef",
+  "--tw-scale-y": "1",
+  "--color-apps-image-0": "#4f69f21a",
+  "--color-alert-old-gradient-negative-to": "#ff4c400d",
+  "--color-primary-foreground-0": "#fafafa",
+  "--tw-drop-shadow": "",
+  "--tw-backdrop-contrast": "",
+  "--color-alert-warning": "#fdf8ea",
+  "--tw-backdrop-brightness": "",
+  "--color-apps-3d-foreground-0": "#b39581",
+  "--tw-pan-x": "",
+  "--tw-translate-y": "0",
+  "--color-secondary-1": "#424242",
+  "--color-marketing-foreground-error": "#da2a0b",
+  "--color-surface-border-solid-1": "#f5f5f5",
+  "--color-outline-border-alpha-0": "#10101033",
+  "--color-blurred-white-1": "#ffffff59",
+  "--color-destructive-0": "#f9c7be",
+  "--color-primary-0": "#4f69f2",
+  "--color-apps-stock-0": "#1010101a",
+  "--color-panel-4": "#ffffff",
+  "--color-blurred-white-foreground-0": "#f5f5f5",
+  "--color-surface-border-alpha-2": "#10101033",
+  "--color-form-border-success": "#17cb8d",
+  "--tw-contain-size": "",
+  "--tw-contrast": "",
+  "--color-outline-0": "transparent",
+  "--color-outline-border-0": "#10101033",
+  "--color-marketing-foreground-1": "#3f0808",
+  "--color-outline-border-alpha-1": "#1010104d",
+  "--color-marketing-border-solid-1": "#3f0808",
+  "--color-outline-border-alpha-2": "#10101080",
+  "--color-form-border-active": "#90abfa",
+  "--color-form-foreground-success": "#17cb8d",
+  "--tw-skew-x": "0",
+  "--color-form-border-solid-warning": "#e7ad16",
+  "--color-marketing-primary-foreground-2": "#3f0808",
+  "--color-surface-accent-1": "#4f69f21a",
+  "--color-surface-border-solid-3": "#e3e3e3",
+  "--color-alert-old-neutral": "#ffffff",
+  "--tw-backdrop-blur": "",
+  "--color-alert-old-gradient-negative-from": "#ff4c4026",
+  "--color-secondary-0": "#1a1a1a",
+  "--color-form-foreground-error": "#f66950",
+  "--color-alert-old-icon-negative": "#d42017",
+  "--color-marketing-primary-foreground-1": "#2c0000",
+  "--tw-shadow": "0 0 #0000",
+  "--tw-translate-x": "0",
+  "--color-surface-modal": "#ffffff",
+  "--color-alert-old-icon-neutral": "#424242",
+  "--color-destructive-foreground-0": "#f66950",
+  "--tw-scale-x": "1",
+  "--color-outline-2": "#7373731a",
+  "--color-secondary-foreground-0": "#ffffff",
+  "--tw-border-spacing-y": "0",
+  "--color-surface-border-solid-2": "#ececec",
+  "--color-surface-border-accent-alpha-0": "#4f69f24d",
+  "--color-alert-old-gradient-warning-from": "#ffc90426",
+  "--color-alert-old-gradient-information-from": "#336aea26",
+  "--color-surface-0": "#ffffff",
+  "--color-outline-foreground-0": "#1a1a1a",
+  "--tw-blur": "",
+  "--color-surface-border-alpha-1": "#1010101a",
+  "--tw-invert": "",
+  "--color-default-2": "#73737326",
+  "--color-alert-gradient-negative-to": "#da2a0b40",
+  "--tw-numeric-figure": "",
+  "--color-alert-old-negative": "#ffe9e9",
+  "--tw-contain-layout": "",
+  "--font-sans": "'geist', 'geist Fallback', Helvetica Neue, Helvetica, Arial, sans-serif",
+  "--font-alternate": "'klarheit', 'klarheit Fallback', Helvetica Neue, Helvetica, Arial, sans-serif, 'geist', 'geist Fallback', Helvetica Neue, Helvetica, Arial, sans-serif"
+ },
+ "loadedFonts": [
+  "geist 400 normal",
+  "geist 500 normal",
+  "geist 600 normal",
+  "klarheit 800 normal",
+  "geistMono 500 normal",
+  "geistMono 600 normal"
+ ],
+ "fontFamily": {
+  "geist, \"geist Fallback\", \"Helvetica Neue\", Helvetica, Arial, sans-serif": 351,
+  "klarheit, \"klarheit Fallback\", \"Helvetica Neue\", Helvetica, Arial, sans-serif, geist, \"geist Fallback\", \"Helvetica Neue\", Helvetica, Arial, sans-serif": 79,
+  "geistMono, ui-monospace, SFMono-Regular, Menlo, Monaco, monospace": 65,
+  "klarheit, \"klarheit Fallback\", \"Helvetica Neue\", Helvetica, Arial, sans-serif, geist, \"geist Fallback\", \"Helvetica Neue\", Helvetica, Arial, sans-serif, Degular, geist, \"geist Fallback\", \"Helvetica Neue\", Helvetica, Arial, sans-serif, Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif": 4
+ },
+ "fontSize": {
+  "14px": 74,
+  "13px": 72,
+  "12px": 58,
+  "14.5px": 44,
+  "15px": 32,
+  "17px": 32,
+  "12.5px": 27,
+  "11px": 24,
+  "22px": 24,
+  "10.5px": 20,
+  "13.5px": 17,
+  "52px": 11,
+  "20px": 11,
+  "16px": 10,
+  "15.5px": 9,
+  "30px": 7,
+  "18px": 4,
+  "26px": 4,
+  "10px": 4,
+  "24px": 3,
+  "40px": 3,
+  "96px": 1,
+  "8px": 1,
+  "176px": 1,
+  "46px": 1,
+  "42px": 1,
+  "56px": 1,
+  "88px": 1,
+  "44px": 1,
+  "60px": 1
+ },
+ "fontWeight": {
+  "400": 202,
+  "500": 118,
+  "600": 100,
+  "800": 79
+ },
+ "lineHeight": {
+  "22.4px": 47,
+  "13.8px": 38,
+  "24.2px": 24,
+  "16.25px": 24,
+  "19.5px": 23,
+  "11px": 22,
+  "10.5px": 20,
+  "23.2px": 19,
+  "16.9px": 18,
+  "19.55px": 17,
+  "13px": 16,
+  "20.25px": 15,
+  "14.95px": 13,
+  "18.2px": 13,
+  "16.1px": 12,
+  "27.2px": 11,
+  "23px": 11,
+  "24.75px": 11,
+  "18px": 10,
+  "25.6px": 9,
+  "24.8px": 9,
+  "18.85px": 7,
+  "53.04px": 7,
+  "21.75px": 7,
+  "33px": 7,
+  "23.25px": 6,
+  "21.7px": 6,
+  "16.675px": 5,
+  "22.1px": 4,
+  "15.6px": 4,
+  "29.9px": 4,
+  "24px": 4,
+  "46.8px": 4,
+  "10px": 4,
+  "17.25px": 3,
+  "20.3px": 3,
+  "27.6px": 3,
+  "22.475px": 3,
+  "17.5px": 3,
+  "14px": 3
+ },
+ "letterSpacing": {
+  "normal": 369,
+  "-0.22px": 24,
+  "0.84px": 14,
+  "0.22px": 13,
+  "-0.2px": 11,
+  "-0.3px": 8,
+  "-0.52px": 7,
+  "0.66px": 7,
+  "-0.17px": 6,
+  "0.63px": 6,
+  "-0.26px": 4,
+  "-1.04px": 4,
+  "0.2px": 4,
+  "-0.24px": 3,
+  "1.1px": 3,
+  "-0.8px": 3,
+  "0.24px": 1,
+  "-0.96px": 1,
+  "0.26px": 1,
+  "0.32px": 1,
+  "-3.52px": 1,
+  "0.88px": 1,
+  "-0.46px": 1,
+  "-0.18px": 1,
+  "-0.42px": 1,
+  "-2.24px": 1,
+  "-1.76px": 1,
+  "-0.44px": 1,
+  "-0.6px": 1
+ },
+ "textColor": {
+  "rgb(245, 245, 245)": 158,
+  "rgb(197, 197, 197)": 88,
+  "rgb(170, 170, 170)": 70,
+  "rgb(255, 255, 255)": 48,
+  "rgb(115, 115, 115)": 48,
+  "rgba(250, 250, 250, 0.75)": 25,
+  "rgb(180, 192, 250)": 18,
+  "rgb(255, 88, 174)": 13,
+  "rgb(143, 160, 247)": 10,
+  "rgb(250, 250, 250)": 4,
+  "rgb(32, 35, 98)": 4,
+  "rgb(44, 0, 0)": 3,
+  "rgba(250, 250, 250, 0.7)": 2,
+  "rgb(0, 0, 238)": 1,
+  "rgb(26, 26, 26)": 1,
+  "rgba(250, 250, 250, 0.88)": 1,
+  "rgba(44, 0, 0, 0.6)": 1,
+  "rgba(44, 0, 0, 0.8)": 1,
+  "rgb(227, 227, 227)": 1,
+  "rgba(255, 255, 255, 0.9)": 1,
+  "rgba(255, 255, 255, 0.5)": 1
+ },
+ "bg": {
+  "rgb(26, 26, 26)": 89,
+  "rgba(16, 16, 16, 0.6)": 54,
+  "rgba(255, 255, 255, 0.05)": 28,
+  "rgba(79, 105, 242, 0.14)": 16,
+  "rgb(79, 105, 242)": 12,
+  "rgba(16, 16, 16, 0.55)": 8,
+  "rgb(110, 110, 110)": 4,
+  "rgb(179, 201, 253)": 4,
+  "rgb(115, 115, 115)": 3,
+  "rgb(244, 243, 239)": 2,
+  "rgb(16, 16, 16)": 2,
+  "rgb(44, 0, 0)": 2,
+  "rgb(227, 221, 211)": 2,
+  "rgb(236, 232, 224)": 2,
+  "rgb(0, 0, 0)": 1,
+  "rgb(245, 245, 245)": 1,
+  "rgba(0, 0, 0, 0.55)": 1,
+  "rgba(255, 255, 255, 0.14)": 1,
+  "rgb(255, 88, 174)": 1,
+  "rgb(255, 255, 255)": 1,
+  "rgb(214, 206, 194)": 1,
+  "rgb(133, 102, 220)": 1,
+  "rgb(254, 182, 2)": 1
+ },
+ "radius": {
+  "99px": 79,
+  "16px": 57,
+  "999px": 18,
+  "24px": 15,
+  "10px": 8,
+  "8px": 6,
+  "20px": 6,
+  "12px": 6,
+  "6px": 6,
+  "2px": 4
+ },
+ "shadow": {
+  "rgba(0, 0, 0, 0.35) 0px 8px 32px 0px": 1,
+  "rgba(0, 0, 0, 0.04) 0px 1px 2px 0px, rgba(0, 0, 0, 0.05) 0px 4px 12px 0px": 1
+ },
+ "transition": {
+  "color, background-color, border-color, text-decoration-color, fill, stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1)": 44,
+  "opacity, transform 0.2s, 0.2s cubic-bezier(0.16, 1, 0.3, 1), cubic-bezier(0.16, 1, 0.3, 1)": 30,
+  "filter 0.25s cubic-bezier(0.16, 1, 0.3, 1)": 24,
+  "color 0.25s cubic-bezier(0.16, 1, 0.3, 1)": 21,
+  "background, color 0.25s, 0.25s cubic-bezier(0.16, 1, 0.3, 1), cubic-bezier(0.16, 1, 0.3, 1)": 16,
+  "border-color, color 0.25s, 0.25s cubic-bezier(0.16, 1, 0.3, 1), cubic-bezier(0.16, 1, 0.3, 1)": 16,
+  "transform 0.25s cubic-bezier(0.16, 1, 0.3, 1)": 11,
+  "width 0.9s cubic-bezier(0.16, 1, 0.3, 1)": 10,
+  "background, border-color 0.25s, 0.25s cubic-bezier(0.16, 1, 0.3, 1), cubic-bezier(0.16, 1, 0.3, 1)": 8,
+  "color, border-color 0.25s, 0.25s cubic-bezier(0.16, 1, 0.3, 1), cubic-bezier(0.16, 1, 0.3, 1)": 7,
+  "color, background-color, border-color, text-decoration-color, fill, stroke 0.1s cubic-bezier(0.4, 0, 0.2, 1)": 5,
+  "background 0.2s cubic-bezier(0.16, 1, 0.3, 1)": 5,
+  "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter 0.15s cubic-bezier(0.4, 0, 0.2, 1)": 2,
+  "color 0.2s cubic-bezier(0.16, 1, 0.3, 1)": 2,
+  "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1)": 1,
+  "opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)": 1,
+  "border-color 0.25s cubic-bezier(0.16, 1, 0.3, 1)": 1,
+  "background, border-color 0.2s, 0.2s cubic-bezier(0.16, 1, 0.3, 1), cubic-bezier(0.16, 1, 0.3, 1)": 1
+ },
+ "border": {
+  "1px solid rgba(255, 255, 255, 0.1)": 72,
+  "1px solid rgba(255, 255, 255, 0.3)": 30,
+  "1px solid rgba(255, 255, 255, 0.2)": 20,
+  "1px solid rgba(79, 105, 242, 0.35)": 16,
+  "2px solid rgb(255, 255, 255)": 3,
+  "1px solid rgba(79, 105, 242, 0.55)": 2,
+  "1px solid rgba(0, 0, 0, 0)": 2,
+  "1px solid rgba(245, 245, 245, 0.4)": 1,
+  "1px solid rgb(255, 255, 255)": 1
+ },
+ "textTransform": {
+  "none": 452,
+  "uppercase": 47
+ },
+ "typePairs": {
+  "geist | 14px | 400 | lh 22.4px | ls normal": 43,
+  "geistMono | 12px | 500 | lh 13.8px | ls normal": 28,
+  "klarheit | 22px | 800 | lh 24.2px | ls -0.22px": 24,
+  "geist | 12.5px | 400 | lh 16.25px | ls normal": 24,
+  "geist | 14.5px | 400 | lh 23.2px | ls normal": 19,
+  "geist | 13px | 500 | lh 19.5px | ls normal": 16,
+  "geist | 13px | 400 | lh 13px | ls normal": 16,
+  "geist | 13.5px | 400 | lh 20.25px | ls normal": 15,
+  "geistMono | 10.5px | 600 | lh 10.5px | ls 0.84px": 14,
+  "geist | 13px | 500 | lh 16.9px | ls normal": 13,
+  "geist | 14px | 500 | lh 16.1px | ls normal": 12,
+  "geist | 11px | 600 | lh 11px | ls 0.22px": 11,
+  "klarheit | 20px | 800 | lh 23px | ls -0.2px": 11,
+  "geist | 17px | 600 | lh 19.55px | ls normal": 11,
+  "geist | 15px | 400 | lh 24.75px | ls normal": 11,
+  "geist | 17px | 400 | lh 27.2px | ls normal": 10,
+  "geist | 15.5px | 400 | lh 24.8px | ls normal": 9,
+  "geist | 12px | 500 | lh 13.8px | ls normal": 8,
+  "geistMono | 13px | 500 | lh 14.95px | ls normal": 8,
+  "geist | 13px | 500 | lh 18.2px | ls normal": 8,
+  "geist | 14.5px | 400 | lh 18.85px | ls normal": 7,
+  "klarheit | 52px | 800 | lh 53.04px | ls -0.52px": 7,
+  "geist | 11px | 600 | lh 11px | ls 0.66px": 7,
+  "geist | 14.5px | 400 | lh 21.75px | ls normal": 7,
+  "klarheit | 30px | 800 | lh 33px | ls -0.3px": 7,
+  "klarheit | 17px | 800 | lh 19.55px | ls -0.17px": 6,
+  "geistMono | 12px | 500 | lh 18px | ls normal": 6,
+  "geist | 10.5px | 600 | lh 10.5px | ls 0.63px": 6,
+  "geist | 14px | 400 | lh 21.7px | ls normal": 6,
+  "geist | 15px | 600 | lh 19.5px | ls normal": 6,
+  "geist | 16px | 400 | lh 25.6px | ls normal": 5,
+  "geist | 14.5px | 600 | lh 16.675px | ls normal": 5,
+  "geist | 14px | 600 | lh 18.2px | ls normal": 5,
+  "geist | 14px | 500 | lh 22.4px | ls normal": 4,
+  "geist | 17px | 600 | lh 22.1px | ls normal": 4,
+  "geistMono | 12px | 500 | lh 15.6px | ls normal": 4,
+  "klarheit | 26px | 800 | lh 29.9px | ls -0.26px": 4,
+  "geist | 12px | 400 | lh 18px | ls normal": 4,
+  "geistMono | 13px | 600 | lh 16.9px | ls normal": 4,
+  "klarheit | 52px | 800 | lh 46.8px | ls -1.04px": 4
+ },
+ "headings": [
+  "H1 Free AI Image Generator",
+  "H2 CREATIVE TEAMS ALREADY GENERATING THIS WAY",
+  "H2 Start from a sentence, a picture, or both",
+  "H3 Describe it. That's the brief.",
+  "H2 The best AI image model depends on what you're making",
+  "H3 Or let the generator choose",
+  "H3 Every model, by family",
+  "H2 Six jobs this generator does every day",
+  "H3 The whole catalog, one product at a time",
+  "H3 Every format, same campaign",
+  "H3 Type you can actually read",
+  "H3 Same face, forty scenes",
+  "H3 Twenty directions before lunch",
+  "H3 The image that gets the click",
+  "H2 The image is the start, not the deliverable",
+  "H3 On a canvas",
+  "H3 Inside the tools you already use",
+  "H3 Through the API",
+  "H2 What you make here is yours",
+  "H3 Private by design",
+  "H3 Yours, full stop",
+  "H3 Licensed data",
+  "H3 Certified security",
+  "H3 Cover for teams",
+  "H2 How teams generate",
+  "H3 Teams generate more. They also generate differently",
+  "H3 The work happens on a canvas",
+  "H3 The most common edit isn't a tool. It's a sentence",
+  "H3 The models people reach for first",
+  "H3 In about 1 in 5 generations, the editor picks the model for you",
+  "H3 Teams change the resolution, not the model",
+  "H3 How many tries it actually takes",
+  "H3 When an image gets edited, it gets edited now",
+  "H3 The assistants are already connected",
+  "H2 Where the free plan runs out",
+  "H2 Questions people ask",
+  "H2 Your next image is one sentence away",
+  "H3 More ways to work with images"
+ ],
+ "nav": [
+  {
+   "t": "Freepik is now Magnific",
+   "h": "https://www.magnific.com/freepik#from_element=topbar_banner"
+  },
+  {
+   "t": "Magnific",
+   "h": "https://www.magnific.com/"
+  },
+  {
+   "t": "AI Image Generator",
+   "h": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator"
+  },
+  {
+   "t": "Image Editor",
+   "h": "https://www.magnific.com/ai/photo-editor?from_element=mainmenu_ai_tools_v1_image_image-editor"
+  },
+  {
+   "t": "Image Upscaler",
+   "h": "https://www.magnific.com/ai/image-upscaler?from_element=mainmenu_ai_tools_v1_image_image-upscaler"
+  },
+  {
+   "t": "Image Extender",
+   "h": "https://www.magnific.com/ai/image-extender?from_element=mainmenu_ai_tools_v1_image_image-extender"
+  },
+  {
+   "t": "Background Remover",
+   "h": "https://www.magnific.com/ai/background-remover?from_element=mainmenu_ai_tools_v1_image_background-remover"
+  },
+  {
+   "t": "Relight",
+   "h": "https://www.magnific.com/ai/relight?from_element=mainmenu_ai_tools_v1_image_relight"
+  },
+  {
+   "t": "Change Camera",
+   "h": "https://www.magnific.com/ai/change-camera?from_element=mainmenu_ai_tools_v1_image_change-camera"
+  },
+  {
+   "t": "Video Generator",
+   "h": "https://www.magnific.com/ai/video-generator?from_element=mainmenu_ai_tools_v1_video_ai-video-generator"
+  },
+  {
+   "t": "Video Project Editor",
+   "h": "https://www.magnific.com/ai/video-editor?from_element=mainmenu_ai_tools_v1_video_video-editor"
+  },
+  {
+   "t": "Video Upscaler",
+   "h": "https://www.magnific.com/ai/video-upscaler?from_element=mainmenu_ai_tools_v1_video_video-upscaler"
+  },
+  {
+   "t": "Clip Editor",
+   "h": "https://www.magnific.com/app/video-clip-editor?from_element=mainmenu_ai_tools_v1_video_video-clip-editor"
+  },
+  {
+   "t": "Speak",
+   "h": "https://www.magnific.com/app/tools/speak?from_element=mainmenu_ai_tools_v1_video_speak"
+  },
+  {
+   "t": "Video Relight",
+   "h": "https://www.magnific.com/app/tools/video-relight?from_element=mainmenu_ai_tools_v1_video_video-relight"
+  },
+  {
+   "t": "Text to Speech",
+   "h": "https://www.magnific.com/ai/voice-generator?from_element=mainmenu_ai_tools_v1_audio_voice-generator"
+  },
+  {
+   "t": "Sound Effect Generator",
+   "h": "https://www.magnific.com/ai/sound-effect-generator?from_element=mainmenu_ai_tools_v1_audio_sound-effect-generator"
+  },
+  {
+   "t": "Music Generator",
+   "h": "https://www.magnific.com/ai/music-generator?from_element=mainmenu_ai_tools_v1_audio_music"
+  },
+  {
+   "t": "3D Scenes",
+   "h": "https://www.magnific.com/app/tools/3d-scenes?from_element=mainmenu_ai_tools_v1_3d_3d-scenes"
+  },
+  {
+   "t": "3D Generator",
+   "h": "https://www.magnific.com/ai/3d-model-generator?from_element=mainmenu_ai_tools_v1_3d_image-to-3d"
+  },
+  {
+   "t": "3D 360",
+   "h": "https://www.magnific.com/app/tools/image-to-360?from_element=mainmenu_ai_tools_v1_3d_image-to-360"
+  },
+  {
+   "t": "Spaces",
+   "h": "https://www.magnific.com/spaces?from_element=mainmenu_ai_tools_v1_workspaces_spaces"
+  },
+  {
+   "t": "Designer",
+   "h": "https://www.magnific.com/designer?from_element=mainmenu_ai_tools_v1_workspaces_designer-app"
+  },
+  {
+   "t": "MCPNew",
+   "h": "https://www.magnific.com/mcp?from_element=mainmenu_ai_tools_v1_eco_mcp"
+  },
+  {
+   "t": "Agents",
+   "h": "https://www.magnific.com/agents?from_element=mainmenu_ai_tools_v1_eco_agents"
+  },
+  {
+   "t": "Mobile App",
+   "h": "https://www.magnific.com/mobile-app?from_element=mainmenu_ai_tools_v1_eco_mobile-app"
+  },
+  {
+   "t": "Plugins",
+   "h": "https://www.magnific.com/plugins?from_element=mainmenu_ai_tools_v1_eco_plugins"
+  },
+  {
+   "t": "Desktop AppNew",
+   "h": "https://www.magnific.com/desktop?from_element=mainmenu_ai_tools_v1_eco_desktop-app"
+  },
+  {
+   "t": "API",
+   "h": "https://www.magnific.com/api?from_element=mainmenu_ai_tools_v1_eco_api"
+  },
+  {
+   "t": "Seedance 2.5NewByteDance",
+   "h": "https://www.magnific.com/seedance/seedance-2-5?from_element=mainmenu_ai_tools_v1_model_seedance-2-5"
+  },
+  {
+   "t": "Seedream 5 ProNewByteDance",
+   "h": "https://www.magnific.com/seedream-5?from_element=mainmenu_ai_tools_v1_model_seedream-5-pro"
+  },
+  {
+   "t": "Minimax H3NewMiniMax",
+   "h": "https://www.magnific.com/app/ai-video-generator?modelId=minimax-video-3_0&from_element=mainmenu_ai_tools_v1_model_minimax-hailuo-3"
+  },
+  {
+   "t": "Nano Banana ProUnlimitedGoogle",
+   "h": "https://www.magnific.com/nano-banana/nano-banana-pro?from_element=mainmenu_ai_tools_v1_model_nano-banana-pro"
+  },
+  {
+   "t": "ClaudeMCP",
+   "h": "https://www.magnific.com/mcp?from_element=mainmenu_ai_tools_v1_workswith_claude"
+  },
+  {
+   "t": "ChatGPTMCP",
+   "h": "https://www.magnific.com/mcp?connect=chatgpt&from_element=mainmenu_ai_tools_v1_workswith_chatgpt"
+  },
+  {
+   "t": "PhotoshopPlugin",
+   "h": "https://www.magnific.com/plugins/photoshop?from_element=mainmenu_ai_tools_v1_workswith_photoshop"
+  },
+  {
+   "t": "FigmaPlugin",
+   "h": "https://www.figma.com/community/plugin/1654046873747954849/magnific"
+  },
+  {
+   "t": "See all AI tools",
+   "h": "https://www.magnific.com/ai?from_element=mainmenu_ai_tools_v1_footer_see-all-tools"
+  },
+  {
+   "t": "All images",
+   "h": "https://www.magnific.com/images#from_element=mainmenu"
+  },
+  {
+   "t": "Vectors",
+   "h": "https://www.magnific.com/vectors#from_element=mainmenu"
+  },
+  {
+   "t": "Photos",
+   "h": "https://www.magnific.com/photos#from_element=mainmenu"
+  },
+  {
+   "t": "Illustrations",
+   "h": "https://www.magnific.com/illustrations#from_element=mainmenu"
+  },
+  {
+   "t": "Icons",
+   "h": "https://www.magnific.com/icons#from_element=mainmenu"
+  },
+  {
+   "t": "3D",
+   "h": "https://www.magnific.com/3d-models#from_element=mainmenu"
+  },
+  {
+   "t": "Videos",
+   "h": "https://www.magnific.com/videos#from_element=mainmenu"
+  },
+  {
+   "t": "Video templates",
+   "h": "https://www.magnific.com/video-templates#from_element=mainmenu"
+  },
+  {
+   "t": "Motion graphics",
+   "h": "https://www.magnific.com/motion-graphics#from_element=mainmenu"
+  },
+  {
+   "t": "Sound effects",
+   "h": "https://www.magnific.com/audio/sound-effects#from_element=mainmenu"
+  },
+  {
+   "t": "Music",
+   "h": "https://www.magnific.com/audio/music#from_element=mainmenu"
+  },
+  {
+   "t": "Templates",
+   "h": "https://www.magnific.com/templates#from_element=mainmenu"
+  },
+  {
+   "t": "Mockups",
+   "h": "https://www.magnific.com/mockups#from_element=mainmenu"
+  },
+  {
+   "t": "Fonts",
+   "h": "https://www.magnific.com/fonts#from_element=mainmenu"
+  },
+  {
+   "t": "PSD",
+   "h": "https://www.magnific.com/psd#from_element=mainmenu"
+  },
+  {
+   "t": "Stock",
+   "h": "https://www.magnific.com/stock#from_element=mainmenu"
+  },
+  {
+   "t": "About usMeet the team and 15 years of history",
+   "h": "https://www.magnific.com/company/about-us"
+  },
+  {
+   "t": "Creative Partners ProgramTop creatives and affiliates progra",
+   "h": "https://www.magnific.com/ai/partners"
+  },
+  {
+   "t": "BlogCreativity news and tips",
+   "h": "https://www.magnific.com/blog/"
+  },
+  {
+   "t": "Get helpGet support from our team",
+   "h": "https://www.magnific.com/ai/support"
+  },
+  {
+   "t": "Contact usPress and partnerships",
+   "h": "https://www.magnific.com/company/about-us#contact-us"
+  },
+  {
+   "t": "Academy",
+   "h": "https://www.magnific.com/academy"
+  },
+  {
+   "t": "Magnific Originals",
+   "h": "https://www.magnific.com/originals"
+  },
+  {
+   "t": "Documentation",
+   "h": "https://www.magnific.com/ai/docs"
+  },
+  {
+   "t": "API for developers",
+   "h": "https://www.magnific.com/api"
+  },
+  {
+   "t": "MCP for Claude/ChatGPT",
+   "h": "https://www.magnific.com/mcp"
+  },
+  {
+   "t": "PluginsNew",
+   "h": "https://www.magnific.com/plugins"
+  },
+  {
+   "t": "Desktop AppNew",
+   "h": "https://www.magnific.com/desktop"
+  },
+  {
+   "t": "Mobile App",
+   "h": "https://www.magnific.com/mobile-app"
+  },
+  {
+   "t": "Events",
+   "h": "https://www.magnific.com/events#from_element=mainmenu"
+  },
+  {
+   "t": "Seedance 2.5",
+   "h": "https://www.magnific.com/seedance/seedance-2-5?from_element=mainmenu_ai_tools_v1_nav-launch_seedance-2-5"
+  },
+  {
+   "t": "EnterpriseFull-scale AI for global organizations",
+   "h": "https://www.magnific.com/enterprise#from_element=mainmenu"
+  },
+  {
+   "t": "BusinessCollaborative AI for growing teams",
+   "h": "https://www.magnific.com/business#from_element=mainmenu"
+  },
+  {
+   "t": "How Billy Boman scaled AI production for the World Cup",
+   "h": "https://www.magnific.com/customers/billyboman#from_element=mainmenu"
+  },
+  {
+   "t": "How the House of David team made the “impossible” show",
+   "h": "https://www.magnific.com/customers/house-of-david#from_element=mainmenu"
+  },
+  {
+   "t": "Pricing",
+   "h": "https://www.magnific.com/pricing?origin=magnific_web#from_element=mainmenu"
+  },
+  {
+   "t": "Log in",
+   "h": "https://www.magnific.com/log-in?client_id=magnific&lang=en"
+  },
+  {
+   "t": "Sign up",
+   "h": "https://www.magnific.com/sign-up?client_id=magnific&lang=en#from_element=home_topbar"
+  },
+  {
+   "t": "Home",
+   "h": "https://www.magnific.com/"
+  },
+  {
+   "t": "AI tools",
+   "h": "https://www.magnific.com/ai"
+  },
+  {
+   "t": "See what teams make with it ↓",
+   "h": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator#use-cases"
+  },
+  {
+   "t": "Create",
+   "h": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator#create"
+  },
+  {
+   "t": "Models",
+   "h": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator#models"
+  },
+  {
+   "t": "Use cases",
+   "h": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator#use-cases"
+  },
+  {
+   "t": "Workflow",
+   "h": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator#workflow"
+  },
+  {
+   "t": "Trust",
+   "h": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator#trust"
+  },
+  {
+   "t": "Numbers",
+   "h": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator#numbers"
+  },
+  {
+   "t": "Plans",
+   "h": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator#plans"
+  },
+  {
+   "t": "Create",
+   "h": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator#create"
+  },
+  {
+   "t": "Models",
+   "h": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator#models"
+  },
+  {
+   "t": "Use cases",
+   "h": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator#use-cases"
+  },
+  {
+   "t": "Workflow",
+   "h": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator#workflow"
+  },
+  {
+   "t": "Trust",
+   "h": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator#trust"
+  },
+  {
+   "t": "Numbers",
+   "h": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator#numbers"
+  },
+  {
+   "t": "Plans",
+   "h": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator#plans"
+  },
+  {
+   "t": "Try it in the generator →",
+   "h": "https://www.magnific.com/app/ai-image-generator?from_element=landing_tti"
+  },
+  {
+   "t": "Nano Banana 2",
+   "h": "https://www.magnific.com/nano-banana"
+  },
+  {
+   "t": "Seedream 5",
+   "h": "https://www.magnific.com/seedream-5"
+  },
+  {
+   "t": "GPT Image 2",
+   "h": "https://www.magnific.com/gpt-image-2"
+  },
+  {
+   "t": "Ideogram 4",
+   "h": "https://www.magnific.com/ideogram-4"
+  },
+  {
+   "t": "Flux.2 Flex",
+   "h": "https://www.magnific.com/flux-2-pro"
+  },
+  {
+   "t": "Qwen",
+   "h": "https://www.magnific.com/app/ai-image-generator?from_element=landing_tti"
+  },
+  {
+   "t": "Nano Banana Pro",
+   "h": "https://www.magnific.com/nano-banana"
+  },
+  {
+   "t": "Flux.2 Max",
+   "h": "https://www.magnific.com/flux-2-pro"
+  },
+  {
+   "t": "Flux Kontext",
+   "h": "https://www.magnific.com/flux-2-pro"
+  },
+  {
+   "t": "Nano Banana 2 Lite",
+   "h": "https://www.magnific.com/nano-banana"
+  },
+  {
+   "t": "Flux.2 Klein",
+   "h": "https://www.magnific.com/flux-2-pro"
+  },
+  {
+   "t": "Z Image",
+   "h": "https://www.magnific.com/app/ai-image-generator?from_element=landing_tti"
+  },
+  {
+   "t": "Recraft V4.1",
+   "h": "https://www.magnific.com/recraft-v4"
+  },
+  {
+   "t": "Ideogram 4",
+   "h": "https://www.magnific.com/ideogram-4"
+  },
+  {
+   "t": "Seedream 4 4K",
+   "h": "https://www.magnific.com/seedream-5"
+  },
+  {
+   "t": "Nano Banana Pro",
+   "h": "https://www.magnific.com/nano-banana"
+  },
+  {
+   "t": "Generate with Auto",
+   "h": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator#top"
+  },
+  {
+   "t": "Google\nNano Banana · See the family →",
+   "h": "https://www.magnific.com/nano-banana"
+  },
+  {
+   "t": "Seedream\nByteDance · See the family →",
+   "h": "https://www.magnific.com/seedream-5"
+  },
+  {
+   "t": "Flux\nBlack Forest Labs · See the family →",
+   "h": "https://www.magnific.com/flux-2-pro"
+  },
+  {
+   "t": "GPT Image\nOpenAI · See the family →",
+   "h": "https://www.magnific.com/gpt-image-2"
+  },
+  {
+   "t": "Ideogram\nIdeogram · See the family →",
+   "h": "https://www.magnific.com/ideogram-4"
+  },
+  {
+   "t": "Recraft\nRecraft · See the family →",
+   "h": "https://www.magnific.com/recraft-v4"
+  },
+  {
+   "t": "Mystic\nMagnific · See the family →",
+   "h": "https://www.magnific.com/ai/mystic"
+  },
+  {
+   "t": "Grok Imagine\nxAI · See the family →",
+   "h": "https://www.magnific.com/grok-imagine"
+  },
+  {
+   "t": "Qwen\nAlibaba · See the family →",
+   "h": "https://www.magnific.com/app/ai-image-generator?from_element=landing_tti"
+  },
+  {
+   "t": "Z Image\nTongyi · See the family →",
+   "h": "https://www.magnific.com/app/ai-image-generator?from_element=landing_tti"
+  },
+  {
+   "t": "Luma Photon\nLuma AI · See the family →",
+   "h": "https://www.magnific.com/app/ai-image-generator?from_element=landing_tti"
+  },
+  {
+   "t": "Classic\nMagnific · See the family →",
+   "h": "https://www.magnific.com/app/ai-image-generator?from_element=landing_tti"
+  },
+  {
+   "t": "Google\nNano Banana · See the family →",
+   "h": "https://www.magnific.com/nano-banana"
+  },
+  {
+   "t": "Seedream\nByteDance · See the family →",
+   "h": "https://www.magnific.com/seedream-5"
+  },
+  {
+   "t": "Flux\nBlack Forest Labs · See the family →",
+   "h": "https://www.magnific.com/flux-2-pro"
+  },
+  {
+   "t": "GPT Image\nOpenAI · See the family →",
+   "h": "https://www.magnific.com/gpt-image-2"
+  },
+  {
+   "t": "Ideogram\nIdeogram · See the family →",
+   "h": "https://www.magnific.com/ideogram-4"
+  },
+  {
+   "t": "Recraft\nRecraft · See the family →",
+   "h": "https://www.magnific.com/recraft-v4"
+  },
+  {
+   "t": "Mystic\nMagnific · See the family →",
+   "h": "https://www.magnific.com/ai/mystic"
+  },
+  {
+   "t": "Grok Imagine\nxAI · See the family →",
+   "h": "https://www.magnific.com/grok-imagine"
+  },
+  {
+   "t": "Qwen\nAlibaba · See the family →",
+   "h": "https://www.magnific.com/app/ai-image-generator?from_element=landing_tti"
+  },
+  {
+   "t": "Z Image\nTongyi · See the family →",
+   "h": "https://www.magnific.com/app/ai-image-generator?from_element=landing_tti"
+  },
+  {
+   "t": "Luma Photon\nLuma AI · See the family →",
+   "h": "https://www.magnific.com/app/ai-image-generator?from_element=landing_tti"
+  },
+  {
+   "t": "Classic\nMagnific · See the family →",
+   "h": "https://www.magnific.com/app/ai-image-generator?from_element=landing_tti"
+  },
+  {
+   "t": "Nano Banana Pro",
+   "h": "https://www.magnific.com/nano-banana"
+  },
+  {
+   "t": "Background remover",
+   "h": "https://www.magnific.com/ai/background-remover?from_element=landing_tti_use-cases"
+  },
+  {
+   "t": "Seedream 5",
+   "h": "https://www.magnific.com/seedream-5"
+  },
+  {
+   "t": "Custom styles",
+   "h": "https://www.magnific.com/ai/custom-styles?from_element=landing_tti_use-cases"
+  },
+  {
+   "t": "Ideogram 4",
+   "h": "https://www.magnific.com/ideogram-4"
+  },
+  {
+   "t": "Recraft V4.1",
+   "h": "https://www.magnific.com/recraft-v4"
+  },
+  {
+   "t": "Nano Banana 2",
+   "h": "https://www.magnific.com/nano-banana"
+  },
+  {
+   "t": "Custom characters",
+   "h": "https://www.magnific.com/ai/custom-characters?from_element=landing_tti_use-cases"
+  },
+  {
+   "t": "Flux.2 Pro",
+   "h": "https://www.magnific.com/flux-2-pro"
+  },
+  {
+   "t": "Mystic 2.5",
+   "h": "https://www.magnific.com/ai/mystic"
+  },
+  {
+   "t": "AI art generator",
+   "h": "https://www.magnific.com/ai/art-generator?from_element=landing_tti_use-cases"
+  },
+  {
+   "t": "Video generator",
+   "h": "https://www.magnific.com/ai/video-generator?from_element=landing_tti_use-cases"
+  },
+  {
+   "t": "GPT Image 2",
+   "h": "https://www.magnific.com/gpt-image-2"
+  },
+  {
+   "t": "Sketch to image",
+   "h": "https://www.magnific.com/ai/sketch-to-image?from_element=landing_tti_use-cases"
+  },
+  {
+   "t": "Edit\nTalk to it, retouch a region, swap the background.",
+   "h": "https://www.magnific.com/ai/photo-editor"
+  },
+  {
+   "t": "Upscale\nTo 4K and beyond, with detail that wasn't there befo",
+   "h": "https://www.magnific.com/ai/image-upscaler"
+  },
+  {
+   "t": "Expand\nChange the ratio and let the scene fill in.",
+   "h": "https://www.magnific.com/ai/image-extender"
+  },
+  {
+   "t": "Cut out\nBackground off in one step.",
+   "h": "https://www.magnific.com/ai/background-remover"
+  },
+  {
+   "t": "Relight and reframe\nNew light, new camera angle, same image.",
+   "h": "https://www.magnific.com/ai/relight"
+  },
+  {
+   "t": "Animate\nTake it into video from the same canvas.",
+   "h": "https://www.magnific.com/app/ai-image-generator?from_element=landing_tti"
+  },
+  {
+   "t": "Open in Spaces",
+   "h": "https://www.magnific.com/spaces"
+  },
+  {
+   "t": "MCP",
+   "h": "https://www.magnific.com/mcp"
+  },
+  {
+   "t": "Plugins",
+   "h": "https://www.magnific.com/plugins"
+  },
+  {
+   "t": "API",
+   "h": "https://www.magnific.com/api"
+  },
+  {
+   "t": "#9\nOF 500\nAI Trustworthiness Ranking 2026\nCybernews · Top 10",
+   "h": "https://cybernews.com/ai-knowledge-base/ai-trustworthiness-ranking-2026/"
+  },
+  {
+   "t": "See Business plans",
+   "h": "https://www.magnific.com/business"
+  },
+  {
+   "t": "Compare with individual plans",
+   "h": "https://www.magnific.com/pricing"
+  },
+  {
+   "t": "Spaces",
+   "h": "https://www.magnific.com/spaces"
+  },
+  {
+   "t": "Bring your team into Spaces",
+   "h": "https://www.magnific.com/business"
+  },
+  {
+   "t": "How Business works",
+   "h": "https://www.magnific.com/ai/docs/using-the-business-plan"
+  },
+  {
+   "t": "background removal",
+   "h": "https://www.magnific.com/ai/background-remover"
+  },
+  {
+   "t": "upscaling",
+   "h": "https://www.magnific.com/ai/image-upscaler"
+  },
+  {
+   "t": "See every model and what each one is for",
+   "h": "https://www.magnific.com/ai/image-generator?from_element=mainmenu_ai_tools_v1_image_ai-image-generator#models"
+  },
+  {
+   "t": "background removal",
+   "h": "https://www.magnific.com/ai/background-remover"
+  },
+  {
+   "t": "upscaling",
+   "h": "https://www.magnific.com/ai/image-upscaler"
+  },
+  {
+   "t": "Background removal",
+   "h": "https://www.magnific.com/ai/background-remover"
+  },
+  {
+   "t": "Upscale",
+   "h": "https://www.magnific.com/ai/image-upscaler"
+  },
+  {
+   "t": "Retouch",
+   "h": "https://www.magnific.com/ai/photo-editor"
+  },
+  {
+   "t": "Expand",
+   "h": "https://www.magnific.com/ai/image-extender"
+  },
+  {
+   "t": "Enterprise",
+   "h": "https://www.magnific.com/enterprise"
+  },
+  {
+   "t": "Claude",
+   "h": "https://www.magnific.com/mcp"
+  },
+  {
+   "t": "ChatGPT",
+   "h": "https://www.magnific.com/mcp"
+  },
+  {
+   "t": "Design-tool plugins",
+   "h": "https://www.magnific.com/plugins"
+  },
+  {
+   "t": "See individual plans",
+   "h": "https://www.magnific.com/pricing"
+  },
+  {
+   "t": "See Business plans",
+   "h": "https://www.magnific.com/business"
+  },
+  {
+   "t": "Talk to sales",
+   "h": "https://www.magnific.com/enterprise"
+  },
+  {
+   "t": "Generate now",
+   "h": "https://www.magnific.com/app/ai-image-generator?from_element=landing_tti"
+  },
+  {
+   "t": "See all AI tools →",
+   "h": "https://www.magnific.com/ai"
+  },
+  {
+   "t": "AI background generator",
+   "h": "https://www.magnific.com/ai/background-generator?from_element=landing_tti_related"
+  },
+  {
+   "t": "AI background changer",
+   "h": "https://www.magnific.com/ai/change-background?from_element=landing_tti_related"
+  },
+  {
+   "t": "Image resizer",
+   "h": "https://www.magnific.com/ai/image-resizer?from_element=landing_tti_related"
+  },
+  {
+   "t": "Unblur image",
+   "h": "https://www.magnific.com/ai/unblur-image?from_element=landing_tti_related"
+  },
+  {
+   "t": "Image enhancer",
+   "h": "https://www.magnific.com/ai/image-enhancer?from_element=landing_tti_related"
+  },
+  {
+   "t": "Photo filters",
+   "h": "https://www.magnific.com/ai/photo-filters?from_element=landing_tti_related"
+  },
+  {
+   "t": "PNG maker",
+   "h": "https://www.magnific.com/ai/png-maker?from_element=landing_tti_related"
+  },
+  {
+   "t": "Change camera angle",
+   "h": "https://www.magnific.com/ai/change-camera?from_element=landing_tti_related"
+  },
+  {
+   "t": "AI art generator",
+   "h": "https://www.magnific.com/ai/art-generator?from_element=landing_tti_related"
+  },
+  {
+   "t": "Sketch to image",
+   "h": "https://www.magnific.com/ai/sketch-to-image?from_element=landing_tti_related"
+  },
+  {
+   "t": "Custom characters",
+   "h": "https://www.magnific.com/ai/custom-characters?from_element=landing_tti_related"
+  },
+  {
+   "t": "Custom styles",
+   "h": "https://www.magnific.com/ai/custom-styles?from_element=landing_tti_related"
+  },
+  {
+   "t": "AI icon generator",
+   "h": "https://www.magnific.com/ai/icon-generator?from_element=landing_tti_related"
+  },
+  {
+   "t": "AI tattoo generator",
+   "h": "https://www.magnific.com/ai/ai-tattoo-generator?from_element=landing_tti_related"
+  },
+  {
+   "t": "AI avatar generator",
+   "h": "https://www.magnific.com/app/ai-image-generator?from_element=landing_tti_related"
+  },
+  {
+   "t": "AI hairstyle changer",
+   "h": "https://www.magnific.com/app/ai-image-generator?from_element=landing_tti_related"
+  },
+  {
+   "t": "English",
+   "h": "https://www.magnific.com/ai/image-generator"
+  },
+  {
+   "t": "Čeština",
+   "h": "https://www.magnific.com/cz/ai/generator-obrazku"
+  },
+  {
+   "t": "Dansk",
+   "h": "https://www.magnific.com/dk/ai/billedgenerator"
+  },
+  {
+   "t": "Deutsch",
+   "h": "https://www.magnific.com/de/ai/bilder-erstellen"
+  },
+  {
+   "t": "Español",
+   "h": "https://www.magnific.com/es/ia/generador-de-imagenes"
+  },
+  {
+   "t": "Suomi",
+   "h": "https://www.magnific.com/fi/ai/kuvageneraattori"
+  },
+  {
+   "t": "Français",
+   "h": "https://www.magnific.com/fr/ai/generateur-imagen"
+  },
+  {
+   "t": "हिन्दी",
+   "h": "https://www.magnific.com/in/ai/%E0%A4%87%E0%A4%AE%E0%A5%87%E0%A4%9C-%E0%A4%9C%E0%A4%A8%E0%A4%B0%E0%A5%87%E0%A4%9F%E0%A4%B0"
+  },
+  {
+   "t": "Bahasa Indonesia",
+   "h": "https://www.magnific.com/idn/ai/generator-gambar"
+  },
+  {
+   "t": "Italiano",
+   "h": "https://www.magnific.com/it/ai/generatore-immagini"
+  },
+  {
+   "t": "日本語",
+   "h": "https://www.magnific.com/jp/ai/%E7%94%BB%E5%83%8F-%E7%94%9F%E6%88%90"
+  },
+  {
+   "t": "한국어",
+   "h": "https://www.magnific.com/kr/ai/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%83%9D%EC%84%B1%EA%B8%B0"
+  },
+  {
+   "t": "Norsk bokmål",
+   "h": "https://www.magnific.com/no/ai/bilde-generator"
+  },
+  {
+   "t": "Nederlands",
+   "h": "https://www.magnific.com/nl/ai/afbeelding-generator"
+  },
+  {
+   "t": "Polski",
+   "h": "https://www.magnific.com/pl/ai/generator-obrazow"
+  },
+  {
+   "t": "Português",
+   "h": "https://www.magnific.com/br/ai/gerador-imagens"
+  },
+  {
+   "t": "Pусский",
+   "h": "https://www.magnific.com/ru/ai/%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80-%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9-%D0%B8%D0%B8"
+  },
+  {
+   "t": "Svenska",
+   "h": "https://www.magnific.com/se/ai/bildgenerator"
+  },
+  {
+   "t": "ภาษาไทย",
+   "h": "https://www.magnific.com/th/ai/%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2"
+  },
+  {
+   "t": "Türkçe",
+   "h": "https://www.magnific.com/tr/ai/goruntu-olusturucu"
+  },
+  {
+   "t": "Tiếng Việt",
+   "h": "https://www.magnific.com/vn/ai/trinh-tao-anh"
+  },
+  {
+   "t": "简体中文",
+   "h": "https://www.magnific.com/cn/ai/%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E5%99%A8"
+  },
+  {
+   "t": "繁體中文 (香港)",
+   "h": "https://www.magnific.com/zh/ai/%E5%9C%96%E5%83%8F%E7%94%9F%E6%88%90%E5%99%A8"
+  },
+  {
+   "t": "Spaces",
+   "h": "https://www.magnific.com/spaces"
+  },
+  {
+   "t": "AI Assistant",
+   "h": "https://www.magnific.com/app/assistant"
+  },
+  {
+   "t": "AI Image Generator",
+   "h": "https://www.magnific.com/ai/image-generator"
+  },
+  {
+   "t": "AI Video Generator",
+   "h": "https://www.magnific.com/ai/video-generator"
+  },
+  {
+   "t": "AI Voice Generator",
+   "h": "https://www.magnific.com/ai/voice-generator"
+  },
+  {
+   "t": "Stock content",
+   "h": "https://www.magnific.com/stock"
+  },
+  {
+   "t": "MCP for Claude/ChatGPT",
+   "h": "https://www.magnific.com/mcp"
+  },
+  {
+   "t": "Agents\nNew",
+   "h": "https://www.magnific.com/agents"
+  },
+  {
+   "t": "Plugins\nNew",
+   "h": "https://www.magnific.com/plugins"
+  },
+  {
+   "t": "Desktop App\nNew",
+   "h": "https://www.magnific.com/desktop"
+  },
+  {
+   "t": "Mobile App",
+   "h": "https://www.magnific.com/mobile-app"
+  },
+  {
+   "t": "API",
+   "h": "https://www.magnific.com/api"
+  },
+  {
+   "t": "All Magnific tools",
+   "h": "https://www.magnific.com/ai"
+  },
+  {
+   "t": "Academy",
+   "h": "https://www.magnific.com/academy"
+  },
+  {
+   "t": "Documentation",
+   "h": "https://www.magnific.com/ai/docs"
+  },
+  {
+   "t": "Support",
+   "h": "https://www.magnific.com/ai/support"
+  },
+  {
+   "t": "Terms of use",
+   "h": "https://www.magnific.com/legal/terms-of-use"
+  },
+  {
+   "t": "Privacy policy",
+   "h": "https://www.magnific.com/legal/privacy"
+  },
+  {
+   "t": "Originals\nNew",
+   "h": "https://www.magnific.com/originals"
+  },
+  {
+   "t": "Cookies policy",
+   "h": "https://www.magnific.com/legal/cookies"
+  },
+  {
+   "t": "Trust center",
+   "h": "https://trust.magnific.com/"
+  },
+  {
+   "t": "Affiliates",
+   "h": "https://www.magnific.com/affiliates"
+  },
+  {
+   "t": "Enterprise",
+   "h": "https://www.magnific.com/enterprise"
+  },
+  {
+   "t": "Pricing",
+   "h": "https://www.magnific.com/pricing?origin=magnific_web"
+  },
+  {
+   "t": "About us",
+   "h": "https://www.magnific.com/company/about-us"
+  },
+  {
+   "t": "Reviews",
+   "h": "https://www.magnific.com/reviews"
+  },
+  {
+   "t": "Careers",
+   "h": "https://jobs.magnific.com/"
+  },
+  {
+   "t": "Search trends",
+   "h": "https://www.magnific.com/tags"
+  },
+  {
+   "t": "Blog",
+   "h": "https://www.magnific.com/blog/"
+  },
+  {
+   "t": "Events",
+   "h": "https://www.magnific.com/events"
+  },
+  {
+   "t": "Slidesgo",
+   "h": "https://slidesgo.com/"
+  },
+  {
+   "t": "Sell content",
+   "h": "https://contributor.magnific.com/"
+  },
+  {
+   "t": "Press room",
+   "h": "https://www.magnific.com/press"
+  },
+  {
+   "t": "Looking for magnific.ai",
+   "h": "https://magnific.ai/legacy"
+  },
+  {
+   "t": "Customer support",
+   "h": "https://www.magnific.com/ai/support"
+  },
+  {
+   "t": "Instagram",
+   "h": "https://www.instagram.com/magnific_ai/"
+  },
+  {
+   "t": "YouTube",
+   "h": "https://www.youtube.com/@magnific_ai"
+  },
+  {
+   "t": "LinkedIn",
+   "h": "https://www.linkedin.com/company/magnific"
+  },
+  {
+   "t": "TikTok",
+   "h": "https://www.tiktok.com/@magnific_ai"
+  },
+  {
+   "t": "Discord",
+   "h": "https://discord.gg/magnific"
+  },
+  {
+   "t": "X",
+   "h": "https://x.com/magnific"
+  },
+  {
+   "t": "Reddit",
+   "h": "https://www.reddit.com/r/magnific/"
+  }
+ ],
+ "fullHeight": 16639
+}

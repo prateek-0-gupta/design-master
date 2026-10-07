@@ -1,0 +1,23 @@
+{
+ "requested": "https://live.standards.site/chatham",
+ "final": "https://live.standards.site/Photography",
+ "title": "CHATHAM",
+ "subpages": [
+  {
+   "href": "https://live.standards.site/Typography",
+   "t": "02 TYPOGRAPHY",
+   "ok": true
+  },
+  {
+   "href": "https://live.standards.site/Color",
+   "t": "03 COLOR",
+   "ok": true
+  },
+  {
+   "href": "https://live.standards.site/Photography",
+   "t": "05 PHOTOGRAPHY",
+   "ok": true
+  }
+ ],
+ "cssFiles": 2
+}
