@@ -10,7 +10,7 @@ const { launch, sleep } = require('./lib'); const fs = require('fs'); const path
     const buf = await p.screenshot({ type: 'jpeg', quality: 88 });
     if (prev && buf.equals(prev)) { if (++same >= 2) break; } else { same = 0; fs.writeFileSync(path.join(d, `figma_f${String(++n).padStart(2, '0')}.jpg`), buf); }
     prev = buf;
-    await p.getByRole('button', { name: 'Next frame' }).click({ timeout: 5000, force: true }).catch(() => p.keyboard.press('ArrowRight'));
+    await p.mouse.click(1300, 450); await sleep(800); await p.keyboard.press('ArrowRight');
     await sleep(3500);
   }
   console.log(id, 'frames', n); await browser.close();
