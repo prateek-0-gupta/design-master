@@ -1,0 +1,168 @@
+{
+ "url": "https://www.meta.com/brand/resources/threads/",
+ "title": "Threads Brand | Threads | Brand Resource Center",
+ "scrollHeight": 2646,
+ "customProperties": {},
+ "loadedFonts": [
+  "Instagram Sans 400 normal",
+  "Instagram Sans 500 normal",
+  "Instagram Sans 700 normal",
+  "Facebook Sans 500 normal",
+  "Optimistic 400 normal",
+  "Optimistic 500 normal"
+ ],
+ "fontFamily": {
+  "\"Instagram Sans\", Helvetica, Arial, sans-serif": 14,
+  "\"Facebook Sans\", Helvetica, \"Helvetica Neue\", Arial, sans-serif": 8,
+  "Optimistic, Helvetica, \"Helvetica Neue\", Arial, sans-serif": 6
+ },
+ "fontSize": {
+  "16px": 8,
+  "25px": 5,
+  "18px": 3,
+  "24px": 3,
+  "19px": 3,
+  "14px": 2,
+  "60px": 2,
+  "22px": 1,
+  "15px": 1
+ },
+ "fontWeight": {
+  "400": 15,
+  "500": 7,
+  "700": 6
+ },
+ "lineHeight": {
+  "24px": 8,
+  "40px": 5,
+  "36px": 3,
+  "28.5px": 3,
+  "20px": 2,
+  "70px": 1,
+  "33px": 1,
+  "72px": 1,
+  "21px": 1,
+  "24.12px": 1,
+  "22px": 1,
+  "26px": 1
+ },
+ "letterSpacing": {
+  "normal": 28
+ },
+ "textColor": {
+  "rgb(0, 0, 0)": 10,
+  "rgb(17, 27, 33)": 7,
+  "rgb(86, 86, 86)": 5,
+  "rgb(28, 43, 51)": 2,
+  "rgb(28, 30, 33)": 1,
+  "rgb(101, 103, 107)": 1,
+  "rgb(255, 255, 255)": 1,
+  "rgba(0, 0, 0, 0.4)": 1
+ },
+ "bg": {
+  "rgb(255, 255, 255)": 7,
+  "rgb(0, 0, 0)": 5,
+  "rgba(255, 255, 255, 0.9)": 1
+ },
+ "radius": {
+  "50%": 3
+ },
+ "shadow": {},
+ "transition": {
+  "color, opacity 1.5s cubic-bezier(0.14, 1, 0.34, 1)": 6,
+  "all 0.15s ease-in-out": 3,
+  "background-size 0.67s cubic-bezier(0.33, 0, 0, 1)": 1,
+  "max-height, opacity 0.3s, 0.67s cubic-bezier(0.33, 0, 0, 1), linear": 1,
+  "right 0.5s ease": 1,
+  "border-color 1.5s cubic-bezier(0.14, 1, 0.34, 1)": 1,
+  "background-size 1s cubic-bezier(0.33, 0, 0, 1)": 1
+ },
+ "border": {
+  "1px solid rgba(0, 0, 0, 0.1)": 2,
+  "1px solid rgba(0, 0, 0, 0.2)": 2,
+  "1px solid rgba(196, 196, 196, 0.4)": 1,
+  "1px solid rgba(0, 0, 0, 0.337)": 1,
+  "1px solid rgb(153, 153, 153)": 1,
+  "1px solid rgb(199, 202, 203)": 1
+ },
+ "textTransform": {
+  "none": 28
+ },
+ "typePairs": {
+  "Facebook Sans | 16px | 400 | lh 24px | ls normal": 6,
+  "Optimistic | 25px | 500 | lh 40px | ls normal": 5,
+  "Instagram Sans | 19px | 400 | lh 28.5px | ls normal": 3,
+  "Instagram Sans | 24px | 700 | lh 36px | ls normal": 2,
+  "Instagram Sans | 16px | 700 | lh 20px | ls normal": 1,
+  "Instagram Sans | 14px | 500 | lh 20px | ls normal": 1,
+  "Optimistic | 18px | 500 | lh 24px | ls normal": 1,
+  "Instagram Sans | 60px | 400 | lh 70px | ls normal": 1,
+  "Instagram Sans | 22px | 400 | lh 33px | ls normal": 1,
+  "Instagram Sans | 60px | 700 | lh 72px | ls normal": 1,
+  "Instagram Sans | 24px | 400 | lh 36px | ls normal": 1,
+  "Instagram Sans | 18px | 700 | lh 21px | ls normal": 1,
+  "Instagram Sans | 16px | 400 | lh 24px | ls normal": 1,
+  "Instagram Sans | 18px | 700 | lh 24.12px | ls normal": 1,
+  "Facebook Sans | 14px | 400 | lh 22px | ls normal": 1,
+  "Facebook Sans | 15px | 400 | lh 26px | ls normal": 1
+ },
+ "headings": [
+  "H1 Threads brand overview",
+  "H2 Brand guidelines and assets"
+ ],
+ "nav": [
+  {
+   "t": "Brand overview",
+   "h": "https://www.meta.com/brand/resources/threads/"
+  },
+  {
+   "t": "Brand Resource Center home",
+   "h": "https://www.meta.com/brand/resources/"
+  },
+  {
+   "t": "Meta",
+   "h": "https://www.meta.com/brand/resources/meta/company-brand/"
+  },
+  {
+   "t": "Facebook",
+   "h": "https://www.meta.com/brand/resources/facebook/logo/"
+  },
+  {
+   "t": "Instagram",
+   "h": "https://www.meta.com/brand/resources/instagram/instagram-brand/"
+  },
+  {
+   "t": "WhatsApp",
+   "h": "https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/"
+  },
+  {
+   "t": "Threads",
+   "h": "https://www.meta.com/brand/resources/threads/"
+  },
+  {
+   "t": "About",
+   "h": "https://www.meta.com/about/"
+  },
+  {
+   "t": "Terms",
+   "h": "https://www.facebook.com/policies"
+  },
+  {
+   "t": "Help",
+   "h": "https://www.facebook.com/help"
+  },
+  {
+   "t": "Our trademarks",
+   "h": "https://www.facebook.com/brand/resources/facebookcompany/our-trademarks"
+  },
+  {
+   "t": "Privacy",
+   "h": "https://www.facebook.com/privacy/explanation"
+  },
+  {
+   "t": "Cookies",
+   "h": "https://www.facebook.com/policies/cookies/"
+  }
+ ],
+ "fullHeight": 2646
+}

@@ -1,0 +1,384 @@
+{
+ "url": "https://web.archive.org/web/20251010144538if_/https://ui8.net/asylab/products/brand-guidelines-template---radesk",
+ "title": "Brand Guidelines Template - Radesk",
+ "scrollHeight": 3817,
+ "customProperties": {
+  "--wm-toolbar-height": "65px"
+ },
+ "loadedFonts": [
+  "CircularXX 400 normal",
+  "CircularXX 450 normal",
+  "CircularXX 500 normal"
+ ],
+ "fontFamily": {
+  "CircularXX, sans-serif": 106
+ },
+ "fontSize": {
+  "15px": 41,
+  "16px": 27,
+  "13px": 13,
+  "28px": 6,
+  "18px": 5,
+  "14px": 4,
+  "12px": 3,
+  "17px": 3,
+  "19px": 2,
+  "34px": 1,
+  "20px": 1
+ },
+ "fontWeight": {
+  "400": 12,
+  "450": 67,
+  "500": 27
+ },
+ "lineHeight": {
+  "20px": 41,
+  "18px": 27,
+  "14px": 13,
+  "24px": 8,
+  "40px": 7,
+  "28px": 6,
+  "21px": 3,
+  "16px": 1
+ },
+ "letterSpacing": {
+  "-0.28px": 96,
+  "normal": 8,
+  "-1px": 1,
+  "-0.36px": 1
+ },
+ "textColor": {
+  "rgb(173, 183, 190)": 58,
+  "rgb(255, 255, 255)": 23,
+  "rgb(45, 104, 255)": 12,
+  "rgb(92, 92, 92)": 4,
+  "rgb(0, 166, 86)": 3,
+  "rgb(96, 208, 122)": 2,
+  "rgb(255, 189, 107)": 1,
+  "rgb(255, 147, 147)": 1,
+  "rgb(0, 0, 238)": 1,
+  "rgb(77, 77, 77)": 1
+ },
+ "bg": {
+  "rgba(45, 104, 255, 0.15)": 12,
+  "rgb(24, 24, 24)": 10,
+  "rgb(44, 44, 44)": 6,
+  "rgb(0, 166, 86)": 6,
+  "rgb(45, 104, 255)": 4,
+  "rgb(29, 28, 30)": 3,
+  "rgba(24, 24, 24, 0.98)": 2,
+  "rgba(24, 24, 24, 0.96)": 1,
+  "rgb(96, 208, 122)": 1,
+  "rgb(77, 77, 77)": 1
+ },
+ "radius": {
+  "22px": 26,
+  "50%": 19,
+  "16px": 15,
+  "11px": 14,
+  "24px": 3,
+  "0px 0px 24px 24px": 3,
+  "8px": 2,
+  "18px": 1,
+  "10px": 1,
+  "40px": 1
+ },
+ "shadow": {
+  "rgb(18, 18, 18) 0px 0px 0px 2px": 6,
+  "rgba(0, 0, 0, 0.35) 0px 16px 16px 0px": 1
+ },
+ "transition": {
+  "color 0.2s ease": 29,
+  "background, border-color, color 0.2s, 0.2s, 0.2s ease, ease, ease": 26,
+  "opacity 0.4s ease": 13,
+  "background 0.4s ease": 12,
+  "filter, -webkit-filter 0.4s, 0.4s ease, ease": 12,
+  "color 0.4s ease": 12,
+  "fill 0.2s ease": 8,
+  "box-shadow 0.4s ease": 6,
+  "border-color 0.2s ease": 6,
+  "opacity 0.2s ease": 5,
+  "stroke 0.2s ease": 2,
+  "background 0.2s ease": 1,
+  "background, opacity 0.2s, 0.2s ease, ease": 1
+ },
+ "border": {
+  "2px solid rgb(44, 44, 44)": 22,
+  "1px solid rgb(38, 38, 38)": 13,
+  "2px solid rgb(0, 166, 86)": 8,
+  "2px solid rgb(45, 104, 255)": 4,
+  "1px solid rgb(45, 104, 255)": 1,
+  "2px solid rgb(77, 77, 77)": 1
+ },
+ "textTransform": {
+  "none": 106
+ },
+ "typePairs": {
+  "CircularXX | 15px | 450 | lh 18px | ls -0.28px": 25,
+  "CircularXX | 15px | 450 | lh 20px | ls -0.28px": 16,
+  "CircularXX | 13px | 450 | lh 14px | ls -0.28px": 13,
+  "CircularXX | 16px | 500 | lh 20px | ls -0.28px": 13,
+  "CircularXX | 16px | 500 | lh 20px | ls normal": 8,
+  "CircularXX | 16px | 400 | lh 24px | ls -0.28px": 6,
+  "CircularXX | 28px | 450 | lh 40px | ls -0.28px": 6,
+  "CircularXX | 18px | 400 | lh 28px | ls -0.28px": 4,
+  "CircularXX | 17px | 450 | lh 21px | ls -0.28px": 3,
+  "CircularXX | 12px | 500 | lh 18px | ls -0.28px": 2,
+  "CircularXX | 14px | 450 | lh 20px | ls -0.28px": 2,
+  "CircularXX | 19px | 500 | lh 24px | ls -0.28px": 2,
+  "CircularXX | 14px | 500 | lh 20px | ls -0.28px": 2,
+  "CircularXX | 34px | 450 | lh 40px | ls -1px": 1,
+  "CircularXX | 20px | 400 | lh 28px | ls -0.28px": 1,
+  "CircularXX | 18px | 400 | lh 28px | ls -0.36px": 1,
+  "CircularXX | 12px | 450 | lh 16px | ls -0.28px": 1
+ },
+ "headings": [
+  "H1 {{product.name}}",
+  "H2 Overview",
+  "H3 Highlights",
+  "H3 Format"
+ ],
+ "nav": [
+  {
+   "t": "UI Kits\n5,055",
+   "h": "https://ui8.net/category/ui-kits"
+  },
+  {
+   "t": "Coded Templates\n244",
+   "h": "https://ui8.net/category/coded-templates"
+  },
+  {
+   "t": "No-code Assets\n374",
+   "h": "https://ui8.net/category/no-code"
+  },
+  {
+   "t": "Illustrations\n1,321",
+   "h": "https://ui8.net/category/illustrations"
+  },
+  {
+   "t": "Fonts\n736",
+   "h": "https://ui8.net/category/fonts"
+  },
+  {
+   "t": "Wireframes\n161",
+   "h": "https://ui8.net/category/wireframe-kits"
+  },
+  {
+   "t": "Presentation\n497",
+   "h": "https://ui8.net/category/presentation"
+  },
+  {
+   "t": "Mockups\n766",
+   "h": "https://ui8.net/category/mockups"
+  },
+  {
+   "t": "3D Assets\n1,358",
+   "h": "https://ui8.net/category/3d-assets"
+  },
+  {
+   "t": "Icon Sets\n1,311",
+   "h": "https://ui8.net/category/icons"
+  },
+  {
+   "t": "Themes\n861",
+   "h": "https://ui8.net/category/themes"
+  },
+  {
+   "t": "Freebies\n2,041",
+   "h": "https://ui8.net/category/freebies"
+  },
+  {
+   "t": "@whiteuistore\nFeatured Author",
+   "h": "https://ui8.net/whiteuistore/products"
+  },
+  {
+   "t": "All-Access\nOn Sale\nOn Sale",
+   "h": "https://ui8.net/products/all-access-pass"
+  },
+  {
+   "t": "Become an author",
+   "h": "https://ui8.net/authors"
+  },
+  {
+   "t": "Sign up",
+   "h": "https://ui8.net/account/signup"
+  },
+  {
+   "t": "Log in",
+   "h": "https://ui8.net/account/login"
+  },
+  {
+   "t": "sign in",
+   "h": "https://ui8.net/account/login"
+  },
+  {
+   "t": "sign in",
+   "h": "https://ui8.net/account/login"
+  },
+  {
+   "t": "Sign up",
+   "h": "https://ui8.net/account/signup"
+  },
+  {
+   "t": "Log in",
+   "h": "https://ui8.net/account/login"
+  },
+  {
+   "t": "UI Kits",
+   "h": "https://ui8.net/category/ui-kits"
+  },
+  {
+   "t": "Coded Templates",
+   "h": "https://ui8.net/category/coded-templates"
+  },
+  {
+   "t": "No-code Assets",
+   "h": "https://ui8.net/category/no-code"
+  },
+  {
+   "t": "Illustrations",
+   "h": "https://ui8.net/category/illustrations"
+  },
+  {
+   "t": "Fonts",
+   "h": "https://ui8.net/category/fonts"
+  },
+  {
+   "t": "Wireframes",
+   "h": "https://ui8.net/category/wireframe-kits"
+  },
+  {
+   "t": "Presentation",
+   "h": "https://ui8.net/category/presentation"
+  },
+  {
+   "t": "Mockups",
+   "h": "https://ui8.net/category/mockups"
+  },
+  {
+   "t": "3D Assets",
+   "h": "https://ui8.net/category/3d-assets"
+  },
+  {
+   "t": "Icon Sets",
+   "h": "https://ui8.net/category/icons"
+  },
+  {
+   "t": "Themes",
+   "h": "https://ui8.net/category/themes"
+  },
+  {
+   "t": "Freebies",
+   "h": "https://ui8.net/category/freebies"
+  },
+  {
+   "t": "Download",
+   "h": "https://ui8.net/account/signup"
+  },
+  {
+   "t": "Login For Files",
+   "h": "https://ui8.net/account/login"
+  },
+  {
+   "t": "{{c.user.display_name || (c.user.first_name + ' ' + c.user.l",
+   "h": "https://ui8.net/users/%7B%7Bc.user.display_name_slug%20%7C%7C%20c.user._id%7D%7D"
+  },
+  {
+   "t": "Log in",
+   "h": "https://ui8.net/account/login"
+  },
+  {
+   "t": "A name is required to comment.",
+   "h": "https://ui8.net/account/settings"
+  },
+  {
+   "t": "Hire",
+   "h": "https://ui8.net/account/signup"
+  },
+  {
+   "t": "Follow",
+   "h": "https://ui8.net/account/signup"
+  },
+  {
+   "t": "Featured products",
+   "h": "https://ui8.net/category/featured-products"
+  },
+  {
+   "t": "UI Kits",
+   "h": "https://ui8.net/category/ui-kits"
+  },
+  {
+   "t": "Coded Templates",
+   "h": "https://ui8.net/category/coded-templates"
+  },
+  {
+   "t": "Wireframe kits",
+   "h": "https://ui8.net/category/wireframe-kits"
+  },
+  {
+   "t": "Illustrations",
+   "h": "https://ui8.net/category/illustrations"
+  },
+  {
+   "t": "Fonts",
+   "h": "https://ui8.net/category/fonts"
+  },
+  {
+   "t": "Presentation",
+   "h": "https://ui8.net/category/presentation"
+  },
+  {
+   "t": "Mockups",
+   "h": "https://ui8.net/category/mockups"
+  },
+  {
+   "t": "3D Assets",
+   "h": "https://ui8.net/category/3d-assets"
+  },
+  {
+   "t": "Icon Sets",
+   "h": "https://ui8.net/category/icons"
+  },
+  {
+   "t": "Themes & Templates",
+   "h": "https://ui8.net/category/themes"
+  },
+  {
+   "t": "For Figma",
+   "h": "https://ui8.net/category/figma"
+  },
+  {
+   "t": "For Sketch",
+   "h": "https://ui8.net/category/sketch"
+  },
+  {
+   "t": "For Lunacy",
+   "h": "https://ui8.net/category/lunacy"
+  },
+  {
+   "t": "Freebies",
+   "h": "https://ui8.net/category/freebies"
+  },
+  {
+   "t": "All-Access Pass",
+   "h": "https://ui8.net/products/all-access-pass"
+  },
+  {
+   "t": "UI8 Design Studio",
+   "h": "https://studio.ui8.net/"
+  },
+  {
+   "t": "Become an author",
+   "h": "https://ui8.net/authors"
+  },
+  {
+   "t": "Affiliate program",
+   "h": "https://ui8.net/affiliates"
+  },
+  {
+   "t": "Terms & Licensing",
+   "h": "https://ui8.net/terms"
+  }
+ ],
+ "fullHeight": 3817
+}

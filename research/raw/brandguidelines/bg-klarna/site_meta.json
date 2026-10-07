@@ -1,0 +1,13 @@
+{
+ "requested": "https://brand.klarna.com/",
+ "final": "https://brand.klarna.com/our-brand#straight-up",
+ "title": "Klarna brand guidelines",
+ "subpages": [
+  {
+   "href": "https://brand.klarna.com/our-brand",
+   "t": "Our brand\nOur brand",
+   "ok": true
+  }
+ ],
+ "cssFiles": 8
+}

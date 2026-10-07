@@ -1,0 +1,194 @@
+{
+ "url": "https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/",
+ "title": "WhatsApp brand assets and guidelines | Meta | WhatsApp | Brand Resource Center",
+ "scrollHeight": 5429,
+ "customProperties": {},
+ "loadedFonts": [
+  "Facebook Sans 500 normal",
+  "Optimistic 400 normal",
+  "Optimistic 500 normal",
+  "WhatsApp Sans Var 400 normal",
+  "WhatsApp Sans Var 500 normal",
+  "WhatsApp Sans Var 700 normal"
+ ],
+ "fontFamily": {
+  "\"WhatsApp Sans Var\", \"Helvetica Neue\", Helvetica, Arial, sans-serif": 56,
+  "Roboto, \"Helvetica Neue\", Helvetica, Arial, sans-serif": 13,
+  "\"Facebook Sans\", Helvetica, \"Helvetica Neue\", Arial, sans-serif": 8,
+  "Optimistic, Helvetica, \"Helvetica Neue\", Arial, sans-serif": 6
+ },
+ "fontSize": {
+  "18px": 23,
+  "16px": 19,
+  "22px": 14,
+  "28px": 9,
+  "14px": 6,
+  "25px": 5,
+  "36px": 5,
+  "60px": 1,
+  "15px": 1
+ },
+ "fontWeight": {
+  "400": 57,
+  "500": 13,
+  "700": 13
+ },
+ "lineHeight": {
+  "28px": 20,
+  "24px": 19,
+  "40px": 14,
+  "34px": 14,
+  "48px": 5,
+  "18.76px": 4,
+  "20px": 2,
+  "70px": 1,
+  "21px": 1,
+  "24.12px": 1,
+  "22px": 1,
+  "26px": 1
+ },
+ "letterSpacing": {
+  "normal": 74,
+  "-0.56px": 9
+ },
+ "textColor": {
+  "rgb(0, 0, 0)": 27,
+  "rgba(0, 0, 0, 0.6)": 27,
+  "rgb(254, 0, 0)": 10,
+  "rgb(28, 30, 33)": 6,
+  "rgb(38, 38, 38)": 5,
+  "rgb(17, 27, 33)": 3,
+  "rgb(28, 43, 51)": 2,
+  "rgb(101, 103, 107)": 1,
+  "rgb(16, 57, 40)": 1,
+  "rgba(0, 0, 0, 0.4)": 1
+ },
+ "bg": {
+  "rgb(37, 211, 102)": 12,
+  "rgb(255, 255, 255)": 9,
+  "rgba(255, 255, 255, 0.9)": 1
+ },
+ "radius": {
+  "50%": 13,
+  "100%": 9
+ },
+ "shadow": {},
+ "transition": {
+  "transform 0.25s linear": 27,
+  "transform, opacity 1s, 0.75s cubic-bezier(0.2, 0, 0, 1), linear": 9,
+  "color, opacity 1.5s cubic-bezier(0.14, 1, 0.34, 1)": 6,
+  "all 0.15s ease-in-out": 3,
+  "border 0.25s ease": 1,
+  "background-size 0.67s cubic-bezier(0.33, 0, 0, 1)": 1,
+  "max-height, opacity 0.3s, 0.67s cubic-bezier(0.33, 0, 0, 1), linear": 1,
+  "right 0.5s ease": 1,
+  "border-color 1.5s cubic-bezier(0.14, 1, 0.34, 1)": 1,
+  "background-size 1s cubic-bezier(0.33, 0, 0, 1)": 1
+ },
+ "border": {
+  "1px solid rgb(199, 202, 203)": 11,
+  "1px solid rgba(0, 0, 0, 0.2)": 2,
+  "1px solid rgba(196, 196, 196, 0.4)": 1,
+  "1px solid rgba(0, 0, 0, 0.15)": 1,
+  "1px solid rgba(0, 0, 0, 0.1)": 1,
+  "1px solid rgb(153, 153, 153)": 1,
+  "1px solid rgb(37, 211, 102)": 1
+ },
+ "textTransform": {
+  "none": 83
+ },
+ "typePairs": {
+  "WhatsApp Sans Var | 22px | 400 | lh 34px | ls normal": 14,
+  "WhatsApp Sans Var | 16px | 400 | lh 24px | ls normal": 12,
+  "WhatsApp Sans Var | 18px | 700 | lh 28px | ls normal": 10,
+  "WhatsApp Sans Var | 18px | 400 | lh 28px | ls normal": 10,
+  "Roboto | 28px | 400 | lh 40px | ls -0.56px": 9,
+  "Facebook Sans | 16px | 400 | lh 24px | ls normal": 6,
+  "Optimistic | 25px | 500 | lh 40px | ls normal": 5,
+  "WhatsApp Sans Var | 36px | 500 | lh 48px | ls normal": 5,
+  "Roboto | 14px | 400 | lh 18.76px | ls normal": 4,
+  "WhatsApp Sans Var | 16px | 700 | lh 20px | ls normal": 1,
+  "WhatsApp Sans Var | 14px | 500 | lh 20px | ls normal": 1,
+  "Optimistic | 18px | 500 | lh 24px | ls normal": 1,
+  "WhatsApp Sans Var | 60px | 500 | lh 70px | ls normal": 1,
+  "WhatsApp Sans Var | 18px | 700 | lh 21px | ls normal": 1,
+  "WhatsApp Sans Var | 18px | 700 | lh 24.12px | ls normal": 1,
+  "Facebook Sans | 14px | 400 | lh 22px | ls normal": 1,
+  "Facebook Sans | 15px | 400 | lh 26px | ls normal": 1
+ },
+ "headings": [
+  "H1 WhatsApp brand assets and guidelines",
+  "H2 Introduction",
+  "H2 General guidelines",
+  "H2 Frequently asked questions",
+  "H2 Prohibited uses",
+  "H2 Legal"
+ ],
+ "nav": [
+  {
+   "t": "WhatsApp brand assets and guidelines",
+   "h": "https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/"
+  },
+  {
+   "t": "Brand Resource Center home",
+   "h": "https://www.meta.com/brand/resources/"
+  },
+  {
+   "t": "Meta",
+   "h": "https://www.meta.com/brand/resources/meta/company-brand/"
+  },
+  {
+   "t": "Facebook",
+   "h": "https://www.meta.com/brand/resources/facebook/logo/"
+  },
+  {
+   "t": "Instagram",
+   "h": "https://www.meta.com/brand/resources/instagram/instagram-brand/"
+  },
+  {
+   "t": "WhatsApp",
+   "h": "https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/"
+  },
+  {
+   "t": "Threads",
+   "h": "https://www.meta.com/brand/resources/threads/"
+  },
+  {
+   "t": "here",
+   "h": "https://www.meta.com/brand/resources/facebookcompany/our-trademarks/"
+  },
+  {
+   "t": "Terms of Service",
+   "h": "https://www.facebook.com/terms.php"
+  },
+  {
+   "t": "Community Standards",
+   "h": "https://www.facebook.com/communitystandards/"
+  },
+  {
+   "t": "About",
+   "h": "https://www.meta.com/about/"
+  },
+  {
+   "t": "Terms",
+   "h": "https://www.facebook.com/policies"
+  },
+  {
+   "t": "Help",
+   "h": "https://www.facebook.com/help"
+  },
+  {
+   "t": "Our trademarks",
+   "h": "https://www.facebook.com/brand/resources/facebookcompany/our-trademarks"
+  },
+  {
+   "t": "Privacy",
+   "h": "https://www.facebook.com/privacy/explanation"
+  },
+  {
+   "t": "Cookies",
+   "h": "https://www.facebook.com/policies/cookies/"
+  }
+ ],
+ "fullHeight": 5429
+}

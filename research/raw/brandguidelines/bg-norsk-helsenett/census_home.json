@@ -1,0 +1,351 @@
+{
+ "url": "https://brandpad.io/norsk-helsenett/",
+ "title": "Norsk helsenett",
+ "scrollHeight": 36982,
+ "customProperties": {},
+ "loadedFonts": [
+  "Graphik Brandpad 400 normal",
+  "Helvetica Now Text 700 normal",
+  "Helvetica Now Text 700 italic",
+  "Helvetica Now Text 300 normal",
+  "Helvetica Now Text 300 italic",
+  "Helvetica Now Text 500 italic",
+  "Helvetica Now Text 500 normal",
+  "Helvetica Now 300 normal",
+  "Helvetica Now 600 normal"
+ ],
+ "fontFamily": {
+  "\"Helvetica Now\"": 261,
+  "\"Helvetica Now Text\"": 6
+ },
+ "fontSize": {
+  "14.4px": 135,
+  "18px": 78,
+  "32.4px": 28,
+  "25.2px": 15,
+  "50.4px": 10,
+  "72px": 1
+ },
+ "fontWeight": {
+  "300": 215,
+  "500": 2,
+  "600": 48,
+  "700": 2
+ },
+ "lineHeight": {
+  "20.88px": 135,
+  "26.1px": 63,
+  "35.64px": 28,
+  "18px": 15,
+  "36.54px": 15,
+  "70.56px": 7,
+  "63px": 3,
+  "90px": 1
+ },
+ "letterSpacing": {
+  "normal": 197,
+  "-0.2px": 63,
+  "-1px": 7
+ },
+ "textColor": {
+  "rgb(0, 0, 0)": 236,
+  "rgb(255, 255, 255)": 18,
+  "rgb(0, 41, 32)": 8,
+  "rgb(123, 239, 178)": 5
+ },
+ "bg": {
+  "rgb(255, 255, 255)": 137,
+  "rgb(220, 221, 222)": 47,
+  "rgb(123, 239, 178)": 16,
+  "rgb(241, 242, 242)": 13,
+  "rgb(0, 41, 32)": 8,
+  "rgb(196, 242, 218)": 3,
+  "rgb(0, 0, 0)": 2,
+  "rgb(1, 89, 69)": 1,
+  "rgb(36, 115, 96)": 1,
+  "rgb(2, 166, 127)": 1,
+  "rgb(128, 130, 133)": 1,
+  "rgb(188, 190, 192)": 1,
+  "rgb(247, 245, 244)": 1,
+  "rgb(0, 70, 122)": 1,
+  "rgb(55, 39, 112)": 1,
+  "rgb(107, 30, 39)": 1,
+  "rgb(232, 88, 0)": 1,
+  "rgb(255, 196, 107)": 1,
+  "rgb(61, 26, 19)": 1,
+  "rgb(114, 62, 51)": 1,
+  "rgb(184, 104, 83)": 1,
+  "rgb(224, 157, 123)": 1,
+  "rgb(251, 217, 165)": 1,
+  "rgb(247, 201, 190)": 1
+ },
+ "radius": {
+  "50%": 24,
+  "200px": 15
+ },
+ "shadow": {
+  "rgba(100, 100, 100, 0.2) 0px 3px 13px -1px": 1
+ },
+ "transition": {
+  "text-decoration, -webkit-text-decoration 0.2s, 0.2s ease-in-out, ease-in-out": 44,
+  "background, color 0.15s, 0.15s cubic-bezier(0, 0.6, 0.88, 1)": 15
+ },
+ "border": {},
+ "textTransform": {
+  "none": 267
+ },
+ "typePairs": {
+  "Helvetica Now | 14.4px | 300 | lh 20.88px | ls normal": 135,
+  "Helvetica Now | 18px | 300 | lh 26.1px | ls -0.2px": 63,
+  "Helvetica Now | 32.4px | 600 | lh 35.64px | ls normal": 28,
+  "Helvetica Now | 18px | 300 | lh 18px | ls normal": 15,
+  "Helvetica Now | 25.2px | 600 | lh 36.54px | ls normal": 15,
+  "Helvetica Now | 50.4px | 600 | lh 63px | ls normal": 3,
+  "Helvetica Now Text | 50.4px | 300 | lh 70.56px | ls -1px": 2,
+  "Helvetica Now Text | 50.4px | 500 | lh 70.56px | ls -1px": 2,
+  "Helvetica Now Text | 50.4px | 700 | lh 70.56px | ls -1px": 2,
+  "Helvetica Now | 72px | 600 | lh 90px | ls normal": 1,
+  "Helvetica Now | 50.4px | 600 | lh 70.56px | ls -1px": 1
+ },
+ "headings": [
+  "H1 ",
+  "H1 ",
+  "H3 Digital profilhåndbok",
+  "H3 for Norsk helsenett",
+  "H1 Index",
+  "H1 Kontaktinfo",
+  "H1 Brand Canvas",
+  "H1 Konsept",
+  "H1 Knytninger",
+  "H1 ",
+  "H1 Logo",
+  "H1 Symbol",
+  "H1 Designelement",
+  "H2 Designelementets system",
+  "H2 Skala",
+  "H2 Forbudte kombinasjoner",
+  "H1 Fargepalett",
+  "H1 Primærfarger",
+  "H1 Gråtoner",
+  "H1 Støttefarger",
+  "H1 ",
+  "H1 Typografi",
+  "H1 Illustrasjon",
+  "H1 ",
+  "H1 Støttefarger for hudtoner",
+  "H1 Ikonstil",
+  "H2 Grid",
+  "H1 Fotostil",
+  "H1 Co-branding",
+  "H2 Minimum avstand",
+  "H1 Maler",
+  "H2 Videomal",
+  "H2 PowerPoint-mal",
+  "H2 Wordmaler",
+  "H2 Konvoluttmaler",
+  "H2 Rapportmal",
+  "H2 ",
+  "H1 Profilen i bruk og inspirasjon",
+  "H2 Webside",
+  "H2 Eksempel på",
+  "H2 nyhetsbrev",
+  "H2 Brosjyre",
+  "H1 Årsrapport",
+  "H2 Redegjørelse",
+  "H1 Rollup",
+  "H1 T-skjorter",
+  "H1 Kaffekopp",
+  "H1 Nøkkelbånd",
+  "H1 ",
+  "H1 Layout forside",
+  "H1 Plakater",
+  "H1 3D-eksempler"
+ ],
+ "nav": [
+  {
+   "t": "Index",
+   "h": "https://brandpad.io/norsk-helsenett/#Index"
+  },
+  {
+   "t": "Profilen i bruk og inspirasjon",
+   "h": "https://brandpad.io/norsk-helsenett/#1-Profilen_i_bruk_og_inspirasjon"
+  },
+  {
+   "t": "Kontaktinfo",
+   "h": "https://brandpad.io/norsk-helsenett/#Kontaktinfo"
+  },
+  {
+   "t": "Brand Canvas",
+   "h": "https://brandpad.io/norsk-helsenett/#Brand_Canvas"
+  },
+  {
+   "t": "Konsept",
+   "h": "https://brandpad.io/norsk-helsenett/#Konsept"
+  },
+  {
+   "t": "Logo",
+   "h": "https://brandpad.io/norsk-helsenett/#Logo"
+  },
+  {
+   "t": "Designelement",
+   "h": "https://brandpad.io/norsk-helsenett/#Designelement"
+  },
+  {
+   "t": "Fargepalett",
+   "h": "https://brandpad.io/norsk-helsenett/#Fargepalett"
+  },
+  {
+   "t": "Typografi",
+   "h": "https://brandpad.io/norsk-helsenett/#Typografi"
+  },
+  {
+   "t": "Illustrasjon",
+   "h": "https://brandpad.io/norsk-helsenett/#Illustrasjon"
+  },
+  {
+   "t": "Ikonstil",
+   "h": "https://brandpad.io/norsk-helsenett/#Ikonstil"
+  },
+  {
+   "t": "Fotostil",
+   "h": "https://brandpad.io/norsk-helsenett/#Fotostil"
+  },
+  {
+   "t": "Co-branding",
+   "h": "https://brandpad.io/norsk-helsenett/#Cobranding"
+  },
+  {
+   "t": "Maler",
+   "h": "https://brandpad.io/norsk-helsenett/#Maler"
+  },
+  {
+   "t": "Profilen i bruk og inspirasjon",
+   "h": "https://brandpad.io/norsk-helsenett/#Profilen_i_bruk_og_inspirasjon"
+  },
+  {
+   "t": "Kontaktinfo",
+   "h": "https://brandpad.io/norsk-helsenett/#Kontaktinfo"
+  },
+  {
+   "t": "Brand Canvas",
+   "h": "https://brandpad.io/norsk-helsenett/#Brand_Canvas"
+  },
+  {
+   "t": "Konsept",
+   "h": "https://brandpad.io/norsk-helsenett/#Konsept"
+  },
+  {
+   "t": "Logo",
+   "h": "https://brandpad.io/norsk-helsenett/#Logo"
+  },
+  {
+   "t": "Designelement",
+   "h": "https://brandpad.io/norsk-helsenett/#Designelement"
+  },
+  {
+   "t": "Fargepalett",
+   "h": "https://brandpad.io/norsk-helsenett/#Fargepalett"
+  },
+  {
+   "t": "Typografi",
+   "h": "https://brandpad.io/norsk-helsenett/#Typografi"
+  },
+  {
+   "t": "Illustrasjon",
+   "h": "https://brandpad.io/norsk-helsenett/#Illustrasjon"
+  },
+  {
+   "t": "Ikonstil",
+   "h": "https://brandpad.io/norsk-helsenett/#Ikonstil"
+  },
+  {
+   "t": "Fotostil",
+   "h": "https://brandpad.io/norsk-helsenett/#Fotostil"
+  },
+  {
+   "t": "Co-branding",
+   "h": "https://brandpad.io/norsk-helsenett/#Cobranding"
+  },
+  {
+   "t": "Maler",
+   "h": "https://brandpad.io/norsk-helsenett/#Maler"
+  },
+  {
+   "t": "Profilen i bruk og inspirasjon",
+   "h": "https://brandpad.io/norsk-helsenett/#Profilen_i_bruk_og_inspirasjon"
+  },
+  {
+   "t": "Last ned",
+   "h": "https://brandpad.io/cloudinary/brandpad/raw/upload/v1717506552/7819/nhn_brand_canvas_2020__c95ee3a6.pdf"
+  },
+  {
+   "t": "Last ned",
+   "h": "https://brandpad.io/cloudinary/brandpad/raw/upload/v1615477840/7819/nhn-logo-01.zip"
+  },
+  {
+   "t": "Last ned",
+   "h": "https://brandpad.io/cloudinary/brandpad/raw/upload/7819/logo_med_undertittel2.zip"
+  },
+  {
+   "t": "Last ned visuelle ressurser i PowerPoint",
+   "h": "https://nhnkontor.sharepoint.com/:p:/r/sites/Kommunikasjon/_layouts/15/Doc.aspx?sourcedoc=%7BD72A25A4-4960-47BA-A083-A76179447182%7D&file=Visuelle%20ressurser.pptx&action=edit&mobileredirect=true"
+  },
+  {
+   "t": "Last ned designelementer",
+   "h": "https://brandpad.io/cloudinary/brandpad/raw/upload/7819/designelement_varianter.zip"
+  },
+  {
+   "t": "Oversikt over trygge fargekombinasjoner",
+   "h": "https://contrast-grid.eightshapes.com/?background-colors=&foreground-colors=%23002920%0D%0A%23015945%0D%0A%23247360%0D%0A%2302A67F%0D%0A%237BEFB2%0D%0A%23C4F2DA%0D%0A%23FFFFFF%0D%0A%23F1F2F2%0D%0A%23DCDDDE%0D%0A%23BCBEC0%0D%0A%23808285%0D%0A%23000000%0D%0A%23372770%0D%0A%236B1E27%0D%0A%2300467A%0D%0A%23E85800%0D%0A%23D48282%0D%0A%23C0A9FF%0D%0A%23FFC46B%0D%0A%2390DDFA%0D%0A&es-color-form__tile-size=compact"
+  },
+  {
+   "t": "Komplett fargepalett",
+   "h": "https://brandpad.io/cloudinary/brandpad/raw/upload/v1694766069/7819/ny-fargepalett-forslag-1.pdf"
+  },
+  {
+   "t": "Kjøp lisensen her",
+   "h": "https://www.myfonts.com/fonts/mti/helvetica-now?gclid=CjwKCAiArIH_BRB2EiwALfbH1FY_z0BNFixV-iRU6CZeCmIGkcMKjNhFCVZumnLsY4pE4_njVsnMnhoCR58QAvD_BwE&tab=individualStyles"
+  },
+  {
+   "t": "Last ned ppt med alle illustrasjoner",
+   "h": "https://nhnkontor.sharepoint.com/:p:/r/sites/Kommunikasjon/_layouts/15/Doc.aspx?sourcedoc=%7BD72A25A4-4960-47BA-A083-A76179447182%7D&file=Visuelle%20ressurser.pptx&action=edit&mobileredirect=true"
+  },
+  {
+   "t": "https://fonts.google.com/icons",
+   "h": "https://fonts.google.com/icons"
+  },
+  {
+   "t": "Last ned ppt med alle ikoner",
+   "h": "https://nhnkontor.sharepoint.com/:p:/r/sites/Kommunikasjon/_layouts/15/Doc.aspx?sourcedoc=%7BD72A25A4-4960-47BA-A083-A76179447182%7D&file=Visuelle%20ressurser.pptx&action=edit&mobileredirect=true"
+  },
+  {
+   "t": "her",
+   "h": "https://helpx.adobe.com/premiere-pro/user-guide.html/premiere-pro/using/motion-graphics-templates.ug.html"
+  },
+  {
+   "t": "Last ned",
+   "h": "https://brandpad.io/cloudinary/brandpad/raw/upload/v1612537895/7819/nhn_videomal.zip"
+  },
+  {
+   "t": "Last ned",
+   "h": "https://brandpad.io/cloudinary/brandpad/raw/upload/v1673859310/7819/powerpoint-mal-januar-2023.potx"
+  },
+  {
+   "t": "Last ned",
+   "h": "https://brandpad.io/cloudinary/brandpad/raw/upload/7819/wordmaler.zip"
+  },
+  {
+   "t": "Last ned",
+   "h": "https://brandpad.io/cloudinary/brandpad/raw/upload/7819/konvolutter.zip"
+  },
+  {
+   "t": "Last ned",
+   "h": "https://brandpad.io/cloudinary/brandpad/raw/upload/v1616751668/7819/rapportmal.dotx"
+  },
+  {
+   "t": "Til toppen",
+   "h": "https://brandpad.io/norsk-helsenett/#Index"
+  }
+ ],
+ "fullHeight": 36982
+}

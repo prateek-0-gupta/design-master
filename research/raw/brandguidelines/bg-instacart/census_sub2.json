@@ -1,0 +1,148 @@
+{
+ "url": "https://heyitsinstacart.com/logo/",
+ "title": "Instacart Brand Guide — Logo",
+ "scrollHeight": 900,
+ "customProperties": {
+  "--min-desktop-width": "769px"
+ },
+ "loadedFonts": [
+  "custom_72625 400 normal",
+  "custom_72625 600 normal",
+  "custom_72626 400 normal",
+  "custom_72626 700 normal"
+ ],
+ "fontFamily": {
+  "custom_72626": 102,
+  "custom_72625": 22
+ },
+ "fontSize": {
+  "20.7667px": 30,
+  "11.659px": 23,
+  "15.575px": 14,
+  "18.1708px": 13,
+  "36px": 11,
+  "24px": 10,
+  "40.2354px": 9,
+  "7.7875px": 8,
+  "17px": 1,
+  "60px": 1,
+  "40.141px": 1,
+  "20.7179px": 1,
+  "31.15px": 1,
+  "11.6618px": 1
+ },
+ "fontWeight": {
+  "400": 115,
+  "600": 1,
+  "700": 8
+ },
+ "lineHeight": {
+  "21px": 24,
+  "13px": 24,
+  "17px": 14,
+  "18px": 13,
+  "32px": 11,
+  "44px": 10,
+  "29px": 10,
+  "10px": 8,
+  "23px": 7,
+  "45px": 1,
+  "72px": 1,
+  "34px": 1
+ },
+ "letterSpacing": {
+  "normal": 68,
+  "0.1px": 24,
+  "0.2px": 21,
+  "0.4px": 10,
+  "0.3px": 1
+ },
+ "textColor": {
+  "rgb(0, 0, 0)": 87,
+  "rgb(250, 241, 229)": 20,
+  "rgba(0, 61, 41, 0.93)": 8,
+  "rgb(235, 0, 0)": 7,
+  "rgb(249, 251, 147)": 2
+ },
+ "bg": {
+  "rgb(255, 255, 255)": 11,
+  "rgb(0, 61, 41)": 3,
+  "rgb(0, 0, 0)": 3
+ },
+ "radius": {
+  "16px": 2
+ },
+ "shadow": {
+  "rgba(0, 0, 0, 0.2) 0px 0px 0px 1px inset": 2
+ },
+ "transition": {
+  "opacity 0.2s ease": 81,
+  "transform, opacity 0s, 0s ease, ease": 1
+ },
+ "border": {},
+ "textTransform": {
+  "none": 124
+ },
+ "typePairs": {
+  "custom_72626 | 20.7667px | 400 | lh 21px | ls normal": 24,
+  "custom_72626 | 11.659px | 400 | lh 13px | ls 0.1px": 23,
+  "custom_72626 | 15.575px | 400 | lh 17px | ls 0.2px": 14,
+  "custom_72626 | 18.1708px | 400 | lh 18px | ls normal": 13,
+  "custom_72625 | 36px | 400 | lh 32px | ls normal": 11,
+  "custom_72626 | 40.2354px | 400 | lh 44px | ls 0.4px": 9,
+  "custom_72625 | 24px | 400 | lh 29px | ls normal": 9,
+  "custom_72626 | 7.7875px | 700 | lh 10px | ls normal": 8,
+  "custom_72626 | 20.7667px | 400 | lh 23px | ls 0.2px": 6,
+  "custom_72626 | 17px | 400 | lh 45px | ls normal": 1,
+  "custom_72625 | 60px | 400 | lh 72px | ls normal": 1,
+  "custom_72626 | 40.141px | 400 | lh 44px | ls 0.4px": 1,
+  "custom_72626 | 20.7179px | 400 | lh 23px | ls 0.2px": 1,
+  "custom_72626 | 31.15px | 400 | lh 34px | ls 0.3px": 1,
+  "custom_72625 | 24px | 600 | lh 29px | ls normal": 1,
+  "custom_72626 | 11.6618px | 400 | lh 13px | ls 0.1px": 1
+ },
+ "headings": [],
+ "nav": [
+  {
+   "t": "Login",
+   "h": "https://instacart.orangelogic.com/CS.aspx?VP3=LoginRegistration&L=True&R=False"
+  },
+  {
+   "t": "Index",
+   "h": "https://heyitsinstacart.com/index/"
+  },
+  {
+   "t": "Carrot",
+   "h": "https://heyitsinstacart.com/carrot/"
+  },
+  {
+   "t": "Typography",
+   "h": "https://heyitsinstacart.com/typography/"
+  },
+  {
+   "t": "Brand Element",
+   "h": "https://heyitsinstacart.com/brandelement/"
+  },
+  {
+   "t": "Big Green Bag",
+   "h": "https://heyitsinstacart.com/biggreenbag/"
+  },
+  {
+   "t": "Photography",
+   "h": "https://heyitsinstacart.com/photography/"
+  },
+  {
+   "t": "Logo",
+   "h": "https://heyitsinstacart.com/logo/"
+  },
+  {
+   "t": "Colors",
+   "h": "https://heyitsinstacart.com/color/"
+  },
+  {
+   "t": "Layout",
+   "h": "https://heyitsinstacart.com/layout/"
+  }
+ ],
+ "fullHeight": 900
+}

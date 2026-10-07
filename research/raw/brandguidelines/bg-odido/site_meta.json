@@ -1,0 +1,38 @@
+{
+ "requested": "https://merk.odido.nl/en",
+ "final": "https://merk.odido.nl/en/photography",
+ "title": "Odido",
+ "subpages": [
+  {
+   "href": "https://merk.odido.nl/en/brand-foundation",
+   "t": "Brand foundation",
+   "ok": true
+  },
+  {
+   "href": "https://merk.odido.nl/en/logo",
+   "t": "Logo",
+   "ok": true
+  },
+  {
+   "href": "https://merk.odido.nl/en/colour",
+   "t": "Colour",
+   "ok": true
+  },
+  {
+   "href": "https://merk.odido.nl/en/typography",
+   "t": "Typography",
+   "ok": true
+  },
+  {
+   "href": "https://merk.odido.nl/en/layout",
+   "t": "Layout",
+   "ok": true
+  },
+  {
+   "href": "https://merk.odido.nl/en/photography",
+   "t": "Photography",
+   "ok": true
+  }
+ ],
+ "cssFiles": 7
+}

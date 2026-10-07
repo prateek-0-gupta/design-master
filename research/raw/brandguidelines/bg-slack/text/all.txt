@@ -1,0 +1,1090 @@
+1   Slack Brand Guidelines   Design elements
+Hello.
+We’re happy you’re here
+2     Slack Brand Guidelines   Design elements
+Table of contents
+
+
+
+
+Section 1: Defining our brand			         5                        Partnership lockup					35
+                                                                  Illustrations						37
+Who we are						6                                                 Icons							38
+How we describe the need for Slack		 8                            Photography						39
+Brand values						10                                              Video							40
+Persona and personality				11
+Voice and tone					13
+                                                                  Section 3: Governance				41
+
+Section 2: Design elements			            16                       General terms					43
+                                                                  Trademarks						44
+The octothorpe					17                                             Visual design of your website or application 46
+Our logo						18                                                  Trade dress						47
+Our logo (for small use)				     19                               Merchandise						48
+Usage on backgrounds				20                                        Use requirements and terms			                49
+One-color use					21                                              Questions?						50
+Logo misuse						22
+Core colors						24
+Secondary colors					25
+Accessible color combinations			 26
+Typography: Larsseit				27
+Typography: Slack Circular			    28
+Type specimen: Ideal stack			    29
+Localized languages				31
+Brand architecture					32
+Primary lockup					33
+Secondary lockup					34
+
+
+
+
+3               Slack Brand Guidelines        Table of contents
+4   Slack Brand Guidelines   Design elements
+Section 1: Defining our brand
+
+
+
+
+In this section, we outline the building blocks of the
+Slack brand, including what we stand for, what sets us
+apart, why we choose the words we use, and how we’ve
+decided to show up in the world.
+
+
+
+
+5                 Slack Brand Guidelines      Defining our brand
+Who we are
+
+
+
+
+The Slack platform is                                      Our mission is to make people’s working lives simpler, more
+                                                           pleasant and more productive.
+
+
+where work happens.                                        Our vision is a world where organizations can achieve agility
+                                                           easily, no matter their size.
+
+
+It’s where people have                                     Please use “Slack” as an adjective followed by a description
+                                                           of our services. “Slack” should not be used as a noun, verb,
+                                                           plural or possessive.
+the perfect conditions
+to connect, to align, to
+get context so they can
+work toward shared
+goals, together.
+
+
+6            Slack Brand Guidelines   Defining our brand
+7   Slack Brand Guidelines   Design elements
+How we describe the need for Slack
+
+
+
+
+Challenge
+The fundamental challenge common to all organizations
+is one of coordination: the creation and maintenance
+of alignment over time; the ability to turn groups of
+individuals moving in many directions into teams moving
+in the same direction.
+
+Solution
+Slack offers a new choice: a better way to work together
+by replacing email inside companies of all sizes; providing
+a place that connects their conversations, information
+and software.
+
+Result
+With Slack, we all have the power to do our best work—
+individuals, teams, organizations and even software.
+
+
+
+
+8                    Slack Brand Guidelines          Defining our brand
+9   Slack Brand Guidelines   Design elements
+Brand values
+
+
+
+
+Empathy                                                                     Playfulness
+Curiosity. Understanding. Appreciation.                                     Open. Inviting. Receptive. Creative.
+Giving people the benefit of the doubt and the respect that                 Looking at the world sideways, being curious, improvising.
+is due to them. Being human and recognizing the humanity in                 Playing well with others; being open for the pass. Providing
+others. Being understanding and appreciative.                               delightful experiences to our customers.
+
+
+Courtesy                                                                    Solidarity
+Kindness. Generosity. Thoughtfulness.                                       Unity. Mutual support. Cooperation.
+Making an effort to save others time (everyone’s time is                    Taking the interests of all into account. Seeing ourselves
+important, regardless of rank or title). Going the extra mile to            as part of a team rather than as a collection of individuals.
+make it easier for others; preparing in advance, anticipating               Seeking harmony and community.
+needs. Being honest, humble and fair.
+
+                                                                            Thriving
+Craftsmanship                                                               Living fully. Flourishing.
+Respect for excellence. Mastery.                                            Taking this opportunity to do the best work of your life and
+Great care. Attention to detail.                                            supporting others in doing the same. Taking pleasure in the
+Always learning to do it better. Sweating the small stuff.                  exercise of your craft and playing with your whole heart.
+Acting intentionally and mindfully.                                         Engaging your responsibilities with drive, inspiration
+                                                                            and presence.
+
+
+
+
+10                    Slack Brand Guidelines           Defining our brand
+Persona and personality
+
+
+
+
+We are creative,                                           Our culture turned inward creates our product; our culture
+                                                           turned outward creates our brand.
+
+
+professional,                                              Our brand is a reflection of who we are as a company and
+                                                           what we represent in the world of work.
+
+
+thoughtful, respectful,                                    If nothing else, our outward-facing brand should represent
+                                                           the best of what we bring to work as colleagues at this
+                                                           company. Smart, humble, hardworking and collaborative.
+
+purposeful and                                             We are deliberately human—we aim to be an ideal
+                                                           colleague: One who works on the basis of respect
+
+curious; we are smart,                                     and admiration for working people; someone who
+                                                           communicates in a way that is smart, humble, hardworking
+                                                           and collaborative. Who doesn’t dominate the conversation
+humble, hardworking                                        and never wastes your time; who knows the answer (and the
+                                                           context) if you have a question—and shows you how to find
+                                                           it yourself.
+and collaborative.                                         We demonstrate our commitment to being customer-
+                                                           centric by placing those humans at the center of every
+                                                           communication, not ourselves.
+
+
+
+
+11           Slack Brand Guidelines   Defining our brand
+12   Slack Brand Guidelines   Design elements
+Voice and tone
+
+
+
+
+The key to sounding                                        We are humans, speaking to humans. We distinguish
+                                                           ourselves from other business communication software
+                                                           through the way we use design and language to make
+
+like Slack is speaking                                     communication feel simpler and more pleasant. By being
+                                                           deliberate and thoughtful with the way we use language, we
+                                                           encourage people to feel a deeper connection with Slack—
+
+directly to the user, in                                   and how they use it with their coworkers.
+
+                                                           While we intend to have a more conversational, human tone
+
+a voice that they can                                      in the main, that doesn’t mean that we’re overly informal.
+                                                           Our tone will vary depending on the audience, the context
+                                                           and the information we need to get across.
+
+hear and recognize.                                        Our voice isn’t just an intrinsic part of the product, it’s
+                                                           an external representation of the people behind it. And
+                                                           because of that, we aren’t necessarily making hard rules
+                                                           about what to say or what not to say. But some of the rules
+                                                           are a little firm.
+
+
+
+
+13           Slack Brand Guidelines   Defining our brand
+Voice and tone
+
+
+
+
+Here’s what we are (and aren’t):                                 We are characterful. But we never let character overwhelm
+                                                                 content. What we have to say is infinitely more important
+                                                                 than being admired for the way we say it. If people can’t see
+                                                                 the substance for the style, we’ve gone wrong.
+• Confident (never cocky)
+                                                                 In writing, we value perspicuity above all. Be clear, be
+• Witty (but never silly)                                        concise, omit unnecessary words, make sure that whatever
+                                                                 you say has purpose, but don’t be robotic. Contractions are
+• Conversational (but always appropriate                         your friend.
+
+     and respectful)                                             We don’t use cheap words that recall the failures of those
+                                                                 companies that have gone before us, and we don’t use
+• Intelligent (and we always treat our users                     Silicon Valley clichés and jargon. We would only describe
+                                                                 people as ninjas or rock stars if they were actually those
+     as intelligent too)                                         things for a living. We don’t lean on pop culture references
+                                                                 or things that feel exclusionary.
+• Friendly (but not ingratiating)
+                                                                 We are considerate and intentional with the words we use.
+• Helpful (never overbearing)                                    We recognize and appreciate the power of language, and
+                                                                 use it with eloquence and elegance (while never getting
+• Clear, concise and human                                       carried away with ourselves).
+
+
+
+
+14                 Slack Brand Guidelines   Defining our brand
+Voice and tone
+
+
+
+
+Nor do we mess around with Slack. We don’t use Slacker/
+Slacking/Slackee to describe who we are or what we
+do. That means no “Happy Slacking!” to sign off emails,
+                                                                            We are authentic.
+no matter how catchy a phrase it might be. While other
+people are free to make up whatever word they want to
+describe Slack usage or someone who uses it, we do not
+                                                                            We like the people
+(externally) claim any of these as official terms. That’s up to
+others to decide. Something will surface eventually and be
+organically adopted.
+                                                                            we’re talking to.
+It should go without saying, but it’s still worth stating:
+Never use exclusionary terms, cultural appropriation,
+                                                                            We’re proud of
+ableist or misgendering language, or anything that could be
+interpreted as a slur. If you’re on the fence about whether                 what we’re talking
+you’re using something that could be taken as offensive,
+inflammatory or exclusionary, find another word.
+                                                                            about. That itself
+                                                                            sets us apart.
+
+
+
+
+15                    Slack Brand Guidelines           Defining our brand
+Section 2: Design elements
+
+
+
+
+In this section, we outline best practices for the use of
+Slack brand assets and offer useful examples.
+
+
+
+
+16                  Slack Brand Guidelines         Design elements
+The octothorpe
+
+
+
+The octothorpe is composed of                                   Octothorpe
+simple geometric shapes and four
+primary colors.
+
+The symbol is legible at most sizes,
+and a small version is provided for
+micro applications.
+
+The two basic shapes used in the
+octothorpe—a speech bubble and a
+lozenge—can be extracted and used
+as graphic elements.
+
+
+
+                                                                 19x19 grid
+
+
+
+
+17                   Slack Brand Guidelines   Design elements
+Our logo
+
+
+
+The Slack logo is composed of an
+octothorpe and a logotype set in
+Hellix Bold.
+
+The horizontal logo is the primary logo
+and should be used in most instances.
+The stacked logo is for large-scale use.
+Avoid using at small sizes, as it can
+become illegible.
+
+Always use the logo files provided.
+Do not re-create.
+
+
+
+
+18                    Slack Brand Guidelines   Design elements
+Our logo (for small use)
+
+
+
+There is a specific logo for small sizes
+and should be used when the logo is
+rendered at a size between 50px wide                              Maximum Sizing for          Minimum Sizing for
+and 90px wide.                                                     Small Use Logo              Small Use Logo
+
+The small logo mark should be used at
+a size between 15px tall and 20px tall.                            90px wide, approx.
+                                                                                              50px wide, approx.
+Only the horizontal logos are
+appropriate for small use. Do not use
+the stacked logo for small use.
+                                                                 (or approx. 1.25 inches)    (or approx. 0.7 inches)
+
+
+
+
+                                                                  20px height, approx.        15px height, approx.
+
+
+
+
+                                                                  (or approx. 0.28 inches)   (or approx. 0.2 inches)
+
+
+
+
+19                    Slack Brand Guidelines   Design elements
+Usage on backgrounds
+
+
+
+The full-color logos should be
+used only on white, black or
+aubergine backgrounds.
+
+Avoid using full-color logos on
+photographs unless the logo sits on
+a black or white area of the image.
+
+
+
+
+20                   Slack Brand Guidelines   Design elements
+One-color use
+
+
+
+The one-color logo should be used only
+on photographs and color backgrounds
+within the Slack color palette.
+
+The one-color logo should be only on
+black and white colorways.
+
+If using an aubergine background, we
+strongly prefer to use the full-color
+logo. However, if design limitations
+conflict with this, then the logo should
+appear in white on aubergine.
+
+
+
+
+21                    Slack Brand Guidelines   Design elements
+Logo misuse
+
+
+
+
+     Do not crop the logo                                          Do not distort the logo
+
+
+
+
+     Do not change the                                             Do not use drop shadows
+     transparency of the logo                                      or any other effects
+
+
+
+
+     Do not shuffle around                                         Do not re-create using any
+     the colors of the octothorpe                                  other typeface
+
+
+
+
+     Do not use different colors                                   Do not outline logotype
+
+
+
+     Do not change the size or
+     position of the octothorpe                                    Do not rotate any part of
+     and logotype                                                  the logo
+
+
+
+
+22                      Slack Brand Guidelines   Design elements
+23   Slack Brand Guidelines   Design elements
+Core colors
+
+
+
+Use these color proportions in any
+                                                White                          Black                               Aubergine
+layout or collateral design. Blue, green,       HEX    ffffff                  PMS     Black                       PMS    261
+yellow and red can be used as accent            CMYK 0-0-0-0                   CMYK    0-0-0-100                   CMYK 68-95-33-22
+colors in the proportions shown on              RGB   255-255-255              RGB     29-28-29                    RGB    74-21-75
+the right.                                                                     HEX     1D1C1D                      HEX    4A154B
+
+
+Use only black or white text on core
+colors as outlined on the right. Do not
+interchange the use of black and white
+text according to preference, as these
+color combinations are specifically
+approved for accessibility.
+
+
+
+
+                                                Blue                   Green                       Yellow                  Red
+                                                PMS       298          PMS     2250                PMS      7409           PMS    214
+                                                CMYK      65-10-2-0    CMYK    79-2-75-0           CMYK     4-33-98-0      CMYK   13-100-36-0
+                                                RGB       54-197-240   RGB     46-182-125          RGB      236-178-46     RGB    224-30-90
+                                                HEX       36C5F0       HEX     2EB67D              HEX      ECB22E         HEX    E01E5A
+
+
+
+
+24                    Slack Brand Guidelines   Design elements
+Secondary colors
+
+
+
+Do not use secondary colors for text.
+                                                PMS       7658 C           PMS    7623 C        PMS    709 C         PMS    489 C
+Use only black or white text as outlined        CMYK      45-94-43-25      CMYK   27-99-95-27   CMYK   0-78-48-0     CMYK   0-19-22-0
+on the right. Do not interchange                RGB       124-40-82        RGB    146-29-33     RGB    242-96-106    RGB    254-212-190
+the use of black and white text                 HEX       7C2852           HEX    921D21        HEX    F2606A        HEX    FED4BE
+according to preference, as these color
+combinations are specifically approved
+for accessibility.                              PMS       2060 C           PMS    2439 C        PMS    495 C         PMS    7604 C
+                                                CMYK      24-78-19-0       CMYK   10-54-61-0    CMYK   1-32-13-0     CMYK   3-5-9-0
+Secondary colors can be used with our           RGB       192-91-140       RGB    222-137-105   RGB    246-187-193   RGB    244-237-228
+                                                HEX       C05B8C           HEX    DE8969        HEX    F6BBC1        HEX    F4EDE4
+core colors, but this should be limited.
+
+
+                                                PMS       130 C            PMS    3425 C        PMS    2221 C        PMS    661 C
+                                                CMYK      0-43-100-0       CMYK   87-37-95-32   CMYK   81-23-35-1    CMYK   100-94-9-1
+                                                RGB       255-161-0        RGB    24-95-52      RGB    0-150-162     RGB    30-50-143
+                                                HEX       FFA100           HEX    185F34        HEX    0096A2        HEX    1E328F
+
+
+
+                                                PMS       7403 C           PMS    576 C         PMS    2225 C        PMS    7689 C
+                                                CMYK      0-16-59-0        CMYK   59-23-93-5    CMYK   48-0-16-0     CMYK   78-35-13-0
+                                                RGB       255-213-126      RGB    119-152-70    RGB    120-215-221   RGB    47-138-183
+                                                HEX       FFD57E           HEX    779846        HEX    78D7DD        HEX    2F8AB7
+
+
+
+                                                PMS       Cool Gray 11 C   PMS    Cool Gray C   PMS    427 C
+                                                CMYK      67-62-57-43      CMYK   59-50-50-18   CMYK   7-5-5-0
+                                                RGB       70-65-69         RGB    105-105-105   RGB    235-234-235
+                                                HEX       464145           HEX    696969        HEX    EBEAEB
+
+
+
+
+25                    Slack Brand Guidelines   Design elements
+Accessible color combinations
+
+
+
+All examples shown on the right
+pass the contrast standards with the
+exception of small blue text on an
+                                               White on black          Blue on black
+aubergine background. Never
+typeset small blue text on aubergine.          White on black          Blue on black
+Instead, reserve blue text on
+aubergine backgrounds only for
+larger headline typography.                    White on aubergine      Blue on aubergine
+                                               White on aubergine      Blue on aubergine
+
+                                               Text 1 on Lt Gray 1     (Active) on Lt Gray 1
+                                               Text 1 on Lt Gray 1     (Active) on Lt Gray 1
+
+                                               Headline on Lt Gray 2   (Null) on Lt Gray 2
+                                               Headline on Lt Gray 2   (Null) on Lt Gray 2
+
+                                               Black on blue
+                                               Black on blue
+
+
+
+26                   Slack Brand Guidelines   Design elements
+Typography: Larsseit
+
+
+
+Slack headlines are set in Larsseit.
+When using Larsseit to create headings        Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk
+on embedded or printed collateral for
+Slack, always typeset it with optical
+kerning, set the tracking to 0, and set
+                                              Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu
+                                              Vv Ww Xx Yy Zz 0123456789
+in sentence case. Do not set in all caps
+or all lowercase. When using Larsseit
+to typeset headings on the web, set
+the letter spacing to -1px for smaller
+headlines and -2px for larger headlines.
+                                              Thin               Nymphs blitz quick vex dwarf jog.
+Note: If converting G Slides to Keynote
+or PowerPoint, use Larsseit throughout        Thin Italic        DJs flock by when MTV ax quiz prog.
+for headlines and body text. If the           Light              Typografie Maamerkkinä.
+presentation originates in Keynote or
+PowerPoint, follow regular brand              Light Italic       Saturation Pracovitějším.
+font guidelines.                              Regular            Brick quiz whangs jumpy veldt fox.
+                                              Regular Italic     Glib jocks quiz nymph to vex dwarf.
+                                              Medium             Požiadavkou Motorického.
+                                              Medium Italic      Bright vixens jump; dozy fowl quack.
+                                              Bold               OŻywiona Matemático.
+                                              Bold Italic        Quick wafting zephyrs vex bold Jim.
+                                              Extrabold          Architekten Zwitserland.
+                                              Extrabold Italic   Praktischer Revolutions.
+
+
+
+
+27                   Slack Brand Guidelines   Design elements
+Typography: Slack Circular
+
+
+
+Typeset all text and paragraph text
+in Slack Circular. When using Slack             Aa Bb Cc Dd Ee Ff Gg Hh Ii
+Circular to set text on embedded or
+printed collateral for Slack, always
+typeset it with optical kerning, set the
+                                                Jj Kk Ll Mm Nn Oo Pp Qq
+                                                Rr Ss Tt Uu Vv Ww Xx Yy Zz
+tracking to -10, and set in title case or
+sentence case (as determined by the
+content). Do not set in all caps or
+all lowercase.
+
+When using Slack Circular to typeset
+                                                0123456789
+text on the web, set the letter spacing
+to 0px for normal paragraphs and
+-0.2px for hero paragraphs.                     Book              Brick quiz whangs jumpy veldt fox.
+                                                Book Italic       Glib jocks quiz nymph to vex dwarf.
+                                                Medium            Požiadavkou Motorického.
+                                                Medium Italic     Bright vixens jump; dozy fowl quack.
+                                                Bold              OŻywiona Matemático.
+                                                Bold Italic       Quick wafting zephyrs vex bold Jim.
+                                                Black             Architekten Zwitserland.
+                                                Black Italic      Praktischer Revolutions.
+
+
+
+
+28                     Slack Brand Guidelines   Design elements
+Type specimen: Ideal stack
+
+
+
+                  H1
+Larsseit Bold, 36/38      A better way to work
+                   H2
+ Larsseit Bold, 24/28     Simpler, more pleasant and more productive
+                          The kind of thing you don’t know you need, but once you have it,
+                  H3
+ Larsseit Bold, 18/21
+
+
+                          you can’t live without it. It feels like the natural evolution of work.
+                  H4
+ Larsseit Bold, 12/15     After all, every organization needs a little Slack.
+
+                     P    There is an enormous and heretofore largely unmet         wrong inbox, you have access to none of it. Rather         Share channels with companies        Hero P
+       Circular Book,     demand for an easier way to coordinate and align          than inboxes, all those messages are organized into                                             Circular Book,
+           Style Set 2,   people. That demand is why Slack is here today, and       channels. Channels can correspond to anything - proj-      and businesses you regularly work    Style Set 2,
+      Optical Kerning,    why Slack is being adopted all over the world. Email      ects, teams, planning, office locations, business units,                                        Optical Kerning,
+          -10 Tracking
+                                                                                                                                               with to bring all the right people   -10 Tracking
+                          is the default coordinating point for communications      functional areas, temporary channels for things like
+                   7/9    and the go-to platform enterprise software develop-       planning an offsite. Unlike email, Slack was designed      into the same space.                 10/14
+                          ers use when they need to reach human beings, but         from the bottom-up to integrate with the software
+                          inside a company it works poorly. Enormous flows          tools you use every day. Whatever tools you already
+                          of information course through it, but each person         use, Slack vastly increases the value of your software                                          CTA Text
+                          has only a tiny view. Email holds rich history: all the   investment, by making it easier to access, easier to                                            Circular Bold,
+                          decisions made, questions answered and information        act upon, and easier to share.                                                                  Style Set 2,
+                          shared, but if you’re new to a company, or just in the                                                                                                    Optical Kerning,
+
+
+
+                          “We believe that the advantages are so great
+          Quote Mark                                                                                                                                                                +20 Tracking
+     Circular Book, 36                                                                                                                                                              7/9
+
+
+         Pull Quote
+ Larsseit Thin, 18/21
+
+                          that a shift to working on Slack, or something
+                          like it, is inevitable.
+          Attribution     Marcel Gherkins
+        Circular Bold/    Spokesperson, Slack
+       Book Italic, 7/9
+
+
+
+
+29                                Slack Brand Guidelines                                Design elements
+30   Slack Brand Guidelines   Design elements
+Localized languages
+
+
+
+Japanese
+Tazugane is our brand font for Japan,
+Noto Sans is used for the Slack
+App/UI and M PLUS 1 p is used for
+Google Slides.
+
+Font size is 15% smaller than English.
+In general, Japanese characters tend
+to be bigger than Roman letters and
+numbers even when set at the same
+font size (with “Western” fonts, in
+particular).
+
+Portuguese, Spanish, French
+and German
+Font size is 10% smaller than English,
+allowing for 20-30% more characters.
+
+
+
+
+31                    Slack Brand Guidelines   Design elements
+Brand architecture
+
+
+
+
+Here, we break                                          The Slack logo and mark are used in a series of
+                                                        logo lockups to represent the various programs,
+                                                        departments, teams, groups, initiatives and
+down the use                                            partnerships of our organization.
+
+
+of different logo                                       Our lockup categories are primary, secondary and
+                                                        partnership, which establish identities for external
+                                                        and internal entities and partnerships, respectively.
+lockups for entities
+in and outside of
+Slack.
+
+
+
+
+32           Slack Brand Guidelines   Design elements
+Primary lockup
+
+
+
+The primary lockup is used for external-
+facing entities that represent an
+extension of the Slack master brand.
+These are programs, products, events
+and groups with the highest potential
+for external visibility to promote brand
+recognition.
+
+We lock up the Slack logo with the
+entity name. The name should appear
+in lowercase, typeset in Hellix regular,
+optical kerning, with -10 tracking. The
+entity name is set to the right of the
+Slack logotype, separated by a distance
+equal to “A.”
+
+
+
+
+33                   Slack Brand Guidelines   Design elements
+Secondary lockup
+
+
+
+The secondary lockup is used only for
+internal-facing entities that contribute
+to our employee experience. These are
+programs, tools, events and groups
+with the highest potential for internal
+visibility and adoption.
+
+We lock up the Slack octothorpe
+with the entity name. The name
+should appear in lowercase, typeset
+in Hellix regular, optical kerning, with
+-10 tracking. The entity name is set
+to the right of the Slack octothorpe,
+separated by a distance equal to “A.”
+
+
+
+
+34                     Slack Brand Guidelines   Design elements
+Partnership lockup
+
+
+
+The partnership lockup is used for                                Clear space equals the
+                                                                  width of one octothorpe
+communication around approved
+Slack partnerships.
+
+We lock up the Slack logo with a
+partner logo, placing the Slack logo
+either to the left or top of the partner’s                              Partner logos are aligned to
+logo. We add clear space between                                        the baseline of the logotype
+
+the logos equal to the size of the
+octothorpe, and divide this space in
+half by a vertical line.
+
+Both logos should feel of equal size.
+Partner logos should be aligned to the
+optical baseline of the Slack logotype.
+
+We also kindly ask that you adhere to
+the following:
+• Do not pair the Slack octothorpe
+   with partner logos—always use the
+   Slack logo
+• Do not use the Slack name or marks
+   as part of your own
+• Do not use Slack in any advertising
+   without our explicit approval
+• Do not use Slack assets or similar
+   words/marks on apparel or
+   merchandise
+
+
+
+
+35                     Slack Brand Guidelines   Design elements
+36   Slack Brand Guidelines   Design elements
+Illustrations
+
+
+
+Our illustration style is bold, elevated,
+and dimensional, heavily defined by the
+use of negative space and perspective.
+It was created to distinctly capture
+the Slack brand and is used across a
+range of communications as well as
+within our product. Please refer to our
+Illustration Guidelines for specific notes
+on composition, style and use.
+
+
+
+
+37                    Slack Brand Guidelines   Design elements
+Icons
+
+
+
+                                                Slack.com
+Slack icons are used across different
+brand touchpoints from marketing to
+environment to product.
+
+They provide symbolism, conceptual
+clarity and visual interest in simplistic
+shapes and forms.
+                                                Roles             Events
+
+
+
+
+                                                Miscellaneous
+
+
+
+
+38                     Slack Brand Guidelines   Design elements
+Photography
+
+
+
+Like our brand voice, all photography
+direction is based on a spectrum of
+relatable to aspirational.
+
+Avatars: Relatable, human, warm,
+quirky, but not silly. Colorful, but
+mature, personable.
+
+Still life: Attainable, clear, concise,
+human, demonstrates the Slack
+personality. Simple, not overly complex.
+
+Lifestyle: Aspirational, alludes to
+collaboration, confident, clear, focused,
+environmentally inclusive (the subject is
+a part of something bigger).
+
+
+
+
+39                    Slack Brand Guidelines   Design elements
+Video
+
+
+
+Lower thirds: Design should be clean
+and clear. Names should be set in
+Larsseit bold, titles in Slack Circular
+book and backgrounds set to
+80% opacity.
+
+Ending slates: All videos should end
+with the Slack logo, animated or still.
+
+Watermarked logos: Watermarked
+logos should be placed in the upper
+left at 50% opacity.
+
+
+
+
+40                    Slack Brand Guidelines   Design elements
+Section 3: Governance
+
+
+
+
+41           Slack Brand Guidelines   Design elements
+42   Slack Brand Guidelines   Design elements
+General terms
+
+
+
+     a. Slack permits its customers, third-party developers, partners
+        and the media ("you") to use its name, trademarks, logos, web
+        pages, screenshots and other brand features (the Slack "brand
+        features," "marks" or "logos") only in limited circumstances
+        and as specified in these guidelines. By using the Slack marks,
+        you agree to adhere to these guidelines and specifically to the
+        Use Requirements and Terms below. If you have a separate
+        agreement with Slack that addresses use of the Slack brand,
+        that agreement shall govern your use of the Slack marks.
+
+     b. The Slack marks include the Slack name and logo, and any
+        word, phrase, image or other designation that identifies the
+        source or origin of any Slack products.
+
+     c. List of trademarks:
+                i. SLACK
+               ii. The Slack logo
+             iii. Where Work Happens
+              iv. Slackbot
+               v. Several People Are Typing
+
+
+
+
+43                       Slack Brand Guidelines                Governance
+Trademarks
+
+
+
+     a. “SLACK” text usage guidelines                                                     and say “Slack is a registered trademark and service
+              i. The company name is “Slack Technologies, Inc.”                           mark of Slack Technologies, Inc.” at the bottom
+             ii. Do                                                                       of the page on which the Slack word mark first
+                   1. When “Slack” is used, use as an adjective followed                  appears
+                      by a description of our services                                 2. For international use, do not use the ® symbol.
+                   2. Examples: Slack collaboration software, others?                     Instead say “Slack is a trademark and service mark
+                   3. You are entitled to say that your application is                    of Slack Technologies, Inc., registered in the U.S.
+                      integrated with Slack or that you are a Slack                       and in other countries.” at the bottom of the page
+                      Platform Partner if you have an app in the Slack                    on which the Slack word mark first appears.
+                      App Directory.                                                   3. On all marketing materials, include “Copyright
+            iii. Do not                                                                   2019 Slack Technologies, Inc.” marking at bottom,
+                   1. Don’t use “Slack” as a noun, verb, plural or                        right justified, for all marketing materials. Font size
+                      possessive. An appropriate generic term must                        cannot be smaller than 7 pts.
+                      appear after the Slack trademark the first time                     Logo use guidelines
+                      it appears in a printed piece, and as often as is           v. Download logos at brandfolder.com/slack/logos
+                      reasonable after that                                      vi. Logo usage guidelines at https://slack.com/marketing/
+                   2. Don’t use the Slack marks in a way that suggests a            img/media-kit/slack_brand_guidelines_external.pdf
+                      common, descriptive or generic meaning                    vii. Do:
+                   3. Don’t register a domain containing the word “slack”              1. Ensure that there is adequate space between the
+                      or any variation thereof. Deliberate misspellings and               logo and surrounding elements
+                      transliterations are also not permitted                          2. For the horizontal logo, the clear space around it
+                   4. Do not apply for a trademark that includes the word                 should always be greater than or equal to the size of
+                      “slack,” our logo, or any other words or marks similar              the octothorpe
+                      to our own                                                       3. For the stacked logo, the clear space around it
+                   5. Do not use “Slack” or our other trademarks in                       should always be greater than or equal to the length
+                      connection with advertising (search engine or                       of one lozenge in the octothorpe
+                      otherwise) without explicit approval from Slack          viii. Do not:
+                   6. Don’t use the Slack logo (with or without your                   1. Please don’t modify the marks or use them in a
+                      company logo)                                                       confusing way, including suggesting sponsorship
+            iv. Marking                                                                   or endorsement by Slack, or in a way that confuses
+                   1. For usage only within the U.S., use the ® symbol on                 Slack with another brand (including your own)
+                      the most prominent use of the word Slack (Slack®),               2. Don’t use any logos or similar imagery to represent
+
+
+
+
+44                        Slack Brand Guidelines                 Governance
+Trademarks
+
+
+
+                     Slack other than the examples we have provided in
+                     the Slack Brand folder
+                  3. Don’t use a Slack asset as a substitute for your own
+                     —if you don’t have a logo, please do not co-opt ours
+                  4. Don’t overprint or obstruct any part of the logo
+                  5. Don’t add special effects to the logo, including
+                     animation
+                  6. Don’t use old versions or any other marks or logos to
+                     represent our brand
+                  7. Don’t distribute or otherwise make available our
+                     logos, marks or assets
+                  8. Don’t crop the logo
+                  9. Don’t outline logotype
+                 10. Don’t rotate any part of the logo
+                 11. Don’t distort the logo
+                 12. Don’t use drop shadows or any other effects
+                 13. Don’t re-create using any other typeface
+                 14. Don’t change the transparency of the logo
+                 15. Don’t shuffle around the colors of the octothorpe
+                 16. Don’t use different colors
+                 17. Don’t change the size or orientation of the
+                     octothorpe and logotype in relation to each other
+                 18. No disparaging or objectionable use is permitted
+
+     b. Screenshots
+              i. Screenshots of the Slack software and website are
+                permitted for instructive, educational or illustrative
+                purposes
+             ii. Don’t alter screenshots, except to resize
+            iii. Don’t include screenshots in your product user interface
+            iv. Don’t use screenshots that contain third-party content
+                without the permission of the third party
+             v. Don’t use screenshots that contain an image of an
+                identifiable individual or other personally identifiable
+                information
+
+
+
+45                       Slack Brand Guidelines                 Governance
+Visual design of your website or application
+
+
+
+     a. When designing your own website, we encourage you to be
+        yourself. But please do not copy or imitate the look and feel of
+        Slack products or sites. Doing so may create user confusion or
+        imply the endorsement of Slack
+     b. Please do not use, display, mirror or frame (including in meta-
+        tags or hidden text) Slack websites, or any individual element
+        of Slack websites, or any other Slack assets, or the layout and
+        design of any page or form contained on a page
+     c. If utilizing the Slack API to support your service or application,
+        you must avoid suggesting your service or application is
+        produced or supported by Slack. If we believe ambiguity exists,
+        we may request that you state clearly that your service is “not
+        created by, affiliated with, or supported by Slack Technologies,
+        Inc.”
+     d. If we ask you to include such a message on your page, you must
+        ensure that it is displayed on the initial page load and is clearly
+        visible on either a dark or light background. Text should be a
+        minimum of 15pt. and a minimum of 80% opacity in black or
+        white or in color
+
+
+
+
+46                        Slack Brand Guidelines                 Governance
+Trade dress
+
+
+
+     a. Do not use or imitate the distinctive “look and feel” of Slack or
+        other identifiable and unique visual elements of the Slack brand
+        assets, Slack software or www.slack.com website, including (but
+        not limited to) the color combinations, graphics, sounds, icons,
+        typefaces or other stylization
+
+
+
+
+47                       Slack Brand Guidelines                Governance
+Merchandise
+
+
+
+     a. Do not use the Slack assets or any other confusingly similar
+        words or marks on any apparel, toy, product or other
+        merchandise
+     b. If you’re interested in purchasing Slack-branded goods, we sell
+        a range of official products in the Slack Shop. All proceeds are
+        donated to charity
+
+
+
+
+48                       Slack Brand Guidelines                Governance
+Use requirements and terms
+
+
+
+     a. Any use of Slack brand assets must conform to these guidelines
+     b. These guidelines may be modified at any time. Use of the Slack
+        brand assets constitutes consent to any modifications to the
+        guidelines
+     c. Slack has sole discretion in determining if use of the Slack assets
+        violates these guidelines
+     d. Termination: Slack may ask that you stop using the brand assets
+        at any time. In the event of termination, use of brand assets
+        must stop within a reasonable period from the date of the
+        request, and in all cases no more than 7 days from the date of
+        the request
+     e. Reservation of Rights: Slack is the owner of all rights in the
+        Marks and reserves all rights save the limited license granted
+        here. Use of the Marks pursuant to this license shall not be
+        construed as limiting the rights of Slack in the Marks
+     f. SLACK DISCLAIMS ANY WARRANTIES THAT MAY BE EXPRESS
+        OR IMPLIED BY LAW REGARDING THE SLACK MARKS (TO
+        THE EXTENT PERMITTED BY LAW), INCLUDING WARRANTIES
+        AGAINST INFRINGEMENT
+     g. Contact us (at help.slack.com) to request use of brand assets in
+        a manner inconsistent with the guidelines or for any questions
+
+
+
+
+49                        Slack Brand Guidelines                Governance
+Questions?
+
+
+
+For any brand inquiries contact
+brand@slack-corp.com
+
+
+
+
+50                   Slack Brand Guidelines   Design elements
+

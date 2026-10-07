@@ -1,0 +1,319 @@
+{
+ "url": "https://www.ibm.com/design/language/",
+ "title": "IBM Design Language",
+ "scrollHeight": 3769,
+ "customProperties": {
+  "--tc-link-color": "rgba(29,78,216,1)",
+  "--tc-gradient-color": "#0f62fe",
+  "--tc-main-color": "#000579",
+  "--tc-gradient-hover-color": "#0f62fe",
+  "--tc-blue-100": "rgba(208, 225, 253, 1)",
+  "--tc-text-color": "#161616",
+  "--tc-blue": "#3699f1",
+  "--tc-surface-600": "rgba(117,117,117,1)",
+  "--tc-btn-shadow-color": "#00000033",
+  "--tc-blue-50": "rgba(245,249,255,1)",
+  "--tc-bg-color": "#ffffff",
+  "--tc-repop-bg-color": "#e9e9ff",
+  "--tc-repop-color": "#763cad"
+ },
+ "loadedFonts": [
+  "IBM Plex Sans Var 100 900 normal",
+  "IBM Plex Sans Var 100 900 italic",
+  "IBM Plex Sans 400 normal"
+ ],
+ "fontFamily": {
+  "\"IBM Plex Sans Var\", \"Helvetica Neue\", Arial, sans-serif": 78
+ },
+ "fontSize": {
+  "14px": 41,
+  "20px": 14,
+  "16px": 8,
+  "12px": 7,
+  "21.8824px": 7,
+  "30.9092px": 1
+ },
+ "fontWeight": {
+  "300": 1,
+  "400": 47,
+  "600": 30
+ },
+ "lineHeight": {
+  "20px": 24,
+  "18.0001px": 17,
+  "28px": 14,
+  "16px": 7,
+  "27.353px": 7,
+  "22px": 5,
+  "24px": 3,
+  "39.8728px": 1
+ },
+ "letterSpacing": {
+  "0.16px": 36,
+  "normal": 30,
+  "0.32px": 7,
+  "0.1px": 5
+ },
+ "textColor": {
+  "rgb(82, 82, 82)": 19,
+  "rgb(22, 22, 22)": 19,
+  "rgb(198, 198, 198)": 17,
+  "rgb(255, 255, 255)": 10,
+  "rgb(244, 244, 244)": 10,
+  "rgb(25, 25, 25)": 3
+ },
+ "bg": {
+  "rgb(255, 255, 255)": 18,
+  "rgb(22, 22, 22)": 3,
+  "rgb(244, 244, 244)": 2,
+  "rgb(57, 57, 57)": 1,
+  "rgba(23, 23, 23, 0.5)": 1,
+  "rgba(0, 0, 0, 0.7)": 1,
+  "rgba(0, 0, 0, 0.5)": 1,
+  "rgb(38, 38, 38)": 1,
+  "rgb(0, 0, 0)": 1
+ },
+ "radius": {
+  "2px": 1
+ },
+ "shadow": {
+  "rgba(0, 0, 0, 0.3) 0px 2px 6px 0px": 1
+ },
+ "transition": {
+  "color, background-color, outline 0.11s, 0.11s, 0.11s ease, ease, ease": 16,
+  "transform 0.11s ease": 11,
+  "background 0.07s ease": 11,
+  "all 0.15s cubic-bezier(0.2, 0, 0.38, 0.9)": 6,
+  "all 0.07s cubic-bezier(0.2, 0, 0.38, 0.9)": 6,
+  "background-color, opacity 0.11s, 0.11s cubic-bezier(0.2, 0, 0.38, 0.9), cubic-bezier(0.2, 0, 0.38, 0.9)": 2,
+  "background, color 0.11s cubic-bezier(0.2, 0, 0.38, 0.9)": 2,
+  "fill 0.11s cubic-bezier(0.2, 0, 0.38, 0.9)": 2,
+  "opacity 0.07s cubic-bezier(0.2, 0, 0.38, 0.9)": 2,
+  "opacity 0.5s ease": 2,
+  "opacity 0.11s cubic-bezier(0.2, 0, 0.38, 0.9)": 1,
+  "max-width, background 0.11s, 0.11s cubic-bezier(0.2, 0, 0.38, 0.9), cubic-bezier(0.2, 0, 0.38, 0.9)": 1,
+  "background-color 0.11s cubic-bezier(0.2, 0, 0.38, 0.9)": 1,
+  "transform, top 0.15s, 0.11s cubic-bezier(0.2, 0.2, 0.38, 0.9), ease": 1,
+  "width 0.11s cubic-bezier(0.2, 0, 1, 0.9)": 1,
+  "all 0.15s ease": 1,
+  "all 0.11s ease": 1,
+  "opacity 0.11s ease": 1,
+  "background 0.11s cubic-bezier(0.2, 0, 0.38, 0.9)": 1
+ },
+ "border": {
+  "1px solid rgb(224, 224, 224)": 7,
+  "1px solid rgba(0, 0, 0, 0)": 1
+ },
+ "textTransform": {
+  "none": 78
+ },
+ "typePairs": {
+  "IBM Plex Sans Var | 20px | 400 | lh 28px | ls normal": 14,
+  "IBM Plex Sans Var | 14px | 600 | lh 20px | ls 0.16px": 13,
+  "IBM Plex Sans Var | 14px | 600 | lh 18.0001px | ls 0.16px": 11,
+  "IBM Plex Sans Var | 12px | 400 | lh 16px | ls 0.32px": 7,
+  "IBM Plex Sans Var | 21.8824px | 400 | lh 27.353px | ls normal": 7,
+  "IBM Plex Sans Var | 14px | 400 | lh 18.0001px | ls 0.16px": 6,
+  "IBM Plex Sans Var | 14px | 400 | lh 20px | ls 0.16px": 6,
+  "IBM Plex Sans Var | 14px | 600 | lh 20px | ls 0.1px": 5,
+  "IBM Plex Sans Var | 16px | 400 | lh 22px | ls normal": 4,
+  "IBM Plex Sans Var | 16px | 400 | lh 24px | ls normal": 3,
+  "IBM Plex Sans Var | 16px | 600 | lh 22px | ls normal": 1,
+  "IBM Plex Sans Var | 30.9092px | 300 | lh 39.8728px | ls normal": 1
+ },
+ "headings": [
+  "H2 Tools, templates and assets",
+  "H2 What’s new"
+ ],
+ "nav": [
+  {
+   "t": "Skip to main content",
+   "h": "https://www.ibm.com/design/language/#main-content"
+  },
+  {
+   "t": "IBM \nDesign Language",
+   "h": "https://www.ibm.com/design/language/"
+  },
+  {
+   "t": "IBM Brand Center",
+   "h": "https://ibm.com/brand"
+  },
+  {
+   "t": "IBM Design Language",
+   "h": "https://ibm.com/design/language"
+  },
+  {
+   "t": "Carbon Design System",
+   "h": "https://www.carbondesignsystem.com/"
+  },
+  {
+   "t": "Carbon for IBM Products",
+   "h": "http://ibm.biz/carbon4ibmproducts"
+  },
+  {
+   "t": "Carbon for IBM.com",
+   "h": "https://www.ibm.com/standards/carbon/"
+  },
+  {
+   "t": "IBM Event Design",
+   "h": "https://www.ibm.com/design/event/"
+  },
+  {
+   "t": "IBM Workplace Design",
+   "h": "https://www.ibm.com/design/workplace/"
+  },
+  {
+   "t": "Enterprise Design Thinking",
+   "h": "https://www.ibm.com/design/thinking/"
+  },
+  {
+   "t": "IBM Accessibility",
+   "h": "https://www.ibm.com/able/"
+  },
+  {
+   "t": "IBM Design for AI",
+   "h": "https://www.ibm.com/design/ai"
+  },
+  {
+   "t": "IBM Design Research",
+   "h": "https://www.ibm.com/design/research/"
+  },
+  {
+   "t": "IBM Experience Standards",
+   "h": "https://w3.ibm.com/design/experience-standards/"
+  },
+  {
+   "t": "IBM Design",
+   "h": "https://w3.ibm.com/design/"
+  },
+  {
+   "t": "Gallery",
+   "h": "https://www.ibm.com/design/language/gallery"
+  },
+  {
+   "t": "Color",
+   "h": "https://www.ibm.com/design/language/color"
+  },
+  {
+   "t": "2x Grid",
+   "h": "https://www.ibm.com/design/language/2x-grid"
+  },
+  {
+   "t": "Resources",
+   "h": "https://www.ibm.com/design/language/resources"
+  },
+  {
+   "t": "What’s new",
+   "h": "https://www.ibm.com/design/language/whats-new"
+  },
+  {
+   "t": "Philosophy",
+   "h": "https://www.ibm.com/design/language/philosophy/pov/"
+  },
+  {
+   "t": "Gallery",
+   "h": "https://www.ibm.com/design/language/gallery/"
+  },
+  {
+   "t": "Typeface",
+   "h": "https://www.ibm.com/design/language/typography/typeface"
+  },
+  {
+   "t": "Philosophy",
+   "h": "https://www.ibm.com/design/language/philosophy/pov"
+  },
+  {
+   "t": "Color",
+   "h": "https://www.ibm.com/design/language/color"
+  },
+  {
+   "t": "Photography",
+   "h": "https://www.ibm.com/design/language/photography/overview"
+  },
+  {
+   "t": "Illustration",
+   "h": "https://www.ibm.com/design/language/illustration/overview"
+  },
+  {
+   "t": "2x Grid",
+   "h": "https://www.ibm.com/design/language/2x-grid"
+  },
+  {
+   "t": "IBM Plex® typeface latest release",
+   "h": "https://www.ibm.com/design/language/typography/typeface#resources"
+  },
+  {
+   "t": "IBM color specifications",
+   "h": "https://www.ibm.com/design/language/color#specifications"
+  },
+  {
+   "t": "2x Grid for video",
+   "h": "https://www.ibm.com/design/language/2x-grid#2x-grid-for-video"
+  },
+  {
+   "t": "UI icon resources",
+   "h": "https://www.ibm.com/design/language/iconography/ui-icons/design#resources"
+  },
+  {
+   "t": "Pictogram resources",
+   "h": "https://www.ibm.com/design/language/iconography/pictograms/design#resources"
+  },
+  {
+   "t": "Illustration starter kits",
+   "h": "https://www.ibm.com/design/language/resources#illustration"
+  },
+  {
+   "t": "Carbon design kits",
+   "h": "https://carbondesignsystem.com/designing/kits/figma"
+  },
+  {
+   "t": "Questions?",
+   "h": "https://www.ibm.com/design/language/help/support#questions"
+  },
+  {
+   "t": "IBM Plex® Sans Chinese SC\n\nDecember 2024",
+   "h": "https://www.ibm.com/design/language/whats-new#ibm-plex-sans-chinese-(simplified)"
+  },
+  {
+   "t": "IBM Plex® Math\n\nSeptember 2024",
+   "h": "https://www.ibm.com/design/language/whats-new#ibm-plex-math"
+  },
+  {
+   "t": "IBM Plex® Sans Chinese TC\n\nSeptember 2024",
+   "h": "https://www.ibm.com/design/language/whats-new#ibm-plex-sans-chinese-(traditional)"
+  },
+  {
+   "t": "Next\nPhilosophy: Point of view",
+   "h": "https://www.ibm.com/design/language/philosophy/pov"
+  },
+  {
+   "t": "Privacy",
+   "h": "https://www.ibm.com/privacy"
+  },
+  {
+   "t": "Terms of use",
+   "h": "https://www.ibm.com/legal"
+  },
+  {
+   "t": "IBM.com",
+   "h": "https://ibm.com/"
+  },
+  {
+   "t": "Twitter",
+   "h": "https://twitter.com/ibmdesign"
+  },
+  {
+   "t": "Instagram",
+   "h": "https://www.instagram.com/ibm/?hl=en"
+  },
+  {
+   "t": "#ibm-brand",
+   "h": "https://ibm.enterprise.slack.com/archives/ibm-brand"
+  },
+  {
+   "t": "inquiry form",
+   "h": "https://airtable.com/shry0TE1BWCj3omPO"
+  }
+ ],
+ "fullHeight": 3769
+}

@@ -1,0 +1,13 @@
+{
+ "requested": "https://developer.spotify.com/documentation/design",
+ "final": "https://developer.spotify.com/documentation/accessibility",
+ "title": "Design & Branding Guidelines | Spotify for Developers",
+ "subpages": [
+  {
+   "href": "https://developer.spotify.com/documentation/accessibility",
+   "t": "Accessibility",
+   "ok": true
+  }
+ ],
+ "cssFiles": 4
+}

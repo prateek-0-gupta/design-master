@@ -1,0 +1,139 @@
+{
+ "url": "https://heyitsinstacart.com/photography/",
+ "title": "Instacart Brand Guide — Photography",
+ "scrollHeight": 900,
+ "customProperties": {
+  "--min-desktop-width": "769px"
+ },
+ "loadedFonts": [
+  "custom_72625 400 normal",
+  "custom_72625 600 normal",
+  "custom_72626 400 normal"
+ ],
+ "fontFamily": {
+  "custom_72625": 23,
+  "custom_72626": 17
+ },
+ "fontSize": {
+  "36px": 11,
+  "24px": 10,
+  "40.1408px": 7,
+  "20.7178px": 5,
+  "12.9486px": 3,
+  "17px": 1,
+  "60px": 1,
+  "30px": 1,
+  "25.8973px": 1
+ },
+ "fontWeight": {
+  "400": 39,
+  "600": 1
+ },
+ "lineHeight": {
+  "32px": 11,
+  "29px": 10,
+  "40px": 5,
+  "21px": 3,
+  "14px": 3,
+  "44px": 2,
+  "23px": 2,
+  "45px": 1,
+  "72px": 1,
+  "36px": 1,
+  "26px": 1
+ },
+ "letterSpacing": {
+  "normal": 33,
+  "0.1px": 3,
+  "0.4px": 2,
+  "0.2px": 2
+ },
+ "textColor": {
+  "rgb(250, 241, 229)": 20,
+  "rgb(0, 0, 0)": 10,
+  "rgb(197, 255, 150)": 6,
+  "rgb(249, 251, 147)": 2,
+  "rgb(0, 61, 41)": 1,
+  "rgb(255, 112, 9)": 1
+ },
+ "bg": {
+  "rgb(255, 255, 255)": 10,
+  "rgb(0, 61, 41)": 4,
+  "rgb(0, 0, 0)": 3,
+  "rgb(249, 251, 147)": 1
+ },
+ "radius": {
+  "40px": 1
+ },
+ "shadow": {},
+ "transition": {
+  "opacity 0.2s ease": 20,
+  "transform, opacity 0s, 0s ease, ease": 1
+ },
+ "border": {},
+ "textTransform": {
+  "none": 40
+ },
+ "typePairs": {
+  "custom_72625 | 36px | 400 | lh 32px | ls normal": 11,
+  "custom_72625 | 24px | 400 | lh 29px | ls normal": 9,
+  "custom_72626 | 40.1408px | 400 | lh 40px | ls normal": 5,
+  "custom_72626 | 20.7178px | 400 | lh 21px | ls normal": 3,
+  "custom_72626 | 12.9486px | 400 | lh 14px | ls 0.1px": 3,
+  "custom_72626 | 40.1408px | 400 | lh 44px | ls 0.4px": 2,
+  "custom_72626 | 20.7178px | 400 | lh 23px | ls 0.2px": 2,
+  "custom_72626 | 17px | 400 | lh 45px | ls normal": 1,
+  "custom_72625 | 60px | 400 | lh 72px | ls normal": 1,
+  "custom_72625 | 30px | 400 | lh 36px | ls normal": 1,
+  "custom_72626 | 25.8973px | 400 | lh 26px | ls normal": 1,
+  "custom_72625 | 24px | 600 | lh 29px | ls normal": 1
+ },
+ "headings": [],
+ "nav": [
+  {
+   "t": "Login",
+   "h": "https://instacart.orangelogic.com/CS.aspx?VP3=LoginRegistration&L=True&R=False"
+  },
+  {
+   "t": "View Image Library",
+   "h": "https://instacart.orangelogic.com/asset-management/2FV4082Y2Y2?WS=AssetManagement&Flat=y"
+  },
+  {
+   "t": "Index",
+   "h": "https://heyitsinstacart.com/index/"
+  },
+  {
+   "t": "Carrot",
+   "h": "https://heyitsinstacart.com/carrot/"
+  },
+  {
+   "t": "Typography",
+   "h": "https://heyitsinstacart.com/typography/"
+  },
+  {
+   "t": "Brand Element",
+   "h": "https://heyitsinstacart.com/brandelement/"
+  },
+  {
+   "t": "Big Green Bag",
+   "h": "https://heyitsinstacart.com/biggreenbag/"
+  },
+  {
+   "t": "Photography",
+   "h": "https://heyitsinstacart.com/photography/"
+  },
+  {
+   "t": "Logo",
+   "h": "https://heyitsinstacart.com/logo/"
+  },
+  {
+   "t": "Colors",
+   "h": "https://heyitsinstacart.com/color/"
+  },
+  {
+   "t": "Layout",
+   "h": "https://heyitsinstacart.com/layout/"
+  }
+ ],
+ "fullHeight": 900
+}

@@ -1,0 +1,5 @@
+{
+ "bg-dropbox": "page.goto: net::ERR_CERT_DATE_INVALID at https://dropboxdesignstandards.com/\nCall log:\n\u001b[2m  - navigating to \"https://dropboxdesignstandards.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+ "bg-starbucks": "page.goto: net::ERR_CERT_DATE_INVALID at https://creative.starbucks.com/\nCall log:\n\u001b[2m  - navigating to \"https://creative.starbucks.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+ "bg-the-mellon-foundation": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.brandguidelines.mellon.org/\nCall log:\n\u001b[2m  - navigating to \"https://www.brandguidelines.mellon.org/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+}

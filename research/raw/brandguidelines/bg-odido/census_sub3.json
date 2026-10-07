@@ -1,0 +1,261 @@
+{
+ "url": "https://merk.odido.nl/en/colour",
+ "title": "Colour",
+ "scrollHeight": 12912,
+ "customProperties": {
+  "--tw-ring-offset-shadow": "0 0 #0000",
+  "--tw-contrast": "",
+  "--tw-backdrop-sepia": "",
+  "--tw-ring-shadow": "0 0 #0000",
+  "--tw-sepia": "",
+  "--tw-skew-x": "0",
+  "--tw-ordinal": "",
+  "--tw-backdrop-saturate": "",
+  "--tw-backdrop-blur": "",
+  "--tw-shadow": "0 0 #0000",
+  "--tw-translate-x": "0",
+  "--tw-ring-offset-width": "0px",
+  "--tw-ring-inset": "",
+  "--tw-gradient-via-position": "",
+  "--tw-backdrop-invert": "",
+  "--tw-saturate": "",
+  "--tw-scroll-snap-strictness": "proximity",
+  "--tw-numeric-spacing": "",
+  "--tw-grayscale": "",
+  "--tw-scale-x": "1",
+  "--tw-border-spacing-x": "0",
+  "--tw-backdrop-hue-rotate": "",
+  "--tw-shadow-colored": "0 0 #0000",
+  "--tw-gradient-to-position": "",
+  "--tw-brightness": "",
+  "--tw-border-spacing-y": "0",
+  "--tw-numeric-fraction": "",
+  "--tw-backdrop-grayscale": "",
+  "--tw-hue-rotate": "",
+  "--tw-scale-y": "1",
+  "--tw-pan-y": "",
+  "--tw-backdrop-contrast": "",
+  "--tw-drop-shadow": "",
+  "--tw-skew-y": "0",
+  "--tw-ring-color": "rgba(59,130,246,.5)",
+  "--tw-backdrop-brightness": "",
+  "--tw-slashed-zero": "",
+  "--tw-blur": "",
+  "--tw-invert": "",
+  "--tw-pan-x": "",
+  "--tw-translate-y": "0",
+  "--tw-backdrop-opacity": "",
+  "--tw-gradient-from-position": "",
+  "--tw-numeric-figure": "",
+  "--tw-rotate": "0",
+  "--tw-pinch-zoom": "",
+  "--tw-ring-offset-color": "#fff"
+ },
+ "loadedFonts": [
+  "Otypical Text 400 normal",
+  "Otypical Headline 500 normal"
+ ],
+ "fontFamily": {
+  "\"Otypical Text\", Arial, sans-serif": 245,
+  "\"Otypical Headline\", sans-serif": 14
+ },
+ "fontSize": {
+  "12px": 126,
+  "16px": 107,
+  "24px": 12,
+  "42px": 9,
+  "64px": 4,
+  "104px": 1
+ },
+ "fontWeight": {
+  "400": 245,
+  "500": 14
+ },
+ "lineHeight": {
+  "16px": 126,
+  "24px": 65,
+  "26px": 42,
+  "32px": 12,
+  "48px": 9,
+  "64px": 4,
+  "100px": 1
+ },
+ "letterSpacing": {
+  "0.24px": 126,
+  "0.32px": 101,
+  "normal": 32
+ },
+ "textColor": {
+  "rgb(0, 0, 0)": 225,
+  "rgb(187, 187, 187)": 28,
+  "rgb(255, 255, 255)": 6
+ },
+ "bg": {
+  "rgb(255, 0, 0)": 10,
+  "rgb(236, 236, 236)": 7,
+  "rgb(0, 0, 0)": 4,
+  "rgb(187, 187, 187)": 3,
+  "rgb(44, 114, 255)": 3,
+  "rgb(47, 154, 146)": 3,
+  "rgb(255, 118, 33)": 3,
+  "rgb(255, 128, 140)": 3,
+  "rgb(255, 255, 255)": 2,
+  "rgb(87, 143, 255)": 2,
+  "rgb(130, 172, 255)": 2,
+  "rgb(173, 200, 255)": 2,
+  "rgb(195, 215, 255)": 2,
+  "rgb(238, 243, 255)": 2,
+  "rgb(89, 175, 168)": 2,
+  "rgb(132, 195, 190)": 2,
+  "rgb(174, 216, 213)": 2,
+  "rgb(217, 236, 235)": 2,
+  "rgb(238, 247, 246)": 2,
+  "rgb(255, 172, 36)": 2,
+  "rgb(255, 189, 81)": 2,
+  "rgb(255, 206, 125)": 2,
+  "rgb(255, 223, 170)": 2,
+  "rgb(255, 240, 215)": 2,
+  "rgb(255, 248, 237)": 2,
+  "rgb(255, 146, 78)": 2,
+  "rgb(255, 174, 124)": 2,
+  "rgb(255, 202, 169)": 2,
+  "rgb(255, 230, 214)": 2,
+  "rgb(255, 244, 237)": 2,
+  "rgb(255, 154, 163)": 2,
+  "rgb(255, 180, 187)": 2,
+  "rgb(255, 206, 210)": 2,
+  "rgb(255, 232, 234)": 2,
+  "rgb(255, 245, 246)": 2,
+  "rgb(112, 102, 255)": 2,
+  "rgb(141, 133, 255)": 2,
+  "rgb(170, 164, 255)": 2,
+  "rgb(199, 196, 255)": 2,
+  "rgb(229, 227, 255)": 2
+ },
+ "radius": {
+  "9999px": 33,
+  "9999px 9999px 0px 0px": 12,
+  "0px 0px 9999px 9999px": 12,
+  "40px": 12
+ },
+ "shadow": {},
+ "transition": {
+  "opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)": 6,
+  "all 0.1s cubic-bezier(0.4, 0, 0.2, 1)": 4,
+  "all 0.15s cubic-bezier(0.4, 0, 0.2, 1)": 4
+ },
+ "border": {
+  "1px solid rgb(187, 187, 187)": 5,
+  "2px solid rgb(0, 0, 0)": 2,
+  "1px solid rgb(44, 114, 255)": 1,
+  "1px solid rgb(47, 154, 146)": 1,
+  "1px solid rgb(255, 172, 36)": 1,
+  "1px solid rgb(255, 118, 33)": 1,
+  "1px solid rgb(255, 128, 140)": 1,
+  "1px solid rgb(112, 102, 255)": 1
+ },
+ "textTransform": {
+  "none": 259
+ },
+ "typePairs": {
+  "Otypical Text | 12px | 400 | lh 16px | ls 0.24px": 126,
+  "Otypical Text | 16px | 400 | lh 24px | ls 0.32px": 59,
+  "Otypical Text | 16px | 400 | lh 26px | ls 0.32px": 42,
+  "Otypical Text | 24px | 400 | lh 32px | ls normal": 12,
+  "Otypical Headline | 42px | 500 | lh 48px | ls normal": 9,
+  "Otypical Text | 16px | 400 | lh 24px | ls normal": 6,
+  "Otypical Headline | 64px | 500 | lh 64px | ls normal": 4,
+  "Otypical Headline | 104px | 500 | lh 100px | ls normal": 1
+ },
+ "headings": [
+  "H1 Colour",
+  "H2 Colour palettes",
+  "H3 Core colour palette",
+  "H3 Secondary colour palette",
+  "H2 Colour combinations",
+  "H3 Glows colour combination",
+  "H3 Examples",
+  "H3 The Glow contrast",
+  "H3 Secondary colour palette combination",
+  "H2 Applying colours",
+  "H3 Colour proportions across levels",
+  "H3 Colour usage examples across levels",
+  "H3 Don’ts",
+  "H2 Application examples"
+ ],
+ "nav": [
+  {
+   "t": "Introduction",
+   "h": "https://merk.odido.nl/en"
+  },
+  {
+   "t": "Brand foundation",
+   "h": "https://merk.odido.nl/en/brand-foundation"
+  },
+  {
+   "t": "Logo",
+   "h": "https://merk.odido.nl/en/logo"
+  },
+  {
+   "t": "Colour",
+   "h": "https://merk.odido.nl/en/colour"
+  },
+  {
+   "t": "Typography",
+   "h": "https://merk.odido.nl/en/typography"
+  },
+  {
+   "t": "Layout",
+   "h": "https://merk.odido.nl/en/layout"
+  },
+  {
+   "t": "Shapes",
+   "h": "https://merk.odido.nl/en/shapes"
+  },
+  {
+   "t": "Photography",
+   "h": "https://merk.odido.nl/en/photography"
+  },
+  {
+   "t": "Illustration",
+   "h": "https://merk.odido.nl/en/illustration"
+  },
+  {
+   "t": "Iconography",
+   "h": "https://merk.odido.nl/en/iconography"
+  },
+  {
+   "t": "Motion",
+   "h": "https://merk.odido.nl/en/motion"
+  },
+  {
+   "t": "Sonic",
+   "h": "https://merk.odido.nl/en/sonic"
+  },
+  {
+   "t": "Tone of Voice",
+   "h": "https://merk.odido.nl/en/tone-of-voice"
+  },
+  {
+   "t": "Digital",
+   "h": "https://merk.odido.nl/en/digital"
+  },
+  {
+   "t": "Resources",
+   "h": "https://merk.odido.nl/en/resources"
+  },
+  {
+   "t": "Support",
+   "h": "https://merk.odido.nl/en/support"
+  },
+  {
+   "t": "Build the glow mirror",
+   "h": "https://merk.odido.nl/en/layout"
+  },
+  {
+   "t": "Download the Glows",
+   "h": "https://merk.odido.nl/en/resources"
+  }
+ ],
+ "fullHeight": 12912
+}

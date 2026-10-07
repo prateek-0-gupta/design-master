@@ -1,0 +1,637 @@
+{
+ "url": "https://www.redhat.com/en/about/brand/standards/hybrid-style-handbook",
+ "title": "Hybrid style handbook - Red Hat brand standards",
+ "scrollHeight": 5064,
+ "customProperties": {
+  "--felt-preview-color-interactive-secondary-underline-hover": "light-dark(\n        #8c8c8c,\n        #a3a3a3\n      )",
+  "--felt-preview-color-interactive-fill-plain-on-dark": "rgba(199, 199, 199, 0.15)",
+  "--felt-preview-color-border-status-info-hover": "light-dark(\n        #3d2785,\n        #d0c5f4\n      )",
+  "--felt-preview-border-radius-pill": "64px",
+  "--felt-preview-color-interactive-primary-hover": "light-dark(\n        #004d99,\n        #b9dafc\n      )",
+  "--rh-color-border-status-success": "light-dark(#3d7317,#87bb62)",
+  "--rh-color-interactive-primary-visited-default": "light-dark(#5e40be,#b6a6e9)",
+  "--rh-color-border-destructive": "light-dark(#b1380b,#f0561d)",
+  "--felt-preview-color-interactive-fill-plain-active": "light-dark(\n        rgba(199, 199, 199, 0.25),\n        rgba(199, 199, 199, 0.15)\n      )",
+  "--rh-color-interactive-primary-visited-active": "light-dark(#21134d,#ece6ff)",
+  "--rh-font-family-code": "RedHatMono,\"Red Hat Mono\",\"Courier New\",Courier,monospace",
+  "--felt-preview-color-border-status-custom-hover": "light-dark(\n        #004d4d,\n        #9ad8d8\n      )",
+  "--felt-preview-space-md": "8px",
+  "--rh-font-family-body-text": "RedHatText,\"Red Hat Text\",Helvetica,Arial,sans-serif",
+  "--felt-preview-color-interactive-primary-focus": "light-dark(\n        #004d99,\n        #b9dafc\n      )",
+  "--felt-preview-color-border-status-disabled": "light-dark(\n        #a3a3a3,\n        #707070\n      )",
+  "--rh-color-border-interactive": "light-dark(#0066cc,#92c5f9)",
+  "--felt-preview-color-blue-70": "#003366",
+  "--felt-preview-color-gray-30": "#c7c7c7",
+  "--felt-preview-color-interactive-primary-active": "light-dark(\n        #004d99,\n        #b9dafc\n      )",
+  "--felt-preview-color-blue-50": "#0066cc",
+  "--felt-preview-color-status-custom-active": "light-dark(\n        #004d4d,\n        #9ad8d8\n      )",
+  "--felt-preview-color-text-status-disabled": "light-dark(\n        #a3a3a3,\n        #707070\n      )",
+  "--rh-color-interactive-secondary-default": "light-dark(#4d4d4d,#c7c7c7)",
+  "--felt-preview-color-gray-45": "#8c8c8c",
+  "--felt-preview-color-text-interactive-default": "light-dark(\n        #0066cc,\n        #b9dafc\n      )",
+  "--felt-preview-color-gray-40": "#a3a3a3",
+  "--felt-preview-color-border-status-warning-active": "",
+  "--felt-preview-color-border-control-default": "light-dark(\n        #8c8c8c,\n        #a3a3a3\n      )",
+  "--felt-preview-color-teal-30": "#9ad8d8",
+  "--rh-color-text-primary": "light-dark(#151515,#ffffff)",
+  "--felt-preview-color-status-warning": "#ffcc17",
+  "--felt-preview-color-red-orange-40": "#f4784a",
+  "--felt-preview-size-icon-00": "14px",
+  "--rh-color-icon-primary": "light-dark(#ee0000,#ee0000)",
+  "--felt-preview-color-status-success-focus": "light-dark(\n        #204d00,\n        #afdc8f\n      )",
+  "--felt-preview-color-text-status-on-danger": "white",
+  "--felt-preview-length-xs": "4px",
+  "--felt-preview-color-border-status-danger-hover": "light-dark(\n        #731f00,\n        #f4784a\n      )",
+  "--felt-preview-color-border-interactive-subtle-default": "light-dark(\n        #c7c7c7,\n        #707070\n      )",
+  "--felt-preview-color-interactive-fill-plain-on-light": "rgba(199, 199, 199, 0.25)",
+  "--felt-preview-color-status-danger-hover": "light-dark(\n        #731f00,\n        #f4784a\n      )",
+  "--rh-color-text-brand": "light-dark(#ee0000,#ee0000)",
+  "--felt-preview-color-status-info": "#5e40be",
+  "--felt-preview-color-icon-interactive-active": "light-dark(\n        #004d99,\n        #e0f0ff\n      )",
+  "--rhdc-main-nav-height": "82px",
+  "--felt-preview-color-status-danger-active": "light-dark(\n        #731f00,\n        #f4784a\n      )",
+  "--rh-color-status-info": "light-dark(#5e40be,#b6a6e9)",
+  "--rh-color-status-success": "light-dark(#3d7317,#87bb62)",
+  "--rh-color-interactive-secondary-visited-hover": "light-dark(#4d4d4d,#c7c7c7)",
+  "--rh-color-status-danger": "light-dark(#b1380b,#f0561d)",
+  "--rh-color-text-secondary": "light-dark(#4d4d4d,#c7c7c7)",
+  "--felt-preview-color-blue-30": "#92c5f9",
+  "--felt-preview-color-border-status-info-focus": "light-dark(\n        #3d2785,\n        #d0c5f4\n      )",
+  "--felt-preview-color-green-30": "#afdc8f",
+  "--felt-preview-color-status-success-hover": "light-dark(\n        #204d00,\n        #afdc8f\n      )",
+  "--felt-preview-space-xl": "24px",
+  "--felt-preview-color-text-status-danger-active": "light-dark(\n        #731f00,\n        #fbbea8\n      )",
+  "--felt-preview-color-teal-60": "#147878",
+  "--felt-preview-color-interactive-secondary-underline-focus": "light-dark(\n        #8c8c8c,\n        #a3a3a3\n      )",
+  "--felt-preview-color-border-interactive-default": "light-dark(\n        #0066cc,\n        #92c5f9\n      )",
+  "--rh-color-interactive-primary-visited-focus": "light-dark(#21134d,#ece6ff)",
+  "--rh-color-surface-status-warning": "light-dark(#fff4cc,#73480b)",
+  "--rh-color-icon-status-default": "light-dark(#4d4d4d,#4d4d4d)",
+  "--felt-preview-color-text-status-on-info": "white",
+  "--felt-preview-color-interactive-tertiary-active": "light-dark(\n        #004d99,\n        #e0f0ff\n      )",
+  "--rh-color-surface-status-success": "light-dark(#e9f7df,#e9f7df)",
+  "--felt-preview-color-border-interactive-subtle-active": "light-dark(\n        #0066cc,\n        #b9dafc\n      )",
+  "--rh-color-border-status-neutral": "light-dark(#4d4d4d,#c7c7c7)",
+  "--felt-preview-color-text-interactive-active": "light-dark(\n        #004d99,\n        #e0f0ff\n      )",
+  "--rh-color-interactive-secondary-visited-default": "light-dark(#4d4d4d,#c7c7c7)",
+  "--felt-preview-line-height-body-text": "1.5",
+  "--felt-preview-color-border-status-warning-focus": "",
+  "--felt-preview-color-interactive-tertiary-default": "light-dark(\n        #0066cc,\n        #b9dafc\n      )",
+  "--felt-preview-color-icon-status-danger-active": "light-dark(\n        #731f00,\n        #f4784a\n      )",
+  "--felt-preview-color-status-danger-focus": "light-dark(\n        #731f00,\n        #f4784a\n      )",
+  "--felt-preview-color-border-status-info-active": "light-dark(\n        #3d2785,\n        #d0c5f4\n      )",
+  "--rh-color-surface-status-danger": "light-dark(#ffe3d9,#ffe3d9)",
+  "--felt-preview-color-status-warning-focus": "light-dark(\n        #dca614,\n        #ffe072\n      )",
+  "--rh-color-border-status-caution": "light-dark(#ca6c0f,#f5921b)",
+  "--rh-color-interactive-secondary-visited-active": "light-dark(#4d4d4d,#c7c7c7)",
+  "--felt-preview-color-gray-10": "#f2f2f2",
+  "--felt-preview-color-text-status-on-custom": "white",
+  "--rh-color-status-warning": "light-dark(#dca614,#ffcc17)",
+  "--rh-color-surface": "light-dark(#ffffff,#151515)",
+  "--felt-preview-color-text-primary-inverse": "light-dark(\n        white,\n        #1f1f1f\n      )",
+  "--felt-preview-color-gray-95": "#151515",
+  "--rh-color-surface-status-neutral": "light-dark(#f2f2f2,#f2f2f2)",
+  "--rh-color-interactive-primary-hover": "light-dark(#003366,#b9dafc)",
+  "--rh-color-status-note": "light-dark(#5e40be,#b6a6e9)",
+  "--felt-preview-color-icon-interactive-focus": "light-dark(\n        #004d99,\n        #e0f0ff\n      )",
+  "--rh-color-icon-status-warning": "light-dark(#dca614,#ffcc17)",
+  "--felt-preview-color-gray-90": "#1f1f1f",
+  "--felt-preview-border-radius-menu": "calc(\n        6px\n        + 4px\n      )",
+  "--rh-color-interactive-primary-default": "light-dark(#0066cc,#92c5f9)",
+  "--felt-preview-space-2xl": "32px",
+  "--felt-preview-color-status-custom-hover": "light-dark(\n        #004d4d,\n        #9ad8d8\n      )",
+  "--felt-preview-font-size-body-text-sm": "0.875rem",
+  "--rh-color-interactive-secondary-focus": "light-dark(#4d4d4d,#c7c7c7)",
+  "--felt-preview-color-gray-70": "#383838",
+  "--felt-preview-color-red-orange-20": "#fbbea8",
+  "--felt-preview-color-icon-status-disabled": "light-dark(\n        #a3a3a3,\n        #707070\n      )",
+  "--felt-preview-color-status-success-active": "light-dark(\n        #204d00,\n        #afdc8f\n      )",
+  "--felt-preview-color-border-status-custom-focus": "light-dark(\n        #004d4d,\n        #9ad8d8\n      )",
+  "--felt-preview-color-text-status-danger-hover": "light-dark(\n        #731f00,\n        #fbbea8\n      )",
+  "--rh-color-interactive-primary-active": "light-dark(#003366,#b9dafc)",
+  "--rh-color-border-subtle": "light-dark(#c7c7c7,#707070)",
+  "--felt-preview-color-status-info-active": "light-dark(\n        #3d2785,\n        #d0c5f4\n      )",
+  "--felt-preview-color-interactive-fill-plain-focus": "light-dark(\n        rgba(199, 199, 199, 0.25),\n        rgba(199, 199, 199, 0.15)\n      )",
+  "--felt-preview-color-blue-60": "#004d99",
+  "--felt-preview-color-border-interactive-subtle-focus": "light-dark(\n        #0066cc,\n        #b9dafc\n      )",
+  "--felt-preview-color-red-orange-50": "#f0561d",
+  "--rh-color-accent-base": "light-dark(#0066cc,#92c5f9)",
+  "--felt-preview-color-gray-50": "#707070",
+  "--felt-preview-color-interactive-tertiary-focus": "light-dark(\n        #004d99,\n        #e0f0ff\n      )",
+  "--felt-preview-space-lg": "16px",
+  "--felt-preview-color-interactive-secondary-underline-default": "light-dark(\n        #8c8c8c,\n        #a3a3a3\n      )",
+  "--felt-preview-color-icon-secondary-inverse": "light-dark(\n        #f2f2f2,\n        #1f1f1f\n      )",
+  "--felt-preview-font-size-body-text-md": "1rem",
+  "--felt-preview-line-height-body-text-md": "1.5",
+  "--rh-color-status-caution": "light-dark(#ca6c0f,#f5921b)",
+  "--felt-preview-border-width-sm": "1px",
+  "--felt-preview-color-border-status-warning-hover": "",
+  "--felt-preview-color-gray-20": "#e0e0e0",
+  "--rh-color-surface-status-default": "light-dark(#f2f2f2,#f2f2f2)",
+  "--felt-preview-color-text-status-on-warning": "#151515",
+  "--rh-color-accent-brand": "light-dark(#ee0000,#ee0000)",
+  "--rh-color-icon-status-success": "light-dark(#3d7317,#87bb62)",
+  "--felt-preview-color-brand-accent": "light-dark(\n        #0066cc,\n        #92c5f9\n      )",
+  "--rh-color-border-status-info": "light-dark(#5e40be,#b6a6e9)",
+  "--felt-preview-color-interactive-tertiary-hover": "light-dark(\n        #004d99,\n        #e0f0ff\n      )",
+  "--rh-color-icon-status-caution": "light-dark(#ca6c0f,#f5921b)",
+  "--felt-preview-color-blue-20": "#b9dafc",
+  "--rh-color-surface-status-caution": "light-dark(#ffe8cc,#ffe8cc)",
+  "--felt-preview-color-interactive-fill-plain-alt-hover": "light-dark(#ffffff, #292929)",
+  "--felt-preview-color-status-danger": "light-dark(\n        #b1380b,\n        #f0561d\n      )",
+  "--rh-color-surface-status-info": "light-dark(#ece6ff,#ece6ff)",
+  "--felt-preview-color-red-orange-60": "#b1380b",
+  "--felt-preview-border-radius-action-plain": "6px",
+  "--felt-preview-color-interactive-secondary-underline-active": "light-dark(\n        #8c8c8c,\n        #a3a3a3\n      )",
+  "--felt-preview-space-sm": "6px",
+  "--felt-preview-color-blue-10": "#e0f0ff",
+  "--felt-preview-color-teal-70": "#004d4d",
+  "--felt-preview-color-text-status-danger-focus": "light-dark(\n        #731f00,\n        #fbbea8\n      )",
+  "--felt-preview-color-red-orange-30": "#f89b78",
+  "--felt-preview-color-purple-60": "#3d2785",
+  "--rh-color-icon-status-danger": "light-dark(#b1380b,#f0561d)",
+  "--felt-preview-color-border-status-success-focus": "light-dark(\n        #204d00,\n        #afdc8f\n      )",
+  "--felt-preview-color-green-70": "#204d00",
+  "--rh-color-interactive-secondary-hover": "light-dark(#4d4d4d,#c7c7c7)",
+  "--felt-preview-color-interactive-fill-plain-default": "transparent",
+  "--rh-color-interactive-secondary-visited-focus": "light-dark(#4d4d4d,#c7c7c7)",
+  "--felt-preview-color-icon-status-on-disabled": "light-dark(\n        #707070,\n        #383838\n      )",
+  "--rh-color-brand-red": "light-dark(#ee0000,#ee0000)",
+  "--felt-preview-color-text-status-on-disabled": "light-dark(\n        #707070,\n        #383838\n      )",
+  "--felt-preview-color-icon-status-danger-focus": "light-dark(\n        #731f00,\n        #f4784a\n      )",
+  "--rh-color-icon-status-info": "light-dark(#5e40be,#b6a6e9)",
+  "--felt-preview-color-gray-60": "#4d4d4d",
+  "--rh-font-family-heading": "RedHatDisplay,\"Red Hat Display\",Helvetica,Arial,sans-serif",
+  "--felt-preview-color-icon-secondary": "light-dark(\n        #1f1f1f,\n        #f2f2f2\n      )",
+  "--felt-preview-color-gray-80": "#292929",
+  "--felt-preview-border-width-md": "2px",
+  "--felt-preview-color-text-interactive-hover": "light-dark(\n        #004d99,\n        #e0f0ff\n      )",
+  "--felt-preview-color-text-status-danger": "light-dark(\n        #b1380b,\n        #f89b78\n      )",
+  "--felt-preview-color-surface-primary": "light-dark(\n        white,\n        #292929\n      )",
+  "--felt-preview-box-shadow-floating": "0 0 10px 0 rgba(41, 41, 41, 0.15)",
+  "--felt-preview-border-radius-default": "16px",
+  "--felt-preview-border-width-lg": "3px",
+  "--felt-preview-color-border-status-success-active": "light-dark(\n        #204d00,\n        #afdc8f\n      )",
+  "--rh-color-icon-secondary": "light-dark(#151515,#ffffff)",
+  "--felt-preview-color-status-success": "#3d7317",
+  "--felt-preview-color-text-interactive-focus": "light-dark(\n        #004d99,\n        #e0f0ff\n      )",
+  "--felt-preview-color-yellow-20": "#ffe072",
+  "--felt-preview-color-border-status-danger-focus": "light-dark(\n        #731f00,\n        #f4784a\n      )",
+  "--felt-preview-space-3xl": "48px",
+  "--felt-preview-color-red-orange-70": "#731f00",
+  "--rh-color-interactive-primary-visited-hover": "light-dark(#21134d,#ece6ff)",
+  "--felt-preview-color-border-interactive-subtle-hover": "light-dark(\n        #4394e5,\n        #92c5f9\n      )",
+  "--felt-preview-color-status-warning-active": "light-dark(\n        #dca614,\n        #ffe072\n      )",
+  "--felt-preview-color-border-track": "light-dark(\n        #b9dafc,\n        #003366\n      )",
+  "--felt-preview-color-border-status-success-hover": "light-dark(\n        #204d00,\n        #afdc8f\n      )",
+  "--felt-preview-color-interactive-fill-plain-hover": "light-dark(\n        rgba(199, 199, 199, 0.25),\n        rgba(199, 199, 199, 0.15)\n      )",
+  "--felt-preview-color-status-custom-focus": "light-dark(\n        #004d4d,\n        #9ad8d8\n      )",
+  "--felt-preview-color-border-status-custom-active": "light-dark(\n        #004d4d,\n        #9ad8d8\n      )",
+  "--felt-preview-color-interactive-fill-plain-clicked": "light-dark(\n        rgba(199, 199, 199, 0.25),\n        rgba(199, 199, 199, 0.15)\n      )",
+  "--felt-preview-color-border-status-danger-active": "light-dark(\n        #731f00,\n        #f4784a\n      )",
+  "--felt-preview-color-border-subtle": "light-dark(\n        #e0e0e0,\n        #4d4d4d\n      )",
+  "--felt-preview-space-xs": "4px",
+  "--felt-preview-color-status-warning-hover": "light-dark(\n        #dca614,\n        #ffe072\n      )",
+  "--rh-color-interactive-secondary-active": "light-dark(#4d4d4d,#c7c7c7)",
+  "--felt-preview-color-text-status-on-success": "white",
+  "--felt-preview-color-blue-40": "#4394e5",
+  "--felt-preview-color-status-custom": "light-dark(\n        #147878,\n        #63bdbd\n      )",
+  "--felt-preview-color-icon-status-danger-hover": "light-dark(\n        #731f00,\n        #f4784a\n      )",
+  "--felt-preview-border-radius-large": "24px",
+  "--rh-color-border-strong": "light-dark(#151515,#ffffff)",
+  "--felt-preview-color-purple-20": "#d0c5f4",
+  "--rh-color-status-neutral": "light-dark(#4d4d4d,#c7c7c7)",
+  "--felt-preview-color-icon-interactive-hover": "light-dark(\n        #004d99,\n        #e0f0ff\n      )",
+  "--felt-preview-color-status-info-hover": "light-dark(\n        #3d2785,\n        #d0c5f4\n      )",
+  "--rh-color-border-status-warning": "light-dark(#dca614,#ffcc17)",
+  "--rh-color-border-status-danger": "light-dark(#b1380b,#f0561d)",
+  "--rh-color-interactive-primary-focus": "light-dark(#003366,#b9dafc)",
+  "--rh-color-icon-status-neutral": "light-dark(#4d4d4d,#c7c7c7)",
+  "--felt-preview-color-status-info-focus": "light-dark(\n        #3d2785,\n        #d0c5f4\n      )",
+  "--felt-preview-color-yellow-40": "#dca614",
+  "--felt-preview-color-teal-40": "#63bdbd",
+  "--felt-preview-color-icon-subtle": "light-dark(\n        #707070,\n        #a3a3a3\n      )",
+  "--felt-preview-color-icon-interactive-default": "light-dark(\n        #0066cc,\n        #b9dafc\n      )",
+  "--felt-preview-color-interactive-primary-default": "light-dark(\n        #0066cc,\n        #92c5f9\n      )"
+ },
+ "loadedFonts": [
+  "Red Hat Display 300 900 normal",
+  "Red Hat Text 300 700 normal",
+  "Red Hat Text 300 700 italic"
+ ],
+ "fontFamily": {
+  "RedHatText, \"Red Hat Text\", Helvetica, Arial, sans-serif": 83,
+  "RedHatDisplay, \"Red Hat Display\", Helvetica, Arial, sans-serif": 10,
+  "\"Red Hat Display Medium\"": 2
+ },
+ "fontSize": {
+  "16px": 36,
+  "14px": 19,
+  "12px": 17,
+  "18px": 15,
+  "28px": 3,
+  "24px": 2,
+  "20px": 2,
+  "36px": 1
+ },
+ "fontWeight": {
+  "400": 85,
+  "500": 7,
+  "700": 3
+ },
+ "lineHeight": {
+  "24px": 36,
+  "21px": 18,
+  "27px": 15,
+  "16px": 15,
+  "18px": 3,
+  "36.4px": 3,
+  "31.2px": 2,
+  "26px": 2,
+  "46.8px": 1
+ },
+ "letterSpacing": {
+  "normal": 95
+ },
+ "textColor": {
+  "rgb(21, 21, 21)": 69,
+  "rgb(255, 255, 255)": 17,
+  "rgb(0, 102, 204)": 9
+ },
+ "bg": {
+  "rgb(242, 242, 242)": 3,
+  "rgb(255, 255, 255)": 3
+ },
+ "radius": {
+  "16px": 3,
+  "6px": 2,
+  "64px": 1,
+  "30px": 1
+ },
+ "shadow": {},
+ "transition": {
+  "all 0.3s ease": 4
+ },
+ "border": {
+  "1px solid rgb(224, 224, 224)": 2
+ },
+ "textTransform": {
+  "none": 95
+ },
+ "typePairs": {
+  "RedHatText | 16px | 400 | lh 24px | ls normal": 32,
+  "RedHatText | 14px | 400 | lh 21px | ls normal": 18,
+  "RedHatText | 18px | 400 | lh 27px | ls normal": 15,
+  "RedHatText | 12px | 400 | lh 16px | ls normal": 15,
+  "RedHatDisplay | 28px | 500 | lh 36.4px | ls normal": 3,
+  "RedHatDisplay | 24px | 500 | lh 31.2px | ls normal": 2,
+  "RedHatDisplay | 20px | 500 | lh 26px | ls normal": 2,
+  "RedHatDisplay | 16px | 700 | lh 24px | ls normal": 2,
+  "RedHatText | 12px | 400 | lh 18px | ls normal": 2,
+  "Red Hat Display Medium | 16px | 400 | lh 24px | ls normal": 2,
+  "RedHatText | 14px | 400 | lh 18px | ls normal": 1,
+  "RedHatDisplay | 36px | 700 | lh 46.8px | ls normal": 1
+ },
+ "headings": [
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H3 ",
+  "H1 Hybrid style handbook",
+  "H2 Extending hybrid to design",
+  "H2 Using hybrid style",
+  "H3 Essential",
+  "H3 Expressive",
+  "H2 Learn more",
+  "H3 Our brand personality",
+  "H3 Our brand platform",
+  "H2 Elements",
+  "H3 Important update (March 2026)",
+  "H3 Color",
+  "H3 Base shapes",
+  "H3 Important update (March 2026)",
+  "H3 Platform artwork",
+  "H3 Photos",
+  "H3 Studio portraits",
+  "H3 3D objects",
+  "H3 Icons and logos",
+  "H3 Important update (March 2026)",
+  "H3 Illustrations",
+  "H2 More",
+  "H3 Download elements",
+  "H3 Access design files",
+  "H2 Creating collages",
+  "H2 Make it open",
+  "H2 Keep it focused",
+  "H2 Mix it up",
+  "H2 Give it depth",
+  "H2 Anatomy of a collage",
+  "H2 Applying the principles",
+  "H3 Make it open",
+  "H3 Keep it focused",
+  "H3 Mix it up",
+  "H3 Give it depth",
+  "H2 Animation",
+  "H2 More",
+  "H3 Download elements",
+  "H3 Download full collages",
+  "H3 Red Hat legal and privacy links",
+  "H3 Red Hat legal and privacy links"
+ ],
+ "nav": [
+  {
+   "t": "Skip to content",
+   "h": "https://www.redhat.com/en/about/brand/standards/hybrid-style-handbook#rhdc-main-content"
+  },
+  {
+   "t": "Console",
+   "h": "https://www.redhat.com/en/hybrid-cloud-console"
+  },
+  {
+   "t": "Docs",
+   "h": "https://docs.redhat.com/en"
+  },
+  {
+   "t": "Support",
+   "h": "https://access.redhat.com/"
+  },
+  {
+   "t": "brand platform",
+   "h": "https://www.redhat.com/en/about/brand/standards/platform"
+  },
+  {
+   "t": "personality",
+   "h": "https://www.redhat.com/en/about/brand/standards/personality"
+  },
+  {
+   "t": "Learn more",
+   "h": "https://www.redhat.com/en/about/brand/standards/personality"
+  },
+  {
+   "t": "Learn more",
+   "h": "https://www.redhat.com/en/about/brand/standards/platform"
+  },
+  {
+   "t": "Submit it here.",
+   "h": "https://docs.google.com/forms/d/e/1FAIpQLSfL8dd1GXBEXKQ05ggctoi5QPzNhQNjTh3H_oCiXpL16I02mQ/viewform?usp=dialog"
+  },
+  {
+   "t": "#help-brand",
+   "h": "https://redhat.enterprise.slack.com/archives/C06D5Q0LZ6G"
+  },
+  {
+   "t": "Previous topic:\nERG handbook",
+   "h": "https://www.redhat.com/en/about/brand/standards/handbooks/erg-community-handbook"
+  },
+  {
+   "t": "Next tab:\nElements",
+   "h": "https://www.redhat.com/en/about/brand/standards/hybrid-style-handbook#elements"
+  },
+  {
+   "t": "Learn more about the Red Hat color palette",
+   "h": "https://www.redhat.com/en/about/brand/standards/color"
+  },
+  {
+   "t": "Hybrid style color palette in Adobe CC Libraries",
+   "h": "https://www.adobe.com/files/libraries/urn:aaid:sc:VA6C2:8b95c3c4-4ea9-45f7-9ae9-db52f9e41143?libraryVersion=0"
+  },
+  {
+   "t": "Find the exact gradient specs here (Login required).",
+   "h": "https://docs.google.com/presentation/d/1UZsbjnNnE0rfl1f7mVtwkOXCtvfxMqakGp6Etc8NB3U/edit?usp=sharing"
+  },
+  {
+   "t": "Learn more about fonts and typography",
+   "h": "https://www.redhat.com/en/about/brand/standards/typography"
+  },
+  {
+   "t": "Find the exact gradient specs here (Login required).",
+   "h": "https://docs.google.com/presentation/d/1UZsbjnNnE0rfl1f7mVtwkOXCtvfxMqakGp6Etc8NB3U/edit?usp=sharing"
+  },
+  {
+   "t": "the hat",
+   "h": "https://www.redhat.com/en/about/brand/standards/the-hat"
+  },
+  {
+   "t": "Download base shapes",
+   "h": "https://redhat.brand-portal.adobe.com/mediaportal.html/content/dam/mac/redhat/brand/shapes"
+  },
+  {
+   "t": "Download new files.",
+   "h": "https://redhat.brand-portal.adobe.com/mediaportal.html/content/dam/mac/redhat/brand/3d/3d-textures"
+  },
+  {
+   "t": "Learn more about platform and product branding",
+   "h": "https://www.redhat.com/en/about/brand/standards/handbooks/product-branding-handbook"
+  },
+  {
+   "t": "Download platform artwork",
+   "h": "https://redhat.brand-portal.adobe.com/mediaportal.html/content/dam/mac/redhat/brand/3d/3d-textures"
+  },
+  {
+   "t": "Download the most up-to-date artwork from Brand Portal",
+   "h": "https://redhat.brand-portal.adobe.com/mediaportal.html/content/dam/mac/redhat/brand/3d/3d-textures"
+  },
+  {
+   "t": "Learn more about photography at Red Hat",
+   "h": "https://www.redhat.com/en/about/brand/standards/photography"
+  },
+  {
+   "t": "Download photos",
+   "h": "https://redhat.brand-portal.adobe.com/mediaportal.html/content/dam/mac/redhat/brand/photography"
+  },
+  {
+   "t": "being authentic",
+   "h": "https://www.redhat.com/en/about/brand/standards/personality"
+  },
+  {
+   "t": "Learn more about photography at Red Hat",
+   "h": "https://www.redhat.com/en/about/brand/standards/photography"
+  },
+  {
+   "t": "Download studio portraits",
+   "h": "https://redhat.brand-portal.adobe.com/mediaportal.html/content/dam/mac/redhat/brand/photography/custom-photography/studio-portraits"
+  },
+  {
+   "t": "Learn more about 3D design at Red Hat",
+   "h": "https://www.redhat.com/en/about/brand/standards/3d"
+  },
+  {
+   "t": "Download 3D objects",
+   "h": "https://redhat.brand-portal.adobe.com/mediaportal.html/content/dam/mac/redhat/brand/3d"
+  },
+  {
+   "t": "technology icons",
+   "h": "https://www.redhat.com/en/about/brand/standards/icons/technology-icons"
+  },
+  {
+   "t": "Learn more about icons",
+   "h": "https://www.redhat.com/en/about/brand/standards/icons/standard-icons"
+  },
+  {
+   "t": "Download icons and Red Hat logos",
+   "h": "https://redhat.brand-portal.adobe.com/mediaportal.html/content/dam/mac/redhat/brand"
+  },
+  {
+   "t": "Learn more.",
+   "h": "https://www.redhat.com/en/about/brand/standards/illustration"
+  },
+  {
+   "t": "Learn more about illustrations",
+   "h": "https://www.redhat.com/en/about/brand/standards/illustration"
+  },
+  {
+   "t": "Download illustrations",
+   "h": "https://redhat.brand-portal.adobe.com/mediaportal.html/content/dam/mac/redhat/brand/illustrations"
+  },
+  {
+   "t": "Learn more about people illustrations",
+   "h": "https://www.redhat.com/en/about/brand/standards/illustration"
+  },
+  {
+   "t": "Download people illustrations",
+   "h": "https://redhat.brand-portal.adobe.com/mediaportal.html/content/dam/mac/redhat/brand/illustrations/illustrations/hybrid-style-characters"
+  },
+  {
+   "t": "Download product interface visualizations",
+   "h": "https://redhat.brand-portal.adobe.com/mediaportal.html/content/dam/mac/redhat/brand/illustrations/product-visualizations"
+  },
+  {
+   "t": "Learn more about mini illustrations",
+   "h": "https://www.redhat.com/en/about/brand/standards/illustration"
+  },
+  {
+   "t": "Download mini illustrations",
+   "h": "https://redhat.brand-portal.adobe.com/mediaportal.html/content/dam/mac/redhat/brand/illustrations/mini-illustrations"
+  },
+  {
+   "t": "Access Brand Portal",
+   "h": "https://redhat.brand-portal.adobe.com/mediaportal.html/content/dam/mac/redhat/brand"
+  },
+  {
+   "t": "Learn more on The Source",
+   "h": "https://source.redhat.com/departments/marketing/brand/assets"
+  },
+  {
+   "t": "Submit it here.",
+   "h": "https://docs.google.com/forms/d/e/1FAIpQLSfL8dd1GXBEXKQ05ggctoi5QPzNhQNjTh3H_oCiXpL16I02mQ/viewform?usp=dialog"
+  },
+  {
+   "t": "#help-brand",
+   "h": "https://redhat.enterprise.slack.com/archives/C06D5Q0LZ6G"
+  },
+  {
+   "t": "Previous tab:Overview",
+   "h": "https://www.redhat.com/en/about/brand/standards/hybrid-style-handbook#overview"
+  },
+  {
+   "t": "Next tab:Creating collages",
+   "h": "https://www.redhat.com/en/about/brand/standards/hybrid-style-handbook#collaging"
+  },
+  {
+   "t": "brand platform",
+   "h": "https://www.redhat.com/en/about/brand/standards/platform"
+  },
+  {
+   "t": "personality",
+   "h": "https://www.redhat.com/en/about/brand/standards/personality"
+  },
+  {
+   "t": "Access brand portal (Login required)",
+   "h": "https://redhat.brand-portal.adobe.com/mediaportal.html/content/dam/mac/redhat/brand"
+  },
+  {
+   "t": "Download collages (Login required)",
+   "h": "https://redhat.brand-portal.adobe.com/mediaportal.html/content/dam/mac/redhat/brand/collages"
+  },
+  {
+   "t": "Submit it here.",
+   "h": "https://docs.google.com/forms/d/e/1FAIpQLSfL8dd1GXBEXKQ05ggctoi5QPzNhQNjTh3H_oCiXpL16I02mQ/viewform?usp=dialog"
+  },
+  {
+   "t": "#help-brand",
+   "h": "https://redhat.enterprise.slack.com/archives/C06D5Q0LZ6G"
+  },
+  {
+   "t": "Previous tab:Elements",
+   "h": "https://www.redhat.com/en/about/brand/standards/hybrid-style-handbook#elements"
+  },
+  {
+   "t": "Next topic:Partner handbook",
+   "h": "https://www.redhat.com/en/about/brand/standards/handbooks/partners/partner-led"
+  },
+  {
+   "t": "About Red Hat",
+   "h": "https://www.redhat.com/en/about"
+  },
+  {
+   "t": "Jobs",
+   "h": "https://www.redhat.com/en/jobs"
+  },
+  {
+   "t": "Events",
+   "h": "https://www.redhat.com/en/events"
+  },
+  {
+   "t": "Locations",
+   "h": "https://www.redhat.com/en/about/office-locations"
+  },
+  {
+   "t": "Contact Red Hat",
+   "h": "https://www.redhat.com/en/contact"
+  },
+  {
+   "t": "Red Hat Blog",
+   "h": "https://www.redhat.com/en/blog"
+  },
+  {
+   "t": "Inclusion at Red Hat",
+   "h": "https://www.redhat.com/en/about/our-culture/inclusion"
+  },
+  {
+   "t": "Cool Stuff Store",
+   "h": "https://coolstuff.redhat.com/"
+  },
+  {
+   "t": "Red Hat Summit",
+   "h": "https://www.redhat.com/en/summit"
+  },
+  {
+   "t": "Privacy statement",
+   "h": "https://www.redhat.com/en/about/privacy-policy"
+  },
+  {
+   "t": "Terms of use",
+   "h": "https://www.redhat.com/en/about/terms-use"
+  },
+  {
+   "t": "All policies and guidelines",
+   "h": "https://www.redhat.com/en/about/all-policies-guidelines"
+  },
+  {
+   "t": "Digital accessibility",
+   "h": "https://www.redhat.com/en/about/digital-accessibility"
+  }
+ ],
+ "fullHeight": 5064
+}

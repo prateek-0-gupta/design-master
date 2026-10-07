@@ -1,0 +1,239 @@
+{
+ "url": "https://www.brand-monday.com/tone-of-voice",
+ "title": "tone of voice",
+ "scrollHeight": 4558,
+ "customProperties": {
+  "--service--srvc-color4": "#7e3b8a",
+  "--service--srvc-color2": "#7b0020",
+  "--1rem": "16px",
+  "--brand-purple-tint-01": "#452aea",
+  "--crm--crm-color3": "#ea79dd",
+  "--brand-purple-tint-04": "#f3f4f5",
+  "--white": "white",
+  "--crm--crm-strong": "#007f9b",
+  "--dev--dev-primary": "#00ca72",
+  "--brand-green-tint-02": "#025231",
+  "--service--srvc-color3": "#f5eff1",
+  "--service--srvc-primary": "#ff703e",
+  "--dev--dark<deleted|variable-5d24543f-9f4e-c69a-ee00-45c682fb097e>": "#181b34",
+  "--crm--crm-color5": "#cddaeb",
+  "--crm--crm-color2": "#1742c8",
+  "--color": "#000",
+  "--brand-purple-tint-03": "#ded4fc",
+  "--brand-yellow-tint-02": "#9d7b00",
+  "--light-grey": "#c4c4c4",
+  "--dev--dev-color1": "#73d5a4",
+  "--brand-yellow-tint-01": "#caa100",
+  "--service--srvc-color1": "#fb275d",
+  "--brand-primary-green": "#00ca72",
+  "--brand-yellow-tint-03": "#fff9e1",
+  "--brand-primary-yellow": "#fc0",
+  "--brand-green-tint-01": "#00854d",
+  "--crm--crm-color": "#00b7ff",
+  "--brand-primary-purple": "#6161ff",
+  "--crm--crm-primary": "#00d2d2",
+  "--brand-purple-tint-02": "#1f0f83",
+  "--service--srvc-strong": "#98013d",
+  "--dev--dev-color2": "#bcfe90",
+  "--crm--crm-color4": "coral",
+  "--dev--dev-strong": "#025231"
+ },
+ "loadedFonts": [
+  "Poppins 300 normal",
+  "Poppins 400 normal",
+  "Poppins 500 normal",
+  "Poppins 600 normal"
+ ],
+ "fontFamily": {
+  "Poppins, sans-serif": 81
+ },
+ "fontSize": {
+  "16px": 49,
+  "14px": 14,
+  "20px": 12,
+  "24px": 4,
+  "59.2px": 1,
+  "21.6px": 1
+ },
+ "fontWeight": {
+  "300": 52,
+  "400": 7,
+  "500": 6,
+  "600": 16
+ },
+ "lineHeight": {
+  "23.2px": 25,
+  "22.4px": 19,
+  "20px": 18,
+  "18.9px": 12,
+  "31.2px": 4,
+  "14px": 1,
+  "79.92px": 1,
+  "36.72px": 1
+ },
+ "letterSpacing": {
+  "normal": 75,
+  "-0.4px": 4,
+  "2px": 1,
+  "-2px": 1
+ },
+ "textColor": {
+  "rgb(51, 51, 51)": 63,
+  "rgb(34, 34, 34)": 11,
+  "rgb(97, 97, 255)": 5,
+  "rgb(0, 130, 243)": 1,
+  "rgb(134, 134, 134)": 1
+ },
+ "bg": {
+  "rgb(243, 244, 245)": 16,
+  "rgb(255, 255, 255)": 12,
+  "rgb(221, 221, 221)": 1
+ },
+ "radius": {
+  "8px": 16
+ },
+ "shadow": {},
+ "transition": {
+  "all 0.2s ease": 3,
+  "transform 0.25s ease": 3,
+  "max-height 0.25s ease": 1
+ },
+ "border": {
+  "1px solid rgb(167, 167, 167)": 1,
+  "1px solid rgb(0, 0, 0)": 1
+ },
+ "textTransform": {
+  "none": 81
+ },
+ "typePairs": {
+  "Poppins | 16px | 300 | lh 23.2px | ls normal": 21,
+  "Poppins | 16px | 300 | lh 22.4px | ls normal": 19,
+  "Poppins | 14px | 300 | lh 20px | ls normal": 12,
+  "Poppins | 20px | 600 | lh 18.9px | ls normal": 12,
+  "Poppins | 16px | 400 | lh 20px | ls normal": 5,
+  "Poppins | 24px | 500 | lh 31.2px | ls -0.4px": 4,
+  "Poppins | 16px | 600 | lh 23.2px | ls normal": 4,
+  "Poppins | 14px | 400 | lh 20px | ls normal": 1,
+  "Poppins | 14px | 400 | lh 14px | ls 2px": 1,
+  "Poppins | 59.2px | 500 | lh 79.92px | ls -2px": 1,
+  "Poppins | 21.6px | 500 | lh 36.72px | ls normal": 1
+ },
+ "headings": [
+  "H1 Tone of Voice"
+ ],
+ "nav": [
+  {
+   "t": "Brand values",
+   "h": "https://www.brand-monday.com/brand-values"
+  },
+  {
+   "t": "Messaging",
+   "h": "https://www.brand-monday.com/our-messaging"
+  },
+  {
+   "t": "Tone of Voice",
+   "h": "https://www.brand-monday.com/tone-of-voice"
+  },
+  {
+   "t": "The monday Llama",
+   "h": "https://www.brand-monday.com/llama"
+  },
+  {
+   "t": "Logo",
+   "h": "https://www.brand-monday.com/logo"
+  },
+  {
+   "t": "Typography",
+   "h": "https://www.brand-monday.com/typography"
+  },
+  {
+   "t": "Colors",
+   "h": "https://www.brand-monday.com/colors"
+  },
+  {
+   "t": "Platform Elements",
+   "h": "https://www.brand-monday.com/product-elements"
+  },
+  {
+   "t": "Work Management",
+   "h": "https://www.brand-monday.com/products#wm-tab"
+  },
+  {
+   "t": "CRM",
+   "h": "https://www.brand-monday.com/products#crm-tab"
+  },
+  {
+   "t": "DEV",
+   "h": "https://www.brand-monday.com/products#dev-tab"
+  },
+  {
+   "t": "Service",
+   "h": "https://www.brand-monday.com/products#service-tab"
+  },
+  {
+   "t": "Resources",
+   "h": "https://www.brand-monday.com/resources"
+  },
+  {
+   "t": "Feedback",
+   "h": "https://forms.monday.com/forms/dc1454620693b4ce96ded1e47622ba2f?r=use1"
+  },
+  {
+   "t": "Brand values",
+   "h": "https://www.brand-monday.com/brand-values"
+  },
+  {
+   "t": "Messaging",
+   "h": "https://www.brand-monday.com/our-messaging"
+  },
+  {
+   "t": "Tone of Voice",
+   "h": "https://www.brand-monday.com/tone-of-voice"
+  },
+  {
+   "t": "The monday Llama",
+   "h": "https://www.brand-monday.com/llama"
+  },
+  {
+   "t": "Logo",
+   "h": "https://www.brand-monday.com/logo"
+  },
+  {
+   "t": "Typography",
+   "h": "https://www.brand-monday.com/typography"
+  },
+  {
+   "t": "Colors",
+   "h": "https://www.brand-monday.com/colors"
+  },
+  {
+   "t": "Platform Elements",
+   "h": "https://www.brand-monday.com/product-elements"
+  },
+  {
+   "t": "monday Work Management",
+   "h": "https://www.brand-monday.com/products#wm-tab"
+  },
+  {
+   "t": "monday CRM",
+   "h": "https://www.brand-monday.com/products#crm-tab"
+  },
+  {
+   "t": "monday DEV",
+   "h": "https://www.brand-monday.com/products#dev-tab"
+  },
+  {
+   "t": "monday Service",
+   "h": "https://www.brand-monday.com/products#service-tab"
+  },
+  {
+   "t": "Resources",
+   "h": "https://www.brand-monday.com/resources"
+  },
+  {
+   "t": "Feedback",
+   "h": "https://forms.monday.com/forms/dc1454620693b4ce96ded1e47622ba2f?r=use1"
+  }
+ ],
+ "fullHeight": 4558
+}

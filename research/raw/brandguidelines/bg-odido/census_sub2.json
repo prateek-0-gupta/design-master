@@ -1,0 +1,259 @@
+{
+ "url": "https://merk.odido.nl/en/logo",
+ "title": "Logo",
+ "scrollHeight": 23022,
+ "customProperties": {
+  "--tw-ring-offset-shadow": "0 0 #0000",
+  "--tw-contrast": "",
+  "--tw-backdrop-sepia": "",
+  "--tw-ring-shadow": "0 0 #0000",
+  "--tw-sepia": "",
+  "--tw-skew-x": "0",
+  "--tw-ordinal": "",
+  "--tw-backdrop-saturate": "",
+  "--tw-backdrop-blur": "",
+  "--tw-shadow": "0 0 #0000",
+  "--tw-translate-x": "0",
+  "--tw-ring-offset-width": "0px",
+  "--tw-ring-inset": "",
+  "--tw-gradient-via-position": "",
+  "--tw-backdrop-invert": "",
+  "--tw-saturate": "",
+  "--tw-scroll-snap-strictness": "proximity",
+  "--tw-numeric-spacing": "",
+  "--tw-grayscale": "",
+  "--tw-scale-x": "1",
+  "--tw-border-spacing-x": "0",
+  "--tw-backdrop-hue-rotate": "",
+  "--tw-shadow-colored": "0 0 #0000",
+  "--tw-gradient-to-position": "",
+  "--tw-brightness": "",
+  "--tw-border-spacing-y": "0",
+  "--tw-numeric-fraction": "",
+  "--tw-backdrop-grayscale": "",
+  "--tw-hue-rotate": "",
+  "--tw-scale-y": "1",
+  "--tw-pan-y": "",
+  "--tw-backdrop-contrast": "",
+  "--tw-drop-shadow": "",
+  "--tw-skew-y": "0",
+  "--tw-ring-color": "rgba(59,130,246,.5)",
+  "--tw-backdrop-brightness": "",
+  "--tw-slashed-zero": "",
+  "--tw-blur": "",
+  "--tw-invert": "",
+  "--tw-pan-x": "",
+  "--tw-translate-y": "0",
+  "--tw-backdrop-opacity": "",
+  "--tw-gradient-from-position": "",
+  "--tw-numeric-figure": "",
+  "--tw-rotate": "0",
+  "--tw-pinch-zoom": "",
+  "--tw-ring-offset-color": "#fff"
+ },
+ "loadedFonts": [
+  "Otypical Text 400 normal",
+  "Otypical Headline 500 normal"
+ ],
+ "fontFamily": {
+  "\"Otypical Text\", Arial, sans-serif": 120,
+  "\"Otypical Headline\", sans-serif": 22
+ },
+ "fontSize": {
+  "16px": 97,
+  "24px": 23,
+  "42px": 11,
+  "64px": 10,
+  "104px": 1
+ },
+ "fontWeight": {
+  "400": 120,
+  "500": 22
+ },
+ "lineHeight": {
+  "24px": 97,
+  "32px": 23,
+  "48px": 11,
+  "64px": 10,
+  "100px": 1
+ },
+ "letterSpacing": {
+  "0.32px": 97,
+  "normal": 45
+ },
+ "textColor": {
+  "rgb(0, 0, 0)": 87,
+  "rgb(187, 187, 187)": 45,
+  "rgb(255, 255, 255)": 10
+ },
+ "bg": {
+  "rgb(236, 236, 236)": 24,
+  "rgb(0, 0, 0)": 12,
+  "rgb(255, 0, 0)": 10,
+  "rgb(187, 187, 187)": 3,
+  "rgb(255, 255, 255)": 1
+ },
+ "radius": {
+  "9999px": 50,
+  "40px": 27
+ },
+ "shadow": {},
+ "transition": {
+  "all 0.1s cubic-bezier(0.4, 0, 0.2, 1)": 21,
+  "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter 0.5s cubic-bezier(0.4, 0, 0.2, 1)": 8,
+  "opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)": 8,
+  "all 0.15s cubic-bezier(0.4, 0, 0.2, 1)": 4
+ },
+ "border": {
+  "1px solid rgb(187, 187, 187)": 31,
+  "2px solid rgb(0, 0, 0)": 10,
+  "1px solid rgb(0, 0, 0)": 1,
+  "1px solid rgb(44, 114, 255)": 1,
+  "1px solid rgb(47, 154, 146)": 1,
+  "1px solid rgb(255, 172, 36)": 1,
+  "1px solid rgb(255, 118, 33)": 1,
+  "1px solid rgb(255, 128, 140)": 1,
+  "1px solid rgb(112, 102, 255)": 1
+ },
+ "textTransform": {
+  "none": 142
+ },
+ "typePairs": {
+  "Otypical Text | 16px | 400 | lh 24px | ls 0.32px": 97,
+  "Otypical Text | 24px | 400 | lh 32px | ls normal": 23,
+  "Otypical Headline | 42px | 500 | lh 48px | ls normal": 11,
+  "Otypical Headline | 64px | 500 | lh 64px | ls normal": 10,
+  "Otypical Headline | 104px | 500 | lh 100px | ls normal": 1
+ },
+ "headings": [
+  "H1 Logo",
+  "H2 Versions",
+  "H2 Minimum sizes",
+  "H2 Clearspace",
+  "H2 Placement",
+  "H3 Placement with Glow Mirror",
+  "H3 Placement with Glow and photography Mirror",
+  "H3 Placement without Mirror",
+  "H2 Colour options",
+  "H3 Colour logo",
+  "H3 Solid logo with Glow",
+  "H3 Solid logo with colour palette",
+  "H2 Logo on image",
+  "H2 Brand architecture",
+  "H3 Overview",
+  "H3 Sub-labels",
+  "H3 Strategic initiatives",
+  "H3 Sponsoring",
+  "H3 Partnership",
+  "H2 Don’ts",
+  "H2 Application",
+  "H2 Resources"
+ ],
+ "nav": [
+  {
+   "t": "Introduction",
+   "h": "https://merk.odido.nl/en"
+  },
+  {
+   "t": "Brand foundation",
+   "h": "https://merk.odido.nl/en/brand-foundation"
+  },
+  {
+   "t": "Logo",
+   "h": "https://merk.odido.nl/en/logo"
+  },
+  {
+   "t": "Colour",
+   "h": "https://merk.odido.nl/en/colour"
+  },
+  {
+   "t": "Typography",
+   "h": "https://merk.odido.nl/en/typography"
+  },
+  {
+   "t": "Layout",
+   "h": "https://merk.odido.nl/en/layout"
+  },
+  {
+   "t": "Shapes",
+   "h": "https://merk.odido.nl/en/shapes"
+  },
+  {
+   "t": "Photography",
+   "h": "https://merk.odido.nl/en/photography"
+  },
+  {
+   "t": "Illustration",
+   "h": "https://merk.odido.nl/en/illustration"
+  },
+  {
+   "t": "Iconography",
+   "h": "https://merk.odido.nl/en/iconography"
+  },
+  {
+   "t": "Motion",
+   "h": "https://merk.odido.nl/en/motion"
+  },
+  {
+   "t": "Sonic",
+   "h": "https://merk.odido.nl/en/sonic"
+  },
+  {
+   "t": "Tone of Voice",
+   "h": "https://merk.odido.nl/en/tone-of-voice"
+  },
+  {
+   "t": "Digital",
+   "h": "https://merk.odido.nl/en/digital"
+  },
+  {
+   "t": "Resources",
+   "h": "https://merk.odido.nl/en/resources"
+  },
+  {
+   "t": "Support",
+   "h": "https://merk.odido.nl/en/support"
+  },
+  {
+   "t": "Applying colours",
+   "h": "https://merk.odido.nl/en/colour"
+  },
+  {
+   "t": "Applying illustration",
+   "h": "https://merk.odido.nl/en/illustration"
+  },
+  {
+   "t": "Layout construction",
+   "h": "https://merk.odido.nl/en/layout"
+  },
+  {
+   "t": "Grids and margins",
+   "h": "https://merk.odido.nl/en/layout"
+  },
+  {
+   "t": "Colour combinations",
+   "h": "https://merk.odido.nl/en/colour"
+  },
+  {
+   "t": "Shapes construction",
+   "h": "https://merk.odido.nl/en/shapes"
+  },
+  {
+   "t": "Shapes type placement",
+   "h": "https://merk.odido.nl/en/shapes"
+  },
+  {
+   "t": "To collection",
+   "h": "https://dam.odido.nl/web/15622c674c1323d2/b2b-logos---downloads-brand-portal/"
+  },
+  {
+   "t": "To collection",
+   "h": "https://dam.odido.nl/web/52967ad9a20e29eb/b2c-logos---downloads-brand-portal/"
+  },
+  {
+   "t": "Resources",
+   "h": "https://merk.odido.nl/en/resources"
+  }
+ ],
+ "fullHeight": 23022
+}

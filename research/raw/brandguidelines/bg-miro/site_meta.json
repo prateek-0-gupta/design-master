@@ -1,0 +1,40 @@
+{
+ "requested": "https://brandkit.miro.com/corporate-visual-identity/the-miro-logo",
+ "captured_from": "https://brandkit.miro.com/",
+ "archived": true,
+ "final": "https://brandkit.miro.com/corporate-visual-identity/product-branding",
+ "title": "Brand Guidelines",
+ "subpages": [
+  {
+   "href": "https://brandkit.miro.com/corporate-visual-identity/introduction",
+   "t": "Introduction",
+   "ok": true
+  },
+  {
+   "href": "https://brandkit.miro.com/corporate-visual-identity/the-miro-logo-2",
+   "t": "The Miro logo",
+   "ok": true
+  },
+  {
+   "href": "https://brandkit.miro.com/corporate-visual-identity/colors",
+   "t": "Colors",
+   "ok": true
+  },
+  {
+   "href": "https://brandkit.miro.com/corporate-visual-identity/typography-2",
+   "t": "Typography",
+   "ok": true
+  },
+  {
+   "href": "https://brandkit.miro.com/corporate-visual-identity/illustrations-1",
+   "t": "Illustrations",
+   "ok": true
+  },
+  {
+   "href": "https://brandkit.miro.com/corporate-visual-identity/product-branding",
+   "t": "Product Branding",
+   "ok": true
+  }
+ ],
+ "cssFiles": 70
+}

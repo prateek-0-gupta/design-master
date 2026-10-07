@@ -1,0 +1,6 @@
+{
+ "pages": 15,
+ "page_size": "1920 x 1080 pts",
+ "bytes": 3398608,
+ "fonts_raw": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBatonTurbo-Bold                      Type 3            Custom           yes no  yes      5  0\nBatonTurbo-Medium                    Type 3            Custom           yes no  yes      8  0\nBatonTurbo-Regular                   Type 3            Custom           yes no  yes     11  0\nBatonTurbo-Regular                   Type 3            Custom           yes no  yes     13  0\n"
+}

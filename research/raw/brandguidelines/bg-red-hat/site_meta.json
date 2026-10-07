@@ -1,0 +1,38 @@
+{
+ "requested": "https://www.redhat.com/en/about/brand/standards",
+ "final": "https://www.redhat.com/en/about/brand/standards/resources",
+ "title": "Red Hat Brand Standards",
+ "subpages": [
+  {
+   "href": "https://www.redhat.com/en/about/brand/standards/hybrid-style-handbook",
+   "t": "Hybrid style handbook",
+   "ok": true
+  },
+  {
+   "href": "https://www.redhat.com/en/about/brand/standards/logo",
+   "t": "Red Hat logo",
+   "ok": true
+  },
+  {
+   "href": "https://www.redhat.com/en/about/brand/standards/color",
+   "t": "Color",
+   "ok": true
+  },
+  {
+   "href": "https://www.redhat.com/en/about/brand/standards/typography",
+   "t": "Fonts and typography",
+   "ok": true
+  },
+  {
+   "href": "https://www.redhat.com/en/about/brand/standards/icons/standard-icons",
+   "t": "Icons",
+   "ok": true
+  },
+  {
+   "href": "https://www.redhat.com/en/about/brand/standards/resources",
+   "t": "Templates",
+   "ok": true
+  }
+ ],
+ "cssFiles": 54
+}

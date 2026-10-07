@@ -1,0 +1,270 @@
+{
+ "url": "https://www.1042.studio/store",
+ "title": "1042 Studio Store | Premium Components & Design Assets",
+ "scrollHeight": 9523,
+ "customProperties": {
+  "--one-if-corner-shape-supported": "1",
+  "--token-1c31f787-46a5-4975-a1db-44d4529443b2": "#fbfaf8",
+  "--token-8cf230a8-fee9-41ce-91c2-ef3b857e02b1": "#121212",
+  "--token-9b7d5197-6a28-46e3-b892-c2a39af6b8ed": "#fbfaf8",
+  "--token-2e99d5a8-ef08-44f8-ab98-521580048262": "#121212",
+  "--token-762c31de-7a38-4684-95cc-8d15bb13f288": "#121212",
+  "--token-a31d5043-947c-4b72-8ac5-3a2cd17fc6f0": "#121212",
+  "--token-8b479b99-b2a0-4f98-9904-7153805e9ee0": "#8f8f8f",
+  "--framer-will-change-override": "none",
+  "--framer-will-change-filter-override": "none"
+ },
+ "loadedFonts": [
+  "PP Neue Montreal Medium 500 normal",
+  "PP Neue Montreal Medium normal normal",
+  "Aspekta Variable Variable 1000 normal"
+ ],
+ "fontFamily": {
+  "\"PP Neue Montreal Medium\", \"PP Neue Montreal Medium Placeholder\", sans-serif": 127,
+  "\"Aspekta Variable Variable\", sans-serif": 34
+ },
+ "fontSize": {
+  "16px": 153,
+  "18px": 6,
+  "78px": 1,
+  "20px": 1
+ },
+ "fontWeight": {
+  "400": 125,
+  "500": 2,
+  "1000": 34
+ },
+ "lineHeight": {
+  "20.8px": 115,
+  "20px": 38,
+  "22px": 6,
+  "81.9px": 1,
+  "24px": 1
+ },
+ "letterSpacing": {
+  "normal": 122,
+  "-0.16px": 38,
+  "-2.34px": 1
+ },
+ "textColor": {
+  "rgb(143, 143, 143)": 81,
+  "rgb(18, 18, 18)": 80
+ },
+ "bg": {
+  "rgba(18, 18, 18, 0.04)": 33,
+  "rgb(18, 18, 18)": 7,
+  "rgba(18, 18, 18, 0.03)": 3,
+  "rgb(252, 252, 252)": 1
+ },
+ "radius": {
+  "16px": 33,
+  "40px": 3,
+  "8px": 2
+ },
+ "shadow": {},
+ "transition": {},
+ "border": {},
+ "textTransform": {
+  "none": 161
+ },
+ "typePairs": {
+  "PP Neue Montreal Medium | 16px | 400 | lh 20.8px | ls normal": 115,
+  "Aspekta Variable Variable | 16px | 1000 | lh 20px | ls -0.16px": 33,
+  "PP Neue Montreal Medium | 16px | 400 | lh 20px | ls -0.16px": 5,
+  "PP Neue Montreal Medium | 18px | 400 | lh 22px | ls normal": 5,
+  "Aspekta Variable Variable | 78px | 1000 | lh 81.9px | ls -2.34px": 1,
+  "PP Neue Montreal Medium | 20px | 500 | lh 24px | ls normal": 1,
+  "PP Neue Montreal Medium | 18px | 500 | lh 22px | ls normal": 1
+ },
+ "headings": [
+  "H1 Store",
+  "H1 TEN",
+  "H1 FORTY",
+  "H1 TEN",
+  "H1 TWO",
+  "H1 FORTY",
+  "H3 ®",
+  "H1 TWO",
+  "H1 H",
+  "H3 ®"
+ ],
+ "nav": [
+  {
+   "t": "Framer Liquid Glass\n\nFramer\n\nComponent\n\n$15",
+   "h": "https://www.1042.studio/store/framer-liquid-glass"
+  },
+  {
+   "t": "Spotify Mirrorball\n\nFramer\n\nComponent\n\nFree",
+   "h": "https://www.1042.studio/store/spotify-mirrorball"
+  },
+  {
+   "t": "ASCII SVG & Type Engine\n\nFramer\n\nComponent\n\n$10",
+   "h": "https://www.1042.studio/store/ascii-svg-type-engine"
+  },
+  {
+   "t": "Strings Of Life\n\nFramer\n\nRemix\n\nComponent\n\n$10",
+   "h": "https://www.1042.studio/store/strings-of-life"
+  },
+  {
+   "t": "OP—1 Field Calculator\n\nFramer\n\nRemix\n\nComponent\n\n$10",
+   "h": "https://www.1042.studio/store/op1-field-calculator"
+  },
+  {
+   "t": "Digital Rotary Radio\n\nFramer\n\nRemix\n\nComponent\n\n$10",
+   "h": "https://www.1042.studio/store/digital-rotary-radio"
+  },
+  {
+   "t": "Framer Liquid Glass\n\nFramer\n\nComponent\n\n$15",
+   "h": "https://www.1042.studio/store/framer-liquid-glass"
+  },
+  {
+   "t": "Distorto Slider FX\n\nFramer\n\nRemix\n\nComponent\n\n$10",
+   "h": "https://www.1042.studio/store/distorto-slider-fx"
+  },
+  {
+   "t": "ScrollFolio Studio Template\n\nFramer\n\nRemix\n\nComponent\n\n$39",
+   "h": "https://www.1042.studio/store/scrollfolio-studio-template"
+  },
+  {
+   "t": "Holographic Pill\n\nFigma\n\nDesign\n\nFree\n\nFree",
+   "h": "https://www.1042.studio/store/holographic-pill"
+  },
+  {
+   "t": "All Access Pass\n\nFree\n\nLifetime\n\nUpdates\n\n$109",
+   "h": "https://www.1042.studio/store/all-access-pass"
+  },
+  {
+   "t": "Halftone Media Engine\n\nFramer\n\nRemix\n\nComponent\n\n$30",
+   "h": "https://www.1042.studio/store/halftone-media-engine"
+  },
+  {
+   "t": "Infinite Zoom Scroll\n\nFramer\n\nRemix\n\nComponent\n\n$20",
+   "h": "https://www.1042.studio/store/infinite-zoom-scroll"
+  },
+  {
+   "t": "Pixel Icon Set\n\nFramer\n\n&\n\nFigma\n\n$10",
+   "h": "https://www.1042.studio/store/pixel-icon-set"
+  },
+  {
+   "t": "CMS Scroll Folio\n\nFramer\n\nRemix\n\n$20",
+   "h": "https://www.1042.studio/store/cms-scroll-folio"
+  },
+  {
+   "t": "Owire Brand Guidelines Kit\n\nFigma\n\nDesign\n\n$20",
+   "h": "https://www.1042.studio/store/owire-brand-guidelines-kit"
+  },
+  {
+   "t": "CMS Flip Book Component\n\nFramer\n\nComponent\n\nRemix\n\n$30",
+   "h": "https://www.1042.studio/store/cms-flip-book-component"
+  },
+  {
+   "t": "CMS Scrolling Gallery\n\nFramer\n\nRemix\n\nComponent\n\n$9",
+   "h": "https://www.1042.studio/store/cms-scrolling-gallery"
+  },
+  {
+   "t": "Infinite Gallery & Lightbox\n\nFramer\n\nComponent\n\n$20",
+   "h": "https://www.1042.studio/store/infinite-gallery-lightbox"
+  },
+  {
+   "t": "Bouncy Jelly Buttons\n\nFramer\n\nComponent\n\n$5",
+   "h": "https://www.1042.studio/store/bouncy-jelly-buttons"
+  },
+  {
+   "t": "Dynamic Ticker\n\nFramer\n\nComponent\n\n$10",
+   "h": "https://www.1042.studio/store/dynamic-ticker"
+  },
+  {
+   "t": "Cobalt Brand Guidelines Kit Copy\n\nFigma\n\nDesign\n\n$30",
+   "h": "https://www.1042.studio/store/cobalt-brand-guidelines-kit-copy"
+  },
+  {
+   "t": "Nautical Illustrations\n\nFramer\n\n&\n\nFigma\n\n$20",
+   "h": "https://www.1042.studio/store/nautical-illustrations"
+  },
+  {
+   "t": "Magic 8 Ball Website Template\n\nFramer\n\nRemix\n\n$29",
+   "h": "https://www.1042.studio/store/magic-8-ball-website-template"
+  },
+  {
+   "t": "Dynamic CMS Lightbox\n\nFramer\n\nOverride\n\nRemix\n\n$20",
+   "h": "https://www.1042.studio/store/dynamic-cms-lightbox"
+  },
+  {
+   "t": "Animated Custom Carousel\n\nFramer\n\nRemix\n\n$10",
+   "h": "https://www.1042.studio/store/animated-custom-carousel"
+  },
+  {
+   "t": "Super Duper Offer\n\nFramer\n\nFigma\n\n12 Products\n\n$69",
+   "h": "https://www.1042.studio/store/super-duper-offer"
+  },
+  {
+   "t": "Form Brand Guidelines Kit\n\nFigma\n\nDesign\n\n$30",
+   "h": "https://www.1042.studio/store/form-brand-guidelines-kit"
+  },
+  {
+   "t": "3D Particle Engine\n\nFramer\n\nComponent\n\n$15",
+   "h": "https://www.1042.studio/store/3d-particle-engine"
+  },
+  {
+   "t": "Kinetic Type\n\nFramer\n\nComponent\n\n$10",
+   "h": "https://www.1042.studio/store/kinetic-type"
+  },
+  {
+   "t": "Horizontal Scroller\n\nFramer\n\nComponent\n\n$10",
+   "h": "https://www.1042.studio/store/horizontal-scroller"
+  },
+  {
+   "t": "3D Image Depth Map\n\nFramer\n\nComponent\n\n$10",
+   "h": "https://www.1042.studio/store/3d-image-depth-map"
+  },
+  {
+   "t": "Flow Cursor\n\nFramer\n\nComponent\n\n$10",
+   "h": "https://www.1042.studio/store/flow-cursor"
+  },
+  {
+   "t": "Home",
+   "h": "https://www.1042.studio/"
+  },
+  {
+   "t": "Store",
+   "h": "https://www.1042.studio/store"
+  },
+  {
+   "t": "Imprint",
+   "h": "https://www.1042.studio/imprint"
+  },
+  {
+   "t": "Terms",
+   "h": "https://www.1042.studio/terms"
+  },
+  {
+   "t": "TEN",
+   "h": "https://www.1042.studio/"
+  },
+  {
+   "t": "FORTY",
+   "h": "https://www.1042.studio/"
+  },
+  {
+   "t": "TEN",
+   "h": "https://www.1042.studio/"
+  },
+  {
+   "t": "TWO",
+   "h": "https://www.1042.studio/"
+  },
+  {
+   "t": "FORTY",
+   "h": "https://www.1042.studio/"
+  },
+  {
+   "t": "Store",
+   "h": "https://www.1042.studio/store"
+  },
+  {
+   "t": "TWO",
+   "h": "https://www.1042.studio/"
+  }
+ ],
+ "fullHeight": 9523
+}

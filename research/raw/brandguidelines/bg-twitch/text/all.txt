@@ -1,0 +1,422 @@
+                             Identity Guidelines (Speedrun Edition)
+                             V 2.0, 01.07.21
+
+
+
+
+Twitch Identity Guidelines                                            1
+                        Here’s the thing:
+                        Not everyone’s
+                        going to get it.
+                        Staring at a screen was fine for a while, but canned
+                        content had its day. We’re building something
+                        better, and we’re not alone.
+                        From everyone in chat, to the streamers making
+                        sure the show goes on. We’re a collective cast of
+                        millions going all-in to make moments together,
+                        directing the action as we watch it.
+                        We don’t always know what’s next, and we like it
+                        that way. Because multiplayer is everything—our
+                        how and our why. It’s powered by all of us. And for
+                        some reason, by Bob Ross too.
+                        This started as a place to stream. Together, we’re
+                        making it Twitch.
+
+
+
+
+Twitch Identity Guidelines                                                     2
+Logos                                             Wordmark →   Clearspace →
+
+Our most recognizable element, the new
+Twitch wordmark contains the DNA of our
+previous iteration to give a sense of nostalgia
+and evoke our roots in gaming.
+
+    Wordmark: This is our representational
+    mark. Primarily used internally on our
+    owned channels, and in partnerships when
+    locked up with other logos.
+
+    Extruded Wordmark: Our primary logo,
+    the extruded, dimensional logo is the core
+    expression of Twitch and is used primarily
+    in outbound comms when we want to be
+    the most expressive.
+
+And let's not forget:                             Extruded     Clearspace →
+                                                  Wordmark →
+    Glitch: The quickest way of saying ‘Twitch’
+    without spelling it out, Glitch represents
+    everything about us and our community
+    through an ownable mascot.
+
+You can find a more detailed explanation on
+when and where to use each version of the
+logo to the right.
+
+
+
+
+                                                  Glitch →     Clearspace →
+
+
+
+                                                                    x         x   1/2
+
+
+
+
+                                                                    x         x         x
+
+
+
+
+Twitch Identity Guidelines                                                                  5
+Logo Lockups                                     Internal lockup →
+
+Sometimes our logo likes to team up with
+other logos or copy. With the proper spacing,
+it’ll play nice with almost anything. Here are
+some guidelines for those instances.
+
+                                                                        Cap Height
+                                                                         X-Height
+
+
+
+
+                                                 Partnership lockup →
+
+
+
+
+                                                                        Cap Height
+
+
+                                                                           Center
+
+
+
+
+Twitch Identity Guidelines                                                           6
+Color
+Core Palette                                   Twitch Purple   Black Ops       Ice
+
+Our core colors are how we express ourselves   R 145   C 57    R0      C 100   R 240   C 10
+                                               G 70    M 60    G0      M 80    G 240   M4
+in the most direct, Twitch way possible.
+                                               B 255   Y 0     B 0     Y 40    B 255   Y 2
+                                               		      K 0     		      K 90    		      K 1
+The Core Palette consists of three swatches:                   H0              H 240
+                                               H 264.32        S 0             S 6
+●Twitch Purple (of course!)                    S 72.55         B 0             B 100
+●Black Ops                                     B 100
+                                                               HEX 000000      HEX F0F0FF
+●Ice
+                                               HEX 9146FF      PMS Black 6C    PMS 656C
+                                               PMS 814 C
+Usage
+When designing for digital, use RGB.
+
+When designing for IRL, PMS is preferred.
+CMYK is the acronym of last resort.
+
+
+
+
+Twitch Identity Guidelines                                                                    8
+Color                                         Muted
+Twitch Secondary Palette
+                                               Ice               Jiggle           Worm              Isabelle           Droid             Wipe Out
+Secondary colors and gradients are for when
+we activate turbo mode. They’re like our       R 240    C 10     R 250     C 0    R 250   C 0       R 254       C 2    R 190   C 26      R 0     C 80
+ultimate move.                                 G 240    M4       G 180     M 32   G 205   M 26      G 238       M2     G 250   M0        G 200   M0
+                                               B 255    Y 2      B 255     Y 10   B 205   Y 20      B 133       Y 59   B 225   Y 14      B 175   Y 40
+                                               		       K 1      		        K 0    		      K 0       		          K 0    		      K 0       		      K 0
+                                               H 240             H 296            H 0               H 50               H 155             H 172.5
+                                               S 5.88            S 29.41          S 18              S 47               S 24              S 100
+                                               B 100             B 100            B 98.04           B 99               B 98.04           B 78.43
+
+                                               HEX F0F0FF        HEX FAB4FF       HEX FACDCD        HEX FEEE85         HEX BEFAE1        HEX 00C8AF
+                                               PMS 656C          PMS 920C         PMS 9261C                            PMS 621C          PMS 3255C
+
+
+
+
+                                               Smoke             Widow            Peach             Pac-Man            Felicia           Sonic
+
+                                               R 210    C 12     R 190    C 30    R 252    C 0      R 255       C 0    R 87      C 58    R 0      C 100
+                                               G 210    M8       G 170    M 25    G 102    M 75     G 202       M 22   G 190     M6      G 20     M 75
+                                               B 230    Y 8      B 255    Y 0     B 117    Y 40     B 95        Y 72   B 230     Y 3     B 165    Y 0
+                                               		       K 22     		       K 0     		       K 0      		          K 0    		        K 0     		       K 0
+                                               H 240             H 264.32         H 352             H 39               H 196             H 232.73
+                                               S 8.7             S 72.55          S 59              S 62               S 61              S 100
+                                               B 90.2            B 100            B 98              B 100              B 90              B 64.71
+
+                                               HEX D2D2E6        HEX BFABFF       HEX FC6675        HEX FFCA5F         HEX 57BEE6        HEX 0014A5
+                                               PMS Cool Gray 3   PMS 270C                                                                PMS 2147C
+
+
+                                              Accent
+
+
+                                               Dragon            Cuddle           Bandit            Lightning          K.O.              Mega
+
+                                               R 130    C 68     R 250    C 0     R 255   C 10      R 250   C 0        R 190     C 12    R 0     C 45
+                                               G 5      M 78     G 30     M 78    G 105   M7        G 250   M0         G 255     M0      G 250   M0
+                                               B 180    Y 0      B 210    Y 0     B 5     Y 0       B 25    Y 100      B 0       Y 80    B 250   Y 0
+                                               		       K 0      		       K 0     		      K 4       		      K 0        		        K 0     		      K 0
+                                               H 282.86          H 310.91         H 24              H 60               H 75.29           H 180
+                                               S 97.22           S 88             S 98.04           S 90               S 100             S 100
+                                               B 70.59           B 98.04          B 100             B 98.04            B 100             B 98.04
+
+                                               HEX 8205B4        HEX FA1ED2       HEX FF6905        HEX FAFA19         HEX BEFF00        HEX 00FAFA
+                                               PMS 2084C         PMS 806C         PMS Orange 021C   PMS 803C           PMS 395C          PMS 9464C
+
+
+
+
+                                               Nights            Osu              Sniper            Egg                Legend            Zero
+
+                                               R 65    C 85      R 190    C 45    R 250   C 0       R 0     C 50       R 105   C 40      R 30    C 100
+                                               G 20    M 100     G 0      M 100   G 40    M 95      G 250   M0         G 255   M0        G 105   M 15
+                                               B 95    Y 0       B 120    Y 50    B 40    Y 100     B 5     Y 85       B 195   Y 25      B 255   Y 0
+                                               		      K 10      		       K 60    		      K 0       		      K 0        		      K 0       		      K 0
+                                               H 276             H 322.11         H 0               H 121.2            H 156             H 220
+                                               S 78.95           S 100            S 84              S 100              S 58.82           S 88.24
+                                               B 37.25           B 74.51          B 98.04           B 98.04            B 100             B 100
+
+                                               HEX 41145F        HEX BE0078       HEX FA2828        HEX 00FA05         HEX 69FFC3        HEX 1E69FF
+                                               PMS 2617C         PMS 233C         PMS 032C          PMS 802C           PMS Green 0921C   PMS Process Blue C
+
+
+Twitch Identity Guidelines                                                                                                                                9
+Color
+Core Palette
+                                            Wordmark →
+Logo Color Pairings
+There are only four color pairings we use
+when creating ‘core communications’.
+They are:
+
+Solid Backgrounds:
+1. ●Twitch Purple on ●Ice
+2. ●Black Ops on ●Twitch Purple
+3. ●Twitch Purple on ●Black
+
+
+
+
+                                            Extruded Wordmark →
+
+
+
+
+                                            Glitch →
+
+
+
+
+Twitch Identity Guidelines                                        11
+                                                     Hello
+Typography
+                                                    Headline: Roobert SemiBold
+Weights
+                                                    80/80/-20 →
+
+
+
+
+                                                     Hello
+                                                    Meet our typeface:
+Our brand typeface, Roobert, comes in six
+weights from light to heavy.
+
+We most commonly use Regular, Medium,
+Bold, and Semibold. Light and Heavy should
+be left for special instances.
+
+
+
+
+                                                     Hello
+                                                    Twitch Roobert
+Styles
+Roobert comes in twelve styles including a
+full set of italics that can be (tastefully) used
+to add emphasis.
+
+
+
+
+                                                     Hello                                                                       Highlight/Call Out
+                                                                                                                                 Roobert Large 30/33/-15 →
+
+
+
+
+                                                     Hello
+                                                                                         01→ Light                               Hentorro et et
+                                                                                         02 → Regular                            quam is utam
+                                                                                         03 → Medium                             idem abba.
+
+                                                     Hello                               04→ Semibold
+                                                                                         05→ Bold
+                                                                                                                                 Body Small
+                                                                                                                                 Roobert Medium, 11/14,0 →
+
+
+
+
+                                                     Hello
+                                                                                         06→ Heavy
+                                                                                                                                 Suntore, idus non rem custecus, si
+                                                                                                                                 audia quaepedis diorroreius eatur?
+                                                                                                                                 Hentorro et et quam is utam idem siti
+                                                                                                                                 ipsunt et, sitae et unt ut ped eicias
+                                                                                                                                 venihilitas adipideri occulparibus
+                                                                                                                                 quaspellabor aut ius vita.
+
+
+
+                                                    Body: Roobert Medium
+                                                    16/20/-10 →
+
+
+                                                    Suntore, idus non rem custecus,   sitae et unt ut ped eicias           Diorroreius eatur? Hentorro et et
+                                                    si audia quaepedis diorroreius    venihilitas adipideri occulparibus   quam is sitae et unt ut ped eicias
+                                                    eatur? Hentorro et et quam is     quaspellabor aut ius vitae pero      venihilitas adipideri occulparibus
+                                                    utam idem siti ipsunt et,         molest aboribusto voluptatiist       quaspellabor aut ius
+
+
+Twitch Identity Guidelines                                                                                                                                               12
+Layout
+
+                                                 Lorem                                                                                                 Lorem
+When laying out typography, don't be afraid                                                                                                                                                                                                         Lorem ipsum dolar
+to keep things simple. Make it punchy and not
+                                                                                                                                                                                                                                                    sit amat. Sumquodis
+too intricate or complex. Avoid using more
+                                                                                                                                                    ipsum dolar
+                                                 Ipsum
+than 3 type styles and make sure to keep                                                                                                                                                                                                            et, omnis di arum
+                                                                                                                                                      sit amat                                                                                      ratias dolo volum id
+things tight and organized.
+
+                                                                                                                                                                                                                                                    mantis quae.
+
+
+
+
+                                                  Nus doloriost alicia corete     Nus doloriost alicia corete     Nus doloriost alicia corete      Nus doloriost alicia corete     Nus doloriost alicia corete     Nus doloriost alicia corete      Nus doloriost alicia corete     Nus doloriost alicia corete     Nus doloriost alicia corete
+                                                  verupid quatem rem asdnet       verupid quatem rem asdnet       verupid quatem rem asdnet        verupid quatem rem asdnet       verupid quatem rem asdnet       verupid quatem rem asdnet        verupid quatem rem asdnet       verupid quatem rem asdnet       verupid quatem rem asdnet
+                                                  adantris aqui exceproria        adantris aqui exceproria        adantris aqui exceproria         adantris aqui exceproria        adantris aqui exceproria        adantris aqui exceproria         adantris aqui exceproria        adantris aqui exceproria        adantris aqui exceproria
+                                                  volupitincte pa dolorep ers .   volupitincte pa dolorep ers .   volupitincte pa dolorep ers.     volupitincte pa dolorep ers .   volupitincte pa dolorep ers .   volupitincte pa dolorep ers.     volupitincte pa dolorep ers .   volupitincte pa dolorep ers .   volupitincte pa dolorep ers.
+
+
+
+
+                                                                                                                                                                                                                                                   Lorem
+                                                YES                                                                                              YES                                                                                              YES
+                                                Headline top left and body copy bottom                                                           Headline centered top, body copy bottom                                                          Headline left-aligned, body copy bottom
+
+
+
+
+                                                                                                                                                                                                                                                   Lorem
+                                                                                                                                                          Lorem
+                                                                                                                                                       ipsum dolar
+                                                        Lorem                                                                                                                                                                                      Lorem
+                                                                                                                                                                                                                                                   Lorem
+                                                     ipsum dolar
+                                                       sit amat
+                                                                                                                                                           Sit amat                                                                                Lorem
+                                                                                                                                                                                                                                                   Lorem
+                                                  Nus doloriost alicia corete
+                                                  verupid quatem rem asd
+                                                  exceproria volupitincte pa
+                                                  dolorep erspiducient plit.
+                                                                                  Nus doloriost alicia corete
+                                                                                  verupid quatem rem asd
+                                                                                  exceproria volupitincte pa
+                                                                                  dolorep erspiducient plit.
+                                                                                                                  Nus doloriost alicia corete
+                                                                                                                  verupid quatem rem asd
+                                                                                                                  exceproria volupitincte pa
+                                                                                                                  dolorep erspiducient plit.
+                                                                                                                                                          aut et anto
+                                                YES                                                                                              YES                                                                                              YES
+                                                Headline centered and body copy bottom                                                           Headline split: Centered top and bottom                                                          Streaming Effect: Crop & Repetition
+
+
+Twitch Identity Guidelines                                                                                                                                                                                                                                                                                                                         15
+The Twitch Voice
+
+Our voice exists in everything we do, even
+when words aren’t involved. It defines who
+                                                Voice                                       Tonal Scales
+we are and how we present ourselves to the
+world. Our community is vast, passionate,       Mischievous
+funny, clever, supportive and was born          We’ve got spirit and a sense of humor.
+fluent in the language of the internet. Our
+voice seeks to match that energy setting up     This whole thing is meant to be fun.
+our brand as a kindred spirit: the friend who
+plays games with you.
+                                                And it always is, thanks to the limitless
+                                                levels of lunatic creativity within our     Functional                                Emotional
+                                                community. When we poke fun, it’s
+Here are the elements that make the Twitch      good natured. It’s between friends.
+Voice unique:                                   And it comes with the understanding         Casual                                    Reassuring
+                                                that our roast is next.                     How we’d talk to friends. Go ahead and    Lean this way to boost users’
+                                                                                            use slang that would be understood by     confidence or alleviate concerns. This
+                                                Purposeful                                  most internet users.                      is the ‘don’t worry, we’ve got you’ tone.
+                                                We’re here to help.
+                                                                                            Ex. social media posts, most brand        Ex. Posting a popular clip on social,
+                                                We work hard to set the table, but          marketing                                 announcing a marathon, hyping
+                                                we know it’s the guests who make it                                                   TwitchCon
+                                                a party. So we do everything to host,       Neutral
+                                                guide, and support our community the        Straightforward. When we’re neutral,      Encouraging
+                                                best we can.                                we’re communicating something by          This is where we dial up the
+                                                                                            way of the shortest route possible.       welcoming, friendly side of our voice
+                                                Iterative                                                                             to make users feel like they can and
+                                                We get things done.                         Ex. instructions, in product copy         should do it - whatever ‘it’ is.
+
+                                                Twitch is a work in progress, much like     Firm                                      Ex. Event invites, creator tools, new
+                                                the internet it came from. We embrace       Assertive, without ever crossing into     streamer comms
+                                                our rawness and speak honestly              aggressive.
+                                                because the community shares our                                                      Celebratory
+                                                scrappy do-it-yourself spirit.              Ex. Policy updates, apologizing, taking   Lean here when we’re cheering on
+                                                                                            a stance on industry issues               our community or commemorating
+                                                Revolutionary                                                                         something. The most upbeat of tones.
+                                                We strive to be different.
+                                                                                                                                      Ex. Twitch event announcements,
+                                                Our distinct voice comes from a true                                                  product launches, streamer
+                                                place - before this there was nowhere                                                 milestones.
+                                                for people like us to go. We still carry
+                                                that fringe mentality as we question
+                                                the status quo in favor of making
+                                                something better for all of us.
+
+                                                Those principles form the foundation
+                                                of our voice, but our tone can shift
+                                                depending on the circumstances. Here
+                                                are two scales we use to make sure our
+                                                tone is aligning with specific needs. →
+
+
+
+Twitch Identity Guidelines                                                                                                                                                        18
+Twitch Guidelines (Speedrun Edition) — 01.07.21   Please note that many of the photographic        If you are having double with anything in
+                                                  images used in these guidelines are not          this guide, you are missing brand elements
+                                                  owned or licensed by Twitch, and are intended    from the Brand Package, or you are unsure
+                                                  only to illustrate the brand mechanics. Under    if your communication best represents the
+                                                  no circumstance should you use any photo         Twitch Brand, please contact the Twitch
+                                                  or example in the guide for any kind of public   design team.
+                                                  facing communications.
+
+                                                  Always ensure that you have the approval
+                                                  of the appropriate copyright owners before
+                                                  using a photographic image in a Twitch
+                                                  communication.
+

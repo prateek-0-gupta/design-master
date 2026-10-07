@@ -1,0 +1,231 @@
+{
+ "url": "https://www.meta.com/brand/resources/meta/company-brand/",
+ "title": "Meta brand resources and guidelines | Meta | Meta | Brand Resource Center",
+ "scrollHeight": 5619,
+ "customProperties": {},
+ "loadedFonts": [
+  "Facebook Sans 500 normal",
+  "Optimistic 400 normal",
+  "Optimistic 500 normal",
+  "Optimistic 700 normal"
+ ],
+ "fontFamily": {
+  "Optimistic, Helvetica, \"Helvetica Neue\", Arial, sans-serif": 57,
+  "\"Facebook Sans\", Helvetica, \"Helvetica Neue\", Arial, sans-serif": 8
+ },
+ "fontSize": {
+  "22px": 22,
+  "16px": 16,
+  "18px": 12,
+  "14px": 5,
+  "25px": 5,
+  "34px": 2,
+  "60px": 1,
+  "12px": 1,
+  "15px": 1
+ },
+ "fontWeight": {
+  "400": 49,
+  "500": 12,
+  "700": 4
+ },
+ "lineHeight": {
+  "34px": 22,
+  "24px": 16,
+  "28px": 9,
+  "20px": 5,
+  "40px": 5,
+  "46px": 2,
+  "70px": 1,
+  "16.08px": 1,
+  "21px": 1,
+  "24.12px": 1,
+  "22px": 1,
+  "26px": 1
+ },
+ "letterSpacing": {
+  "-0.44px": 22,
+  "normal": 16,
+  "-0.32px": 14,
+  "-0.36px": 9,
+  "1.19px": 2,
+  "2.1px": 1,
+  "-0.28px": 1
+ },
+ "textColor": {
+  "rgb(28, 43, 51)": 24,
+  "rgb(103, 120, 138)": 11,
+  "rgb(70, 90, 105)": 10,
+  "rgb(0, 0, 0)": 8,
+  "rgb(26, 26, 26)": 5,
+  "rgb(107, 120, 136)": 3,
+  "rgb(103, 123, 140)": 1,
+  "rgb(101, 103, 107)": 1,
+  "rgb(255, 255, 255)": 1,
+  "rgba(0, 0, 0, 0.4)": 1
+ },
+ "bg": {
+  "rgb(255, 255, 255)": 6,
+  "rgb(0, 0, 0)": 3,
+  "rgb(103, 120, 138)": 2,
+  "rgb(241, 244, 247)": 1,
+  "rgb(218, 221, 225)": 1,
+  "rgba(255, 255, 255, 0.9)": 1
+ },
+ "radius": {
+  "50%": 3
+ },
+ "shadow": {},
+ "transition": {
+  "color, opacity 1.5s cubic-bezier(0.14, 1, 0.34, 1)": 6,
+  "all 0.15s ease-in-out": 3,
+  "border 0.25s ease": 1,
+  "background-size 0.67s cubic-bezier(0.33, 0, 0, 1)": 1,
+  "max-height, opacity 0.3s, 0.67s cubic-bezier(0.33, 0, 0, 1), linear": 1,
+  "right 0.5s ease": 1,
+  "border-color 1.5s cubic-bezier(0.14, 1, 0.34, 1)": 1,
+  "background-size 1s cubic-bezier(0.33, 0, 0, 1)": 1
+ },
+ "border": {
+  "1px solid rgba(0, 0, 0, 0.1)": 3,
+  "1px solid rgba(0, 0, 0, 0.2)": 2,
+  "1px solid rgba(196, 196, 196, 0.4)": 1,
+  "1px solid rgba(0, 0, 0, 0.15)": 1,
+  "1px solid rgb(153, 153, 153)": 1,
+  "1px solid rgb(199, 202, 203)": 1
+ },
+ "textTransform": {
+  "none": 65
+ },
+ "typePairs": {
+  "Optimistic | 22px | 400 | lh 34px | ls -0.44px": 22,
+  "Optimistic | 18px | 400 | lh 28px | ls -0.36px": 9,
+  "Optimistic | 16px | 400 | lh 24px | ls -0.32px": 8,
+  "Facebook Sans | 16px | 400 | lh 24px | ls -0.32px": 6,
+  "Optimistic | 25px | 500 | lh 40px | ls normal": 5,
+  "Optimistic | 14px | 500 | lh 20px | ls normal": 3,
+  "Optimistic | 34px | 500 | lh 46px | ls 1.19px": 2,
+  "Optimistic | 16px | 700 | lh 20px | ls normal": 1,
+  "Optimistic | 18px | 500 | lh 24px | ls normal": 1,
+  "Optimistic | 60px | 500 | lh 70px | ls 2.1px": 1,
+  "Optimistic | 12px | 700 | lh 16.08px | ls normal": 1,
+  "Optimistic | 18px | 700 | lh 21px | ls normal": 1,
+  "Optimistic | 16px | 400 | lh 24px | ls normal": 1,
+  "Optimistic | 18px | 700 | lh 24.12px | ls normal": 1,
+  "Optimistic | 14px | 400 | lh 20px | ls -0.28px": 1,
+  "Facebook Sans | 14px | 400 | lh 22px | ls normal": 1,
+  "Facebook Sans | 15px | 400 | lh 26px | ls normal": 1
+ },
+ "headings": [
+  "H1 Meta brand resources and guidelines",
+  "H2 The Meta logo",
+  "H2 Work with your Meta counterpart for approvals"
+ ],
+ "nav": [
+  {
+   "t": "Meta company logo",
+   "h": "https://www.meta.com/brand/resources/"
+  },
+  {
+   "t": "Meta brand resources and guidelines",
+   "h": "https://www.meta.com/brand/resources/meta/company-brand/"
+  },
+  {
+   "t": "Meta Platforms Trademarks",
+   "h": "https://www.meta.com/brand/resources/meta/our-trademarks/"
+  },
+  {
+   "t": "Partnering with Meta",
+   "h": "https://www.meta.com/brand/resources/meta/partnering-with-meta/"
+  },
+  {
+   "t": "Brand Resource Center home",
+   "h": "https://www.meta.com/brand/resources/"
+  },
+  {
+   "t": "Meta",
+   "h": "https://www.meta.com/brand/resources/meta/company-brand/"
+  },
+  {
+   "t": "Facebook",
+   "h": "https://www.meta.com/brand/resources/facebook/logo/"
+  },
+  {
+   "t": "Instagram",
+   "h": "https://www.meta.com/brand/resources/instagram/instagram-brand/"
+  },
+  {
+   "t": "WhatsApp",
+   "h": "https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/"
+  },
+  {
+   "t": "Threads",
+   "h": "https://www.meta.com/brand/resources/threads/"
+  },
+  {
+   "t": "Meta company logo",
+   "h": "https://www.meta.com/brand/resources/"
+  },
+  {
+   "t": "Newsroom Media Gallery",
+   "h": "https://about.facebook.com/media-gallery/?_ga=2.239495371.936850203.1625608127-989903684.1625608127"
+  },
+  {
+   "t": "Meta’s Advertising Policies",
+   "h": "https://l.facebook.com/l.php?u=https%3A%2F%2Ftransparency.fb.com%2Fpolicies%2Fad-standards%2F&h=AUARp2eWxqsHCVCOrfd1VkN3pOzQWAp971R6G540VRHGlpLdJeqxEq5ahCMMXApjE8nv7xZDGkVlRoTXbtWZUCDocp5Jg8fFTEbylgf7P7c-_BQQGXZKxnogrXNzEjp0uT2lavTmX86dgQ"
+  },
+  {
+   "t": "here",
+   "h": "https://www.meta.com/brand/resources/facebookcompany/our-trademarks/"
+  },
+  {
+   "t": "Terms of Service",
+   "h": "https://www.facebook.com/terms.php"
+  },
+  {
+   "t": "Community Standards",
+   "h": "https://www.facebook.com/communitystandards/"
+  },
+  {
+   "t": "Terms of Service",
+   "h": "https://www.facebook.com/terms.php"
+  },
+  {
+   "t": "Community Standards",
+   "h": "https://l.facebook.com/l.php?u=https%3A%2F%2Ftransparency.meta.com%2Fpolicies%2Fcommunity-standards%2F&h=AUDXA2O7Pbdx9BJtrZ4qmLQcyRPvOIGhLUflKTTJ8PDsYEPTKCauSH9aBXNkZE8f7MAFQVDlzZWsE9qvIUjyuYThOZP8u4Aqk7eI7fEypG-fP6QPyjhmz_oC6HOhOmVV5DZ4-ujvd12X7Q"
+  },
+  {
+   "t": "Terms of Service",
+   "h": "https://www.facebook.com/terms.php"
+  },
+  {
+   "t": "Community Standards",
+   "h": "https://l.facebook.com/l.php?u=https%3A%2F%2Ftransparency.meta.com%2Fpolicies%2Fcommunity-standards%2F&h=AUAUzA8fMTQPVX_ATkK_UM4gXjUDvuirYd3q-YURreTaURVkdBn0HSekrEtCbfY4gn7fjvetbpMfsb8wzny1NiG2VuLCejgr41W-sVkHqTEeqFoJEhvvVuGy69CZPiCG8CHfKMcbQ8N1DQ"
+  },
+  {
+   "t": "About",
+   "h": "https://www.meta.com/about/"
+  },
+  {
+   "t": "Terms",
+   "h": "https://www.facebook.com/policies"
+  },
+  {
+   "t": "Help",
+   "h": "https://www.facebook.com/help"
+  },
+  {
+   "t": "Our trademarks",
+   "h": "https://www.facebook.com/brand/resources/facebookcompany/our-trademarks"
+  },
+  {
+   "t": "Privacy",
+   "h": "https://www.facebook.com/privacy/explanation"
+  },
+  {
+   "t": "Cookies",
+   "h": "https://www.facebook.com/policies/cookies/"
+  }
+ ],
+ "fullHeight": 5619
+}

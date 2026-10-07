@@ -1,0 +1,177 @@
+{
+ "url": "https://merk.odido.nl/en/auth/unauthorized?redirect=/en/brand-foundation",
+ "title": "For employees and partners",
+ "scrollHeight": 900,
+ "customProperties": {
+  "--tw-ring-offset-shadow": "0 0 #0000",
+  "--tw-contrast": "",
+  "--tw-backdrop-sepia": "",
+  "--tw-ring-shadow": "0 0 #0000",
+  "--tw-sepia": "",
+  "--tw-skew-x": "0",
+  "--tw-ordinal": "",
+  "--tw-backdrop-saturate": "",
+  "--tw-backdrop-blur": "",
+  "--tw-shadow": "0 0 #0000",
+  "--tw-translate-x": "0",
+  "--tw-ring-offset-width": "0px",
+  "--tw-ring-inset": "",
+  "--tw-gradient-via-position": "",
+  "--tw-backdrop-invert": "",
+  "--tw-saturate": "",
+  "--tw-scroll-snap-strictness": "proximity",
+  "--tw-numeric-spacing": "",
+  "--tw-grayscale": "",
+  "--tw-scale-x": "1",
+  "--tw-border-spacing-x": "0",
+  "--tw-backdrop-hue-rotate": "",
+  "--tw-shadow-colored": "0 0 #0000",
+  "--tw-gradient-to-position": "",
+  "--tw-brightness": "",
+  "--tw-border-spacing-y": "0",
+  "--tw-numeric-fraction": "",
+  "--tw-backdrop-grayscale": "",
+  "--tw-hue-rotate": "",
+  "--tw-scale-y": "1",
+  "--tw-pan-y": "",
+  "--tw-backdrop-contrast": "",
+  "--tw-drop-shadow": "",
+  "--tw-skew-y": "0",
+  "--tw-ring-color": "rgba(59,130,246,.5)",
+  "--tw-backdrop-brightness": "",
+  "--tw-slashed-zero": "",
+  "--tw-blur": "",
+  "--tw-invert": "",
+  "--tw-pan-x": "",
+  "--tw-translate-y": "0",
+  "--tw-backdrop-opacity": "",
+  "--tw-gradient-from-position": "",
+  "--tw-numeric-figure": "",
+  "--tw-rotate": "0",
+  "--tw-pinch-zoom": "",
+  "--tw-ring-offset-color": "#fff"
+ },
+ "loadedFonts": [
+  "Otypical Text 400 normal",
+  "Otypical Headline 500 normal"
+ ],
+ "fontFamily": {
+  "\"Otypical Text\", Arial, sans-serif": 19,
+  "\"Otypical Headline\", sans-serif": 1
+ },
+ "fontSize": {
+  "16px": 18,
+  "104px": 1,
+  "24px": 1
+ },
+ "fontWeight": {
+  "400": 19,
+  "500": 1
+ },
+ "lineHeight": {
+  "24px": 18,
+  "100px": 1,
+  "32px": 1
+ },
+ "letterSpacing": {
+  "0.32px": 18,
+  "normal": 2
+ },
+ "textColor": {
+  "rgb(187, 187, 187)": 16,
+  "rgb(0, 0, 0)": 3,
+  "rgb(255, 255, 255)": 1
+ },
+ "bg": {
+  "rgb(255, 255, 255)": 1,
+  "rgb(0, 0, 0)": 1
+ },
+ "radius": {
+  "9999px": 4
+ },
+ "shadow": {},
+ "transition": {
+  "all 0.1s cubic-bezier(0.4, 0, 0.2, 1)": 4
+ },
+ "border": {
+  "2px solid rgb(0, 0, 0)": 2
+ },
+ "textTransform": {
+  "none": 20
+ },
+ "typePairs": {
+  "Otypical Text | 16px | 400 | lh 24px | ls 0.32px": 18,
+  "Otypical Headline | 104px | 500 | lh 100px | ls normal": 1,
+  "Otypical Text | 24px | 400 | lh 32px | ls normal": 1
+ },
+ "headings": [
+  "H1 For employees and partners"
+ ],
+ "nav": [
+  {
+   "t": "Introduction",
+   "h": "https://merk.odido.nl/en"
+  },
+  {
+   "t": "Brand foundation",
+   "h": "https://merk.odido.nl/en/brand-foundation"
+  },
+  {
+   "t": "Logo",
+   "h": "https://merk.odido.nl/en/logo"
+  },
+  {
+   "t": "Colour",
+   "h": "https://merk.odido.nl/en/colour"
+  },
+  {
+   "t": "Typography",
+   "h": "https://merk.odido.nl/en/typography"
+  },
+  {
+   "t": "Layout",
+   "h": "https://merk.odido.nl/en/layout"
+  },
+  {
+   "t": "Shapes",
+   "h": "https://merk.odido.nl/en/shapes"
+  },
+  {
+   "t": "Photography",
+   "h": "https://merk.odido.nl/en/photography"
+  },
+  {
+   "t": "Illustration",
+   "h": "https://merk.odido.nl/en/illustration"
+  },
+  {
+   "t": "Iconography",
+   "h": "https://merk.odido.nl/en/iconography"
+  },
+  {
+   "t": "Motion",
+   "h": "https://merk.odido.nl/en/motion"
+  },
+  {
+   "t": "Sonic",
+   "h": "https://merk.odido.nl/en/sonic"
+  },
+  {
+   "t": "Tone of Voice",
+   "h": "https://merk.odido.nl/en/tone-of-voice"
+  },
+  {
+   "t": "Digital",
+   "h": "https://merk.odido.nl/en/digital"
+  },
+  {
+   "t": "Resources",
+   "h": "https://merk.odido.nl/en/resources"
+  },
+  {
+   "t": "Support",
+   "h": "https://merk.odido.nl/en/support"
+  }
+ ],
+ "fullHeight": 900
+}

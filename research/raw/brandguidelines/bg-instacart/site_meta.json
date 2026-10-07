@@ -1,0 +1,38 @@
+{
+ "requested": "https://heyitsinstacart.com/",
+ "final": "https://heyitsinstacart.com/layout/",
+ "title": "Instacart Brand Guide",
+ "subpages": [
+  {
+   "href": "https://heyitsinstacart.com/brandelement/",
+   "t": "Brand Element",
+   "ok": true
+  },
+  {
+   "href": "https://heyitsinstacart.com/logo/",
+   "t": "Logo",
+   "ok": true
+  },
+  {
+   "href": "https://heyitsinstacart.com/color/",
+   "t": "Colors",
+   "ok": true
+  },
+  {
+   "href": "https://heyitsinstacart.com/typography/",
+   "t": "Typography",
+   "ok": true
+  },
+  {
+   "href": "https://heyitsinstacart.com/photography/",
+   "t": "Photography",
+   "ok": true
+  },
+  {
+   "href": "https://heyitsinstacart.com/layout/",
+   "t": "Layout",
+   "ok": true
+  }
+ ],
+ "cssFiles": 56
+}

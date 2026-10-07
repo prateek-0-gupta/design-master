@@ -1,0 +1,20 @@
+{
+ "requested": "https://brandpad.io/norsk-helsenett",
+ "final": "https://brandpad.io/norsk-helsenett/",
+ "title": "Norsk helsenett",
+ "subpages": [
+  {
+   "href": "https://brandpad.io/cloudinary/brandpad/raw/upload/v1673859310/7819/powerpoint-mal-januar-2023.potx",
+   "t": "Last ned",
+   "ok": false,
+   "err": "page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://brandpad.io/cloudinary/brandpad/raw/upload/v167"
+  },
+  {
+   "href": "https://brandpad.io/cloudinary/brandpad/raw/upload/v1616751668/7819/rapportmal.dotx",
+   "t": "Last ned",
+   "ok": false,
+   "err": "page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://brandpad.io/cloudinary/brandpad/raw/upload/v161"
+  }
+ ],
+ "cssFiles": 3
+}

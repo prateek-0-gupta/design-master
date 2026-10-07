@@ -1,0 +1,39 @@
+{
+ "url": "https://wise.design/foundations",
+ "title": "",
+ "scrollHeight": 900,
+ "customProperties": {},
+ "loadedFonts": [],
+ "fontFamily": {
+  "monospace": 1
+ },
+ "fontSize": {
+  "13px": 1
+ },
+ "fontWeight": {
+  "400": 1
+ },
+ "lineHeight": {
+  "normal": 1
+ },
+ "letterSpacing": {
+  "normal": 1
+ },
+ "textColor": {
+  "rgb(0, 0, 0)": 1
+ },
+ "bg": {},
+ "radius": {},
+ "shadow": {},
+ "transition": {},
+ "border": {},
+ "textTransform": {
+  "none": 1
+ },
+ "typePairs": {
+  "monospace | 13px | 400 | lh normal | ls normal": 1
+ },
+ "headings": [],
+ "nav": [],
+ "fullHeight": 900
+}

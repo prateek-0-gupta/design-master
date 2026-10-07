@@ -1,0 +1,148 @@
+{
+ "url": "https://reddit.lingoapp.com/k/Brand-foundation-oYYL4W",
+ "title": "Reddit Brand System | Brand foundation",
+ "scrollHeight": 900,
+ "customProperties": {},
+ "loadedFonts": [
+  "Inter 100 900 normal",
+  "Reddit Sans 400 italic",
+  "Reddit Sans 400 normal",
+  "Reddit Sans 600 normal",
+  "Reddit Sans 800 normal"
+ ],
+ "fontFamily": {
+  "\"Reddit Sans\", sans-serif": 116
+ },
+ "fontSize": {
+  "14px": 100,
+  "22px": 6,
+  "16px": 3,
+  "20px": 2,
+  "12px": 2,
+  "28px": 2,
+  "36px": 1
+ },
+ "fontWeight": {
+  "400": 86,
+  "600": 27,
+  "800": 2,
+  "900": 1
+ },
+ "lineHeight": {
+  "24px": 105,
+  "32px": 6,
+  "16px": 2,
+  "40px": 2,
+  "56px": 1
+ },
+ "letterSpacing": {
+  "normal": 116
+ },
+ "textColor": {
+  "rgb(0, 0, 0)": 74,
+  "rgb(36, 36, 37)": 35,
+  "rgb(163, 164, 166)": 5,
+  "rgb(255, 69, 0)": 1,
+  "rgb(96, 102, 227)": 1
+ },
+ "bg": {
+  "rgb(255, 255, 255)": 29,
+  "rgb(225, 226, 228)": 10,
+  "rgba(255, 255, 255, 0)": 2,
+  "rgba(250, 250, 250, 0.8)": 2,
+  "rgba(42, 42, 42, 0.9)": 2,
+  "rgba(255, 255, 255, 0.98)": 1,
+  "rgb(238, 239, 240)": 1,
+  "rgba(0, 0, 0, 0.08)": 1,
+  "rgb(250, 250, 250)": 1
+ },
+ "radius": {
+  "4px": 145,
+  "6px": 11,
+  "20px": 1,
+  "4px 0px 0px 4px": 1
+ },
+ "shadow": {
+  "rgba(36, 36, 37, 0.12) 0px 1px 3px 0px": 11,
+  "rgba(42, 42, 42, 0.1) 0px 4px 12px 0px, rgba(42, 42, 42, 0.14) 0px 1px 2px 0px": 1
+ },
+ "transition": {
+  "all 0.3s ease": 106,
+  "opacity 0.3s ease": 91,
+  "color 0.3s ease": 74,
+  "opacity 0.1s ease-in-out": 9,
+  "background, opacity, color, text-decoration, box-shadow 0.2s ease": 6,
+  "opacity 0.25s ease": 2,
+  "opacity 0.2s ease": 2,
+  "border-radius 0.3s ease-in-out": 1,
+  "background 0.2s ease-in": 1,
+  "max-height, opacity 0.3s, 0.3s ease-out, ease-out": 1,
+  "all 0.2s ease": 1,
+  "padding 0.4s ease": 1,
+  "opacity, visibility 0.3s, 0.3s ease-in-out, ease-in-out": 1,
+  "width 0.2s cubic-bezier(0.02, 0.22, 0.55, 1)": 1,
+  "background-color 0.2s ease-in-out": 1,
+  "opacity 0.4s ease-in": 1,
+  "bottom 0.4s ease": 1
+ },
+ "border": {
+  "2px solid rgba(0, 0, 0, 0)": 11,
+  "1px solid rgb(225, 226, 228)": 5
+ },
+ "textTransform": {
+  "none": 116
+ },
+ "typePairs": {
+  "Reddit Sans | 14px | 400 | lh 24px | ls normal": 84,
+  "Reddit Sans | 14px | 600 | lh 24px | ls normal": 16,
+  "Reddit Sans | 22px | 600 | lh 32px | ls normal": 6,
+  "Reddit Sans | 16px | 600 | lh 24px | ls normal": 3,
+  "Reddit Sans | 20px | 800 | lh 24px | ls normal": 2,
+  "Reddit Sans | 12px | 400 | lh 16px | ls normal": 2,
+  "Reddit Sans | 28px | 600 | lh 40px | ls normal": 2,
+  "Reddit Sans | 36px | 900 | lh 56px | ls normal": 1
+ },
+ "headings": [
+  "H1 Reddit Brand Resources",
+  "H1 /",
+  "H1 Overview",
+  "H1 The Reddit Brand System is a living online space that explains how to use Reddit",
+  "H2 Strategic foundation",
+  "H1 Reddit gives people tools to build community, creating space for genuine discuss",
+  "H2 Mission",
+  "H1 To empower communities, and make their knowledge accessible to everyone.",
+  "H2 Description",
+  "H1 Reddit is the heart of the internet",
+  "H2 Positioning",
+  "H1 Where we discover and participate through real conversation",
+  "H2 Visual foundation",
+  "H1 These foundational principles are essential in defining the visual translation o"
+ ],
+ "nav": [
+  {
+   "t": "Brand foundation",
+   "h": "https://reddit.lingoapp.com/k/Brand-foundation-oYYL4W"
+  },
+  {
+   "t": "Brand values",
+   "h": "https://reddit.lingoapp.com/s/o4n1r2?v=46"
+  },
+  {
+   "t": "Lingo",
+   "h": "https://www.lingoapp.com/"
+  },
+  {
+   "t": "Help",
+   "h": "https://help.lingoapp.com/"
+  },
+  {
+   "t": "Legal",
+   "h": "https://www.lingoapp.com/legal"
+  },
+  {
+   "t": "Digital Asset Management",
+   "h": "https://www.lingoapp.com/?utm_campaign=powered_by_lingo&utm_medium=web&utm_source=kit_footer"
+  }
+ ],
+ "fullHeight": 900
+}

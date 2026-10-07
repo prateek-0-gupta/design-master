@@ -1,0 +1,118 @@
+{
+ "url": "https://www.meta.com/brand/resources/",
+ "title": "Meta Brand Resource Center | Brand Resource Center",
+ "scrollHeight": 2569,
+ "customProperties": {},
+ "loadedFonts": [
+  "Facebook Sans 500 normal",
+  "Optimistic Text 400 normal",
+  "Optimistic VF 200 800 normal"
+ ],
+ "fontFamily": {
+  "\"Optimistic VF\", Helvetica, Arial, sans-serif": 13,
+  "\"Facebook Sans\", Helvetica, \"Helvetica Neue\", Arial, sans-serif": 8,
+  "\"Optimistic Text\", Montserrat, Helvetica, Arial, sans-serif": 1
+ },
+ "fontSize": {
+  "16px": 9,
+  "18px": 6,
+  "14px": 3,
+  "36px": 2,
+  "48px": 1,
+  "15px": 1
+ },
+ "fontWeight": {
+  "400": 8,
+  "500": 14
+ },
+ "lineHeight": {
+  "24px": 9,
+  "21.6px": 5,
+  "43.2px": 2,
+  "21px": 2,
+  "23px": 1,
+  "57.6px": 1,
+  "22px": 1,
+  "26px": 1
+ },
+ "letterSpacing": {
+  "normal": 13,
+  "0.09px": 5,
+  "0.36px": 2,
+  "-0.5px": 1,
+  "0.576px": 1
+ },
+ "textColor": {
+  "rgb(28, 43, 51)": 9,
+  "rgb(0, 0, 0)": 7,
+  "rgb(70, 90, 105)": 5,
+  "rgba(0, 0, 0, 0.4)": 1
+ },
+ "bg": {
+  "rgb(241, 244, 247)": 5
+ },
+ "radius": {
+  "2px": 5,
+  "50%": 1
+ },
+ "shadow": {},
+ "transition": {
+  "all 0.667s cubic-bezier(0.33, 0, 0.22, 1)": 1
+ },
+ "border": {
+  "1px solid rgba(0, 0, 0, 0.2)": 2,
+  "1px solid rgb(199, 202, 203)": 1
+ },
+ "textTransform": {
+  "none": 22
+ },
+ "typePairs": {
+  "Facebook Sans | 16px | 500 | lh 24px | ls normal": 6,
+  "Optimistic VF | 18px | 500 | lh 21.6px | ls 0.09px": 5,
+  "Optimistic VF | 16px | 400 | lh 24px | ls normal": 3,
+  "Optimistic VF | 36px | 500 | lh 43.2px | ls 0.36px": 2,
+  "Optimistic VF | 14px | 400 | lh 21px | ls normal": 2,
+  "Optimistic Text | 18px | 400 | lh 23px | ls -0.5px": 1,
+  "Optimistic VF | 48px | 500 | lh 57.6px | ls 0.576px": 1,
+  "Facebook Sans | 14px | 400 | lh 22px | ls normal": 1,
+  "Facebook Sans | 15px | 400 | lh 26px | ls normal": 1
+ },
+ "headings": [
+  "H2 Explore how to use brand assets from Meta technologies and programs."
+ ],
+ "nav": [
+  {
+   "t": "My Requests",
+   "h": "https://www.meta.com/brand/resources/meta/my-request/"
+  },
+  {
+   "t": "Meta’s Advertising Policies",
+   "h": "https://l.facebook.com/l.php?u=https%3A%2F%2Ftransparency.fb.com%2Fpolicies%2Fad-standards%2F%3F%2Bsource%3Dhttps%253A%252F%252Fwww.facebook.com%252Fpolicies_center%252Fads&h=AUC-FaXWdMONMc3ZKswEblegE2FHUQTIiERRTYeHtp5YI2ytfZCVXnl7PecBjNnDQFosT8NBGNyC56ptZSZkuLxYcaA1FDRMRbJEgGApNyzrsnGqtM0MkEKFdslPWY8YsFY0qOd-LJPetQ"
+  },
+  {
+   "t": "About",
+   "h": "https://www.meta.com/about/"
+  },
+  {
+   "t": "Terms",
+   "h": "https://www.facebook.com/policies"
+  },
+  {
+   "t": "Help",
+   "h": "https://www.facebook.com/help"
+  },
+  {
+   "t": "Our trademarks",
+   "h": "https://www.facebook.com/brand/resources/facebookcompany/our-trademarks"
+  },
+  {
+   "t": "Privacy",
+   "h": "https://www.facebook.com/privacy/explanation"
+  },
+  {
+   "t": "Cookies",
+   "h": "https://www.facebook.com/policies/cookies/"
+  }
+ ],
+ "fullHeight": 2569
+}

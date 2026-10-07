@@ -1,0 +1,33 @@
+{
+ "requested": "https://www.brand-monday.com/",
+ "final": "https://www.brand-monday.com/colors",
+ "title": "brandbook",
+ "subpages": [
+  {
+   "href": "https://www.brand-monday.com/brand-values",
+   "t": "Brand values",
+   "ok": true
+  },
+  {
+   "href": "https://www.brand-monday.com/tone-of-voice",
+   "t": "Tone of Voice",
+   "ok": true
+  },
+  {
+   "href": "https://www.brand-monday.com/logo",
+   "t": "Logo",
+   "ok": true
+  },
+  {
+   "href": "https://www.brand-monday.com/typography",
+   "t": "Typography",
+   "ok": true
+  },
+  {
+   "href": "https://www.brand-monday.com/colors",
+   "t": "Colors",
+   "ok": true
+  }
+ ],
+ "cssFiles": 12
+}

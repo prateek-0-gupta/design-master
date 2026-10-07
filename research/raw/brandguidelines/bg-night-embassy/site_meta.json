@@ -1,0 +1,38 @@
+{
+ "requested": "https://identity.night-embassy.com/",
+ "final": "https://identity.night-embassy.com/logo?e=7tb7yw57wae",
+ "title": "NIGHT EMBASSY IDENTITY GUIDELINES",
+ "subpages": [
+  {
+   "href": "https://identity.night-embassy.com/logo",
+   "t": "LOGO",
+   "ok": true
+  },
+  {
+   "href": "https://identity.night-embassy.com/colour",
+   "t": "COLOUR",
+   "ok": true
+  },
+  {
+   "href": "https://identity.night-embassy.com/typography",
+   "t": "TYPOGRAPHY",
+   "ok": true
+  },
+  {
+   "href": "https://identity.night-embassy.com/photography",
+   "t": "PHOTOGRAPHY",
+   "ok": true
+  },
+  {
+   "href": "https://identity.night-embassy.com/motion",
+   "t": "MOTION",
+   "ok": true
+  },
+  {
+   "href": "https://identity.night-embassy.com/logo?e=7tb7yw57wae",
+   "t": "NEXT  ▶︎",
+   "ok": true
+  }
+ ],
+ "cssFiles": 14
+}

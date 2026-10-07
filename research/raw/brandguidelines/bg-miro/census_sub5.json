@@ -1,0 +1,222 @@
+{
+ "url": "https://brandkit.miro.com/corporate-visual-identity/illustrations-1",
+ "title": "Brand Guidelines - Illustrations",
+ "scrollHeight": 900,
+ "customProperties": {
+  "--light": "#f8f9fa",
+  "--yellow": "#ffc107",
+  "--xXIVXjKrAYrI": "\"Roobert PRO SemiBold Regular\"",
+  "--green": "#28a745",
+  "--pink": "#e83e8c",
+  "--breakpoint-xs": "0",
+  "--teal": "#20c997",
+  "--gray-dark": "#343a40",
+  "--breakpoint-md": "768px",
+  "--xaHqtxWpeRck": "\"Roobert PRO Bold\"",
+  "--white": "#fff",
+  "--danger": "#dc3545",
+  "--success": "#28a745",
+  "--gray": "#6c757d",
+  "--red": "#dc3545",
+  "--cyan": "#17a2b8",
+  "--dark": "#343a40",
+  "--breakpoint-xl": "1200px",
+  "--font-family-monospace": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+  "--font-family-sans-serif": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"",
+  "--indigo": "#6610f2",
+  "--purple": "#6f42c1",
+  "--breakpoint-sm": "576px",
+  "--breakpoint-lg": "992px",
+  "--primary": "#007bff",
+  "--blue": "#007bff",
+  "--warning": "#ffc107",
+  "--secondary": "#6c757d",
+  "--erXanubRmdFH": "\"Roobert PRO Medium Regular\"",
+  "--info": "#17a2b8",
+  "--FpXxoSmKRSeA": "\"Roobert PRO Heavy Italic\"",
+  "--orange": "#fd7e14",
+  "--evOVVHQcetve": "\"Roobert PRO Regular\""
+ },
+ "loadedFonts": [
+  "Rubik 300 normal",
+  "Rubik 400 normal",
+  "Rubik 500 normal",
+  "Rubik 700 normal",
+  "Josefin Sans 400 normal",
+  "Raleway 400 normal",
+  "Source Sans Pro 400 normal",
+  "Formular Regular normal normal",
+  "Roobert PRO Bold normal normal",
+  "Roobert PRO Bold Italic normal normal",
+  "Roobert PRO Heavy Italic normal normal",
+  "Roobert PRO Heavy Regular normal normal",
+  "Roobert PRO Italic normal normal",
+  "Roobert PRO Light Italic normal normal",
+  "Roobert PRO Light Regular normal normal",
+  "Roobert PRO Medium Italic normal normal",
+  "Roobert PRO Medium Regular normal normal",
+  "Roobert PRO Regular normal normal",
+  "Roobert PRO SemiBold Italic normal normal",
+  "Roobert PRO SemiBold Regular normal normal",
+  "Satoshi Black normal normal",
+  "Satoshi Bold normal normal",
+  "Satoshi Light normal normal",
+  "Satoshi Medium normal normal",
+  "Satoshi Regular normal normal"
+ ],
+ "fontFamily": {
+  "\"Roobert PRO Regular\"": 24,
+  "\"Roobert PRO Heavy Italic\"": 5,
+  "Rubik": 3
+ },
+ "fontSize": {
+  "14px": 12,
+  "17px": 11,
+  "70px": 3,
+  "24px": 2,
+  "120px": 1,
+  "67px": 1,
+  "16px": 1,
+  "12px": 1
+ },
+ "fontWeight": {
+  "200": 5,
+  "300": 2,
+  "400": 21,
+  "500": 2,
+  "700": 2
+ },
+ "lineHeight": {
+  "22.4px": 12,
+  "20.4px": 11,
+  "77px": 3,
+  "132px": 1,
+  "73.7px": 1,
+  "26.4px": 1,
+  "17px": 1,
+  "14px": 1,
+  "28px": 1
+ },
+ "letterSpacing": {
+  "normal": 27,
+  "0.3px": 5
+ },
+ "textColor": {
+  "rgb(28, 28, 30)": 19,
+  "rgb(108, 113, 115)": 9,
+  "rgb(0, 0, 0)": 2,
+  "rgb(255, 255, 255)": 2
+ },
+ "bg": {
+  "rgb(255, 255, 255)": 10,
+  "rgb(255, 221, 51)": 3,
+  "rgb(245, 245, 245)": 1,
+  "rgba(21, 22, 27, 0.9)": 1,
+  "rgba(255, 255, 255, 0.5)": 1,
+  "rgb(21, 22, 27)": 1,
+  "rgb(51, 51, 51)": 1
+ },
+ "radius": {
+  "50%": 8,
+  "6px": 4,
+  "10px": 1,
+  "6px 6px 0px 0px": 1,
+  "0px 0px 6px 6px": 1,
+  "3px": 1
+ },
+ "shadow": {
+  "rgba(0, 0, 0, 0.45) 0px 4px 20px 0px": 1,
+  "rgba(255, 255, 255, 0.5) 0px -9.2485px 22.2545px 0px": 1,
+  "rgba(255, 255, 255, 0.5) 0px -6.7485px 29.7545px 0px": 1,
+  "rgba(255, 255, 255, 0.5) 0px -4.2485px 37.2545px 0px": 1,
+  "rgba(255, 255, 255, 0.5) 0px -1.7485px 44.7545px 0px": 1,
+  "rgba(255, 255, 255, 0.5) 0px 45.491px 20px 0px": 1,
+  "rgba(255, 255, 255, 0.5) 0px 30.491px 20px 0px": 1,
+  "rgba(255, 255, 255, 0.5) 0px 15.491px 20px 0px": 1,
+  "rgba(255, 255, 255, 0.5) 0px 0.491px 20px 0px": 1
+ },
+ "transition": {
+  "all 0.2s ease": 4,
+  "opacity 0.2s ease": 3,
+  "opacity 0.2s ease-in": 3,
+  "opacity 0.3s ease-in-out": 1,
+  "all 0.3s ease-in-out": 1,
+  "margin 0.55s ease-in-out": 1,
+  "left 0.2s ease": 1,
+  "all 0.4s ease": 1
+ },
+ "border": {
+  "1px solid rgb(255, 255, 255)": 1
+ },
+ "textTransform": {
+  "none": 27,
+  "capitalize": 5
+ },
+ "typePairs": {
+  "Roobert PRO Regular | 17px | 400 | lh 20.4px | ls normal": 11,
+  "Roobert PRO Regular | 14px | 400 | lh 22.4px | ls normal": 9,
+  "Roobert PRO Heavy Italic | 70px | 200 | lh 77px | ls 0.3px": 3,
+  "Roobert PRO Regular | 14px | 700 | lh 22.4px | ls normal": 2,
+  "Roobert PRO Heavy Italic | 120px | 200 | lh 132px | ls 0.3px": 1,
+  "Roobert PRO Heavy Italic | 67px | 200 | lh 73.7px | ls 0.3px": 1,
+  "Roobert PRO Regular | 16px | 300 | lh 22.4px | ls normal": 1,
+  "Roobert PRO Regular | 24px | 400 | lh 26.4px | ls normal": 1,
+  "Rubik | 14px | 500 | lh 17px | ls normal": 1,
+  "Rubik | 12px | 500 | lh 14px | ls normal": 1,
+  "Rubik | 24px | 300 | lh 28px | ls normal": 1
+ },
+ "headings": [
+  "H1 ILLUSTRATION",
+  "H1 ILLUSTRATION SYSTEM",
+  "H1 ILLUSTRATION ON BACKGROUNDS",
+  "H1 PEOPLE ILLUSTRATIONS",
+  "H1 ILLUSTRATIONS IN VISUALS"
+ ],
+ "nav": [
+  {
+   "t": "Introduction",
+   "h": "https://brandkit.miro.com/corporate-visual-identity/introduction"
+  },
+  {
+   "t": "The Miro logo",
+   "h": "https://brandkit.miro.com/corporate-visual-identity/the-miro-logo-2"
+  },
+  {
+   "t": "Colors",
+   "h": "https://brandkit.miro.com/corporate-visual-identity/colors"
+  },
+  {
+   "t": "Typography",
+   "h": "https://brandkit.miro.com/corporate-visual-identity/typography-2"
+  },
+  {
+   "t": "Illustrations",
+   "h": "https://brandkit.miro.com/corporate-visual-identity/illustrations-1"
+  },
+  {
+   "t": "Product Branding",
+   "h": "https://brandkit.miro.com/corporate-visual-identity/product-branding"
+  },
+  {
+   "t": "Photography",
+   "h": "https://brandkit.miro.com/corporate-visual-identity/photography-2"
+  },
+  {
+   "t": "Shapes",
+   "h": "https://brandkit.miro.com/corporate-visual-identity/shapes-1"
+  },
+  {
+   "t": "Application + Co-Branding",
+   "h": "https://brandkit.miro.com/corporate-visual-identity/application-co-branding"
+  },
+  {
+   "t": "Motion Design",
+   "h": "https://brandkit.miro.com/corporate-visual-identity/motion-design"
+  },
+  {
+   "t": "NEXT\nCorporate Visual Identity / Product Branding",
+   "h": "https://brandkit.miro.com/corporate-visual-identity/product-branding"
+  }
+ ],
+ "fullHeight": 900
+}

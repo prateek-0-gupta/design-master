@@ -1,0 +1,13 @@
+{
+ "requested": "https://brand.super.com/",
+ "final": "https://brand.super.com/document/1#/-/homepage-1",
+ "title": "Homepage - Brand guidelines - Super.com Guidelines",
+ "subpages": [
+  {
+   "href": "https://brand.super.com/document/1",
+   "t": "Current page:\nBrand guidelines",
+   "ok": true
+  }
+ ],
+ "cssFiles": 26
+}

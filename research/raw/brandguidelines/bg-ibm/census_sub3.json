@@ -1,0 +1,300 @@
+{
+ "url": "https://www.ibm.com/design/language/2x-grid/",
+ "title": "IBM Design Language – 2x Grid",
+ "scrollHeight": 19712,
+ "customProperties": {},
+ "loadedFonts": [
+  "IBM Plex Sans Var 100 900 normal"
+ ],
+ "fontFamily": {
+  "\"IBM Plex Sans Var\", \"Helvetica Neue\", Arial, sans-serif": 152
+ },
+ "fontSize": {
+  "14px": 98,
+  "16px": 28,
+  "21.8824px": 15,
+  "29.8824px": 6,
+  "12px": 4,
+  "67.5294px": 1
+ },
+ "fontWeight": {
+  "300": 1,
+  "400": 116,
+  "600": 35
+ },
+ "lineHeight": {
+  "18.0001px": 41,
+  "20px": 29,
+  "14px": 28,
+  "24px": 25,
+  "27.353px": 15,
+  "37.353px": 6,
+  "16px": 4,
+  "22px": 2,
+  "79.0094px": 1,
+  "20.5715px": 1
+ },
+ "letterSpacing": {
+  "0.16px": 94,
+  "normal": 49,
+  "0.1px": 5,
+  "0.32px": 4
+ },
+ "textColor": {
+  "rgb(22, 22, 22)": 99,
+  "rgb(198, 198, 198)": 17,
+  "rgb(82, 82, 82)": 15,
+  "rgb(255, 255, 255)": 10,
+  "rgb(244, 244, 244)": 10,
+  "rgb(15, 98, 254)": 1
+ },
+ "bg": {
+  "rgb(255, 255, 255)": 10,
+  "rgb(15, 98, 254)": 6,
+  "rgb(244, 244, 244)": 5,
+  "rgb(22, 22, 22)": 3,
+  "rgb(0, 0, 0)": 2,
+  "rgb(57, 57, 57)": 1,
+  "rgb(229, 229, 229)": 1,
+  "rgba(23, 23, 23, 0.5)": 1,
+  "rgb(38, 38, 38)": 1
+ },
+ "radius": {
+  "50%": 6,
+  "2px": 1
+ },
+ "shadow": {
+  "rgba(0, 0, 0, 0.3) 0px 2px 6px 0px": 1
+ },
+ "transition": {
+  "opacity 0.5s ease": 35,
+  "color, background-color, outline 0.11s, 0.11s, 0.11s ease, ease, ease": 16,
+  "opacity 0.07s cubic-bezier(0.2, 0, 0.38, 0.9)": 12,
+  "all 0.15s cubic-bezier(0, 0, 0.38, 0.9)": 12,
+  "transform 0.11s ease": 11,
+  "color 0.11s ease": 7,
+  "all 0.07s cubic-bezier(0.2, 0, 0.38, 0.9)": 6,
+  "background 0.07s ease": 5,
+  "background-color, opacity 0.11s, 0.11s cubic-bezier(0.2, 0, 0.38, 0.9), cubic-bezier(0.2, 0, 0.38, 0.9)": 2,
+  "background 0.11s cubic-bezier(0.2, 0, 0.38, 0.9)": 2,
+  "opacity 0.11s cubic-bezier(0.2, 0, 0.38, 0.9)": 1,
+  "max-width, background 0.11s, 0.11s cubic-bezier(0.2, 0, 0.38, 0.9), cubic-bezier(0.2, 0, 0.38, 0.9)": 1,
+  "background-color 0.11s cubic-bezier(0.2, 0, 0.38, 0.9)": 1,
+  "transform, top 0.15s, 0.11s cubic-bezier(0.2, 0.2, 0.38, 0.9), ease": 1,
+  "width 0.11s cubic-bezier(0.2, 0, 1, 0.9)": 1,
+  "all 0.15s ease": 1,
+  "all 0.11s ease": 1,
+  "color 0.07s cubic-bezier(0.2, 0, 0.38, 0.9)": 1
+ },
+ "border": {
+  "1px solid rgb(224, 224, 224)": 2,
+  "1px solid rgba(0, 0, 0, 0)": 1
+ },
+ "textTransform": {
+  "none": 152
+ },
+ "typePairs": {
+  "IBM Plex Sans Var | 14px | 400 | lh 18.0001px | ls 0.16px": 30,
+  "IBM Plex Sans Var | 16px | 400 | lh 24px | ls normal": 24,
+  "IBM Plex Sans Var | 14px | 400 | lh 14px | ls 0.16px": 24,
+  "IBM Plex Sans Var | 21.8824px | 400 | lh 27.353px | ls normal": 15,
+  "IBM Plex Sans Var | 14px | 600 | lh 20px | ls 0.16px": 13,
+  "IBM Plex Sans Var | 14px | 600 | lh 18.0001px | ls 0.16px": 11,
+  "IBM Plex Sans Var | 14px | 400 | lh 20px | ls 0.16px": 11,
+  "IBM Plex Sans Var | 29.8824px | 400 | lh 37.353px | ls normal": 6,
+  "IBM Plex Sans Var | 14px | 600 | lh 20px | ls 0.1px": 5,
+  "IBM Plex Sans Var | 12px | 400 | lh 16px | ls 0.32px": 4,
+  "IBM Plex Sans Var | 14px | 600 | lh 14px | ls 0.16px": 4,
+  "IBM Plex Sans Var | 16px | 400 | lh 22px | ls normal": 1,
+  "IBM Plex Sans Var | 16px | 600 | lh 22px | ls normal": 1,
+  "IBM Plex Sans Var | 67.5294px | 300 | lh 79.0094px | ls normal": 1,
+  "IBM Plex Sans Var | 16px | 600 | lh 24px | ls normal": 1,
+  "IBM Plex Sans Var | 16px | 400 | lh 20.5715px | ls 0.16px": 1
+ },
+ "headings": [
+  "H1 2x Grid",
+  "H2 Divisions of two",
+  "H2 Constructing the 2x Grid",
+  "H3 Margins",
+  "H3 Columns and rows",
+  "H3 Gutters",
+  "H2 Base unit",
+  "H3 The mini unit",
+  "H3 Baseline unit",
+  "H2 Spatial relationships",
+  "H3 Aspect relationships",
+  "H2 2x Grid in UI",
+  "H2 2x Grid for video"
+ ],
+ "nav": [
+  {
+   "t": "Skip to main content",
+   "h": "https://www.ibm.com/design/language/2x-grid/#main-content"
+  },
+  {
+   "t": "IBM \nDesign Language",
+   "h": "https://www.ibm.com/design/language/"
+  },
+  {
+   "t": "IBM Brand Center",
+   "h": "https://ibm.com/brand"
+  },
+  {
+   "t": "IBM Design Language",
+   "h": "https://ibm.com/design/language"
+  },
+  {
+   "t": "Carbon Design System",
+   "h": "https://www.carbondesignsystem.com/"
+  },
+  {
+   "t": "Carbon for IBM Products",
+   "h": "http://ibm.biz/carbon4ibmproducts"
+  },
+  {
+   "t": "Carbon for IBM.com",
+   "h": "https://www.ibm.com/standards/carbon/"
+  },
+  {
+   "t": "IBM Event Design",
+   "h": "https://www.ibm.com/design/event/"
+  },
+  {
+   "t": "IBM Workplace Design",
+   "h": "https://www.ibm.com/design/workplace/"
+  },
+  {
+   "t": "Enterprise Design Thinking",
+   "h": "https://www.ibm.com/design/thinking/"
+  },
+  {
+   "t": "IBM Accessibility",
+   "h": "https://www.ibm.com/able/"
+  },
+  {
+   "t": "IBM Design for AI",
+   "h": "https://www.ibm.com/design/ai"
+  },
+  {
+   "t": "IBM Design Research",
+   "h": "https://www.ibm.com/design/research/"
+  },
+  {
+   "t": "IBM Experience Standards",
+   "h": "https://w3.ibm.com/design/experience-standards/"
+  },
+  {
+   "t": "IBM Design",
+   "h": "https://w3.ibm.com/design/"
+  },
+  {
+   "t": "Gallery",
+   "h": "https://www.ibm.com/design/language/gallery"
+  },
+  {
+   "t": "Color",
+   "h": "https://www.ibm.com/design/language/color"
+  },
+  {
+   "t": "2x Grid",
+   "h": "https://www.ibm.com/design/language/2x-grid"
+  },
+  {
+   "t": "Resources",
+   "h": "https://www.ibm.com/design/language/resources"
+  },
+  {
+   "t": "What’s new",
+   "h": "https://www.ibm.com/design/language/whats-new"
+  },
+  {
+   "t": "Divisions of two",
+   "h": "https://www.ibm.com/design/language/2x-grid/#divisions-of-two"
+  },
+  {
+   "t": "Constructing the 2x Grid",
+   "h": "https://www.ibm.com/design/language/2x-grid/#constructing-the-2x-grid"
+  },
+  {
+   "t": "Base unit",
+   "h": "https://www.ibm.com/design/language/2x-grid/#base-unit"
+  },
+  {
+   "t": "Spatial relationships",
+   "h": "https://www.ibm.com/design/language/2x-grid/#spatial-relationships"
+  },
+  {
+   "t": "2x Grid in UI",
+   "h": "https://www.ibm.com/design/language/2x-grid/#2x-grid-in-ui"
+  },
+  {
+   "t": "2x Grid for video",
+   "h": "https://www.ibm.com/design/language/2x-grid/#2x-grid-for-video"
+  },
+  {
+   "t": "2x Grid in UI: The mini unit",
+   "h": "https://carbondesignsystem.com/elements/2x-grid/overview#mini-unit"
+  },
+  {
+   "t": "IBM type scale",
+   "h": "https://www.ibm.com/design/language/typography/type-scale"
+  },
+  {
+   "t": "Grid systems in graphic design",
+   "h": "https://www.amazon.com/Grid-Systems-Graphic-Design-Communication/dp/3721201450"
+  },
+  {
+   "t": "Carbon Design System",
+   "h": "https://carbondesignsystem.com/"
+  },
+  {
+   "t": "2x Grid in UI: Overview",
+   "h": "https://carbondesignsystem.com/elements/2x-grid/overview"
+  },
+  {
+   "t": "2x Grid template for video",
+   "h": "https://www.ibm.com/design/language/files/2x_video_grid.ai"
+  },
+  {
+   "t": "Edit this page on GitHub",
+   "h": "https://github.com/carbon-design-system/design-language-website/edit/master/src/pages/2x-grid.mdx"
+  },
+  {
+   "t": "Previous\nColor",
+   "h": "https://www.ibm.com/design/language/color"
+  },
+  {
+   "t": "Next\nIBM logos: 8-Bar",
+   "h": "https://www.ibm.com/design/language/ibm-logos/8-bar"
+  },
+  {
+   "t": "Privacy",
+   "h": "https://www.ibm.com/privacy"
+  },
+  {
+   "t": "Terms of use",
+   "h": "https://www.ibm.com/legal"
+  },
+  {
+   "t": "IBM.com",
+   "h": "https://ibm.com/"
+  },
+  {
+   "t": "Twitter",
+   "h": "https://twitter.com/ibmdesign"
+  },
+  {
+   "t": "Instagram",
+   "h": "https://www.instagram.com/ibm/?hl=en"
+  },
+  {
+   "t": "#ibm-brand",
+   "h": "https://ibm.enterprise.slack.com/archives/ibm-brand"
+  },
+  {
+   "t": "inquiry form",
+   "h": "https://airtable.com/shry0TE1BWCj3omPO"
+  }
+ ],
+ "fullHeight": 19712
+}

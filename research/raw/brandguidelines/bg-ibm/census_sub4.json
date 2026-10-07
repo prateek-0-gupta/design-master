@@ -1,0 +1,437 @@
+{
+ "url": "https://www.ibm.com/design/language/typography/typeface/",
+ "title": "IBM Design Language – Typeface",
+ "scrollHeight": 14671,
+ "customProperties": {},
+ "loadedFonts": [
+  "IBM Plex Sans Var 100 900 normal",
+  "IBM Plex Sans Var 100 900 italic",
+  "IBM Plex Sans TC 400 normal",
+  "IBM Plex Sans Devanagari 400 normal",
+  "IBM Plex Sans Thai 400 normal",
+  "IBM Plex Sans Hebrew 400 normal",
+  "IBM Plex Sans Arabic 400 normal",
+  "IBM Plex Sans Thai Looped 400 normal",
+  "IBM Plex Sans KR 400 normal",
+  "IBM Plex Sans JP 400 normal",
+  "IBM Plex Sans 300 normal",
+  "IBM Plex Sans 400 normal",
+  "IBM Plex Serif 700 normal",
+  "IBM Plex Serif 700 italic",
+  "IBM Plex Serif 200 normal",
+  "IBM Plex Serif 200 italic",
+  "IBM Plex Serif 400 italic",
+  "IBM Plex Serif 300 normal",
+  "IBM Plex Serif 300 italic",
+  "IBM Plex Serif 500 normal",
+  "IBM Plex Serif 500 italic",
+  "IBM Plex Serif 400 normal",
+  "IBM Plex Serif 600 normal",
+  "IBM Plex Serif 600 italic",
+  "IBM Plex Serif 450 normal",
+  "IBM Plex Serif 450 italic",
+  "IBM Plex Serif 100 normal",
+  "IBM Plex Serif 100 italic",
+  "IBM Plex Mono 400 normal"
+ ],
+ "fontFamily": {
+  "\"IBM Plex Sans Var\", \"Helvetica Neue\", Arial, sans-serif": 137,
+  "\"IBM Plex Serif\", Georgia, Times, serif": 16,
+  "\"IBM Plex Sans\", \"Helvetica Neue\", Arial, sans-serif": 1
+ },
+ "fontSize": {
+  "14px": 70,
+  "16px": 32,
+  "21.8824px": 16,
+  "53.6469px": 16,
+  "29.8824px": 14,
+  "12px": 4,
+  "67.5294px": 1,
+  "134.4px": 1
+ },
+ "fontWeight": {
+  "100": 2,
+  "200": 2,
+  "300": 4,
+  "400": 107,
+  "450": 2,
+  "500": 2,
+  "600": 33,
+  "700": 2
+ },
+ "lineHeight": {
+  "20px": 48,
+  "24px": 21,
+  "18.0001px": 20,
+  "27.353px": 16,
+  "62.7669px": 16,
+  "37.353px": 14,
+  "20.5715px": 9,
+  "16px": 6,
+  "22px": 2,
+  "79.0094px": 1,
+  "159.936px": 1
+ },
+ "letterSpacing": {
+  "normal": 71,
+  "0.16px": 71,
+  "0.1px": 8,
+  "0.32px": 4
+ },
+ "textColor": {
+  "rgb(22, 22, 22)": 86,
+  "rgb(198, 198, 198)": 17,
+  "rgb(82, 82, 82)": 17,
+  "rgb(255, 255, 255)": 10,
+  "rgb(244, 244, 244)": 10,
+  "rgb(15, 98, 254)": 9,
+  "rgb(0, 0, 0)": 5
+ },
+ "bg": {
+  "rgb(255, 255, 255)": 18,
+  "rgb(22, 22, 22)": 5,
+  "rgb(224, 224, 224)": 2,
+  "rgb(0, 0, 0)": 2,
+  "rgb(57, 57, 57)": 1,
+  "rgba(23, 23, 23, 0.5)": 1,
+  "rgb(244, 244, 244)": 1,
+  "rgb(15, 98, 254)": 1,
+  "rgb(38, 38, 38)": 1
+ },
+ "radius": {
+  "50%": 2,
+  "2px": 1
+ },
+ "shadow": {
+  "rgba(0, 0, 0, 0.3) 0px 2px 6px 0px": 1,
+  "rgba(0, 0, 0, 0) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0) 0px 0px 0px 2px inset": 1
+ },
+ "transition": {
+  "color, background-color, outline 0.11s, 0.11s, 0.11s ease, ease, ease": 19,
+  "color 0.11s ease": 14,
+  "opacity 0.07s cubic-bezier(0.2, 0, 0.38, 0.9)": 14,
+  "transform 0.11s ease": 11,
+  "color 0.07s cubic-bezier(0.2, 0, 0.38, 0.9)": 9,
+  "all 0.07s cubic-bezier(0.2, 0, 0.38, 0.9)": 6,
+  "background 0.07s ease": 5,
+  "opacity 0.5s ease": 4,
+  "background 0.11s cubic-bezier(0.2, 0, 0.38, 0.9)": 3,
+  "background-color, opacity 0.11s, 0.11s cubic-bezier(0.2, 0, 0.38, 0.9), cubic-bezier(0.2, 0, 0.38, 0.9)": 2,
+  "all 0.15s cubic-bezier(0, 0, 0.38, 0.9)": 2,
+  "background-color 0.07s cubic-bezier(0.2, 0, 0.38, 0.9)": 2,
+  "transform 0.07s cubic-bezier(0.2, 0, 0.38, 0.9)": 2,
+  "opacity 0.11s cubic-bezier(0.2, 0, 0.38, 0.9)": 1,
+  "max-width, background 0.11s, 0.11s cubic-bezier(0.2, 0, 0.38, 0.9), cubic-bezier(0.2, 0, 0.38, 0.9)": 1,
+  "background-color 0.11s cubic-bezier(0.2, 0, 0.38, 0.9)": 1,
+  "transform, top 0.15s, 0.11s cubic-bezier(0.2, 0.2, 0.38, 0.9), ease": 1,
+  "width 0.11s cubic-bezier(0.2, 0, 1, 0.9)": 1,
+  "all 0.15s ease": 1,
+  "all 0.11s ease": 1,
+  "transform, background, box-shadow 0.11s, 0.11s, 0.11s cubic-bezier(0.2, 0, 0.38, 0.9), cubic-bezier(0.2, 0, 0.38, 0.9), cubic-bezier(0.2, 0, 0.38, 0.9)": 1
+ },
+ "border": {
+  "1px solid rgb(224, 224, 224)": 14,
+  "1px solid rgba(0, 0, 0, 0)": 1
+ },
+ "textTransform": {
+  "none": 154
+ },
+ "typePairs": {
+  "IBM Plex Sans Var | 14px | 400 | lh 20px | ls 0.16px": 27,
+  "IBM Plex Sans Var | 16px | 400 | lh 24px | ls normal": 21,
+  "IBM Plex Sans Var | 21.8824px | 400 | lh 27.353px | ls normal": 16,
+  "IBM Plex Sans Var | 29.8824px | 400 | lh 37.353px | ls normal": 14,
+  "IBM Plex Sans Var | 14px | 600 | lh 20px | ls 0.16px": 13,
+  "IBM Plex Sans Var | 14px | 600 | lh 18.0001px | ls 0.16px": 11,
+  "IBM Plex Sans Var | 14px | 400 | lh 18.0001px | ls 0.16px": 9,
+  "IBM Plex Sans Var | 16px | 400 | lh 20.5715px | ls 0.16px": 9,
+  "IBM Plex Sans Var | 14px | 600 | lh 20px | ls 0.1px": 6,
+  "IBM Plex Sans Var | 12px | 400 | lh 16px | ls 0.32px": 4,
+  "IBM Plex Sans Var | 14px | 400 | lh 20px | ls 0.1px": 2,
+  "IBM Plex Serif | 53.6469px | 100 | lh 62.7669px | ls normal": 2,
+  "IBM Plex Serif | 53.6469px | 200 | lh 62.7669px | ls normal": 2,
+  "IBM Plex Serif | 53.6469px | 300 | lh 62.7669px | ls normal": 2,
+  "IBM Plex Serif | 53.6469px | 400 | lh 62.7669px | ls normal": 2,
+  "IBM Plex Serif | 53.6469px | 450 | lh 62.7669px | ls normal": 2,
+  "IBM Plex Serif | 53.6469px | 500 | lh 62.7669px | ls normal": 2,
+  "IBM Plex Serif | 53.6469px | 600 | lh 62.7669px | ls normal": 2,
+  "IBM Plex Serif | 53.6469px | 700 | lh 62.7669px | ls normal": 2,
+  "IBM Plex Sans Var | 14px | 400 | lh 16px | ls 0.16px": 2,
+  "IBM Plex Sans Var | 16px | 400 | lh 22px | ls normal": 1,
+  "IBM Plex Sans Var | 16px | 600 | lh 22px | ls normal": 1,
+  "IBM Plex Sans Var | 67.5294px | 300 | lh 79.0094px | ls normal": 1,
+  "IBM Plex Sans | 134.4px | 300 | lh 159.936px | ls normal": 1
+ },
+ "headings": [
+  "H1 Typeface",
+  "H2 Resources",
+  "H2 Our typeface",
+  "H2 Subfamilies",
+  "H2 Type tester",
+  "H2 Typeface features",
+  "H2 Mono versus sans",
+  "H2 Language support",
+  "H2 Non-Latin scripts",
+  "H3 IBM Plex® Sans Arabic",
+  "H3 IBM Plex® Sans TC (Traditional Chinese)",
+  "H3 IBM Plex® Mono Cyrillic",
+  "H3 IBM Plex® Sans Cyrillic",
+  "H3 IBM Plex® Serif Cyrillic",
+  "H3 IBM Plex® Sans Devanagari",
+  "H3 IBM Plex® Sans Greek",
+  "H3 IBM Plex® Sans Hebrew",
+  "H3 IBM Plex® Sans JP",
+  "H3 IBM Plex® Sans KR",
+  "H3 IBM Plex® Sans Thai",
+  "H3 IBM Plex® Sans Thai Looped",
+  "H2 IBM Plex Math",
+  "H2 Open-source licenses",
+  "H2 Where else to get Plex®",
+  "H2 Design team",
+  "H2 Awards",
+  "H2 Feedback and questions"
+ ],
+ "nav": [
+  {
+   "t": "Skip to main content",
+   "h": "https://www.ibm.com/design/language/typography/typeface/#main-content"
+  },
+  {
+   "t": "IBM \nDesign Language",
+   "h": "https://www.ibm.com/design/language/"
+  },
+  {
+   "t": "IBM Brand Center",
+   "h": "https://ibm.com/brand"
+  },
+  {
+   "t": "IBM Design Language",
+   "h": "https://ibm.com/design/language"
+  },
+  {
+   "t": "Carbon Design System",
+   "h": "https://www.carbondesignsystem.com/"
+  },
+  {
+   "t": "Carbon for IBM Products",
+   "h": "http://ibm.biz/carbon4ibmproducts"
+  },
+  {
+   "t": "Carbon for IBM.com",
+   "h": "https://www.ibm.com/standards/carbon/"
+  },
+  {
+   "t": "IBM Event Design",
+   "h": "https://www.ibm.com/design/event/"
+  },
+  {
+   "t": "IBM Workplace Design",
+   "h": "https://www.ibm.com/design/workplace/"
+  },
+  {
+   "t": "Enterprise Design Thinking",
+   "h": "https://www.ibm.com/design/thinking/"
+  },
+  {
+   "t": "IBM Accessibility",
+   "h": "https://www.ibm.com/able/"
+  },
+  {
+   "t": "IBM Design for AI",
+   "h": "https://www.ibm.com/design/ai"
+  },
+  {
+   "t": "IBM Design Research",
+   "h": "https://www.ibm.com/design/research/"
+  },
+  {
+   "t": "IBM Experience Standards",
+   "h": "https://w3.ibm.com/design/experience-standards/"
+  },
+  {
+   "t": "IBM Design",
+   "h": "https://w3.ibm.com/design/"
+  },
+  {
+   "t": "Gallery",
+   "h": "https://www.ibm.com/design/language/gallery"
+  },
+  {
+   "t": "Typeface",
+   "h": "https://www.ibm.com/design/language/typography/typeface"
+  },
+  {
+   "t": "Type basics",
+   "h": "https://www.ibm.com/design/language/typography/type-basics"
+  },
+  {
+   "t": "Type scale",
+   "h": "https://www.ibm.com/design/language/typography/type-scale"
+  },
+  {
+   "t": "Color",
+   "h": "https://www.ibm.com/design/language/color"
+  },
+  {
+   "t": "2x Grid",
+   "h": "https://www.ibm.com/design/language/2x-grid"
+  },
+  {
+   "t": "Resources",
+   "h": "https://www.ibm.com/design/language/resources"
+  },
+  {
+   "t": "What’s new",
+   "h": "https://www.ibm.com/design/language/whats-new"
+  },
+  {
+   "t": "Our typeface",
+   "h": "https://www.ibm.com/design/language/typography/typeface/#our-typeface"
+  },
+  {
+   "t": "Subfamilies",
+   "h": "https://www.ibm.com/design/language/typography/typeface/#subfamilies"
+  },
+  {
+   "t": "Type tester",
+   "h": "https://www.ibm.com/design/language/typography/typeface/#type-tester"
+  },
+  {
+   "t": "Typeface features",
+   "h": "https://www.ibm.com/design/language/typography/typeface/#typeface-features"
+  },
+  {
+   "t": "Mono versus sans",
+   "h": "https://www.ibm.com/design/language/typography/typeface/#mono-versus-sans"
+  },
+  {
+   "t": "Language support",
+   "h": "https://www.ibm.com/design/language/typography/typeface/#language-support"
+  },
+  {
+   "t": "Non-Latin scripts",
+   "h": "https://www.ibm.com/design/language/typography/typeface/#non-latin-scripts"
+  },
+  {
+   "t": "IBM Plex Math",
+   "h": "https://www.ibm.com/design/language/typography/typeface/#ibm-plex-math"
+  },
+  {
+   "t": "Open-source licenses",
+   "h": "https://www.ibm.com/design/language/typography/typeface/#open-source-licenses"
+  },
+  {
+   "t": "Where else to get Plex®",
+   "h": "https://www.ibm.com/design/language/typography/typeface/#where-else-to-get-plex(r)"
+  },
+  {
+   "t": "Design team",
+   "h": "https://www.ibm.com/design/language/typography/typeface/#design-team"
+  },
+  {
+   "t": "Awards",
+   "h": "https://www.ibm.com/design/language/typography/typeface/#awards"
+  },
+  {
+   "t": "Feedback and questions",
+   "h": "https://www.ibm.com/design/language/typography/typeface/#feedback-and-questions"
+  },
+  {
+   "t": "IBM Plex® typeface latest release",
+   "h": "https://github.com/IBM/plex/releases/latest"
+  },
+  {
+   "t": "IBM Plex® website",
+   "h": "https://www.ibm.com/plex/"
+  },
+  {
+   "t": "GitHub",
+   "h": "https://github.com/IBM/plex/releases/latest"
+  },
+  {
+   "t": "Plex",
+   "h": "https://www.ibm.com/plex/"
+  },
+  {
+   "t": "Plex",
+   "h": "https://github.com/IBM/plex/releases/latest"
+  },
+  {
+   "t": "IBM Plex Math",
+   "h": "https://github.com/IBM/plex/releases/tag/%40ibm%2Fplex-math%401.0.0"
+  },
+  {
+   "t": "IBM Plex GitHub",
+   "h": "https://github.com/IBM/plex/releases/latest"
+  },
+  {
+   "t": "IBM Plex® on Google Fonts",
+   "h": "https://fonts.google.com/?query=ibm+plex"
+  },
+  {
+   "t": "IBM Plex® on Adobe Fonts",
+   "h": "https://fonts.adobe.com/foundries/ibm"
+  },
+  {
+   "t": "Cooper Hewitt, Smithsonian Design Museum",
+   "h": "https://www.cooperhewitt.org/"
+  },
+  {
+   "t": "TDC 64 2018",
+   "h": "https://tdc.org/competitions/typeface-design-2018/?judges-choice=on#filters-section"
+  },
+  {
+   "t": "D&AD Awards",
+   "h": "https://www.dandad.org/awards/professional/2020/232950/ibm-plex-arabic/"
+  },
+  {
+   "t": "GitHub",
+   "h": "https://github.com/ibm/plex/issues"
+  },
+  {
+   "t": "here",
+   "h": "https://github.com/IBM/plex/releases/latest"
+  },
+  {
+   "t": "Edit this page on GitHub",
+   "h": "https://github.com/carbon-design-system/design-language-website/edit/master/src/pages/typography/typeface.mdx"
+  },
+  {
+   "t": "Previous\nGallery",
+   "h": "https://www.ibm.com/design/language/gallery"
+  },
+  {
+   "t": "Next\nTypography: Type basics",
+   "h": "https://www.ibm.com/design/language/typography/type-basics"
+  },
+  {
+   "t": "Privacy",
+   "h": "https://www.ibm.com/privacy"
+  },
+  {
+   "t": "Terms of use",
+   "h": "https://www.ibm.com/legal"
+  },
+  {
+   "t": "IBM.com",
+   "h": "https://ibm.com/"
+  },
+  {
+   "t": "Twitter",
+   "h": "https://twitter.com/ibmdesign"
+  },
+  {
+   "t": "Instagram",
+   "h": "https://www.instagram.com/ibm/?hl=en"
+  },
+  {
+   "t": "#ibm-brand",
+   "h": "https://ibm.enterprise.slack.com/archives/ibm-brand"
+  },
+  {
+   "t": "inquiry form",
+   "h": "https://airtable.com/shry0TE1BWCj3omPO"
+  }
+ ],
+ "fullHeight": 14671
+}

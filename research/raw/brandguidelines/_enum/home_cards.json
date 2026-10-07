@@ -1,0 +1,1672 @@
+[
+ {
+  "href": "https://www.brandguidelines.net/",
+  "texts": [],
+  "img": null,
+  "imgAlt": null,
+  "names": [],
+  "section": "Mobile",
+  "rect": [
+   494,
+   10641,
+   23,
+   18
+  ]
+ },
+ {
+  "href": "https://www.brandguidelines.net/about",
+  "texts": [
+   "About"
+  ],
+  "img": null,
+  "imgAlt": null,
+  "names": [
+   "Text 1"
+  ],
+  "section": "Text",
+  "rect": [
+   669,
+   10642,
+   39,
+   17
+  ]
+ },
+ {
+  "href": "https://www.brandguidelines.net/templates",
+  "texts": [
+   "Resources"
+  ],
+  "img": null,
+  "imgAlt": null,
+  "names": [
+   "Text 1"
+  ],
+  "section": "Text",
+  "rect": [
+   725,
+   10642,
+   70,
+   17
+  ]
+ },
+ {
+  "href": "mailto:hello@1042.studio?subject=Brand%20Guide%20Submission&body=Hey%201042%20Studio%2C%0D%0A%0D%0AI%27d%20love%20to%20submit%20a%20brand%20guideline%20for%20consideration%20on%20your%20website.",
+  "texts": [
+   "Submit Guidelines"
+  ],
+  "img": null,
+  "imgAlt": null,
+  "names": [],
+  "section": "Casing",
+  "rect": [
+   811,
+   10630,
+   151,
+   40
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/oofzbww6wtkfs0930njth/Adobe-Brand-Guidelines.pdf?rlkey=pd4yv0s1fyg395xjcb0obpr6r&st=p5rwjmp2&dl=0",
+  "texts": [
+   "✨ New",
+   "Adobe",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/PKGMjKokDm6A5AMqXZlSLLTyXc.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Show",
+   "icon_wrapper"
+  ],
+  "section": "Top row",
+  "rect": [
+   60,
+   446,
+   650,
+   385
+  ]
+ },
+ {
+  "href": "https://developer.spotify.com/documentation/design",
+  "texts": [
+   "✨ New",
+   "Spotify",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/f5yKEgtEQ09U5S0sxChQSzP2Lvo.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Show",
+   "icon_wrapper"
+  ],
+  "section": "Top row",
+  "rect": [
+   730,
+   446,
+   650,
+   385
+  ]
+ },
+ {
+  "href": "https://framer.link/lee72",
+  "texts": [
+   "✨ New",
+   "Framer Wesite Builder",
+   "Promoted"
+  ],
+  "img": "https://framerusercontent.com/images/8DZO0d0l5D3qWQeodDvf5oNiEAQ.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper",
+   "image"
+  ],
+  "section": "Top row",
+  "rect": [
+   60,
+   851,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://ui8.net/?rel=1042",
+  "texts": [
+   "✨ New",
+   "UI8",
+   "Promoted"
+  ],
+  "img": "https://framerusercontent.com/images/0BvzKPyfiDSOkBCxqg9yG2hNYM.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper",
+   "image"
+  ],
+  "section": "Top row",
+  "rect": [
+   507,
+   851,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://1042.studio/store",
+  "texts": [
+   "✨ New",
+   "1042 Studio Framer Components",
+   "Promoted"
+  ],
+  "img": "https://framerusercontent.com/images/yi2InbwxRwgCglQGJPhD7T5o.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper",
+   "image"
+  ],
+  "section": "Top row",
+  "rect": [
+   953,
+   851,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://brandstandards.hermanmiller.com/",
+  "texts": [
+   "✨ New",
+   "Herman Miller",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/o008umpjsgTh2oi67JYRAaY7JXI.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Top collection",
+  "rect": [
+   60,
+   1256,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/ajwt9ovdlar3bqzpgt3b2/Kazam-Brand-Manual.pdf?rlkey=qhir84kv59ie64tsfxj1zqtla&st=sr3hpscr&dl=0",
+  "texts": [
+   "✨ New",
+   "Kazam",
+   "Design by Good Habit"
+  ],
+  "img": "https://framerusercontent.com/images/3mMjCrsWi7eCltNEFjTauAen4.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Top collection",
+  "rect": [
+   507,
+   1256,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://playbook.ebay.com/",
+  "texts": [
+   "✨ New",
+   "Ebay Playbook",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/z0RsVtFVbeuVMCqdQAJcpsVtymE.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Top collection",
+  "rect": [
+   953,
+   1256,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.audi.com/ci/en/renewed-brand.html",
+  "texts": [
+   "✨ New",
+   "Audi",
+   "Design by Strichpunkt"
+  ],
+  "img": "https://framerusercontent.com/images/pTZ5GyzjlqHsZ93l5B7sohMAk.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Top collection",
+  "rect": [
+   60,
+   1660,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.brand-monday.com/",
+  "texts": [
+   "✨ New",
+   "Monday",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/hSqmk30hft2jO25e4SS8VMDvA.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Top collection",
+  "rect": [
+   507,
+   1660,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://design.duolingo.com/",
+  "texts": [
+   "✨ New",
+   "Duolingo",
+   "Design by Johnson Banks"
+  ],
+  "img": "https://framerusercontent.com/images/gI72DhfNDm5yo31lOKXKGBPL7c.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Top collection",
+  "rect": [
+   953,
+   1660,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.ibm.com/design/language/",
+  "texts": [
+   "✨ New",
+   "IBM",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/h0gZpvyBU3u51KT9FUyoZB9OmI.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Top collection",
+  "rect": [
+   60,
+   2065,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/pzs85sbjtqglp9x1mmxst/Bellanova-Brand-Guidelines.pdf?rlkey=kzwtsn45fqvgozwq43rlcwqwu&st=hjqk040d&dl=0",
+  "texts": [
+   "✨ New",
+   "Bella Nova",
+   "Design by Dhaval Modi"
+  ],
+  "img": "https://framerusercontent.com/images/iAkFUxgM1Zm3KGUSUMs0BLtrWw.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Top collection",
+  "rect": [
+   507,
+   2065,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/orgshu2ujnhefrczsyyru/NorthAlley-Guideline.pdf?rlkey=0v6awhu7gp8omg0b9wpdrk4g1&st=ipz0hew4&dl=0",
+  "texts": [
+   "✨ New",
+   "NorthAlley",
+   "Design by Studio Fable"
+  ],
+  "img": "https://framerusercontent.com/images/IZGU4RHHr0DamivhTq9Vhv8TV74.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Top collection",
+  "rect": [
+   953,
+   2065,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://brand.super.com/",
+  "texts": [
+   "✨ New",
+   "Super.com",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/9Zo0y2Tyu4bJKqVigF6fYymR0lU.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Top collection",
+  "rect": [
+   60,
+   2470,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/lgg4a90iaqkok6jvt0wnn/Naseem-Al-Faihaa-Brand-Guidelines.pdf?rlkey=zddh23twhtzg0q2sn1ypx2on2&st=6rv8bbuu&dl=0",
+  "texts": [
+   "✨ New",
+   "Naseem Al-Faihaa",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/c7G8MIsypyBMRMKLAx3ujr3npU.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Top collection",
+  "rect": [
+   507,
+   2470,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://identity.night-embassy.com/",
+  "texts": [
+   "✨ New",
+   "Night Embassy",
+   "Design by Rickus"
+  ],
+  "img": "https://framerusercontent.com/images/GmiOyrIAC0yLU5kN1ha17dELPA.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Top collection",
+  "rect": [
+   953,
+   2470,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://dropboxdesignstandards.com/",
+  "texts": [
+   "✨ New",
+   "Dropbox",
+   "Design by Collins"
+  ],
+  "img": "https://framerusercontent.com/images/FO4MVtGBBWPK3S7WYzAGrg1mk.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Top collection",
+  "rect": [
+   60,
+   2875,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://creative.starbucks.com/",
+  "texts": [
+   "✨ New",
+   "Starbucks",
+   "Design by Lippincott"
+  ],
+  "img": "https://framerusercontent.com/images/l900AL3voZZPThyeF2Fvv5kpPE.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Top collection",
+  "rect": [
+   507,
+   2875,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://brandkit.miro.com/corporate-visual-identity/the-miro-logo",
+  "texts": [
+   "✨ New",
+   "Miro",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/AkLHULIoWteXJNfGr4NAXYE0qg.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Top collection",
+  "rect": [
+   953,
+   2875,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.brandguidelines.net/templates/cobalt",
+  "texts": [
+   "✨ New",
+   "$20",
+   "Cobalt Brand Guide",
+   "1042 Studio"
+  ],
+  "img": "https://framerusercontent.com/images/BRr6ykeCo98C2sYSx099qy1sTs.png?width=1430&height=1080",
+  "imgAlt": "Cobalt Brand Guidelines Premium Template",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "Footer",
+   "Price + Text",
+   "Price Label",
+   "Icon",
+   "icon_wrapper"
+  ],
+  "section": "Premium Cards",
+  "rect": [
+   60,
+   3564,
+   427,
+   532
+  ]
+ },
+ {
+  "href": "https://www.brandguidelines.net/templates/form",
+  "texts": [
+   "✨ New",
+   "$30",
+   "Form Brand Guide",
+   "1042 Studio"
+  ],
+  "img": "https://framerusercontent.com/images/InG6HED0R2emrBQtTRj4Q8POs.png?width=1430&height=1080",
+  "imgAlt": "Form Brand Guidelines Premium Template",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "Footer",
+   "Price + Text",
+   "Price Label",
+   "Icon",
+   "icon_wrapper"
+  ],
+  "section": "Premium Cards",
+  "rect": [
+   507,
+   3564,
+   427,
+   532
+  ]
+ },
+ {
+  "href": "https://www.brandguidelines.net/templates/owire",
+  "texts": [
+   "✨ New",
+   "$30",
+   "Owire Brand Guide",
+   "1042 Studio"
+  ],
+  "img": "https://framerusercontent.com/images/nTjOoIjg8scxdV0lJ9PGAQv69o.png?width=1430&height=1080",
+  "imgAlt": "Owire Brand Guidelines Premium Template",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "Footer",
+   "Price + Text",
+   "Price Label",
+   "Icon",
+   "icon_wrapper"
+  ],
+  "section": "Premium Cards",
+  "rect": [
+   953,
+   3564,
+   427,
+   532
+  ]
+ },
+ {
+  "href": "https://ui8.net/brandkit/products/brand-guidelines-kit?rel=1042",
+  "texts": [
+   "✨ New",
+   "$19",
+   "Brand Book Guide",
+   "UI8"
+  ],
+  "img": "https://framerusercontent.com/images/5Pve4976Mxapl9koFgUDc8ViWyY.png?width=652&height=493",
+  "imgAlt": "Brand Book Brand Guidelines Premium Template",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "Footer",
+   "Price + Text",
+   "Price Label",
+   "Icon",
+   "icon_wrapper"
+  ],
+  "section": "Premium Cards",
+  "rect": [
+   60,
+   4116,
+   427,
+   532
+  ]
+ },
+ {
+  "href": "https://ui8.net/asylab/products/brand-guidelines-template---radesk?rel=1042",
+  "texts": [
+   "✨ New",
+   "$14",
+   "Radesk Brand Guide",
+   "UI8"
+  ],
+  "img": "https://framerusercontent.com/images/50EZMtTw5A4aKyWXvNrdZjzTXB8.png?width=652&height=493",
+  "imgAlt": "Radesk Brand Guidelines Premium Template",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "Footer",
+   "Price + Text",
+   "Price Label",
+   "Icon",
+   "icon_wrapper"
+  ],
+  "section": "Premium Cards",
+  "rect": [
+   507,
+   4116,
+   873,
+   532
+  ]
+ },
+ {
+  "href": "https://www.brandguidelines.net/templates",
+  "texts": [
+   "See All"
+  ],
+  "img": null,
+  "imgAlt": null,
+  "names": [],
+  "section": "Button",
+  "rect": [
+   681,
+   4668,
+   78,
+   40
+  ]
+ },
+ {
+  "href": "https://brand.klarna.com/",
+  "texts": [
+   "✨ New",
+   "Klarna",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/Ocyji7MbuU0wsKo1wQaSqFzY5s.png?scale-down-to=1024",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   60,
+   5272,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/7bgsxcsvm09j9z6ntkns4/Twitch-Brand-Guidelines.pdf?rlkey=703yfcxlz7pr6qjuqv71u91fe&st=fdydmtqk&dl=0",
+  "texts": [
+   "✨ New",
+   "Twitch",
+   "Design by Collins"
+  ],
+  "img": "https://framerusercontent.com/images/TIeqxiug3u86TUVz7d3ahnOjMw.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   507,
+   5272,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.figma.com/proto/3ptKrYEYpHR2rpLHiG9coQ/Brand-Guidelines?page-id=746%3A28973&type=design&node-id=2666-226390&viewport=527%2C443%2C0.17&scaling=contain&starting-point-node-id=890%3A53396",
+  "texts": [
+   "✨ New",
+   "Help Scout",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/J5NmMUC1S5rYAfLipajTNVo0tw.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   953,
+   5272,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://public.canva.site/brand-pillars",
+  "texts": [
+   "✨ New",
+   "Canva",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/DqLDW2SJKKFPOUPjM96rmqvkstY.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   60,
+   5677,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://freepik.design/",
+  "texts": [
+   "✨ New",
+   "Freepik",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/w6qV3REQzeZhn7oJWvEx0Q780.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   507,
+   5677,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://brandstandards.hermanmiller.com/",
+  "texts": [
+   "✨ New",
+   "Herman Miller",
+   "Design by Order"
+  ],
+  "img": "https://framerusercontent.com/images/O4LkjDDSNId20zJcKqhRop0XI4.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   953,
+   5677,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/r4l30rdprunb47hpb4kpz/Lasso-Brand-Guidelines.pdf?rlkey=7gdhzve3j5y9s0vt6zzo5bncc&st=yg6y6zko&dl=0",
+  "texts": [
+   "✨ New",
+   "LassoMD",
+   "Design by Oleg Coada"
+  ],
+  "img": "https://framerusercontent.com/images/0Pg6jVLTEqxncFAWiuQrWHqp84.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   60,
+   6082,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://brand.seatgeek.com/",
+  "texts": [
+   "✨ New",
+   "Seat Geek",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/Oft3mRjTyLTLiDgZ39mZNwpGk.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   507,
+   6082,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://live.standards.site/wispr",
+  "texts": [
+   "✨ New",
+   "Wispr",
+   "Design by J.D. Reeves"
+  ],
+  "img": "https://framerusercontent.com/images/BozoCUjhEmzG4VaqJTRc2ISm5U4.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   953,
+   6082,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/ret13w01zrp0xp03f51i6/Dubai-Brand-Guidelines-2023-v3.pdf?rlkey=wdvzeeyp8rhm9mu4po20utuyw&st=3p51ntx7&dl=0",
+  "texts": [
+   "✨ New",
+   "Visit Dubai",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/iL0nmLoT6l3lH2mJXWcU7px8w.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   60,
+   6487,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://mastercardfdn.org/wp-content/uploads/2023/07/Mastercard-Foundation-Brand-Guidelines.pdf",
+  "texts": [
+   "✨ New",
+   "Mastercard Foundation",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/kL0ZDGYMV2akzTQYAQ723J5EU.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   507,
+   6487,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/jdatakd91xgup4qde8tn1/FIBA-Women-s-EuroBasket-2023-Brand-Manual.pdf?rlkey=f3t8cut3wcx941yqnesfq3mhk&st=g5tvz0zx&dl=0",
+  "texts": [
+   "✨ New",
+   "FIBA Women's Eurobasket",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/CMZfJd6ZIZxfvRoEYkC0mmsL9Yg.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   953,
+   6487,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://about.instagram.com/brand/",
+  "texts": [
+   "✨ New",
+   "Instagram",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/ClDwQCZHU93dRcUTxllNqp8GrlU.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   60,
+   6891,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/fft6cif6zyhszhlr4hadn/Bolt-Media-Kit-Brand-Guidelines-May.pdf?rlkey=ilx6uxdf307h7auogrlwh1wko&st=j2uvces1&dl=0",
+  "texts": [
+   "✨ New",
+   "Bolt",
+   "Design by Koto"
+  ],
+  "img": "https://framerusercontent.com/images/WNziHn0ezK1cIJRE2caF9kRBFYc.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   507,
+   6891,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/x81fk0agubedexucgclqr/Frame.io-Brand-Guidelines.pdf?rlkey=urs27f829qejvekfpr0ll1w0y&st=qxzahrzk&dl=0",
+  "texts": [
+   "✨ New",
+   "Frame.io",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/93qgpjOPvOEUHuBcGpEV0VyhgiE.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   953,
+   6891,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://heyitsinstacart.com/",
+  "texts": [
+   "✨ New",
+   "Instacart",
+   "Design by Wolf Ollins"
+  ],
+  "img": "https://framerusercontent.com/images/o5MIJlfSoF687OkPXNA8qp1qiM.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   60,
+   7296,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/ymxku1915epuhjn3674vz/Kia-CI-Guidelines-EN.pdf?rlkey=1rjq0rnqgru2oojhweuu1x8ja&st=11k5nhjz&dl=0",
+  "texts": [
+   "✨ New",
+   "KIA",
+   "Design by Blackspace"
+  ],
+  "img": "https://framerusercontent.com/images/uLJoQnouFkGgMkxn9QV4LorxA.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   507,
+   7296,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.micahdaigle.com/design/asana",
+  "texts": [
+   "✨ New",
+   "Asana",
+   "Design by Moving Brands"
+  ],
+  "img": "https://framerusercontent.com/images/xKeUw966cMe9EiT72rGqSyvIE.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   953,
+   7296,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/d2gphrkrpb2klqpog66fq/New-Breed-Brand-Guidelines.pdf?rlkey=q1xomtpkojbrgd3msbz44z4i5&st=flvgfqgd&dl=0",
+  "texts": [
+   "✨ New",
+   "New Breed",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/0iPPcuHDL3UtCJW76treUtZQ6yk.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   60,
+   7701,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/qehryod4kvqak9t7o8ka1/Make-Brand-Guidelines.pdf?rlkey=h3get2xhc42h4a10qkcwktkdy&st=dedubcz7&dl=0",
+  "texts": [
+   "✨ New",
+   "Make",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/LvCTEncdWYJgbG93DjvUIcBI.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   507,
+   7701,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/1h456lmtmn56u7l4j9zzk/Hulu-Brand-Guidelines.pdf?rlkey=kas9s171ulbdtqfgllbums1tv&st=y6jwzpmi&dl=0",
+  "texts": [
+   "✨ New",
+   "Hulu",
+   "Design by DixonBaxi"
+  ],
+  "img": "https://framerusercontent.com/images/FIQWgQFZBx2E6qwbYSvb0R4ZAnk.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   953,
+   7701,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://mozilla.design/firefox/",
+  "texts": [
+   "✨ New",
+   "Firefox",
+   "Design by Ramotion"
+  ],
+  "img": "https://framerusercontent.com/images/8SwE1RF2ZkQdFReox9NXnS0v9s.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   60,
+   8106,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/ldi6b7acf20td7abwepf8/Discord-Brand-Guideline-May-14.pdf?rlkey=cvxx25iubd81xxdzyal5q1rqq&st=h4ebrque&dl=0",
+  "texts": [
+   "✨ New",
+   "Discord",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/ZSoWKiHNHMLh1XOkB1cFg2bZcQ.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   507,
+   8106,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/7f935mc2zxzxfxt1p9e5o/Olympic-Brand-Guidelines.pdf?rlkey=zlo46m3dqoso7rilqg10b72lf&st=barx4w29&dl=0",
+  "texts": [
+   "✨ New",
+   "Olympic",
+   "Design by Hulse & Durrell"
+  ],
+  "img": "https://framerusercontent.com/images/8qE2Jsg8RufrKoAI1BxZa970qkM.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   953,
+   8106,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/4sti304lji869gref0ylw/Slack-Brand-Guidelines-Sept-2020.pdf?rlkey=d1d2a75ij7c7ir9vfmg7c5u4n&st=jw3ahe0d&dl=0",
+  "texts": [
+   "✨ New",
+   "Slack",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/tTzRFxfFFbbXwfmZQct5eUiOr8k.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   60,
+   8511,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://mixcloud.com/brand",
+  "texts": [
+   "✨ New",
+   "Mixcloud",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/IDqLE7bjOuW3gXmV7E1lap8tes.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   507,
+   8511,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://live.standards.site/chatham",
+  "texts": [
+   "✨ New",
+   "Chatham",
+   "Design by Order"
+  ],
+  "img": "https://framerusercontent.com/images/dAVxnLc1ibQOhJvZSi0HUVXOogg.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   953,
+   8511,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://brand.flyzipline.com/",
+  "texts": [
+   "✨ New",
+   "Zipline",
+   "In-house"
+  ],
+  "img": "https://framerusercontent.com/images/ZfLiFFcWE4Ge5gyrxkXrOZyZWz0.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   60,
+   8915,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/10i4knxxorx7b2edgww2z/AP-Brand-Guidelines-US.pdf?rlkey=rk9m5h83qz3bxj0bsitoe55ho&st=glpelvdk&dl=0",
+  "texts": [
+   "✨ New",
+   "Afterpay",
+   "Design by YummyColours"
+  ],
+  "img": "https://framerusercontent.com/images/wf9sJAdUoQwXv7bKzDWr4voh6fw.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   507,
+   8915,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://my.corebook.io/flaxandkale/general-information/introduction",
+  "texts": [
+   "✨ New",
+   "Flax&Kale",
+   "Design by Vasava Studio"
+  ],
+  "img": "https://framerusercontent.com/images/eC152GKj9369ap3PJqshcf0.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   953,
+   8915,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://brandpad.io/norsk-helsenett",
+  "texts": [
+   "✨ New",
+   "Norsk Helsenett",
+   "Design by Scandinavian Design Group"
+  ],
+  "img": "https://framerusercontent.com/images/vIxrGqbYJjXIymyO7wIidMtxYzQ.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   60,
+   9320,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://reddit.lingoapp.com/s/orqY1E/?v=19",
+  "texts": [
+   "✨ New",
+   "Reddit",
+   "Design by Pentagram"
+  ],
+  "img": "https://framerusercontent.com/images/jbGGPDyBZvVl7hcjFerjy4cmSU.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   507,
+   9320,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://merk.odido.nl/en",
+  "texts": [
+   "✨ New",
+   "Odido",
+   "Design by Studio Neboko"
+  ],
+  "img": "https://framerusercontent.com/images/JIfXDxnlMZACv7z6N8u3wkiURY.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   953,
+   9320,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://wise.design/foundations",
+  "texts": [
+   "✨ New",
+   "Wise",
+   "Design by Ragged Edge"
+  ],
+  "img": "https://framerusercontent.com/images/eCSEHaYxWJjqJM2jqc3vsp2Zo.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   60,
+   9725,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://mediaassets.channel4.com/guidelines/guide/34286b7b-ea25-404d-a43b-e912fc85b0e0",
+  "texts": [
+   "✨ New",
+   "Channel 4",
+   "Design by Pentagram"
+  ],
+  "img": "https://framerusercontent.com/images/uXypLMMvc4a8kZpPXzSxV9BpHU.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   507,
+   9725,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.dropbox.com/scl/fi/6x3wyojyd08ouseyw08yq/EDP-2022.pdf?rlkey=8373vh4ixqongwsqmht9k8ukh&st=10t956wt&dl=0",
+  "texts": [
+   "✨ New",
+   "EDP",
+   "Design by Pentagram"
+  ],
+  "img": "https://framerusercontent.com/images/1pfxh87TaI7Yi91ep6DUj9fQY.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   953,
+   9725,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.brandguidelines.mellon.org/",
+  "texts": [
+   "✨ New",
+   "The Mellon Foundation",
+   "Design by Pentagram"
+  ],
+  "img": "https://framerusercontent.com/images/AQvHLYFf9gc7WJu46j628A3upM.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   60,
+   10130,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.redhat.com/en/about/brand/standards",
+  "texts": [
+   "✨ New",
+   "Red Hat®",
+   "Design by Pentagram"
+  ],
+  "img": "https://framerusercontent.com/images/2JgRuUfwDJditGE9gnoDc7BN02w.png?width=1920&height=1280",
+  "imgAlt": "",
+  "names": [
+   "thumbnail",
+   "Dont Show",
+   "icon_wrapper"
+  ],
+  "section": "Bottom",
+  "rect": [
+   507,
+   10130,
+   427,
+   385
+  ]
+ },
+ {
+  "href": "https://www.instagram.com/1042.studio",
+  "texts": [],
+  "img": null,
+  "imgAlt": null,
+  "names": [
+   "Icon"
+  ],
+  "section": "Social",
+  "rect": [
+   116,
+   11097,
+   23,
+   23
+  ]
+ },
+ {
+  "href": "https://www.linkedin.com/company/1042-studio",
+  "texts": [],
+  "img": null,
+  "imgAlt": null,
+  "names": [
+   "Icon"
+  ],
+  "section": "Social",
+  "rect": [
+   155,
+   11097,
+   23,
+   23
+  ]
+ },
+ {
+  "href": "https://twitter.com/1042studio",
+  "texts": [],
+  "img": null,
+  "imgAlt": null,
+  "names": [
+   "Icon"
+  ],
+  "section": "Social",
+  "rect": [
+   194,
+   11097,
+   23,
+   23
+  ]
+ },
+ {
+  "href": "https://www.brandguidelines.net/about",
+  "texts": [
+   "About"
+  ],
+  "img": null,
+  "imgAlt": null,
+  "names": [
+   "Text 1"
+  ],
+  "section": "Text",
+  "rect": [
+   734,
+   11053,
+   39,
+   17
+  ]
+ },
+ {
+  "href": "https://www.brandguidelines.net/templates",
+  "texts": [
+   "Templates"
+  ],
+  "img": null,
+  "imgAlt": null,
+  "names": [
+   "Text 1"
+  ],
+  "section": "Text",
+  "rect": [
+   734,
+   11078,
+   68,
+   17
+  ]
+ },
+ {
+  "href": "mailto:hello@1042.studio?subject=Brand%20Guide%20Submission&body=Hey%201042%20Studio%2C%0D%0A%0D%0AI%27d%20love%20to%20submit%20a%20brand%20guideline%20for%20consideration%20on%20your%20website.",
+  "texts": [
+   "Submit Guide"
+  ],
+  "img": null,
+  "imgAlt": null,
+  "names": [
+   "Text 1"
+  ],
+  "section": "Text",
+  "rect": [
+   734,
+   11103,
+   89,
+   17
+  ]
+ },
+ {
+  "href": "https://www.brandguidelines.net/legal/imprint",
+  "texts": [
+   "Imprint"
+  ],
+  "img": null,
+  "imgAlt": null,
+  "names": [
+   "Text 1"
+  ],
+  "section": "Text",
+  "rect": [
+   1054,
+   11053,
+   46,
+   17
+  ]
+ },
+ {
+  "href": "https://www.brandguidelines.net/legal/terms-of-service",
+  "texts": [
+   "Terms of Service"
+  ],
+  "img": null,
+  "imgAlt": null,
+  "names": [
+   "Text 1"
+  ],
+  "section": "Text",
+  "rect": [
+   1054,
+   11078,
+   113,
+   17
+  ]
+ },
+ {
+  "href": "https://www.brandguidelines.net/legal/cookie-policy",
+  "texts": [
+   "Cookies Policy"
+  ],
+  "img": null,
+  "imgAlt": null,
+  "names": [
+   "Text 1"
+  ],
+  "section": "Text",
+  "rect": [
+   1054,
+   11103,
+   97,
+   17
+  ]
+ },
+ {
+  "href": "https://1042.studio/",
+  "texts": [
+   "© 1042 Studio"
+  ],
+  "img": null,
+  "imgAlt": null,
+  "names": [
+   "Text 1"
+  ],
+  "section": "Text",
+  "rect": [
+   84,
+   11403,
+   95,
+   17
+  ]
+ }
+]

@@ -1,0 +1,150 @@
+{
+ "url": "https://heyitsinstacart.com/",
+ "title": "Instacart Brand Guide",
+ "scrollHeight": 900,
+ "customProperties": {
+  "--min-desktop-width": "769px"
+ },
+ "loadedFonts": [
+  "custom_72625 400 normal",
+  "custom_72625 600 normal",
+  "custom_72626 400 normal"
+ ],
+ "fontFamily": {
+  "custom_72625": 29,
+  "custom_72626": 1
+ },
+ "fontSize": {
+  "36px": 11,
+  "24px": 10,
+  "60px": 8,
+  "17px": 1
+ },
+ "fontWeight": {
+  "400": 21,
+  "600": 9
+ },
+ "lineHeight": {
+  "32px": 11,
+  "29px": 10,
+  "58px": 8,
+  "45px": 1
+ },
+ "letterSpacing": {
+  "normal": 22,
+  "-1.2px": 8
+ },
+ "textColor": {
+  "rgb(250, 241, 229)": 20,
+  "rgb(0, 61, 41)": 8,
+  "rgb(255, 112, 9)": 1,
+  "rgb(249, 251, 147)": 1
+ },
+ "bg": {
+  "rgb(0, 0, 0)": 3,
+  "rgb(255, 255, 255)": 2,
+  "rgb(0, 61, 41)": 2,
+  "rgb(250, 241, 229)": 1,
+  "rgb(197, 255, 150)": 1,
+  "rgb(255, 187, 110)": 1,
+  "rgb(133, 204, 62)": 1,
+  "rgb(219, 239, 119)": 1,
+  "rgb(237, 201, 162)": 1,
+  "rgb(198, 240, 203)": 1,
+  "rgb(249, 251, 147)": 1,
+  "rgb(255, 220, 35)": 1
+ },
+ "radius": {},
+ "shadow": {},
+ "transition": {
+  "opacity 0.2s ease": 21,
+  "transform, opacity 0s, 0s ease, ease": 1
+ },
+ "border": {},
+ "textTransform": {
+  "none": 30
+ },
+ "typePairs": {
+  "custom_72625 | 36px | 400 | lh 32px | ls normal": 11,
+  "custom_72625 | 24px | 400 | lh 29px | ls normal": 9,
+  "custom_72625 | 60px | 600 | lh 58px | ls -1.2px": 8,
+  "custom_72626 | 17px | 400 | lh 45px | ls normal": 1,
+  "custom_72625 | 24px | 600 | lh 29px | ls normal": 1
+ },
+ "headings": [],
+ "nav": [
+  {
+   "t": "Login",
+   "h": "https://instacart.orangelogic.com/CS.aspx?VP3=LoginRegistration&L=True&R=False"
+  },
+  {
+   "t": "Brand Element",
+   "h": "https://heyitsinstacart.com/brandelement/"
+  },
+  {
+   "t": "Logo",
+   "h": "https://heyitsinstacart.com/logo/"
+  },
+  {
+   "t": "Carrot",
+   "h": "https://heyitsinstacart.com/carrot/"
+  },
+  {
+   "t": "Big Green Bag",
+   "h": "https://heyitsinstacart.com/biggreenbag/"
+  },
+  {
+   "t": "Colors",
+   "h": "https://heyitsinstacart.com/color/"
+  },
+  {
+   "t": "Typography",
+   "h": "https://heyitsinstacart.com/typography/"
+  },
+  {
+   "t": "Photography",
+   "h": "https://heyitsinstacart.com/photography/"
+  },
+  {
+   "t": "Layout",
+   "h": "https://heyitsinstacart.com/layout/"
+  },
+  {
+   "t": "Index",
+   "h": "https://heyitsinstacart.com/index/"
+  },
+  {
+   "t": "Carrot",
+   "h": "https://heyitsinstacart.com/carrot/"
+  },
+  {
+   "t": "Typography",
+   "h": "https://heyitsinstacart.com/typography/"
+  },
+  {
+   "t": "Brand Element",
+   "h": "https://heyitsinstacart.com/brandelement/"
+  },
+  {
+   "t": "Big Green Bag",
+   "h": "https://heyitsinstacart.com/biggreenbag/"
+  },
+  {
+   "t": "Photography",
+   "h": "https://heyitsinstacart.com/photography/"
+  },
+  {
+   "t": "Logo",
+   "h": "https://heyitsinstacart.com/logo/"
+  },
+  {
+   "t": "Colors",
+   "h": "https://heyitsinstacart.com/color/"
+  },
+  {
+   "t": "Layout",
+   "h": "https://heyitsinstacart.com/layout/"
+  }
+ ],
+ "fullHeight": 900
+}

@@ -1,0 +1,38 @@
+{
+ "requested": "https://brand.seatgeek.com/",
+ "final": "https://brand.seatgeek.com/iconography",
+ "title": "SeatGeek",
+ "subpages": [
+  {
+   "href": "https://brand.seatgeek.com/logo",
+   "t": "Logo",
+   "ok": true
+  },
+  {
+   "href": "https://brand.seatgeek.com/color",
+   "t": "Color",
+   "ok": true
+  },
+  {
+   "href": "https://brand.seatgeek.com/typography",
+   "t": "Typography",
+   "ok": true
+  },
+  {
+   "href": "https://brand.seatgeek.com/photography",
+   "t": "Photography",
+   "ok": true
+  },
+  {
+   "href": "https://brand.seatgeek.com/illustration",
+   "t": "Illustration",
+   "ok": true
+  },
+  {
+   "href": "https://brand.seatgeek.com/iconography",
+   "t": "Iconography",
+   "ok": true
+  }
+ ],
+ "cssFiles": 14
+}

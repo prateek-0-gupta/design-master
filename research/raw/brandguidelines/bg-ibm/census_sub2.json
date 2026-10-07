@@ -1,0 +1,350 @@
+{
+ "url": "https://www.ibm.com/design/language/color/",
+ "title": "IBM Design Language – Color",
+ "scrollHeight": 19042,
+ "customProperties": {},
+ "loadedFonts": [
+  "IBM Plex Sans Var 100 900 normal",
+  "IBM Plex Mono 400 normal"
+ ],
+ "fontFamily": {
+  "\"IBM Plex Mono\", Menlo, \"DejaVu Sans Mono\", \"Bitstream Vera Sans Mono\", Courier, monospace": 268,
+  "\"IBM Plex Sans Var\", \"Helvetica Neue\", Arial, sans-serif": 163
+ },
+ "fontSize": {
+  "14px": 375,
+  "21.8824px": 22,
+  "16px": 21,
+  "29.8824px": 8,
+  "12px": 4,
+  "67.5294px": 1
+ },
+ "fontWeight": {
+  "300": 1,
+  "400": 397,
+  "600": 33
+ },
+ "lineHeight": {
+  "20px": 298,
+  "14px": 39,
+  "18.0001px": 38,
+  "27.353px": 22,
+  "24px": 18,
+  "37.353px": 8,
+  "16px": 4,
+  "22px": 2,
+  "79.0094px": 1,
+  "20.5715px": 1
+ },
+ "letterSpacing": {
+  "0.32px": 272,
+  "0.16px": 103,
+  "normal": 51,
+  "0.1px": 5
+ },
+ "textColor": {
+  "rgb(255, 255, 255)": 144,
+  "rgb(0, 0, 0)": 136,
+  "rgb(22, 22, 22)": 108,
+  "rgb(198, 198, 198)": 17,
+  "rgb(82, 82, 82)": 15,
+  "rgb(244, 244, 244)": 10,
+  "rgb(15, 98, 254)": 1
+ },
+ "bg": {
+  "rgb(255, 255, 255)": 41,
+  "rgb(0, 0, 0)": 19,
+  "rgb(244, 244, 244)": 10,
+  "rgb(22, 22, 22)": 9,
+  "rgb(57, 57, 57)": 5,
+  "rgb(15, 98, 254)": 5,
+  "rgb(38, 38, 38)": 5,
+  "rgb(0, 17, 65)": 4,
+  "rgb(0, 29, 108)": 4,
+  "rgb(0, 45, 156)": 4,
+  "rgb(0, 67, 206)": 4,
+  "rgb(69, 137, 255)": 4,
+  "rgb(120, 169, 255)": 4,
+  "rgb(166, 200, 255)": 4,
+  "rgb(208, 226, 255)": 4,
+  "rgb(237, 245, 255)": 4,
+  "rgb(82, 82, 82)": 4,
+  "rgb(111, 111, 111)": 4,
+  "rgb(141, 141, 141)": 4,
+  "rgb(168, 168, 168)": 4,
+  "rgb(198, 198, 198)": 4,
+  "rgb(224, 224, 224)": 4,
+  "rgb(218, 30, 40)": 3,
+  "rgb(36, 161, 72)": 3,
+  "rgb(45, 7, 9)": 2,
+  "rgb(82, 4, 8)": 2,
+  "rgb(117, 14, 19)": 2,
+  "rgb(162, 25, 31)": 2,
+  "rgb(250, 77, 86)": 2,
+  "rgb(255, 131, 137)": 2,
+  "rgb(255, 179, 184)": 2,
+  "rgb(255, 215, 217)": 2,
+  "rgb(255, 241, 241)": 2,
+  "rgb(42, 10, 24)": 2,
+  "rgb(81, 2, 36)": 2,
+  "rgb(116, 9, 55)": 2,
+  "rgb(159, 24, 83)": 2,
+  "rgb(208, 38, 112)": 2,
+  "rgb(238, 83, 150)": 2,
+  "rgb(255, 126, 182)": 2
+ },
+ "radius": {
+  "2px": 1
+ },
+ "shadow": {
+  "rgba(0, 0, 0, 0.3) 0px 2px 6px 0px": 1
+ },
+ "transition": {
+  "opacity 0.5s ease": 32,
+  "opacity 0.07s cubic-bezier(0.2, 0, 0.38, 0.9)": 20,
+  "color, background-color, outline 0.11s, 0.11s, 0.11s ease, ease, ease": 16,
+  "transform 0.11s ease": 11,
+  "color 0.11s ease": 8,
+  "background-color 0.1s cubic-bezier(0.2, 0.2, 0.38, 0.9)": 8,
+  "background 0.07s ease": 6,
+  "all 0.07s cubic-bezier(0.2, 0, 0.38, 0.9)": 6,
+  "background-color, opacity 0.11s, 0.11s cubic-bezier(0.2, 0, 0.38, 0.9), cubic-bezier(0.2, 0, 0.38, 0.9)": 2,
+  "background 0.11s cubic-bezier(0.2, 0, 0.38, 0.9)": 2,
+  "opacity 0.11s cubic-bezier(0.2, 0, 0.38, 0.9)": 1,
+  "max-width, background 0.11s, 0.11s cubic-bezier(0.2, 0, 0.38, 0.9), cubic-bezier(0.2, 0, 0.38, 0.9)": 1,
+  "background-color 0.11s cubic-bezier(0.2, 0, 0.38, 0.9)": 1,
+  "transform, top 0.15s, 0.11s cubic-bezier(0.2, 0.2, 0.38, 0.9), ease": 1,
+  "width 0.11s cubic-bezier(0.2, 0, 1, 0.9)": 1,
+  "all 0.15s ease": 1,
+  "all 0.11s ease": 1,
+  "color 0.07s cubic-bezier(0.2, 0, 0.38, 0.9)": 1
+ },
+ "border": {
+  "1px solid rgb(224, 224, 224)": 2,
+  "1px solid rgba(0, 0, 0, 0)": 1
+ },
+ "textTransform": {
+  "none": 297,
+  "capitalize": 134
+ },
+ "typePairs": {
+  "IBM Plex Mono | 14px | 400 | lh 20px | ls 0.32px": 268,
+  "IBM Plex Sans Var | 14px | 400 | lh 14px | ls 0.16px": 36,
+  "IBM Plex Sans Var | 14px | 400 | lh 18.0001px | ls 0.16px": 27,
+  "IBM Plex Sans Var | 21.8824px | 400 | lh 27.353px | ls normal": 22,
+  "IBM Plex Sans Var | 16px | 400 | lh 24px | ls normal": 18,
+  "IBM Plex Sans Var | 14px | 600 | lh 20px | ls 0.16px": 13,
+  "IBM Plex Sans Var | 14px | 400 | lh 20px | ls 0.16px": 12,
+  "IBM Plex Sans Var | 14px | 600 | lh 18.0001px | ls 0.16px": 11,
+  "IBM Plex Sans Var | 29.8824px | 400 | lh 37.353px | ls normal": 8,
+  "IBM Plex Sans Var | 14px | 600 | lh 20px | ls 0.1px": 5,
+  "IBM Plex Sans Var | 12px | 400 | lh 16px | ls 0.32px": 4,
+  "IBM Plex Sans Var | 14px | 600 | lh 14px | ls 0.16px": 3,
+  "IBM Plex Sans Var | 16px | 400 | lh 22px | ls normal": 1,
+  "IBM Plex Sans Var | 16px | 600 | lh 22px | ls normal": 1,
+  "IBM Plex Sans Var | 67.5294px | 300 | lh 79.0094px | ls normal": 1,
+  "IBM Plex Sans Var | 16px | 400 | lh 20.5715px | ls 0.16px": 1
+ },
+ "headings": [
+  "H1 Color",
+  "H2 Resources",
+  "H2 Blue at the core",
+  "H3 The palette",
+  "H3 Grays",
+  "H2 Specifications",
+  "H2 Color families",
+  "H3 4-color",
+  "H3 3-color",
+  "H3 2-color",
+  "H3 1-color",
+  "H3 Combinations to avoid",
+  "H2 Gradients",
+  "H2 Color in UI",
+  "H3 Specifications",
+  "H2 Accessibility",
+  "H3 Contrast ratios",
+  "H3 Contrast with gradients",
+  "H3 Examples",
+  "H3 Color blindness",
+  "H2 Color in action"
+ ],
+ "nav": [
+  {
+   "t": "Skip to main content",
+   "h": "https://www.ibm.com/design/language/color/#main-content"
+  },
+  {
+   "t": "IBM \nDesign Language",
+   "h": "https://www.ibm.com/design/language/"
+  },
+  {
+   "t": "IBM Brand Center",
+   "h": "https://ibm.com/brand"
+  },
+  {
+   "t": "IBM Design Language",
+   "h": "https://ibm.com/design/language"
+  },
+  {
+   "t": "Carbon Design System",
+   "h": "https://www.carbondesignsystem.com/"
+  },
+  {
+   "t": "Carbon for IBM Products",
+   "h": "http://ibm.biz/carbon4ibmproducts"
+  },
+  {
+   "t": "Carbon for IBM.com",
+   "h": "https://www.ibm.com/standards/carbon/"
+  },
+  {
+   "t": "IBM Event Design",
+   "h": "https://www.ibm.com/design/event/"
+  },
+  {
+   "t": "IBM Workplace Design",
+   "h": "https://www.ibm.com/design/workplace/"
+  },
+  {
+   "t": "Enterprise Design Thinking",
+   "h": "https://www.ibm.com/design/thinking/"
+  },
+  {
+   "t": "IBM Accessibility",
+   "h": "https://www.ibm.com/able/"
+  },
+  {
+   "t": "IBM Design for AI",
+   "h": "https://www.ibm.com/design/ai"
+  },
+  {
+   "t": "IBM Design Research",
+   "h": "https://www.ibm.com/design/research/"
+  },
+  {
+   "t": "IBM Experience Standards",
+   "h": "https://w3.ibm.com/design/experience-standards/"
+  },
+  {
+   "t": "IBM Design",
+   "h": "https://w3.ibm.com/design/"
+  },
+  {
+   "t": "Gallery",
+   "h": "https://www.ibm.com/design/language/gallery"
+  },
+  {
+   "t": "Color",
+   "h": "https://www.ibm.com/design/language/color"
+  },
+  {
+   "t": "2x Grid",
+   "h": "https://www.ibm.com/design/language/2x-grid"
+  },
+  {
+   "t": "Resources",
+   "h": "https://www.ibm.com/design/language/resources"
+  },
+  {
+   "t": "What’s new",
+   "h": "https://www.ibm.com/design/language/whats-new"
+  },
+  {
+   "t": "Blue at the core",
+   "h": "https://www.ibm.com/design/language/color/#blue-at-the-core"
+  },
+  {
+   "t": "Specifications",
+   "h": "https://www.ibm.com/design/language/color/#specifications"
+  },
+  {
+   "t": "Color families",
+   "h": "https://www.ibm.com/design/language/color/#color-families"
+  },
+  {
+   "t": "Gradients",
+   "h": "https://www.ibm.com/design/language/color/#gradients"
+  },
+  {
+   "t": "Color in UI",
+   "h": "https://www.ibm.com/design/language/color/#color-in-ui"
+  },
+  {
+   "t": "Accessibility",
+   "h": "https://www.ibm.com/design/language/color/#accessibility"
+  },
+  {
+   "t": "Color in action",
+   "h": "https://www.ibm.com/design/language/color/#color-in-action"
+  },
+  {
+   "t": "IBM Design Language library",
+   "h": "https://www.figma.com/files/902667414815738345/project/35070940/%E2%9C%85-IBM-Design-Language?fuid=834811722516621897"
+  },
+  {
+   "t": "IBM color palette (.ase and .clr)",
+   "h": "https://github.com/carbon-design-system/carbon/raw/main/packages/colors/artifacts/IBM_Colors.zip"
+  },
+  {
+   "t": "Color in UI",
+   "h": "https://www.carbondesignsystem.com/elements/color/overview"
+  },
+  {
+   "t": "Web Content Acessibility Guidelines (WCAG)",
+   "h": "https://www.w3.org/TR/WCAG20/"
+  },
+  {
+   "t": "Web Content Accessibility Guidelines (WCAG) 2.1",
+   "h": "https://www.w3.org/TR/WCAG20/"
+  },
+  {
+   "t": "Color contrast checker",
+   "h": "https://marijohannessen.github.io/color-contrast-checker/"
+  },
+  {
+   "t": "IDL Gallery",
+   "h": "https://www.ibm.com/design/language/gallery"
+  },
+  {
+   "t": "Edit this page on GitHub",
+   "h": "https://github.com/carbon-design-system/design-language-website/edit/master/src/pages/color.mdx"
+  },
+  {
+   "t": "Previous\nTypography: Type scale",
+   "h": "https://www.ibm.com/design/language/typography/type-scale"
+  },
+  {
+   "t": "Next\n2x Grid",
+   "h": "https://www.ibm.com/design/language/2x-grid"
+  },
+  {
+   "t": "Privacy",
+   "h": "https://www.ibm.com/privacy"
+  },
+  {
+   "t": "Terms of use",
+   "h": "https://www.ibm.com/legal"
+  },
+  {
+   "t": "IBM.com",
+   "h": "https://ibm.com/"
+  },
+  {
+   "t": "Twitter",
+   "h": "https://twitter.com/ibmdesign"
+  },
+  {
+   "t": "Instagram",
+   "h": "https://www.instagram.com/ibm/?hl=en"
+  },
+  {
+   "t": "#ibm-brand",
+   "h": "https://ibm.enterprise.slack.com/archives/ibm-brand"
+  },
+  {
+   "t": "inquiry form",
+   "h": "https://airtable.com/shry0TE1BWCj3omPO"
+  }
+ ],
+ "fullHeight": 19042
+}

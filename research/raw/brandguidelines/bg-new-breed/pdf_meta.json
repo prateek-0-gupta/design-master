@@ -1,0 +1,6 @@
+{
+ "pages": 44,
+ "page_size": "1920 x 1080 pts",
+ "bytes": 6869267,
+ "fonts_raw": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBTMPHF+ProximaNova-Regular           Type 1C           Custom           yes yes no    1279  0\nBTMPHF+ProximaNova-Black             Type 1C           Custom           yes yes no    1280  0\nBTMPHF+ProximaNova-Extrabld          Type 1C           Custom           yes yes no    1165  0\nBTMPHF+ProximaNova-Medium            Type 1C           WinAnsi          yes yes no    1182  0\nBTMPHF+ProximaNova-RegularIt         Type 1C           WinAnsi          yes yes no    1231  0\nBTMPHF+ProximaNova-Light             Type 1C           WinAnsi          yes yes no    1249  0\n"
+}

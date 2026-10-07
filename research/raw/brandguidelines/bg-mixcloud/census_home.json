@@ -1,0 +1,262 @@
+{
+ "url": "https://web.archive.org/web/20240102053745if_/https://www.mixcloud.com/brand",
+ "title": "Brand home",
+ "scrollHeight": 12510,
+ "customProperties": {
+  "--light": "#f69ae4",
+  "--high-blue-tint": "#e2e3ff",
+  "--yellow-light-new": "#f3f810",
+  "--mixcloud-blue": "black",
+  "--green-medium": "#0cc281",
+  "--yellow-tint": "#f9fbb2",
+  "--blue-darkened": "#5000ff",
+  "--black": "black",
+  "--orange-medium": "#f45827",
+  "--white": "white",
+  "--base-5": "#f4f4f5",
+  "--base-90": "#22293c",
+  "--bg": "#f2f2f2",
+  "--pink-medium": "#d20442",
+  "--base-80": "#2a3145",
+  "--font-hover": "#575757",
+  "--wm-toolbar-height": "65px",
+  "--high-pino": "#f3b2a6",
+  "--lavender-blush": "#ffe6fa",
+  "--lines": "#c4c4c4",
+  "--green-tint": "#e3faf0",
+  "--mini-title-font": "#919191",
+  "--hover-button": "#272727",
+  "--high-blue": "#5000ff",
+  "--yellow-light": "#f3f810",
+  "--base-20": "#d2d3d7",
+  "--logo-stack": "60px",
+  "--bg-2": "#e7e7e7",
+  "--violet-tint": "#fde1f7",
+  "--base-70": "#61667a",
+  "--low-blue-new": "#171c2b",
+  "--hover-input": "#3898ec",
+  "--dropdown-bg": "#ebebeb",
+  "--logo-horizontal": "30px"
+ },
+ "loadedFonts": [
+  "webflow-icons 400 normal",
+  "Dmsans 400 normal",
+  "SineSans-Medium 500 normal",
+  "Karla 400 normal"
+ ],
+ "fontFamily": {
+  "SineSans-Medium, sans-serif": 66,
+  "Dmsans, sans-serif": 31
+ },
+ "fontSize": {
+  "170px": 66,
+  "17px": 18,
+  "16px": 6,
+  "52px": 2,
+  "20px": 2,
+  "42px": 2,
+  "24px": 1
+ },
+ "fontWeight": {
+  "400": 31,
+  "500": 66
+ },
+ "lineHeight": {
+  "160px": 66,
+  "28px": 24,
+  "52px": 4,
+  "32px": 3
+ },
+ "letterSpacing": {
+  "normal": 94,
+  "-0.3px": 3
+ },
+ "textColor": {
+  "rgb(255, 255, 255)": 68,
+  "rgb(72, 74, 124)": 9,
+  "rgb(210, 211, 215)": 9,
+  "rgb(23, 28, 43)": 7,
+  "rgb(97, 102, 122)": 2,
+  "rgb(80, 0, 255)": 1,
+  "rgb(39, 39, 39)": 1
+ },
+ "bg": {
+  "rgb(255, 255, 255)": 17,
+  "rgb(34, 41, 60)": 9,
+  "rgb(23, 28, 43)": 3,
+  "rgb(244, 244, 245)": 3,
+  "rgb(80, 0, 255)": 1,
+  "rgb(243, 248, 16)": 1,
+  "rgb(32, 32, 32)": 1
+ },
+ "radius": {
+  "12px": 18,
+  "100px": 6,
+  "20.4px": 3,
+  "20px": 3,
+  "0px 0px 30px 30px": 2,
+  "30px 30px 0px 0px": 1,
+  "0px 0px 45px 45px": 1,
+  "45px 45px 0px 0px": 1,
+  "45px 30px 0px 0px": 1
+ },
+ "shadow": {
+  "rgba(0, 0, 0, 0.05) 0px 0px 12px 1px": 9,
+  "rgba(0, 0, 0, 0.15) 0px 2px 16px 9px": 2,
+  "rgba(0, 0, 0, 0.35) 0px 15px 35px 2px": 1,
+  "rgba(0, 0, 0, 0.2) 0px 2px 18px 8px": 1,
+  "rgba(0, 0, 0, 0.2) 0px 10px 14px 5px": 1
+ },
+ "transition": {
+  "filter 0.2s ease": 18
+ },
+ "border": {},
+ "textTransform": {
+  "uppercase": 66,
+  "none": 31
+ },
+ "typePairs": {
+  "SineSans-Medium | 170px | 500 | lh 160px | ls normal": 66,
+  "Dmsans | 17px | 400 | lh 28px | ls normal": 18,
+  "Dmsans | 16px | 400 | lh 28px | ls normal": 6,
+  "Dmsans | 52px | 400 | lh 52px | ls normal": 2,
+  "Dmsans | 20px | 400 | lh 32px | ls -0.3px": 2,
+  "Dmsans | 42px | 400 | lh 52px | ls normal": 2,
+  "Dmsans | 24px | 400 | lh 32px | ls -0.3px": 1
+ },
+ "headings": [
+  "H2 A brand\nevolution",
+  "H2 People\npowered\nmusic"
+ ],
+ "nav": [
+  {
+   "t": "Intro",
+   "h": "https://www.mixcloud.com/brand"
+  },
+  {
+   "t": "Colour",
+   "h": "https://www.mixcloud.com/brand/brand-pages/colour"
+  },
+  {
+   "t": "Logo",
+   "h": "https://www.mixcloud.com/brand/brand-pages/logo"
+  },
+  {
+   "t": "Illustration",
+   "h": "https://www.mixcloud.com/brand/brand-pages/illustration"
+  },
+  {
+   "t": "Typography",
+   "h": "https://www.mixcloud.com/brand/brand-pages/typography"
+  },
+  {
+   "t": "Sub brands",
+   "h": "https://www.mixcloud.com/brand/brand-pages/sub-brands"
+  },
+  {
+   "t": "Textures",
+   "h": "https://www.mixcloud.com/brand/brand-pages/textures"
+  },
+  {
+   "t": "Photography",
+   "h": "https://www.mixcloud.com/brand/brand-pages/photography"
+  },
+  {
+   "t": "Motion",
+   "h": "https://www.mixcloud.com/brand/brand-pages/motion"
+  },
+  {
+   "t": "Copywriting",
+   "h": "https://www.mixcloud.com/brand/brand-pages/copywriting"
+  },
+  {
+   "t": "Manifesto",
+   "h": "https://www.mixcloud.com/brand/manifesto"
+  },
+  {
+   "t": "Brand values",
+   "h": "https://www.mixcloud.com/brand/values"
+  },
+  {
+   "t": "Strategy",
+   "h": "https://mixcloud-brand-framework.webflow.io/"
+  },
+  {
+   "t": "Media kit",
+   "h": "https://www.mixcloud.com/brand/media-kit"
+  },
+  {
+   "t": "Colour",
+   "h": "https://www.mixcloud.com/brand/brand-pages/colour"
+  },
+  {
+   "t": "Logo",
+   "h": "https://www.mixcloud.com/brand/brand-pages/logo"
+  },
+  {
+   "t": "Illustration",
+   "h": "https://www.mixcloud.com/brand/brand-pages/illustration"
+  },
+  {
+   "t": "Typography",
+   "h": "https://www.mixcloud.com/brand/brand-pages/typography"
+  },
+  {
+   "t": "Sub brands",
+   "h": "https://www.mixcloud.com/brand/brand-pages/sub-brands"
+  },
+  {
+   "t": "Textures",
+   "h": "https://www.mixcloud.com/brand/brand-pages/textures"
+  },
+  {
+   "t": "Photography",
+   "h": "https://www.mixcloud.com/brand/brand-pages/photography"
+  },
+  {
+   "t": "Motion",
+   "h": "https://www.mixcloud.com/brand/brand-pages/motion"
+  },
+  {
+   "t": "Copywriting",
+   "h": "https://www.mixcloud.com/brand/brand-pages/copywriting"
+  },
+  {
+   "t": "Colour",
+   "h": "https://www.mixcloud.com/brand/brand-pages/colour"
+  },
+  {
+   "t": "Logo",
+   "h": "https://www.mixcloud.com/brand/brand-pages/logo"
+  },
+  {
+   "t": "Illustration",
+   "h": "https://www.mixcloud.com/brand/brand-pages/illustration"
+  },
+  {
+   "t": "Typography",
+   "h": "https://www.mixcloud.com/brand/brand-pages/typography"
+  },
+  {
+   "t": "Sub brands",
+   "h": "https://www.mixcloud.com/brand/brand-pages/sub-brands"
+  },
+  {
+   "t": "Textures",
+   "h": "https://www.mixcloud.com/brand/brand-pages/textures"
+  },
+  {
+   "t": "Photography",
+   "h": "https://www.mixcloud.com/brand/brand-pages/photography"
+  },
+  {
+   "t": "Motion",
+   "h": "https://www.mixcloud.com/brand/brand-pages/motion"
+  },
+  {
+   "t": "Copywriting",
+   "h": "https://www.mixcloud.com/brand/brand-pages/copywriting"
+  }
+ ],
+ "fullHeight": 12510
+}

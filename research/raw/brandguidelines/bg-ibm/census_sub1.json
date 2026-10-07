@@ -1,0 +1,210 @@
+{
+ "url": "https://www.ibm.com/able/",
+ "title": "IBM Accessibility",
+ "scrollHeight": 2526,
+ "customProperties": {
+  "--cds-layer-accent-active": "#a8a8a8",
+  "--cds-layout-size-height-2xl": "5rem",
+  "--cds-field-hover": "#e8e8e8",
+  "--cds-border-strong": "#8d8d8d",
+  "--cds-border-tile": "#a8a8a8",
+  "--cds-layout-size-height-max": "999999999px",
+  "--cds-border-subtle-selected": "#c6c6c6",
+  "--cds-layout-density-padding-inline-condensed": "0.5rem",
+  "--cds-border-subtle": "#c6c6c6",
+  "--cds-layout-size-height-lg": "3rem",
+  "--cds-layout-size-height-xs": "1.5rem",
+  "--cds-layer": "#fff",
+  "--cds-field": "#fff",
+  "--cds-layer-background": "#f4f4f4",
+  "--cds-layout-size-height-md": "2.5rem",
+  "--cds-layer-selected": "#e0e0e0",
+  "--cds-layer-hover": "#e8e8e8",
+  "--cds-layer-selected-hover": "#d1d1d1",
+  "--cds-layout-density-padding-inline-normal": "1rem",
+  "--cds-layout-density-padding-inline-min": "0px",
+  "--cds-layout-density-padding-inline-max": "999999999px",
+  "--cds-layout-size-height-sm": "2rem",
+  "--cds-layer-accent-hover": "#d1d1d1",
+  "--cds-layer-accent": "#e0e0e0",
+  "--cds-layout-size-height-xl": "4rem",
+  "--cds-layer-active": "#c6c6c6",
+  "--cds-layout-size-height-min": "0px"
+ },
+ "loadedFonts": [
+  "IBM Plex Sans Var 100 900 normal"
+ ],
+ "fontFamily": {
+  "\"IBM Plex Sans Var\", \"Helvetica Neue\", Arial, sans-serif": 47
+ },
+ "fontSize": {
+  "14px": 25,
+  "20px": 12,
+  "16px": 4,
+  "12px": 4,
+  "67.5294px": 1,
+  "28px": 1
+ },
+ "fontWeight": {
+  "300": 1,
+  "400": 24,
+  "600": 22
+ },
+ "lineHeight": {
+  "20px": 23,
+  "28px": 10,
+  "16px": 4,
+  "24px": 2,
+  "22px": 2,
+  "18.0001px": 2,
+  "36px": 2,
+  "79.0094px": 1,
+  "36.0002px": 1
+ },
+ "letterSpacing": {
+  "0.16px": 19,
+  "normal": 18,
+  "0.1px": 6,
+  "0.32px": 4
+ },
+ "textColor": {
+  "rgb(198, 198, 198)": 19,
+  "rgb(22, 22, 22)": 14,
+  "rgb(82, 82, 82)": 7,
+  "rgb(255, 255, 255)": 4,
+  "rgb(244, 244, 244)": 3
+ },
+ "bg": {
+  "rgb(255, 255, 255)": 11,
+  "rgb(22, 22, 22)": 3,
+  "rgb(244, 244, 244)": 2,
+  "rgb(230, 214, 255)": 1,
+  "rgb(0, 0, 0)": 1
+ },
+ "radius": {},
+ "shadow": {},
+ "transition": {
+  "background 0.07s ease": 9,
+  "color, background-color, outline 0.11s, 0.11s, 0.11s ease, ease, ease": 7,
+  "all 0.07s cubic-bezier(0.2, 0, 0.38, 0.9)": 3,
+  "background-color, opacity 0.11s, 0.11s cubic-bezier(0.5, 0, 0.1, 1), cubic-bezier(0.5, 0, 0.1, 1)": 2,
+  "opacity 0.11s cubic-bezier(0.5, 0, 0.1, 1)": 1,
+  "max-width, background 0.11s, 0.11s cubic-bezier(0.5, 0, 0.1, 1), cubic-bezier(0.5, 0, 0.1, 1)": 1,
+  "all 0.1s ease": 1,
+  "all 0.25s ease": 1,
+  "inline-size, transform 0.11s, 0.11s cubic-bezier(0.2, 0, 1, 0.9), cubic-bezier(0.2, 0, 1, 0.9)": 1,
+  "transform 0.11s ease": 1
+ },
+ "border": {
+  "1px solid rgb(224, 224, 224)": 3,
+  "1px solid rgba(0, 0, 0, 0)": 1,
+  "1px solid rgb(57, 57, 57)": 1
+ },
+ "textTransform": {
+  "none": 47
+ },
+ "typePairs": {
+  "IBM Plex Sans Var | 14px | 600 | lh 20px | ls 0.16px": 14,
+  "IBM Plex Sans Var | 20px | 400 | lh 28px | ls normal": 10,
+  "IBM Plex Sans Var | 14px | 600 | lh 20px | ls 0.1px": 6,
+  "IBM Plex Sans Var | 12px | 400 | lh 16px | ls 0.32px": 4,
+  "IBM Plex Sans Var | 14px | 400 | lh 20px | ls 0.16px": 3,
+  "IBM Plex Sans Var | 16px | 400 | lh 24px | ls normal": 2,
+  "IBM Plex Sans Var | 20px | 400 | lh 36px | ls normal": 2,
+  "IBM Plex Sans Var | 16px | 400 | lh 22px | ls normal": 1,
+  "IBM Plex Sans Var | 16px | 600 | lh 22px | ls normal": 1,
+  "IBM Plex Sans Var | 14px | 600 | lh 18.0001px | ls 0.16px": 1,
+  "IBM Plex Sans Var | 67.5294px | 300 | lh 79.0094px | ls normal": 1,
+  "IBM Plex Sans Var | 28px | 400 | lh 36.0002px | ls normal": 1,
+  "IBM Plex Sans Var | 14px | 400 | lh 18.0001px | ls 0.16px": 1
+ },
+ "headings": [
+  "H1 Accessibility is a team effort.",
+  "H2 What we offer",
+  "H2 What’s new?",
+  "H2 Need Help?"
+ ],
+ "nav": [
+  {
+   "t": "Skip to main content",
+   "h": "https://www.ibm.com/able/#main-content"
+  },
+  {
+   "t": "IBM \nAccessibility",
+   "h": "https://www.ibm.com/able/"
+  },
+  {
+   "t": "Requirements",
+   "h": "https://www.ibm.com/able/requirements/requirements/"
+  },
+  {
+   "t": "Product Accessibility (ACR/VPAT)",
+   "h": "https://www.ibm.com/able/product_accessibility/"
+  },
+  {
+   "t": "Toolkit license",
+   "h": "https://www.ibm.com/able/toolkit_license/"
+  },
+  {
+   "t": "Submit a GitHub issue",
+   "h": "https://github.com/IBMa/equal-access/issues/new/choose"
+  },
+  {
+   "t": "IBM Accessibility Central",
+   "h": "https://pages.github.ibm.com/IBMa/able/"
+  },
+  {
+   "t": "#accessibility-at-ibm",
+   "h": "https://ibm-studios.slack.com/archives/C036P1CTN"
+  },
+  {
+   "t": "Equal Access Toolkit",
+   "h": "https://www.ibm.com/able/toolkit/"
+  },
+  {
+   "t": "Requirements",
+   "h": "https://www.ibm.com/able/requirements/requirements/"
+  },
+  {
+   "t": "Product Accessibility (ACR/VPAT)",
+   "h": "https://www.ibm.com/able/product_accessibility/"
+  },
+  {
+   "t": "Blog",
+   "h": "https://www.ibm.com/blog/category/accessibility/"
+  },
+  {
+   "t": "Events",
+   "h": "https://www.ibm.com/able/events/"
+  },
+  {
+   "t": "Articles",
+   "h": "https://medium.com/design-ibm/tagged/accessibility"
+  },
+  {
+   "t": "Contact IBM Accessibility",
+   "h": "https://www.ibm.com/able/contact/"
+  },
+  {
+   "t": "Contact IBM",
+   "h": "https://www.ibm.com/planetwide/"
+  },
+  {
+   "t": "Slack IBM Accessibility",
+   "h": "https://ibm-studios.slack.com/archives/C036P1CTN"
+  },
+  {
+   "t": "Privacy",
+   "h": "https://www.ibm.com/privacy"
+  },
+  {
+   "t": "Terms of Use",
+   "h": "https://www.ibm.com/legal"
+  },
+  {
+   "t": "IBM.com",
+   "h": "https://www.ibm.com/"
+  }
+ ],
+ "fullHeight": 2526
+}

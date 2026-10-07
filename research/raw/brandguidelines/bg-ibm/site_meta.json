@@ -1,0 +1,38 @@
+{
+ "requested": "https://www.ibm.com/design/language/",
+ "final": "https://www.ibm.com/design/language/illustration/overview/",
+ "title": "IBM Design Language",
+ "subpages": [
+  {
+   "href": "https://www.ibm.com/able/",
+   "t": "IBM Accessibility",
+   "ok": true
+  },
+  {
+   "href": "https://www.ibm.com/design/language/color",
+   "t": "Color",
+   "ok": true
+  },
+  {
+   "href": "https://www.ibm.com/design/language/2x-grid",
+   "t": "2x Grid",
+   "ok": true
+  },
+  {
+   "href": "https://www.ibm.com/design/language/typography/typeface",
+   "t": "Typeface",
+   "ok": true
+  },
+  {
+   "href": "https://www.ibm.com/design/language/photography/overview",
+   "t": "Photography",
+   "ok": true
+  },
+  {
+   "href": "https://www.ibm.com/design/language/illustration/overview",
+   "t": "Illustration",
+   "ok": true
+  }
+ ],
+ "cssFiles": 7
+}

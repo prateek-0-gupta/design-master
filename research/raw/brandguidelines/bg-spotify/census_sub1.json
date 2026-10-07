@@ -1,0 +1,715 @@
+{
+ "url": "https://developer.spotify.com/documentation/accessibility",
+ "title": "Accessibility Guidelines | Spotify for Developers",
+ "scrollHeight": 9095,
+ "customProperties": {
+  "--encore-overlay-drop-shadow": "0 4px 6px #0000004d",
+  "--essential-announcement": "#0d72ea",
+  "--encore-control-size-larger": "56px",
+  "--encore-layout-margin-tighter": "24px",
+  "--text-negative": "#c91123",
+  "--background-base": "#fff",
+  "--encore-text-size-smaller-2": "0.75rem",
+  "--background-elevated-press": "#e7e7e7",
+  "--encore-graphic-size-informative-smaller": "1rem",
+  "--encore-text-size-larger-3": "3rem",
+  "--encore-title-font-stack": "SpotifyMixUITitle,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,sans-serif",
+  "--encore-shortest-1": "50ms",
+  "--background-elevated-highlight": "#f5f5f5",
+  "--encore-text-size-larger-5": "6rem",
+  "--encore-spacing-looser-4": "64px",
+  "--encore-shortest-4": "200ms",
+  "--encore-productive-accelerate": "cubic-bezier(0.8,0,1,1)",
+  "--encore-layout-margin-looser": "64px",
+  "--encore-corner-radius-larger-2": "8px",
+  "--encore-graphic-size-decorative-smaller-2": "12px",
+  "--encore-text-size-base": "1rem",
+  "--encore-graphic-size-informative-smaller-2": "0.75rem",
+  "--encore-sidebar-base-width": "200px",
+  "--encore-graphic-size-decorative-larger-5": "88px",
+  "--encore-shortest-3": "150ms",
+  "--encore-body-font-stack": "SpotifyMixUI,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,sans-serif",
+  "--encore-spacing-looser-6": "128px",
+  "--decorative-subdued": "#dedede",
+  "--encore-border-width-focus": "2px",
+  "--background-press": "#e2e2e2",
+  "--encore-border-width-thick": "4px",
+  "--encore-border-radius-rounded": "9999px",
+  "--encore-graphic-size-decorative-larger-3": "48px",
+  "--essential-base": "#000",
+  "--encore-graphic-size-decorative-larger": "32px",
+  "--essential-positive": "#159542",
+  "--encore-border-width-hairline": "1px",
+  "--encore-corner-radius-larger": "6px",
+  "--essential-subdued": "#818181",
+  "--encore-opacity-disabled": "0.3",
+  "--text-subdued": "#656565",
+  "--background-highlight": "#f5f5f5",
+  "--encore-border-width-thin": "2px",
+  "--encore-spacing-tighter-5": "2px",
+  "--encore-variable-font-stack": "SpotifyMixUITitleVariable,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,sans-serif",
+  "--encore-graphic-size-decorative-larger-2": "40px",
+  "--encore-opacity-active": "0.7",
+  "--encore-productive-exit-duration": "200ms",
+  "--encore-spacing-looser-5": "96px",
+  "--encore-spacing-tighter-2": "8px",
+  "--encore-corner-radius-base": "4px",
+  "--encore-z-index-popover": "1060",
+  "--encore-graphic-size-informative-larger-2": "2.5rem",
+  "--text-warning": "#955500",
+  "--encore-layout-margin-base": "32px",
+  "--encore-overlay-box-shadow": "0 4px 12px 0 #0000004d",
+  "--encore-short-1": "250ms",
+  "--encore-spacing-looser-2": "32px",
+  "--encore-z-index-dialog": "1050",
+  "--essential-warning": "#bf6d00",
+  "--encore-text-size-larger-4": "4rem",
+  "--encore-z-index-skiplink": "9999",
+  "--decorative-base": "#000",
+  "--encore-button-hover-scale": "1.04",
+  "--text-positive": "#107434",
+  "--encore-short-2": "300ms",
+  "--encore-bodyMono-font-stack": "SpotifyMixMono,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,monospace",
+  "--encore-text-size-large": "1.25rem",
+  "--encore-graphic-size-informative-larger-3": "3rem",
+  "--encore-graphic-size-informative-larger-4": "4rem",
+  "--background-tinted-press": "#00000030",
+  "--encore-productive-decelerate": "cubic-bezier(0,0,0.2,1)",
+  "--text-announcement": "#0b62c8",
+  "--encore-control-size-base": "48px",
+  "--encore-productive-exit": "200ms cubic-bezier(0.8,0,1,1)",
+  "--encore-corner-radius-smaller": "2px",
+  "--encore-focus-box-shadow": "0 3px 0 0",
+  "--encore-spacing-tighter-4": "4px",
+  "--encore-control-size-smaller": "32px",
+  "--encore-graphic-size-informative-larger": "2rem",
+  "--background-elevated-base": "#fff",
+  "--background-tinted-highlight": "#0000001f",
+  "--encore-text-size-larger-2": "2rem",
+  "--encore-graphic-size-decorative-smaller": "16px",
+  "--encore-graphic-size-decorative-base": "24px",
+  "--background-tinted-base": "#00000014",
+  "--encore-spacing-looser": "24px",
+  "--encore-productive": "cubic-bezier(0.3,0,0,1)",
+  "--encore-text-size-larger": "1.5rem",
+  "--encore-corner-radius-larger-3": "16px",
+  "--essential-negative": "#e91429",
+  "--encore-shortest-2": "100ms",
+  "--encore-graphic-size-informative-base": "1.5rem",
+  "--encore-graphic-size-decorative-larger-4": "64px",
+  "--text-bright-accent": "#4100f4",
+  "--encore-spacing-tighter": "12px",
+  "--encore-spacing-looser-3": "48px",
+  "--essential-bright-accent": "#4100f4",
+  "--encore-spacing-base": "16px",
+  "--encore-border-width-thicker": "8px",
+  "--encore-productive-enter": "250ms cubic-bezier(0,0,0.2,1)",
+  "--encore-graphic-size-informative-larger-5": "5.5rem",
+  "--encore-spacing-tighter-3": "6px",
+  "--text-base": "#000",
+  "--encore-text-size-smaller": "0.875rem",
+  "--encore-text-size-smaller-3": "0.625rem"
+ },
+ "loadedFonts": [
+  "SpotifyMixUI 700 normal",
+  "SpotifyMixUI 400 normal",
+  "SpotifyMixUITitle 700 normal"
+ ],
+ "fontFamily": {
+  "SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif": 179,
+  "SpotifyMixUITitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif": 22,
+  "monospace": 14
+ },
+ "fontSize": {
+  "16px": 182,
+  "24px": 18,
+  "14px": 8,
+  "32px": 4,
+  "21.28px": 2,
+  "48px": 1
+ },
+ "fontWeight": {
+  "400": 155,
+  "700": 60
+ },
+ "lineHeight": {
+  "normal": 215
+ },
+ "letterSpacing": {
+  "normal": 215
+ },
+ "textColor": {
+  "rgb(0, 0, 0)": 137,
+  "rgb(140, 32, 223)": 39,
+  "rgb(147, 147, 147)": 23,
+  "rgb(24, 24, 24)": 9,
+  "rgb(40, 40, 40)": 4,
+  "rgb(255, 255, 255)": 2,
+  "rgb(203, 245, 92)": 1
+ },
+ "bg": {
+  "rgba(64, 0, 115, 0.08)": 8,
+  "rgb(0, 0, 0)": 2,
+  "rgb(64, 0, 115)": 1,
+  "rgba(64, 0, 115, 0.07)": 1
+ },
+ "radius": {
+  "16px": 4,
+  "17px": 2,
+  "28px": 2,
+  "9999px": 1
+ },
+ "shadow": {},
+ "transition": {
+  "color 0.15s cubic-bezier(0.3, 0, 0, 1)": 59,
+  "outline-color 0.2s ease-in": 6,
+  "color, outline-color 0.2s, 0.2s linear, ease-in": 2,
+  "color, transform 0.15s cubic-bezier(0.3, 0, 0, 1)": 1
+ },
+ "border": {},
+ "textTransform": {
+  "none": 211,
+  "uppercase": 4
+ },
+ "typePairs": {
+  "SpotifyMixUI | 16px | 400 | lh normal | ls normal": 137,
+  "SpotifyMixUI | 16px | 700 | lh normal | ls normal": 31,
+  "SpotifyMixUITitle | 24px | 700 | lh normal | ls normal": 17,
+  "monospace | 16px | 400 | lh normal | ls normal": 14,
+  "SpotifyMixUI | 14px | 700 | lh normal | ls normal": 5,
+  "SpotifyMixUITitle | 32px | 700 | lh normal | ls normal": 4,
+  "SpotifyMixUI | 14px | 400 | lh normal | ls normal": 3,
+  "SpotifyMixUI | 21.28px | 700 | lh normal | ls normal": 1,
+  "SpotifyMixUI | 21.28px | 400 | lh normal | ls normal": 1,
+  "SpotifyMixUITitle | 48px | 700 | lh normal | ls normal": 1,
+  "SpotifyMixUI | 24px | 700 | lh normal | ls normal": 1
+ },
+ "headings": [
+  "H1 Accessibility Guidelines",
+  "H2 Introduction",
+  "H3 What is Accessibility?",
+  "H3 Accessibility in the Software Development Lifecycle",
+  "H3 How to Use this Guide",
+  "H2 Quick Wins",
+  "H3 Alt-text in Images",
+  "H3 Animations",
+  "H3 Buttons",
+  "H3 Color Contrast",
+  "H3 Headers",
+  "H3 Modality",
+  "H3 Multimodality",
+  "H3 Order of Actions",
+  "H3 Share Buttons",
+  "H2 Medium-term Wins",
+  "H3 Navigation",
+  "H3 Order and Grouping",
+  "H3 Semantics",
+  "H2 Intensive Wins",
+  "H3 Master Assistive Technologies",
+  "H3 Master States in Accessibility",
+  "H2 Footer",
+  "H3 DOCUMENTATION",
+  "H3 GUIDELINES",
+  "H3 COMMUNITY",
+  "H3 LEGAL"
+ ],
+ "nav": [
+  {
+   "t": "Skip to content",
+   "h": "https://developer.spotify.com/documentation/accessibility#main"
+  },
+  {
+   "t": "Web API",
+   "h": "https://developer.spotify.com/documentation/web-api"
+  },
+  {
+   "t": "Web Playback SDK",
+   "h": "https://developer.spotify.com/documentation/web-playback-sdk"
+  },
+  {
+   "t": "Ads API",
+   "h": "https://developer.spotify.com/documentation/ads-api"
+  },
+  {
+   "t": "iOS",
+   "h": "https://developer.spotify.com/documentation/ios"
+  },
+  {
+   "t": "Android",
+   "h": "https://developer.spotify.com/documentation/android"
+  },
+  {
+   "t": "Embeds",
+   "h": "https://developer.spotify.com/documentation/embeds"
+  },
+  {
+   "t": "Commercial Hardware",
+   "h": "https://developer.spotify.com/documentation/commercial-hardware"
+  },
+  {
+   "t": "Open Access",
+   "h": "https://developer.spotify.com/documentation/open-access"
+  },
+  {
+   "t": "Spotify Soloist",
+   "h": "https://developer.spotify.com/documentation/soloist"
+  },
+  {
+   "t": "Design",
+   "h": "https://developer.spotify.com/documentation/design"
+  },
+  {
+   "t": "Accessibility",
+   "h": "https://developer.spotify.com/documentation/accessibility"
+  },
+  {
+   "t": "Legal",
+   "h": "https://developer.spotify.com/terms"
+  },
+  {
+   "t": "Community",
+   "h": "https://developer.spotify.com/community"
+  },
+  {
+   "t": "Web API",
+   "h": "https://developer.spotify.com/documentation/web-api"
+  },
+  {
+   "t": "Web Playback SDK",
+   "h": "https://developer.spotify.com/documentation/web-playback-sdk"
+  },
+  {
+   "t": "Ads API",
+   "h": "https://developer.spotify.com/documentation/ads-api"
+  },
+  {
+   "t": "iOS",
+   "h": "https://developer.spotify.com/documentation/ios"
+  },
+  {
+   "t": "Android",
+   "h": "https://developer.spotify.com/documentation/android"
+  },
+  {
+   "t": "Embeds",
+   "h": "https://developer.spotify.com/documentation/embeds"
+  },
+  {
+   "t": "Commercial Hardware",
+   "h": "https://developer.spotify.com/documentation/commercial-hardware"
+  },
+  {
+   "t": "Open Access",
+   "h": "https://developer.spotify.com/documentation/open-access"
+  },
+  {
+   "t": "Spotify Soloist",
+   "h": "https://developer.spotify.com/documentation/soloist"
+  },
+  {
+   "t": "Design",
+   "h": "https://developer.spotify.com/documentation/design"
+  },
+  {
+   "t": "Accessibility",
+   "h": "https://developer.spotify.com/documentation/accessibility"
+  },
+  {
+   "t": "Legal",
+   "h": "https://developer.spotify.com/terms"
+  },
+  {
+   "t": "Community",
+   "h": "https://developer.spotify.com/community"
+  },
+  {
+   "t": "Introduction",
+   "h": "https://developer.spotify.com/documentation/accessibility#introduction"
+  },
+  {
+   "t": "What is Accessibility?",
+   "h": "https://developer.spotify.com/documentation/accessibility#what-is-accessibility"
+  },
+  {
+   "t": "Accessibility in the SDLC",
+   "h": "https://developer.spotify.com/documentation/accessibility#accessibility-in-the-software-development-lifecycle"
+  },
+  {
+   "t": "How to Use This Guide",
+   "h": "https://developer.spotify.com/documentation/accessibility#how-to-use-this-guide"
+  },
+  {
+   "t": "Quick Wins",
+   "h": "https://developer.spotify.com/documentation/accessibility#quick-wins"
+  },
+  {
+   "t": "Alt-text in Images",
+   "h": "https://developer.spotify.com/documentation/accessibility#alt-text-in-images"
+  },
+  {
+   "t": "Animations",
+   "h": "https://developer.spotify.com/documentation/accessibility#animations"
+  },
+  {
+   "t": "Buttons",
+   "h": "https://developer.spotify.com/documentation/accessibility#buttons"
+  },
+  {
+   "t": "Color Contrast",
+   "h": "https://developer.spotify.com/documentation/accessibility#color-contrast"
+  },
+  {
+   "t": "Headers",
+   "h": "https://developer.spotify.com/documentation/accessibility#headers"
+  },
+  {
+   "t": "Modality",
+   "h": "https://developer.spotify.com/documentation/accessibility#modality"
+  },
+  {
+   "t": "Multimodality",
+   "h": "https://developer.spotify.com/documentation/accessibility#multimodality"
+  },
+  {
+   "t": "Order of Actions",
+   "h": "https://developer.spotify.com/documentation/accessibility#order-of-actions"
+  },
+  {
+   "t": "Share Buttons",
+   "h": "https://developer.spotify.com/documentation/accessibility#share-buttons"
+  },
+  {
+   "t": "Medium Term Wins",
+   "h": "https://developer.spotify.com/documentation/accessibility#medium-term-wins"
+  },
+  {
+   "t": "Navigation",
+   "h": "https://developer.spotify.com/documentation/accessibility#navigation"
+  },
+  {
+   "t": "Order and Grouping",
+   "h": "https://developer.spotify.com/documentation/accessibility#order-and-grouping"
+  },
+  {
+   "t": "Semantics",
+   "h": "https://developer.spotify.com/documentation/accessibility#semantics"
+  },
+  {
+   "t": "Intensive Wins",
+   "h": "https://developer.spotify.com/documentation/accessibility#intensive-wins"
+  },
+  {
+   "t": "Master Assistive Technologies",
+   "h": "https://developer.spotify.com/documentation/accessibility#master-assistive-technologies"
+  },
+  {
+   "t": "Master States in Accessibility",
+   "h": "https://developer.spotify.com/documentation/accessibility#master-states-in-accessibility"
+  },
+  {
+   "t": "Introduction",
+   "h": "https://developer.spotify.com/documentation/accessibility#introduction"
+  },
+  {
+   "t": "What is Accessibility?",
+   "h": "https://developer.spotify.com/documentation/accessibility#what-is-accessibility"
+  },
+  {
+   "t": "Accessibility in the SDLC",
+   "h": "https://developer.spotify.com/documentation/accessibility#accessibility-in-the-software-development-lifecycle"
+  },
+  {
+   "t": "How to Use This Guide",
+   "h": "https://developer.spotify.com/documentation/accessibility#how-to-use-this-guide"
+  },
+  {
+   "t": "Quick Wins",
+   "h": "https://developer.spotify.com/documentation/accessibility#quick-wins"
+  },
+  {
+   "t": "Alt-text in Images",
+   "h": "https://developer.spotify.com/documentation/accessibility#alt-text-in-images"
+  },
+  {
+   "t": "Animations",
+   "h": "https://developer.spotify.com/documentation/accessibility#animations"
+  },
+  {
+   "t": "Buttons",
+   "h": "https://developer.spotify.com/documentation/accessibility#buttons"
+  },
+  {
+   "t": "Color Contrast",
+   "h": "https://developer.spotify.com/documentation/accessibility#color-contrast"
+  },
+  {
+   "t": "Headers",
+   "h": "https://developer.spotify.com/documentation/accessibility#headers"
+  },
+  {
+   "t": "Modality",
+   "h": "https://developer.spotify.com/documentation/accessibility#modality"
+  },
+  {
+   "t": "Multimodality",
+   "h": "https://developer.spotify.com/documentation/accessibility#multimodality"
+  },
+  {
+   "t": "Order of Actions",
+   "h": "https://developer.spotify.com/documentation/accessibility#order-of-actions"
+  },
+  {
+   "t": "Share Buttons",
+   "h": "https://developer.spotify.com/documentation/accessibility#share-buttons"
+  },
+  {
+   "t": "Medium Term Wins",
+   "h": "https://developer.spotify.com/documentation/accessibility#medium-term-wins"
+  },
+  {
+   "t": "Navigation",
+   "h": "https://developer.spotify.com/documentation/accessibility#navigation"
+  },
+  {
+   "t": "Order and Grouping",
+   "h": "https://developer.spotify.com/documentation/accessibility#order-and-grouping"
+  },
+  {
+   "t": "Semantics",
+   "h": "https://developer.spotify.com/documentation/accessibility#semantics"
+  },
+  {
+   "t": "Intensive Wins",
+   "h": "https://developer.spotify.com/documentation/accessibility#intensive-wins"
+  },
+  {
+   "t": "Master Assistive Technologies",
+   "h": "https://developer.spotify.com/documentation/accessibility#master-assistive-technologies"
+  },
+  {
+   "t": "Master States in Accessibility",
+   "h": "https://developer.spotify.com/documentation/accessibility#master-states-in-accessibility"
+  },
+  {
+   "t": "product a11y is now a core focus for Spotify",
+   "h": "https://newsroom.spotify.com/2021-12-03/spotify-joins-the-valuable-500-with-a-commitment-to-disability-inclusion/"
+  },
+  {
+   "t": "The WCAG map by Intopia",
+   "h": "https://intopia.digital/wp-content/uploads/2019/10/2019-WCAG2.1-Map-Intopia-plus-reading-order.pdf"
+  },
+  {
+   "t": "Play for All Guidelines",
+   "h": "https://www.worldcat.org/title/27241984"
+  },
+  {
+   "t": "The Inclusive City",
+   "h": "https://www.worldcat.org/title/61247468"
+  },
+  {
+   "t": "Fundamentals of A11y resource",
+   "h": "https://www.w3.org/WAI/fundamentals/"
+  },
+  {
+   "t": "Jason Dippel’s take on baking accessibility into the early s",
+   "h": "https://medium.com/hootsuite-engineering/building-an-accessible-product-eae6b3f3c2d6"
+  },
+  {
+   "t": "quick wins",
+   "h": "https://developer.spotify.com/documentation/accessibility#quick-wins"
+  },
+  {
+   "t": "medium-term wins",
+   "h": "https://developer.spotify.com/documentation/accessibility#medium-term-wins"
+  },
+  {
+   "t": "intensive wins",
+   "h": "https://developer.spotify.com/documentation/accessibility#intensive-wins"
+  },
+  {
+   "t": "WebAim’s guide to alternative text",
+   "h": "https://webaim.org/techniques/alttext/"
+  },
+  {
+   "t": "W3C’s guide to text-alternatives in images",
+   "h": "https://www.w3.org/WAI/tutorials/images/"
+  },
+  {
+   "t": "recommendation from WCAG",
+   "h": "https://www.w3.org/TR/WCAG21/#three-flashes-or-below-threshold"
+  },
+  {
+   "t": "full control of the animations",
+   "h": "https://www.w3.org/TR/WCAG21/#pause-stop-hide"
+  },
+  {
+   "t": "University of Maryland’s Photosensitive Epilepsy Analysis To",
+   "h": "https://trace.umd.edu/peat/"
+  },
+  {
+   "t": "in iOS the minimum touch target size is 44x44 points",
+   "h": "https://developer.apple.com/design/human-interface-guidelines/foundations/layout/"
+  },
+  {
+   "t": "Accessibility guidelines on links, images and other clickabl",
+   "h": "http://web-accessibility.carnegiemuseums.org/content/buttons/"
+  },
+  {
+   "t": "Share Buttons",
+   "h": "https://developer.spotify.com/documentation/accessibility#share-buttons"
+  },
+  {
+   "t": "this color contrast resource by WebAIM",
+   "h": "https://webaim.org/articles/contrast/"
+  },
+  {
+   "t": "WebAIM’s color contrast checker tool",
+   "h": "https://webaim.org/resources/contrastchecker/"
+  },
+  {
+   "t": "here are guidelines on using the <header> element on the web",
+   "h": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header"
+  },
+  {
+   "t": "Web Accessibility Initiative (WAI) Guide to Headings",
+   "h": "https://www.w3.org/WAI/tutorials/page-structure/headings/"
+  },
+  {
+   "t": "Digitally Accessible Headings by Princeton University",
+   "h": "https://accessibility.princeton.edu/how/content/headings"
+  },
+  {
+   "t": "How to test an alert / modal dialog",
+   "h": "https://www.magentaa11y.com/checklist-native/alert-dialog/"
+  },
+  {
+   "t": "WCAG 2.1 (Level A) 1.4.1 Success Criteria: Use of Color",
+   "h": "https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=141#use-of-color"
+  },
+  {
+   "t": "WebAIM’s guide to contrast and color accessibility",
+   "h": "https://webaim.org/articles/contrast/"
+  },
+  {
+   "t": "images and alt text",
+   "h": "https://developer.spotify.com/documentation/accessibility#alt-text-in-images"
+  },
+  {
+   "t": "color contrast",
+   "h": "https://developer.spotify.com/documentation/accessibility#color-contrast"
+  },
+  {
+   "t": "Accessibility guidelines on links, images and other clickabl",
+   "h": "http://web-accessibility.carnegiemuseums.org/content/buttons/"
+  },
+  {
+   "t": "accessibility quick wins",
+   "h": "https://developer.spotify.com/documentation/accessibility#quick-wins"
+  },
+  {
+   "t": "Order and Grouping section",
+   "h": "https://developer.spotify.com/documentation/accessibility#order-and-grouping"
+  },
+  {
+   "t": "keyboard / no-mouse challenge",
+   "h": "https://nomouse.org/"
+  },
+  {
+   "t": "Principles of improving app accessibility in Android - group",
+   "h": "https://developer.android.com/guide/topics/ui/accessibility/principles#content-groups"
+  },
+  {
+   "t": "and more",
+   "h": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
+  },
+  {
+   "t": "State Descriptions on Android",
+   "h": "https://medium.com/google-developer-experts/state-descriptions-on-android-b2029283871f"
+  },
+  {
+   "t": "quick wins",
+   "h": "https://developer.spotify.com/documentation/accessibility#quick-wins"
+  },
+  {
+   "t": "medium-term wins",
+   "h": "https://developer.spotify.com/documentation/accessibility#medium-term-wins"
+  },
+  {
+   "t": "the Semantics section",
+   "h": "https://developer.spotify.com/documentation/accessibility#semantics"
+  },
+  {
+   "t": "WCAG on states and properties",
+   "h": "https://www.w3.org/TR/wai-aria/#states_and_properties"
+  },
+  {
+   "t": "Web API",
+   "h": "https://developer.spotify.com/documentation/web-api"
+  },
+  {
+   "t": "Web Playback SDK",
+   "h": "https://developer.spotify.com/documentation/web-playback-sdk"
+  },
+  {
+   "t": "Ads API",
+   "h": "https://developer.spotify.com/documentation/ads-api"
+  },
+  {
+   "t": "iOS",
+   "h": "https://developer.spotify.com/documentation/ios"
+  },
+  {
+   "t": "Android",
+   "h": "https://developer.spotify.com/documentation/android"
+  },
+  {
+   "t": "Embeds",
+   "h": "https://developer.spotify.com/documentation/embeds"
+  },
+  {
+   "t": "Commercial Hardware",
+   "h": "https://developer.spotify.com/documentation/commercial-hardware"
+  },
+  {
+   "t": "Design",
+   "h": "https://developer.spotify.com/documentation/design"
+  },
+  {
+   "t": "Accessibility",
+   "h": "https://developer.spotify.com/documentation/accessibility"
+  },
+  {
+   "t": "News",
+   "h": "https://developer.spotify.com/community"
+  },
+  {
+   "t": "Forum",
+   "h": "https://community.spotify.com/t5/Spotify-for-Developers/bd-p/Spotify_Developer"
+  },
+  {
+   "t": "Developer Terms",
+   "h": "https://developer.spotify.com/terms"
+  },
+  {
+   "t": "Developer Policy",
+   "h": "https://developer.spotify.com/policy"
+  },
+  {
+   "t": "Compliance Tips",
+   "h": "https://developer.spotify.com/compliance-tips"
+  },
+  {
+   "t": "Third Party Licenses",
+   "h": "https://developer.spotify.com/third-party-licenses"
+  },
+  {
+   "t": "Legal",
+   "h": "https://www.spotify.com/legal/end-user-agreement/"
+  },
+  {
+   "t": "Cookies",
+   "h": "https://www.spotify.com/legal/cookies-policy/"
+  }
+ ],
+ "fullHeight": 9095
+}

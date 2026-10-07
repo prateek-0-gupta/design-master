@@ -1,0 +1,283 @@
+Brand Guidelines
+Welcome to Lasso
+Thes Brand Guidelines are designed to provide
+relevant, practical insights into how the Lasso
+Brand purpose and strategy can be visually
+articulated.
+
+This document includes all of the elements you
+may need: logos, typefaces, colors and more.
+
+Use this document to inspire, not to limit!
+Brand Overview
+                 1
+Voice and Tone
+•   New Tech
+•   Professional
+•   Trustworthy
+•   Conﬁdent/Competent
+
+
+
+
+Target Audience
+•   Small business under $1M revenue per year
+•   They care about trustworthiness and reputation
+•   They care that the company is the hot new thing
+•   Age: 30-60 years old
+
+
+
+
+Mission
+“Transform medical practices into thriving
+businesses.”
+Logo Overview
+                2
+Logo Overview
+Meet our logo.
+The Lasso logo is a clean, conﬁdent mark made up
+of sharp but friendly geometric forms. It has two
+core elements: the L-graphic and the Lasso
+wordmark. Together they create the Lasso logo.
+Grayscale Logo
+Monocolor Logo
+Mark Construction
+
+
+
+                                  5x
+
+                                       55°
+                          x
+
+
+
+
+                    10x
+
+
+
+
+                                             5x
+
+
+
+
+                              x
+Save Zone
+The safe zone deﬁnes the minimum area
+of clear space around the logo. It must always
+                                                       x/2   x         x/3       2.5x
+be kept free of any type of graphic elements.
+
+
+                                                 x/6
+
+
+                                                                                        x/1.5
+
+
+                                                 x/6
+
+
+
+
+                                                                       x/2   x    x/2
+
+
+
+
+                                                                 x/6
+
+
+
+
+                                                                 x/6
+Logo Lockups
+                                               Horizontal
+Here are the primary logo lockups for Lasso.   Logo Lockup
+The mark and wordmark should primarily
+be locked up horizontally
+
+
+
+
+                                               Stacked       Logo Mark
+                                               Logo Lockup
+Logo Scale
+To maintain clarity and legibility, the Lasso logo
+may not be displayed below the minimum size as
+outlined in this diagram.
+
+
+
+
+                                                     20 px/7 mm
+
+
+
+
+                                                     32 px/11 mm
+
+
+
+
+                                                     20 px/7 mm
+Correct Logo Application
+                                             Primary use       Secondary use
+The Lasso logo should always be reproduced
+from approved artwork.
+
+
+
+
+                                             Alternative use   Alternative use
+
+
+
+
+                                             Alternative use   Alternative use
+Incorrect Logo Usage
+                                             Avoid boxing in logo   Avoid stretching
+The Lasso logo should always be reproduced
+from approved artwork.
+
+
+
+
+                                             Avoid rotating         Avoid using on busy background
+
+
+
+
+                                             Avoid adding strokes   Avoid changing colors
+Color   3
+Primary Color
+The color palette has been carefully selected to
+make a brand stand out in your niche. This is
+modern, bright and works with almost all
+branded materials.
+
+
+
+
+                                                   Soft Violet
+                                                   HEX
+                                                   #915FF2
+                                                   RGB
+                                                   145 95 242    Light Orange
+                                                   CMYK
+                                                                 HEX
+                                                   54 67 0 0
+                                                                 #FFAE45
+                                                   PMS
+                                                                 RGB
+                                                   265 C
+                                                                 255 174 69
+                                                                 CMYK
+                                                                 0 37 82 0
+                                                                 PMS            Very Dark Violet
+                                                                 1365 CP
+                                                                                HEX
+                                                                                #2A1468
+                                                                                RGB
+                                                                                42 20 104
+                                                                                CMYK
+                                                                                99 98 0 35
+                                                                                PMS
+                                                                                2755 C
+Color Palette
+                                                      Primary colors
+The color palette is composed of three primary          Soft Violet      Light Orange   Very Dark Violet
+colors: soft violet, light orange, very dark vilet;
+                                                        #915FF2          #FFAE45        #2A1468
+and two secondary colors.
+
+
+
+
+                                                      Secondary colors
+
+                                                        Soft Pink        Dark Violet
+
+                                                        #F9537F          #5833AD
+Color Usage
+The colors should be used wisely within all
+communication materials to reinforce the
+Lasso brand.
+
+
+
+
+                                              60%   30%   10%
+Typography
+             4
+Brand Typeface
+
+
+
+
+Lasso
+Montserrat Semibold
+
+
+
+
+Video-backed marketing
+Montserrat Semibold
+
+
+
+
+Montserrat semibold
+
+
+Aa Bb Cc Dd Ee Ff GG Hh Ii Jj Kk
+Montserrat semibold
+
+
+0123456789
+Montserrat semibold
+
+
+!@#$%^&*(<{[_+-=?/|;:’”.,]}>)
+Secondary Typeface
+
+                     Domine
+                     From the very ﬁrst steps in the design process 'Domine' was designed, tested and
+                     optimized for body text on the web. It shines at 14 and 16 px. And can even be used
+                     as small as 11, 12 or 13px.
+                     Harmless to the eyes when reading long texts.
+                     Domine is a perfect choice for newspapers or magazines websites, where text is
+                     the main focus.
+
+
+
+
+ Aa
+                     Aa Bb Cc Dd Ee Ff Gg Hh Ii
+                     Jj Kk Ll Mm Nn Oo Pp Qq Rr
+                     Ss Tt Uu Vv Ww Xx Yy Zz
+
+                     0123456789
+                     !@#$%^&*(<{[_+-=?/|;:’”.,]}>)
+Video-backed
+marketing
+Establish a Connection. Engage your Audience.
+Grow your Practice. Verify the Results.
+
+
+
+   TALK WITH SALES         TALK WITH SUPPORT
+Brand Elements
+                 5
+Identity Patterns
+The brand patterns was created based on
+logo geometry and can be used on print
+and web applications.
+Identity Collateral
+The brand collateral was created based on
+identity pattern and brand typefaces.
+Made with   for Lasso by Oleg Coada
+

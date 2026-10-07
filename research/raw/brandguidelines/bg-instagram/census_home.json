@@ -1,0 +1,192 @@
+{
+ "url": "https://www.meta.com/brand/resources/instagram/instagram-brand/?utm_source=about-instagram&utm_medium=referral&utm_content=brand-microsite",
+ "title": "Instagram brand assets and guidelines | Meta | Instagram | Brand Resource Center",
+ "scrollHeight": 4209,
+ "customProperties": {},
+ "loadedFonts": [
+  "Facebook Sans 500 normal",
+  "Optimistic 400 normal",
+  "Optimistic 700 normal",
+  "Instagram Squircle Sans 400 normal"
+ ],
+ "fontFamily": {
+  "\"Instagram Squircle Sans\", Helvetica, \"Helvetica Neue\", Arial, sans-serif": 56,
+  "\"Facebook Sans\", Helvetica, \"Helvetica Neue\", Arial, sans-serif": 8,
+  "Helvetica, Arial, sans-serif": 3,
+  "Optimistic, Helvetica, \"Helvetica Neue\", Arial, sans-serif": 1
+ },
+ "fontSize": {
+  "14px": 19,
+  "16px": 14,
+  "19px": 12,
+  "12px": 8,
+  "25px": 5,
+  "18px": 3,
+  "24px": 3,
+  "36px": 2,
+  "60px": 1,
+  "15px": 1
+ },
+ "fontWeight": {
+  "400": 50,
+  "500": 15,
+  "700": 3
+ },
+ "lineHeight": {
+  "20.8px": 12,
+  "28.5px": 12,
+  "23.8px": 11,
+  "19.8px": 8,
+  "21px": 7,
+  "40px": 5,
+  "36px": 3,
+  "20px": 2,
+  "24px": 2,
+  "45px": 2,
+  "72px": 1,
+  "24.12px": 1,
+  "22px": 1,
+  "26px": 1
+ },
+ "letterSpacing": {
+  "normal": 65,
+  "-0.72px": 2,
+  "-1.2px": 1
+ },
+ "textColor": {
+  "rgb(28, 30, 33)": 46,
+  "rgb(0, 0, 0)": 12,
+  "rgb(51, 51, 51)": 5,
+  "rgb(28, 43, 51)": 2,
+  "rgb(101, 103, 107)": 1,
+  "rgb(255, 255, 255)": 1,
+  "rgba(0, 0, 0, 0.4)": 1
+ },
+ "bg": {
+  "rgb(255, 255, 255)": 9,
+  "rgb(0, 0, 0)": 2,
+  "rgba(255, 255, 255, 0.9)": 1
+ },
+ "radius": {
+  "50%": 11
+ },
+ "shadow": {},
+ "transition": {
+  "background 0.33s ease-in-out": 9,
+  "color, opacity 1.5s cubic-bezier(0.14, 1, 0.34, 1)": 6,
+  "all 0.15s ease-in-out": 3,
+  "border 0.25s ease": 1,
+  "background-size 0.67s cubic-bezier(0.33, 0, 0, 1)": 1,
+  "max-height, opacity 0.3s, 0.67s cubic-bezier(0.33, 0, 0, 1), linear": 1,
+  "right 0.5s ease": 1,
+  "border-color 1.5s cubic-bezier(0.14, 1, 0.34, 1)": 1,
+  "background-size 1s cubic-bezier(0.33, 0, 0, 1)": 1,
+  "background 0.48s ease-in-out": 1,
+  "color 0.48s ease-in-out": 1
+ },
+ "border": {
+  "1px solid rgb(0, 0, 0)": 10,
+  "1px solid rgba(0, 0, 0, 0.1)": 6,
+  "1px solid rgba(0, 0, 0, 0.2)": 3,
+  "1px solid rgba(196, 196, 196, 0.4)": 1,
+  "1px solid rgb(153, 153, 153)": 1
+ },
+ "textTransform": {
+  "none": 68
+ },
+ "typePairs": {
+  "Instagram Squircle Sans | 16px | 400 | lh 20.8px | ls normal": 12,
+  "Instagram Squircle Sans | 19px | 400 | lh 28.5px | ls normal": 12,
+  "Instagram Squircle Sans | 14px | 400 | lh 23.8px | ls normal": 11,
+  "Instagram Squircle Sans | 12px | 500 | lh 19.8px | ls normal": 8,
+  "Facebook Sans | 14px | 400 | lh 21px | ls normal": 6,
+  "Instagram Squircle Sans | 25px | 500 | lh 40px | ls normal": 5,
+  "Instagram Squircle Sans | 24px | 400 | lh 36px | ls normal": 3,
+  "Instagram Squircle Sans | 36px | 400 | lh 45px | ls -0.72px": 2,
+  "Optimistic | 16px | 700 | lh 20px | ls normal": 1,
+  "Instagram Squircle Sans | 14px | 500 | lh 20px | ls normal": 1,
+  "Instagram Squircle Sans | 18px | 500 | lh 24px | ls normal": 1,
+  "Instagram Squircle Sans | 60px | 400 | lh 72px | ls -1.2px": 1,
+  "Helvetica | 18px | 700 | lh 21px | ls normal": 1,
+  "Helvetica | 16px | 400 | lh 24px | ls normal": 1,
+  "Helvetica | 18px | 700 | lh 24.12px | ls normal": 1,
+  "Facebook Sans | 14px | 400 | lh 22px | ls normal": 1,
+  "Facebook Sans | 15px | 400 | lh 26px | ls normal": 1
+ },
+ "headings": [
+  "H1 Instagram brand assets and guidelines",
+  "H2 Brand guidelines and assets",
+  "H2 Using the Instagram brand"
+ ],
+ "nav": [
+  {
+   "t": "Instagram brand assets and guidelines",
+   "h": "https://www.meta.com/brand/resources/instagram/instagram-brand/"
+  },
+  {
+   "t": "Brand Resource Center home",
+   "h": "https://www.meta.com/brand/resources/"
+  },
+  {
+   "t": "Meta",
+   "h": "https://www.meta.com/brand/resources/meta/company-brand/"
+  },
+  {
+   "t": "Facebook",
+   "h": "https://www.meta.com/brand/resources/facebook/logo/"
+  },
+  {
+   "t": "Instagram",
+   "h": "https://www.meta.com/brand/resources/instagram/instagram-brand/"
+  },
+  {
+   "t": "WhatsApp",
+   "h": "https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/"
+  },
+  {
+   "t": "Threads",
+   "h": "https://www.meta.com/brand/resources/threads/"
+  },
+  {
+   "t": "Brand Elements section",
+   "h": "https://www.facebook.com/brand/resources/instagram/icons"
+  },
+  {
+   "t": "here",
+   "h": "https://www.meta.com/brand/resources/facebookcompany/our-trademarks/"
+  },
+  {
+   "t": "Terms of Service",
+   "h": "https://www.facebook.com/terms.php"
+  },
+  {
+   "t": "Community Standards",
+   "h": "https://www.facebook.com/communitystandards/"
+  },
+  {
+   "t": "About",
+   "h": "https://www.meta.com/about/"
+  },
+  {
+   "t": "Terms",
+   "h": "https://www.facebook.com/policies"
+  },
+  {
+   "t": "Help",
+   "h": "https://www.facebook.com/help"
+  },
+  {
+   "t": "Our trademarks",
+   "h": "https://www.facebook.com/brand/resources/facebookcompany/our-trademarks"
+  },
+  {
+   "t": "Privacy",
+   "h": "https://www.facebook.com/privacy/explanation"
+  },
+  {
+   "t": "Cookies",
+   "h": "https://www.facebook.com/policies/cookies/"
+  }
+ ],
+ "fullHeight": 4209
+}

@@ -1,0 +1,38 @@
+{
+ "requested": "https://about.instagram.com/brand/",
+ "final": "https://www.meta.com/brand/resources/threads/",
+ "title": "Instagram brand assets and guidelines | Meta | Instagram | Brand Resource Center",
+ "subpages": [
+  {
+   "href": "https://www.meta.com/brand/resources/instagram/instagram-brand/",
+   "t": "Instagram brand assets and guidelines",
+   "ok": true
+  },
+  {
+   "href": "https://www.meta.com/brand/resources/",
+   "t": "Brand Resource Center home",
+   "ok": true
+  },
+  {
+   "href": "https://www.meta.com/brand/resources/meta/company-brand/",
+   "t": "Meta",
+   "ok": true
+  },
+  {
+   "href": "https://www.meta.com/brand/resources/facebook/logo/",
+   "t": "Facebook",
+   "ok": true
+  },
+  {
+   "href": "https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/",
+   "t": "WhatsApp",
+   "ok": true
+  },
+  {
+   "href": "https://www.meta.com/brand/resources/threads/",
+   "t": "Threads",
+   "ok": true
+  }
+ ],
+ "cssFiles": 61
+}

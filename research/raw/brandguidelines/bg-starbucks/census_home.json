@@ -1,0 +1,140 @@
+{
+ "url": "https://web.archive.org/web/20260103202031if_/https://creative.starbucks.com/",
+ "title": "Starbucks Creative Expression",
+ "scrollHeight": 2333,
+ "customProperties": {
+  "--wm-toolbar-height": "65px"
+ },
+ "loadedFonts": [
+  "SODO Sans 300 normal",
+  "SODO Sans 400 normal",
+  "SODO Sans 600 normal"
+ ],
+ "fontFamily": {
+  "\"SODO Sans\", system-ui, BlinkMacSystemFont, -apple-system, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif": 20
+ },
+ "fontSize": {
+  "15px": 10,
+  "14px": 3,
+  "29px": 3,
+  "12px": 2,
+  "72px": 1,
+  "16px": 1
+ },
+ "fontWeight": {
+  "300": 6,
+  "400": 11,
+  "600": 3
+ },
+ "lineHeight": {
+  "19.5px": 10,
+  "21px": 3,
+  "49px": 3,
+  "18.2px": 2,
+  "79.92px": 1,
+  "24px": 1
+ },
+ "letterSpacing": {
+  "0.375px": 10,
+  "normal": 6,
+  "2.45px": 3,
+  "0.72px": 1
+ },
+ "textColor": {
+  "rgb(34, 41, 47)": 16,
+  "rgb(255, 255, 255)": 4
+ },
+ "bg": {
+  "rgb(255, 255, 255)": 3,
+  "rgb(212, 233, 226)": 2,
+  "rgb(242, 240, 235)": 1,
+  "rgb(30, 57, 50)": 1
+ },
+ "radius": {},
+ "shadow": {},
+ "transition": {
+  "transform, -webkit-transform 0.15s, 0.15s ease, ease": 9,
+  "opacity, transform, -webkit-transform 1s, 0.3s, 0.3s ease, ease, ease": 5,
+  "width 0.3s ease": 4,
+  "background 0.3s ease": 3,
+  "opacity 0.3s ease": 2,
+  "left 0.3s ease": 1,
+  "opacity, transform, -webkit-transform 0.3s, 0.3s, 0.3s ease, ease, ease": 1,
+  "height 0.3s ease": 1,
+  "opacity, margin, letter-spacing 0.3s, 0.3s, 0.3s ease, ease, ease": 1
+ },
+ "border": {
+  "1px solid rgb(34, 41, 47)": 2
+ },
+ "textTransform": {
+  "none": 17,
+  "uppercase": 3
+ },
+ "typePairs": {
+  "SODO Sans | 15px | 400 | lh 19.5px | ls 0.375px": 10,
+  "SODO Sans | 29px | 300 | lh 49px | ls normal": 3,
+  "SODO Sans | 14px | 600 | lh 18.2px | ls 2.45px": 2,
+  "SODO Sans | 12px | 300 | lh 21px | ls normal": 2,
+  "SODO Sans | 72px | 400 | lh 79.92px | ls 0.72px": 1,
+  "SODO Sans | 16px | 300 | lh 24px | ls normal": 1,
+  "SODO Sans | 14px | 600 | lh 21px | ls 2.45px": 1
+ },
+ "headings": [
+  "H1 Our new\nexpression."
+ ],
+ "nav": [
+  {
+   "t": "Theory",
+   "h": "https://creative.starbucks.com/theory/"
+  },
+  {
+   "t": "Case Studies",
+   "h": "https://creative.starbucks.com/case-studies/"
+  },
+  {
+   "t": "Logos",
+   "h": "https://creative.starbucks.com/logos/"
+  },
+  {
+   "t": "Color",
+   "h": "https://creative.starbucks.com/color/"
+  },
+  {
+   "t": "Voice",
+   "h": "https://creative.starbucks.com/voice/"
+  },
+  {
+   "t": "Typography",
+   "h": "https://creative.starbucks.com/typography/"
+  },
+  {
+   "t": "Illustration",
+   "h": "https://creative.starbucks.com/illustration/"
+  },
+  {
+   "t": "Photography",
+   "h": "https://creative.starbucks.com/photography/"
+  },
+  {
+   "t": "CLOSE",
+   "h": "https://creative.starbucks.com/#"
+  },
+  {
+   "t": "upgrade your browser",
+   "h": "http://browsehappy.com/"
+  },
+  {
+   "t": "close",
+   "h": "https://creative.starbucks.com/#"
+  },
+  {
+   "t": "Starbucks Creative Expression",
+   "h": "https://creative.starbucks.com/"
+  },
+  {
+   "t": "Contents",
+   "h": "https://creative.starbucks.com/#"
+  }
+ ],
+ "fullHeight": 2333
+}

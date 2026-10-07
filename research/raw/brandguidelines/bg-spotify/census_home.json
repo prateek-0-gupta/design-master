@@ -1,0 +1,572 @@
+{
+ "url": "https://developer.spotify.com/documentation/design",
+ "title": "Design & Branding Guidelines | Spotify for Developers",
+ "scrollHeight": 17374,
+ "customProperties": {
+  "--encore-overlay-drop-shadow": "0 4px 6px #0000004d",
+  "--essential-announcement": "#0d72ea",
+  "--encore-control-size-larger": "56px",
+  "--encore-layout-margin-tighter": "24px",
+  "--text-negative": "#c91123",
+  "--background-base": "#fff",
+  "--encore-text-size-smaller-2": "0.75rem",
+  "--background-elevated-press": "#e7e7e7",
+  "--encore-graphic-size-informative-smaller": "1rem",
+  "--encore-text-size-larger-3": "3rem",
+  "--encore-title-font-stack": "SpotifyMixUITitle,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,sans-serif",
+  "--encore-shortest-1": "50ms",
+  "--background-elevated-highlight": "#f5f5f5",
+  "--encore-text-size-larger-5": "6rem",
+  "--encore-spacing-looser-4": "64px",
+  "--encore-shortest-4": "200ms",
+  "--encore-productive-accelerate": "cubic-bezier(0.8,0,1,1)",
+  "--encore-layout-margin-looser": "64px",
+  "--encore-corner-radius-larger-2": "8px",
+  "--encore-graphic-size-decorative-smaller-2": "12px",
+  "--encore-text-size-base": "1rem",
+  "--encore-graphic-size-informative-smaller-2": "0.75rem",
+  "--encore-sidebar-base-width": "200px",
+  "--encore-graphic-size-decorative-larger-5": "88px",
+  "--encore-shortest-3": "150ms",
+  "--encore-body-font-stack": "SpotifyMixUI,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,sans-serif",
+  "--encore-spacing-looser-6": "128px",
+  "--decorative-subdued": "#dedede",
+  "--encore-border-width-focus": "2px",
+  "--background-press": "#e2e2e2",
+  "--encore-border-width-thick": "4px",
+  "--encore-border-radius-rounded": "9999px",
+  "--encore-graphic-size-decorative-larger-3": "48px",
+  "--essential-base": "#000",
+  "--encore-graphic-size-decorative-larger": "32px",
+  "--essential-positive": "#159542",
+  "--encore-border-width-hairline": "1px",
+  "--encore-corner-radius-larger": "6px",
+  "--essential-subdued": "#818181",
+  "--encore-opacity-disabled": "0.3",
+  "--text-subdued": "#656565",
+  "--background-highlight": "#f5f5f5",
+  "--encore-border-width-thin": "2px",
+  "--encore-spacing-tighter-5": "2px",
+  "--encore-variable-font-stack": "SpotifyMixUITitleVariable,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,sans-serif",
+  "--encore-graphic-size-decorative-larger-2": "40px",
+  "--encore-opacity-active": "0.7",
+  "--encore-productive-exit-duration": "200ms",
+  "--encore-spacing-looser-5": "96px",
+  "--encore-spacing-tighter-2": "8px",
+  "--encore-corner-radius-base": "4px",
+  "--encore-z-index-popover": "1060",
+  "--encore-graphic-size-informative-larger-2": "2.5rem",
+  "--text-warning": "#955500",
+  "--encore-layout-margin-base": "32px",
+  "--encore-overlay-box-shadow": "0 4px 12px 0 #0000004d",
+  "--encore-short-1": "250ms",
+  "--encore-spacing-looser-2": "32px",
+  "--encore-z-index-dialog": "1050",
+  "--essential-warning": "#bf6d00",
+  "--encore-text-size-larger-4": "4rem",
+  "--encore-z-index-skiplink": "9999",
+  "--decorative-base": "#000",
+  "--encore-button-hover-scale": "1.04",
+  "--text-positive": "#107434",
+  "--encore-short-2": "300ms",
+  "--encore-bodyMono-font-stack": "SpotifyMixMono,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,monospace",
+  "--encore-text-size-large": "1.25rem",
+  "--encore-graphic-size-informative-larger-3": "3rem",
+  "--encore-graphic-size-informative-larger-4": "4rem",
+  "--background-tinted-press": "#00000030",
+  "--encore-productive-decelerate": "cubic-bezier(0,0,0.2,1)",
+  "--text-announcement": "#0b62c8",
+  "--encore-control-size-base": "48px",
+  "--encore-productive-exit": "200ms cubic-bezier(0.8,0,1,1)",
+  "--encore-corner-radius-smaller": "2px",
+  "--encore-focus-box-shadow": "0 3px 0 0",
+  "--encore-spacing-tighter-4": "4px",
+  "--encore-control-size-smaller": "32px",
+  "--encore-graphic-size-informative-larger": "2rem",
+  "--background-elevated-base": "#fff",
+  "--background-tinted-highlight": "#0000001f",
+  "--encore-text-size-larger-2": "2rem",
+  "--encore-graphic-size-decorative-smaller": "16px",
+  "--encore-graphic-size-decorative-base": "24px",
+  "--background-tinted-base": "#00000014",
+  "--encore-spacing-looser": "24px",
+  "--encore-productive": "cubic-bezier(0.3,0,0,1)",
+  "--encore-text-size-larger": "1.5rem",
+  "--encore-corner-radius-larger-3": "16px",
+  "--essential-negative": "#e91429",
+  "--encore-shortest-2": "100ms",
+  "--encore-graphic-size-informative-base": "1.5rem",
+  "--encore-graphic-size-decorative-larger-4": "64px",
+  "--text-bright-accent": "#4100f4",
+  "--encore-spacing-tighter": "12px",
+  "--encore-spacing-looser-3": "48px",
+  "--essential-bright-accent": "#4100f4",
+  "--encore-spacing-base": "16px",
+  "--encore-border-width-thicker": "8px",
+  "--encore-productive-enter": "250ms cubic-bezier(0,0,0.2,1)",
+  "--encore-graphic-size-informative-larger-5": "5.5rem",
+  "--encore-spacing-tighter-3": "6px",
+  "--text-base": "#000",
+  "--encore-text-size-smaller": "0.875rem",
+  "--encore-text-size-smaller-3": "0.625rem"
+ },
+ "loadedFonts": [
+  "SpotifyMixUI 700 normal",
+  "SpotifyMixUI 400 normal",
+  "SpotifyMixUITitle 700 normal"
+ ],
+ "fontFamily": {
+  "SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif": 188,
+  "SpotifyMixUITitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif": 46,
+  "monospace": 1
+ },
+ "fontSize": {
+  "16px": 154,
+  "24px": 34,
+  "14px": 32,
+  "32px": 12,
+  "21.28px": 2,
+  "48px": 1
+ },
+ "fontWeight": {
+  "400": 153,
+  "700": 82
+ },
+ "lineHeight": {
+  "normal": 235
+ },
+ "letterSpacing": {
+  "normal": 235
+ },
+ "textColor": {
+  "rgb(0, 0, 0)": 145,
+  "rgb(147, 147, 147)": 23,
+  "rgb(127, 127, 127)": 20,
+  "rgb(233, 20, 41)": 13,
+  "rgb(24, 24, 24)": 11,
+  "rgb(140, 32, 223)": 11,
+  "rgb(255, 255, 255)": 6,
+  "rgb(30, 215, 96)": 5,
+  "rgb(203, 245, 92)": 1
+ },
+ "bg": {
+  "rgb(64, 0, 115)": 12,
+  "rgb(30, 215, 96)": 5,
+  "rgb(65, 0, 244)": 4,
+  "rgb(0, 0, 0)": 2,
+  "rgb(44, 133, 107)": 2,
+  "rgba(64, 0, 115, 0.07)": 1,
+  "rgb(0, 57, 77)": 1,
+  "rgb(243, 155, 53)": 1,
+  "rgb(253, 101, 64)": 1,
+  "rgb(80, 56, 80)": 1
+ },
+ "radius": {
+  "50%": 11,
+  "9999px": 9,
+  "17px": 2,
+  "28px": 2
+ },
+ "shadow": {},
+ "transition": {
+  "color 0.15s cubic-bezier(0.3, 0, 0, 1)": 27,
+  "outline-color 0.2s ease-in": 13,
+  "background-color, transform 0.15s cubic-bezier(0.3, 0, 0, 1)": 8,
+  "color, outline-color 0.2s, 0.2s linear, ease-in": 2,
+  "color, transform 0.15s cubic-bezier(0.3, 0, 0, 1)": 1
+ },
+ "border": {},
+ "textTransform": {
+  "none": 231,
+  "uppercase": 4
+ },
+ "typePairs": {
+  "SpotifyMixUI | 16px | 400 | lh normal | ls normal": 124,
+  "SpotifyMixUITitle | 24px | 700 | lh normal | ls normal": 33,
+  "SpotifyMixUI | 16px | 700 | lh normal | ls normal": 29,
+  "SpotifyMixUI | 14px | 400 | lh normal | ls normal": 27,
+  "SpotifyMixUITitle | 32px | 700 | lh normal | ls normal": 12,
+  "SpotifyMixUI | 14px | 700 | lh normal | ls normal": 5,
+  "SpotifyMixUI | 21.28px | 700 | lh normal | ls normal": 1,
+  "SpotifyMixUI | 21.28px | 400 | lh normal | ls normal": 1,
+  "SpotifyMixUITitle | 48px | 700 | lh normal | ls normal": 1,
+  "monospace | 16px | 400 | lh normal | ls normal": 1,
+  "SpotifyMixUI | 24px | 700 | lh normal | ls normal": 1
+ },
+ "headings": [
+  "H1 Design & Branding Guidelines",
+  "H2 Introduction",
+  "H2 Attribution",
+  "H3 When does this apply?",
+  "H3 Attribute with the Spotify logo",
+  "H3 Spotify full logo and icon",
+  "H2 Using our content",
+  "H3 When does this apply?",
+  "H3 Follow these guidelines:",
+  "H2 Browsing Spotify content",
+  "H3 When does this apply?",
+  "H3 Follow these guidelines:",
+  "H3 Content provided by Spotify",
+  "H3 How to display provided content",
+  "H2 Linking to Spotify",
+  "H3 When does this apply?",
+  "H3 Using Spotify metadata",
+  "H3 How to link to Spotify",
+  "H2 Playing views",
+  "H3 When does this apply?",
+  "H3 Follow these guidelines:",
+  "H3 Our recommendation:",
+  "H3 Why?",
+  "H3 Handling Spotify Free restricted actions in your companion app",
+  "H3 Upgrade information in Spotify Free",
+  "H3 Handling playback actions for podcasts in your companion app",
+  "H3 Liking a song",
+  "H2 Showing entities",
+  "H3 When does this apply?",
+  "H3 Follow these guidelines",
+  "H3 Displaying explicit content",
+  "H2 Using our logo",
+  "H3 Using the icon",
+  "H3 Using the logo",
+  "H3 Which color logo to use",
+  "H3 Legibility",
+  "H3 Minimum size",
+  "H3 Logo misuse",
+  "H2 Using our colors",
+  "H2 Logo and naming restrictions",
+  "H3 Naming your application",
+  "H3 Your application's logo",
+  "H3 Don't pair brands",
+  "H2 Fonts",
+  "H3 What font to use?",
+  "H2 Thank you!",
+  "H2 Footer",
+  "H3 DOCUMENTATION",
+  "H3 GUIDELINES",
+  "H3 COMMUNITY",
+  "H3 LEGAL"
+ ],
+ "nav": [
+  {
+   "t": "Skip to content",
+   "h": "https://developer.spotify.com/documentation/design#main"
+  },
+  {
+   "t": "Web API",
+   "h": "https://developer.spotify.com/documentation/web-api"
+  },
+  {
+   "t": "Web Playback SDK",
+   "h": "https://developer.spotify.com/documentation/web-playback-sdk"
+  },
+  {
+   "t": "Ads API",
+   "h": "https://developer.spotify.com/documentation/ads-api"
+  },
+  {
+   "t": "iOS",
+   "h": "https://developer.spotify.com/documentation/ios"
+  },
+  {
+   "t": "Android",
+   "h": "https://developer.spotify.com/documentation/android"
+  },
+  {
+   "t": "Embeds",
+   "h": "https://developer.spotify.com/documentation/embeds"
+  },
+  {
+   "t": "Commercial Hardware",
+   "h": "https://developer.spotify.com/documentation/commercial-hardware"
+  },
+  {
+   "t": "Open Access",
+   "h": "https://developer.spotify.com/documentation/open-access"
+  },
+  {
+   "t": "Spotify Soloist",
+   "h": "https://developer.spotify.com/documentation/soloist"
+  },
+  {
+   "t": "Design",
+   "h": "https://developer.spotify.com/documentation/design"
+  },
+  {
+   "t": "Accessibility",
+   "h": "https://developer.spotify.com/documentation/accessibility"
+  },
+  {
+   "t": "Legal",
+   "h": "https://developer.spotify.com/terms"
+  },
+  {
+   "t": "Community",
+   "h": "https://developer.spotify.com/community"
+  },
+  {
+   "t": "Web API",
+   "h": "https://developer.spotify.com/documentation/web-api"
+  },
+  {
+   "t": "Web Playback SDK",
+   "h": "https://developer.spotify.com/documentation/web-playback-sdk"
+  },
+  {
+   "t": "Ads API",
+   "h": "https://developer.spotify.com/documentation/ads-api"
+  },
+  {
+   "t": "iOS",
+   "h": "https://developer.spotify.com/documentation/ios"
+  },
+  {
+   "t": "Android",
+   "h": "https://developer.spotify.com/documentation/android"
+  },
+  {
+   "t": "Embeds",
+   "h": "https://developer.spotify.com/documentation/embeds"
+  },
+  {
+   "t": "Commercial Hardware",
+   "h": "https://developer.spotify.com/documentation/commercial-hardware"
+  },
+  {
+   "t": "Open Access",
+   "h": "https://developer.spotify.com/documentation/open-access"
+  },
+  {
+   "t": "Spotify Soloist",
+   "h": "https://developer.spotify.com/documentation/soloist"
+  },
+  {
+   "t": "Design",
+   "h": "https://developer.spotify.com/documentation/design"
+  },
+  {
+   "t": "Accessibility",
+   "h": "https://developer.spotify.com/documentation/accessibility"
+  },
+  {
+   "t": "Legal",
+   "h": "https://developer.spotify.com/terms"
+  },
+  {
+   "t": "Community",
+   "h": "https://developer.spotify.com/community"
+  },
+  {
+   "t": "Introduction",
+   "h": "https://developer.spotify.com/documentation/design#introduction"
+  },
+  {
+   "t": "Attribution",
+   "h": "https://developer.spotify.com/documentation/design#attribution"
+  },
+  {
+   "t": "Using our content",
+   "h": "https://developer.spotify.com/documentation/design#using-our-content"
+  },
+  {
+   "t": "Browsing Spotify content",
+   "h": "https://developer.spotify.com/documentation/design#browsing-spotify-content"
+  },
+  {
+   "t": "Linking to Spotify",
+   "h": "https://developer.spotify.com/documentation/design#linking-to-spotify"
+  },
+  {
+   "t": "Playing views",
+   "h": "https://developer.spotify.com/documentation/design#playing-views"
+  },
+  {
+   "t": "Showing entities",
+   "h": "https://developer.spotify.com/documentation/design#showing-entities"
+  },
+  {
+   "t": "Using our logo",
+   "h": "https://developer.spotify.com/documentation/design#using-our-logo"
+  },
+  {
+   "t": "Using our colors",
+   "h": "https://developer.spotify.com/documentation/design#using-our-colors"
+  },
+  {
+   "t": "Logos and naming restrictions",
+   "h": "https://developer.spotify.com/documentation/design#logos-and-naming-restrictions"
+  },
+  {
+   "t": "Fonts",
+   "h": "https://developer.spotify.com/documentation/design#fonts"
+  },
+  {
+   "t": "Introduction",
+   "h": "https://developer.spotify.com/documentation/design#introduction"
+  },
+  {
+   "t": "Attribution",
+   "h": "https://developer.spotify.com/documentation/design#attribution"
+  },
+  {
+   "t": "Using our content",
+   "h": "https://developer.spotify.com/documentation/design#using-our-content"
+  },
+  {
+   "t": "Browsing Spotify content",
+   "h": "https://developer.spotify.com/documentation/design#browsing-spotify-content"
+  },
+  {
+   "t": "Linking to Spotify",
+   "h": "https://developer.spotify.com/documentation/design#linking-to-spotify"
+  },
+  {
+   "t": "Playing views",
+   "h": "https://developer.spotify.com/documentation/design#playing-views"
+  },
+  {
+   "t": "Showing entities",
+   "h": "https://developer.spotify.com/documentation/design#showing-entities"
+  },
+  {
+   "t": "Using our logo",
+   "h": "https://developer.spotify.com/documentation/design#using-our-logo"
+  },
+  {
+   "t": "Using our colors",
+   "h": "https://developer.spotify.com/documentation/design#using-our-colors"
+  },
+  {
+   "t": "Logos and naming restrictions",
+   "h": "https://developer.spotify.com/documentation/design#logos-and-naming-restrictions"
+  },
+  {
+   "t": "Fonts",
+   "h": "https://developer.spotify.com/documentation/design#fonts"
+  },
+  {
+   "t": "Developer Terms of Service",
+   "h": "https://developer.spotify.com/terms"
+  },
+  {
+   "t": "Spotify End User Agreement",
+   "h": "https://www.spotify.com/legal/end-user-agreement/"
+  },
+  {
+   "t": "Privacy Policy",
+   "h": "https://www.spotify.com/legal/privacy-policy/"
+  },
+  {
+   "t": "Logo & Color Guidelines",
+   "h": "https://developer.spotify.com/documentation/design#using-our-logo"
+  },
+  {
+   "t": "Spotify's attribution requirements",
+   "h": "https://developer.spotify.com/documentation/design#attribution"
+  },
+  {
+   "t": "Spotify's attribution requirements",
+   "h": "https://developer.spotify.com/documentation/design#attribution"
+  },
+  {
+   "t": "Android Palette",
+   "h": "https://developer.android.com/reference/android/support/v7/graphics/Palette"
+  },
+  {
+   "t": ".svg",
+   "h": "https://developer.spotify.com/images/guidelines/design/like-icon-svg.zip"
+  },
+  {
+   "t": ".png",
+   "h": "https://developer.spotify.com/images/guidelines/design/like-icon-png.zip"
+  },
+  {
+   "t": "Web API",
+   "h": "https://developer.spotify.com/documentation/web-api"
+  },
+  {
+   "t": "Web API reference documentation for more information about t",
+   "h": "https://developer.spotify.com/documentation/web-api/reference/get-track"
+  },
+  {
+   "t": "Download Full Logo",
+   "h": "https://developer.spotify.com/images/guidelines/design/2024-spotify-full-logo.zip"
+  },
+  {
+   "t": "Download Icon",
+   "h": "https://developer.spotify.com/images/guidelines/design/2024-spotify-logo-icon.zip"
+  },
+  {
+   "t": "Dashboard page",
+   "h": "https://developer.spotify.com/dashboard"
+  },
+  {
+   "t": "Web API",
+   "h": "https://developer.spotify.com/documentation/web-api"
+  },
+  {
+   "t": "Web Playback SDK",
+   "h": "https://developer.spotify.com/documentation/web-playback-sdk"
+  },
+  {
+   "t": "Ads API",
+   "h": "https://developer.spotify.com/documentation/ads-api"
+  },
+  {
+   "t": "iOS",
+   "h": "https://developer.spotify.com/documentation/ios"
+  },
+  {
+   "t": "Android",
+   "h": "https://developer.spotify.com/documentation/android"
+  },
+  {
+   "t": "Embeds",
+   "h": "https://developer.spotify.com/documentation/embeds"
+  },
+  {
+   "t": "Commercial Hardware",
+   "h": "https://developer.spotify.com/documentation/commercial-hardware"
+  },
+  {
+   "t": "Design",
+   "h": "https://developer.spotify.com/documentation/design"
+  },
+  {
+   "t": "Accessibility",
+   "h": "https://developer.spotify.com/documentation/accessibility"
+  },
+  {
+   "t": "News",
+   "h": "https://developer.spotify.com/community"
+  },
+  {
+   "t": "Forum",
+   "h": "https://community.spotify.com/t5/Spotify-for-Developers/bd-p/Spotify_Developer"
+  },
+  {
+   "t": "Developer Terms",
+   "h": "https://developer.spotify.com/terms"
+  },
+  {
+   "t": "Developer Policy",
+   "h": "https://developer.spotify.com/policy"
+  },
+  {
+   "t": "Compliance Tips",
+   "h": "https://developer.spotify.com/compliance-tips"
+  },
+  {
+   "t": "Third Party Licenses",
+   "h": "https://developer.spotify.com/third-party-licenses"
+  },
+  {
+   "t": "Legal",
+   "h": "https://www.spotify.com/legal/end-user-agreement/"
+  },
+  {
+   "t": "Cookies",
+   "h": "https://www.spotify.com/legal/cookies-policy/"
+  }
+ ],
+ "fullHeight": 17374
+}
