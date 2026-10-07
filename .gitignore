@@ -1,0 +1,4 @@
+# Third-party copyrighted material captured for research only
+research/raw/
+node_modules/
+*.log
