@@ -24,17 +24,17 @@ anti_patterns: [template-reuse-across-brands, dim-meta-text-below-aa, cover-imag
 - **Why it's remarkable:** Not remarkable on its own. It is one of three pages (Cobalt, Form, Owire) built from the same template with identical computed styles, so the page is best read as a reusable kit landing rather than a unique identity.
 
 ## 2. Composition & layout
-- **Header:** a 44 px-tall bar with the BrandGuidelines wordmark at x=60 and a nav (About, Resources), a dark "Submit Guidelines" pill and a light/dark toggle at x≈1370.
+- **Header:** a single bar with the BrandGuidelines wordmark at x=60 and a nav (About, Resources), a dark "Submit Guidelines" pill and a light/dark toggle at x≈1370.
 - **Title block:** a centred two-line H1 ("Cobalt / Brand Guideline") at about 52 px, then three grey pills ("Figma", "46 Pages", "Styles").
 - **Hero image:** a 1320 px wide frame (x 60 to 1380, y 422 to 1062, so 640 px tall) with a city photo and the Cobalt logo centred.
 - **Intro:** a centred 40 px statement, two lines, with a 1000 px measure.
-- **Feature pair:** a dark slide-preview card (650 px) beside a teal `#00cdc0` statement card (650 px), both with 24 px radii and 30 px gutters.
+- **Feature pair:** a dark slide-preview card (650 px) beside a teal `#00cdc0` statement card (650 px), both with radii near 24 px and a 20 px gutter.
 - **Overview:** a two-column text block (about 500 px left, 300 px right) with "Highlights" and "Format" lists.
 - **Other guidelines:** two 460 px preview cards (Form and Owire) with a centred H2.
-- **Mobile (390 px):** a single column with about 30 px margins. The hero image becomes a 350 px square.
+- **Mobile (390 px):** a single column with about 30 px margins. The hero image becomes a 350 × 440 px portrait.
 
 ## 3. Typography
-- **Families (census):** Inter carries body and UI (43 uses, plus 500 weight). Switzer carries the display and the H2s (9 uses). Inter Tight appears on the 52 px and 40 px lines (3 uses).
+- **Families (census):** Inter carries body and UI (43 uses, plus 500 weight). Switzer appears on nine tracked display nodes. Inter Tight appears on three nodes, probably the largest display lines.
 - **Scale (census):** 14 px (26 uses), 16 px (14), 13 px (9), 24 px (3), 40 px (2), 52 px (1).
 - **Line heights:** 16.8 px (25 uses) for 14 px, 22.4 px (14) for 16 px, and 62.4 px for 52 px.
 - **Tracking:** `normal` on 46 nodes and `-0.78px` on 9 display nodes, which is about -0.015em at 52 px.
@@ -67,7 +67,7 @@ anti_patterns: [template-reuse-across-brands, dim-meta-text-below-aa, cover-imag
 - Not measurable. The census has no transitions (`transition` is empty), and the page is a static template. No timings are stated.
 
 ## 8. Brand system
-n/a — template page for a sample brand. The sample identity is the Cobalt logo: a six-petal teal asterisk beside a lowercase-leaning wordmark in a clean sans. Its palette is a teal (#00cdc0), a warm yellow (#ffd150), a coral (#ff5a5f in the kit preview), and near-black ink. The footer credit "© 1042 Studio" shows the same kit is sold on the 1042 Studio store (listed there as "Cobalt Brand Guidelines Kit Copy", $30).
+n/a — template page for a sample brand. The sample identity is the Cobalt logo: a teal asterisk-like mark beside a title-case sans wordmark. Its palette is a teal (#00cdc0), a warm yellow (#ffd150), a coral pink (in the kit preview), and near-black ink. The footer credit "© 1042 Studio" shows the same kit is sold on the 1042 Studio store (listed there as "Cobalt Brand Guidelines Kit Copy", $30).
 
 ## 9. UX
 - The hero, the description and the highlight list give a clear sequence. A visitor can see what the kit contains in under two screens.

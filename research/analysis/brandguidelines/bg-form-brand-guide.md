@@ -24,17 +24,17 @@ anti_patterns: [template-reuse-across-brands, dim-meta-text-below-aa, cover-imag
 - **Why it's remarkable:** Its brand colour is the most striking of the three template pages. A saturated violet (#8545f6 and #823feb in the sampled pixels) carries the hero and the preview card, against a plain cool canvas. Otherwise the page is the same template as Cobalt and Owire.
 
 ## 2. Composition & layout
-- **Header:** a 44 px-tall bar with the wordmark at x=60, nav (About, Resources), a dark "Submit Guidelines" pill and a light/dark toggle at x≈1370.
+- **Header:** a single bar with the wordmark at x=60, nav (About, Resources), a dark "Submit Guidelines" pill and a light/dark toggle at x≈1370.
 - **Title block:** a centred two-line H1 ("Form / Brand Guideline") at about 52 px, then three grey pills ("Figma", "40 Pages", "Styles").
 - **Hero image:** a 1320 px wide frame (x 60 to 1380, y 422 to 1062, so 640 px tall) with a portrait of a man in glasses and a white Form logo across the face.
 - **Intro:** a centred 40 px statement over two lines with a 1000 px measure.
-- **Feature pair:** a violet preview card (650 px) beside a violet statement card (650 px), both at 24 px radius with 30 px gutters.
+- **Feature pair:** a violet preview card (650 px) beside a violet statement card (650 px), both at about 24 px radius with a 20 px gutter.
 - **Overview:** the same two-column text block as Cobalt, with the "Highlights" and "Format" lists.
 - **Other guidelines:** two 460 px image cards (Cobalt and Owire).
-- **Mobile (390 px):** a single column. The hero image becomes a 350 px square.
+- **Mobile (390 px):** a single column. The hero image becomes a 350 × 440 px portrait.
 
 ## 3. Typography
-- **Families (census):** identical to Cobalt and Owire. Inter carries body and UI (43 uses), Switzer carries display and H2s (9 uses), and Inter Tight appears on the largest lines (3 uses).
+- **Families (census):** identical to Cobalt and Owire. Inter carries body and UI (43 uses), Switzer appears on nine tracked display nodes, and Inter Tight on three nodes.
 - **Scale (census):** 14 px (26), 16 px (14), 13 px (9), 24 px (3), 40 px (2), 52 px (1).
 - **Line heights:** 16.8 px for 14 px, 22.4 px for 16 px, 62.4 px for 52 px.
 - **Tracking:** `normal` on 46 nodes and `-0.78px` on 9 display nodes (about -0.015em at 52 px).

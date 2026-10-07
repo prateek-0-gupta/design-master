@@ -304,17 +304,17 @@ Raw files live in `research/raw/` (git-ignored, third-party). Sorted view: `rese
 | guideline | bg-audi | 32 | 1 | 1 | 0 | 15 | archived (Wayback) |
 | guideline | bg-bella-nova | 62 | 0 | 0 | 53 | 0 |  |
 | guideline | bg-bolt | 25 | 0 | 0 | 19 | 0 |  |
-| guideline | bg-canva | 9 | 1 | 1 | 0 | 1 | archived (Wayback) |
+| guideline | bg-canva | 13 | 1 | 1 | 0 | 4 | archived (Wayback) |
 | guideline | bg-channel-4 | 14 | 1 | 1 | 0 | 3 |  |
 | guideline | bg-chatham | 26 | 1 | 1 | 0 | 11 |  |
 | guideline | bg-discord | 85 | 0 | 0 | 74 | 0 |  |
-| guideline | bg-dropbox | 10 | 1 | 1 | 0 | 2 | archived (Wayback) |
-| guideline | bg-duolingo | 15 | 1 | 1 | 0 | 5 | archived (Wayback) |
+| guideline | bg-dropbox | 11 | 1 | 1 | 0 | 2 | archived (Wayback) |
+| guideline | bg-duolingo | 16 | 1 | 1 | 0 | 5 | archived (Wayback) |
 | guideline | bg-ebay-playbook | 58 | 1 | 2 | 0 | 36 |  |
 | guideline | bg-edp | 149 | 0 | 0 | 133 | 0 |  |
 | guideline | bg-fiba-women-s-eurobasket | 71 | 0 | 0 | 61 | 0 |  |
-| guideline | bg-firefox | 15 | 1 | 1 | 0 | 3 | archived (Wayback) |
-| guideline | bg-flax-kale | 9 | 1 | 1 | 0 | 1 | archived (Wayback) |
+| guideline | bg-firefox | 34 | 1 | 5 | 0 | 17 | archived (Wayback) |
+| guideline | bg-flax-kale | 10 | 1 | 1 | 0 | 1 | archived (Wayback) |
 | guideline | bg-frame-io | 62 | 0 | 0 | 53 | 0 |  |
 | guideline | bg-freepik | 64 | 1 | 3 | 0 | 41 |  |
 | guideline | bg-help-scout | 44 | 1 | 1 | 0 | 35 |  |
@@ -330,7 +330,7 @@ Raw files live in `research/raw/` (git-ignored, third-party). Sorted view: `rese
 | guideline | bg-make | 21 | 0 | 0 | 15 | 0 |  |
 | guideline | bg-mastercard-foundation | 101 | 0 | 0 | 89 | 0 |  |
 | guideline | bg-miro | 38 | 1 | 1 | 0 | 17 | archived (Wayback) |
-| guideline | bg-mixcloud | 15 | 1 | 2 | 0 | 6 | archived (Wayback) |
+| guideline | bg-mixcloud | 17 | 1 | 2 | 0 | 7 | archived (Wayback) |
 | guideline | bg-monday | 37 | 1 | 1 | 0 | 18 |  |
 | guideline | bg-naseem-al-faihaa | 47 | 0 | 0 | 39 | 0 |  |
 | guideline | bg-new-breed | 52 | 0 | 0 | 44 | 0 |  |
@@ -344,23 +344,23 @@ Raw files live in `research/raw/` (git-ignored, third-party). Sorted view: `rese
 | guideline | bg-seat-geek | 44 | 1 | 1 | 0 | 23 |  |
 | guideline | bg-slack | 59 | 0 | 0 | 50 | 0 |  |
 | guideline | bg-spotify | 29 | 1 | 3 | 0 | 16 |  |
-| guideline | bg-starbucks | 10 | 1 | 1 | 0 | 2 | archived (Wayback) |
+| guideline | bg-starbucks | 11 | 1 | 1 | 0 | 2 | archived (Wayback) |
 | guideline | bg-super-com | 15 | 1 | 1 | 0 | 4 |  |
-| guideline | bg-the-mellon-foundation | 9 | 1 | 1 | 0 | 1 | archived (Wayback) |
+| guideline | bg-the-mellon-foundation | 10 | 1 | 1 | 0 | 1 | archived (Wayback) |
 | guideline | bg-twitch | 25 | 0 | 0 | 19 | 0 |  |
 | guideline | bg-visit-dubai | 60 | 0 | 0 | 51 | 0 |  |
-| guideline | bg-wise | 9 | 1 | 1 | 0 | 1 |  |
-| guideline | bg-wispr | 9 | 1 | 1 | 0 | 1 | archived (Wayback) |
+| guideline | bg-wise | 26 | 1 | 1 | 0 | 17 | archived (Wayback) |
+| guideline | bg-wispr | 10 | 1 | 1 | 0 | 1 | archived (Wayback) |
 | guideline | bg-zipline | 16 | 1 | 1 | 0 | 7 |  |
 | promoted | bg-1042-studio-framer-components | 16 | 1 | 2 | 0 | 6 |  |
 | promoted | bg-framer-wesite-builder | 16 | 1 | 2 | 0 | 6 |  |
 | promoted | bg-ui8 | 12 | 1 | 1 | 0 | 3 |  |
-| template | bg-brand-book-guide | 11 | 1 | 1 | 0 | 3 | archived (Wayback) |
-| template | bg-brand-icons | 9 | 1 | 1 | 0 | 1 |  |
-| template | bg-brand-marketplace-ui-kit | 10 | 1 | 1 | 0 | 1 |  |
-| template | bg-brand-social-media-kit | 9 | 1 | 1 | 0 | 1 |  |
+| template | bg-brand-book-guide | 12 | 1 | 1 | 0 | 3 | archived (Wayback) |
+| template | bg-brand-icons | 12 | 1 | 1 | 0 | 3 | archived (Wayback) |
+| template | bg-brand-marketplace-ui-kit | 12 | 1 | 1 | 0 | 3 | archived (Wayback) |
+| template | bg-brand-social-media-kit | 12 | 1 | 1 | 0 | 3 | archived (Wayback) |
 | template | bg-cobalt-brand-guide | 13 | 1 | 1 | 0 | 4 |  |
 | template | bg-form-brand-guide | 13 | 1 | 1 | 0 | 4 |  |
 | template | bg-owire-brand-guide | 13 | 1 | 1 | 0 | 4 |  |
-| template | bg-radesk-brand-guide | 11 | 1 | 1 | 0 | 3 | archived (Wayback) |
-| template | bg-roleno-framer-brand-guide | 9 | 1 | 1 | 0 | 1 |  |
+| template | bg-radesk-brand-guide | 12 | 1 | 1 | 0 | 3 | archived (Wayback) |
+| template | bg-roleno-framer-brand-guide | 12 | 1 | 1 | 0 | 3 | archived (Wayback) |

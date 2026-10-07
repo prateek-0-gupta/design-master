@@ -1,67 +1,423 @@
 {
- "url": "https://ui8.net/harsh-shah-96f85d/products/roleno---brand-guidelines-template?rel=1042",
- "title": "Just a moment...",
- "scrollHeight": 900,
- "customProperties": {},
- "loadedFonts": [],
+ "url": "https://web.archive.org/web/20250807160918if_/https://ui8.net/harsh-shah-96f85d/products/roleno---brand-guidelines-template",
+ "title": "Roleno - Brand Guidelines Template — No-code Assets on UI8",
+ "scrollHeight": 3641,
+ "customProperties": {
+  "--wm-toolbar-height": "65px"
+ },
+ "loadedFonts": [
+  "CircularXX 400 normal",
+  "CircularXX 450 normal",
+  "CircularXX 500 normal"
+ ],
  "fontFamily": {
-  "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"": 7,
-  "monospace": 1
+  "CircularXX, sans-serif": 133
  },
  "fontSize": {
-  "12px": 5,
-  "40px": 1,
-  "24px": 1,
-  "16px": 1
+  "15px": 44,
+  "16px": 34,
+  "13px": 22,
+  "22px": 9,
+  "28px": 6,
+  "17px": 4,
+  "12px": 3,
+  "64px": 3,
+  "20px": 2,
+  "14px": 2,
+  "18px": 2,
+  "34px": 1,
+  "36px": 1
  },
  "fontWeight": {
-  "400": 6,
-  "600": 2
+  "400": 38,
+  "450": 80,
+  "500": 15
  },
  "lineHeight": {
-  "18px": 5,
-  "50px": 1,
-  "30px": 1,
-  "24px": 1
+  "24px": 31,
+  "20px": 30,
+  "18px": 27,
+  "14px": 22,
+  "40px": 7,
+  "28px": 4,
+  "21px": 4,
+  "22px": 3,
+  "64px": 3,
+  "16px": 1,
+  "48px": 1
  },
  "letterSpacing": {
-  "normal": 8
+  "-0.28px": 130,
+  "normal": 2,
+  "-1px": 1
  },
  "textColor": {
-  "rgb(49, 49, 49)": 6,
-  "rgb(0, 0, 238)": 2
+  "rgb(173, 183, 190)": 74,
+  "rgb(255, 255, 255)": 27,
+  "rgb(45, 104, 255)": 13,
+  "rgb(92, 92, 92)": 12,
+  "rgb(96, 208, 122)": 2,
+  "rgb(0, 166, 86)": 2,
+  "rgba(255, 255, 255, 0.75)": 1,
+  "rgb(77, 77, 77)": 1,
+  "rgb(206, 126, 255)": 1
  },
- "bg": {},
- "radius": {},
- "shadow": {},
- "transition": {},
+ "bg": {
+  "rgb(24, 24, 24)": 14,
+  "rgba(45, 104, 255, 0.15)": 12,
+  "rgb(44, 44, 44)": 8,
+  "rgb(45, 104, 255)": 5,
+  "rgb(29, 28, 30)": 3,
+  "rgb(29, 29, 29)": 2,
+  "rgba(24, 24, 24, 0.96)": 1,
+  "rgb(96, 208, 122)": 1,
+  "rgb(0, 166, 86)": 1,
+  "rgba(24, 24, 24, 0.98)": 1,
+  "rgb(18, 18, 18)": 1
+ },
+ "radius": {
+  "50%": 31,
+  "16px": 15,
+  "11px": 13,
+  "16px 16px 0px 0px": 9,
+  "22px": 8,
+  "24px": 5,
+  "12px": 4,
+  "12px 0px 0px": 4,
+  "0px 0px 16px 16px": 3,
+  "18px": 1,
+  "10px": 1,
+  "40px": 1,
+  "0px 0px 24px 24px": 1,
+  "8px": 1
+ },
+ "shadow": {
+  "rgb(18, 18, 18) 0px 0px 0px 2px": 7,
+  "rgba(0, 0, 0, 0.35) 0px 16px 16px 0px": 1,
+  "rgb(29, 28, 30) 0px 0px 0px 2px": 1
+ },
+ "transition": {
+  "color 0.2s ease": 38,
+  "fill 0.2s ease": 17,
+  "opacity 0.4s ease": 13,
+  "background 0.4s ease": 12,
+  "filter, -webkit-filter 0.4s, 0.4s ease, ease": 12,
+  "color 0.4s ease": 12,
+  "opacity 0.2s ease": 10,
+  "stroke 0.2s ease": 10,
+  "border-color 0.2s ease": 10,
+  "background, border-color, opacity 0.2s, 0.2s, 0.2s ease, ease, ease": 9,
+  "background, border-color, color 0.2s, 0.2s, 0.2s ease, ease, ease": 8,
+  "box-shadow 0.4s ease": 6,
+  "background 0.2s ease": 4,
+  "transform, -webkit-transform 0.4s, 0.4s ease, ease": 1
+ },
  "border": {
-  "1px solid rgb(217, 217, 217)": 2
+  "1px solid rgb(38, 38, 38)": 13,
+  "2px solid rgb(44, 44, 44)": 11,
+  "2px solid rgb(77, 77, 77)": 11,
+  "1px solid rgb(48, 48, 48)": 4,
+  "1px solid rgb(18, 18, 18)": 3,
+  "2px solid rgb(45, 104, 255)": 2,
+  "1px solid rgb(45, 104, 255)": 1,
+  "2px solid rgb(0, 166, 86)": 1,
+  "1px solid rgb(29, 29, 29)": 1
  },
  "textTransform": {
-  "none": 8
+  "none": 133
  },
  "typePairs": {
-  "system-ui | 12px | 400 | lh 18px | ls normal": 4,
-  "system-ui | 40px | 600 | lh 50px | ls normal": 1,
-  "system-ui | 24px | 600 | lh 30px | ls normal": 1,
-  "system-ui | 16px | 400 | lh 24px | ls normal": 1,
-  "monospace | 12px | 400 | lh 18px | ls normal": 1
+  "CircularXX | 15px | 450 | lh 18px | ls -0.28px": 25,
+  "CircularXX | 16px | 400 | lh 24px | ls -0.28px": 25,
+  "CircularXX | 13px | 450 | lh 14px | ls -0.28px": 22,
+  "CircularXX | 15px | 450 | lh 20px | ls -0.28px": 19,
+  "CircularXX | 16px | 500 | lh 20px | ls -0.28px": 7,
+  "CircularXX | 28px | 450 | lh 40px | ls -0.28px": 6,
+  "CircularXX | 22px | 400 | lh 24px | ls -0.28px": 6,
+  "CircularXX | 17px | 450 | lh 21px | ls -0.28px": 4,
+  "CircularXX | 22px | 400 | lh 22px | ls -0.28px": 3,
+  "CircularXX | 64px | 500 | lh 64px | ls -0.28px": 3,
+  "CircularXX | 12px | 500 | lh 18px | ls -0.28px": 2,
+  "CircularXX | 20px | 400 | lh 28px | ls -0.28px": 2,
+  "CircularXX | 14px | 450 | lh 20px | ls -0.28px": 2,
+  "CircularXX | 16px | 500 | lh 20px | ls normal": 2,
+  "CircularXX | 18px | 400 | lh 28px | ls -0.28px": 2,
+  "CircularXX | 34px | 450 | lh 40px | ls -1px": 1,
+  "CircularXX | 12px | 450 | lh 16px | ls -0.28px": 1,
+  "CircularXX | 36px | 500 | lh 48px | ls -0.28px": 1
  },
  "headings": [
-  "H1 ui8.net",
-  "H2 Performing security verification",
-  "H2 Verification successful. Waiting for ui8.net to respond"
+  "H1 Roleno - Brand Guidelines Template",
+  "H2 Overview",
+  "H3 Highlights",
+  "H3 Format",
+  "H1 Unlock All-Access"
  ],
  "nav": [
   {
-   "t": "Cloudflare",
-   "h": "https://www.cloudflare.com/?utm_source=challenge&utm_campaign=m"
+   "t": "UI Kits\n4,789",
+   "h": "https://ui8.net/category/ui-kits"
   },
   {
-   "t": "Privacy",
-   "h": "https://www.cloudflare.com/privacypolicy/"
+   "t": "Coded Templates\n240",
+   "h": "https://ui8.net/category/coded-templates"
+  },
+  {
+   "t": "No-code Assets\n342",
+   "h": "https://ui8.net/category/no-code"
+  },
+  {
+   "t": "Illustrations\n1,286",
+   "h": "https://ui8.net/category/illustrations"
+  },
+  {
+   "t": "Fonts\n709",
+   "h": "https://ui8.net/category/fonts"
+  },
+  {
+   "t": "Wireframes\n161",
+   "h": "https://ui8.net/category/wireframe-kits"
+  },
+  {
+   "t": "Presentation\n480",
+   "h": "https://ui8.net/category/presentation"
+  },
+  {
+   "t": "Mockups\n719",
+   "h": "https://ui8.net/category/mockups"
+  },
+  {
+   "t": "3D Assets\n1,339",
+   "h": "https://ui8.net/category/3d-assets"
+  },
+  {
+   "t": "Icon Sets\n1,294",
+   "h": "https://ui8.net/category/icons"
+  },
+  {
+   "t": "Themes\n786",
+   "h": "https://ui8.net/category/themes"
+  },
+  {
+   "t": "Freebies\n1,964",
+   "h": "https://ui8.net/category/freebies"
+  },
+  {
+   "t": "All-Access\nOn Sale\nOn Sale",
+   "h": "https://ui8.net/products/all-access-pass"
+  },
+  {
+   "t": "Become an author",
+   "h": "https://ui8.net/authors"
+  },
+  {
+   "t": "Sign up",
+   "h": "https://ui8.net/account/signup"
+  },
+  {
+   "t": "Log in",
+   "h": "https://ui8.net/account/login"
+  },
+  {
+   "t": "Sign up",
+   "h": "https://ui8.net/account/signup"
+  },
+  {
+   "t": "Log in",
+   "h": "https://ui8.net/account/login"
+  },
+  {
+   "t": "UI Kits",
+   "h": "https://ui8.net/category/ui-kits"
+  },
+  {
+   "t": "Coded Templates",
+   "h": "https://ui8.net/category/coded-templates"
+  },
+  {
+   "t": "No-code Assets",
+   "h": "https://ui8.net/category/no-code"
+  },
+  {
+   "t": "Illustrations",
+   "h": "https://ui8.net/category/illustrations"
+  },
+  {
+   "t": "Fonts",
+   "h": "https://ui8.net/category/fonts"
+  },
+  {
+   "t": "Wireframes",
+   "h": "https://ui8.net/category/wireframe-kits"
+  },
+  {
+   "t": "Presentation",
+   "h": "https://ui8.net/category/presentation"
+  },
+  {
+   "t": "Mockups",
+   "h": "https://ui8.net/category/mockups"
+  },
+  {
+   "t": "3D Assets",
+   "h": "https://ui8.net/category/3d-assets"
+  },
+  {
+   "t": "Icon Sets",
+   "h": "https://ui8.net/category/icons"
+  },
+  {
+   "t": "Themes",
+   "h": "https://ui8.net/category/themes"
+  },
+  {
+   "t": "Freebies",
+   "h": "https://ui8.net/category/freebies"
+  },
+  {
+   "t": "Harsh Shah",
+   "h": "https://ui8.net/harsh-shah-96f85d/products"
+  },
+  {
+   "t": "No-code Assets",
+   "h": "https://ui8.net/categories/no-code"
+  },
+  {
+   "t": "79",
+   "h": "https://ui8.net/account/signup"
+  },
+  {
+   "t": "Live Preview",
+   "h": "https://roleno.framer.website/"
+  },
+  {
+   "t": "Log in",
+   "h": "https://ui8.net/account/login"
+  },
+  {
+   "t": "Harsh Shah",
+   "h": "https://ui8.net/harsh-shah-96f85d/products"
+  },
+  {
+   "t": "Follow",
+   "h": "https://ui8.net/account/signup"
+  },
+  {
+   "t": "Dino - Product Landing Page",
+   "h": "https://ui8.net/harsh-shah-96f85d/products/dino---product-landing-page"
+  },
+  {
+   "t": "Harsh Shah",
+   "h": "https://ui8.net/harsh-shah-96f85d/products"
+  },
+  {
+   "t": "No-code Assets",
+   "h": "https://ui8.net/categories/no-code"
+  },
+  {
+   "t": "Odyssey - Free Framer Portfolio Template",
+   "h": "https://ui8.net/harsh-shah-96f85d/products/odyssey---free-portfolio-template"
+  },
+  {
+   "t": "Harsh Shah",
+   "h": "https://ui8.net/harsh-shah-96f85d/products"
+  },
+  {
+   "t": "Design Freebies",
+   "h": "https://ui8.net/categories/freebies"
+  },
+  {
+   "t": "DesignPilot - Clean Portfolio Framer Template",
+   "h": "https://ui8.net/harsh-shah-96f85d/products/designpilot---clean-portfolio-framer-template"
+  },
+  {
+   "t": "Harsh Shah",
+   "h": "https://ui8.net/harsh-shah-96f85d/products"
+  },
+  {
+   "t": "No-code Assets",
+   "h": "https://ui8.net/categories/no-code"
+  },
+  {
+   "t": "Featured products",
+   "h": "https://ui8.net/category/featured-products"
+  },
+  {
+   "t": "UI Kits",
+   "h": "https://ui8.net/category/ui-kits"
+  },
+  {
+   "t": "Coded Templates",
+   "h": "https://ui8.net/category/coded-templates"
+  },
+  {
+   "t": "Wireframe kits",
+   "h": "https://ui8.net/category/wireframe-kits"
+  },
+  {
+   "t": "Illustrations",
+   "h": "https://ui8.net/category/illustrations"
+  },
+  {
+   "t": "Fonts",
+   "h": "https://ui8.net/category/fonts"
+  },
+  {
+   "t": "Presentation",
+   "h": "https://ui8.net/category/presentation"
+  },
+  {
+   "t": "Mockups",
+   "h": "https://ui8.net/category/mockups"
+  },
+  {
+   "t": "3D Assets",
+   "h": "https://ui8.net/category/3d-assets"
+  },
+  {
+   "t": "Icon Sets",
+   "h": "https://ui8.net/category/icons"
+  },
+  {
+   "t": "Themes & Templates",
+   "h": "https://ui8.net/category/themes"
+  },
+  {
+   "t": "For Figma",
+   "h": "https://ui8.net/category/figma"
+  },
+  {
+   "t": "For Sketch",
+   "h": "https://ui8.net/category/sketch"
+  },
+  {
+   "t": "For Lunacy",
+   "h": "https://ui8.net/category/lunacy"
+  },
+  {
+   "t": "Freebies",
+   "h": "https://ui8.net/category/freebies"
+  },
+  {
+   "t": "All-Access Pass",
+   "h": "https://ui8.net/products/all-access-pass"
+  },
+  {
+   "t": "UI8 Design Studio",
+   "h": "https://studio.ui8.net/"
+  },
+  {
+   "t": "Become an author",
+   "h": "https://ui8.net/authors"
+  },
+  {
+   "t": "Affiliate program",
+   "h": "https://ui8.net/affiliates"
+  },
+  {
+   "t": "Terms & Licensing",
+   "h": "https://ui8.net/terms"
   }
  ],
- "fullHeight": 900
+ "fullHeight": 3641
 }

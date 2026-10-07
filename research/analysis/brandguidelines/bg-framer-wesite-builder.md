@@ -63,7 +63,7 @@ anti_patterns: [dim-grey-captions-below-aa, low-contrast-card-captions, very-lon
 - **Shipped-sites masonry:** a mixed grid of phone and desktop frames. Some tiles carry duration badges such as "01m 49s", which marks embedded video.
 - **Community feed mockup:** a screenshot of Framer's community feed with a "Trending Templates" list. It shows the product rather than describing it.
 - **Prompt box:** a rounded input with a model selector ("GPT 6 Sol") and four suggestion chips.
-- **Footer:** six link columns (Product, Marketplace, Resources, Solutions, Compare, Company) plus a sub-group in each.
+- **Footer:** six link columns (Product, Marketplace, Resources, Solutions, Compare, Company), with sub-groups such as Business and By Framer.
 
 ## 7. Motion
 - Not measurable from these captures. The hero is an embedded video and the census has no CSS transition values (`transition` is empty), so no timings are stated.

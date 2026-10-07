@@ -1,67 +1,424 @@
 {
- "url": "https://ui8.net/pickolab-studio/products/shoesly---brand-marketplace-app-ui-kit?rel=1042",
- "title": "Just a moment...",
- "scrollHeight": 900,
- "customProperties": {},
- "loadedFonts": [],
+ "url": "https://web.archive.org/web/20250715192321if_/https://ui8.net/pickolab-studio/products/shoesly---brand-marketplace-app-ui-kit",
+ "title": "Shoesly - Brand Marketplace App UI Kit — Figma Resources on UI8",
+ "scrollHeight": 4118,
+ "customProperties": {
+  "--wm-toolbar-height": "65px"
+ },
+ "loadedFonts": [
+  "CircularXX 400 normal",
+  "CircularXX 450 normal",
+  "CircularXX 500 normal"
+ ],
  "fontFamily": {
-  "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"": 7,
-  "monospace": 1
+  "CircularXX, sans-serif": 138
  },
  "fontSize": {
-  "12px": 5,
-  "40px": 1,
-  "24px": 1,
-  "16px": 1
+  "15px": 45,
+  "13px": 24,
+  "16px": 19,
+  "20px": 16,
+  "28px": 10,
+  "14px": 8,
+  "17px": 5,
+  "12px": 3,
+  "18px": 3,
+  "64px": 3,
+  "34px": 1,
+  "44px": 1
  },
  "fontWeight": {
-  "400": 6,
-  "600": 2
+  "400": 28,
+  "450": 94,
+  "500": 16
  },
  "lineHeight": {
-  "18px": 5,
-  "50px": 1,
-  "30px": 1,
-  "24px": 1
+  "20px": 37,
+  "18px": 28,
+  "14px": 24,
+  "28px": 19,
+  "40px": 11,
+  "24px": 10,
+  "21px": 4,
+  "64px": 3,
+  "16px": 1,
+  "48px": 1
  },
  "letterSpacing": {
-  "normal": 8
+  "-0.28px": 134,
+  "normal": 3,
+  "-1px": 1
  },
  "textColor": {
-  "rgb(49, 49, 49)": 6,
-  "rgb(0, 0, 238)": 2
+  "rgb(173, 183, 190)": 78,
+  "rgb(255, 255, 255)": 27,
+  "rgb(45, 104, 255)": 16,
+  "rgb(92, 92, 92)": 6,
+  "rgba(255, 255, 255, 0.75)": 3,
+  "rgb(248, 248, 248)": 3,
+  "rgb(96, 208, 122)": 2,
+  "rgb(0, 166, 86)": 2,
+  "rgb(77, 77, 77)": 1
  },
- "bg": {},
- "radius": {},
- "shadow": {},
- "transition": {},
+ "bg": {
+  "rgb(24, 24, 24)": 16,
+  "rgba(45, 104, 255, 0.15)": 12,
+  "rgb(45, 104, 255)": 9,
+  "rgb(44, 44, 44)": 8,
+  "rgb(18, 18, 18)": 7,
+  "rgb(38, 38, 38)": 5,
+  "rgb(29, 28, 30)": 3,
+  "rgba(24, 24, 24, 0.98)": 3,
+  "rgb(23, 23, 24)": 3,
+  "rgb(0, 166, 86)": 2,
+  "rgba(24, 24, 24, 0.96)": 1,
+  "rgb(96, 208, 122)": 1,
+  "rgb(255, 255, 255)": 1
+ },
+ "radius": {
+  "50%": 33,
+  "16px": 18,
+  "11px": 13,
+  "8px": 10,
+  "22px": 9,
+  "16px 16px 0px 0px": 9,
+  "24px": 8,
+  "0px 0px 16px 16px": 3,
+  "32px": 3,
+  "18px": 1,
+  "10px": 1,
+  "40px": 1,
+  "0px 0px 24px 24px": 1
+ },
+ "shadow": {
+  "rgb(18, 18, 18) 0px 0px 0px 2px": 7,
+  "rgba(0, 0, 0, 0.35) 0px 16px 16px 0px": 1,
+  "rgb(29, 28, 30) 0px 0px 0px 2px": 1,
+  "rgba(0, 0, 0, 0.4) 0px 8px 80px 0px": 1
+ },
+ "transition": {
+  "color 0.2s ease": 39,
+  "fill 0.2s ease": 17,
+  "opacity 0.4s ease": 13,
+  "background, border-color, color 0.2s, 0.2s, 0.2s ease, ease, ease": 13,
+  "background 0.4s ease": 12,
+  "filter, -webkit-filter 0.4s, 0.4s ease, ease": 12,
+  "color 0.4s ease": 12,
+  "opacity 0.2s ease": 12,
+  "border-color 0.2s ease": 11,
+  "stroke 0.2s ease": 10,
+  "background, border-color, opacity 0.2s, 0.2s, 0.2s ease, ease, ease": 9,
+  "box-shadow 0.4s ease": 6,
+  "background 0.2s ease": 4,
+  "background 0.7s ease": 3,
+  "transform, -webkit-transform 0.4s, 0.4s ease, ease": 1
+ },
  "border": {
-  "1px solid rgb(217, 217, 217)": 2
+  "1px solid rgb(38, 38, 38)": 13,
+  "2px solid rgb(44, 44, 44)": 13,
+  "2px solid rgb(77, 77, 77)": 13,
+  "2px solid rgb(45, 104, 255)": 6,
+  "1px solid rgba(0, 0, 0, 0)": 3,
+  "2px solid rgb(0, 166, 86)": 2,
+  "1px solid rgb(45, 104, 255)": 1
  },
  "textTransform": {
-  "none": 8
+  "none": 138
  },
  "typePairs": {
-  "system-ui | 12px | 400 | lh 18px | ls normal": 4,
-  "system-ui | 40px | 600 | lh 50px | ls normal": 1,
-  "system-ui | 24px | 600 | lh 30px | ls normal": 1,
-  "system-ui | 16px | 400 | lh 24px | ls normal": 1,
-  "monospace | 12px | 400 | lh 18px | ls normal": 1
+  "CircularXX | 15px | 450 | lh 18px | ls -0.28px": 26,
+  "CircularXX | 13px | 450 | lh 14px | ls -0.28px": 24,
+  "CircularXX | 15px | 450 | lh 20px | ls -0.28px": 19,
+  "CircularXX | 20px | 400 | lh 28px | ls -0.28px": 16,
+  "CircularXX | 28px | 450 | lh 40px | ls -0.28px": 10,
+  "CircularXX | 16px | 400 | lh 24px | ls -0.28px": 9,
+  "CircularXX | 14px | 450 | lh 20px | ls -0.28px": 8,
+  "CircularXX | 16px | 500 | lh 20px | ls -0.28px": 8,
+  "CircularXX | 17px | 450 | lh 21px | ls -0.28px": 4,
+  "CircularXX | 18px | 400 | lh 28px | ls -0.28px": 3,
+  "CircularXX | 64px | 500 | lh 64px | ls -0.28px": 3,
+  "CircularXX | 12px | 500 | lh 18px | ls -0.28px": 2,
+  "CircularXX | 16px | 500 | lh 20px | ls normal": 2,
+  "CircularXX | 34px | 450 | lh 40px | ls -1px": 1,
+  "CircularXX | 17px | 500 | lh 24px | ls normal": 1,
+  "CircularXX | 12px | 450 | lh 16px | ls -0.28px": 1,
+  "CircularXX | 44px | 450 | lh 48px | ls -0.28px": 1
  },
  "headings": [
-  "H1 ui8.net",
-  "H2 Performing security verification",
-  "H2 Verification successful. Waiting for ui8.net to respond"
+  "H1 Shoesly - Brand Marketplace App UI Kit",
+  "H2 Overview",
+  "H3 Highlights",
+  "H3 Format"
  ],
  "nav": [
   {
-   "t": "Cloudflare",
-   "h": "https://www.cloudflare.com/?utm_source=challenge&utm_campaign=m"
+   "t": "UI Kits\n4,707",
+   "h": "https://ui8.net/category/ui-kits"
   },
   {
-   "t": "Privacy",
-   "h": "https://www.cloudflare.com/privacypolicy/"
+   "t": "Coded Templates\n233",
+   "h": "https://ui8.net/category/coded-templates"
+  },
+  {
+   "t": "No-code Assets\n333",
+   "h": "https://ui8.net/category/no-code"
+  },
+  {
+   "t": "Illustrations\n1,273",
+   "h": "https://ui8.net/category/illustrations"
+  },
+  {
+   "t": "Fonts\n687",
+   "h": "https://ui8.net/category/fonts"
+  },
+  {
+   "t": "Wireframes\n161",
+   "h": "https://ui8.net/category/wireframe-kits"
+  },
+  {
+   "t": "Presentation\n477",
+   "h": "https://ui8.net/category/presentation"
+  },
+  {
+   "t": "Mockups\n712",
+   "h": "https://ui8.net/category/mockups"
+  },
+  {
+   "t": "3D Assets\n1,328",
+   "h": "https://ui8.net/category/3d-assets"
+  },
+  {
+   "t": "Icon Sets\n1,293",
+   "h": "https://ui8.net/category/icons"
+  },
+  {
+   "t": "Themes\n772",
+   "h": "https://ui8.net/category/themes"
+  },
+  {
+   "t": "Freebies\n1,949",
+   "h": "https://ui8.net/category/freebies"
+  },
+  {
+   "t": "All-Access",
+   "h": "https://ui8.net/products/all-access-pass"
+  },
+  {
+   "t": "Summer Sale\nLive Now\nLive Now",
+   "h": "https://ui8.net/sale"
+  },
+  {
+   "t": "Become an author",
+   "h": "https://ui8.net/authors"
+  },
+  {
+   "t": "Sign up",
+   "h": "https://ui8.net/account/signup"
+  },
+  {
+   "t": "Log in",
+   "h": "https://ui8.net/account/login"
+  },
+  {
+   "t": "Sign up",
+   "h": "https://ui8.net/account/signup"
+  },
+  {
+   "t": "Log in",
+   "h": "https://ui8.net/account/login"
+  },
+  {
+   "t": "UI Kits",
+   "h": "https://ui8.net/category/ui-kits"
+  },
+  {
+   "t": "Coded Templates",
+   "h": "https://ui8.net/category/coded-templates"
+  },
+  {
+   "t": "No-code Assets",
+   "h": "https://ui8.net/category/no-code"
+  },
+  {
+   "t": "Illustrations",
+   "h": "https://ui8.net/category/illustrations"
+  },
+  {
+   "t": "Fonts",
+   "h": "https://ui8.net/category/fonts"
+  },
+  {
+   "t": "Wireframes",
+   "h": "https://ui8.net/category/wireframe-kits"
+  },
+  {
+   "t": "Presentation",
+   "h": "https://ui8.net/category/presentation"
+  },
+  {
+   "t": "Mockups",
+   "h": "https://ui8.net/category/mockups"
+  },
+  {
+   "t": "3D Assets",
+   "h": "https://ui8.net/category/3d-assets"
+  },
+  {
+   "t": "Icon Sets",
+   "h": "https://ui8.net/category/icons"
+  },
+  {
+   "t": "Themes",
+   "h": "https://ui8.net/category/themes"
+  },
+  {
+   "t": "Freebies",
+   "h": "https://ui8.net/category/freebies"
+  },
+  {
+   "t": "Pickolab Studio",
+   "h": "https://ui8.net/pickolab-studio/products"
+  },
+  {
+   "t": "Figma Resources",
+   "h": "https://ui8.net/categories/figma"
+  },
+  {
+   "t": "163",
+   "h": "https://ui8.net/account/signup"
+  },
+  {
+   "t": "Log in",
+   "h": "https://ui8.net/account/login"
+  },
+  {
+   "t": "Pickolab Studio",
+   "h": "https://ui8.net/pickolab-studio/products"
+  },
+  {
+   "t": "Hire",
+   "h": "https://ui8.net/account/signup"
+  },
+  {
+   "t": "Follow",
+   "h": "https://ui8.net/account/signup"
+  },
+  {
+   "t": "Product Management Dashboard UI Kit - Opscale",
+   "h": "https://ui8.net/pickolab-studio/products/product-management-dashboard-ui-kit---opscale"
+  },
+  {
+   "t": "Pickolab Studio",
+   "h": "https://ui8.net/pickolab-studio/products"
+  },
+  {
+   "t": "Figma Resources",
+   "h": "https://ui8.net/categories/figma"
+  },
+  {
+   "t": "Sustainable Energy Pitch Deck - Lifeline",
+   "h": "https://ui8.net/pickolab-studio/products/sustainable-energy-pitch-deck---lifeline"
+  },
+  {
+   "t": "Pickolab Studio",
+   "h": "https://ui8.net/pickolab-studio/products"
+  },
+  {
+   "t": "Presentation",
+   "h": "https://ui8.net/categories/presentation"
+  },
+  {
+   "t": "Pitch Deck Hotel Booking - StayInn",
+   "h": "https://ui8.net/pickolab-studio/products/pitch-deck-hotel-booking---stayinn"
+  },
+  {
+   "t": "Pickolab Studio",
+   "h": "https://ui8.net/pickolab-studio/products"
+  },
+  {
+   "t": "Figma Resources",
+   "h": "https://ui8.net/categories/figma"
+  },
+  {
+   "t": "Featured products",
+   "h": "https://ui8.net/category/featured-products"
+  },
+  {
+   "t": "UI Kits",
+   "h": "https://ui8.net/category/ui-kits"
+  },
+  {
+   "t": "Coded Templates",
+   "h": "https://ui8.net/category/coded-templates"
+  },
+  {
+   "t": "Wireframe kits",
+   "h": "https://ui8.net/category/wireframe-kits"
+  },
+  {
+   "t": "Illustrations",
+   "h": "https://ui8.net/category/illustrations"
+  },
+  {
+   "t": "Fonts",
+   "h": "https://ui8.net/category/fonts"
+  },
+  {
+   "t": "Presentation",
+   "h": "https://ui8.net/category/presentation"
+  },
+  {
+   "t": "Mockups",
+   "h": "https://ui8.net/category/mockups"
+  },
+  {
+   "t": "3D Assets",
+   "h": "https://ui8.net/category/3d-assets"
+  },
+  {
+   "t": "Icon Sets",
+   "h": "https://ui8.net/category/icons"
+  },
+  {
+   "t": "Themes & Templates",
+   "h": "https://ui8.net/category/themes"
+  },
+  {
+   "t": "For Figma",
+   "h": "https://ui8.net/category/figma"
+  },
+  {
+   "t": "For Sketch",
+   "h": "https://ui8.net/category/sketch"
+  },
+  {
+   "t": "For Lunacy",
+   "h": "https://ui8.net/category/lunacy"
+  },
+  {
+   "t": "Freebies",
+   "h": "https://ui8.net/category/freebies"
+  },
+  {
+   "t": "All-Access Pass",
+   "h": "https://ui8.net/products/all-access-pass"
+  },
+  {
+   "t": "UI8 Design Studio",
+   "h": "https://studio.ui8.net/"
+  },
+  {
+   "t": "Become an author",
+   "h": "https://ui8.net/authors"
+  },
+  {
+   "t": "Affiliate program",
+   "h": "https://ui8.net/affiliates"
+  },
+  {
+   "t": "Terms & Licensing",
+   "h": "https://ui8.net/terms"
   }
  ],
- "fullHeight": 900
+ "fullHeight": 4118
 }

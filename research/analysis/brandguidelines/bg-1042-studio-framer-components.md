@@ -54,7 +54,7 @@ anti_patterns: [grey-meta-text-below-aa, no-visible-sort-or-search, long-undivid
 - Filter chips use a 4% ink tint, so they read as flat tags.
 
 ## 6. Components & patterns
-- **Product card:** a row with the name on the left and the price on the right, then a grey category line, then a full-width framed image. The price is a 16 px-radius pill (census radius 16 px, 33 uses).
+- **Product card:** a row with the name on the left and the price on the right, then a grey category line, then a full-width framed image. The price sits in a fully rounded pill.
 - **Filter pills:** "All" (outlined when active), "Figma" and "Framer" as tinted chips.
 - **Browser-window mockup:** every product is a framed screenshot in a 3-dot window, which keeps the catalogue visually consistent.
 - **Price pill:** "Free", "$10", "$15", "$109" etc. The pill is the only element with a fill in the grid.
@@ -69,10 +69,10 @@ n/a — not a brand system. This is a store page. Identity cues: the spaced thre
 ## 9. UX
 - The store is easy to scan: one product per row, consistent price placement and a clear category line.
 - The filter set is minimal ("All / Figma / Framer"). There is no search, sort or price filter, and no visible way to find a remix versus an original apart from the category line.
-- Weaknesses: the grey meta line fails AA (3.15:1), and the single long grid with about 25 products has no pagination in the capture.
+- Weaknesses: the grey meta line fails AA (3.15:1), and the single long grid (9,523 px scroll height in the census) has no pagination in the capture.
 
 ## 10. Craft signals
-- Flush-left alignment is held across the header, title, deck and grid. The deck starts at the grid's second column position.
+- Flush-left alignment is held across the header, title, deck and grid.
 - Body text sits at 16/20.8 px with normal tracking, so the page reads at one size.
 - Display tracking is set in em-equivalent px (-2.34 px at 78 px).
 - Product thumbnails are all framed in the same browser window, so the grid stays consistent when the photography varies.

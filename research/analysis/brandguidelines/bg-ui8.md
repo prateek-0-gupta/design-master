@@ -24,18 +24,18 @@ anti_patterns: [muted-meta-text-below-aa, mobile-capture-blocked-by-challenge, t
 - **Why it's remarkable:** It sells a large catalogue (the headline states 14,617 resources) with almost no decoration. Product thumbnails carry the colour, and a single blue accent drives every action.
 
 ## 2. Composition & layout
-- **Hero:** centred, roughly 56–64 px type, sitting on a dark field with faint translucent tiles behind it. Header at y≈36, with the logo at x≈56 and the cart icon at x≈1368.
+- **Hero:** centred, roughly 48–64 px type, sitting on a dark field with faint translucent tiles behind it. Header at y≈36, with the logo at x≈56 and the cart icon at x≈1368.
 - **Segmented control:** "Featured | Trending | Recent" in a pill, centred at y≈512.
 - **Product grid:** a 4-up grid. Cards are about 314 px wide with a 24 px gap (x 56 to 1384), each with a 16 px radius thumbnail and a title, creator and price beneath.
-- **Category grid:** a 3-up set of 6 px-radius image tiles (about 373 px wide), each with a title and a format line.
+- **Category grid:** a 3-up set of image tiles (about 373 px wide), each with a title and a format line.
 - **Author spotlight:** a rounded box (about 960 px wide) with three preview images and a follow button.
-- **Footer:** a four-column link set (Browse, Platform, Connect) and a legal row.
+- **Footer:** Browse (three link columns), Platform and Connect, plus a legal row.
 - **Mobile:** not captured usefully (see §9).
 
 ## 3. Typography
 - **Family:** CircularXX only (loaded at 400, 450 and 500). The census shows 242 uses of the same stack, so the page runs on a single family.
 - **Scale (census):** 13 px (82 uses), 15 px (55), 16 px (50), 14 px (24), 20 px (4), 22 px (3), 34 px (2), 48 px (1), 64 px (3). The 64 px step is the hero, and body text sits at 13–16 px.
-- **Weights:** 450 (133 uses) is the dominant text weight, with 400 (73), 500 (32) and 700 (4). The in-between 450 weight is the tell that the family was tuned for dark UI.
+- **Weights:** 450 (133 uses) is the dominant text weight, with 400 (73), 500 (32) and 700 (4).
 - **Tracking:** `-0.28px` on 217 nodes, which is about -0.02em at 14 px. It is applied at a single px value across nearly all text, and only the labels use positive tracking (0.475 px and 0.55 px at 9.5 px and 11 px).
 - **Line heights:** 14 px (82 uses) for 13 px text, 20 px (55) for 15 px, and 24 px for 16 px.
 
@@ -63,7 +63,7 @@ anti_patterns: [muted-meta-text-below-aa, mobile-capture-blocked-by-challenge, t
 - **Product card:** 16 px radius thumbnail, 16 px inner padding, title on one line with ellipsis, creator avatar + category chip, price right-aligned.
 - **Price chip:** the price sits on the card's title row ("$129", "from $129" for All-Access).
 - **Category tile:** full-bleed illustration tile with a format line (for example "Figma, Sketch").
-- **Newsletter field:** a pill input with a blue-to-violet gradient stroke and an animated icon at the right.
+- **Newsletter field:** a pill input with a blue-to-violet gradient stroke and a small grid icon at the right.
 - **Trust row:** a faded logo marquee under "TRUSTED BY" (Amazon, Google, Microsoft, Netflix, PayPal, Shopify, Spotify, Stripe).
 - **All Access upsell:** a "30% OFF" pill in the top navigation.
 

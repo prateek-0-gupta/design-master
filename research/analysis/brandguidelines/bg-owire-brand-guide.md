@@ -24,17 +24,17 @@ anti_patterns: [template-reuse-across-brands, dim-meta-text-below-aa, cover-imag
 - **Why it's remarkable:** The hero photograph of a circuit board with a concentric-ring logo is the most texture-rich image of the three template pages. The rest is the same template as Cobalt and Form.
 
 ## 2. Composition & layout
-- **Header:** a 44 px-tall bar with the wordmark at x=60, nav (About, Resources), a dark "Submit Guidelines" pill and a light/dark toggle at x≈1370.
+- **Header:** a single bar with the wordmark at x=60, nav (About, Resources), a dark "Submit Guidelines" pill and a light/dark toggle at x≈1370.
 - **Title block:** a centred two-line H1 ("Owire / Brand Guideline") at about 52 px, then three grey pills ("Figma", "28 Pages", "Styles").
 - **Hero image:** a 1320 px wide frame (x 60 to 1380, y 422 to 1062, so 640 px tall) with a blue-violet photo of circuit chips and the Owire logo at centre.
 - **Intro:** a centred 40 px statement over two lines.
-- **Feature pair:** a deep-plum preview card (650 px) beside a plum statement card (650 px), both at 24 px radius with 30 px gutters.
+- **Feature pair:** a deep-plum preview card (650 px) beside a plum statement card (650 px), both at about 24 px radius with a 20 px gutter.
 - **Overview:** the same two-column text block with "Highlights" and "Format".
 - **Other guidelines:** two 460 px image cards (Cobalt and Form).
-- **Mobile (390 px):** a single column with a 350 px square hero.
+- **Mobile (390 px):** a single column with a 350 × 440 px portrait hero.
 
 ## 3. Typography
-- **Families (census):** identical to Cobalt and Form. Inter carries body and UI (43 uses), Switzer carries display and H2s (9 uses), Inter Tight appears on the largest lines (3 uses).
+- **Families (census):** identical to Cobalt and Form. Inter carries body and UI (43 uses), Switzer appears on nine tracked display nodes, and Inter Tight on three nodes.
 - **Scale (census):** 14 px (26), 16 px (14), 13 px (9), 24 px (3), 40 px (2), 52 px (1).
 - **Line heights:** 16.8 px for 14 px, 22.4 px for 16 px, 62.4 px for 52 px.
 - **Tracking:** `normal` on 46 nodes and `-0.78px` on 9 display nodes (about -0.015em at 52 px).
