@@ -1,0 +1,375 @@
+{
+ "url": "file:///home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-5/without_skill/outputs/index.html",
+ "widths": {
+  "390": {
+   "overflowPx": 0,
+   "smallTargets": [
+    {
+     "el": "<a href=\"#top\" class=\"logo\"><i></i>M. Okafor</a>",
+     "w": 89,
+     "h": 17
+    },
+    {
+     "el": "<a href=\"#work\">Work</a>",
+     "w": 32,
+     "h": 17
+    },
+    {
+     "el": "<a href=\"#about\">About</a>",
+     "w": 40,
+     "h": 17
+    },
+    {
+     "el": "<a href=\"#contact\">Contact</a>",
+     "w": 55,
+     "h": 17
+    },
+    {
+     "el": "<button class=\"more mono\" aria-expanded=\"false\"><span>Read the thinkin",
+     "w": 207,
+     "h": 31
+    },
+    {
+     "el": "<button class=\"more mono\" aria-expanded=\"false\"><span>Read the thinkin",
+     "w": 207,
+     "h": 31
+    },
+    {
+     "el": "<button class=\"more mono\" aria-expanded=\"false\"><span>Read the thinkin",
+     "w": 207,
+     "h": 31
+    },
+    {
+     "el": "<button class=\"more mono\" aria-expanded=\"false\"><span>Read the thinkin",
+     "w": 207,
+     "h": 31
+    },
+    {
+     "el": "<a class=\"mail\" id=\"mail\" href=\"mailto:hello@miraokafor.studio\">hello@",
+     "w": 250,
+     "h": 31
+    },
+    {
+     "el": "<a href=\"#\">Read.cv</a>",
+     "w": 55,
+     "h": 18
+    },
+    {
+     "el": "<a href=\"#\">LinkedIn</a>",
+     "w": 63,
+     "h": 18
+    },
+    {
+     "el": "<a href=\"#\">Are.na</a>",
+     "w": 48,
+     "h": 18
+    },
+    {
+     "el": "<a href=\"#\">Download CV (PDF)</a>",
+     "w": 135,
+     "h": 18
+    }
+   ]
+  },
+  "768": {
+   "overflowPx": 0
+  },
+  "1440": {
+   "overflowPx": 0
+  }
+ },
+ "gates": {
+  "contrast": {
+   "pass": false,
+   "fails": 10,
+   "note": "text over background-images is listed but must be verified visually"
+  },
+  "noOverflow390": {
+   "pass": true,
+   "overflowPx": 0
+  },
+  "focusVisible": {
+   "pass": true,
+   "stops": 12,
+   "invisible": []
+  },
+  "reducedMotion": {
+   "pass": true,
+   "normal": 3,
+   "reduced": 1,
+   "hasMediaQuery": true
+  },
+  "minTextSize": {
+   "pass": false,
+   "tiny": [
+    {
+     "text": "Store rating",
+     "size": 11
+    },
+    {
+     "text": "Support tickets",
+     "size": 11
+    },
+    {
+     "text": "Studios in 8 weeks",
+     "size": 11
+    },
+    {
+     "text": "Double-booked firings",
+     "size": 11
+    },
+    {
+     "text": "Kitchen sessions",
+     "size": 11
+    },
+    {
+     "text": "Remote-banking uptake",
+     "size": 11
+    },
+    {
+     "text": "BERLIN 21:48",
+     "size": 11
+    },
+    {
+     "text": "WIEN 05:12",
+     "size": 11
+    },
+    {
+     "text": "BUDAPEST 08:40",
+     "size": 11
+    },
+    {
+     "text": "Sleeper bookings",
+     "size": 11
+    }
+   ]
+  },
+  "altAndNames": {
+   "pass": true,
+   "imgsWithoutAlt": 0,
+   "unnamedControls": []
+  }
+ },
+ "warnings": [
+  "13 touch targets < 44px at 390px",
+  "1 heading level skips"
+ ],
+ "textNodes": 123,
+ "contrastFails": [
+  {
+   "text": "M. Okafor",
+   "fg": "#f1ebe0",
+   "bg": "#f1ebe0",
+   "ratio": 1,
+   "need": 4.5,
+   "size": 12,
+   "imageBehind": false,
+   "selector": "a.logo"
+  },
+  {
+   "text": "BERLIN 21:48",
+   "fg": "#1b1a17",
+   "bg": "#1b1a17",
+   "ratio": 1,
+   "need": 4.5,
+   "size": 11,
+   "imageBehind": false,
+   "selector": "text"
+  },
+  {
+   "text": "KÜCHE · 14:02",
+   "fg": "#212947",
+   "bg": "#2b3f8f",
+   "ratio": 1.5,
+   "need": 4.5,
+   "size": 12,
+   "imageBehind": false,
+   "selector": "text"
+  },
+  {
+   "text": "+312 W NOW",
+   "fg": "#1b1a17",
+   "bg": "#2b3f8f",
+   "ratio": 1.83,
+   "need": 4.5,
+   "size": 12,
+   "imageBehind": false,
+   "selector": "text"
+  },
+  {
+   "text": "Paid today",
+   "fg": "#1b1a17",
+   "bg": "#2f5d4a",
+   "ratio": 2.31,
+   "need": 4.5,
+   "size": 14,
+   "imageBehind": false,
+   "selector": "text"
+  },
+  {
+   "text": "€ 42",
+   "fg": "#1b1a17",
+   "bg": "#2f5d4a",
+   "ratio": 2.31,
+   "need": 3,
+   "size": 46,
+   "imageBehind": false,
+   "selector": "text"
+  },
+  {
+   "text": "Yes, that was me",
+   "fg": "#1b1a17",
+   "bg": "#2f5d4a",
+   "ratio": 2.31,
+   "need": 4.5,
+   "size": 16,
+   "imageBehind": false,
+   "selector": "text"
+  },
+  {
+   "text": "01 — Energy · iOS / Android",
+   "fg": "#e2411f",
+   "bg": "#f1ebe0",
+   "ratio": 3.53,
+   "need": 4.5,
+   "size": 12,
+   "imageBehind": false,
+   "selector": "span.num.mono"
+  },
+  {
+   "text": "I do",
+   "fg": "#6d675b",
+   "bg": "#e8e0d0",
+   "ratio": 4.28,
+   "need": 4.5,
+   "size": 12,
+   "imageBehind": false,
+   "selector": "h4.mono"
+  },
+  {
+   "text": "01",
+   "fg": "#6d675b",
+   "bg": "#e8e0d0",
+   "ratio": 4.28,
+   "need": 4.5,
+   "size": 13,
+   "imageBehind": false,
+   "selector": "span"
+  }
+ ],
+ "tiny": [
+  {
+   "text": "Store rating",
+   "size": 11
+  },
+  {
+   "text": "Support tickets",
+   "size": 11
+  },
+  {
+   "text": "Studios in 8 weeks",
+   "size": 11
+  },
+  {
+   "text": "Double-booked firings",
+   "size": 11
+  },
+  {
+   "text": "Kitchen sessions",
+   "size": 11
+  },
+  {
+   "text": "Remote-banking uptake",
+   "size": 11
+  },
+  {
+   "text": "BERLIN 21:48",
+   "size": 11
+  },
+  {
+   "text": "WIEN 05:12",
+   "size": 11
+  },
+  {
+   "text": "BUDAPEST 08:40",
+   "size": 11
+  },
+  {
+   "text": "Sleeper bookings",
+   "size": 11
+  }
+ ],
+ "fontFamilies": [
+  "JetBrains Mono",
+  "Instrument Sans",
+  "Fraunces"
+ ],
+ "radii": [
+  4,
+  110
+ ],
+ "accentHueBuckets": 2,
+ "imgsWithoutAlt": 0,
+ "unnamedControls": [],
+ "h1": 1,
+ "headingSkips": 1,
+ "reducedMotionCSS": true,
+ "focusStops": [
+  {
+   "el": "a:M. Okafor",
+   "visible": true
+  },
+  {
+   "el": "a:Work",
+   "visible": true
+  },
+  {
+   "el": "a:About",
+   "visible": true
+  },
+  {
+   "el": "a:Contact",
+   "visible": true
+  },
+  {
+   "el": "button:Read the thinking+",
+   "visible": true
+  },
+  {
+   "el": "button:Read the thinking+",
+   "visible": true
+  },
+  {
+   "el": "button:Read the thinking+",
+   "visible": true
+  },
+  {
+   "el": "button:Read the thinking+",
+   "visible": true
+  },
+  {
+   "el": "a:hello@miraokafor.stu",
+   "visible": true
+  },
+  {
+   "el": "a:Read.cv",
+   "visible": true
+  },
+  {
+   "el": "a:LinkedIn",
+   "visible": true
+  },
+  {
+   "el": "a:Are.na",
+   "visible": true
+  }
+ ],
+ "runningAnimations": {
+  "normal": 3,
+  "reduced": 1
+ },
+ "hardFails": [
+  "contrast",
+  "minTextSize"
+ ]
+}

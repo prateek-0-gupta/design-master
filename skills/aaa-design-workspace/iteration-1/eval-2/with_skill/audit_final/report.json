@@ -1,0 +1,160 @@
+{
+ "url": "file:///home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-2/with_skill/outputs/index.html",
+ "widths": {
+  "390": {
+   "overflowPx": 0,
+   "smallTargets": [
+    {
+     "el": "<button role=\"tab\" id=\"tab-all\" aria-selected=\"true\" tabindex=\"0\" data",
+     "w": 63,
+     "h": 38
+    },
+    {
+     "el": "<button role=\"tab\" id=\"tab-paid\" aria-selected=\"false\" tabindex=\"-1\" d",
+     "w": 66,
+     "h": 38
+    },
+    {
+     "el": "<button role=\"tab\" id=\"tab-packing\" aria-selected=\"false\" tabindex=\"-1",
+     "w": 90,
+     "h": 38
+    },
+    {
+     "el": "<button role=\"tab\" id=\"tab-shipped\" aria-selected=\"false\" tabindex=\"-1",
+     "w": 92,
+     "h": 38
+    },
+    {
+     "el": "<button role=\"tab\" id=\"tab-delivered\" aria-selected=\"false\" tabindex=\"",
+     "w": 101,
+     "h": 38
+    },
+    {
+     "el": "<button role=\"tab\" id=\"tab-hold\" aria-selected=\"false\" tabindex=\"-1\" d",
+     "w": 89,
+     "h": 38
+    },
+    {
+     "el": "<button role=\"tab\" id=\"tab-refund\" aria-selected=\"false\" tabindex=\"-1\"",
+     "w": 102,
+     "h": 38
+    }
+   ]
+  },
+  "768": {
+   "overflowPx": 0
+  },
+  "1440": {
+   "overflowPx": 0
+  }
+ },
+ "gates": {
+  "contrast": {
+   "pass": true,
+   "fails": 0,
+   "note": "text over background-images is listed but must be verified visually"
+  },
+  "noOverflow390": {
+   "pass": true,
+   "overflowPx": 0
+  },
+  "focusVisible": {
+   "pass": true,
+   "stops": 12,
+   "invisible": []
+  },
+  "reducedMotion": {
+   "pass": true,
+   "normal": 0,
+   "reduced": 0,
+   "hasMediaQuery": true
+  },
+  "minTextSize": {
+   "pass": true,
+   "tiny": []
+  },
+  "altAndNames": {
+   "pass": true,
+   "imgsWithoutAlt": 0,
+   "unnamedControls": []
+  }
+ },
+ "warnings": [
+  "7 touch targets < 44px at 390px",
+  "5 saturated hue families (aim for 1 accent unless colour-coding categories)"
+ ],
+ "textNodes": 191,
+ "contrastFails": [],
+ "tiny": [],
+ "fontFamilies": [
+  "Inter",
+  "JetBrains Mono"
+ ],
+ "radii": [
+  2,
+  8,
+  14,
+  999
+ ],
+ "accentHueBuckets": 5,
+ "imgsWithoutAlt": 0,
+ "unnamedControls": [],
+ "h1": 1,
+ "headingSkips": 0,
+ "reducedMotionCSS": true,
+ "focusStops": [
+  {
+   "el": "a:Skip to dashboard",
+   "visible": true
+  },
+  {
+   "el": "a:Dashboard",
+   "visible": true
+  },
+  {
+   "el": "a:Orders",
+   "visible": true
+  },
+  {
+   "el": "a:Inventory4",
+   "visible": true
+  },
+  {
+   "el": "a:Customers",
+   "visible": true
+  },
+  {
+   "el": "a:Analytics",
+   "visible": true
+  },
+  {
+   "el": "a:Discounts",
+   "visible": true
+  },
+  {
+   "el": "a:Shipping",
+   "visible": true
+  },
+  {
+   "el": "a:Settings",
+   "visible": true
+  },
+  {
+   "el": "button:Refresh",
+   "visible": true
+  },
+  {
+   "el": "button:Export report",
+   "visible": true
+  },
+  {
+   "el": "div:0$0.6k$1.3k$1.9k$2.5",
+   "visible": true
+  }
+ ],
+ "runningAnimations": {
+  "normal": 0,
+  "reduced": 0
+ },
+ "hardFails": []
+}

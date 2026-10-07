@@ -1,15 +1,9 @@
 {
- "url": "file:///home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-4/with_skill/outputs/index.html",
+ "url": "file:///home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-3/with_skill/outputs/index.html",
  "widths": {
   "390": {
    "overflowPx": 0,
-   "smallTargets": [
-    {
-     "el": "<a class=\"wm\" href=\"#top\" aria-label=\"Halcyon Coffee Roasters, top of ",
-     "w": 22,
-     "h": 44
-    }
-   ]
+   "smallTargets": []
   },
   "768": {
    "overflowPx": 0
@@ -30,7 +24,7 @@
   },
   "focusVisible": {
    "pass": true,
-   "stops": 12,
+   "stops": 9,
    "invisible": []
   },
   "reducedMotion": {
@@ -49,24 +43,21 @@
    "unnamedControls": []
   }
  },
- "warnings": [
-  "1 touch targets < 44px at 390px",
-  "4 saturated hue families (aim for 1 accent unless colour-coding categories)"
- ],
- "textNodes": 379,
+ "warnings": [],
+ "textNodes": 6,
  "contrastFails": [],
  "tiny": [],
  "fontFamilies": [
-  "Inter",
-  "Instrument Serif",
-  "JetBrains Mono"
+  "Plus Jakarta Sans",
+  "Arial"
  ],
  "radii": [
-  4,
-  10,
+  14,
+  24,
+  40,
   999
  ],
- "accentHueBuckets": 4,
+ "accentHueBuckets": 2,
  "imgsWithoutAlt": 0,
  "unnamedControls": [],
  "h1": 1,
@@ -74,51 +65,39 @@
  "reducedMotionCSS": true,
  "focusStops": [
   {
-   "el": "a:Skip to content",
+   "el": "button:Get started",
    "visible": true
   },
   {
-   "el": "a:Halcyon",
+   "el": "button:Skip",
    "visible": true
   },
   {
-   "el": "a:01Idea",
+   "el": "button:Get started",
    "visible": true
   },
   {
-   "el": "a:02Logo",
+   "el": "button:Skip",
    "visible": true
   },
   {
-   "el": "a:03Colour",
+   "el": "button:Get started",
    "visible": true
   },
   {
-   "el": "a:04Type",
+   "el": "button:Skip",
    "visible": true
   },
   {
-   "el": "a:05Photography",
+   "el": "button:Get started",
    "visible": true
   },
   {
-   "el": "a:06Voice",
+   "el": "button:Skip",
    "visible": true
   },
   {
-   "el": "a:07Applications",
-   "visible": true
-  },
-  {
-   "el": "a:08Motion",
-   "visible": true
-  },
-  {
-   "el": "input",
-   "visible": true
-  },
-  {
-   "el": "button:Primary · InkEspress",
+   "el": "button:Get started",
    "visible": true
   }
  ],

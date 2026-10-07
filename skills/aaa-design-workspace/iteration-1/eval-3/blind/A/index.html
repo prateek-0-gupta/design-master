@@ -1,0 +1,461 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sprout onboarding</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --canvas:#fbf7ee; --surface-1:#ffffff; --surface-2:#f1ede1; --surface-3:#e4efe6;
+  --hairline:rgb(20 38 28 / .10); --border-control:#7c9186;           
+  --text-1:#14261c; --text-2:#3f5247; --text-3:#55675c;               
+  --accent:#1c7a4a; --accent-ink:#176b40; --on-accent:#ffffff;        
+  --accent-soft:#dff3e6;
+  --candy-mint:#cdeedb; --candy-butter:#fbe9a8; --candy-sage:#dbe7c6; --candy-clay:#f6d5c0;
+  --danger-ink:#9a2b1f; --danger-soft:#fbe4df;
+  --shadow-1:0 1px 0 rgb(20 38 28 / .06);
+  --shadow-2:0 2px 0 rgb(20 38 28 / .06), 0 18px 36px -12px rgb(28 122 74 / .28);
+  --highlight:inset 0 1px 0 rgb(255 255 255 / .8);
+  --font-sans:"Plus Jakarta Sans",ui-rounded,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --radius-1:14px; --radius-2:24px; --radius-3:40px; --radius-pill:9999px;
+  --fs-xs:12px; --fs-sm:14px; --fs-base:16px; --fs-md:19px; --fs-xl:28px; --fs-2xl:34px;
+  --lh-tight:1.06; --lh-snug:1.25; --lh-body:1.5;
+  --tr-display:-0.028em; --tr-heading:-0.018em; --tr-caps:0.08em;
+  --s-1:4px; --s-2:8px; --s-3:12px; --s-4:16px; --s-5:24px; --s-6:32px; --s-7:48px;
+  --dur-1:120ms; --dur-2:200ms; --dur-3:320ms; --dur-4:560ms;
+  --ease-out:cubic-bezier(.2,.8,.2,1); --ease-in:cubic-bezier(.5,0,.75,0);
+  --spring:linear(0,.45 12%,.86 25%,1.02 38%,1.04 47%,1 62%,.995 80%,1);
+  --focus-ring:0 0 0 2px var(--canvas), 0 0 0 4px var(--accent-ink);
+  color-scheme:light;
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:1ms !important;animation-iteration-count:1 !important;
+    transition-duration:120ms !important;transition-property:opacity,color,background-color,border-color !important;scroll-behavior:auto !important}
+}
+*{box-sizing:border-box;margin:0}
+html,body{height:100%}
+body{font-family:var(--font-sans);font-size:var(--fs-base);line-height:var(--lh-body);color:var(--text-1);
+  background:var(--surface-2);-webkit-font-smoothing:antialiased;font-weight:500;
+  display:grid;place-items:center;padding:var(--s-5)}
+:focus-visible{outline:none;box-shadow:var(--focus-ring);border-radius:inherit}
+button{font:inherit;color:inherit;cursor:pointer;background:none;border:0}
+h1,h2{font-weight:800}
+h1:focus,h2:focus,h1:focus-visible,h2:focus-visible{outline:none;box-shadow:none}
+
+
+body::before,body::after{content:"";position:fixed;z-index:-1;border-radius:60% 40% 55% 45%;opacity:.7}
+body::before{width:46vmin;height:46vmin;left:calc(50% - 46vmin - 150px);top:8vh;background:var(--candy-mint);transform:rotate(-18deg)}
+body::after{width:34vmin;height:34vmin;left:calc(50% + 190px);bottom:6vh;background:var(--candy-butter);transform:rotate(24deg)}
+
+
+.app{position:relative;width:390px;height:min(844px,calc(100dvh - 48px));min-height:640px;background:var(--canvas);
+  border-radius:var(--radius-3);box-shadow:0 0 0 1px var(--hairline),0 40px 80px -24px rgb(20 38 28 / .35);
+  display:flex;flex-direction:column;overflow:hidden}
+@media (max-width:480px){
+  body{padding:0;display:block;background:var(--canvas)}
+  body::before,body::after{display:none}
+  .app{width:100%;height:100dvh;min-height:0;border-radius:0;box-shadow:none}
+}
+
+
+.top{display:grid;grid-template-columns:44px 1fr auto;align-items:center;gap:var(--s-3);
+  padding:max(var(--s-4),env(safe-area-inset-top)) var(--s-4) var(--s-2)}
+.icon-btn{width:44px;height:44px;border-radius:var(--radius-pill);display:grid;place-items:center;color:var(--text-1);
+  background:var(--surface-1);box-shadow:var(--shadow-1),var(--highlight);border:1px solid var(--hairline);
+  transition:transform var(--dur-1) var(--ease-out),background var(--dur-1)}
+.icon-btn:hover{background:var(--accent-soft)}
+.icon-btn:active{transform:scale(.92)}
+.icon-btn[hidden]{display:block;visibility:hidden}
+.skip{min-height:44px;padding:0 var(--s-3);border-radius:var(--radius-pill);color:var(--text-2);font-weight:800;font-size:var(--fs-sm);
+  transition:background var(--dur-1),color var(--dur-1)}
+.skip:hover{background:var(--surface-2);color:var(--text-1)}
+.skip:active{transform:scale(.96)}
+.skip[hidden]{display:block;visibility:hidden}
+.prog{display:grid;gap:6px}
+.prog-label{font-size:var(--fs-xs);letter-spacing:var(--tr-caps);text-transform:uppercase;color:var(--text-3);font-weight:800;text-align:center}
+.track{position:relative;height:10px;border-radius:var(--radius-pill);background:var(--surface-2);box-shadow:inset 0 1px 2px rgb(20 38 28 / .12);margin:0 11px}
+.fill{position:absolute;inset:0 auto 0 0;width:var(--p,33%);border-radius:inherit;background:var(--accent);
+  transition:width var(--dur-4) var(--spring)}
+.leaf-tip{position:absolute;top:50%;left:var(--p,33%);width:26px;height:26px;margin:-13px 0 0 -13px;
+  transition:left var(--dur-4) var(--spring);transform-origin:50% 100%}
+.leaf-tip svg{display:block;transform:rotate(-12deg);transition:transform var(--dur-4) var(--spring)}
+.leaf-tip.pop svg{animation:tip var(--dur-4) var(--spring)}
+@keyframes tip{0%{transform:rotate(-12deg) scale(.6)}60%{transform:rotate(14deg) scale(1.2)}100%{transform:rotate(-12deg) scale(1)}}
+
+
+.stage{position:relative;flex:1;min-height:0;display:flex;flex-direction:column}
+.step{flex:1;min-height:0;display:flex;flex-direction:column}
+.step[hidden]{display:none}
+.step.enter .reveal{animation:rise var(--dur-3) var(--ease-out) both;animation-delay:calc(var(--i,0) * 60ms + 80ms)}
+@keyframes rise{from{opacity:0;transform:translateY(14px);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
+.scroll{flex:1;min-height:0;overflow-y:auto;padding:var(--s-3) var(--s-5) var(--s-4)}
+.eyebrow{font-size:var(--fs-xs);letter-spacing:var(--tr-caps);text-transform:uppercase;color:var(--accent-ink);font-weight:800;margin-bottom:var(--s-2)}
+h1,h2{font-size:var(--fs-2xl);line-height:var(--lh-tight);letter-spacing:var(--tr-display)}
+.lede{color:var(--text-2);margin-top:var(--s-3);font-size:var(--fs-base);max-width:34ch}
+.foot{padding:var(--s-3) var(--s-5) max(var(--s-5),env(safe-area-inset-bottom));display:grid;gap:var(--s-2);
+  background:linear-gradient(180deg,transparent,var(--canvas) 22%)}
+
+
+.btn{min-height:56px;border-radius:var(--radius-pill);padding:0 var(--s-5);font-weight:800;font-size:var(--fs-base);
+  display:flex;align-items:center;justify-content:center;gap:var(--s-2);width:100%;
+  transition:transform var(--dur-1) var(--ease-out),box-shadow var(--dur-2),background var(--dur-2),opacity var(--dur-2)}
+.btn-primary{background:var(--accent);color:var(--on-accent);box-shadow:var(--shadow-2),var(--highlight)}
+.btn-primary:hover{background:#17693f}
+.btn-primary:active{transform:translateY(2px) scale(.985);box-shadow:var(--shadow-1)}
+.btn-primary[aria-disabled="true"]{background:var(--surface-2);color:var(--text-3);box-shadow:inset 0 0 0 1.5px var(--border-control);cursor:not-allowed}
+.btn-primary[aria-disabled="true"]:hover{background:var(--surface-2)}
+.btn-primary[aria-disabled="true"]:active{transform:none}
+.btn-ghost{min-height:48px;color:var(--text-2);font-weight:800}
+.btn-ghost:hover{background:var(--surface-2);color:var(--text-1)}
+.btn-ghost[hidden]{display:none}
+.spin{width:18px;height:18px;border-radius:50%;border:2.5px solid rgb(255 255 255 / .35);border-top-color:#fff;animation:rot .8s linear infinite}
+@keyframes rot{to{transform:rotate(360deg)}}
+
+
+.hero{flex:1;display:grid;place-items:center;min-height:200px;position:relative}
+.hero-bg{position:absolute;width:min(300px,80%);aspect-ratio:1;border-radius:48% 52% 46% 54%;background:var(--candy-mint);
+  box-shadow:inset 0 -14px 0 rgb(28 122 74 / .10)}
+.hero svg{position:relative;width:min(280px,76%);height:auto;overflow:visible;cursor:pointer}
+.sprout .stem{stroke-dasharray:90;stroke-dashoffset:90}
+.sprout .lf{transform:scale(0);transform-box:fill-box}
+.sprout .lf.l{transform-origin:100% 100%}
+.sprout .lf.r{transform-origin:0 100%}
+.step.enter .sprout .stem{animation:draw var(--dur-4) var(--ease-out) .25s forwards}
+.step.enter .sprout .lf.l{animation:grow var(--dur-4) var(--spring) .7s forwards}
+.step.enter .sprout .lf.r{animation:grow var(--dur-4) var(--spring) .85s forwards}
+.sprout.still .stem{stroke-dashoffset:0}.sprout.still .lf{transform:none}
+.sprout.wiggle{animation:wig var(--dur-4) var(--spring)}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes grow{to{transform:scale(1)}}
+@keyframes wig{0%{transform:rotate(0)}30%{transform:rotate(-4deg)}65%{transform:rotate(3deg)}100%{transform:rotate(0)}}
+.sprout{transform-origin:50% 100%}
+@media (prefers-reduced-motion:reduce){.sprout .stem{stroke-dashoffset:0}.sprout .lf{transform:none}}
+.welcome-copy{padding:0 var(--s-5) var(--s-3)}
+
+
+.count{display:inline-flex;align-items:center;gap:6px;margin-top:var(--s-3);font-size:var(--fs-sm);font-weight:800;color:var(--text-2)}
+.count b{display:inline-grid;place-items:center;min-width:28px;height:28px;padding:0 8px;border-radius:var(--radius-pill);
+  background:var(--accent-soft);color:var(--accent-ink);font-variant-numeric:tabular-nums}
+.count b.bump{animation:tip var(--dur-3) var(--spring)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s-3);margin-top:var(--s-4);padding-bottom:var(--s-2);list-style:none;padding-left:0}
+.tile{position:relative;width:100%;display:flex;flex-direction:column;align-items:center;gap:2px;padding:var(--s-3) 6px var(--s-3);
+  background:var(--tint);border-radius:var(--radius-1);border:1.5px solid var(--border-control);box-shadow:var(--highlight);text-align:center;
+  transition:transform var(--dur-2) var(--spring),box-shadow var(--dur-2),border-color var(--dur-1)}
+.tile:hover{transform:translateY(-3px);box-shadow:var(--shadow-2),var(--highlight)}
+.tile:active{transform:scale(.95)}
+.tile svg{width:64px;height:64px;transition:transform var(--dur-3) var(--spring)}
+.tile[aria-pressed="true"]{border-color:var(--accent-ink);box-shadow:0 0 0 2px var(--accent-ink),var(--shadow-2)}
+.tile[aria-pressed="true"] svg{transform:translateY(-3px) scale(1.08) rotate(-3deg)}
+.tile .nm{font-size:var(--fs-sm);font-weight:800;line-height:1.15;color:var(--text-1)}
+.tile .lt{font-size:var(--fs-xs);color:var(--text-2)}
+.tick{position:absolute;top:6px;right:6px;width:24px;height:24px;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;
+  transform:scale(0);transition:transform var(--dur-3) var(--spring)}
+.tile[aria-pressed="true"] .tick{transform:scale(1)}
+.tile.t0{--tint:var(--candy-mint)}.tile.t1{--tint:var(--candy-butter)}.tile.t2{--tint:var(--candy-sage)}.tile.t3{--tint:var(--candy-clay)}
+
+
+.notif{margin-top:var(--s-5);background:var(--surface-1);border-radius:var(--radius-2);padding:var(--s-4);display:grid;grid-template-columns:44px 1fr;gap:var(--s-3);
+  box-shadow:var(--shadow-2),var(--highlight);border:1px solid var(--hairline);position:relative}
+.notif .app-ic{width:44px;height:44px;border-radius:var(--radius-1);background:var(--accent);display:grid;place-items:center}
+.notif .meta{display:flex;justify-content:space-between;font-size:var(--fs-xs);color:var(--text-3);font-weight:800;letter-spacing:.02em}
+.notif .ttl{font-weight:800;font-size:var(--fs-base);line-height:1.25;margin-top:2px}
+.notif .bd{font-size:var(--fs-sm);color:var(--text-2);margin-top:2px}
+.notif.swap .ttl,.notif.swap .bd{animation:rise var(--dur-3) var(--ease-out)}
+.notif-tag{display:inline-block;margin-top:var(--s-3);font-size:var(--fs-xs);color:var(--text-3);font-weight:800}
+.when{border:0;padding:0;margin-top:var(--s-5)}
+.when legend{font-size:var(--fs-sm);font-weight:800;color:var(--text-2);margin-bottom:var(--s-2);padding:0}
+.seg{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s-2)}
+.seg label{position:relative;display:block}
+.seg input{position:absolute;opacity:0;inset:0;width:100%;height:100%;margin:0;cursor:pointer}
+.seg span{display:grid;place-items:center;min-height:56px;border-radius:var(--radius-1);border:1.5px solid var(--border-control);background:var(--surface-1);
+  font-weight:800;font-size:var(--fs-sm);line-height:1.2;text-align:center;transition:background var(--dur-2),border-color var(--dur-1),transform var(--dur-1)}
+.seg span small{display:block;font-size:var(--fs-xs);font-weight:500;color:var(--text-2);font-variant-numeric:tabular-nums}
+.seg input:hover + span{background:var(--accent-soft)}
+.seg input:active + span{transform:scale(.96)}
+.seg input:checked + span{background:var(--accent-soft);border-color:var(--accent-ink);box-shadow:0 0 0 1.5px var(--accent-ink)}
+.seg input:focus-visible + span{box-shadow:var(--focus-ring)}
+.status{display:none;align-items:flex-start;gap:var(--s-3);margin-top:var(--s-4);padding:var(--s-3) var(--s-4);border-radius:var(--radius-1);font-size:var(--fs-sm);font-weight:800}
+.status.show{display:flex;animation:rise var(--dur-3) var(--ease-out)}
+.status svg{flex:none;margin-top:1px}
+.status.ok{background:var(--accent-soft);color:var(--accent-ink)}
+.status.err{background:var(--danger-soft);color:var(--danger-ink)}
+.status span{font-weight:500;color:var(--text-1)}
+
+
+.done{align-items:center;text-align:center}
+.done .scroll{display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%}
+.done .lede{margin-inline:auto}
+.badge-row{display:flex;flex-wrap:wrap;gap:var(--s-2);justify-content:center;margin-top:var(--s-5)}
+.chip{display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:0 var(--s-3);border-radius:var(--radius-pill);background:var(--surface-1);border:1px solid var(--hairline);box-shadow:var(--shadow-1);font-size:var(--fs-sm);font-weight:800}
+.chip.empty{background:var(--surface-2);color:var(--text-2);font-weight:500}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+</style>
+</head>
+<body>
+<main class="app" aria-label="Sprout onboarding">
+  <header class="top">
+    <button class="icon-btn" id="back" aria-label="Back" hidden>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <div class="prog">
+      <div class="prog-label" id="plabel" aria-hidden="true">Step 1 of 3</div>
+      <div class="track" id="track" role="progressbar" aria-label="Setup progress" aria-valuemin="1" aria-valuemax="3" aria-valuenow="1" aria-valuetext="Step 1 of 3">
+        <div class="fill"></div>
+        <div class="leaf-tip" id="tip" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 26 26"><path d="M4 22C4 11 10 4 22 4c0 12-6 18-18 18z" fill="#3fae6e" stroke="#176b40" stroke-width="1.6" stroke-linejoin="round"/><path d="M5 21C10 15 14 12 19 8" stroke="#176b40" stroke-width="1.6" stroke-linecap="round" fill="none"/></svg>
+        </div>
+      </div>
+    </div>
+    <button class="skip" id="skip">Skip</button>
+  </header>
+
+  <div class="stage">
+    
+    <section class="step" id="s1" data-step="1" aria-labelledby="h1">
+      <div class="hero reveal" style="--i:0">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <svg viewBox="0 0 240 240" id="sprout" class="sprout" role="img" aria-label="A seedling in a terracotta pot. Tap it to make it wiggle.">
+          <ellipse cx="120" cy="214" rx="64" ry="9" fill="rgb(20 38 28 / .14)"/>
+          <g class="sprout-plant">
+            <path class="stem" d="M120 150 C120 128 118 112 120 88" fill="none" stroke="#176b40" stroke-width="7" stroke-linecap="round"/>
+            <g class="lf l"><path d="M119 104 C94 108 74 94 64 70 C92 66 114 78 119 104z" fill="#3fae6e" stroke="#176b40" stroke-width="3" stroke-linejoin="round"/><path d="M116 100 C100 92 88 82 76 74" stroke="#176b40" stroke-width="2.5" fill="none" stroke-linecap="round"/></g>
+            <g class="lf r"><path d="M121 90 C128 62 150 46 180 48 C178 78 156 96 121 90z" fill="#6cc98f" stroke="#176b40" stroke-width="3" stroke-linejoin="round"/><path d="M124 86 C142 74 156 64 170 54" stroke="#176b40" stroke-width="2.5" fill="none" stroke-linecap="round"/></g>
+          </g>
+          <path d="M70 148 H170 L158 206 Q157 214 148 214 H92 Q83 214 82 206 Z" fill="#d9774a" stroke="#8a3f1c" stroke-width="3" stroke-linejoin="round"/>
+          <rect x="62" y="138" width="116" height="22" rx="8" fill="#e8895c" stroke="#8a3f1c" stroke-width="3"/>
+          <path d="M72 168h18" stroke="#fff" stroke-opacity=".5" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="welcome-copy">
+        <p class="eyebrow reveal" style="--i:1">Welcome to Sprout</p>
+        <h1 id="h1" class="reveal" style="--i:2" tabindex="-1">Plants thrive when someone remembers.</h1>
+        <p class="lede reveal" style="--i:3">Tell us what's on your windowsill and we'll nudge you when it's time to water, mist or move toward the light.</p>
+      </div>
+      <div class="foot reveal" style="--i:4">
+        <button class="btn btn-primary" data-next>Get started</button>
+        <p style="text-align:center;font-size:var(--fs-sm);color:var(--text-3)">Takes about 30 seconds. No account needed yet.</p>
+      </div>
+    </section>
+
+    
+    <section class="step" id="s2" data-step="2" aria-labelledby="h2" hidden>
+      <div class="scroll">
+        <p class="eyebrow reveal" style="--i:0">Your jungle</p>
+        <h2 id="h2" class="reveal" style="--i:1" tabindex="-1">Which plants live with you?</h2>
+        <p class="lede reveal" style="--i:2">Pick all that apply. You can add more later.</p>
+        <p class="count reveal" style="--i:2" aria-live="polite"><b id="cnt">0</b> <span id="cntTxt">selected</span></p>
+        <ul class="grid" id="grid" aria-label="Plants"></ul>
+      </div>
+      <div class="foot">
+        <button class="btn btn-primary" id="cont2" data-next aria-disabled="true">Pick at least one plant</button>
+      </div>
+    </section>
+
+    
+    <section class="step" id="s3" data-step="3" aria-labelledby="h3" hidden>
+      <div class="scroll">
+        <p class="eyebrow reveal" style="--i:0">Watering reminders</p>
+        <h2 id="h3" class="reveal" style="--i:1" tabindex="-1">Never miss a thirsty Tuesday.</h2>
+        <p class="lede reveal" style="--i:2">One gentle nudge, only when a plant actually needs water.</p>
+        <div class="notif reveal" style="--i:3" id="notif" aria-label="Preview of a Sprout notification">
+          <div class="app-ic" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 26 26"><path d="M4 22C4 11 10 4 22 4c0 12-6 18-18 18z" fill="#fff"/><path d="M5 21C10 15 14 12 19 8" stroke="#1c7a4a" stroke-width="1.8" stroke-linecap="round" fill="none"/></svg></div>
+          <div>
+            <div class="meta"><span>SPROUT</span><span id="ntime">8:00 am</span></div>
+            <div class="ttl" id="nttl">Your Monstera is thirsty</div>
+            <div class="bd" id="nbd">Last watered 8 days ago. A cup (250 ml) will do.</div>
+          </div>
+        </div>
+        <span class="notif-tag reveal" style="--i:3">Preview, written from your plants</span>
+        <fieldset class="when reveal" style="--i:4">
+          <legend>Remind me around</legend>
+          <div class="seg">
+            <label><input type="radio" name="when" value="8:00 am" checked><span>Morning<small>8:00 am</small></span></label>
+            <label><input type="radio" name="when" value="12:30 pm"><span>Midday<small>12:30 pm</small></span></label>
+            <label><input type="radio" name="when" value="6:00 pm"><span>Evening<small>6:00 pm</small></span></label>
+          </div>
+        </fieldset>
+        <div class="status" id="status" role="status" aria-live="polite"></div>
+      </div>
+      <div class="foot">
+        <button class="btn btn-primary" id="enable">Turn on reminders</button>
+        <button class="btn btn-ghost" id="later">Not now</button>
+      </div>
+    </section>
+
+    
+    <section class="step done" id="s4" aria-labelledby="h4" hidden>
+      <div class="scroll">
+        <svg width="132" height="132" viewBox="0 0 132 132" aria-hidden="true" class="reveal" style="--i:0">
+          <circle cx="66" cy="66" r="62" fill="var(--candy-mint)"/>
+          <path d="M40 70 L58 88 L94 46" fill="none" stroke="#176b40" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <h2 id="h4" class="reveal" style="--i:1;margin-top:var(--s-5)" tabindex="-1">Your garden is ready.</h2>
+        <p class="lede reveal" style="--i:2" id="doneTxt"></p>
+        <div class="badge-row reveal" style="--i:3" id="chips"></div>
+      </div>
+      <div class="foot">
+        <button class="btn btn-primary" id="restart">Replay onboarding</button>
+      </div>
+    </section>
+  </div>
+  <p class="sr" id="live" aria-live="polite"></p>
+</main>
+
+<script>
+(function(){
+  
+  var PLANTS=[
+    {id:'monstera',nm:'Monstera',lt:'Bright, indirect',days:8,water:'250 ml'},
+    {id:'snake',nm:'Snake plant',lt:'Any light',days:14,water:'150 ml'},
+    {id:'pothos',nm:'Pothos',lt:'Low to bright',days:7,water:'200 ml'},
+    {id:'aloe',nm:'Aloe vera',lt:'Full sun',days:12,water:'120 ml'},
+    {id:'fern',nm:'Boston fern',lt:'Shade',days:4,water:'300 ml'},
+    {id:'lily',nm:'Peace lily',lt:'Low light',days:6,water:'250 ml'},
+    {id:'cactus',nm:'Cactus',lt:'Full sun',days:21,water:'60 ml'},
+    {id:'zz',nm:'ZZ plant',lt:'Low light',days:16,water:'150 ml'},
+    {id:'fiddle',nm:'Fiddle fig',lt:'Bright',days:9,water:'300 ml'}
+  ];
+  var G='#3fae6e',G2='#6cc98f',D='#176b40';
+  var pot='<path d="M24 54h32l-4 16a3 3 0 0 1-3 2H31a3 3 0 0 1-3-2z" fill="#d9774a" stroke="#8a3f1c" stroke-width="2" stroke-linejoin="round"/><rect x="21" y="48" width="38" height="9" rx="3.5" fill="#e8895c" stroke="#8a3f1c" stroke-width="2"/>';
+  function leaf(d,f){return '<path d="'+d+'" fill="'+(f||G)+'" stroke="'+D+'" stroke-width="2" stroke-linejoin="round"/>'}
+  var ART={
+    monstera:leaf('M40 46C20 46 12 30 18 16c14 0 24 10 22 30z')+leaf('M40 46C42 28 52 16 66 18c4 14-6 28-26 28z',G2)+leaf('M40 46C34 36 34 26 40 12c8 10 8 22 0 34z')+'<path d="M24 28l6 3M52 28l-6 4" stroke="'+D+'" stroke-width="2" stroke-linecap="round"/>',
+    snake:leaf('M32 50C26 36 28 18 34 8c6 12 6 28 0 42z')+leaf('M40 50C38 32 44 16 54 10c2 16-2 32-10 40z',G2)+leaf('M26 50C20 42 16 34 12 24c8 4 14 14 14 26z',G),
+    pothos:leaf('M40 48C26 48 20 38 24 28c10 0 18 8 16 20z')+leaf('M40 48c14-2 20-12 18-22-10 0-18 8-18 22z',G2)+'<path d="M26 56C14 58 12 66 14 74" stroke="'+D+'" stroke-width="2.4" fill="none" stroke-linecap="round"/>'+leaf('M14 74c-6-2-8-8-4-12 6 0 8 6 4 12z',G2)+leaf('M40 48c-4-12 0-22 8-28 4 10 0 22-8 28z'),
+    aloe:leaf('M40 50C30 38 28 22 32 8c10 12 12 28 8 42z')+leaf('M40 50C50 38 52 22 48 8c-10 12-12 28-8 42z',G2)+leaf('M40 50C26 46 16 38 12 28c14 2 24 10 28 22z')+leaf('M40 50C54 46 64 38 68 28c-14 2-24 10-28 22z',G2),
+    fern:leaf('M40 50C26 44 16 32 14 18c14 4 24 16 26 32z')+leaf('M40 50C54 44 64 32 66 18c-14 4-24 16-26 32z',G2)+leaf('M40 50C36 36 38 22 44 10c4 14 2 28-4 40z')+'<path d="M40 50C32 40 24 32 18 22M40 50C48 40 56 32 62 22" stroke="'+D+'" stroke-width="1.6" stroke-linecap="round" fill="none"/>',
+    lily:leaf('M40 50C24 48 16 36 20 22c14 2 22 12 20 28z')+leaf('M40 50C56 48 64 36 60 22c-14 2-22 12-20 28z',G2)+'<path d="M40 50V30" stroke="'+D+'" stroke-width="2.4" stroke-linecap="round"/><path d="M40 8c10 8 12 22 0 26-12-4-10-18 0-26z" fill="#fff" stroke="'+D+'" stroke-width="2" stroke-linejoin="round"/><path d="M40 20v10" stroke="#f2c14e" stroke-width="3.5" stroke-linecap="round"/>',
+    cactus:'<rect x="30" y="14" width="20" height="38" rx="10" fill="'+G+'" stroke="'+D+'" stroke-width="2"/><path d="M30 34h-6a6 6 0 0 1-6-6v-6a4.5 4.5 0 0 1 9 0v6h3M50 28h6a6 6 0 0 0 6-6v-4" fill="none" stroke="'+D+'" stroke-width="2" stroke-linecap="round"/><path d="M40 20v26M35 24v18M45 24v18" stroke="'+D+'" stroke-opacity=".35" stroke-width="1.5"/><circle cx="40" cy="12" r="4" fill="#f08aa0" stroke="#a23a55" stroke-width="1.5"/>',
+    zz:'<path d="M40 50V14" stroke="'+D+'" stroke-width="2.4" stroke-linecap="round"/><path d="M40 46c-8 0-12-4-12-8M40 36c8 0 12-4 12-8M40 26c-8 0-12-4-12-8" stroke="'+D+'" stroke-width="2.4" fill="none" stroke-linecap="round"/>'+leaf('M28 38c-6-4-10-8-10-12 6 0 12 4 10 12z',G2)+leaf('M52 28c6-4 10-8 10-12-6 0-12 4-10 12z')+leaf('M28 18c-6-4-8-6-8-10 6 0 10 4 8 10z')+leaf('M40 14C36 8 38 4 40 2c4 4 4 8 0 12z',G2)+leaf('M52 44c6-2 8-6 8-10-6 0-10 4-8 10z'),
+    fiddle:'<path d="M40 50V22" stroke="#8a5a2a" stroke-width="3" stroke-linecap="round"/>'+leaf('M40 40C22 40 16 28 22 14c14 2 22 12 18 26z')+leaf('M40 32c16 0 22-12 18-24-14 2-20 10-18 24z',G2)+leaf('M40 50C54 50 62 42 60 32c-12 0-20 6-20 18z')
+  };
+  function svg(id,pad){return '<svg viewBox="0 0 80 80" aria-hidden="true">'+(ART[id]||'')+pot+'</svg>'}
+
+  
+  var step=1, sel=[], perm=null;
+  var $=function(s,r){return (r||document).querySelector(s)};
+  var steps={1:$('#s1'),2:$('#s2'),3:$('#s3'),4:$('#s4')};
+  var back=$('#back'),skip=$('#skip'),track=$('#track'),tip=$('#tip'),plabel=$('#plabel'),app=$('.app');
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  
+  var grid=$('#grid');
+  PLANTS.forEach(function(p,i){
+    var li=document.createElement('li');
+    li.innerHTML='<button class="tile t'+(i%4)+' reveal" style="--i:'+(i%9*0.5+2)+'" type="button" aria-pressed="false" data-id="'+p.id+'">'
+      +svg(p.id)+'<span class="nm">'+p.nm+'</span><span class="lt">'+p.lt+'</span>'
+      +'<span class="tick" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span></button>';
+    grid.appendChild(li);
+  });
+  grid.addEventListener('click',function(e){
+    var b=e.target.closest('.tile'); if(!b) return;
+    var id=b.dataset.id,i=sel.indexOf(id);
+    if(i>-1){sel.splice(i,1)}else{sel.push(id)}
+    b.setAttribute('aria-pressed',i===-1);
+    updateCount();
+  });
+  function plural(n){return n+' plant'+(n===1?'':'s')}
+  function updateCount(){
+    var c=$('#cnt'); c.textContent=sel.length; c.classList.remove('bump'); void c.offsetWidth; c.classList.add('bump');
+    $('#cntTxt').textContent=sel.length===1?'plant selected':'plants selected';
+    var b=$('#cont2');
+    if(sel.length){b.setAttribute('aria-disabled','false');b.textContent='Continue with '+plural(sel.length)}
+    else{b.setAttribute('aria-disabled','true');b.textContent='Pick at least one plant'}
+  }
+
+  
+  function names(){return sel.map(function(id){return PLANTS.filter(function(p){return p.id===id})[0]})}
+  function notifCopy(){
+    var ps=names(), n=ps.length, t=$('#nttl'), b=$('#nbd');
+    if(!n){t.textContent='Your plants are thirsty';b.textContent='Last watered 8 days ago. A cup (250 ml) will do.';return}
+    var p=ps[0];
+    t.textContent=n===1?'Your '+p.nm+' is thirsty':'Your '+p.nm+' and '+(n-1)+' other'+(n>2?'s':'')+' need water';
+    b.textContent='Last watered '+p.days+' days ago. '+(p.water==='60 ml'?'Just a splash, ':'About ')+p.water+' will do.';
+    $('#notif').classList.remove('swap'); void $('#notif').offsetWidth; $('#notif').classList.add('swap');
+  }
+  function go(n,dir){
+    var prev=steps[step]; step=n;
+    Object.keys(steps).forEach(function(k){steps[k].hidden=(+k!==n)});
+    var el=steps[n]; el.classList.remove('enter'); void el.offsetWidth; el.classList.add('enter');
+    var pn=Math.min(n,3), pct=n===4?100:Math.round(pn/3*100);
+    track.style.setProperty('--p',pct+'%'); tip.style.setProperty('--p',pct+'%');
+    track.setAttribute('aria-valuenow',pn); track.setAttribute('aria-valuetext',n===4?'Setup complete':'Step '+pn+' of 3');
+    plabel.textContent=n===4?'All set':'Step '+pn+' of 3';
+    tip.classList.remove('pop'); void tip.offsetWidth; tip.classList.add('pop');
+    back.hidden=(n===1||n===4); skip.hidden=(n===4);
+    skip.textContent=n===3?'Skip for now':'Skip';
+    if(n===3){notifCopy()}
+    if(n===4){finish()}
+    var h=el.querySelector('h1,h2'); if(h){h.focus({preventScroll:true})}
+    var sc=el.querySelector('.scroll'); if(sc) sc.scrollTop=0;
+    $('#live').textContent=n===4?'Setup complete':'Step '+pn+' of 3';
+  }
+  function finish(){
+    var ps=names();
+    $('#doneTxt').textContent=(ps.length?plural(ps.length)+' added. ':'No plants added yet. ')+(perm==='granted'?'Reminders are on at '+$('input[name=when]:checked').value+'.':'Reminders are off. You can turn them on in Settings any time.');
+    var c=$('#chips'); c.innerHTML='';
+    if(!ps.length){c.innerHTML='<span class="chip empty">Add your first plant from Home</span>'}
+    ps.forEach(function(p){var s=document.createElement('span');s.className='chip';s.textContent=p.nm;c.appendChild(s)});
+  }
+  document.addEventListener('click',function(e){
+    var nx=e.target.closest('[data-next]');
+    if(nx){
+      if(nx.getAttribute('aria-disabled')==='true'){
+        nx.animate([{transform:'translateX(0)'},{transform:'translateX(-6px)'},{transform:'translateX(6px)'},{transform:'translateX(0)'}],{duration:reduce?1:240,easing:'ease-out'});
+        $('#live').textContent='Pick at least one plant, or use Skip.'; return;
+      }
+      go(step+1);
+    }
+  });
+  back.addEventListener('click',function(){go(step-1)});
+  skip.addEventListener('click',function(){go(step===3?4:step+1)});
+  $('#later').addEventListener('click',function(){perm=null;go(4)});
+  $('#restart').addEventListener('click',function(){
+    sel=[];perm=null;
+    document.querySelectorAll('.tile').forEach(function(t){t.setAttribute('aria-pressed','false')});
+    updateCount(); resetEnable(); go(1);
+  });
+  $('#sprout').addEventListener('click',function(){
+    var s=this; s.classList.add('still'); s.classList.remove('wiggle'); void s.getBoundingClientRect(); s.classList.add('wiggle');
+  });
+  
+  document.querySelectorAll('input[name=when]').forEach(function(r){r.addEventListener('change',function(){$('#ntime').textContent=r.value})});
+
+  
+  var en=$('#enable'), st=$('#status');
+  var ICON_OK='<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-7"/></svg>';
+  var ICON_ERR='<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18.5v.01"/></svg>';
+  function resetEnable(){en.disabled=false;en.className='btn btn-primary';en.textContent='Turn on reminders';st.className='status';st.innerHTML='';$('#later').hidden=false;en.dataset.mode=''}
+  en.addEventListener('click',function(){
+    if(en.dataset.mode==='finish'){go(4);return}
+    en.disabled=true; en.innerHTML='<span class="spin" aria-hidden="true"></span> Asking your phone…';
+    var ask;
+    try{
+      ask=('Notification' in window && Notification.permission==='default')
+        ? Promise.race([Notification.requestPermission(),new Promise(function(r){setTimeout(function(){r('timeout')},4000)})])
+        : Promise.resolve(('Notification' in window)?Notification.permission:'granted');
+    }catch(err){ask=Promise.resolve('granted')}
+    ask.then(function(r){
+      en.disabled=false; en.dataset.mode='finish'; $('#later').hidden=true;
+      if(r==='denied'){
+        perm='denied'; en.textContent='Continue without reminders';
+        st.className='status err show'; st.innerHTML=ICON_ERR+'<div>Notifications are blocked.<br><span>Allow them in your browser or phone settings, and Sprout will start nudging you. Nothing else changes.</span></div>';
+      }else{
+        perm='granted'; en.textContent='Finish setup';
+        st.className='status ok show'; st.innerHTML=ICON_OK+'<div>Reminders are on.<br><span>First nudge: tomorrow around '+$('input[name=when]:checked').value+'.</span></div>';
+      }
+    });
+  });
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'&&step>1&&step<4&&!e.defaultPrevented&&document.activeElement.tagName!=='INPUT'){go(step-1)}
+  });
+
+  go(1);
+})();
+</script>
+</body>
+</html>

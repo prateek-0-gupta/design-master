@@ -1,12 +1,22 @@
 {
- "url": "file:///home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-4/with_skill/outputs/index.html",
+ "url": "file:///home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-1/with_skill/outputs/index.html",
  "widths": {
   "390": {
    "overflowPx": 0,
    "smallTargets": [
     {
-     "el": "<a class=\"wm\" href=\"#top\" aria-label=\"Halcyon Coffee Roasters, top of ",
-     "w": 22,
+     "el": "<a class=\"pill\" href=\"#features\"><b>NEW</b> Waitlist auto-fill is live",
+     "w": 215,
+     "h": 32
+    },
+    {
+     "el": "<a href=\"#faq\">FAQ</a>",
+     "w": 27,
+     "h": 44
+    },
+    {
+     "el": "<a href=\"#top\">Terms</a>",
+     "w": 41,
      "h": 44
     }
    ]
@@ -50,20 +60,25 @@
   }
  },
  "warnings": [
-  "1 touch targets < 44px at 390px",
+  "3 touch targets < 44px at 390px",
+  "7 distinct radii: 2, 6, 8, 14, 18, 36, 999 (aim for 2-3 + pill)",
   "4 saturated hue families (aim for 1 accent unless colour-coding categories)"
  ],
- "textNodes": 379,
+ "textNodes": 158,
  "contrastFails": [],
  "tiny": [],
  "fontFamilies": [
   "Inter",
-  "Instrument Serif",
+  "Arial",
   "JetBrains Mono"
  ],
  "radii": [
-  4,
-  10,
+  2,
+  6,
+  8,
+  14,
+  18,
+  36,
   999
  ],
  "accentHueBuckets": 4,
@@ -78,47 +93,47 @@
    "visible": true
   },
   {
-   "el": "a:Halcyon",
+   "el": "a:Cadence",
    "visible": true
   },
   {
-   "el": "a:01Idea",
+   "el": "a:Product",
    "visible": true
   },
   {
-   "el": "a:02Logo",
+   "el": "a:Customers",
    "visible": true
   },
   {
-   "el": "a:03Colour",
+   "el": "a:Pricing",
    "visible": true
   },
   {
-   "el": "a:04Type",
+   "el": "a:FAQ",
    "visible": true
   },
   {
-   "el": "a:05Photography",
+   "el": "a:Book a demo",
    "visible": true
   },
   {
-   "el": "a:06Voice",
+   "el": "a:Start free",
    "visible": true
   },
   {
-   "el": "a:07Applications",
+   "el": "a:NEW Waitlist auto-fi",
    "visible": true
   },
   {
-   "el": "a:08Motion",
+   "el": "a:Start 30 days free",
    "visible": true
   },
   {
-   "el": "input",
+   "el": "a:See how it works",
    "visible": true
   },
   {
-   "el": "button:Primary · InkEspress",
+   "el": "button:CConfirm",
    "visible": true
   }
  ],

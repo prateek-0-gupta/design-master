@@ -108,7 +108,7 @@ function targets() {
     await page.goto(url, { waitUntil: 'networkidle', timeout: 45000 }).catch(() => {});
     await page.waitForTimeout(800);
     // scroll through the page so scroll-triggered reveals (IntersectionObserver) fire, then return to top
-    await page.evaluate(async () => { const h = document.documentElement.scrollHeight; for (let y = 0; y < h; y += Math.max(300, innerHeight * 0.6)) { scrollTo(0, y); await new Promise(r => setTimeout(r, 120)); } scrollTo(0, 0); await new Promise(r => setTimeout(r, 600)); });
+    await page.evaluate(async () => { const h = document.documentElement.scrollHeight; for (let y = 0; y < h + innerHeight; y += Math.max(300, innerHeight * 0.5)) { scrollTo(0, y); await new Promise(r => setTimeout(r, 350)); } scrollTo(0, 0); await new Promise(r => setTimeout(r, 1500)); });
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
     await page.screenshot({ path: path.join(outDir, `shot-${w}.png`), fullPage: true });
     report.widths[w] = { overflowPx: overflow };

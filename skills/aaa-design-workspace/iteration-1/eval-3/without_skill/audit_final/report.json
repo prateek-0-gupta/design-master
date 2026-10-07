@@ -1,0 +1,187 @@
+{
+ "url": "file:///home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-3/without_skill/outputs/index.html",
+ "widths": {
+  "390": {
+   "overflowPx": 0,
+   "smallTargets": [
+    {
+     "el": "<button class=\"icon-btn ph\" id=\"back\" aria-label=\"Back\"><svg width=\"22",
+     "w": 40,
+     "h": 40
+    },
+    {
+     "el": "<button class=\"skip\" id=\"skip\" style=\"visibility: visible;\">Skip</butt",
+     "w": 49,
+     "h": 35
+    },
+    {
+     "el": "<button aria-pressed=\"false\">Morning</button>",
+     "w": 109,
+     "h": 42
+    },
+    {
+     "el": "<button aria-pressed=\"true\">Midday</button>",
+     "w": 109,
+     "h": 42
+    },
+    {
+     "el": "<button aria-pressed=\"false\">Evening</button>",
+     "w": 109,
+     "h": 42
+    }
+   ]
+  },
+  "768": {
+   "overflowPx": 0
+  },
+  "1440": {
+   "overflowPx": 0
+  }
+ },
+ "gates": {
+  "contrast": {
+   "pass": false,
+   "fails": 3,
+   "note": "text over background-images is listed but must be verified visually"
+  },
+  "noOverflow390": {
+   "pass": true,
+   "overflowPx": 0
+  },
+  "focusVisible": {
+   "pass": true,
+   "stops": 12,
+   "invisible": []
+  },
+  "reducedMotion": {
+   "pass": true,
+   "normal": 7,
+   "reduced": 0,
+   "hasMediaQuery": true
+  },
+  "minTextSize": {
+   "pass": true,
+   "tiny": []
+  },
+  "altAndNames": {
+   "pass": true,
+   "imgsWithoutAlt": 0,
+   "unnamedControls": []
+  }
+ },
+ "warnings": [
+  "5 touch targets < 44px at 390px",
+  "page has 4 <h1> (expected 1)",
+  "7 distinct radii: 9, 12, 14, 20, 22, 44, 99 (aim for 2-3 + pill)"
+ ],
+ "textNodes": 5,
+ "contrastFails": [
+  {
+   "text": "Get started",
+   "fg": "#ffffff",
+   "bg": "#2f8f5b",
+   "ratio": 4.04,
+   "need": 4.5,
+   "size": 17,
+   "imageBehind": false,
+   "selector": "button.cta"
+  },
+  {
+   "text": "Skip",
+   "fg": "#6b7d70",
+   "bg": "#fffdf6",
+   "ratio": 4.31,
+   "need": 4.5,
+   "size": 14,
+   "imageBehind": false,
+   "selector": "button.skip"
+  },
+  {
+   "text": "Tell us what's on your windowsill and we'll remind",
+   "fg": "#6b7d70",
+   "bg": "#fffdf6",
+   "ratio": 4.31,
+   "need": 4.5,
+   "size": 16,
+   "imageBehind": false,
+   "selector": "p.sub"
+  }
+ ],
+ "tiny": [],
+ "fontFamilies": [
+  "Nunito",
+  "Fraunces"
+ ],
+ "radii": [
+  9,
+  12,
+  14,
+  20,
+  22,
+  44,
+  99
+ ],
+ "accentHueBuckets": 2,
+ "imgsWithoutAlt": 0,
+ "unnamedControls": [],
+ "h1": 4,
+ "headingSkips": 0,
+ "reducedMotionCSS": true,
+ "focusStops": [
+  {
+   "el": "button:Skip",
+   "visible": true
+  },
+  {
+   "el": "button:Monstera",
+   "visible": true
+  },
+  {
+   "el": "button:Snake plant",
+   "visible": true
+  },
+  {
+   "el": "button:Pothos",
+   "visible": true
+  },
+  {
+   "el": "button:Cactus",
+   "visible": true
+  },
+  {
+   "el": "button:Succulent",
+   "visible": true
+  },
+  {
+   "el": "button:Fiddle fig",
+   "visible": true
+  },
+  {
+   "el": "button:Peace lily",
+   "visible": true
+  },
+  {
+   "el": "button:Aloe",
+   "visible": true
+  },
+  {
+   "el": "button:Orchid",
+   "visible": true
+  },
+  {
+   "el": "button:Herbs",
+   "visible": true
+  },
+  {
+   "el": "button:Fern",
+   "visible": true
+  }
+ ],
+ "runningAnimations": {
+  "normal": 7,
+  "reduced": 0
+ },
+ "hardFails": [
+  "contrast"
+ ]
+}

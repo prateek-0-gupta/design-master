@@ -1,0 +1,192 @@
+{
+ "eval-1": {
+  "with_skill": {
+   "hard_fails": [],
+   "gates_passed": 6,
+   "gates_total": 6,
+   "contrast_fails": 0,
+   "worst_ratio": 21,
+   "overflow390": 0,
+   "small_targets": 3,
+   "fonts": 3,
+   "radii": 7,
+   "warnings": [
+    "3 touch targets < 44px at 390px",
+    "7 distinct radii: 2, 6, 8, 14, 18, 36, 999 (aim for 2-3 + pill)",
+    "4 saturated hue families (aim for 1 accent unless colour-coding categories)"
+   ],
+   "reduced_motion_css": true
+  },
+  "without_skill": {
+   "hard_fails": [
+    "contrast",
+    "focusVisible",
+    "minTextSize"
+   ],
+   "gates_passed": 3,
+   "gates_total": 6,
+   "contrast_fails": 1,
+   "worst_ratio": 3.01,
+   "overflow390": 0,
+   "small_targets": 5,
+   "fonts": 3,
+   "radii": 10,
+   "warnings": [
+    "5 touch targets < 44px at 390px",
+    "1 heading level skips",
+    "10 distinct radii: 3, 10, 16, 18, 24, 28, 32, 36, 44, 999 (aim for 2-3 + pill)",
+    "3 saturated hue families (aim for 1 accent unless colour-coding categories)"
+   ],
+   "reduced_motion_css": true
+  }
+ },
+ "eval-2": {
+  "with_skill": {
+   "hard_fails": [],
+   "gates_passed": 6,
+   "gates_total": 6,
+   "contrast_fails": 0,
+   "worst_ratio": 21,
+   "overflow390": 0,
+   "small_targets": 7,
+   "fonts": 2,
+   "radii": 4,
+   "warnings": [
+    "7 touch targets < 44px at 390px",
+    "5 saturated hue families (aim for 1 accent unless colour-coding categories)"
+   ],
+   "reduced_motion_css": true
+  },
+  "without_skill": {
+   "hard_fails": [
+    "contrast",
+    "noOverflow390",
+    "focusVisible",
+    "minTextSize"
+   ],
+   "gates_passed": 2,
+   "gates_total": 6,
+   "contrast_fails": 2,
+   "worst_ratio": 3.58,
+   "overflow390": 324,
+   "small_targets": 21,
+   "fonts": 2,
+   "radii": 6,
+   "warnings": [
+    "21 touch targets < 44px at 390px",
+    "6 distinct radii: 7, 8, 9, 10, 14, 99 (aim for 2-3 + pill)",
+    "3 saturated hue families (aim for 1 accent unless colour-coding categories)"
+   ],
+   "reduced_motion_css": true
+  }
+ },
+ "eval-3": {
+  "with_skill": {
+   "hard_fails": [],
+   "gates_passed": 6,
+   "gates_total": 6,
+   "contrast_fails": 0,
+   "worst_ratio": 21,
+   "overflow390": 0,
+   "small_targets": 0,
+   "fonts": 2,
+   "radii": 4,
+   "warnings": [],
+   "reduced_motion_css": true
+  },
+  "without_skill": {
+   "hard_fails": [
+    "contrast"
+   ],
+   "gates_passed": 5,
+   "gates_total": 6,
+   "contrast_fails": 3,
+   "worst_ratio": 4.04,
+   "overflow390": 0,
+   "small_targets": 5,
+   "fonts": 2,
+   "radii": 7,
+   "warnings": [
+    "5 touch targets < 44px at 390px",
+    "page has 4 <h1> (expected 1)",
+    "7 distinct radii: 9, 12, 14, 20, 22, 44, 99 (aim for 2-3 + pill)"
+   ],
+   "reduced_motion_css": true
+  }
+ },
+ "eval-4": {
+  "with_skill": {
+   "hard_fails": [],
+   "gates_passed": 6,
+   "gates_total": 6,
+   "contrast_fails": 0,
+   "worst_ratio": 21,
+   "overflow390": 0,
+   "small_targets": 1,
+   "fonts": 3,
+   "radii": 3,
+   "warnings": [
+    "1 touch targets < 44px at 390px",
+    "4 saturated hue families (aim for 1 accent unless colour-coding categories)"
+   ],
+   "reduced_motion_css": true
+  },
+  "without_skill": {
+   "hard_fails": [
+    "contrast",
+    "minTextSize"
+   ],
+   "gates_passed": 4,
+   "gates_total": 6,
+   "contrast_fails": 6,
+   "worst_ratio": 1.17,
+   "overflow390": 0,
+   "small_targets": 6,
+   "fonts": 2,
+   "radii": 5,
+   "warnings": [
+    "6 touch targets < 44px at 390px",
+    "5 distinct radii: 10, 14, 16, 18, 99 (aim for 2-3 + pill)",
+    "4 saturated hue families (aim for 1 accent unless colour-coding categories)",
+    "no @media (prefers-reduced-motion) rule found"
+   ],
+   "reduced_motion_css": false
+  }
+ },
+ "eval-5": {
+  "with_skill": {
+   "hard_fails": [],
+   "gates_passed": 6,
+   "gates_total": 6,
+   "contrast_fails": 0,
+   "worst_ratio": 21,
+   "overflow390": 0,
+   "small_targets": 2,
+   "fonts": 3,
+   "radii": 3,
+   "warnings": [
+    "2 touch targets < 44px at 390px"
+   ],
+   "reduced_motion_css": true
+  },
+  "without_skill": {
+   "hard_fails": [
+    "contrast",
+    "minTextSize"
+   ],
+   "gates_passed": 4,
+   "gates_total": 6,
+   "contrast_fails": 10,
+   "worst_ratio": 1,
+   "overflow390": 0,
+   "small_targets": 13,
+   "fonts": 3,
+   "radii": 2,
+   "warnings": [
+    "13 touch targets < 44px at 390px",
+    "1 heading level skips"
+   ],
+   "reduced_motion_css": true
+  }
+ }
+}

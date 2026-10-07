@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cadence — Fewer no-shows for small clinics</title>
+<meta name="description" content="Cadence is the scheduling tool for small medical clinics that cuts no-shows with two-way SMS reminders.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0b0f0e;--bg2:#101615;--card:#131a19;--line:rgba(255,255,255,.08);--line2:rgba(255,255,255,.14);
+  --text:#eef3f1;--muted:#93a29e;--accent:#5eead4;--accent2:#a3e635;--accent-ink:#04201b;
+  --serif:"Instrument Serif",Georgia,serif;--sans:Inter,system-ui,sans-serif;--mono:"JetBrains Mono",monospace;
+}
+@media (prefers-color-scheme:light){
+  :root{--bg:#f6f8f7;--bg2:#eef2f0;--card:#fff;--line:rgba(10,30,25,.09);--line2:rgba(10,30,25,.16);--text:#0b1513;--muted:#566763;--accent:#0f766e;--accent2:#4d7c0f;--accent-ink:#fff}
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font:16px/1.6 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.05;letter-spacing:-.01em}
+h1{font-size:clamp(44px,7vw,92px)}
+h2{font-size:clamp(34px,4.6vw,58px)}
+h3{font-size:28px}
+em{font-style:italic;color:var(--accent)}
+.eyebrow{font:500 12px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:999px;font-weight:500;font-size:15px;border:1px solid var(--line2);transition:.2s;cursor:pointer;background:transparent;color:var(--text);font-family:inherit}
+.btn:hover{border-color:var(--text);transform:translateY(-1px)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:transparent;box-shadow:0 0 0 0 rgba(94,234,212,.4),0 10px 30px -10px var(--accent)}
+.btn.primary:hover{box-shadow:0 0 0 6px rgba(94,234,212,.14),0 14px 36px -10px var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+
+nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(16px);background:color-mix(in srgb,var(--bg) 70%,transparent);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:10px;font:400 26px var(--serif)}
+.links{display:flex;gap:32px;font-size:14px;color:var(--muted)}
+.links a:hover{color:var(--text)}
+.nav-cta{display:flex;gap:10px;align-items:center}
+.nav-cta .btn{padding:9px 18px;font-size:14px}
+.signin{font-size:14px;color:var(--muted);margin-right:8px}
+
+
+.hero{position:relative;padding:96px 0 40px;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:-200px 0 auto;height:700px;background:radial-gradient(600px 300px at 20% 30%,rgba(94,234,212,.18),transparent 70%),radial-gradient(500px 300px at 85% 20%,rgba(163,230,53,.10),transparent 70%);pointer-events:none}
+.hero::after{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:64px 64px;mask-image:radial-gradient(ellipse at 50% 0,#000,transparent 70%);-webkit-mask-image:radial-gradient(ellipse at 50% 0,#000,transparent 70%);opacity:.5;pointer-events:none}
+.hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.pill{display:inline-flex;gap:10px;align-items:center;padding:6px 14px 6px 6px;border:1px solid var(--line2);border-radius:999px;font-size:13px;color:var(--muted);margin-bottom:28px;background:var(--card)}
+.pill b{background:var(--accent);color:var(--accent-ink);border-radius:999px;padding:2px 10px;font-weight:600;font-size:12px}
+.hero p.lead{font-size:19px;color:var(--muted);max-width:520px;margin:28px 0 36px}
+.hero .actions{display:flex;gap:12px;flex-wrap:wrap}
+.hero .fine{margin-top:20px;font-size:13px;color:var(--muted);display:flex;gap:18px;flex-wrap:wrap}
+.hero .fine span::before{content:"✓ ";color:var(--accent)}
+
+
+.stage{position:relative;display:flex;justify-content:center;padding:20px 0}
+.phone{width:310px;border-radius:44px;background:var(--card);border:1px solid var(--line2);padding:14px;box-shadow:0 50px 100px -30px rgba(0,0,0,.6),0 0 80px -20px rgba(94,234,212,.25);transform:rotate(2deg)}
+.screen{border-radius:32px;background:var(--bg);border:1px solid var(--line);height:520px;padding:18px 14px;display:flex;flex-direction:column;gap:10px;overflow:hidden}
+.sh{display:flex;align-items:center;gap:10px;padding-bottom:12px;border-bottom:1px solid var(--line);margin-bottom:6px}
+.av{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent2));display:grid;place-items:center;color:var(--accent-ink);font-weight:600;font-size:13px}
+.sh small{display:block;color:var(--muted);font-size:11px;line-height:1.2}
+.sh strong{font-size:14px;line-height:1.2}
+.msg{max-width:84%;padding:10px 13px;border-radius:18px;font-size:13.5px;line-height:1.4;opacity:0;transform:translateY(10px);animation:pop .5s forwards}
+.msg.in{background:var(--card);border:1px solid var(--line);border-bottom-left-radius:5px}
+.msg.out{background:var(--accent);color:var(--accent-ink);align-self:flex-end;border-bottom-right-radius:5px}
+.msg:nth-of-type(1){animation-delay:.4s}.msg:nth-of-type(2){animation-delay:1.6s}.msg:nth-of-type(3){animation-delay:2.8s}.msg:nth-of-type(4){animation-delay:4s}
+.msg time{display:block;font:10px var(--mono);opacity:.6;margin-top:4px}
+@keyframes pop{to{opacity:1;transform:none}}
+.chip{position:absolute;background:var(--card);border:1px solid var(--line2);border-radius:16px;padding:12px 16px;font-size:13px;box-shadow:0 20px 40px -15px rgba(0,0,0,.5);display:flex;gap:10px;align-items:center;animation:float 6s ease-in-out infinite}
+.chip b{font:400 28px var(--serif);color:var(--accent)}
+.chip.a{left:-10px;top:60px}.chip.b{right:-14px;bottom:70px;animation-delay:-3s}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--accent2);box-shadow:0 0 0 4px rgba(163,230,53,.2)}
+@keyframes float{50%{transform:translateY(-10px)}}
+
+
+.proof{padding:64px 0 24px}
+.proof .row{display:flex;gap:40px;justify-content:space-between;align-items:center;flex-wrap:wrap;color:var(--muted);font:400 24px var(--serif);opacity:.85}
+.proof p.t{text-align:center;font-size:13px;color:var(--muted);margin-bottom:28px;font-family:var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:24px;overflow:hidden;margin-top:56px}
+.stats div{background:var(--bg2);padding:32px 28px}
+.stats b{display:block;font:400 56px/1 var(--serif);margin-bottom:8px}
+.stats span{color:var(--muted);font-size:14px}
+.quote{margin:56px auto 0;max-width:820px;text-align:center}
+.quote blockquote{font:400 clamp(26px,3.4vw,38px)/1.25 var(--serif)}
+.quote cite{display:block;margin-top:22px;font-style:normal;color:var(--muted);font-size:14px}
+
+
+section.feat{padding:110px 0}
+.fr{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center}
+.fr.rev .copy{order:2}
+.copy h2{margin:16px 0 20px}
+.copy p{color:var(--muted);font-size:17px;max-width:480px}
+.copy ul{list-style:none;padding:0;margin-top:26px;display:grid;gap:12px}
+.copy li{display:flex;gap:12px;font-size:15px}
+.copy li svg{flex:none;margin-top:3px;color:var(--accent)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:28px;padding:28px;position:relative;overflow:hidden;box-shadow:0 40px 80px -40px rgba(0,0,0,.5)}
+.panel::before{content:"";position:absolute;width:300px;height:300px;right:-100px;top:-100px;background:radial-gradient(circle,rgba(94,234,212,.15),transparent 70%)}
+.panel>*{position:relative}
+.ph{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;font-size:13px;color:var(--muted)}
+.ph strong{color:var(--text);font-size:15px}
+
+.cal{display:grid;grid-template-columns:44px repeat(3,1fr);gap:6px;font-size:11px;color:var(--muted)}
+.cal .h{text-align:center;padding-bottom:6px;font-family:var(--mono)}
+.cal .t{padding-top:6px;font-family:var(--mono)}
+.slot{border-radius:10px;padding:8px 10px;font-size:12px;color:var(--text);min-height:46px;border:1px solid var(--line);background:var(--bg2)}
+.slot.ok{background:rgba(94,234,212,.12);border-color:rgba(94,234,212,.35)}
+.slot.risk{background:rgba(251,191,36,.1);border-color:rgba(251,191,36,.4)}
+.slot.fill{background:rgba(163,230,53,.14);border-color:rgba(163,230,53,.45);animation:glow 3s infinite}
+.slot small{display:block;color:var(--muted);font-size:10.5px}
+@keyframes glow{50%{box-shadow:0 0 22px -4px rgba(163,230,53,.5)}}
+.legend{display:flex;gap:16px;margin-top:18px;font-size:12px;color:var(--muted);flex-wrap:wrap}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:3px;margin-right:6px}
+
+.thread{display:flex;flex-direction:column;gap:10px}
+.thread .msg{opacity:1;transform:none;animation:none;max-width:78%}
+.tag{align-self:center;font:11px var(--mono);color:var(--muted);padding:4px 10px;border:1px dashed var(--line2);border-radius:999px}
+
+.bars{display:flex;align-items:flex-end;gap:12px;height:190px;padding-top:10px}
+.bars div{flex:1;border-radius:10px 10px 4px 4px;background:linear-gradient(var(--accent),rgba(94,234,212,.15));position:relative;transform-origin:bottom;transform:scaleY(0);transition:transform 1s cubic-bezier(.2,.8,.2,1)}
+.bars.on div{transform:scaleY(1)}
+.bars div:first-child,.bars div:nth-child(2){background:linear-gradient(#f59e0b,rgba(245,158,11,.12))}
+.bars span{position:absolute;top:-22px;left:50%;transform:translateX(-50%);font:11px var(--mono);color:var(--text)}
+.axis{display:flex;gap:12px;margin-top:10px;font:11px var(--mono);color:var(--muted)}
+.axis span{flex:1;text-align:center}
+.big{display:flex;align-items:baseline;gap:12px;margin-bottom:6px}
+.big b{font:400 64px/1 var(--serif)}
+.big span{color:var(--accent2);font-size:14px}
+
+
+.pricing{padding:110px 0;background:var(--bg2);border-block:1px solid var(--line)}
+.center{text-align:center;max-width:640px;margin:0 auto 56px}
+.center h2{margin:16px 0}
+.center p{color:var(--muted);font-size:17px}
+.toggle{display:inline-flex;margin-top:28px;padding:4px;border:1px solid var(--line2);border-radius:999px;background:var(--card)}
+.toggle button{border:0;background:none;color:var(--muted);padding:8px 18px;border-radius:999px;font:500 14px var(--sans);cursor:pointer}
+.toggle button.on{background:var(--text);color:var(--bg)}
+.toggle em{font-style:normal;font-size:11px;color:var(--accent2);margin-left:4px}
+.toggle button.on em{color:var(--accent-ink)}
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:stretch}
+.tier{background:var(--card);border:1px solid var(--line);border-radius:28px;padding:34px 30px;display:flex;flex-direction:column;position:relative}
+.tier.pop{border-color:var(--accent);background:linear-gradient(180deg,rgba(94,234,212,.08),var(--card) 40%);box-shadow:0 30px 70px -30px rgba(94,234,212,.35)}
+.tier .badge{position:absolute;top:-13px;left:30px;background:var(--accent);color:var(--accent-ink);font:600 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;padding:4px 12px;border-radius:999px}
+.tier h3{font-size:30px}
+.tier .d{color:var(--muted);font-size:14px;margin:6px 0 22px;min-height:44px}
+.price{display:flex;align-items:baseline;gap:6px;margin-bottom:24px}
+.price b{font:400 64px/1 var(--serif)}
+.price span{color:var(--muted);font-size:14px}
+.tier ul{list-style:none;padding:0;display:grid;gap:12px;margin:26px 0 32px;font-size:14.5px;flex:1}
+.tier li{display:flex;gap:10px}
+.tier li svg{flex:none;margin-top:4px;color:var(--accent)}
+.tier .btn{justify-content:center}
+.note{text-align:center;color:var(--muted);font-size:13px;margin-top:28px}
+
+
+.faq{padding:110px 0}
+.faq .wrap{max-width:820px}
+details{border-bottom:1px solid var(--line);padding:6px 0}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;align-items:center;padding:20px 0;font:400 25px/1.2 var(--serif)}
+summary::-webkit-details-marker{display:none}
+summary i{flex:none;width:30px;height:30px;border:1px solid var(--line2);border-radius:50%;position:relative;transition:.3s}
+summary i::before,summary i::after{content:"";position:absolute;left:50%;top:50%;width:11px;height:1.5px;background:var(--text);transform:translate(-50%,-50%);transition:.3s}
+summary i::after{transform:translate(-50%,-50%) rotate(90deg)}
+details[open] summary i{background:var(--accent);border-color:var(--accent);transform:rotate(180deg)}
+details[open] summary i::before,details[open] summary i::after{background:var(--accent-ink)}
+details[open] summary i::after{transform:translate(-50%,-50%) rotate(0)}
+details p{color:var(--muted);padding:0 50px 22px 0;font-size:16px}
+
+
+.cta{margin:0 24px 0;max-width:1132px;margin-inline:auto;padding:80px 24px;text-align:center;border-radius:36px;background:radial-gradient(500px 240px at 50% 0,rgba(94,234,212,.25),transparent 70%),var(--card);border:1px solid var(--line2)}
+.cta h2{max-width:700px;margin:0 auto 18px}
+.cta p{color:var(--muted);margin-bottom:30px}
+footer{margin-top:110px;border-top:1px solid var(--line);padding:64px 0 36px}
+.fg{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px}
+.fg p{color:var(--muted);font-size:14px;max-width:280px;margin-top:14px}
+.fg h4{font:500 12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:16px}
+.fg ul{list-style:none;padding:0;display:grid;gap:10px;font-size:14px}
+.fg ul a:hover{color:var(--accent)}
+.legal{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-top:56px;padding-top:24px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .8s,transform .8s}
+.reveal.in{opacity:1;transform:none}
+
+@media(max-width:900px){
+  .links,.signin{display:none}
+  .hero .wrap,.fr{grid-template-columns:1fr;gap:48px}
+  .fr.rev .copy{order:0}
+  .stats{grid-template-columns:1fr 1fr}
+  .tiers{grid-template-columns:1fr}
+  .fg{grid-template-columns:1fr 1fr}
+  .hero{padding-top:56px}
+  .chip.a{left:0}.chip.b{right:0}
+}
+@media(max-width:480px){.fg{grid-template-columns:1fr}.phone{width:100%;max-width:300px}summary{font-size:21px}details p{padding-right:0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.msg,.reveal{opacity:1;transform:none}.bars div{transform:none}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="#" class="logo" aria-label="Cadence home">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect width="28" height="28" rx="8" fill="var(--accent)"/><path d="M6 15h3l2-6 3 11 3-8 2 3h3" stroke="var(--accent-ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Cadence
+    </a>
+    <div class="links"><a href="#features">Product</a><a href="#proof">Customers</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a></div>
+    <div class="nav-cta"><a href="#" class="signin">Sign in</a><a href="#pricing" class="btn primary">Start free trial</a></div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <div class="pill"><b>New</b> Waitlist auto-fill is live</div>
+      <h1>Empty chairs are <em>optional.</em></h1>
+      <p class="lead">Cadence is the scheduler built for small clinics. Two-way text reminders confirm, reschedule and backfill appointments automatically — cutting no-shows by 41% on average.</p>
+      <div class="actions">
+        <a href="#pricing" class="btn primary">Start 14-day free trial
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a href="#features" class="btn">See how it works</a>
+      </div>
+      <div class="fine"><span>No credit card</span><span>HIPAA-ready</span><span>Live in a day</span></div>
+    </div>
+    <div class="stage" aria-hidden="true">
+      <div class="chip a"><span class="dot"></span><div><b>41%</b><br>fewer no-shows</div></div>
+      <div class="phone"><div class="screen">
+        <div class="sh"><div class="av">GF</div><div><strong>Greenfield Family Clinic</strong><small>via Cadence</small></div></div>
+        <div class="msg in">Hi Maria, a reminder of your visit with Dr. Patel tomorrow at 9:30 AM. Reply C to confirm or R to reschedule.<time>8:00 AM</time></div>
+        <div class="msg out">R<time>8:04 AM</time></div>
+        <div class="msg in">No problem. Openings: Thu 10:00 AM, Thu 2:15 PM, Fri 9:00 AM. Reply 1, 2 or 3.<time>8:04 AM</time></div>
+        <div class="msg out">2 please<time>8:05 AM</time></div>
+      </div></div>
+      <div class="chip b"><span class="dot"></span><div>Slot refilled<br><small style="color:var(--muted)">from waitlist in 4 min</small></div></div>
+    </div>
+  </div>
+</header>
+
+<section class="proof" id="proof">
+  <div class="wrap">
+    <p class="t reveal">Trusted by 1,800+ independent clinics</p>
+    <div class="row reveal">
+      <span>Greenfield Family</span><span>Northside Pediatrics</span><span>Harbor Dental</span><span>Oak &amp; Willow Women's Health</span><span>Pinecrest PT</span>
+    </div>
+    <div class="stats reveal">
+      <div><b data-n="41" data-s="%">41%</b><span>average drop in no-shows</span></div>
+      <div><b data-n="96" data-s="%">96%</b><span>of texts read within 3 minutes</span></div>
+      <div><b data-n="6" data-s="hrs">6 hrs</b><span>admin time saved per week</span></div>
+      <div><b data-n="4.9" data-s="/5">4.9/5</b><span>average rating from staff</span></div>
+    </div>
+    <figure class="quote reveal">
+      <blockquote>“We went from nine no-shows a week to three. Cadence paid for itself in the first month — and our front desk finally gets to eat lunch.”</blockquote>
+      <cite>Dr. Anita Rao, Owner — Greenfield Family Clinic</cite>
+    </figure>
+  </div>
+</section>
+
+<div id="features">
+<section class="feat">
+  <div class="wrap fr">
+    <div class="copy reveal">
+      <span class="eyebrow">01 — Two-way reminders</span>
+      <h2>Reminders patients <em>actually answer.</em></h2>
+      <p>Skip one-way robocalls. Patients confirm, cancel or reschedule by simply replying — and your calendar updates itself.</p>
+      <ul>
+        <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Smart timing: 72h, 24h and 2h cadence per visit type</li>
+        <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Natural-language replies, in 40+ languages</li>
+        <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Your clinic's number, your voice, your templates</li>
+      </ul>
+    </div>
+    <div class="panel reveal">
+      <div class="ph"><strong>Maria L. · Thu check-up</strong><span>Auto-handled</span></div>
+      <div class="thread">
+        <div class="msg in">Reminder: Dr. Patel, tomorrow 9:30 AM. Reply C to confirm, R to reschedule.<time>Tue 8:00</time></div>
+        <div class="msg out">Can I move it to the afternoon?<time>Tue 8:04</time></div>
+        <div class="tag">Cadence read intent: reschedule · afternoon</div>
+        <div class="msg in">Sure! Thu 2:15 PM or Fri 3:30 PM works. Which do you prefer?<time>Tue 8:04</time></div>
+        <div class="msg out">Thu 2:15<time>Tue 8:05</time></div>
+        <div class="msg in">You're booked for Thu 2:15 PM. See you then!<time>Tue 8:05</time></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="feat" style="padding-top:0">
+  <div class="wrap fr rev">
+    <div class="copy reveal">
+      <span class="eyebrow">02 — Self-healing schedule</span>
+      <h2>Cancellations fill <em>themselves.</em></h2>
+      <p>When a patient cancels, Cadence texts your waitlist in priority order and books the first yes. The gap closes before your staff even notices.</p>
+      <ul>
+        <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Risk scoring flags likely no-shows early</li>
+        <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Rules by provider, visit type and urgency</li>
+        <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Syncs two-way with Google, Outlook and your EHR</li>
+      </ul>
+    </div>
+    <div class="panel reveal">
+      <div class="ph"><strong>Thursday, Oct 9</strong><span>3 providers</span></div>
+      <div class="cal">
+        <div></div><div class="h">Dr. Patel</div><div class="h">Dr. Kim</div><div class="h">N.P. Ortiz</div>
+        <div class="t">9:00</div><div class="slot ok">J. Okafor<small>Confirmed</small></div><div class="slot ok">T. Brandt<small>Confirmed</small></div><div class="slot risk">S. Vega<small>No reply · high risk</small></div>
+        <div class="t">10:00</div><div class="slot fill">R. Chen<small>Filled from waitlist</small></div><div class="slot ok">A. Haddad<small>Confirmed</small></div><div class="slot ok">P. Moreau<small>Confirmed</small></div>
+        <div class="t">11:00</div><div class="slot ok">L. Ito<small>Confirmed</small></div><div class="slot risk">M. Dube<small>Unconfirmed</small></div><div class="slot fill">K. Singh<small>Filled in 4 min</small></div>
+        <div class="t">2:15</div><div class="slot ok">Maria L.<small>Rescheduled by SMS</small></div><div class="slot ok">D. Park<small>Confirmed</small></div><div class="slot">Open</div>
+      </div>
+      <div class="legend"><span><i style="background:var(--accent)"></i>Confirmed</span><span><i style="background:#fbbf24"></i>At risk</span><span><i style="background:var(--accent2)"></i>Auto-filled</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="feat" style="padding-top:0">
+  <div class="wrap fr">
+    <div class="copy reveal">
+      <span class="eyebrow">03 — Clarity</span>
+      <h2>See the revenue you <em>stopped losing.</em></h2>
+      <p>A calm, honest dashboard shows no-show rate by provider, day and visit type — plus the dollars recovered, so ROI is never a guess.</p>
+      <ul>
+        <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Weekly digest delivered to the owner's inbox</li>
+        <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>HIPAA-ready: encrypted messages, signed BAA, x log</li>
+        <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Export to CSV or your accounting tool</li>
+      </ul>
+    </div>
+    <div class="panel reveal">
+      <div class="ph"><strong>No-show rate</strong><span>Last 6 months</span></div>
+      <div class="big"><b>6.8%</b><span>▼ from 11.6% before Cadence</span></div>
+      <div class="bars" id="bars">
+        <div style="height:100%"><span>11.8</span></div><div style="height:96%"><span>11.4</span></div><div style="height:70%"><span>8.9</span></div><div style="height:60%"><span>7.6</span></div><div style="height:56%"><span>7.1</span></div><div style="height:53%"><span>6.8</span></div>
+      </div>
+      <div class="axis"><span>May</span><span>Jun</span><span>Jul</span><span>Aug</span><span>Sep</span><span>Oct</span></div>
+    </div>
+  </div>
+</section>
+</div>
+
+<section class="pricing" id="pricing">
+  <div class="wrap">
+    <div class="center reveal">
+      <span class="eyebrow">Pricing</span>
+      <h2>Simple pricing. <em>Obvious</em> payback.</h2>
+      <p>Flat per-clinic plans with SMS included. No per-seat surprises, no contracts.</p>
+      <div class="toggle" role="group" aria-label="Billing period">
+        <button class="on" data-p="monthly">Monthly</button><button data-p="annual">Annual <em>−20%</em></button>
+      </div>
+    </div>
+    <div class="tiers">
+      <div class="tier reveal">
+        <h3>Solo</h3><div class="d">For a single provider getting started.</div>
+        <div class="price"><b data-m="49" data-a="39">$49</b><span>/ month</span></div>
+        <a href="#" class="btn">Start free trial</a>
+        <ul>
+          <li><svg width="16" height="16" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>1 provider</li>
+          <li><svg width="16" height="16" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>500 SMS / month</li>
+          <li><svg width="16" height="16" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Two-way confirm &amp; reschedule</li>
+          <li><svg width="16" height="16" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Google &amp; Outlook sync</li>
+        </ul>
+      </div>
+      <div class="tier pop reveal">
+        <span class="badge">Most popular</span>
+        <h3>Clinic</h3><div class="d">For growing practices that want a full schedule.</div>
+        <div class="price"><b data-m="129" data-a="103">$129</b><span>/ month</span></div>
+        <a href="#" class="btn primary">Start free trial</a>
+        <ul>
+          <li><svg width="16" height="16" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Up to 5 providers</li>
+          <li><svg width="16" height="16" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>3,000 SMS / month</li>
+          <li><svg width="16" height="16" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Waitlist auto-fill &amp; risk scoring</li>
+          <li><svg width="16" height="16" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Revenue dashboard &amp; weekly digest</li>
+          <li><svg width="16" height="16" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Signed BAA</li>
+        </ul>
+      </div>
+      <div class="tier reveal">
+        <h3>Group</h3><div class="d">For multi-location practices with EHR needs.</div>
+        <div class="price"><b data-m="349" data-a="279">$349</b><span>/ month</span></div>
+        <a href="#" class="btn">Talk to sales</a>
+        <ul>
+          <li><svg width="16" height="16" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Unlimited providers &amp; locations</li>
+          <li><svg width="16" height="16" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>10,000 SMS / month</li>
+          <li><svg width="16" height="16" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Two-way EHR integrations</li>
+          <li><svg width="16" height="16" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>SSO, roles &amp; x log</li>
+          <li><svg width="16" height="16" viewBox="0 0 18 18" fill="none"><path d="M4 9.5l3.2 3L14 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Dedicated onboarding manager</li>
+        </ul>
+      </div>
+    </div>
+    <p class="note">All plans include a 14-day free trial. Extra SMS billed at $0.015 each.</p>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="wrap">
+    <div class="center reveal" style="margin-bottom:32px"><span class="eyebrow">FAQ</span><h2>Good questions.</h2></div>
+    <div class="reveal">
+      <details open><summary>Is Cadence HIPAA compliant?<i></i></summary><p>Yes. Messages are encrypted in transit and at rest, we sign a BAA on Clinic and Group plans, and every access is x-logged. Reminders include only the minimum necessary details.</p></details>
+      <details><summary>Do patients need to download an app?<i></i></summary><p>No. Everything happens over standard text messages from a local number, so it works on every phone — no logins, no links required.</p></details>
+      <details><summary>How long does setup take?<i></i></summary><p>Most clinics are live within a day. Connect your calendar or EHR, import your patient list, pick a reminder template, and Cadence starts texting on the next booking.</p></details>
+      <details><summary>Will it work with my existing calendar or EHR?<i></i></summary><p>Cadence syncs with Google Calendar and Outlook out of the box, and integrates with major EHRs on the Group plan. If you use something else, we'll tell you honestly whether we can support it.</p></details>
+      <details><summary>What happens if a patient replies with something unexpected?<i></i></summary><p>Cadence handles common intents automatically. Anything it isn't sure about is routed to your front desk's shared inbox with context, so nothing slips through.</p></details>
+      <details><summary>Can I cancel anytime?<i></i></summary><p>Yes. There are no contracts. Cancel from settings and export all of your data whenever you like.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="cta reveal">
+    <h2>Give every appointment a <em>second chance</em> to happen.</h2>
+    <p>Start your free trial today. Your first reminders can go out this afternoon.</p>
+    <a href="#pricing" class="btn primary">Start 14-day free trial</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fg">
+      <div>
+        <a href="#" class="logo"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect width="28" height="28" rx="8" fill="var(--accent)"/><path d="M6 15h3l2-6 3 11 3-8 2 3h3" stroke="var(--accent-ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Cadence</a>
+        <p>Scheduling that keeps small clinics full, with two-way text reminders patients love.</p>
+      </div>
+      <div><h4>Product</h4><ul><li><a href="#features">Reminders</a></li><li><a href="#features">Waitlist</a></li><li><a href="#features">Analytics</a></li><li><a href="#pricing">Pricing</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="#">About</a></li><li><a href="#">Customers</a></li><li><a href="#">Careers</a></li><li><a href="#">Contact</a></li></ul></div>
+      <div><h4>Trust</h4><ul><li><a href="#">Security</a></li><li><a href="#">HIPAA &amp; BAA</a></li><li><a href="#">Privacy</a></li><li><a href="#">Terms</a></li></ul></div>
+    </div>
+    <div class="legal"><span>© 2026 Cadence Health, Inc.</span><span>Made for the people who keep clinics running.</span></div>
+  </div>
+</footer>
+
+<script>
+// reveal on scroll
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');if(e.target.querySelector('#bars'))document.getElementById('bars').classList.add('on');io.unobserve(e.target)}}),{threshold:.15});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+// bars
+const bars=document.getElementById('bars');
+new IntersectionObserver((es,o)=>{if(es[0].isIntersecting){bars.classList.add('on');o.disconnect()}},{threshold:.3}).observe(bars);
+// billing toggle
+document.querySelectorAll('.toggle button').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('.toggle button').forEach(x=>x.classList.toggle('on',x===b));
+  const a=b.dataset.p==='annual';
+  document.querySelectorAll('.price b').forEach(p=>p.textContent='$'+(a?p.dataset.a:p.dataset.m));
+}));
+// failsafe: reveal everything if observer didn't fire
+setTimeout(()=>document.querySelectorAll('.reveal').forEach(el=>{const r=el.getBoundingClientRect();if(r.top<innerHeight)el.classList.add('in')}),600);
+</script>
+</body>
+</html>

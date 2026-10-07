@@ -17,4 +17,4 @@
 
 Fonts: Inter, Instrument Serif, JetBrains Mono | radii: 4, 10, 999
 
-Screenshots: /home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-4/with_skill/outputs/audit/shot-390.png, /home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-4/with_skill/outputs/audit/shot-768.png, /home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-4/with_skill/outputs/audit/shot-1440.png, /home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-4/with_skill/outputs/audit/shot-1440-reduced.png
+Screenshots: /home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-4/with_skill/audit_final/shot-390.png, /home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-4/with_skill/audit_final/shot-768.png, /home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-4/with_skill/audit_final/shot-1440.png, /home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-4/with_skill/audit_final/shot-1440-reduced.png

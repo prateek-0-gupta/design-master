@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mira Okafor — Product Designer, Berlin</title>
+<meta name="description" content="Mira Okafor is an independent product designer in Berlin making quiet, exact software for energy, travel, money and craft.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f1ebe0; --paper2:#e8e0d0; --ink:#1b1a17; --mute:#6d675b; --line:#1b1a1726;
+  --red:#e2411f; --green:#2f5d4a; --blue:#2b3f8f; --sun:#e9b53a;
+  --serif:'Fraunces',Georgia,serif; --sans:'Instrument Sans',system-ui,sans-serif; --mono:'JetBrains Mono',ui-monospace,monospace;
+  --g:clamp(16px,4vw,56px);
+}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--paper:#15140f;--paper2:#1e1c16;--ink:#f1ebe0;--mute:#9a937f;--line:#f1ebe026;--red:#ff6b45;--green:#6fb394;--blue:#8c9cf0;}}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font:400 17px/1.55 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+::selection{background:var(--red);color:#fff}
+a{color:inherit}
+.mono{font:500 12px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase}
+
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:50;opacity:.07;mix-blend-mode:multiply;
+ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+header{position:fixed;top:0;left:0;right:0;z-index:40;display:flex;justify-content:space-between;align-items:center;padding:14px var(--g);mix-blend-mode:difference;color:#f1ebe0}
+header a{text-decoration:none}
+header nav{display:flex;gap:22px}
+header nav a{position:relative}
+header nav a::after{content:"";position:absolute;left:0;right:0;bottom:-3px;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .3s}
+header nav a:hover::after{transform:scaleX(1)}
+.logo{display:flex;align-items:center;gap:8px}
+.logo i{width:10px;height:10px;border-radius:50%;background:var(--red);display:inline-block}
+
+.hero{min-height:100svh;padding:110px var(--g) 40px;display:grid;grid-template-rows:1fr auto;position:relative}
+.hero h1{font:300 clamp(56px,13.5vw,230px)/.86 var(--serif);letter-spacing:-.04em;font-variation-settings:"opsz" 144;align-self:center;margin-top:3vh}
+.hero h1 em{font-style:italic;font-weight:400;color:var(--red)}
+.hero h1 .l{display:block;overflow:hidden}
+.hero h1 .l span{display:inline-block;transform:translateY(105%);animation:up 1.1s cubic-bezier(.2,.8,.2,1) forwards}
+.hero h1 .l:nth-child(2) span{animation-delay:.12s;margin-left:.9em}
+@keyframes up{to{transform:none}}
+.hero .sun{position:absolute;right:calc(var(--g) + 2vw);top:16vh;width:clamp(90px,16vw,230px);aspect-ratio:1;border-radius:50%;
+ background:radial-gradient(circle at 35% 30%,#f4c24f,var(--red) 70%);animation:float 9s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(24px) rotate(8deg)}}
+.hero-foot{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;border-top:1px solid var(--ink);padding-top:18px;align-items:start}
+.hero-foot p{max-width:34ch}
+.lead{font:400 clamp(20px,2vw,26px)/1.3 var(--serif)!important;max-width:30ch!important}
+.avail{display:inline-flex;gap:8px;align-items:center}
+.avail::before{content:"";width:8px;height:8px;border-radius:50%;background:#3bb273;box-shadow:0 0 0 0 #3bb27388;animation:pulse 2s infinite}
+@keyframes pulse{to{box-shadow:0 0 0 10px #3bb27300}}
+
+.marq{border-block:1px solid var(--ink);overflow:hidden;white-space:nowrap;padding:12px 0;background:var(--ink);color:var(--paper)}
+.marq div{display:inline-block;animation:m 40s linear infinite;font:italic 300 28px var(--serif)}
+.marq span{margin:0 22px}.marq b{font-style:normal;color:var(--red)}
+@keyframes m{to{transform:translateX(-50%)}}
+
+section{padding:clamp(70px,10vw,150px) var(--g)}
+.sh{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--ink);padding-bottom:12px;margin-bottom:clamp(30px,5vw,70px)}
+.sh h2{font:400 clamp(30px,4vw,54px)/1 var(--serif);letter-spacing:-.02em}
+
+.case{display:grid;grid-template-columns:repeat(12,1fr);gap:var(--g);padding:clamp(30px,5vw,64px) 0;border-bottom:1px solid var(--line);align-items:center}
+.case:nth-child(even) .art{order:2}
+.art{grid-column:span 7;aspect-ratio:4/3;border-radius:4px;overflow:hidden;position:relative;transition:transform .6s cubic-bezier(.2,.8,.2,1),border-radius .6s;cursor:pointer}
+.art svg{width:100%;height:100%;display:block}
+.case:hover .art{transform:scale(.985) rotate(-.4deg);border-radius:28px}
+.meta{grid-column:span 5}
+.num{color:var(--red);margin-bottom:14px;display:block}
+.meta h3{font:400 clamp(34px,4.6vw,66px)/.95 var(--serif);letter-spacing:-.03em;margin-bottom:6px}
+.meta h3 em{font-weight:300}
+.meta .sub{color:var(--mute);margin-bottom:20px}
+.meta p{max-width:44ch}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}
+.tags span{border:1px solid var(--ink);border-radius:99px;padding:4px 11px}
+.stats{display:flex;gap:30px;margin:22px 0}
+.stats b{display:block;font:300 44px/1 var(--serif);letter-spacing:-.03em}
+.stats small{color:var(--mute);font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.06em}
+button.more{font:inherit;background:none;border:0;border-bottom:1px solid var(--ink);color:inherit;padding:2px 0;cursor:pointer;display:inline-flex;gap:10px}
+button.more i{font-style:normal;transition:transform .3s}
+button.more[aria-expanded=true] i{transform:rotate(45deg)}
+.detail{display:grid;grid-template-rows:0fr;transition:grid-template-rows .5s cubic-bezier(.2,.8,.2,1)}
+.detail>div{overflow:hidden}
+.detail.open{grid-template-rows:1fr}
+.detail dl{padding-top:20px;display:grid;gap:14px}
+.detail dt{color:var(--red);margin-bottom:2px}
+.detail dd{max-width:46ch;color:var(--mute)}
+
+.about{background:var(--paper2)}
+.ab{display:grid;grid-template-columns:repeat(12,1fr);gap:var(--g)}
+.ab .big{grid-column:span 7;font:300 clamp(26px,3.2vw,46px)/1.15 var(--serif);letter-spacing:-.02em}
+.ab .big em{color:var(--red)}
+.ab .side{grid-column:span 5;display:grid;gap:34px;align-content:start}
+.side h4{margin-bottom:10px;color:var(--mute)}
+.side ul{list-style:none;padding:0}
+.side li{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid var(--line)}
+.side li span:last-child{color:var(--mute);font-family:var(--mono);font-size:13px}
+.portrait{width:100%;max-width:220px;aspect-ratio:3/4;border-radius:110px 110px 4px 4px;overflow:hidden}
+
+.contact{background:var(--ink);color:var(--paper);text-align:left;overflow:hidden;position:relative}
+.contact h2{font:300 clamp(48px,11vw,190px)/.9 var(--serif);letter-spacing:-.04em}
+.contact h2 em{color:var(--red)}
+.mail{display:inline-block;margin-top:40px;font:italic 300 clamp(24px,4vw,54px) var(--serif);text-decoration:none;border-bottom:2px solid var(--red);transition:color .3s}
+.mail:hover{color:var(--red)}
+.links{display:flex;flex-wrap:wrap;gap:12px 32px;margin-top:50px}
+.links a{text-decoration:none;border-bottom:1px solid transparent}.links a:hover{border-color:currentColor}
+footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-top:90px;padding-top:16px;border-top:1px solid #f1ebe033;color:#9a937f}
+.rv{opacity:0;transform:translateY(30px);transition:opacity .9s,transform .9s cubic-bezier(.2,.8,.2,1)}
+.rv.in{opacity:1;transform:none}
+@media(max-width:820px){
+ .art,.meta,.ab .big,.ab .side{grid-column:1/-1}.case:nth-child(even) .art{order:0}
+ header nav{gap:14px}.hero .sun{top:12vh}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.hero h1 .l span{transform:none}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header class="mono">
+  <a href="#top" class="logo"><i></i>M. Okafor</a>
+  <nav><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</header>
+
+<main id="top">
+<div class="hero">
+  <div class="sun" aria-hidden="true"></div>
+  <h1><span class="l"><span>Mira</span></span><span class="l"><span><em>Okafor</em></span></span></h1>
+  <div class="hero-foot">
+    <p class="lead">Independent product designer making quiet, exact software for things that matter at home.</p>
+    <p class="mono">Berlin, DE<br><span id="clock">--:--</span> local time</p>
+    <p class="mono avail">Booking from January 2027</p>
+    <p class="mono">Scroll &darr; Four selected projects, 2022&ndash;2026</p>
+  </div>
+</div>
+
+<div class="marq" aria-hidden="true"><div id="mq"></div></div>
+
+<section id="work">
+  <div class="sh"><h2>Selected work</h2><span class="mono">04 / 2022&ndash;26</span></div>
+
+  <article class="case rv">
+    <div class="art" style="background:#2b3f8f">
+      <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Abstract balcony solar panels under a sun">
+        <circle cx="300" cy="90" r="46" fill="#e9b53a"/>
+        <g stroke="#e9b53a" stroke-width="2" opacity=".6"><path d="M300 20v-14M300 160v14M230 90h-14M384 90h14M251 41l-10-10M349 139l10 10M349 41l10-10M251 139l-10 10"/></g>
+        <g transform="translate(40 150) skewX(-18)"><g fill="#f1ebe0">
+          <rect width="90" height="60"/><rect x="96" width="90" height="60"/><rect x="192" width="90" height="60"/>
+          <rect y="66" width="90" height="60" opacity=".7"/><rect x="96" y="66" width="90" height="60" opacity=".7"/><rect x="192" y="66" width="90" height="60" opacity=".7"/></g>
+          <g stroke="#2b3f8f" stroke-width="1.2" opacity=".45"><path d="M30 0v126M60 0v126M126 0v126M156 0v126M222 0v126M252 0v126M0 30h282M0 96h282"/></g></g>
+        <path d="M0 270h400" stroke="#f1ebe0" stroke-width="2"/>
+        <g class="mono" fill="#f1ebe0" font-family="JetBrains Mono" font-size="11"><text x="24" y="40">+312 W NOW</text><text x="24" y="58" opacity=".6">KÜCHE · 14:02</text></g>
+      </svg>
+    </div>
+    <div class="meta">
+      <span class="num mono">01 &mdash; Energy · iOS / Android</span>
+      <h3>Balkonia, <em>plug-in solar</em></h3>
+      <p class="sub">Lead designer, 2025 &middot; 9 months</p>
+      <p>Two million German balconies can make power, but nobody can tell if it's working. I designed an app that turns watts into something a landlord, a teenager and a grandmother all read the same way.</p>
+      <div class="stats"><div><b>4.8</b><small>Store rating</small></div><div><b>&minus;61%</b><small>Support tickets</small></div></div>
+      <button class="more mono" aria-expanded="false"><span>Read the thinking</span><i>+</i></button>
+      <div class="detail"><div><dl>
+        <div><dt class="mono">Problem</dt><dd>Inverter data is accurate and useless. Households couldn't tell a cloudy day from a broken panel.</dd></div>
+        <div><dt class="mono">Move</dt><dd>One number, one sentence: "Your balcony covered your fridge today." Everything else lives a layer down.</dd></div>
+        <div><dt class="mono">Outcome</dt><dd>Median set-up fell from 22 to 6 minutes after we replaced the pairing wizard with a camera scan.</dd></div>
+      </dl></div></div>
+    </div>
+  </article>
+
+  <article class="case rv">
+    <div class="art" style="background:#e2411f">
+      <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Abstract ceramic vessels">
+        <rect y="238" width="400" height="62" fill="#1b1a17"/>
+        <path d="M70 238c-30-60-8-110 30-120 38 10 60 60 30 120z" fill="#f1ebe0"/>
+        <path d="M170 238c-14-40 0-70 18-84v-26h32v26c18 14 32 44 18 84z" fill="#1b1a17"/>
+        <path d="M270 238c-10-30-8-70 22-92 30 22 32 62 22 92z" fill="#e9b53a"/>
+        <ellipse cx="100" cy="118" rx="14" ry="4" fill="#1b1a17"/>
+        <path d="M82 170c20 10 40 10 36 0" stroke="#e2411f" stroke-width="3" fill="none"/>
+        <path d="M184 190h40M180 205h48" stroke="#f1ebe0" stroke-width="2"/>
+        <circle cx="342" cy="60" r="26" fill="none" stroke="#1b1a17" stroke-width="2"/><circle cx="342" cy="60" r="12" fill="#1b1a17"/>
+      </svg>
+    </div>
+    <div class="meta">
+      <span class="num mono">02 &mdash; Marketplace · Web</span>
+      <h3>Brennofen, <em>kiln time for rent</em></h3>
+      <p class="sub">Founding designer, 2024 &middot; 6 months</p>
+      <p>Ceramicists share kilns the way cyclists share workshops: by text message and trust. I designed the booking and firing-log system that kept the trust and dropped the spreadsheets.</p>
+      <div class="stats"><div><b>140</b><small>Studios in 8 weeks</small></div><div><b>0</b><small>Double-booked firings</small></div></div>
+      <button class="more mono" aria-expanded="false"><span>Read the thinking</span><i>+</i></button>
+      <div class="detail"><div><dl>
+        <div><dt class="mono">Problem</dt><dd>A firing is 14 hours and cannot be paused. Calendars built for meetings kept breaking that.</dd></div>
+        <div><dt class="mono">Move</dt><dd>A schedule drawn as a temperature curve. You book the shape of the firing, not a time slot.</dd></div>
+        <div><dt class="mono">Outcome</dt><dd>Hosts adopted it unprompted, then asked for the curve as a printable label for the kiln door.</dd></div>
+      </dl></div></div>
+    </div>
+  </article>
+
+  <article class="case rv">
+    <div class="art" style="background:#2f5d4a">
+      <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Abstract large-type banking screen">
+        <rect x="120" y="26" width="160" height="248" rx="22" fill="#f1ebe0"/>
+        <text x="140" y="80" font-family="Fraunces" font-size="14" fill="#6d675b">Paid today</text>
+        <text x="140" y="130" font-family="Fraunces" font-size="46" font-weight="300" fill="#1b1a17">€ 42</text>
+        <rect x="140" y="150" width="120" height="38" rx="19" fill="#1b1a17"/><text x="200" y="175" font-family="Fraunces" font-size="16" fill="#f1ebe0" text-anchor="middle">Yes, that was me</text>
+        <rect x="140" y="198" width="120" height="38" rx="19" fill="none" stroke="#1b1a17" stroke-width="2"/><text x="200" y="223" font-family="Fraunces" font-size="16" fill="#1b1a17" text-anchor="middle">No, call me</text>
+        <circle cx="60" cy="70" r="30" fill="#e9b53a"/><circle cx="345" cy="230" r="44" fill="none" stroke="#f1ebe0" stroke-width="2"/><circle cx="345" cy="230" r="24" fill="#e2411f"/>
+      </svg>
+    </div>
+    <div class="meta">
+      <span class="num mono">03 &mdash; Fintech · Accessibility</span>
+      <h3>Sparkasse <em>Klar</em></h3>
+      <p class="sub">Senior designer, 2023 &middot; 8 months, with a 12-person team</p>
+      <p>A banking mode for people over 70 who were being locked out by "simple" apps. We tested with 31 customers, in their kitchens, and built the product around the thing they told us they feared most: pressing the wrong thing.</p>
+      <div class="stats"><div><b>31</b><small>Kitchen sessions</small></div><div><b>3&times;</b><small>Remote-banking uptake</small></div></div>
+      <button class="more mono" aria-expanded="false"><span>Read the thinking</span><i>+</i></button>
+      <div class="detail"><div><dl>
+        <div><dt class="mono">Problem</dt><dd>Fear of irreversible actions mattered more than screen size or font size.</dd></div>
+        <div><dt class="mono">Move</dt><dd>Every action is a sentence with a plain "no, call me" exit. Undo is visible, never hidden in a menu.</dd></div>
+        <div><dt class="mono">Outcome</dt><dd>Rolled out to 400 branches; the mode is now the default for new customers over 65.</dd></div>
+      </dl></div></div>
+    </div>
+  </article>
+
+  <article class="case rv">
+    <div class="art" style="background:#1b1a17">
+      <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Abstract night-train route map">
+        <g fill="#f1ebe0"><circle cx="40" cy="30" r="1.5"/><circle cx="120" cy="50" r="1"/><circle cx="210" cy="24" r="1.5"/><circle cx="300" cy="46" r="1"/><circle cx="360" cy="20" r="1.5"/><circle cx="80" cy="90" r="1"/></g>
+        <circle cx="330" cy="70" r="26" fill="#f1ebe0"/><circle cx="342" cy="62" r="24" fill="#1b1a17"/>
+        <path d="M30 230C100 230 110 150 190 150S280 190 370 120" stroke="#e9b53a" stroke-width="3" fill="none" stroke-dasharray="2 8" stroke-linecap="round"/>
+        <g fill="#1b1a17" stroke="#f1ebe0" stroke-width="2.5"><circle cx="30" cy="230" r="8"/><circle cx="190" cy="150" r="8"/><circle cx="370" cy="120" r="8"/></g>
+        <circle cx="190" cy="150" r="3" fill="#e2411f"/>
+        <g font-family="JetBrains Mono" font-size="11" fill="#f1ebe0"><text x="30" y="256">BERLIN 21:48</text><text x="150" y="128">WIEN 05:12</text><text x="300" y="104">BUDAPEST 08:40</text></g>
+        <rect y="270" width="400" height="30" fill="#e2411f" opacity=".9"/><path d="M0 285h400" stroke="#1b1a17" stroke-width="2" stroke-dasharray="20 12"/>
+      </svg>
+    </div>
+    <div class="meta">
+      <span class="num mono">04 &mdash; Travel · Concept to launch</span>
+      <h3>Nachtzug, <em>sleep as a route</em></h3>
+      <p class="sub">Product designer, 2022 &middot; 5 months</p>
+      <p>Booking a sleeper train meant six tabs and a phone call. I redesigned the planner around the night itself: where you fall asleep, where you wake up, and what the window shows you at 6 a.m.</p>
+      <div class="stats"><div><b>+38%</b><small>Sleeper bookings</small></div><div><b>1</b><small>Screen to book</small></div></div>
+      <button class="more mono" aria-expanded="false"><span>Read the thinking</span><i>+</i></button>
+      <div class="detail"><div><dl>
+        <div><dt class="mono">Problem</dt><dd>Timetable logic buries the only thing that matters for night travel: how long you can actually sleep.</dd></div>
+        <div><dt class="mono">Move</dt><dd>Results sorted by hours of sleep, with a shaded bar for the night and a small marker for each border crossing.</dd></div>
+        <div><dt class="mono">Outcome</dt><dd>Shortlisted for a German Design Award; the sleep-bar was adopted across the operator's day products.</dd></div>
+      </dl></div></div>
+    </div>
+  </article>
+</section>
+
+<section class="about" id="about">
+  <div class="sh"><h2>About</h2><span class="mono">The short version</span></div>
+  <div class="ab">
+    <p class="big rv">I'm Mira. I grew up between Enugu and Leipzig, trained as a typographer, and now design <em>software that tells the truth slowly</em>. I work alone, with small teams, and with one client at a time, so the person you meet in the kickoff is the person drawing the screens.</p>
+    <div class="side rv">
+      <svg class="portrait" viewBox="0 0 120 160" aria-label="Abstract portrait of Mira" role="img">
+        <rect width="120" height="160" fill="#e2411f"/><circle cx="60" cy="62" r="26" fill="#1b1a17"/>
+        <path d="M10 160c0-46 22-64 50-64s50 18 50 64z" fill="#2b3f8f"/><circle cx="60" cy="62" r="26" fill="none"/>
+        <path d="M34 58c6-24 46-24 52 0-14-10-38-10-52 0z" fill="#f1ebe0" opacity=".9"/><circle cx="96" cy="26" r="12" fill="#e9b53a"/>
+      </svg>
+      <div><h4 class="mono">I do</h4><ul><li><span>Product strategy &amp; discovery</span><span>01</span></li><li><span>Interface &amp; interaction design</span><span>02</span></li><li><span>Design systems, lean ones</span><span>03</span></li><li><span>Research in people's homes</span><span>04</span></li></ul></div>
+      <div><h4 class="mono">Worked with</h4><ul><li><span>Balkonia</span><span>2025</span></li><li><span>Brennofen</span><span>2024</span></li><li><span>Sparkasse Klar</span><span>2023</span></li><li><span>Nachtzug</span><span>2022</span></li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="sh" style="border-color:#f1ebe055"><h2 style="font-size:clamp(24px,3vw,40px)">Contact</h2><span class="mono">Reply within two days</span></div>
+  <h2 class="rv">Have a thing<br>that should be <em>calmer?</em></h2>
+  <a class="mail" id="mail" href="mailto:hello@miraokafor.studio">hello@miraokafor.studio</a>
+  <div class="links mono"><a href="#">Read.cv</a><a href="#">LinkedIn</a><a href="#">Are.na</a><a href="#">Download CV (PDF)</a></div>
+  <footer class="mono"><span>&copy; 2026 Mira Okafor</span><span>Set in Fraunces &amp; Instrument Sans &middot; Made in Berlin</span></footer>
+</section>
+</main>
+
+<script>
+// clock in Berlin
+(function(){var c=document.getElementById('clock');function t(){try{c.textContent=new Date().toLocaleTimeString('de-DE',{timeZone:'Europe/Berlin',hour:'2-digit',minute:'2-digit'})}catch(e){}}t();setInterval(t,15000)})();
+// marquee
+(function(){var w=['Energy','Money','Travel','Craft','Research','Systems','Type'],h='';for(var i=0;i<4;i++)w.forEach(function(x){h+='<span>'+x+'</span><b>&#10038;</b>'});document.getElementById('mq').innerHTML=h+h})();
+// reveal
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+// expanders
+document.querySelectorAll('button.more').forEach(function(b){b.addEventListener('click',function(){
+  var d=b.parentNode.querySelector('.detail'),o=d.classList.toggle('open');b.setAttribute('aria-expanded',o);b.firstChild.textContent=o?'Close':'Read the thinking'})});
+document.querySelectorAll('.art').forEach(function(a){a.addEventListener('click',function(){a.closest('.case').querySelector('button.more').click()})});
+</script>
+</body>
+</html>

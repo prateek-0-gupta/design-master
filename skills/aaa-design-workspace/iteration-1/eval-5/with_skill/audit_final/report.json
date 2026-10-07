@@ -1,12 +1,17 @@
 {
- "url": "file:///home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-4/with_skill/outputs/index.html",
+ "url": "file:///home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-5/with_skill/outputs/index.html",
  "widths": {
   "390": {
    "overflowPx": 0,
    "smallTargets": [
     {
-     "el": "<a class=\"wm\" href=\"#top\" aria-label=\"Halcyon Coffee Roasters, top of ",
-     "w": 22,
+     "el": "<a class=\"mail\" href=\"mailto:hello@miraokafor.design\">hello@miraokafor",
+     "w": 194,
+     "h": 42
+    },
+    {
+     "el": "<a href=\"https://www.are.na/\" rel=\"noopener\">Are.na</a>",
+     "w": 43,
      "h": 44
     }
    ]
@@ -50,10 +55,9 @@
   }
  },
  "warnings": [
-  "1 touch targets < 44px at 390px",
-  "4 saturated hue families (aim for 1 accent unless colour-coding categories)"
+  "2 touch targets < 44px at 390px"
  ],
- "textNodes": 379,
+ "textNodes": 89,
  "contrastFails": [],
  "tiny": [],
  "fontFamilies": [
@@ -66,7 +70,7 @@
   10,
   999
  ],
- "accentHueBuckets": 4,
+ "accentHueBuckets": 1,
  "imgsWithoutAlt": 0,
  "unnamedControls": [],
  "h1": 1,
@@ -74,51 +78,51 @@
  "reducedMotionCSS": true,
  "focusStops": [
   {
-   "el": "a:Skip to content",
+   "el": "a:Skip to selected wor",
    "visible": true
   },
   {
-   "el": "a:Halcyon",
+   "el": "a:Mira Okafor.",
    "visible": true
   },
   {
-   "el": "a:01Idea",
+   "el": "a:Work",
    "visible": true
   },
   {
-   "el": "a:02Logo",
+   "el": "a:About",
    "visible": true
   },
   {
-   "el": "a:03Colour",
+   "el": "a:Contact",
    "visible": true
   },
   {
-   "el": "a:04Type",
+   "el": "button:Redlines off",
    "visible": true
   },
   {
-   "el": "a:05Photography",
+   "el": "a:See selected work →",
    "visible": true
   },
   {
-   "el": "a:06Voice",
+   "el": "a:or say hello",
    "visible": true
   },
   {
-   "el": "a:07Applications",
+   "el": "a:01\n          \n      ",
    "visible": true
   },
   {
-   "el": "a:08Motion",
+   "el": "a:02\n          \n      ",
    "visible": true
   },
   {
-   "el": "input",
+   "el": "a:03\n          \n      ",
    "visible": true
   },
   {
-   "el": "button:Primary · InkEspress",
+   "el": "a:04\n          \n      ",
    "visible": true
   }
  ],
