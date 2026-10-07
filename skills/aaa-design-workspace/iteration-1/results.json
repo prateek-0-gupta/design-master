@@ -1,0 +1,187 @@
+[
+ [
+  "eval-1",
+  {
+   "with_skill": {
+    "raw": 55,
+    "capped": 55,
+    "axes": {
+     "direction": 7,
+     "typography": 6,
+     "colour": 7,
+     "layout": 7,
+     "craft": 7,
+     "motion": 6,
+     "ux": 7,
+     "content": 8
+    },
+    "gates": "6/6"
+   },
+   "without_skill": {
+    "raw": 57,
+    "capped": 50,
+    "axes": {
+     "direction": 8,
+     "typography": 8,
+     "colour": 7,
+     "layout": 7,
+     "craft": 6,
+     "motion": 7,
+     "ux": 6,
+     "content": 8
+    },
+    "gates": "3/6"
+   },
+   "winner": "with_skill",
+   "why": "B has the more distinctive, editorial design (raw 57 vs 55) but fails three hard gates (contrast, focus visibility, min text size) and has a visibly clipped hero chip, so it is capped at 50. A passes all gates and is clean and shippable at both widths."
+  }
+ ],
+ [
+  "eval-2",
+  {
+   "without_skill": {
+    "raw": 50,
+    "capped": 50,
+    "axes": {
+     "direction": 6,
+     "typography": 7,
+     "colour": 7,
+     "layout": 6,
+     "craft": 6,
+     "motion": 5,
+     "ux": 6,
+     "content": 7
+    },
+    "gates": "2/6"
+   },
+   "with_skill": {
+    "raw": 60,
+    "capped": 60,
+    "axes": {
+     "direction": 7,
+     "typography": 8,
+     "colour": 7,
+     "layout": 8,
+     "craft": 8,
+     "motion": 6,
+     "ux": 8,
+     "content": 8
+    },
+    "gates": "6/6"
+   },
+   "winner": "with_skill",
+   "why": "B passes all gates and has richer, more usable detail (annotated peak, days-of-cover stock meters, counted filters, real deltas including negative). A fails contrast, mobile overflow and focus visibility, and its KPI cards are crowded."
+  }
+ ],
+ [
+  "eval-3",
+  {
+   "with_skill": {
+    "raw": 57,
+    "capped": 57,
+    "axes": {
+     "direction": 7,
+     "typography": 7,
+     "colour": 7,
+     "layout": 7,
+     "craft": 7,
+     "motion": 7,
+     "ux": 8,
+     "content": 7
+    },
+    "gates": "6/6"
+   },
+   "without_skill": {
+    "raw": 59,
+    "capped": 50,
+    "axes": {
+     "direction": 8,
+     "typography": 8,
+     "colour": 7,
+     "layout": 7,
+     "craft": 7,
+     "motion": 7,
+     "ux": 7,
+     "content": 8
+    },
+    "gates": "5/6"
+   },
+   "winner": "with_skill",
+   "why": "B is the more characterful design (mascot, serif voice, device frame) but fails the contrast gate on its primary CTA and Skip, capping it at 50. A is polished, passes every gate, and has clearer progress, so it is the one to ship."
+  }
+ ],
+ [
+  "eval-4",
+  {
+   "without_skill": {
+    "raw": 40,
+    "capped": 40,
+    "axes": {
+     "direction": 6,
+     "typography": 6,
+     "colour": 6,
+     "layout": 5,
+     "craft": 4,
+     "motion": 3,
+     "ux": 4,
+     "content": 6
+    },
+    "gates": "4/6"
+   },
+   "with_skill": {
+    "raw": 59,
+    "capped": 59,
+    "axes": {
+     "direction": 8,
+     "typography": 8,
+     "colour": 7,
+     "layout": 7,
+     "craft": 7,
+     "motion": 7,
+     "ux": 7,
+     "content": 8
+    },
+    "gates": "6/6"
+   },
+   "winner": "with_skill",
+   "why": "B passes all gates and has a far more complete, systematic brand guide (usage rules, tokens, motion, a11y), while A fails contrast, min text size and reduced-motion. Note the supplied screenshots were of an unrelated page for both, so this verdict rests on source and audit reports."
+  }
+ ],
+ [
+  "eval-5",
+  {
+   "with_skill": {
+    "raw": 59,
+    "capped": 59,
+    "axes": {
+     "direction": 7,
+     "typography": 8,
+     "colour": 7,
+     "layout": 7,
+     "craft": 8,
+     "motion": 6,
+     "ux": 8,
+     "content": 8
+    },
+    "gates": "6/6"
+   },
+   "without_skill": {
+    "raw": 59,
+    "capped": 50,
+    "axes": {
+     "direction": 9,
+     "typography": 8,
+     "colour": 8,
+     "layout": 8,
+     "craft": 6,
+     "motion": 7,
+     "ux": 5,
+     "content": 8
+    },
+    "gates": "4/6"
+   },
+   "winner": "with_skill",
+   "why": "B is the more distinctive and memorable design, but it fails the contrast gate with real small-text failures and has clipped and tiny text, so it caps at 50. A passes every gate with a consistent, polished system and a working contact form, so I would ship A and fix B's contrast and clipping if the bolder direction is wanted."
+  }
+ ]
+]
