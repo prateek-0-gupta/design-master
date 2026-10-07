@@ -81,7 +81,9 @@ def do_video(m, d, idx):
     frames = []
     for k, ts in enumerate(times):
         f = f'{prefix}_f{k}.jpg'
-        sh('ffmpeg', '-v', 'error', '-y', '-ss', f'{ts:.3f}', '-i', mp4, '-frames:v', '1', '-vf', "scale='min(1600,iw)':-2", '-q:v', '3', f)
+        for back in (0, 0.3, 0.8, 1.5):  # seeking near EOF can yield no frame; step back
+            sh('ffmpeg', '-v', 'error', '-y', '-ss', f'{max(0, ts - back):.3f}', '-i', mp4, '-frames:v', '1', '-vf', "scale='min(1600,iw)':-2", '-q:v', '3', f)
+            if os.path.exists(f): break
         frames.append(f)
     sh('ffmpeg', '-v', 'error', '-y', '-ss', f'{times[n // 2]:.3f}', '-i', mp4, '-frames:v', '1', '-q:v', '2', prefix + '_key.jpg')
     contact_sheet(frames, times, prefix + '_sheet.jpg')
