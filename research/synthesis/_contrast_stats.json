@@ -8,11 +8,11 @@
   "pairs_below_4_5_share": 44.5
  },
  "brandguidelines": {
-  "n": 21,
-  "any_below_4_5": 100.0,
-  "any_below_3": 76.2,
-  "median_min_ratio": 1.82,
-  "pairs_reported": 170,
-  "pairs_below_4_5_share": 42.9
+  "n": 65,
+  "any_below_4_5": 86.2,
+  "any_below_3": 55.4,
+  "median_min_ratio": 2.82,
+  "pairs_reported": 401,
+  "pairs_below_4_5_share": 35.4
  }
 }

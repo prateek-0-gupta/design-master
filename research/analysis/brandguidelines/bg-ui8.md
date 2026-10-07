@@ -1,7 +1,7 @@
 ---
 id: bg-ui8
 source: brandguidelines
-category: marketplace
+category: promoted
 status: analyzed
 title: "UI8 — The Ultimate Marketplace for Designers (homepage)"
 creator: "UI8 (Robot Global FZCO)"

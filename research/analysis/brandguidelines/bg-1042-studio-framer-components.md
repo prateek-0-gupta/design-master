@@ -1,7 +1,7 @@
 ---
 id: bg-1042-studio-framer-components
 source: brandguidelines
-category: store
+category: promoted
 status: analyzed
 title: "1042 Studio Store — Premium Components & Design Assets"
 creator: "1042 Studio"

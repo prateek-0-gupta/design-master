@@ -1,7 +1,7 @@
 ---
 id: bg-asana
 source: brandguidelines
-category: promoted-page
+category: guideline
 status: analyzed
 title: "Asana: Brand & Product (case study)"
 creator: "Micah Daigle (portfolio page, not an Asana-owned guideline)"

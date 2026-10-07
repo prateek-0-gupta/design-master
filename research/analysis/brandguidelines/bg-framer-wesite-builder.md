@@ -1,7 +1,7 @@
 ---
 id: bg-framer-wesite-builder
 source: brandguidelines
-category: promoted-landing
+category: promoted
 status: analyzed
 title: "Framer: AI design agent (homepage)"
 creator: "Framer"
