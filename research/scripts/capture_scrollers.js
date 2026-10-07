@@ -21,7 +21,18 @@ const RAW = path.join(__dirname, '../raw/brandguidelines');
           if (!best) return null; best.setAttribute('data-cap-scroller', '1'); const r = best.getBoundingClientRect();
           return { h: best.scrollHeight, ch: best.clientHeight, top: r.top };
         });
-        if (!info) { console.log('no scroller', id, name); await page.close(); continue; }
+        if (!info) {
+          // wheel mode (smooth-scroll libraries): viewport screenshots per wheel step until frames stop changing
+          await page.mouse.move(900, 450); let prev = null, k = 0;
+          for (const t of fs.readdirSync(path.join(d, 'tiles')).filter(t => t.startsWith(name + '_'))) fs.unlinkSync(path.join(d, 'tiles', t));
+          for (; k < 30; k++) {
+            const buf = await page.screenshot({ type: 'jpeg', quality: 85 });
+            if (prev && buf.equals(prev)) break;
+            fs.writeFileSync(path.join(d, 'tiles', `${name}_w${String(k + 1).padStart(2, '0')}.jpg`), buf); prev = buf;
+            await page.mouse.wheel(0, 800); await sleep(1400);
+          }
+          console.log('wheel', id, name, k, 'frames'); await page.close(); continue;
+        }
         const steps = Math.min(Math.ceil(info.h / info.ch), 30); const parts = [];
         for (let k = 0; k < steps; k++) {
           await page.evaluate(([k]) => { const el = document.querySelector('[data-cap-scroller]'); el.scrollTop = k * el.clientHeight; }, [k]); await sleep(900);
