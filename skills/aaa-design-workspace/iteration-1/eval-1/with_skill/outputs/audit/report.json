@@ -64,7 +64,7 @@
   "7 distinct radii: 2, 6, 8, 14, 18, 36, 999 (aim for 2-3 + pill)",
   "4 saturated hue families (aim for 1 accent unless colour-coding categories)"
  ],
- "textNodes": 96,
+ "textNodes": 158,
  "contrastFails": [],
  "tiny": [],
  "fontFamilies": [

@@ -32,7 +32,7 @@ Direction: Neutral-swiss base, deep-teal single accent, one physical layer: the 
   --font-mono:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,monospace;
   --radius-1:8px; --radius-2:14px; --radius-pill:9999px;
   --fs-xs:12px; --fs-sm:14px; --fs-base:16px; --fs-md:20px; --fs-lg:25px; --fs-xl:clamp(1.75rem,2.2vw + 1rem,2.5rem);
-  --fs-display:clamp(2.5rem,4.6vw + 1rem,5rem);
+  --fs-display:clamp(2.5rem,3.6vw + 1rem,4.5rem);
   --lh-tight:1.04; --lh-snug:1.25; --lh-body:1.55;
   --s-1:4px; --s-2:8px; --s-3:12px; --s-4:16px; --s-5:24px; --s-6:32px; --s-7:48px; --s-8:64px; --s-9:96px; --s-10:128px;
   --container:1200px; --margin:clamp(16px,4vw,48px);
@@ -120,8 +120,8 @@ section{padding-block:clamp(64px,10vw,128px)}
 .hero-stats dd small{font-size:.5em;color:var(--text-3);letter-spacing:0;margin-left:2px}
 
 /* signature: phone + slip */
-.stage{position:relative;display:grid;place-items:center;min-height:560px}
-.phone{width:min(340px,100%);margin-right:70px;margin-bottom:70px;background:var(--canvas);border:1px solid var(--hairline);border-radius:36px;padding:14px;box-shadow:var(--shadow-3),var(--highlight);position:relative;z-index:2}
+.stage{position:relative;display:grid;place-items:center;min-height:600px}
+.phone{width:min(340px,100%);margin-right:90px;margin-bottom:175px;background:var(--canvas);border:1px solid var(--hairline);border-radius:36px;padding:14px;box-shadow:var(--shadow-3),var(--highlight);position:relative;z-index:2}
 .phone-top{display:flex;align-items:center;gap:10px;padding:8px 8px 14px;border-bottom:1px solid var(--hairline)}
 .avatar{width:36px;height:36px;border-radius:50%;background:var(--accent-soft);color:var(--accent-ink);display:grid;place-items:center;font-weight:600;font-size:var(--fs-sm)}
 .phone-top strong{display:block;font-size:var(--fs-sm);font-weight:600;line-height:1.2}
@@ -143,7 +143,7 @@ section{padding-block:clamp(64px,10vw,128px)}
 .chip[aria-pressed=true] kbd{color:var(--on-accent)}
 .chip:disabled{cursor:default}
 
-.slip{position:absolute;right:-28px;bottom:-14px;width:min(250px,64%);z-index:3;background:#fffefb;border:1px solid var(--hairline);border-radius:0;box-shadow:var(--shadow-2);transform:rotate(2.2deg);transition:transform var(--dur-4) var(--ease-out);padding:16px 18px 18px;font-family:var(--font-mono)}
+.slip{position:absolute;right:-10px;bottom:0;width:min(270px,72%);z-index:3;background:#fffefb;border:1px solid var(--hairline);border-radius:0;box-shadow:var(--shadow-2);transform:rotate(2.2deg);transition:transform var(--dur-4) var(--ease-out);padding:16px 18px 18px;font-family:var(--font-mono)}
 .slip::before,.slip::after{content:"";position:absolute;left:-7px;width:14px;height:14px;border-radius:50%;background:var(--canvas);border:1px solid var(--hairline);top:96px}
 .slip::after{left:auto;right:-7px}
 .slip-head{display:flex;justify-content:space-between;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-3)}
@@ -165,11 +165,12 @@ section{padding-block:clamp(64px,10vw,128px)}
 .replay{position:absolute;left:0;bottom:-4px;z-index:4;background:none;border:0;color:var(--text-2);font:500 var(--fs-sm)/1 var(--font-sans);min-height:44px;padding:0 8px;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
 .replay:hover{color:var(--text-1)}
 @media(max-width:960px){
+  .phone{margin-right:0}
   .hero-grid{grid-template-columns:1fr}
   .stage{min-height:0;padding-bottom:60px}
   .slip{right:0;bottom:-4px}
 }
-@media(max-width:520px){.hero-stats{gap:var(--s-5);flex-wrap:wrap}.slip{position:relative;right:auto;bottom:auto;margin:-24px auto 0;width:calc(100% - 24px);transform:rotate(0)}.stage{display:block;padding-bottom:40px}.phone{margin-inline:auto}.replay{position:static;display:block;margin:var(--s-3) auto 0}}
+@media(max-width:520px){.hero-stats{gap:var(--s-5);flex-wrap:wrap}.slip{position:relative;right:auto;bottom:auto;margin:-24px auto 0;width:calc(100% - 24px);transform:rotate(0)}.stage{display:block;padding-bottom:40px}.phone{margin:0 auto}.replay{position:static;display:block;margin:var(--s-3) auto 0}}
 
 /* proof */
 .proof{padding-block:var(--s-8);border-block:1px solid var(--hairline);background:var(--surface-1)}
@@ -389,7 +390,7 @@ footer.site{padding-block:var(--s-8) var(--s-6);background:var(--canvas)}
   <div class="wrap hero-grid">
     <div>
       <a class="pill" href="#features"><b>NEW</b> Waitlist auto-fill is live</a>
-      <h1 id="h1">Fewer no-shows.<br><span class="dim">One text back.</span></h1>
+      <h1 id="h1"><span style="white-space:nowrap">Fewer no-shows.</span><br><span class="dim">One text back.</span></h1>
       <p class="lede">Cadence sends two-way SMS reminders that patients actually answer. Confirm, reschedule or cancel with a single reply, and the freed slot goes straight to your waitlist.</p>
       <div class="cta-row">
         <a class="btn btn-primary" href="#start">Start 30 days free <svg class="arrow" width="16" height="16" aria-hidden="true"><use href="#i-arrow"/></svg></a>

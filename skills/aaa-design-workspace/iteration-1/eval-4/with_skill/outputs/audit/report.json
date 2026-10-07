@@ -20,8 +20,8 @@
  },
  "gates": {
   "contrast": {
-   "pass": false,
-   "fails": 1,
+   "pass": true,
+   "fails": 0,
    "note": "text over background-images is listed but must be verified visually"
   },
   "noOverflow390": {
@@ -43,44 +43,32 @@
    "pass": false,
    "tiny": [
     {
-     "text": "01",
-     "size": 11
+     "text": "COFFEE ROASTERS",
+     "size": 6.5
     },
     {
-     "text": "02",
-     "size": 11
+     "text": "GUJI · WASHED",
+     "size": 7
     },
     {
-     "text": "03",
-     "size": 11
+     "text": "1,950 M · 250 G",
+     "size": 6.5
     },
     {
-     "text": "04",
-     "size": 11
+     "text": "ROASTED 03 OCT · ALFAMA, LISBOA",
+     "size": 8
     },
     {
-     "text": "05",
-     "size": 11
+     "text": "FLAT WHITE · 8 OZ",
+     "size": 7
     },
     {
-     "text": "06",
-     "size": 11
+     "text": "COFFEE ROASTERS",
+     "size": 8
     },
     {
-     "text": "07",
-     "size": 11
-    },
-    {
-     "text": "08",
-     "size": 11
-    },
-    {
-     "text": "x",
-     "size": 11
-    },
-    {
-     "text": "x",
-     "size": 11
+     "text": "ABERTO 07:30–17:00",
+     "size": 7
     }
    ]
   },
@@ -92,79 +80,51 @@
  },
  "warnings": [
   "1 touch targets < 44px at 390px",
-  "4 font families: Inter, Instrument Serif, JetBrains Mono, Arial",
-  "5 distinct radii: 3, 4, 8, 10, 999 (aim for 2-3 + pill)",
-  "3 saturated hue families (aim for 1 accent unless colour-coding categories)"
+  "4 saturated hue families (aim for 1 accent unless colour-coding categories)"
  ],
- "textNodes": 392,
- "contrastFails": [
-  {
-   "text": "Coffee Roasters",
-   "fg": "#b8431a",
-   "bg": "#ebe3d4",
-   "ratio": 4.27,
-   "need": 4.5,
-   "size": 5.2,
-   "imageBehind": false,
-   "selector": "small"
-  }
- ],
+ "textNodes": 379,
+ "contrastFails": [],
  "tiny": [
   {
-   "text": "01",
-   "size": 11
+   "text": "COFFEE ROASTERS",
+   "size": 6.5
   },
   {
-   "text": "02",
-   "size": 11
+   "text": "GUJI · WASHED",
+   "size": 7
   },
   {
-   "text": "03",
-   "size": 11
+   "text": "1,950 M · 250 G",
+   "size": 6.5
   },
   {
-   "text": "04",
-   "size": 11
+   "text": "ROASTED 03 OCT · ALFAMA, LISBOA",
+   "size": 8
   },
   {
-   "text": "05",
-   "size": 11
+   "text": "FLAT WHITE · 8 OZ",
+   "size": 7
   },
   {
-   "text": "06",
-   "size": 11
+   "text": "COFFEE ROASTERS",
+   "size": 8
   },
   {
-   "text": "07",
-   "size": 11
-  },
-  {
-   "text": "08",
-   "size": 11
-  },
-  {
-   "text": "x",
-   "size": 11
-  },
-  {
-   "text": "x",
-   "size": 11
+   "text": "ABERTO 07:30–17:00",
+   "size": 7
   }
  ],
  "fontFamilies": [
   "Inter",
   "Instrument Serif",
-  "JetBrains Mono",
-  "Arial"
+  "JetBrains Mono"
  ],
  "radii": [
-  3,
   4,
-  8,
   10,
   999
  ],
- "accentHueBuckets": 3,
+ "accentHueBuckets": 4,
  "imgsWithoutAlt": 0,
  "unnamedControls": [],
  "h1": 1,
@@ -225,7 +185,6 @@
   "reduced": 0
  },
  "hardFails": [
-  "contrast",
   "minTextSize"
  ]
 }
