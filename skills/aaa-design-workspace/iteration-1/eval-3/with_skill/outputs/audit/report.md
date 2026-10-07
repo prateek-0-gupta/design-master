@@ -10,10 +10,10 @@
 - ✓ altAndNames: {"imgsWithoutAlt":0,"unnamedControls":[]}
 
 **Warnings:**
-- 5 distinct radii: 12, 14, 24, 40, 999 (aim for 2-3 + pill)
+- none
 
 **Worst contrast pairs:**
 
-Fonts: Plus Jakarta Sans, Arial | radii: 12, 14, 24, 40, 999
+Fonts: Plus Jakarta Sans, Arial | radii: 14, 24, 40, 999
 
 Screenshots: /home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-3/with_skill/outputs/audit/shot-390.png, /home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-3/with_skill/outputs/audit/shot-768.png, /home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-3/with_skill/outputs/audit/shot-1440.png, /home/user/design-master/skills/aaa-design-workspace/iteration-1/eval-3/with_skill/outputs/audit/shot-1440-reduced.png

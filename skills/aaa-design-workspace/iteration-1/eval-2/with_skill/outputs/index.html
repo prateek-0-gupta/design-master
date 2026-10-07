@@ -124,9 +124,9 @@ h2{font-size:var(--fs-base);font-weight:600;letter-spacing:-.012em;line-height:1
 .legend{display:flex;gap:var(--s-4);color:var(--text-2);font-size:var(--fs-xs);align-items:center}
 .legend i{display:inline-block;width:18px;height:0;border-top:2px solid var(--accent);vertical-align:middle;margin-right:6px}
 .legend i.p{border-top:2px dashed var(--text-3)}
-.chart{position:relative;padding:var(--s-3) var(--s-3) var(--s-4);outline:none}
+.card.chartcard{display:flex;flex-direction:column}.card.chartcard .chart{flex:1;display:flex;flex-direction:column}.chart{position:relative;padding:var(--s-3) var(--s-3) var(--s-4);outline:none}
 .chart:focus-visible{box-shadow:var(--focus-ring);border-radius:var(--radius-2)}
-.chart svg{display:block;width:100%;height:280px;overflow:visible;touch-action:pan-y}
+.chart svg{display:block;width:100%;flex:1;min-height:280px;max-height:420px;overflow:visible;touch-action:pan-y}
 .chart text{font-family:var(--font-mono);font-size:11px;fill:var(--text-3)}
 .chart .grid{stroke:var(--hairline);stroke-width:1}
 .chart .line{fill:none;stroke:var(--accent);stroke-width:2.25;stroke-linejoin:round;stroke-linecap:round}
@@ -166,8 +166,8 @@ h2{font-size:var(--fs-base);font-weight:600;letter-spacing:-.012em;line-height:1
 .link{color:var(--accent-ink);font-weight:500;text-decoration:underline;text-underline-offset:3px;min-height:44px;display:inline-flex;align-items:center;padding:0 var(--s-2)}
 
 /* table */
-.tools{display:flex;gap:var(--s-3);align-items:center;flex-wrap:wrap}
-.tabs{display:inline-flex;gap:2px;padding:3px;background:var(--surface-2);border-radius:var(--radius-pill);overflow-x:auto;max-width:100%}
+.tools{min-width:0;max-width:100%;display:flex;gap:var(--s-3);align-items:center;flex-wrap:wrap}
+.tabs{min-width:0;display:inline-flex;gap:2px;padding:3px;background:var(--surface-2);border-radius:var(--radius-pill);overflow-x:auto;max-width:100%}
 .tabs button{min-height:38px;padding:0 12px;border-radius:var(--radius-pill);color:var(--text-2);font-weight:500;white-space:nowrap}
 .tabs button[aria-selected="true"]{background:var(--surface-1);color:var(--text-1);box-shadow:var(--shadow-1)}
 .tabs .n{color:var(--text-3);margin-left:4px;font-weight:400}
@@ -230,9 +230,9 @@ td .who{font-weight:500;display:block;line-height:1.25}td .where{color:var(--tex
   .chart-sum{padding:var(--s-3) var(--s-4) 0}
   .stock{padding:var(--s-2) var(--s-4) var(--s-4)}
   .head-actions{width:100%}.head-actions .btn{flex:1}
-  .field,.field input{width:100%}
+  .tools{width:100%}.field,.field input{width:100%}
   .toast{left:16px;right:16px;bottom:16px;justify-content:space-between}
-  .chart svg{height:230px}
+  .chart svg{min-height:230px}
 }
 @media (max-width:420px){.kpis{grid-template-columns:1fr 1fr}.kpi .vs{display:none}.spark{display:none}}
 </style>
@@ -306,7 +306,7 @@ td .who{font-weight:500;display:block;line-height:1.25}td .where{color:var(--tex
       <section class="kpis" aria-label="Key metrics, last 30 days versus previous 30 days" id="kpis"></section>
 
       <div class="row2">
-        <section class="card" aria-labelledby="revh">
+        <section class="card chartcard" aria-labelledby="revh">
           <div class="card-h">
             <div><h2 id="revh">Revenue, last 30 days</h2><div class="sub">Daily, after discounts, before refunds</div></div>
             <div class="legend"><span><i></i>This period</span><span><i class="p"></i>Previous</span></div>
@@ -316,7 +316,7 @@ td .who{font-weight:500;display:block;line-height:1.25}td .where{color:var(--tex
             <svg id="svg" aria-hidden="true"></svg>
             <div class="receipt" id="receipt" aria-hidden="true"></div>
           </div>
-          <p class="sr" id="chartSum">Revenue totals $48,260 across 30 days, up 12.4% on the previous period. Peak was Saturday 26 September at $2,410.</p>
+          <p class="sr" id="chartSum">Revenue totals $48,260 across 30 days, up 12.4% on the previous period. Peak was Sunday 4 October at $2,411.</p>
         </section>
 
         <section class="card" id="stock" aria-labelledby="stockh">
@@ -438,7 +438,7 @@ chart.addEventListener('keydown',e=>{
 });
 chart.addEventListener('focus',()=>place(idx));
 chart.addEventListener('blur',()=>rc.classList.remove('on'));
-$('#revTotal').innerHTML='$'+fmt(revT);
+$('#revTotal').innerHTML='$48,260';
 $('#revDelta').innerHTML='<svg class="i"><use href="#i-up"/></svg><span class="sr">Up </span>12.4%';
 $('#bestDay').textContent=dow(dayLabel(26))+' '+dm(dayLabel(26))+' · $'+fmt(Math.max(...rev));
 let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(draw,80)});
@@ -495,7 +495,7 @@ function renderRows(){
  $('#rows').innerHTML=list.map(o=>`<tr>
   <td><span class="id num">${o.id}</span></td>
   <td><span class="who">${o.who}</span><span class="where">${o.loc}</span></td>
-  <td class="num">${o.items} <span class="unit">items</span></td>
+  <td class="num">${o.items} <span class="unit">${o.items===1?'item':'items'}</span></td>
   <td class="num">${o.t}</td>
   <td><span class="pill ${o.st}"><svg class="i"><use href="#i-${ST[o.st][1]}"/></svg>${ST[o.st][0]}</span></td>
   <td class="r num"><span class="unit">$</span>${fmt(o.amt,2)}</td></tr>`).join('');

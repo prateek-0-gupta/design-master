@@ -1,0 +1,677 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Halcyon Coffee Roasters — Brand Identity</title>
+<!--
+BRIEF
+Subject: brand identity guidelines for Halcyon Coffee Roasters, a specialty roaster in Lisbon (Alfama roastery, 3 cafés).
+Audience & job: designers, printers, café staff; find a rule, see proof, copy a value.
+Tone: calm, exact, sun-warmed (not hushed, not hip, not "artisanal").
+Direction: Editorial Warm base + ONE expressive layer: the brand's own device, the "horizon arc" (sun over calm water), used as texture and as the logo's construction.
+Signature moment: the logo size tester. Drag the lockup down and it flips to a designed "below minimum" state and tells you to switch to the mark.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* brand colours (single source; every value below derives from these) */
+  --espresso:#1f1713; --paper:#f6f1e8; --kingfisher:#0e5a63; --ember:#b8431a; --crema:#e4cfae; --azulejo:#cfe0dd;
+  /* surfaces */
+  --canvas:var(--paper); --surface-1:#ebe3d4; --surface-2:#e0d6c3; --ink-band:var(--espresso);
+  --hairline:rgb(31 23 19/.13); --border-control:#857868;
+  /* text (paper: 15.7 / 7.2 / 5.6) */
+  --text-1:var(--espresso); --text-2:#5a4e44; --text-3:#6b5e53;
+  --on-ink:var(--paper); --on-ink-2:#cdc2b1; --on-ink-accent:#7fc4c9;
+  --accent:var(--kingfisher); --accent-ink:var(--kingfisher); --on-accent:var(--paper); --signal:var(--ember);
+  --success-ink:#2f6b3a;
+  --font-display:"Instrument Serif",Georgia,serif; --font-sans:"Inter",ui-sans-serif,system-ui,sans-serif; --font-mono:"JetBrains Mono",ui-monospace,monospace;
+  --radius-1:4px; --radius-2:10px; --radius-pill:9999px;
+  --s-1:4px; --s-2:8px; --s-3:12px; --s-4:16px; --s-5:24px; --s-6:32px; --s-7:48px; --s-8:64px; --s-9:96px;
+  --dur-1:120ms; --dur-2:200ms; --dur-3:320ms; --dur-5:900ms;
+  --ease-out:cubic-bezier(.2,.8,.2,1);
+  --shadow-2:0 2px 4px rgb(60 40 20/.05), 0 18px 40px -12px rgb(60 40 20/.22);
+  --margin:clamp(16px,6vw,104px);
+  --focus-ring:0 0 0 2px var(--canvas),0 0 0 4px var(--accent-ink);
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{font:400 17px/1.55 var(--font-sans);background:var(--canvas);color:var(--text-1);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit}
+:focus-visible{outline:none;box-shadow:var(--focus-ring);border-radius:var(--radius-1)}
+.on-ink :focus-visible{box-shadow:0 0 0 2px var(--ink-band),0 0 0 4px var(--on-ink-accent)}
+.mono{font:500 12px/1.3 var(--font-mono);letter-spacing:.08em;text-transform:uppercase}
+.num{font-variant-numeric:tabular-nums}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:var(--s-4);top:-60px;background:var(--espresso);color:var(--paper);padding:var(--s-3) var(--s-4);border-radius:var(--radius-1);z-index:50}
+.skip:focus{top:var(--s-3)}
+
+/* top bar */
+.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:var(--s-4);padding:0 var(--margin);min-height:56px;background:rgb(246 241 232/.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--hairline)}
+.top .wm{display:flex;align-items:center;gap:var(--s-2);text-decoration:none;font:400 22px/1 var(--font-display);min-height:44px;letter-spacing:-.01em}
+.top .wm svg{width:22px;height:22px}
+.top nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.top nav a{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 10px;text-decoration:none;color:var(--text-2);white-space:nowrap;font-size:14px;border-radius:var(--radius-1);transition:color var(--dur-1)}
+.top nav a i{font:500 11px var(--font-mono);color:var(--text-3);font-style:normal}
+.top nav a:hover,.top nav a[aria-current="true"]{color:var(--text-1)}
+.top nav a[aria-current="true"]{box-shadow:inset 0 -2px 0 var(--accent)}
+
+/* hero */
+.hero{position:relative;background:var(--kingfisher);color:var(--on-accent);padding:clamp(56px,9vw,128px) var(--margin) 0;overflow:hidden;display:grid;grid-template-columns:repeat(12,1fr);gap:var(--s-5)}
+.hero::before{content:"";position:absolute;left:50%;bottom:-2px;width:min(1500px,170vw);aspect-ratio:2/1;transform:translateX(-50%);
+  background:repeating-radial-gradient(circle at 50% 100%,transparent 0 46px,rgb(246 241 232/.16) 46px 47px);border-radius:50% 50% 0 0/100% 100% 0 0;pointer-events:none}
+.hero .stamp{grid-column:1/-1;display:flex;justify-content:space-between;gap:var(--s-4);flex-wrap:wrap;color:var(--on-accent);position:relative}
+.hero h1{grid-column:1/-1;font:400 clamp(3.4rem,10.5vw,10rem)/.9 var(--font-display);letter-spacing:-.035em;margin-top:var(--s-7);position:relative}
+.hero h1 em{font-style:italic;letter-spacing:-.02em;color:var(--crema)}
+.hero .idea{grid-column:1/span 6;font:400 clamp(1.25rem,1vw + 1rem,1.7rem)/1.35 var(--font-display);max-width:30ch;margin-top:var(--s-6);position:relative}
+.hero .sun{grid-column:8/-1;align-self:end;justify-self:end;position:relative;width:min(100%,360px);margin-top:var(--s-6);animation:rise var(--dur-5) var(--ease-out) both}
+.hero .sun svg{display:block;width:100%;height:auto;color:var(--paper)}
+.hero .pad{grid-column:1/-1;height:var(--s-8)}
+@keyframes rise{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+
+/* chapters */
+.ch{padding:var(--s-9) var(--margin);border-bottom:1px solid var(--hairline);display:grid;grid-template-columns:repeat(12,1fr);gap:var(--s-5)}
+.ch>.head{grid-column:1/4}
+.ch>.body{grid-column:4/-1;min-width:0}
+.ch h2{font:400 clamp(2.25rem,3vw + 1rem,3.5rem)/1 var(--font-display);letter-spacing:-.02em;margin-top:var(--s-3)}
+.ch .head p{color:var(--text-2);font-size:15px;margin-top:var(--s-4);max-width:30ch}
+.rule{font:400 clamp(1.5rem,1.4vw + 1rem,2.1rem)/1.2 var(--font-display);letter-spacing:-.012em;max-width:26em;margin-bottom:var(--s-4)}
+.rule em{font-style:italic}
+.spec{color:var(--text-3);margin-bottom:var(--s-6)}
+.sub{margin:var(--s-8) 0 var(--s-4);color:var(--text-3);display:flex;gap:var(--s-3);align-items:center}
+.sub::after{content:"";flex:1;height:1px;background:var(--hairline)}
+.ink{background:var(--ink-band);color:var(--on-ink)}
+.ink .mono,.ink .spec{color:var(--on-ink-2)}
+.ink .head p{color:var(--on-ink-2)}
+
+/* logo */
+.lockup{display:inline-flex;align-items:center;gap:.34em;color:currentColor;font-size:var(--u,40px);line-height:1}
+.lockup svg{width:1.05em;height:1.05em;flex:none}
+.lockup .t{display:flex;flex-direction:column;gap:.14em}
+.lockup .t b{font:400 1em/.9 var(--font-display);letter-spacing:-.025em}
+.lockup .t small{font:500 .2em/1 var(--font-mono);letter-spacing:.2em;text-transform:uppercase}
+.stage{border-radius:var(--radius-2);background:var(--surface-1);border:1px solid var(--hairline);padding:var(--s-7) var(--s-6);display:grid;place-items:center;min-height:240px;position:relative;overflow:hidden}
+.stage.grid-bg{background-image:linear-gradient(var(--hairline) 1px,transparent 1px),linear-gradient(90deg,var(--hairline) 1px,transparent 1px);background-size:24px 24px;background-color:var(--surface-1)}
+.clear{position:relative;padding:var(--x,20px);border:1.5px dashed var(--accent-ink);--u:64px}
+.clear::before{content:"";position:absolute;inset:var(--x,20px);border:1px solid var(--hairline);pointer-events:none}
+.clear span{position:absolute;font:500 11px var(--font-mono);color:var(--accent-ink);background:var(--surface-1);padding:0 4px}
+.clear .xt{top:-8px;left:50%;transform:translateX(-50%)}.clear .xb{bottom:-8px;left:50%;transform:translateX(-50%)}
+.clear .xl{left:-4px;top:50%;transform:translateY(-50%) rotate(-90deg);transform-origin:center}.clear .xr{right:-4px;top:50%;transform:translateY(-50%) rotate(90deg)}
+.cols{display:grid;grid-template-columns:repeat(12,1fr);gap:var(--s-5)}
+.c4{grid-column:span 4}.c5{grid-column:span 5}.c6{grid-column:span 6}.c7{grid-column:span 7}.c8{grid-column:span 8}.c3{grid-column:span 3}.c12{grid-column:1/-1}
+.card{background:var(--surface-1);border:1px solid var(--hairline);border-radius:var(--radius-2);padding:var(--s-5);box-shadow:inset 0 1px 0 rgb(255 255 255/.5)}
+.card h3,.h3{font:400 1.5rem/1.15 var(--font-display);letter-spacing:-.012em;margin-bottom:var(--s-2)}
+.card p{color:var(--text-2);font-size:15px}
+.tester{display:grid;gap:var(--s-4)}
+.tester-stage{border-radius:var(--radius-2);background:var(--surface-1);border:1px solid var(--hairline);min-height:200px;display:grid;place-items:center;padding:var(--s-6);position:relative}
+.tester-ctl{display:flex;gap:var(--s-4);align-items:center;flex-wrap:wrap}
+.tester-ctl label{font:500 12px var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--text-2)}
+input[type=range]{flex:1;min-width:180px;accent-color:var(--accent);height:44px;background:transparent}
+.badge{display:inline-flex;align-items:center;gap:6px;min-height:28px;padding:0 10px;border-radius:var(--radius-pill);font:500 12px var(--font-mono);letter-spacing:.04em}
+.badge.ok{background:#dcebd9;color:var(--success-ink)}
+.badge.bad{background:#f4dacd;color:#8f3210}
+.badge.mid{background:var(--azulejo);color:var(--accent-ink)}
+.tester-msg{color:var(--text-2);font-size:15px;min-height:3em}
+.bg-row{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--s-4)}
+.bg{border-radius:var(--radius-2);padding:var(--s-6) var(--s-4);display:grid;place-items:center;aspect-ratio:4/3;--u:30px;border:1px solid var(--hairline)}
+.bg.a{background:var(--paper);color:var(--espresso)}.bg.b{background:var(--kingfisher);color:var(--paper)}.bg.c{background:var(--espresso);color:var(--paper)}.bg.d{background:var(--crema);color:var(--espresso)}
+.cap{font:500 12px var(--font-mono);color:var(--text-3);margin-top:var(--s-2);letter-spacing:.04em}
+.misuse{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s-4);list-style:none;padding:0}
+.misuse li{position:relative}
+.misuse .tile{position:relative;aspect-ratio:4/3;border-radius:var(--radius-2);background:var(--surface-1);border:1px solid var(--hairline);display:grid;place-items:center;overflow:hidden;--u:26px}
+.misuse .tile::after{content:"";position:absolute;inset:0;background:linear-gradient(to top right,transparent calc(50% - .75px),var(--signal) calc(50% - .75px),var(--signal) calc(50% + .75px),transparent calc(50% + .75px))}
+.misuse p{font-size:14px;color:var(--text-2);margin-top:var(--s-2)}
+.misuse p b{color:var(--text-1);font-weight:500}
+
+/* colour */
+.sw-main{display:grid;grid-template-columns:repeat(6,1fr);gap:0;border-radius:var(--radius-2);overflow:hidden;border:1px solid var(--hairline);margin-bottom:var(--s-4)}
+.sw-main i{display:block;height:28px}
+.swatches{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s-4)}
+.sw{border-radius:var(--radius-2);overflow:hidden;border:1px solid var(--hairline);background:var(--surface-1);display:flex;flex-direction:column}
+.sw button.chip{all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;justify-content:space-between;min-height:176px;padding:var(--s-4);background:var(--c);color:var(--fg);transition:filter var(--dur-1)}
+.sw button.chip:hover{filter:brightness(1.06)}
+.sw button.chip:active{filter:brightness(.94)}
+.sw button.chip:focus-visible{box-shadow:inset 0 0 0 3px var(--fg)}
+.sw .nm{font:400 1.8rem/1 var(--font-display);letter-spacing:-.015em}
+.sw .role{font:500 12px var(--font-mono);letter-spacing:.08em;text-transform:uppercase;opacity:1}
+.sw .copy{font:500 12px var(--font-mono);letter-spacing:.04em;display:flex;align-items:center;gap:6px}
+.sw dl{display:grid;grid-template-columns:auto 1fr;gap:4px var(--s-4);padding:var(--s-4);font:400 12.5px/1.5 var(--font-mono);color:var(--text-2)}
+.sw dt{color:var(--text-3)}.sw dd{margin:0}
+.pairs{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--s-3)}
+.pair{border-radius:var(--radius-2);padding:var(--s-4);display:flex;flex-direction:column;gap:var(--s-3);min-height:128px;justify-content:space-between;border:1px solid var(--hairline)}
+.pair .aa{font:500 12px var(--font-mono);letter-spacing:.04em;display:flex;justify-content:space-between;gap:var(--s-2)}
+.pair .aa b{font-weight:500;border:1px solid currentColor;border-radius:var(--radius-pill);padding:1px 8px}
+.pair .sample{font:400 1.5rem/1.1 var(--font-display)}
+.ratio{display:flex;height:56px;border-radius:var(--radius-2);overflow:hidden;border:1px solid var(--hairline)}
+.ratio div{display:flex;align-items:flex-end;padding:var(--s-2) var(--s-3);font:500 12px var(--font-mono)}
+.ladder{display:grid;grid-template-columns:repeat(7,1fr);border-radius:var(--radius-2);overflow:hidden;border:1px solid var(--hairline)}
+.ladder div{height:72px;padding:var(--s-2);font:500 11px var(--font-mono);display:flex;align-items:flex-end}
+
+/* type */
+.specimen{display:grid;grid-template-columns:1fr 1fr;gap:var(--s-5)}
+.face{background:var(--surface-1);border:1px solid var(--hairline);border-radius:var(--radius-2);padding:var(--s-5);display:flex;flex-direction:column;gap:var(--s-3);min-height:300px}
+.face .big{font-size:clamp(5rem,9vw,8rem);line-height:.9}
+.face.serif .big{font-family:var(--font-display);letter-spacing:-.04em}
+.face.sans .big{font-family:var(--font-sans);font-weight:500;letter-spacing:-.05em}
+.face .glyphs{color:var(--text-2);word-break:break-all}
+.scale{border-top:1px solid var(--hairline)}
+.scale .row{display:grid;grid-template-columns:160px 1fr;gap:var(--s-5);align-items:baseline;padding:var(--s-4) 0;border-bottom:1px solid var(--hairline)}
+.scale .row .lab{font:500 12px/1.5 var(--font-mono);color:var(--text-3);letter-spacing:.04em}
+.scale .row .lab b{display:block;color:var(--text-1);font-weight:500;letter-spacing:.08em;text-transform:uppercase}
+.s-display{font:400 clamp(3rem,5vw + 1rem,5rem)/1 var(--font-display);letter-spacing:-.03em}
+.s-h1{font:400 clamp(2.25rem,3vw + 1rem,3.25rem)/1.05 var(--font-display);letter-spacing:-.025em}
+.s-h2{font:400 2rem/1.1 var(--font-display);letter-spacing:-.018em}
+.s-lead{font:400 1.3125rem/1.4 var(--font-sans);letter-spacing:-.01em}
+.s-body{font:400 1rem/1.55 var(--font-sans);max-width:62ch}
+.s-label{font:500 .75rem/1.3 var(--font-mono);letter-spacing:.1em;text-transform:uppercase}
+.price{font:500 1rem var(--font-mono);font-variant-numeric:tabular-nums}
+.price u{text-decoration:none;color:var(--text-3)}
+
+/* photography */
+.shots{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s-4)}
+.shot{margin:0}
+.shot .frame{aspect-ratio:4/5;border-radius:0;position:relative;overflow:hidden}
+.shot figcaption{margin-top:var(--s-3);font-size:14px;color:var(--text-2)}
+.shot figcaption b{display:block;font:500 12px var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--text-1);margin-bottom:2px}
+.f1{background:linear-gradient(100deg,#f1d9ae 0%,#e9c58d 22%,#9b6a45 58%,#3a2619 100%)}
+.f1 .win{position:absolute;left:8%;top:6%;width:34%;height:52%;background:linear-gradient(180deg,#fff3d6,#f9deaa);opacity:.9;clip-path:polygon(0 0,100% 0,100% 100%,0 100%);box-shadow:0 0 80px 30px rgb(255 235 190/.55)}
+.f1 .bench{position:absolute;left:0;right:0;bottom:0;height:34%;background:linear-gradient(180deg,#5b3d28,#2c1c12)}
+.f1 .cupA{position:absolute;left:46%;bottom:26%;width:22%;aspect-ratio:1;background:#f6f1e8;border-radius:0 0 50% 50%/0 0 90% 90%;box-shadow:0 14px 18px -6px rgb(0 0 0/.5)}
+.f1 .cupA::before{content:"";position:absolute;inset:6% 8% auto;height:20%;background:#2a170d;border-radius:50%}
+.f1 .shadowA{position:absolute;left:30%;bottom:20%;width:64%;height:8%;background:radial-gradient(ellipse,rgb(0 0 0/.35),transparent 70%)}
+.f2{background:linear-gradient(160deg,#cfe0dd,#8fb5b3 55%,#0e5a63)}
+.f2 .hand{position:absolute;left:12%;top:26%;width:58%;height:30%;background:#d7a583;border-radius:60% 40% 50% 50%/60% 50% 50% 40%;transform:rotate(-14deg);box-shadow:0 20px 30px -14px rgb(0 0 0/.4)}
+.f2 .pour{position:absolute;left:46%;top:46%;width:8px;height:30%;background:linear-gradient(#6a3a1f,#2a170d);border-radius:8px}
+.f2 .kettle{position:absolute;right:10%;bottom:12%;width:44%;aspect-ratio:1/1.1;background:#1f1713;border-radius:20% 20% 46% 46%;box-shadow:inset 0 0 0 6px #2d221c}
+.f3{background:#1f1713}
+.f3 .bean{position:absolute;width:26%;aspect-ratio:1/1.35;border-radius:50%;background:radial-gradient(circle at 35% 30%,#7a4a2e,#3a2214 70%);box-shadow:0 16px 24px -10px #000}
+.f3 .bean::after{content:"";position:absolute;left:48%;top:8%;bottom:8%;width:3px;border-radius:3px;background:#140d09;transform:skewX(-8deg)}
+.f3 .tag{position:absolute;right:8%;bottom:7%;font:500 11px var(--font-mono);color:var(--on-ink-2);letter-spacing:.08em}
+.dd{display:grid;grid-template-columns:1fr 1fr;gap:var(--s-5);margin-top:var(--s-6)}
+.dd ul{list-style:none;padding:0;display:grid;gap:var(--s-2)}
+.dd li{position:relative;padding-left:28px;font-size:15px;color:var(--text-2)}
+.dd li::before{position:absolute;left:0;top:1px;font:500 13px var(--font-mono);width:18px;height:18px;display:grid;place-items:center;border-radius:50%}
+.dd .do li::before{content:"✓";background:#dcebd9;color:var(--success-ink)}
+.dd .dont li::before{content:"×";background:#f4dacd;color:#8f3210}
+.dd h3{margin-bottom:var(--s-3)}
+.settings{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--s-3);margin-top:var(--s-6)}
+.settings div{border-top:1px solid var(--text-1);padding-top:var(--s-3)}
+.settings dt{font:500 12px var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--text-3)}
+.settings dd{margin:4px 0 0;font:400 1.4rem/1.1 var(--font-display)}
+
+/* voice */
+.attrs{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--s-4)}
+.attr .pair2{display:grid;gap:var(--s-2);margin-top:var(--s-3);font-size:14.5px}
+.attr .pair2 p{padding:var(--s-3);border-radius:var(--radius-1);color:var(--text-1)}
+.attr .pair2 .y{background:#e6efe3}.attr .pair2 .n{background:#f4e1d8;text-decoration:line-through;text-decoration-color:var(--ember);text-decoration-thickness:1px}
+.attr .pair2 span{font:500 11px var(--font-mono);letter-spacing:.08em;text-transform:uppercase;display:block;color:var(--text-2);margin-bottom:2px;text-decoration:none}
+.tabs{display:flex;gap:var(--s-1);border-bottom:1px solid var(--hairline);margin-bottom:var(--s-5);overflow-x:auto}
+.tabs button{all:unset;box-sizing:border-box;cursor:pointer;min-height:44px;padding:0 var(--s-4);display:inline-flex;align-items:center;font-size:15px;color:var(--text-2);border-bottom:2px solid transparent;white-space:nowrap;transition:color var(--dur-1)}
+.tabs button:hover{color:var(--text-1)}
+.tabs button[aria-selected="true"]{color:var(--text-1);border-bottom-color:var(--accent)}
+.tabs button:focus-visible{box-shadow:var(--focus-ring)}
+.tone-panel{display:grid;grid-template-columns:1fr 220px;gap:var(--s-6);align-items:start}
+.tone-panel blockquote{font:400 clamp(1.5rem,1.6vw + 1rem,2.25rem)/1.2 var(--font-display);letter-spacing:-.015em;padding:0;margin:0 0 var(--s-3);max-width:24em}
+.dial{display:grid;gap:6px}
+.dial .bar{height:6px;border-radius:3px;background:var(--surface-2);position:relative}
+.dial .bar i{position:absolute;top:-4px;width:14px;height:14px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 3px var(--canvas);left:var(--p)}
+.dial .ends{display:flex;justify-content:space-between;font:500 11px var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--text-3)}
+.mech{width:100%;border-collapse:collapse;font-size:15px}
+.mech th,.mech td{text-align:left;padding:var(--s-3) var(--s-3) var(--s-3) 0;border-bottom:1px solid var(--hairline);vertical-align:top}
+.mech th{font:500 12px var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--text-3);width:150px}
+.mech td code{font:500 13px var(--font-mono);background:var(--surface-1);padding:1px 6px;border-radius:var(--radius-1)}
+
+/* applications */
+.apps{display:grid;grid-template-columns:repeat(12,1fr);gap:var(--s-4)}
+.app{border-radius:var(--radius-2);overflow:hidden;position:relative;display:flex;flex-direction:column;border:1px solid var(--hairline)}
+.app .art{flex:1;display:grid;place-items:center;padding:var(--s-6);min-height:360px}
+.app .art svg{width:100%;height:auto;max-height:420px;overflow:visible}
+.app .meta{padding:var(--s-4) var(--s-5);background:var(--canvas);border-top:1px solid var(--hairline);display:flex;justify-content:space-between;gap:var(--s-4);align-items:baseline;flex-wrap:wrap}
+.app .meta b{font:400 1.35rem var(--font-display);letter-spacing:-.01em}
+.app .meta span{font:500 12px var(--font-mono);color:var(--text-3);letter-spacing:.04em}
+.app.bag{grid-column:span 5}.app.cup{grid-column:span 3}.app.sign{grid-column:span 4}
+.app.bag .art{background:var(--crema)}.app.cup .art{background:var(--azulejo)}
+.app.sign .art{background-color:#d9cfbd;background-image:linear-gradient(var(--hairline) 1px,transparent 1px),linear-gradient(90deg,var(--hairline) 1px,transparent 1px);background-size:44px 44px}
+
+/* motion + gov */
+.demo{display:grid;grid-template-columns:1fr 1fr;gap:var(--s-5)}
+.horizon{height:200px;border-radius:var(--radius-2);background:var(--kingfisher);position:relative;overflow:hidden;display:grid;place-items:center}
+.horizon svg{width:120px;height:120px;color:var(--paper);transform:translateY(24px);opacity:.0;transition:transform var(--dur-5) var(--ease-out),opacity var(--dur-5) var(--ease-out)}
+.horizon.up svg{transform:none;opacity:1}
+.btn{all:unset;box-sizing:border-box;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:var(--s-2);min-height:44px;padding:0 var(--s-5);border-radius:var(--radius-pill);background:var(--accent);color:var(--on-accent);font:500 15px var(--font-sans);transition:transform var(--dur-1) var(--ease-out),background var(--dur-2)}
+.btn:hover{background:#0a4a52}
+.btn:active{transform:scale(.97)}
+.btn:focus-visible{box-shadow:var(--focus-ring)}
+.btn[disabled]{background:var(--surface-2);color:var(--text-3);cursor:not-allowed}
+.btn.ghost{background:transparent;color:var(--accent-ink);box-shadow:inset 0 0 0 1.5px var(--accent)}
+.btn.ghost:hover{background:var(--azulejo)}
+.btn.light{background:var(--paper);color:var(--espresso)}.btn.light:hover{background:var(--crema)}
+.dl{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s-4)}
+.dl .card{display:flex;flex-direction:column;gap:var(--s-3);justify-content:space-between}
+.dl .file{display:flex;gap:var(--s-2);align-items:center;color:var(--text-3)}
+.log{list-style:none;padding:0;font:400 13px/1.7 var(--font-mono);color:var(--on-ink-2)}
+.log b{color:var(--on-ink);font-weight:500}
+.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:var(--espresso);color:var(--paper);padding:12px 18px;border-radius:var(--radius-pill);font:500 13px var(--font-mono);letter-spacing:.04em;transition:opacity var(--dur-2) var(--ease-out),transform var(--dur-2) var(--ease-out);z-index:60;box-shadow:var(--shadow-2);max-width:calc(100vw - 32px)}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+footer{padding:var(--s-8) var(--margin) var(--s-7);display:flex;justify-content:space-between;gap:var(--s-5);flex-wrap:wrap;align-items:flex-end}
+footer p{color:var(--on-ink-2);font-size:14px;max-width:44ch}
+
+.reveal{opacity:0;transform:translateY(14px);transition:opacity var(--dur-3) var(--ease-out),transform var(--dur-3) var(--ease-out)}
+.reveal.in{opacity:1;transform:none}
+
+@media (max-width:1100px){
+  .app.bag,.app.cup,.app.sign{grid-column:span 12}
+  .app .art{min-height:300px}
+  .app.cup .art svg,.app.bag .art svg{max-width:340px}
+  .pairs{grid-template-columns:repeat(2,1fr)}
+  .swatches{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:860px){
+  .ch{display:block;padding:var(--s-8) var(--margin)}
+  .ch>.head{margin-bottom:var(--s-6)}
+  .hero .idea{grid-column:1/-1}.hero .sun{grid-column:1/-1;justify-self:start;width:min(70%,260px)}
+  .specimen,.dd,.demo,.attrs,.tone-panel{grid-template-columns:1fr}
+  .shots,.dl{grid-template-columns:1fr}
+  .shot .frame{aspect-ratio:16/10}
+  .misuse{grid-template-columns:repeat(2,1fr)}
+  .bg-row{grid-template-columns:repeat(2,1fr)}
+  .settings{grid-template-columns:repeat(2,1fr)}
+  .c4,.c5,.c6,.c7,.c8,.c3{grid-column:1/-1}
+  .cols{row-gap:var(--s-5)}
+  .scale .row{grid-template-columns:1fr;gap:var(--s-2)}
+  .top .wm span{display:none}
+}
+@media (max-width:520px){
+  .swatches,.pairs{grid-template-columns:1fr}
+  .sw-main{grid-template-columns:repeat(3,1fr)}
+  .stage{padding:var(--s-6) var(--s-4)}
+  .clear{--u:44px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition-duration:1ms!important;scroll-behavior:auto!important}
+  .reveal{opacity:1;transform:none}
+  .horizon svg{opacity:1;transform:none}
+  .hero .sun{animation:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <mask id="crease" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
+      <rect width="100" height="100" fill="#fff"/>
+      <path d="M50 18 C41 33 59 43 50 58" fill="none" stroke="#000" stroke-width="5" stroke-linecap="round"/>
+    </mask>
+    <symbol id="mark" viewBox="0 0 100 100">
+      <path d="M12 58A38 38 0 0 1 88 58Z" fill="currentColor" mask="url(#crease)"/>
+      <path d="M18 69H82M28 79H72M38 89H62" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="top">
+  <a class="wm" href="#top" aria-label="Halcyon Coffee Roasters, top of page"><svg aria-hidden="true"><use href="#mark"/></svg><span>Halcyon</span></a>
+  <nav aria-label="Chapters" id="chnav">
+    <a href="#idea"><i>01</i>Idea</a><a href="#logo"><i>02</i>Logo</a><a href="#colour"><i>03</i>Colour</a><a href="#type"><i>04</i>Type</a><a href="#photo"><i>05</i>Photography</a><a href="#voice"><i>06</i>Voice</a><a href="#apps"><i>07</i>Applications</a><a href="#motion"><i>08</i>Motion</a>
+  </nav>
+</header>
+
+<main id="main">
+<section class="hero" id="top" aria-labelledby="h1">
+  <div class="stamp mono"><span>Brand standards</span><span class="num">Version 2.1 · October 2026</span></div>
+  <h1 id="h1">Halcyon.<br><em>Calm, roasted slowly.</em></h1>
+  <p class="idea">A halcyon day is the still one after the storm. We roast in Lisbon to give you that cup: clear, unhurried, kept honest.</p>
+  <div class="sun" aria-hidden="true"><svg viewBox="0 0 100 100"><use href="#mark"/></svg></div>
+  <div class="pad"></div>
+</section>
+
+<!-- 01 -->
+<section class="ch" id="idea" aria-labelledby="h-idea">
+  <div class="head"><p class="mono">01 · Brand idea</p><h2 id="h-idea">Still water, bright sun</h2><p>Why we exist and what we promise, in the order a new hire needs it.</p></div>
+  <div class="body">
+    <p class="rule">We roast <em>light enough to taste the place</em> and dark enough to taste the work. Never louder than the coffee.</p>
+    <p class="spec mono">Purpose: make a quiet, excellent cup the easiest choice in Lisbon · Promise: roasted &lt; 14 days ago, always</p>
+    <div class="cols">
+      <div class="card c4 reveal"><p class="mono" style="color:var(--text-3)">Value 1</p><h3>Clarity</h3><p>We say what is in the bag: farm, altitude, roast date. We are clear, never cryptic.</p></div>
+      <div class="card c4 reveal"><p class="mono" style="color:var(--text-3)">Value 2</p><h3>Patience</h3><p>Slow drying, slow roasts, slow mornings. We are unhurried, never idle.</p></div>
+      <div class="card c4 reveal"><p class="mono" style="color:var(--text-3)">Value 3</p><h3>Warmth</h3><p>Sun-coloured, hand-poured, first-name. We are warm, never twee.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 02 LOGO -->
+<section class="ch" id="logo" aria-labelledby="h-logo">
+  <div class="head"><p class="mono">02 · Logo</p><h2 id="h-logo">The sun on calm water</h2><p>One mark, one lockup, six ways to break it.</p></div>
+  <div class="body">
+    <p class="rule">A split bean rising over three lines of water. <em>Use it whole, give it room, never redraw it.</em></p>
+    <p class="spec mono">Files: halcyon-lockup.svg · halcyon-mark.svg · halcyon-wordmark.svg · colour, mono, reversed</p>
+
+    <div class="cols">
+      <div class="c7">
+        <div class="stage grid-bg" role="img" aria-label="Primary lockup with clearspace marked as x on all four sides">
+          <div class="clear" style="--x:22px"><span class="xt">x</span><span class="xb">x</span><span class="xl">x</span><span class="xr">x</span>
+            <div class="lockup" style="--u:64px"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div>
+          </div>
+        </div>
+        <p class="cap">PRIMARY LOCKUP · CLEARSPACE x = ¼ of the mark's width (the sun's radius ÷ 2)</p>
+      </div>
+      <div class="c5">
+        <div class="stage" style="min-height:0;aspect-ratio:auto;padding:var(--s-6) var(--s-5);gap:var(--s-5)">
+          <svg viewBox="0 0 100 100" width="150" height="150" style="color:var(--espresso)" role="img" aria-label="Mark alone"><use href="#mark"/></svg>
+        </div>
+        <p class="cap">MARK ONLY · avatars, stamps, cup lids, favicons</p>
+      </div>
+    </div>
+
+    <h3 class="sub mono" style="font:500 12px var(--font-mono)">Minimum size · try it</h3>
+    <div class="tester">
+      <div class="tester-stage" id="tstage"><div class="lockup" id="tlock" style="--u:40px;color:var(--espresso)"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div>
+      <div class="tester-ctl">
+        <label for="tsize">Lockup height</label>
+        <input id="tsize" type="range" min="12" max="96" value="40" aria-describedby="tmsg">
+        <output id="tout" class="mono num" for="tsize" style="min-width:70px">40 px</output>
+        <span class="badge ok" id="tbadge">✓ Safe</span>
+      </div>
+      <p class="tester-msg" id="tmsg" role="status" aria-live="polite">Lockup at 40 px: well above the 24 px digital minimum (8 mm in print).</p>
+    </div>
+
+    <h3 class="sub mono" style="font:500 12px var(--font-mono)">Colourways &amp; backgrounds</h3>
+    <div class="bg-row">
+      <div><div class="bg a"><div class="lockup"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div><p class="cap">ESPRESSO ON PAPER</p></div>
+      <div><div class="bg b"><div class="lockup"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div><p class="cap">PAPER ON KINGFISHER</p></div>
+      <div><div class="bg c"><div class="lockup"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div><p class="cap">PAPER ON ESPRESSO</p></div>
+      <div><div class="bg d"><div class="lockup"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div><p class="cap">ESPRESSO ON CREMA</p></div>
+    </div>
+    <p class="spec mono" style="margin-top:var(--s-4);margin-bottom:0">Switch to the paper-coloured logo on any background darker than ~55% lightness. Ember is never a logo colour.</p>
+
+    <h3 class="sub mono" style="font:500 12px var(--font-mono)">Misuse</h3>
+    <ul class="misuse">
+      <li><div class="tile"><div class="lockup" style="transform:scaleX(1.6) scaleY(.8)"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div><p><b>Don't stretch</b> or squash. Scale proportionally only.</p></li>
+      <li><div class="tile"><div class="lockup" style="color:var(--ember)"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div><p><b>Don't recolour</b> outside the four approved colourways.</p></li>
+      <li><div class="tile"><div class="lockup" style="transform:rotate(-12deg)"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div><p><b>Don't rotate</b> or set the logo on a slant.</p></li>
+      <li><div class="tile"><div class="lockup" style="filter:drop-shadow(4px 5px 3px rgb(0 0 0/.5))"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div><p><b>Don't add effects</b>: shadows, glows, bevels, outlines.</p></li>
+      <li><div class="tile" style="background:repeating-linear-gradient(45deg,#cfe0dd 0 10px,#e4cfae 10px 20px,#b8431a33 20px 30px)"><div class="lockup"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div></div><p><b>Don't place on busy</b> patterns or mid-tone photography.</p></li>
+      <li><div class="tile"><div class="lockup" style="flex-direction:column;align-items:flex-start"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b style="font-style:italic;font-family:var(--font-sans);font-weight:500">Halcyon</b><small>Coffee Roasters</small></div></div></div><p><b>Don't rebuild</b> the lockup or swap the typeface.</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- 03 COLOUR -->
+<section class="ch" id="colour" aria-labelledby="h-colour">
+  <div class="head"><p class="mono">03 · Colour</p><h2 id="h-colour">Sun, water, crema</h2><p>Six colours, one proportion. Click any chip to copy its HEX.</p></div>
+  <div class="body">
+    <p class="rule">Paper and espresso do the work. <em>Kingfisher speaks. Ember only signals.</em></p>
+    <p class="spec mono">Proportion: Paper 45 · Espresso 20 · Kingfisher 20 · Crema 10 · Azulejo 4 · Ember 1 (max 5)</p>
+    <div class="sw-main" aria-hidden="true">
+      <i style="background:var(--paper);grid-column:span 2;height:40px"></i><i style="background:var(--espresso);grid-column:span 1;height:40px"></i><i style="background:var(--kingfisher);grid-column:span 1;height:40px"></i><i style="background:var(--crema);grid-column:span 1;height:40px"></i><i style="background:var(--ember);grid-column:span 1;height:40px"></i>
+    </div>
+    <div class="swatches" id="swatches">
+      <div class="sw"><button class="chip" style="--c:#1f1713;--fg:#f6f1e8" data-copy="#1F1713"><span class="role">Primary · Ink</span><span class="nm">Espresso</span><span class="copy">#1F1713 · copy</span></button>
+        <dl class="num"><dt>RGB</dt><dd>31 23 19</dd><dt>CMYK</dt><dd>60 68 72 80</dd><dt>PMS</dt><dd>Black 4 C</dd><dt>vs Paper</dt><dd>15.7:1 · AAA</dd></dl></div>
+      <div class="sw"><button class="chip" style="--c:#f6f1e8;--fg:#1f1713" data-copy="#F6F1E8"><span class="role">Primary · Ground</span><span class="nm">Paper</span><span class="copy">#F6F1E8 · copy</span></button>
+        <dl class="num"><dt>RGB</dt><dd>246 241 232</dd><dt>CMYK</dt><dd>3 4 8 0</dd><dt>PMS</dt><dd>9224 C</dd><dt>vs Espresso</dt><dd>15.7:1 · AAA</dd></dl></div>
+      <div class="sw"><button class="chip" style="--c:#0e5a63;--fg:#f6f1e8" data-copy="#0E5A63"><span class="role">Accent · Voice</span><span class="nm">Kingfisher</span><span class="copy">#0E5A63 · copy</span></button>
+        <dl class="num"><dt>RGB</dt><dd>14 90 99</dd><dt>CMYK</dt><dd>93 41 40 28</dd><dt>PMS</dt><dd>7712 C</dd><dt>vs Paper</dt><dd>7.0:1 · AAA</dd></dl></div>
+      <div class="sw"><button class="chip" style="--c:#e4cfae;--fg:#1f1713" data-copy="#E4CFAE"><span class="role">Support · Warmth</span><span class="nm">Crema</span><span class="copy">#E4CFAE · copy</span></button>
+        <dl class="num"><dt>RGB</dt><dd>228 207 174</dd><dt>CMYK</dt><dd>9 17 33 0</dd><dt>PMS</dt><dd>7500 C</dd><dt>vs Espresso</dt><dd>11.6:1 · AAA</dd></dl></div>
+      <div class="sw"><button class="chip" style="--c:#cfe0dd;--fg:#1f1713" data-copy="#CFE0DD"><span class="role">Support · Tile</span><span class="nm">Azulejo</span><span class="copy">#CFE0DD · copy</span></button>
+        <dl class="num"><dt>RGB</dt><dd>207 224 221</dd><dt>CMYK</dt><dd>20 4 12 0</dd><dt>PMS</dt><dd>5523 C (60%)</dd><dt>vs Kingfisher</dt><dd>5.8:1 · AA</dd></dl></div>
+      <div class="sw"><button class="chip" style="--c:#b8431a;--fg:#f6f1e8" data-copy="#B8431A"><span class="role">Signal · ≤ 5%</span><span class="nm">Ember</span><span class="copy">#B8431A · copy</span></button>
+        <dl class="num"><dt>RGB</dt><dd>184 67 26</dd><dt>CMYK</dt><dd>15 85 100 5</dd><dt>PMS</dt><dd>7586 C</dd><dt>vs Paper</dt><dd>4.8:1 · AA</dd></dl></div>
+    </div>
+
+    <h3 class="sub mono" style="font:500 12px var(--font-mono)">Approved text pairs · computed, not eyeballed</h3>
+    <div class="pairs num">
+      <div class="pair" style="background:#f6f1e8;color:#1f1713"><div class="sample">Aa roast</div><div class="aa"><span>Espresso / Paper</span><b>15.7 AAA</b></div></div>
+      <div class="pair" style="background:#0e5a63;color:#f6f1e8"><div class="sample">Aa roast</div><div class="aa"><span>Paper / Kingfisher</span><b>7.0 AAA</b></div></div>
+      <div class="pair" style="background:#1f1713;color:#7fc4c9"><div class="sample">Aa roast</div><div class="aa"><span>Lt. Kingfisher / Espresso</span><b>8.9 AAA</b></div></div>
+      <div class="pair" style="background:#e4cfae;color:#1f1713"><div class="sample">Aa roast</div><div class="aa"><span>Espresso / Crema</span><b>11.6 AAA</b></div></div>
+      <div class="pair" style="background:#b8431a;color:#f6f1e8"><div class="sample">Aa roast</div><div class="aa"><span>Paper / Ember</span><b>4.8 AA</b></div></div>
+      <div class="pair" style="background:#cfe0dd;color:#0e5a63"><div class="sample">Aa roast</div><div class="aa"><span>Kingfisher / Azulejo</span><b>5.8 AA</b></div></div>
+      <div class="pair" style="background:#0e5a63;color:#e4cfae"><div class="sample">Aa roast</div><div class="aa"><span>Crema / Kingfisher</span><b>5.2 AA</b></div></div>
+      <div class="pair" style="background:#f6f1e8;color:#b8431a"><div class="sample">Aa roast</div><div class="aa"><span>Ember / Paper (≥ 18 px)</span><b>4.8 AA</b></div></div>
+    </div>
+    <p class="spec mono" style="margin-top:var(--s-4)">Never: Espresso on Ember (3.2:1, fails) · Crema on Paper (1.3:1) · Ember on Kingfisher.</p>
+
+    <h3 class="sub mono" style="font:500 12px var(--font-mono)">Kingfisher tint ladder · web only</h3>
+    <div class="ladder num" aria-label="Kingfisher tint ladder">
+      <div style="background:#0e5a63;color:#f6f1e8">100</div><div style="background:#3f7d85;color:#fff">80</div><div style="background:#6f9fa5;color:#1f1713">60</div><div style="background:#9fbfc3;color:#1f1713">40</div><div style="background:#cfe0dd;color:#1f1713">Azulejo</div><div style="background:#e5eeeb;color:#1f1713">12</div><div style="background:#f2f6f3;color:#1f1713">6</div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 TYPE -->
+<section class="ch" id="type" aria-labelledby="h-type">
+  <div class="head"><p class="mono">04 · Typography</p><h2 id="h-type">A serif that has time</h2><p>Instrument Serif for the voice, Inter for the work, JetBrains Mono for the facts.</p></div>
+  <div class="body">
+    <p class="rule">Serif says it once, <em>large.</em> Sans carries the sentence. Mono carries the numbers.</p>
+    <p class="spec mono">Fallbacks: Georgia · system-ui · ui-monospace · Ratio 1.25 · Body 16/24 · Display ÷ body = 4.5×</p>
+    <div class="specimen">
+      <div class="face serif"><p class="mono" style="color:var(--text-3)">Display · Instrument Serif 400</p><div class="big" aria-hidden="true">Aa</div><p class="glyphs" style="font:400 1.5rem/1.2 var(--font-display)">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789 áàâãçéêíóôõú &amp;</p><p style="font-size:14px;color:var(--text-2);margin-top:auto">Display only, 32 px and up. Italic for one word per headline.</p></div>
+      <div class="face sans"><p class="mono" style="color:var(--text-3)">Text · Inter 400 / 500</p><div class="big" aria-hidden="true">Aa</div><p class="glyphs" style="font:400 1.2rem/1.4 var(--font-sans)">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789 áàâãçéêíóôõú &amp;</p><p style="font-size:14px;color:var(--text-2);margin-top:auto">Everything under 32 px. Two weights only: 400 and 500.</p></div>
+    </div>
+    <h3 class="sub mono" style="font:500 12px var(--font-mono)">Scale · live</h3>
+    <div class="scale">
+      <div class="row"><div class="lab"><b>Display</b>80 / 80 / −3.0%</div><div class="s-display">Light, then dark.</div></div>
+      <div class="row"><div class="lab"><b>Heading 1</b>52 / 55 / −2.5%</div><div class="s-h1">Ethiopia, washed, Guji.</div></div>
+      <div class="row"><div class="lab"><b>Heading 2</b>32 / 35 / −1.8%</div><div class="s-h2">Roasted on Tuesday in Alfama</div></div>
+      <div class="row"><div class="lab"><b>Lead</b>21 / 29 / −1%</div><div class="s-lead">Jasmine, peach, a little black tea. Best within three weeks of roast.</div></div>
+      <div class="row"><div class="lab"><b>Body</b>16 / 25 / 0</div><div class="s-body">We buy from nine farms and visit seven of them. Each bag carries the farm, the altitude and the day it was roasted, because you should not have to guess what you are drinking.</div></div>
+      <div class="row"><div class="lab"><b>Label</b>12 / 16 / +10% caps</div><div class="s-label">Tasting notes · Roast date</div></div>
+      <div class="row"><div class="lab"><b>Figures</b>16 / mono / tabular</div><div class="price">Flat white <u>€</u>3,20 &nbsp;·&nbsp; Filter <u>€</u>3,80 &nbsp;·&nbsp; 250 g <u>€</u>14,50</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 05 PHOTO -->
+<section class="ch" id="photo" aria-labelledby="h-photo">
+  <div class="head"><p class="mono">05 · Photography</p><h2 id="h-photo">Window light, no theatre</h2><p>Real people, real cafés, real mornings. Shot where we work.</p></div>
+  <div class="body">
+    <p class="rule">Photograph the <em>quiet half-second</em> before the first sip. One subject, one light, no staging.</p>
+    <p class="spec mono">Frames below are art-direction sketches, not final photography</p>
+    <div class="shots">
+      <figure class="shot"><div class="frame f1" role="img" aria-label="Sketch: a white cup on a dark bench beside a sunlit window"><div class="win"></div><div class="bench"></div><div class="shadowA"></div><div class="cupA"></div></div><figcaption><b>Morning bench</b>Window light from the left, a single cup, long soft shadow.</figcaption></figure>
+      <figure class="shot"><div class="frame f2" role="img" aria-label="Sketch: a hand pouring from a dark kettle against a teal wall"><div class="hand"></div><div class="pour"></div><div class="kettle"></div></div><figcaption><b>Hands at work</b>Crop at the wrist. Show the pour, not the face.</figcaption></figure>
+      <figure class="shot"><div class="frame f3" role="img" aria-label="Sketch: three roasted beans on a dark ground with a lot label"><div class="bean" style="left:14%;top:18%;transform:rotate(-18deg)"></div><div class="bean" style="left:46%;top:42%;transform:rotate(12deg)"></div><div class="bean" style="left:22%;top:58%;transform:rotate(34deg)"></div><span class="tag num">LOT 14 · 1,950 M</span></div><figcaption><b>Origin, close</b>Macro, three beans maximum, matte ground, lot printed in-frame.</figcaption></figure>
+    </div>
+    <dl class="settings num">
+      <div><dt>Light</dt><dd>Daylight, 4800–5600 K</dd></div><div><dt>Lens</dt><dd>35 mm, f/2–f/2.8</dd></div><div><dt>Angle</dt><dd>Eye level or 30° down</dd></div><div><dt>Grade</dt><dd>Warm, blacks to #1F1713</dd></div>
+    </dl>
+    <div class="dd">
+      <div class="do"><h3>We shoot</h3><ul><li>Ceramic cups and paper cups in use, with fingerprints and rings</li><li>Lisbon light: tiles, tram wires, morning haze off the Tagus</li><li>Our team at work, named in the caption</li></ul></div>
+      <div class="dont"><h3>We never shoot</h3><ul><li>Steam added in post, or beans spilling out of a heart</li><li>Stock hands, laptops-at-a-café, flat-lay props</li><li>Heavy filters, HDR, or crushed pure-black shadows</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 VOICE -->
+<section class="ch" id="voice" aria-labelledby="h-voice">
+  <div class="head"><p class="mono">06 · Tone of voice</p><h2 id="h-voice">Say it like a friend who roasts</h2><p>Four attributes, a dial for context, and the mechanical rules.</p></div>
+  <div class="body">
+    <p class="rule">Plain words, exact numbers, <em>one small kindness</em> per message.</p>
+    <p class="spec mono">Languages: pt-PT first, English second · both are written, never translated word for word</p>
+    <div class="attrs">
+      <div class="card attr"><h3>Clear</h3><p>Lead with the fact. Numbers over adjectives.</p><div class="pair2"><p class="y"><span>We say</span>Roasted 3 Oct. Best before 24 Oct.</p><p class="n"><span>We don't say</span>Freshly roasted for peak flavour!</p></div></div>
+      <div class="card attr"><h3>Warm</h3><p>Use first names and short sentences. Thank people once.</p><div class="pair2"><p class="y"><span>We say</span>Obrigado, Marta. Your usual is ready.</p><p class="n"><span>We don't say</span>Dear valued customer.</p></div></div>
+      <div class="card attr"><h3>Unhurried</h3><p>No urgency tricks. No countdowns. No exclamation marks in a row.</p><div class="pair2"><p class="y"><span>We say</span>The Guji lot is here until it's gone.</p><p class="n"><span>We don't say</span>HURRY! Only 3 bags left!!!</p></div></div>
+      <div class="card attr"><h3>Curious</h3><p>Share what we're tasting, then let the cup speak.</p><div class="pair2"><p class="y"><span>We say</span>Peach, jasmine, a little black tea.</p><p class="n"><span>We don't say</span>An artisanal, ethically-sourced journey.</p></div></div>
+    </div>
+
+    <h3 class="sub mono" style="font:500 12px var(--font-mono)">Tone dial · same voice, three rooms</h3>
+    <div class="tabs" role="tablist" aria-label="Context" id="tonetabs">
+      <button role="tab" id="t1" aria-selected="true" aria-controls="p1">Menu board</button>
+      <button role="tab" id="t2" aria-selected="false" aria-controls="p2" tabindex="-1">Packaging</button>
+      <button role="tab" id="t3" aria-selected="false" aria-controls="p3" tabindex="-1">Late order</button>
+    </div>
+    <div class="tone-panel" role="tabpanel" id="p1" aria-labelledby="t1"><div><blockquote>Filter. Today it's Guji, washed. Peach and jasmine.</blockquote><p class="cap">MAX 9 WORDS · NO ADJECTIVES BEFORE THE ORIGIN</p></div><div class="dial"><div class="ends"><span>Brisk</span><span>Gentle</span></div><div class="bar" style="--p:18%"><i></i></div></div></div>
+    <div class="tone-panel" role="tabpanel" id="p2" aria-labelledby="t2" hidden><div><blockquote>Guji, Ethiopia. 1,950 m. Roasted 3 Oct. Open it slowly.</blockquote><p class="cap">FACTS FIRST · ONE SMALL INSTRUCTION</p></div><div class="dial"><div class="ends"><span>Brisk</span><span>Gentle</span></div><div class="bar" style="--p:45%"><i></i></div></div></div>
+    <div class="tone-panel" role="tabpanel" id="p3" aria-labelledby="t3" hidden><div><blockquote>Your beans are a day late, and that's on us. They leave Alfama tomorrow at 08:00, with a bag of the Bom Dia blend on the house.</blockquote><p class="cap">OWN IT · GIVE A TIME · MAKE IT RIGHT</p></div><div class="dial"><div class="ends"><span>Brisk</span><span>Gentle</span></div><div class="bar" style="--p:84%"><i></i></div></div></div>
+
+    <h3 class="sub mono" style="font:500 12px var(--font-mono)">Mechanical rules</h3>
+    <table class="mech">
+      <tr><th scope="row">Currency</th><td><code>€3,20</code> in Portuguese, <code>€3.20</code> in English. Euro sign always before the figure.</td></tr>
+      <tr><th scope="row">Time &amp; date</th><td>24-hour clock: <code>07:30–17:00</code>. Dates as <code>3 Oct</code>, never 10/3.</td></tr>
+      <tr><th scope="row">Weights</th><td><code>250 g</code> with a space. Altitude <code>1,950 m</code>.</td></tr>
+      <tr><th scope="row">Banned words</th><td>artisanal, curated, journey, perfect, "elevate", "your daily fix", anything with !!</td></tr>
+      <tr><th scope="row">Naming</th><td>Halcyon on first mention, "we" after. Never "HCR". Blends in title case (<code>Bom Dia</code>), origins by farm.</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- 07 APPLICATIONS -->
+<section class="ch" id="apps" aria-labelledby="h-apps">
+  <div class="head"><p class="mono">07 · Applications</p><h2 id="h-apps">Where it lands</h2><p>Packaging, cup, signage. Each uses the mark whole and one colourway.</p></div>
+  <div class="body">
+    <p class="rule">Paper-coloured ground, one hero colour per object, <em>the horizon lines doing the decorating.</em></p>
+    <p class="spec mono">Rule: one Kingfisher or Espresso field per object · the mark appears once, at the optical centre</p>
+    <div class="apps">
+      <article class="app bag">
+        <div class="art">
+          <svg viewBox="0 0 300 400" role="img" aria-label="Coffee bag in Kingfisher with a paper label showing the lockup and lot details">
+            <path d="M52 70 L248 70 L262 380 Q262 392 250 392 L50 392 Q38 392 38 380 Z" fill="#0e5a63"/>
+            <path d="M52 70 L248 70 L250 96 L50 96 Z" fill="#0a4a52"/>
+            <path d="M50 96 H250" stroke="#f6f1e8" stroke-opacity=".35" stroke-width="1.5" stroke-dasharray="4 5"/>
+            <g transform="translate(90 120)"><rect width="120" height="160" fill="#f6f1e8"/><use href="#mark" x="30" y="12" width="60" height="60" style="color:#1f1713"/>
+              <text x="60" y="98" text-anchor="middle" font-family="Instrument Serif,Georgia,serif" font-size="26" fill="#1f1713" letter-spacing="-.5">Halcyon</text>
+              <text x="60" y="114" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="6.5" fill="#5a4e44" letter-spacing="1.3">COFFEE ROASTERS</text>
+              <line x1="14" x2="106" y1="126" y2="126" stroke="#1f1713" stroke-opacity=".25"/>
+              <text x="14" y="142" font-family="JetBrains Mono,monospace" font-size="7" fill="#1f1713">GUJI · WASHED</text>
+              <text x="14" y="153" font-family="JetBrains Mono,monospace" font-size="6.5" fill="#5a4e44">1,950 M · 250 G</text></g>
+            <g fill="none" stroke="#f6f1e8" stroke-opacity=".5" stroke-width="1"><path d="M70 330 A80 80 0 0 1 230 330"/><path d="M82 330 A68 68 0 0 1 218 330"/><path d="M94 330 A56 56 0 0 1 206 330"/></g>
+            <text x="150" y="372" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="8" fill="#f6f1e8" letter-spacing="1.4">ROASTED 03 OCT · ALFAMA, LISBOA</text>
+          </svg>
+        </div>
+        <div class="meta"><b>Retail bag</b><span class="num">250 g · matte kraft-free film · 2 spot inks</span></div>
+      </article>
+      <article class="app cup">
+        <div class="art">
+          <svg viewBox="0 0 200 300" role="img" aria-label="Paper cup with Kingfisher sleeve carrying the mark">
+            <ellipse cx="100" cy="30" rx="72" ry="10" fill="#f6f1e8" stroke="#1f1713" stroke-opacity=".15"/>
+            <path d="M28 30 L172 30 L150 270 Q149 282 137 282 L63 282 Q51 282 50 270 Z" fill="#f6f1e8" stroke="#1f1713" stroke-opacity=".15"/>
+            <path d="M33 92 L167 92 L156 214 L44 214 Z" fill="#0e5a63"/>
+            <use href="#mark" x="68" y="110" width="64" height="64" style="color:#f6f1e8"/>
+            <text x="100" y="196" text-anchor="middle" font-family="Instrument Serif,Georgia,serif" font-size="20" fill="#f6f1e8">Halcyon</text>
+            <text x="100" y="62" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="7" fill="#5a4e44" letter-spacing="1.4">FLAT WHITE · 8 OZ</text>
+          </svg>
+        </div>
+        <div class="meta"><b>Takeaway cup</b><span class="num">8 oz · Kingfisher sleeve</span></div>
+      </article>
+      <article class="app sign">
+        <div class="art">
+          <svg viewBox="0 0 280 320" role="img" aria-label="Projecting blade sign on a tiled wall, round, with the mark and wordmark">
+            <rect x="0" y="40" width="40" height="8" rx="2" fill="#1f1713"/>
+            <path d="M36 44 H140" stroke="#1f1713" stroke-width="5"/>
+            <path d="M92 46 V70 M188 46 V70" stroke="#1f1713" stroke-width="3"/>
+            <circle cx="140" cy="168" r="100" fill="#0e5a63" stroke="#1f1713" stroke-width="5"/>
+            <circle cx="140" cy="168" r="92" fill="none" stroke="#f6f1e8" stroke-opacity=".5"/>
+            <use href="#mark" x="95" y="94" width="90" height="90" style="color:#f6f1e8"/>
+            <text x="140" y="216" text-anchor="middle" font-family="Instrument Serif,Georgia,serif" font-size="34" fill="#f6f1e8" letter-spacing="-.8">Halcyon</text>
+            <text x="140" y="236" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="8" fill="#f6f1e8" letter-spacing="2.4">COFFEE ROASTERS</text>
+            <text x="140" y="256" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="7" fill="#e4cfae" letter-spacing="1.6">ABERTO 07:30–17:00</text>
+          </svg>
+        </div>
+        <div class="meta"><b>Blade sign</b><span class="num">Ø 700 mm · powder-coated steel</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 08 MOTION -->
+<section class="ch" id="motion" aria-labelledby="h-motion">
+  <div class="head"><p class="mono">08 · Motion</p><h2 id="h-motion">One slow sunrise</h2><p>The only brand movement is the mark rising. Everything else is a quick fade.</p></div>
+  <div class="body">
+    <p class="rule">Rise slowly, leave quickly. <em>Never loop.</em></p>
+    <p class="spec mono">Rise: 900 ms · cubic-bezier(.2,.8,.2,1) · Fade: 200 ms · Reduced motion: opacity only</p>
+    <div class="demo">
+      <div class="horizon" id="hz" aria-hidden="true"><svg viewBox="0 0 100 100"><use href="#mark"/></svg></div>
+      <div style="display:grid;gap:var(--s-4);align-content:start">
+        <p class="s-body">Use the rise once per screen, on load or when a confirmation lands. Hold for 600 ms, then fade out in 200 ms.</p>
+        <div style="display:flex;gap:var(--s-3);flex-wrap:wrap"><button class="btn" id="replay">Replay the rise</button><button class="btn ghost" disabled>Loading…</button></div>
+        <p class="cap" id="mstat" role="status" aria-live="polite">State: resting. The button gives feedback in under 100 ms.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 09 GOV -->
+<section class="ch ink on-ink" id="gov" aria-labelledby="h-gov" style="border-bottom:0">
+  <div class="head"><p class="mono">09 · Governance</p><h2 id="h-gov">Questions &amp; files</h2><p>One owner, one source of truth.</p></div>
+  <div class="body">
+    <p class="rule" style="color:var(--on-ink)">Not sure? <em>Ask before you print.</em> Brand questions answered in two working days.</p>
+    <div class="dl" style="margin-top:var(--s-6)">
+      <div class="card" style="background:#2a201b;border-color:rgb(246 241 232/.14);box-shadow:none"><div class="file mono" style="color:var(--on-ink-2)">ZIP · 14 MB</div><h3 style="color:var(--on-ink)">Logo pack</h3><p style="color:var(--on-ink-2)">SVG, PDF, PNG. Colour, mono, reversed.</p><button class="btn light" data-toast="Download queued: halcyon-logo-pack-v2.1.zip">Download</button></div>
+      <div class="card" style="background:#2a201b;border-color:rgb(246 241 232/.14);box-shadow:none"><div class="file mono" style="color:var(--on-ink-2)">ASE · 4 KB</div><h3 style="color:var(--on-ink)">Colour swatches</h3><p style="color:var(--on-ink-2)">Adobe and Figma libraries, from one token file.</p><button class="btn light" data-toast="Download queued: halcyon-colours-v2.1.ase">Download</button></div>
+      <div class="card" style="background:#2a201b;border-color:rgb(246 241 232/.14);box-shadow:none"><div class="file mono" style="color:var(--on-ink-2)">TTF · 3 FILES</div><h3 style="color:var(--on-ink)">Fonts</h3><p style="color:var(--on-ink-2)">All three are open source (OFL). No licence needed.</p><button class="btn light" data-toast="Opening Google Fonts links">Get fonts</button></div>
+    </div>
+    <ul class="log" style="margin-top:var(--s-7)"><li><b>v2.1</b> · 7 Oct 2026 · Added minimum-size tester, approved pairs with ratios</li><li><b>v2.0</b> · 12 Mar 2026 · Kingfisher darkened from #137A86 to #0E5A63 to pass AAA with Paper</li><li><b>v1.0</b> · 2 Sep 2025 · First release, Alfama roastery opening</li></ul>
+  </div>
+</section>
+</main>
+
+<footer class="ink on-ink">
+  <div class="lockup" style="--u:48px"><svg aria-hidden="true"><use href="#mark"/></svg><div class="t"><b>Halcyon</b><small>Coffee Roasters</small></div></div>
+  <p>Halcyon Coffee Roasters Lda. · Rua dos Remédios 41, 1100-448 Lisboa · brand@halcyon.example. The Halcyon name and mark are registered trademarks.</p>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  var toast=document.getElementById('toast'),tt;
+  function say(m){toast.textContent=m;toast.classList.add('on');clearTimeout(tt);tt=setTimeout(function(){toast.classList.remove('on')},2200)}
+
+  /* copy swatches */
+  document.querySelectorAll('[data-copy]').forEach(function(b){
+    b.addEventListener('click',function(){
+      var v=b.getAttribute('data-copy');
+      var done=function(){say('Copied '+v)}, fail=function(){say('Press Ctrl+C to copy '+v)};
+      try{ if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(v).then(done,fail)}else{fail()} }catch(e){fail()}
+      var c=b.querySelector('.copy'),o=c.textContent;c.textContent='Copied ✓';setTimeout(function(){c.textContent=o},1400);
+    });
+  });
+  document.querySelectorAll('[data-toast]').forEach(function(b){b.addEventListener('click',function(){say(b.getAttribute('data-toast'))})});
+
+  /* size tester */
+  var r=document.getElementById('tsize'),lock=document.getElementById('tlock'),out=document.getElementById('tout'),badge=document.getElementById('tbadge'),msg=document.getElementById('tmsg');
+  function upd(){
+    var v=+r.value; out.textContent=v+' px'; lock.style.setProperty('--u',v+'px');
+    if(v>=24){badge.className='badge ok';badge.textContent='✓ Safe';msg.textContent='Lockup at '+v+' px: '+(v>=32?'well above':'just above')+' the 24 px digital minimum (8 mm in print).';lock.style.opacity=1;lock.querySelector('.t').style.display='';}
+    else if(v>=16){badge.className='badge bad';badge.textContent='× Below minimum';msg.textContent='Below the 24 px lockup minimum. The small caption is no longer legible. Switch to the mark alone, minimum 16 px.';lock.querySelector('.t').style.display='none';}
+    else{badge.className='badge bad';badge.textContent='× Below minimum';msg.textContent='The mark alone drops below its 16 px minimum. Remove the logo and use text instead.';lock.querySelector('.t').style.display='none';}
+  }
+  r.addEventListener('input',upd);upd();
+
+  /* tabs */
+  var tabs=[].slice.call(document.querySelectorAll('#tonetabs [role=tab]'));
+  function sel(t){tabs.forEach(function(x){var on=x===t;x.setAttribute('aria-selected',on);x.tabIndex=on?0:-1;document.getElementById(x.getAttribute('aria-controls')).hidden=!on});t.focus()}
+  tabs.forEach(function(t,i){
+    t.addEventListener('click',function(){sel(t)});
+    t.addEventListener('keydown',function(e){
+      var n=null;if(e.key==='ArrowRight')n=tabs[(i+1)%tabs.length];if(e.key==='ArrowLeft')n=tabs[(i+tabs.length-1)%tabs.length];if(e.key==='Home')n=tabs[0];if(e.key==='End')n=tabs[tabs.length-1];
+      if(n){e.preventDefault();sel(n)}
+    });
+  });
+
+  /* motion demo */
+  var hz=document.getElementById('hz'),ms=document.getElementById('mstat'),rp=document.getElementById('replay');
+  var io=('IntersectionObserver' in window)?new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.15}):null;
+  document.querySelectorAll('.reveal').forEach(function(el){io?io.observe(el):el.classList.add('in')});
+  setTimeout(function(){hz.classList.add('up')},60);
+  rp.addEventListener('click',function(){
+    ms.textContent='State: rising…';rp.textContent='Rising…';rp.disabled=true;hz.classList.remove('up');void hz.offsetWidth;
+    setTimeout(function(){hz.classList.add('up')},50);
+    setTimeout(function(){ms.textContent='State: resting. Hold 600 ms, then fade out in 200 ms.';rp.textContent='Replay the rise';rp.disabled=false},1000);
+  });
+
+  /* chapter nav highlight */
+  var links=[].slice.call(document.querySelectorAll('#chnav a'));
+  var secs=links.map(function(a){return document.querySelector(a.getAttribute('href'))});
+  function spy(){var y=window.scrollY+120,cur=-1;secs.forEach(function(s,i){if(s&&s.offsetTop<=y)cur=i});links.forEach(function(a,i){a.setAttribute('aria-current',i===cur?'true':'false')})}
+  window.addEventListener('scroll',spy,{passive:true});spy();
+})();
+</script>
+</body>
+</html>

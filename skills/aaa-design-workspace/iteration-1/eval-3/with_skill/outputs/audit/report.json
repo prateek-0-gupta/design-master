@@ -43,9 +43,7 @@
    "unnamedControls": []
   }
  },
- "warnings": [
-  "5 distinct radii: 12, 14, 24, 40, 999 (aim for 2-3 + pill)"
- ],
+ "warnings": [],
  "textNodes": 6,
  "contrastFails": [],
  "tiny": [],
@@ -54,7 +52,6 @@
   "Arial"
  ],
  "radii": [
-  12,
   14,
   24,
   40,
