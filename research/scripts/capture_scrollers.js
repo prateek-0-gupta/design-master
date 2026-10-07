@@ -8,7 +8,7 @@ const RAW = path.join(__dirname, '../raw/brandguidelines');
   const { browser, ctx } = await launch();
   for (const id of process.argv.slice(2)) {
     const d = path.join(RAW, id); const meta = JSON.parse(fs.readFileSync(path.join(d, 'site_meta.json')));
-    const pages = [['d00_home', meta.requested], ...meta.subpages.filter(s => s.ok).map((s, i) => [`d0${i + 1}_sub`, s.href])];
+    const pages = [['d00_home', meta.captured_from || meta.requested], ...meta.subpages.filter(s => s.ok).map((s, i) => [`d0${i + 1}_sub`, s.href])];
     for (const [name, url] of pages) {
       const page = await ctx.newPage();
       try {

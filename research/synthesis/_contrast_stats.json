@@ -1,0 +1,18 @@
+{
+ "inspora": {
+  "n": 286,
+  "any_below_4_5": 89.9,
+  "any_below_3": 73.8,
+  "median_min_ratio": 2.27,
+  "pairs_reported": 1320,
+  "pairs_below_4_5_share": 44.5
+ },
+ "brandguidelines": {
+  "n": 21,
+  "any_below_4_5": 100.0,
+  "any_below_3": 76.2,
+  "median_min_ratio": 1.82,
+  "pairs_reported": 170,
+  "pairs_below_4_5_share": 42.9
+ }
+}

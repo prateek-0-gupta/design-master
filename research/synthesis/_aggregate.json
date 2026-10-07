@@ -1,8 +1,8 @@
 {
- "n": 307,
+ "n": 308,
  "by_group": {
   "ALL": {
-   "n": 307,
+   "n": 308,
    "failed": [],
    "styles": [
     [
@@ -161,9 +161,10 @@
     ],
     [
      "minimal-swiss",
-     87,
+     88,
      [
       "bg-frame-io",
+      "bg-kazam",
       "bg-kia",
       "bg-mastercard-foundation",
       "bg-naseem-al-faihaa",
@@ -468,6 +469,65 @@
      ]
     ],
     [
+     "playful-rounded",
+     53,
+     [
+      "bg-discord",
+      "bg-kazam",
+      "bg-lassomd",
+      "bg-twitch",
+      "insp-1-20",
+      "insp-1-23",
+      "insp-1-32",
+      "insp-1-39",
+      "insp-1-45",
+      "insp-1-47",
+      "insp-1-49",
+      "insp-1-5",
+      "insp-1-57",
+      "insp-2-1",
+      "insp-2-2",
+      "insp-2-4",
+      "insp-2-7",
+      "insp-3-1",
+      "insp-3-3",
+      "insp-4-3",
+      "insp-404-page-2",
+      "insp-5-6",
+      "insp-6-2",
+      "insp-7-2",
+      "insp-7-6",
+      "insp-7-9",
+      "insp-8-6",
+      "insp-8-8",
+      "insp-9-1",
+      "insp-9-2",
+      "insp-9-7",
+      "insp-a-lightweight-portfolio",
+      "insp-ai-keychain",
+      "insp-anthropomorphic-brand-character",
+      "insp-bleep-app",
+      "insp-bright-candy-icons",
+      "insp-folder-interaction",
+      "insp-ghost-pass",
+      "insp-interactive-footer",
+      "insp-invite-code-interaction",
+      "insp-lookaway-ios",
+      "insp-onboarding-screen",
+      "insp-onboarding",
+      "insp-pigeon-online",
+      "insp-progress-bars",
+      "insp-realistic-button",
+      "insp-run-to-the-hills",
+      "insp-session-progress-and-recovery-timeline",
+      "insp-sticky-note-app",
+      "insp-the-lord-of-horses",
+      "insp-travel-app",
+      "insp-voice-model",
+      "insp-wos-island-animations"
+     ]
+    ],
+    [
      "corporate-clean",
      52,
      [
@@ -523,64 +583,6 @@
       "insp-shader-dial",
       "insp-soft-fluid-systems",
       "insp-thanos-snap-ticket"
-     ]
-    ],
-    [
-     "playful-rounded",
-     52,
-     [
-      "bg-discord",
-      "bg-lassomd",
-      "bg-twitch",
-      "insp-1-20",
-      "insp-1-23",
-      "insp-1-32",
-      "insp-1-39",
-      "insp-1-45",
-      "insp-1-47",
-      "insp-1-49",
-      "insp-1-5",
-      "insp-1-57",
-      "insp-2-1",
-      "insp-2-2",
-      "insp-2-4",
-      "insp-2-7",
-      "insp-3-1",
-      "insp-3-3",
-      "insp-4-3",
-      "insp-404-page-2",
-      "insp-5-6",
-      "insp-6-2",
-      "insp-7-2",
-      "insp-7-6",
-      "insp-7-9",
-      "insp-8-6",
-      "insp-8-8",
-      "insp-9-1",
-      "insp-9-2",
-      "insp-9-7",
-      "insp-a-lightweight-portfolio",
-      "insp-ai-keychain",
-      "insp-anthropomorphic-brand-character",
-      "insp-bleep-app",
-      "insp-bright-candy-icons",
-      "insp-folder-interaction",
-      "insp-ghost-pass",
-      "insp-interactive-footer",
-      "insp-invite-code-interaction",
-      "insp-lookaway-ios",
-      "insp-onboarding-screen",
-      "insp-onboarding",
-      "insp-pigeon-online",
-      "insp-progress-bars",
-      "insp-realistic-button",
-      "insp-run-to-the-hills",
-      "insp-session-progress-and-recovery-timeline",
-      "insp-sticky-note-app",
-      "insp-the-lord-of-horses",
-      "insp-travel-app",
-      "insp-voice-model",
-      "insp-wos-island-animations"
      ]
     ],
     [
@@ -1031,6 +1033,31 @@
      ]
     ],
     [
+     "gradient-mesh",
+     19,
+     [
+      "bg-kazam",
+      "bg-new-breed",
+      "insp-1-14",
+      "insp-1-15",
+      "insp-1-52",
+      "insp-2-3",
+      "insp-3-5",
+      "insp-3d-gradient-cards",
+      "insp-4-3",
+      "insp-5-7",
+      "insp-6-3",
+      "insp-7-8",
+      "insp-data-collect",
+      "insp-fluid-illumination",
+      "insp-grok-bot-can-talk-now",
+      "insp-mobile-gradient",
+      "insp-onboarding-flow",
+      "insp-shader-dial",
+      "insp-soft-fluid-systems"
+     ]
+    ],
+    [
      "generative-particle",
      19,
      [
@@ -1053,30 +1080,6 @@
       "insp-portfolio-page",
       "insp-run-to-the-hills",
       "insp-thanos-snap-ticket"
-     ]
-    ],
-    [
-     "gradient-mesh",
-     18,
-     [
-      "bg-new-breed",
-      "insp-1-14",
-      "insp-1-15",
-      "insp-1-52",
-      "insp-2-3",
-      "insp-3-5",
-      "insp-3d-gradient-cards",
-      "insp-4-3",
-      "insp-5-7",
-      "insp-6-3",
-      "insp-7-8",
-      "insp-data-collect",
-      "insp-fluid-illumination",
-      "insp-grok-bot-can-talk-now",
-      "insp-mobile-gradient",
-      "insp-onboarding-flow",
-      "insp-shader-dial",
-      "insp-soft-fluid-systems"
      ]
     ],
     [
@@ -1103,6 +1106,26 @@
      ]
     ],
     [
+     "flat-illustration",
+     14,
+     [
+      "bg-kazam",
+      "bg-lassomd",
+      "bg-olympic",
+      "bg-slack",
+      "insp-1-23",
+      "insp-404-page-2",
+      "insp-5-6",
+      "insp-7-7",
+      "insp-8-4",
+      "insp-anthropomorphic-brand-character",
+      "insp-bento-cards",
+      "insp-onboarding",
+      "insp-sticker-footer",
+      "insp-thanos-snap-ticket"
+     ]
+    ],
+    [
      "data-dense",
      14,
      [
@@ -1120,25 +1143,6 @@
       "insp-session-progress-and-recovery-timeline",
       "insp-support-analytics",
       "insp-tracking-cards"
-     ]
-    ],
-    [
-     "flat-illustration",
-     13,
-     [
-      "bg-lassomd",
-      "bg-olympic",
-      "bg-slack",
-      "insp-1-23",
-      "insp-404-page-2",
-      "insp-5-6",
-      "insp-7-7",
-      "insp-8-4",
-      "insp-anthropomorphic-brand-character",
-      "insp-bento-cards",
-      "insp-onboarding",
-      "insp-sticker-footer",
-      "insp-thanos-snap-ticket"
      ]
     ],
     [
@@ -2367,6 +2371,62 @@
      1,
      [
       "bg-hulu"
+     ]
+    ],
+    [
+     "named-colour-tokens-with-lite-highlight-tints",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "concentric-whirl-background",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "mesh-gradient-backgrounds",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "logo-derived-iconography",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "glyph-based-clearspace",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "tinted-chapter-dividers",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "product-cutout-on-brand-field",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "boxed-cta-tag",
+     1,
+     [
+      "bg-kazam"
      ]
     ],
     [
@@ -14860,6 +14920,13 @@
      ]
     ],
     [
+     "[exclusion-zone-from-wizard-hat-stroke, logotype-sized-from-m-and-z, kerning-minus-20-and-minus-30, 90-10-pocus-pixie-rule, every-secondary-wave-must-contain-pocus, icons-match-marque-stroke-weight, uh-oh-reserved-for-errors, section-tinted-page-grounds]",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
      "motif-thickness-scaled-by-paper-size",
      1,
      [
@@ -26756,9 +26823,10 @@
    "anti_patterns": [
     [
      "no-type-scale",
-     3,
+     4,
      [
       "bg-afterpay",
+      "bg-kazam",
       "bg-lassomd",
       "bg-make"
      ]
@@ -26779,6 +26847,14 @@
       "insp-1-54",
       "insp-brand-work",
       "insp-collection-layout"
+     ]
+    ],
+    [
+     "no-misuse-page",
+     2,
+     [
+      "bg-kazam",
+      "bg-northalley"
      ]
     ],
     [
@@ -27133,6 +27209,48 @@
      ]
     ],
     [
+     "duplicate-hex-highlight-extra",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "placeholder-cmyk-x-percent",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "white-on-pocus-1.74",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "no-minimum-logo-size",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "cadabra-name-inconsistency",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "credit-mismatch-with-inventory",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
      "text-layer-fails-to-render",
      1,
      [
@@ -27330,13 +27448,6 @@
     ],
     [
      "typos-in-spec",
-     1,
-     [
-      "bg-northalley"
-     ]
-    ],
-    [
-     "no-misuse-page",
      1,
      [
       "bg-northalley"
@@ -32022,12 +32133,13 @@
     ],
     [
      "geometric-sans",
-     27,
+     28,
      [
       "bg-afterpay",
       "bg-bella-nova",
       "bg-discord",
       "bg-edp",
+      "bg-kazam",
       "bg-lassomd",
       "bg-mastercard-foundation",
       "bg-naseem-al-faihaa",
@@ -32055,12 +32167,13 @@
     ],
     [
      "grotesk",
-     13,
+     14,
      [
       "bg-afterpay",
       "bg-bolt",
       "bg-fiba-women-s-eurobasket",
       "bg-hulu",
+      "bg-kazam",
       "bg-make",
       "bg-northalley",
       "bg-olympic",
@@ -32209,9 +32322,10 @@
    "mode": [
     [
      "light",
-     170,
+     171,
      [
       "bg-adobe",
+      "bg-kazam",
       "bg-kia",
       "bg-make",
       "bg-mastercard-foundation",
@@ -32537,22 +32651,22 @@
     "aesthetics": {
      "mean": 8.08,
      "median": 8.0,
-     "n": 307
+     "n": 308
     },
     "originality": {
-     "mean": 7.34,
+     "mean": 7.33,
      "median": 7.0,
-     "n": 307
+     "n": 308
     },
     "usability": {
      "mean": 6.63,
      "median": 7.0,
-     "n": 307
+     "n": 308
     },
     "craft": {
-     "mean": 7.82,
+     "mean": 7.81,
      "median": 8.0,
-     "n": 307
+     "n": 308
     }
    },
    "radius_px": [
@@ -32829,7 +32943,7 @@
    ]
   },
   "brandguidelines:ALL": {
-   "n": 20,
+   "n": 21,
    "failed": [],
    "styles": [
     [
@@ -32889,13 +33003,24 @@
     ],
     [
      "minimal-swiss",
-     5,
+     6,
      [
       "bg-frame-io",
+      "bg-kazam",
       "bg-kia",
       "bg-mastercard-foundation",
       "bg-naseem-al-faihaa",
       "bg-northalley"
+     ]
+    ],
+    [
+     "playful-rounded",
+     4,
+     [
+      "bg-discord",
+      "bg-kazam",
+      "bg-lassomd",
+      "bg-twitch"
      ]
     ],
     [
@@ -32909,18 +33034,10 @@
      ]
     ],
     [
-     "playful-rounded",
-     3,
-     [
-      "bg-discord",
-      "bg-lassomd",
-      "bg-twitch"
-     ]
-    ],
-    [
      "flat-illustration",
-     3,
+     4,
      [
+      "bg-kazam",
       "bg-lassomd",
       "bg-olympic",
       "bg-slack"
@@ -32956,6 +33073,14 @@
      [
       "bg-frame-io",
       "bg-hulu"
+     ]
+    ],
+    [
+     "gradient-mesh",
+     2,
+     [
+      "bg-kazam",
+      "bg-new-breed"
      ]
     ],
     [
@@ -32998,13 +33123,6 @@
      1,
      [
       "bg-make"
-     ]
-    ],
-    [
-     "gradient-mesh",
-     1,
-     [
-      "bg-new-breed"
      ]
     ],
     [
@@ -33518,6 +33636,62 @@
      1,
      [
       "bg-hulu"
+     ]
+    ],
+    [
+     "named-colour-tokens-with-lite-highlight-tints",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "concentric-whirl-background",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "mesh-gradient-backgrounds",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "logo-derived-iconography",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "glyph-based-clearspace",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "tinted-chapter-dividers",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "product-cutout-on-brand-field",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "boxed-cta-tag",
+     1,
+     [
+      "bg-kazam"
      ]
     ],
     [
@@ -34461,6 +34635,13 @@
      ]
     ],
     [
+     "[exclusion-zone-from-wizard-hat-stroke, logotype-sized-from-m-and-z, kerning-minus-20-and-minus-30, 90-10-pocus-pixie-rule, every-secondary-wave-must-contain-pocus, icons-match-marque-stroke-weight, uh-oh-reserved-for-errors, section-tinted-page-grounds]",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
      "motif-thickness-scaled-by-paper-size",
      1,
      [
@@ -34870,11 +35051,20 @@
    "anti_patterns": [
     [
      "no-type-scale",
-     3,
+     4,
      [
       "bg-afterpay",
+      "bg-kazam",
       "bg-lassomd",
       "bg-make"
+     ]
+    ],
+    [
+     "no-misuse-page",
+     2,
+     [
+      "bg-kazam",
+      "bg-northalley"
      ]
     ],
     [
@@ -35173,6 +35363,48 @@
      ]
     ],
     [
+     "duplicate-hex-highlight-extra",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "placeholder-cmyk-x-percent",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "white-on-pocus-1.74",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "no-minimum-logo-size",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "cadabra-name-inconsistency",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "credit-mismatch-with-inventory",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
      "text-layer-fails-to-render",
      1,
      [
@@ -35376,13 +35608,6 @@
      ]
     ],
     [
-     "no-misuse-page",
-     1,
-     [
-      "bg-northalley"
-     ]
-    ],
-    [
      "stock-photo-sourcing-advice",
      1,
      [
@@ -35505,12 +35730,13 @@
    "type_class": [
     [
      "geometric-sans",
-     12,
+     13,
      [
       "bg-afterpay",
       "bg-bella-nova",
       "bg-discord",
       "bg-edp",
+      "bg-kazam",
       "bg-lassomd",
       "bg-mastercard-foundation",
       "bg-naseem-al-faihaa",
@@ -35523,12 +35749,13 @@
     ],
     [
      "grotesk",
-     7,
+     8,
      [
       "bg-afterpay",
       "bg-bolt",
       "bg-fiba-women-s-eurobasket",
       "bg-hulu",
+      "bg-kazam",
       "bg-make",
       "bg-northalley",
       "bg-olympic"
@@ -35612,9 +35839,10 @@
    "mode": [
     [
      "light",
-     9,
+     10,
      [
       "bg-adobe",
+      "bg-kazam",
       "bg-kia",
       "bg-make",
       "bg-mastercard-foundation",
@@ -35651,24 +35879,24 @@
    ],
    "scores": {
     "aesthetics": {
-     "mean": 7.4,
+     "mean": 7.43,
      "median": 7.0,
-     "n": 20
+     "n": 21
     },
     "originality": {
-     "mean": 6.4,
-     "median": 6.5,
-     "n": 20
+     "mean": 6.43,
+     "median": 7.0,
+     "n": 21
     },
     "usability": {
-     "mean": 6.9,
-     "median": 6.5,
-     "n": 20
+     "mean": 6.86,
+     "median": 6.0,
+     "n": 21
     },
     "craft": {
-     "mean": 6.45,
+     "mean": 6.43,
      "median": 6.0,
-     "n": 20
+     "n": 21
     }
    },
    "radius_px": [
@@ -35806,12 +36034,12 @@
      }
     ],
     [
-     "bg-mastercard-foundation",
+     "bg-kazam",
      {
-      "aesthetics": 6,
-      "originality": 5,
-      "usability": 9,
-      "craft": 7
+      "aesthetics": 8,
+      "originality": 7,
+      "usability": 6,
+      "craft": 6
      }
     ]
    ],
@@ -35909,7 +36137,7 @@
    ]
   },
   "brandguidelines:guideline": {
-   "n": 20,
+   "n": 21,
    "failed": [],
    "styles": [
     [
@@ -35969,13 +36197,24 @@
     ],
     [
      "minimal-swiss",
-     5,
+     6,
      [
       "bg-frame-io",
+      "bg-kazam",
       "bg-kia",
       "bg-mastercard-foundation",
       "bg-naseem-al-faihaa",
       "bg-northalley"
+     ]
+    ],
+    [
+     "playful-rounded",
+     4,
+     [
+      "bg-discord",
+      "bg-kazam",
+      "bg-lassomd",
+      "bg-twitch"
      ]
     ],
     [
@@ -35989,18 +36228,10 @@
      ]
     ],
     [
-     "playful-rounded",
-     3,
-     [
-      "bg-discord",
-      "bg-lassomd",
-      "bg-twitch"
-     ]
-    ],
-    [
      "flat-illustration",
-     3,
+     4,
      [
+      "bg-kazam",
       "bg-lassomd",
       "bg-olympic",
       "bg-slack"
@@ -36036,6 +36267,14 @@
      [
       "bg-frame-io",
       "bg-hulu"
+     ]
+    ],
+    [
+     "gradient-mesh",
+     2,
+     [
+      "bg-kazam",
+      "bg-new-breed"
      ]
     ],
     [
@@ -36078,13 +36317,6 @@
      1,
      [
       "bg-make"
-     ]
-    ],
-    [
-     "gradient-mesh",
-     1,
-     [
-      "bg-new-breed"
      ]
     ],
     [
@@ -36598,6 +36830,62 @@
      1,
      [
       "bg-hulu"
+     ]
+    ],
+    [
+     "named-colour-tokens-with-lite-highlight-tints",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "concentric-whirl-background",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "mesh-gradient-backgrounds",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "logo-derived-iconography",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "glyph-based-clearspace",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "tinted-chapter-dividers",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "product-cutout-on-brand-field",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "boxed-cta-tag",
+     1,
+     [
+      "bg-kazam"
      ]
     ],
     [
@@ -37541,6 +37829,13 @@
      ]
     ],
     [
+     "[exclusion-zone-from-wizard-hat-stroke, logotype-sized-from-m-and-z, kerning-minus-20-and-minus-30, 90-10-pocus-pixie-rule, every-secondary-wave-must-contain-pocus, icons-match-marque-stroke-weight, uh-oh-reserved-for-errors, section-tinted-page-grounds]",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
      "motif-thickness-scaled-by-paper-size",
      1,
      [
@@ -37950,11 +38245,20 @@
    "anti_patterns": [
     [
      "no-type-scale",
-     3,
+     4,
      [
       "bg-afterpay",
+      "bg-kazam",
       "bg-lassomd",
       "bg-make"
+     ]
+    ],
+    [
+     "no-misuse-page",
+     2,
+     [
+      "bg-kazam",
+      "bg-northalley"
      ]
     ],
     [
@@ -38253,6 +38557,48 @@
      ]
     ],
     [
+     "duplicate-hex-highlight-extra",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "placeholder-cmyk-x-percent",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "white-on-pocus-1.74",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "no-minimum-logo-size",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "cadabra-name-inconsistency",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
+     "credit-mismatch-with-inventory",
+     1,
+     [
+      "bg-kazam"
+     ]
+    ],
+    [
      "text-layer-fails-to-render",
      1,
      [
@@ -38456,13 +38802,6 @@
      ]
     ],
     [
-     "no-misuse-page",
-     1,
-     [
-      "bg-northalley"
-     ]
-    ],
-    [
      "stock-photo-sourcing-advice",
      1,
      [
@@ -38585,12 +38924,13 @@
    "type_class": [
     [
      "geometric-sans",
-     12,
+     13,
      [
       "bg-afterpay",
       "bg-bella-nova",
       "bg-discord",
       "bg-edp",
+      "bg-kazam",
       "bg-lassomd",
       "bg-mastercard-foundation",
       "bg-naseem-al-faihaa",
@@ -38603,12 +38943,13 @@
     ],
     [
      "grotesk",
-     7,
+     8,
      [
       "bg-afterpay",
       "bg-bolt",
       "bg-fiba-women-s-eurobasket",
       "bg-hulu",
+      "bg-kazam",
       "bg-make",
       "bg-northalley",
       "bg-olympic"
@@ -38692,9 +39033,10 @@
    "mode": [
     [
      "light",
-     9,
+     10,
      [
       "bg-adobe",
+      "bg-kazam",
       "bg-kia",
       "bg-make",
       "bg-mastercard-foundation",
@@ -38731,24 +39073,24 @@
    ],
    "scores": {
     "aesthetics": {
-     "mean": 7.4,
+     "mean": 7.43,
      "median": 7.0,
-     "n": 20
+     "n": 21
     },
     "originality": {
-     "mean": 6.4,
-     "median": 6.5,
-     "n": 20
+     "mean": 6.43,
+     "median": 7.0,
+     "n": 21
     },
     "usability": {
-     "mean": 6.9,
-     "median": 6.5,
-     "n": 20
+     "mean": 6.86,
+     "median": 6.0,
+     "n": 21
     },
     "craft": {
-     "mean": 6.45,
+     "mean": 6.43,
      "median": 6.0,
-     "n": 20
+     "n": 21
     }
    },
    "radius_px": [
@@ -38886,12 +39228,12 @@
      }
     ],
     [
-     "bg-mastercard-foundation",
+     "bg-kazam",
      {
-      "aesthetics": 6,
-      "originality": 5,
-      "usability": 9,
-      "craft": 7
+      "aesthetics": 8,
+      "originality": 7,
+      "usability": 6,
+      "craft": 6
      }
     ]
    ],

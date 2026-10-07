@@ -91,7 +91,9 @@ async function visit(page, url, waitMs = 3500) {
       const cands = [];
       for (const l of c.nav) {
         try { const u = new URL(l.h); u.hash = '';
-          if (u.host !== base.host || u.href === base.href || /\.(pdf|zip|png|jpg|svg)$/i.test(u.pathname)) continue;
+          const origHost = OVR[r.id] ? new URL(r.url).host.replace(/^www\./, '') : null;
+          const sameSite = origHost ? (u.host === 'web.archive.org' && u.pathname.includes(origHost)) : u.host === base.host;
+          if (!sameSite || u.href === base.href || /\.(pdf|zip|png|jpg|svg)$/i.test(u.pathname)) continue;
           if (!(KEY.test(l.t) || KEY.test(u.pathname))) continue;
           if (r.asset_type === 'template-page' || r.asset_type === 'promoted-site') continue;
           if (!cands.find(x => x.href === u.href)) cands.push({ href: u.href, t: l.t });
