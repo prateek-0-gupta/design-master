@@ -1,0 +1,47 @@
+{
+ "id": "aa1d8706-5717-4012-958a-807b46c91fbb",
+ "slug": "6-9",
+ "title": "Thinking states",
+ "creator": {
+  "id": "7ee071ec-9e5e-472e-aa01-50a3a1ccb6b7",
+  "name": "@xchylerdrenth",
+  "handle": "@xchylerdrenth",
+  "url": "https://x.com/xchylerdrenth",
+  "avatarUrl": "https://media.inspora.design/creators/599ac400-55bf-49ec-974a-65d5b75c7fcd.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Agent thinking states",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/xchylerdrenth/status/2072203766523363623",
+ "createdAt": "2026-08-15T07:53:24.751Z",
+ "publishedAt": "2026-08-15T07:53:24.511Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "a414bde9-03ee-454a-844f-727b2404301d",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/d6b5694b-1955-4173-b4af-c4b6e1ca9102.mp4",
+   "posterUrl": "https://media.inspora.design/posts/c04aa8ba-7117-45a0-bc04-e426bc3e9aba.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 191760,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/a414bde9-03ee-454a-844f-727b2404301d.mp4",
+    "bytes": 107627,
+    "width": 1080,
+    "format": "mp4",
+    "height": 810,
+    "storageKey": "posts/previews/a414bde9-03ee-454a-844f-727b2404301d.mp4"
+   },
+   "alt": "Saa7TFWsaz5CVH0M",
+   "width": 1920,
+   "height": 1441,
+   "position": 0
+  }
+ ]
+}

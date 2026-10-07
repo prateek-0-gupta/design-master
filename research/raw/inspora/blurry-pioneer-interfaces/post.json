@@ -1,0 +1,148 @@
+{
+ "id": "28a10f5c-caef-4d1b-aa53-c3d0436c83c3",
+ "slug": "blurry-pioneer-interfaces",
+ "title": "Blurry Pioneer interfaces",
+ "creator": {
+  "id": "eab6b144-76a9-4899-bbf5-c0a81afea2f9",
+  "name": "Bakers Studio",
+  "handle": "@studiobakers",
+  "url": "https://x.com/studiobakers",
+  "avatarUrl": "https://media.inspora.design/creators/8e23fdea-4cf7-4d51-8aca-ce2d06207ce2.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "glass cards for AI agents, model checkpoints, and inference tools set against dreamy motion-blurred sunset and landscape backgrounds.",
+ "category": "Product",
+ "industries": [
+  "Tech"
+ ],
+ "colors": [
+  "Purple",
+  "orange"
+ ],
+ "styles": [
+  "Modern blur"
+ ],
+ "sourceUrl": "https://x.com/studiobakers/status/2104517724508684299",
+ "createdAt": "2026-09-30T05:40:53.035Z",
+ "publishedAt": "2026-09-30T05:40:52.800Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "c96d36ee-93e7-4f0b-9f9e-b261c4d96b86",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/441796c4-4dd9-4873-ada2-f9b88220ab4a.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 977934,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/695b4e94-ed48-4495-9b0d-389f973e5842.webp",
+     "bytes": 78300,
+     "width": 640,
+     "format": "webp",
+     "height": 905,
+     "storageKey": "posts/695b4e94-ed48-4495-9b0d-389f973e5842.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/329478c3-929c-44ab-a64d-48706f07f3fa.webp",
+     "bytes": 201264,
+     "width": 960,
+     "format": "webp",
+     "height": 1357,
+     "storageKey": "posts/329478c3-929c-44ab-a64d-48706f07f3fa.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/28b4b021-9fae-4eb2-b2ff-8cecf0104808.webp",
+     "bytes": 562792,
+     "width": 1600,
+     "format": "webp",
+     "height": 2261,
+     "storageKey": "posts/28b4b021-9fae-4eb2-b2ff-8cecf0104808.webp"
+    }
+   ],
+   "alt": "HTS8YiuaQAASxgT",
+   "width": 2560,
+   "height": 3618,
+   "position": 0
+  },
+  {
+   "id": "d1eb80bd-497b-4822-91c4-65324c2f53a1",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/b438f15a-2872-4af6-a216-cc912e5f55fe.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 529334,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/27e939ef-b2e0-4199-b745-f14a8f2032a9.webp",
+     "bytes": 53412,
+     "width": 640,
+     "format": "webp",
+     "height": 905,
+     "storageKey": "posts/27e939ef-b2e0-4199-b745-f14a8f2032a9.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/4c10e96c-e1f4-4665-8043-04625368eb16.webp",
+     "bytes": 126092,
+     "width": 960,
+     "format": "webp",
+     "height": 1357,
+     "storageKey": "posts/4c10e96c-e1f4-4665-8043-04625368eb16.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/3c2029d8-a0de-4692-9417-01df373dc607.webp",
+     "bytes": 304460,
+     "width": 1600,
+     "format": "webp",
+     "height": 2261,
+     "storageKey": "posts/3c2029d8-a0de-4692-9417-01df373dc607.webp"
+    }
+   ],
+   "alt": "HTS8YiebQAAIpn6",
+   "width": 2560,
+   "height": 3618,
+   "position": 1
+  },
+  {
+   "id": "b71055d0-a616-4dba-8d73-1203ecf98fab",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/6d9d95f0-10c7-49d1-adbc-3abb61c2ce4d.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 192956,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/0aa70959-eabc-4cda-a9ee-e89b6637cf33.webp",
+     "bytes": 30242,
+     "width": 640,
+     "format": "webp",
+     "height": 905,
+     "storageKey": "posts/0aa70959-eabc-4cda-a9ee-e89b6637cf33.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/104f3bfc-6bf2-4cca-9d65-914195ee1cf5.webp",
+     "bytes": 52948,
+     "width": 960,
+     "format": "webp",
+     "height": 1357,
+     "storageKey": "posts/104f3bfc-6bf2-4cca-9d65-914195ee1cf5.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/7bf4e311-1b9d-4318-af04-c86cab3439fc.webp",
+     "bytes": 105830,
+     "width": 1600,
+     "format": "webp",
+     "height": 2261,
+     "storageKey": "posts/7bf4e311-1b9d-4318-af04-c86cab3439fc.webp"
+    }
+   ],
+   "alt": "HTS8YiXaIAAbjvA",
+   "width": 2560,
+   "height": 3618,
+   "position": 2
+  }
+ ]
+}

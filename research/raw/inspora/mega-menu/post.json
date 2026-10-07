@@ -1,0 +1,54 @@
+{
+ "id": "12bcd321-8020-4933-85ad-1e96a77bf793",
+ "slug": "mega-menu",
+ "title": "Mega Menu Animation",
+ "creator": {
+  "id": "0bd10159-fa90-4845-98c3-cc3186764a03",
+  "name": "@gabriell_lab",
+  "handle": "@gabriell_lab",
+  "url": "https://x.com/gabriell_lab",
+  "avatarUrl": "https://media.inspora.design/creators/451965de-bdfb-47a1-a693-0ab6c1157dac.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Frosted mega menu for Grain: product cards over a cinematic hillside hero.",
+ "category": "Web",
+ "industries": [
+  "Fintech"
+ ],
+ "colors": [
+  "brown",
+  "gold"
+ ],
+ "styles": [
+  "Cinematic"
+ ],
+ "sourceUrl": "https://x.com/gabriell_lab/status/2094055275233694034",
+ "createdAt": "2026-08-30T16:48:30.671Z",
+ "publishedAt": "2026-08-30T16:48:30.616Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "2ea004f1-6247-4417-b520-bc289407b455",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/d76f2699-7d53-42fc-8b0b-200dfb339cd6.mp4",
+   "posterUrl": "https://media.inspora.design/posts/9206211e-016e-4e9c-843c-b90def22836c.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1728578,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/1b7f7eb1-6cb8-443a-97ef-cae67b04a601.mp4",
+    "bytes": 331834,
+    "width": 1080,
+    "format": "mp4",
+    "height": 810,
+    "storageKey": "posts/1b7f7eb1-6cb8-443a-97ef-cae67b04a601.mp4"
+   },
+   "alt": "GQ0YotIdHiKJQBYX",
+   "width": 2560,
+   "height": 1920,
+   "position": 0
+  }
+ ]
+}

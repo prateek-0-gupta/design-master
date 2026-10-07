@@ -1,0 +1,55 @@
+{
+ "id": "07c965a8-e803-4d44-b586-cd9b07c65e1c",
+ "slug": "ai-prompt-bar",
+ "title": "AI prompt bar",
+ "creator": {
+  "id": "67b6550a-9847-4ff1-8cf6-02c182e11b8e",
+  "name": "@socoloffalex",
+  "handle": "@socoloffalex",
+  "url": "https://x.com/socoloffalex",
+  "avatarUrl": "https://media.inspora.design/creators/991611c0-ae0a-4ee9-b711-46c0b6923ad3.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A warm-gradient, glass-like AI prompt bar with a morphing iridescent orb",
+ "category": "Product",
+ "industries": [
+  "AI",
+  "SaaS"
+ ],
+ "colors": [
+  "orange",
+  "peach"
+ ],
+ "styles": [
+  "Soft glass"
+ ],
+ "sourceUrl": "https://x.com/socoloffalex/status/2096575723142099027",
+ "createdAt": "2026-09-12T04:46:13.484Z",
+ "publishedAt": "2026-09-12T04:46:13.244Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "5ef11ec2-6340-42af-b77a-6361c3807157",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/58e4b077-6634-4047-a60a-a671d780a357.mp4",
+   "posterUrl": "https://media.inspora.design/posts/5a4e3709-168a-4042-98a5-d3461744d9e6.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2855622,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/d9f8e57e-cce9-437c-8a88-59f386703c8b.mp4",
+    "bytes": 217442,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/d9f8e57e-cce9-437c-8a88-59f386703c8b.mp4"
+   },
+   "alt": "UCSl9V PUzwgjeH",
+   "width": 3840,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

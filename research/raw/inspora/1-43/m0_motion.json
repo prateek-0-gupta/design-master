@@ -1,0 +1,41 @@
+{
+ "meta": {
+  "width": 2876,
+  "height": 2160,
+  "fps": 60.0,
+  "duration": 20.383333,
+  "codec": "h264"
+ },
+ "frame_times": [
+  1.13,
+  3.4,
+  5.66,
+  7.93,
+  10.19,
+  12.46,
+  14.72,
+  16.99,
+  19.25
+ ],
+ "profile": {
+  "sample_fps": 30,
+  "threshold": 0.35,
+  "motion_fraction": 0.01,
+  "mean_energy": 0.06,
+  "p95_energy": 0.23,
+  "first_last_diff": 6.91,
+  "seamless_loop_likely": false,
+  "segments": [
+   {
+    "start": 15.17,
+    "end": 15.27,
+    "duration": 0.1,
+    "peak_at": 0.5,
+    "energy_cv": 0.02,
+    "shape": "ease-in-out (symmetric)"
+   }
+  ],
+  "segment_count": 1,
+  "median_segment_s": 0.1
+ }
+}

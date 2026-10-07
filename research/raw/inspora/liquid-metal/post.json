@@ -1,0 +1,57 @@
+{
+ "id": "5cd83051-721d-4146-be81-5ca8d17df219",
+ "slug": "liquid-metal",
+ "title": "Liquid metal",
+ "creator": {
+  "id": "84b49451-2d73-480d-a118-ecfc89baedad",
+  "name": "@basit_designs",
+  "handle": "@basit_designs",
+  "url": "https://x.com/basit_designs",
+  "avatarUrl": "https://media.inspora.design/creators/848f5428-3415-489f-ae43-38127c6da526.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Glossy light-mode upload button with liquid-metal plus icon.",
+ "category": "Illustration",
+ "industries": [
+  "SaaS",
+  "file tools"
+ ],
+ "colors": [
+  "White",
+  "chrome",
+  "iridescent"
+ ],
+ "styles": [
+  "Liquid metal",
+  "glossy glass"
+ ],
+ "sourceUrl": "https://x.com/basit_designs/status/2004996999511466125",
+ "createdAt": "2026-09-21T05:40:34.153Z",
+ "publishedAt": "2026-09-21T05:40:33.993Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "fa251fc3-4e95-4aab-972a-b452e84cc2ad",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/afdcc671-ec9f-4f17-a6f8-660cd324b627.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d636c6e3-bcf5-485c-8818-c25dacbe8691.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 968856,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/156e6197-7879-4af5-a559-05b9829470ac.mp4",
+    "bytes": 429657,
+    "width": 1080,
+    "format": "mp4",
+    "height": 940,
+    "storageKey": "posts/156e6197-7879-4af5-a559-05b9829470ac.mp4"
+   },
+   "alt": "GT8FpVFu8ZlAh5iv",
+   "width": 2104,
+   "height": 1834,
+   "position": 0
+  }
+ ]
+}

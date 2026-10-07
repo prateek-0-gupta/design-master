@@ -1,0 +1,57 @@
+{
+ "id": "1616f5a9-af09-4d60-bf8a-d39d7698d7ad",
+ "slug": "apple-style-level-components",
+ "title": "apple style level components",
+ "creator": {
+  "id": "bbc75705-fb3a-4e1a-bc32-4a7c975b6617",
+  "name": "Elia",
+  "handle": "@eliakuratli",
+  "url": "https://x.com/eliakuratli",
+  "avatarUrl": "https://media.inspora.design/creators/e6721572-31bd-49f6-acf5-285db766b595.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Apple-style UI components from uiarc.dev",
+ "category": "Motion",
+ "industries": [
+  "Design",
+  "SaaS"
+ ],
+ "colors": [
+  "White",
+  "pink",
+  "green"
+ ],
+ "styles": [
+  "Apple",
+  "Minimal"
+ ],
+ "sourceUrl": "https://x.com/eliakuratli/status/2104932927478042762",
+ "createdAt": "2026-10-01T05:33:37.203Z",
+ "publishedAt": "2026-10-01T05:33:36.964Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "5a38ba0a-1383-48bb-b240-1cbec9a76c0c",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/7b2a5d06-48f5-4dbb-99fc-19f5c3ace154.mp4",
+   "posterUrl": "https://media.inspora.design/posts/90fe8f32-f71c-4000-afb6-93bc67cdf5b2.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 4524947,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/d8fb8e65-70a8-4b8a-ab7f-feffa7c8d2a9.mp4",
+    "bytes": 2417192,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/d8fb8e65-70a8-4b8a-ab7f-feffa7c8d2a9.mp4"
+   },
+   "alt": "aJW5sLkAHGeaZjrM",
+   "width": 1920,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

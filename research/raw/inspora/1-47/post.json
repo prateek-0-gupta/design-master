@@ -1,0 +1,47 @@
+{
+ "id": "e8c620eb-e70d-47cc-a844-f28bd4ce58cf",
+ "slug": "1-47",
+ "title": "voice note / interaction",
+ "creator": {
+  "id": "26d7f383-5a84-4f33-bb37-59e5158ea0b4",
+  "name": "@proskuaaa",
+  "handle": "@proskuaaa",
+  "url": "https://x.com/proskuaaa",
+  "avatarUrl": "https://media.inspora.design/creators/eceeafd4-7180-454d-812f-1e0260c41c80.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "voice note / interaction",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/proskuaaa/status/1955133897265541567",
+ "createdAt": "2026-08-27T02:48:40.838Z",
+ "publishedAt": "2026-08-27T02:48:40.288Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "627e6fe8-d0a4-42ff-98ef-7368126071b2",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/c96f4be0-7468-43b9-9063-8cf7869f6780.mp4",
+   "posterUrl": "https://media.inspora.design/posts/2141f9f6-81ec-43e2-b2cc-6c14be89c50e.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 886310,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/ba939f6e-bce2-4d72-a85b-784a8f36cea2.mp4",
+    "bytes": 1246689,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/ba939f6e-bce2-4d72-a85b-784a8f36cea2.mp4"
+   },
+   "alt": "zk9iROUxHlwA0 vY",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "id": "38ad5dcc-7aca-4832-957c-df7ee7bdd083",
+ "slug": "quiet-overlapping-clocks",
+ "title": "Quiet overlapping clocks",
+ "creator": {
+  "id": "a9b52a02-579a-4a05-ad30-3900ec8bd55a",
+  "name": "Lokki",
+  "handle": "@tweetbylokki",
+  "url": "https://x.com/tweetbylokki",
+  "avatarUrl": "https://media.inspora.design/creators/871e915f-f456-4ad9-b5b2-1dd582f1f9e0.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Minimal white-over-black clock widgets with green ticks, quietly telling time on the home screen.",
+ "category": "Product",
+ "industries": [
+  "Product design"
+ ],
+ "colors": [
+  "White",
+  "Black",
+  "Green"
+ ],
+ "styles": [
+  "Minimalist"
+ ],
+ "sourceUrl": "https://x.com/tweetbylokki/status/2104270096851939804",
+ "createdAt": "2026-10-01T05:26:36.424Z",
+ "publishedAt": "2026-10-01T05:26:36.186Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "ded80afd-e59a-4252-bdee-ebf93a91cdfa",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/9d8383a3-6aee-4ede-99b6-d25da1a45d1b.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 24668,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/a0915162-9b1c-4d9a-b6b3-8f87b358fee4.webp",
+     "bytes": 8096,
+     "width": 640,
+     "format": "webp",
+     "height": 800,
+     "storageKey": "posts/a0915162-9b1c-4d9a-b6b3-8f87b358fee4.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/1be8f25d-1f04-40bf-8985-bc7b7c5a31aa.webp",
+     "bytes": 13408,
+     "width": 960,
+     "format": "webp",
+     "height": 1200,
+     "storageKey": "posts/1be8f25d-1f04-40bf-8985-bc7b7c5a31aa.webp"
+    }
+   ],
+   "alt": "HTPegFeXYAEqAkN",
+   "width": 1500,
+   "height": 1875,
+   "position": 0
+  }
+ ]
+}

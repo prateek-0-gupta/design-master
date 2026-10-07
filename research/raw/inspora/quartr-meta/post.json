@@ -1,0 +1,47 @@
+{
+ "id": "2243f458-4cfa-49bc-b2f2-c26e8c08f096",
+ "slug": "quartr-meta",
+ "title": "Quartr x Meta Earnings",
+ "creator": {
+  "id": "c2860093-3933-408f-928b-677faac83680",
+  "name": "haris_chc",
+  "handle": "@haris_chc",
+  "url": "https://x.com/haris_chc",
+  "avatarUrl": "https://media.inspora.design/creators/912c0b4b-aa7f-4a1e-9151-19e2e0be3134.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A collection of editorial visuals exploring the visual identity of major tech earnings announcements, blending portrait photography with abstract textures, bold typography, and experimental graphic compositions.",
+ "category": "Print",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/haris_chc/status/2082562040485314722",
+ "createdAt": "2026-08-07T01:41:31.137Z",
+ "publishedAt": "2026-08-07T01:41:30.830Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "88aef270-44a2-410d-a45d-75e4dcd385f2",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/4f5f8c48-7f6d-4148-acd7-b62ade79915e.mp4",
+   "posterUrl": "https://media.inspora.design/posts/1cc86ae9-1960-4cb6-a092-8e59ef12e41e.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1131440,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/88aef270-44a2-410d-a45d-75e4dcd385f2.mp4",
+    "bytes": 1026721,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/previews/88aef270-44a2-410d-a45d-75e4dcd385f2.mp4"
+   },
+   "alt": "v0",
+   "width": 1280,
+   "height": 1280,
+   "position": 0
+  }
+ ]
+}

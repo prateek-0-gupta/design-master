@@ -1,0 +1,55 @@
+{
+ "id": "51423f99-90f6-4f0d-91d1-0421f1a10dc1",
+ "slug": "isometric-ai-computer",
+ "title": "isometric AI computer",
+ "creator": {
+  "id": "dbad0a5c-233c-4680-9e28-e015dd8019a4",
+  "name": "R",
+  "handle": "@wheresryan22",
+  "avatarUrl": "https://media.inspora.design/creators/22850d71-5f91-4918-8d98-71602edcd6fe.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Interactive isometric wireframe of a vintage Apple-style PC with the Anthropic logo and a cabled keyboard, made from an AI prompt",
+ "category": "Illustration",
+ "industries": [
+  "Tech",
+  "Software"
+ ],
+ "colors": [
+  "Dark",
+  "Monochrome"
+ ],
+ "styles": [
+  "Isometric",
+  "Wireframe"
+ ],
+ "sourceUrl": "https://x.com/wheresryan22/status/2106476722463900105",
+ "createdAt": "2026-10-04T05:24:04.656Z",
+ "publishedAt": "2026-10-04T05:24:04.604Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "c734faf8-3336-48b6-b84d-bb16698e5c49",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/358d3bb6-09f3-494e-8333-3884cbb06163.mp4",
+   "posterUrl": "https://media.inspora.design/posts/cf8705fd-af5f-4d40-86c9-d39aa4ba80e6.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1400477,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/a67de323-60ac-43d5-ad19-a2a22c86cb21.mp4",
+    "bytes": 395785,
+    "width": 1080,
+    "format": "mp4",
+    "height": 892,
+    "storageKey": "posts/a67de323-60ac-43d5-ad19-a2a22c86cb21.mp4"
+   },
+   "alt": "515kTMRz9hebTJDL",
+   "width": 1760,
+   "height": 1454,
+   "position": 0
+  }
+ ]
+}

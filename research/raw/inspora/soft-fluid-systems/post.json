@@ -1,0 +1,164 @@
+{
+ "id": "52ceefad-0b72-401d-b159-bc0596eb0f09",
+ "slug": "soft-fluid-systems",
+ "title": "soft + fluid systems",
+ "creator": {
+  "id": "7d597d78-c73b-45c7-a354-a63a4dffaf7f",
+  "name": "@ayushsoni_io",
+  "handle": "@ayushsoni_io",
+  "url": "https://x.com/ayushsoni_io",
+  "avatarUrl": "https://media.inspora.design/creators/c6561063-3f83-45e2-9816-bf1d1ffcbd3b.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "soft + fluid systems",
+ "category": "Branding",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/ayushsoni_io/status/2093977162919645684",
+ "createdAt": "2026-08-31T03:18:18.777Z",
+ "publishedAt": "2026-08-31T03:18:18.727Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "cf405b1a-984c-42a1-931d-d7a349264f84",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/9fbad821-f1a6-429b-89f8-2c1a45773322.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 258732,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/5b1a645f-20c8-4667-b11a-4ef741a06c59.webp",
+     "bytes": 34950,
+     "width": 640,
+     "format": "webp",
+     "height": 622,
+     "storageKey": "posts/5b1a645f-20c8-4667-b11a-4ef741a06c59.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/7c7a69e8-549b-4674-aef8-8d4eef320ce3.webp",
+     "bytes": 89148,
+     "width": 960,
+     "format": "webp",
+     "height": 933,
+     "storageKey": "posts/7c7a69e8-549b-4674-aef8-8d4eef320ce3.webp"
+    }
+   ],
+   "alt": "HQ9NF9NbEAADUiW",
+   "width": 1575,
+   "height": 1530,
+   "position": 0
+  },
+  {
+   "id": "f9b6bd06-b008-48b4-b349-b16bdaccbede",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/1c304b19-f7ee-4d93-8b2c-0b2bc4a06964.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 122290,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/db87b07a-1e45-489b-845c-efc8e2057403.webp",
+     "bytes": 25934,
+     "width": 640,
+     "format": "webp",
+     "height": 622,
+     "storageKey": "posts/db87b07a-1e45-489b-845c-efc8e2057403.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/12e6eb6d-3bfb-4b11-b98f-4bd5314d6099.webp",
+     "bytes": 41182,
+     "width": 960,
+     "format": "webp",
+     "height": 933,
+     "storageKey": "posts/12e6eb6d-3bfb-4b11-b98f-4bd5314d6099.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/66d821e0-898c-47cd-981a-cb66ec5a936c.webp",
+     "bytes": 74922,
+     "width": 1600,
+     "format": "webp",
+     "height": 1554,
+     "storageKey": "posts/66d821e0-898c-47cd-981a-cb66ec5a936c.webp"
+    }
+   ],
+   "alt": "HQ9NF7jaAAE2809",
+   "width": 2100,
+   "height": 2040,
+   "position": 1
+  },
+  {
+   "id": "9233a453-81f8-46de-ae57-dd5e363591b2",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/b67f249f-25b2-4787-8c1f-849b60e7da3e.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 32668,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/ce655677-11c0-4be1-9451-301a026694cc.webp",
+     "bytes": 13612,
+     "width": 640,
+     "format": "webp",
+     "height": 768,
+     "storageKey": "posts/ce655677-11c0-4be1-9451-301a026694cc.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/dcefad53-038a-4279-8b16-d597cb7fe093.webp",
+     "bytes": 21652,
+     "width": 960,
+     "format": "webp",
+     "height": 1152,
+     "storageKey": "posts/dcefad53-038a-4279-8b16-d597cb7fe093.webp"
+    }
+   ],
+   "alt": "HQ9NF9Ta8AAemcM",
+   "width": 1275,
+   "height": 1530,
+   "position": 2
+  },
+  {
+   "id": "82ee61fb-1775-4c6c-98e9-4e0ec29db86d",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/005cdd65-6b92-4ec8-bd57-a2c5eecdd823.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 88640,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/68ccc345-6bb9-45fa-9873-d7fc93da4068.webp",
+     "bytes": 14392,
+     "width": 640,
+     "format": "webp",
+     "height": 622,
+     "storageKey": "posts/68ccc345-6bb9-45fa-9873-d7fc93da4068.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/2351bb63-e191-49ca-a3dd-f1bebebc8823.webp",
+     "bytes": 22364,
+     "width": 960,
+     "format": "webp",
+     "height": 933,
+     "storageKey": "posts/2351bb63-e191-49ca-a3dd-f1bebebc8823.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/d9b50277-5c8b-4a59-b20e-1876a51100ab.webp",
+     "bytes": 49496,
+     "width": 1600,
+     "format": "webp",
+     "height": 1554,
+     "storageKey": "posts/d9b50277-5c8b-4a59-b20e-1876a51100ab.webp"
+    }
+   ],
+   "alt": "HQ9NF7maQAA9UlB",
+   "width": 2100,
+   "height": 2040,
+   "position": 3
+  }
+ ]
+}

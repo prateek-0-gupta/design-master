@@ -1,0 +1,57 @@
+{
+ "id": "32827e7b-f045-4662-b701-a8a5e6f85e36",
+ "slug": "invite-code-interaction",
+ "title": "invite code interaction",
+ "creator": {
+  "id": "bc22276d-c59a-4b1e-b3de-9044b3fdb86e",
+  "name": "@nitishkmrk",
+  "handle": "@nitishkmrk",
+  "url": "https://x.com/nitishkmrk",
+  "avatarUrl": "https://media.inspora.design/creators/8da6a9a1-29a7-49ce-8015-b5f8b44f8a92.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A smooth SwiftUI toggle animation that expands \u201cYour Invite Is Ready\u201d to reveal the code LoveSwiftUI with a COPY button.",
+ "category": "Motion",
+ "industries": [
+  "Interaction design",
+  "iOS"
+ ],
+ "colors": [
+  "White",
+  "green",
+  "gray"
+ ],
+ "styles": [
+  "Minimal",
+  "pill"
+ ],
+ "sourceUrl": "https://x.com/nitishkmrk/status/2103061978680086905",
+ "createdAt": "2026-09-26T05:03:52.131Z",
+ "publishedAt": "2026-09-26T05:03:52.080Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "8e34acbf-a9f5-4115-ab8c-0c1e1d7bf2cb",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/6a07c2d0-a93f-4f2d-8cbb-d13935c7057c.mp4",
+   "posterUrl": "https://media.inspora.design/posts/eeb97ac6-21f7-4348-a69d-aea930e11430.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 577192,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/7ddfbdfc-834c-4574-88e2-4a7428371a11.mp4",
+    "bytes": 334527,
+    "width": 960,
+    "format": "mp4",
+    "height": 960,
+    "storageKey": "posts/7ddfbdfc-834c-4574-88e2-4a7428371a11.mp4"
+   },
+   "alt": "aE8FRbYu84GNJjnb",
+   "width": 960,
+   "height": 960,
+   "position": 0
+  }
+ ]
+}

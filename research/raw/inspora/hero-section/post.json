@@ -1,0 +1,47 @@
+{
+ "id": "fc4420b4-6c61-4628-9a8b-08718d42b40d",
+ "slug": "hero-section",
+ "title": "Hero section",
+ "creator": {
+  "id": "a796ae44-718f-4d65-879a-cd330273f1e7",
+  "name": "@loseva_pro",
+  "handle": "@loseva_pro",
+  "url": "https://x.com/loseva_pro",
+  "avatarUrl": "https://media.inspora.design/creators/be47cddb-75b4-4f67-b8c3-0dcebac2ac82.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A clean, minimal hero section for \u201cMEOW AI AGENT\u201d",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/loseva_pro/status/2023416480759705888",
+ "createdAt": "2026-09-01T02:06:38.370Z",
+ "publishedAt": "2026-09-01T02:06:38.121Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "ee73e742-e6a6-459b-ae6b-6c0fe9607544",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/92ef3502-5f81-417c-adc8-fb86fb9d3f73.mp4",
+   "posterUrl": "https://media.inspora.design/posts/e3b2630e-1b51-4cb0-927d-50b8ccff64ef.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 725201,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/1bb89fb5-d490-42fc-9470-d5185c1628dd.mp4",
+    "bytes": 1108271,
+    "width": 1080,
+    "format": "mp4",
+    "height": 762,
+    "storageKey": "posts/1bb89fb5-d490-42fc-9470-d5185c1628dd.mp4"
+   },
+   "alt": "Ts00PWLjTJV DNw7",
+   "width": 1228,
+   "height": 868,
+   "position": 0
+  }
+ ]
+}

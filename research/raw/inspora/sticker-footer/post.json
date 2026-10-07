@@ -1,0 +1,47 @@
+{
+ "id": "ce6cf7ca-3e2c-4c15-b4e4-ca959fc908c5",
+ "slug": "sticker-footer",
+ "title": "Footer",
+ "creator": {
+  "id": "5d5ef898-0857-4642-b946-a15aeebf9ca3",
+  "name": "@oiharshit",
+  "handle": "@oiharshit",
+  "url": "https://x.com/oiharshit",
+  "avatarUrl": "https://media.inspora.design/creators/206b179b-1d35-4a6e-941f-66a75647d5c8.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Interactive sticker footer",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/oiharshit/status/2096219209550455207",
+ "createdAt": "2026-09-07T16:45:42.249Z",
+ "publishedAt": "2026-09-07T16:45:42.199Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "2b58a993-0598-4dd8-a120-3a45784871ab",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/c46fe048-192b-4ab1-8e67-f561f6ebc9c3.mp4",
+   "posterUrl": "https://media.inspora.design/posts/998480fb-7f71-4e62-9b52-7309f8d7b1aa.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 4676747,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/86d5656c-4a26-4a7f-9b69-f741199ce68b.mp4",
+    "bytes": 990158,
+    "width": 1080,
+    "format": "mp4",
+    "height": 600,
+    "storageKey": "posts/86d5656c-4a26-4a7f-9b69-f741199ce68b.mp4"
+   },
+   "alt": "1OzGJrj ZapmoHLK",
+   "width": 2856,
+   "height": 1588,
+   "position": 0
+  }
+ ]
+}

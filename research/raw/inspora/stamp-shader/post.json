@@ -1,0 +1,54 @@
+{
+ "id": "f267f18f-b2f6-45f3-9458-6a507393ba6f",
+ "slug": "stamp-shader",
+ "title": "Stamp Shader",
+ "creator": {
+  "id": "626f19d0-cd36-416b-bce2-0889ac4ad388",
+  "name": "@loficosmos1",
+  "handle": "@loficosmos1",
+  "url": "https://x.com/loficosmos1",
+  "avatarUrl": "https://media.inspora.design/creators/ac1e0564-4295-4fcb-b937-14382dbaab90.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "CMU student's last shader: interactive 3D stamp with denim, kogei, and obsidian textures.",
+ "category": "Motion",
+ "industries": [
+  "Design",
+  "HCI"
+ ],
+ "colors": [
+  "Black"
+ ],
+ "styles": [
+  "Japanese artisanal"
+ ],
+ "sourceUrl": "https://x.com/loficosmos1/status/2099656245200191690",
+ "createdAt": "2026-09-15T20:20:34.870Z",
+ "publishedAt": "2026-09-15T20:20:34.629Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "bb0dc3eb-7f89-4773-b920-979b3a044a0a",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/f27579e2-4cc7-4f08-afaa-d6db7b62e41f.mp4",
+   "posterUrl": "https://media.inspora.design/posts/8e643967-20f4-4785-8ac2-f82365327c5b.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 14368928,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/6d29a952-8f28-46db-b360-6178146afd9c.mp4",
+    "bytes": 2138453,
+    "width": 1080,
+    "format": "mp4",
+    "height": 602,
+    "storageKey": "posts/6d29a952-8f28-46db-b360-6178146afd9c.mp4"
+   },
+   "alt": "dFUVEd7gg0H O94c",
+   "width": 3412,
+   "height": 1904,
+   "position": 0
+  }
+ ]
+}

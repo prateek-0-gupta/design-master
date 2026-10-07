@@ -1,0 +1,47 @@
+{
+ "id": "4f967dbe-415c-412d-a1c3-7d01d222164a",
+ "slug": "4-3",
+ "title": "Weather Widget",
+ "creator": {
+  "id": "9443a594-e669-48f1-89f3-b228bd91ebc4",
+  "name": "@raul_dronca",
+  "handle": "@raul_dronca",
+  "url": "https://x.com/raul_dronca",
+  "avatarUrl": "https://media.inspora.design/creators/1c977eb1-3a8c-452f-a4d2-229cd361e4e0.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Weather Widget - Light Mode",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/raul_dronca/status/2084572141815509009",
+ "createdAt": "2026-08-11T04:58:33.621Z",
+ "publishedAt": "2026-08-11T04:58:33.091Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "8f2a7879-16b0-4193-b92c-63e9ad53bb95",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/1c44e368-d3a3-495e-a03b-44226a608608.mp4",
+   "posterUrl": "https://media.inspora.design/posts/dd3ee0e8-ba8a-4e01-96bd-34f30abba182.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 6015724,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/8f2a7879-16b0-4193-b92c-63e9ad53bb95.mp4",
+    "bytes": 464071,
+    "width": 1080,
+    "format": "mp4",
+    "height": 812,
+    "storageKey": "posts/previews/8f2a7879-16b0-4193-b92c-63e9ad53bb95.mp4"
+   },
+   "alt": "2xQpwOyB PwId1Wl",
+   "width": 2876,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

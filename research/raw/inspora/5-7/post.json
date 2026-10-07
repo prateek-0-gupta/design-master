@@ -1,0 +1,47 @@
+{
+ "id": "51731a87-d4d5-45bd-b085-2637a5015aa3",
+ "slug": "5-7",
+ "title": "Shader Slider",
+ "creator": {
+  "id": "9443a594-e669-48f1-89f3-b228bd91ebc4",
+  "name": "@raul_dronca",
+  "handle": "@raul_dronca",
+  "url": "https://x.com/raul_dronca",
+  "avatarUrl": "https://media.inspora.design/creators/1c977eb1-3a8c-452f-a4d2-229cd361e4e0.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Shader Slider",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/raul_dronca/status/2024808466582286439",
+ "createdAt": "2026-08-13T13:52:43.905Z",
+ "publishedAt": "2026-08-13T13:52:43.755Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "35b01e3e-bfe9-4aa9-a675-0e64a0c1c898",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/4a817088-7011-4a08-9a1a-db2fdf4eb058.mp4",
+   "posterUrl": "https://media.inspora.design/posts/7646a8b9-d8d2-40bd-bff1-6fd15544ea3e.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 4632637,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/35b01e3e-bfe9-4aa9-a675-0e64a0c1c898.mp4",
+    "bytes": 1287100,
+    "width": 1080,
+    "format": "mp4",
+    "height": 812,
+    "storageKey": "posts/previews/35b01e3e-bfe9-4aa9-a675-0e64a0c1c898.mp4"
+   },
+   "alt": "9O8cf6GF0l3ok el",
+   "width": 1920,
+   "height": 1442,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "05ac8171-b577-4872-a9fb-7ae23e10af7b",
+ "slug": "1-15",
+ "title": "New Calendly logo",
+ "creator": {
+  "id": "4e9fe31f-4f4a-4539-a124-966046937241",
+  "name": "@mikesmith187",
+  "handle": "@mikesmith187",
+  "url": "https://x.com/mikesmith187",
+  "avatarUrl": "https://media.inspora.design/creators/f68a5c9c-83ae-4098-85dd-a2503af7e724.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "New Calendly logo",
+ "category": "Branding",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/mikesmith187/status/2090171747668799618",
+ "createdAt": "2026-08-20T10:56:28.548Z",
+ "publishedAt": "2026-08-20T10:56:28.307Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "7c78aa34-4955-4394-bf61-df811270b2f8",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/8dca8cea-6d78-406c-b3da-678b04ba08fe.mp4",
+   "posterUrl": "https://media.inspora.design/posts/9a5228d5-4d81-4b07-90e3-bbd834846c16.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 529797,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/7c78aa34-4955-4394-bf61-df811270b2f8.mp4",
+    "bytes": 1086327,
+    "width": 960,
+    "format": "mp4",
+    "height": 1280,
+    "storageKey": "posts/previews/7c78aa34-4955-4394-bf61-df811270b2f8.mp4"
+   },
+   "alt": "@mikesmith187 2090171747668799618.gif",
+   "width": 960,
+   "height": 1280,
+   "position": 0
+  }
+ ]
+}

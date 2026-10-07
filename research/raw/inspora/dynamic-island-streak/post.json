@@ -1,0 +1,47 @@
+{
+ "id": "b2d894ae-e8a3-48e5-be5c-e44c7dab8066",
+ "slug": "dynamic-island-streak",
+ "title": "Dynamic Island Streak",
+ "creator": {
+  "id": "45ee8f04-a191-4eca-bd5d-3a443d29a17e",
+  "name": "@calebwu_",
+  "handle": "@calebwu_",
+  "url": "https://x.com/calebwu_",
+  "avatarUrl": "https://media.inspora.design/creators/469e6952-7503-45b6-ae11-221dcbb73f38.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Dynamic Island Streak",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/calebwu_/status/2035377140024115308",
+ "createdAt": "2026-09-14T17:23:50.004Z",
+ "publishedAt": "2026-09-14T17:23:49.764Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "389757d9-8420-4e1d-8eed-b667b9feb362",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/76c86261-92da-43bf-8d21-acef908f7712.mp4",
+   "posterUrl": "https://media.inspora.design/posts/e2cda7d6-999c-413e-b2c6-5c9c229db907.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 249916,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/51a583d9-4c31-4e2b-91b0-b7d3c539a3f3.mp4",
+    "bytes": 145529,
+    "width": 1080,
+    "format": "mp4",
+    "height": 680,
+    "storageKey": "posts/51a583d9-4c31-4e2b-91b0-b7d3c539a3f3.mp4"
+   },
+   "alt": "AlV444oXWQUk9S16 (1)",
+   "width": 1144,
+   "height": 720,
+   "position": 0
+  }
+ ]
+}

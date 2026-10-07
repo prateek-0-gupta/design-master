@@ -1,0 +1,47 @@
+{
+ "id": "580b990f-df57-4587-9858-7ffc5148135b",
+ "slug": "5-3",
+ "title": "Personal portfolio",
+ "creator": {
+  "id": "0135bc42-2457-456b-83d5-95cc729373b7",
+  "name": "@emblemo",
+  "handle": "@emblemo",
+  "url": "https://x.com/emblemo",
+  "avatarUrl": "https://media.inspora.design/creators/593dd638-e786-40f6-b78b-588cad408d75.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Personal portfolio",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/emblemo/status/2025909582116127111",
+ "createdAt": "2026-08-13T02:51:16.471Z",
+ "publishedAt": "2026-08-13T02:51:16.421Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "2b16efb2-ee6b-404e-bc2d-c95eb0a596ee",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/1f06477e-0abf-4668-aa99-c4e0c20d1311.mp4",
+   "posterUrl": "https://media.inspora.design/posts/2adc9a8b-e229-4c32-9e8e-e4c13003b690.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 5014001,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/2b16efb2-ee6b-404e-bc2d-c95eb0a596ee.mp4",
+    "bytes": 1660912,
+    "width": 1080,
+    "format": "mp4",
+    "height": 810,
+    "storageKey": "posts/previews/2b16efb2-ee6b-404e-bc2d-c95eb0a596ee.mp4"
+   },
+   "alt": "@emblemo 2025909582116127111 2160p",
+   "width": 2880,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

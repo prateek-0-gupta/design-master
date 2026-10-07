@@ -1,0 +1,56 @@
+{
+ "id": "c769b38d-1d45-4c6f-bb74-ca7a07dba798",
+ "slug": "tiny-animated-svg",
+ "title": "Tiny animated SVG",
+ "creator": {
+  "id": "d67db151-125f-4cf3-8cdf-5f0aeb8bf2ca",
+  "name": "Mike Bespalov",
+  "handle": "@bbssppllvv",
+  "url": "https://x.com/bbssppllvv",
+  "avatarUrl": "https://media.inspora.design/creators/30724951-b61d-4306-84fa-2fdb8cb3688b.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A tiny 3KB animated SVG of fluid, iridescent \u201cPRO\u201d letters that plays after checkout to celebrate Refero Pro upgrade",
+ "category": "Motion",
+ "industries": [
+  "SaaS",
+  "Fintech"
+ ],
+ "colors": [
+  "White",
+  "Black"
+ ],
+ "styles": [
+  "Minimal",
+  "Editorial"
+ ],
+ "sourceUrl": "https://x.com/bbssppllvv/status/2104747296671883312",
+ "createdAt": "2026-09-30T05:45:39.365Z",
+ "publishedAt": "2026-09-30T05:45:39.126Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "15006627-30f5-43fd-820d-4196870e3158",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/7b43f354-3903-4a26-a29c-f36261997565.mp4",
+   "posterUrl": "https://media.inspora.design/posts/e7b5be22-2f48-43ba-80b9-2cd301c7f870.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 7145079,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/2717205f-7105-4f50-ac3e-e8b2de2c961e.mp4",
+    "bytes": 1303907,
+    "width": 1080,
+    "format": "mp4",
+    "height": 704,
+    "storageKey": "posts/2717205f-7105-4f50-ac3e-e8b2de2c961e.mp4"
+   },
+   "alt": "tX97u9laiM Iud8K",
+   "width": 1840,
+   "height": 1200,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "3b7ef72a-bb7e-4fe6-9938-a75feb868cd5",
+ "slug": "6-3",
+ "title": "Shader Mixer",
+ "creator": {
+  "id": "9443a594-e669-48f1-89f3-b228bd91ebc4",
+  "name": "@raul_dronca",
+  "handle": "@raul_dronca",
+  "url": "https://x.com/raul_dronca",
+  "avatarUrl": "https://media.inspora.design/creators/1c977eb1-3a8c-452f-a4d2-229cd361e4e0.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Shader Mixer",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/raul_dronca/status/2022596485934977058",
+ "createdAt": "2026-08-14T11:31:25.192Z",
+ "publishedAt": "2026-08-14T11:31:24.659Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "273b49f2-1682-4ad3-8131-34d5560e06f4",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/f681bf7a-97f9-4687-b453-988e0249c2f1.mp4",
+   "posterUrl": "https://media.inspora.design/posts/da9c9f16-d7d7-47b2-aceb-03b2bb74a3ec.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2285387,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/273b49f2-1682-4ad3-8131-34d5560e06f4.mp4",
+    "bytes": 500845,
+    "width": 1080,
+    "format": "mp4",
+    "height": 812,
+    "storageKey": "posts/previews/273b49f2-1682-4ad3-8131-34d5560e06f4.mp4"
+   },
+   "alt": "T4gkqZhu8rKmtB8R (1)",
+   "width": 2876,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

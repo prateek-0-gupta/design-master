@@ -1,0 +1,54 @@
+{
+ "id": "7e3cb48c-918a-4cb7-a646-04cd38cce286",
+ "slug": "travel-app",
+ "title": "travel app",
+ "creator": {
+  "id": "86436a07-1afa-4bf3-ab7a-c87dc0b6d756",
+  "name": "@FarzadGodarz",
+  "handle": "@FarzadGodarz",
+  "url": "https://x.com/FarzadGodarz",
+  "avatarUrl": "https://media.inspora.design/creators/8adc24dd-01aa-4aa1-ad9b-9b2190858257.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Soft-blue Italy itinerary UI with a flowing route map and stamp-photo destination cards.",
+ "category": "Product",
+ "industries": [
+  "Travel"
+ ],
+ "colors": [
+  "Soft cyan",
+  "blue"
+ ],
+ "styles": [
+  "Airy minimal"
+ ],
+ "sourceUrl": "https://x.com/FarzadGodarz/status/2099157798307180785",
+ "createdAt": "2026-09-15T12:40:11.306Z",
+ "publishedAt": "2026-09-15T12:40:11.064Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "e76f54a4-2fc5-420b-a9ab-fc40e7471ccb",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/2ca7c1ec-293c-49a5-a542-89082b06867b.mp4",
+   "posterUrl": "https://media.inspora.design/posts/4e9dad5d-cb74-4218-86ec-e937dcd3b192.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1415439,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/6276e6c3-f778-4329-92bb-5cebfd4cb70a.mp4",
+    "bytes": 1032245,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1350,
+    "storageKey": "posts/6276e6c3-f778-4329-92bb-5cebfd4cb70a.mp4"
+   },
+   "alt": "ktLvhlNxO4TzXEG3",
+   "width": 1080,
+   "height": 1350,
+   "position": 0
+  }
+ ]
+}

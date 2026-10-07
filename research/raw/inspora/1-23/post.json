@@ -1,0 +1,47 @@
+{
+ "id": "ec106c0a-0bbc-4a31-8a57-c3eab6ea1639",
+ "slug": "1-23",
+ "title": "We're making Grok Bot more widely available.",
+ "creator": {
+  "id": "7b5f0835-8270-4253-83fb-204d636d285c",
+  "name": "@Grok Bot",
+  "handle": "@bot",
+  "url": "https://x.com/bot",
+  "avatarUrl": "https://media.inspora.design/creators/5e7cea54-2288-4389-8008-9167d0ab3132.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "We're making Grok Bot more widely available.",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/bot/status/2090852881373311369",
+ "createdAt": "2026-08-22T15:33:57.510Z",
+ "publishedAt": "2026-08-22T15:33:57.258Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "4b1c7ffb-67c3-4375-9ec0-c121aaff8cd0",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/81f3ac19-4de0-4c31-a13e-99b4f3bd8621.mp4",
+   "posterUrl": "https://media.inspora.design/posts/56a8cbba-71a8-4482-bb44-30997a1a78bd.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 677952,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/4b1c7ffb-67c3-4375-9ec0-c121aaff8cd0.mp4",
+    "bytes": 366998,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/previews/4b1c7ffb-67c3-4375-9ec0-c121aaff8cd0.mp4"
+   },
+   "alt": "9sy3WyzjUKr5Zl6j",
+   "width": 1920,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

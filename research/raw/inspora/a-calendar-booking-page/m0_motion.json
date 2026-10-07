@@ -1,0 +1,129 @@
+{
+ "meta": {
+  "width": 2940,
+  "height": 1664,
+  "fps": 60.0,
+  "duration": 20.55,
+  "codec": "h264"
+ },
+ "frame_times": [
+  1.14,
+  3.43,
+  5.71,
+  7.99,
+  10.28,
+  12.56,
+  14.84,
+  17.12,
+  19.41
+ ],
+ "profile": {
+  "sample_fps": 30,
+  "threshold": 1.25,
+  "motion_fraction": 0.39,
+  "mean_energy": 1.62,
+  "p95_energy": 6.23,
+  "first_last_diff": 36.62,
+  "seamless_loop_likely": false,
+  "segments": [
+   {
+    "start": 1.73,
+    "end": 1.97,
+    "duration": 0.23,
+    "peak_at": 0.36,
+    "energy_cv": 0.41,
+    "shape": "ease-in-out (symmetric)"
+   },
+   {
+    "start": 2.93,
+    "end": 4.27,
+    "duration": 1.33,
+    "peak_at": 0.81,
+    "energy_cv": 0.65,
+    "shape": "ease-in (slow start)"
+   },
+   {
+    "start": 4.73,
+    "end": 6.57,
+    "duration": 1.83,
+    "peak_at": 0.17,
+    "energy_cv": 0.67,
+    "shape": "ease-out (fast start)"
+   },
+   {
+    "start": 6.87,
+    "end": 7.27,
+    "duration": 0.4,
+    "peak_at": 0.46,
+    "energy_cv": 0.39,
+    "shape": "ease-in-out (symmetric)"
+   },
+   {
+    "start": 7.57,
+    "end": 8.63,
+    "duration": 1.07,
+    "peak_at": 0.36,
+    "energy_cv": 0.41,
+    "shape": "ease-in-out (symmetric)"
+   },
+   {
+    "start": 8.73,
+    "end": 9.4,
+    "duration": 0.67,
+    "peak_at": 0.57,
+    "energy_cv": 0.62,
+    "shape": "ease-in-out (symmetric)"
+   },
+   {
+    "start": 10.0,
+    "end": 10.83,
+    "duration": 0.83,
+    "peak_at": 0.54,
+    "energy_cv": 0.82,
+    "shape": "ease-in-out (symmetric)"
+   },
+   {
+    "start": 11.43,
+    "end": 11.7,
+    "duration": 0.27,
+    "peak_at": 0.44,
+    "energy_cv": 0.2,
+    "shape": "ease-in-out (symmetric)"
+   },
+   {
+    "start": 13.97,
+    "end": 14.23,
+    "duration": 0.27,
+    "peak_at": 0.31,
+    "energy_cv": 0.37,
+    "shape": "ease-out (fast start)"
+   },
+   {
+    "start": 15.87,
+    "end": 16.2,
+    "duration": 0.33,
+    "peak_at": 0.25,
+    "energy_cv": 0.44,
+    "shape": "ease-out (fast start)"
+   },
+   {
+    "start": 17.3,
+    "end": 17.6,
+    "duration": 0.3,
+    "peak_at": 0.28,
+    "energy_cv": 0.42,
+    "shape": "ease-out (fast start)"
+   },
+   {
+    "start": 19.0,
+    "end": 19.83,
+    "duration": 0.83,
+    "peak_at": 0.82,
+    "energy_cv": 0.4,
+    "shape": "ease-in (slow start)"
+   }
+  ],
+  "segment_count": 12,
+  "median_segment_s": 0.54
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "id": "fe211f1e-b648-49eb-825b-ba2aed6e14f5",
+ "slug": "file-management-dashboard",
+ "title": "a file-management dashboard",
+ "creator": {
+  "id": "7dd75a03-896d-45eb-974a-a33b68cb61cc",
+  "name": "@UI_Farhan",
+  "handle": "@UI_Farhan",
+  "url": "https://x.com/UI_Farhan",
+  "avatarUrl": "https://media.inspora.design/creators/5c325493-773c-4a6e-bf4e-95d03f7bc2f7.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "a file-management dashboard with recent asset uploads, nested folders, and storage stats",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/UI_Farhan/status/2094339072378761342",
+ "createdAt": "2026-08-31T12:59:39.898Z",
+ "publishedAt": "2026-08-31T12:59:48.849Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "54c9d760-395c-4ff7-8446-4432034d9f44",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/9245a194-2a89-4ce2-9126-88d464ad56fd.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 357188,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/5133d134-4407-42dc-9d4f-ec001d55c510.webp",
+     "bytes": 49376,
+     "width": 640,
+     "format": "webp",
+     "height": 480,
+     "storageKey": "posts/5133d134-4407-42dc-9d4f-ec001d55c510.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/eb9fcfed-9f3c-42a3-9a6b-b30999ed9d32.webp",
+     "bytes": 85398,
+     "width": 960,
+     "format": "webp",
+     "height": 720,
+     "storageKey": "posts/eb9fcfed-9f3c-42a3-9a6b-b30999ed9d32.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/7d266de8-0344-4557-91e3-5f2507c67a62.webp",
+     "bytes": 185076,
+     "width": 1600,
+     "format": "webp",
+     "height": 1200,
+     "storageKey": "posts/7d266de8-0344-4557-91e3-5f2507c67a62.webp"
+    }
+   ],
+   "alt": "HRCWR6zbcAAPVzG",
+   "width": 2560,
+   "height": 1920,
+   "position": 0
+  }
+ ]
+}

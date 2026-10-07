@@ -1,0 +1,47 @@
+{
+ "id": "37c63b31-5369-40bb-9df8-37e472a0a4de",
+ "slug": "1-16",
+ "title": "Dark mode toggle",
+ "creator": {
+  "id": "e36a9ab7-7d0d-43ac-b1ff-89d6c5721c96",
+  "name": "@Designownow_",
+  "handle": "@Designownow_",
+  "url": "https://x.com/Designownow_",
+  "avatarUrl": "https://media.inspora.design/creators/e55bc58c-f6bb-491d-9420-a458570a5f23.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Dark mode toggle",
+ "category": "Illustration",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/Designownow_/status/1914336241446998492",
+ "createdAt": "2026-08-21T04:59:22.211Z",
+ "publishedAt": "2026-08-21T04:59:21.679Z",
+ "isFeatured": true,
+ "media": [
+  {
+   "id": "3f3c3297-2cd8-44fc-8a9c-b546f3b3fd93",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/89c6b5fb-e768-4135-9995-432767913bf6.mp4",
+   "posterUrl": "https://media.inspora.design/posts/88933187-2f6b-4e5d-a34a-73c098107c59.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 516956,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/3f3c3297-2cd8-44fc-8a9c-b546f3b3fd93.mp4",
+    "bytes": 705326,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1044,
+    "storageKey": "posts/previews/3f3c3297-2cd8-44fc-8a9c-b546f3b3fd93.mp4"
+   },
+   "alt": "D8llSSVwwkWEJEPJ",
+   "width": 1118,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

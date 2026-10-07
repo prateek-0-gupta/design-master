@@ -1,0 +1,47 @@
+{
+ "id": "b39e29f7-8630-42fc-b623-674ba281ae36",
+ "slug": "5-8",
+ "title": "Animated thinking orb",
+ "creator": {
+  "id": "186bf7e4-3d37-40c6-89bc-4166a1d0725c",
+  "name": "@Jakubantalik",
+  "handle": "@Jakubantalik",
+  "url": "https://x.com/Jakubantalik",
+  "avatarUrl": "https://media.inspora.design/creators/4960f6c9-effd-4443-815b-5f242c1ebfc6.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Animated thinking orb",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/Jakubantalik/status/2079609095079047494",
+ "createdAt": "2026-08-13T16:21:37.011Z",
+ "publishedAt": "2026-08-13T16:21:36.484Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "50cbe87c-fab8-4869-a15d-8f1ffab2b8cd",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/1d09a75f-f34b-49b4-9693-bd96d9fd65fc.mp4",
+   "posterUrl": "https://media.inspora.design/posts/c4ca5c70-7e70-4bc6-ad9f-9a7dff3cfb34.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1153675,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/50cbe87c-fab8-4869-a15d-8f1ffab2b8cd.mp4",
+    "bytes": 683532,
+    "width": 1080,
+    "format": "mp4",
+    "height": 814,
+    "storageKey": "posts/previews/50cbe87c-fab8-4869-a15d-8f1ffab2b8cd.mp4"
+   },
+   "alt": "@Jakubantalik 2079609095079047494 1280p",
+   "width": 1700,
+   "height": 1280,
+   "position": 0
+  }
+ ]
+}

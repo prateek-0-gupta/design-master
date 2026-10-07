@@ -1,0 +1,47 @@
+{
+ "id": "8dd19892-f38a-47c4-8b76-4ef1bd890d1a",
+ "slug": "6-2",
+ "title": "Camera transitions",
+ "creator": {
+  "id": "eb4afa0f-22d5-4909-8720-9d15924c0f75",
+  "name": "@azhassan_",
+  "handle": "@azhassan_",
+  "url": "https://x.com/azhassan_",
+  "avatarUrl": "https://media.inspora.design/creators/f3e2071e-c094-4294-9f05-948ae784dce5.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Camera transitions",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/azhassan_/status/2087920863681413344",
+ "createdAt": "2026-08-14T10:00:39.486Z",
+ "publishedAt": "2026-08-14T10:00:39.247Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "72ba7f37-de96-4e4a-b9da-245030b1625e",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/85644c5c-b8bb-4457-b74d-70a41a5e47a8.mp4",
+   "posterUrl": "https://media.inspora.design/posts/e0951fdd-74ef-4ad9-bf69-d3a281838345.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2345154,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/72ba7f37-de96-4e4a-b9da-245030b1625e.mp4",
+    "bytes": 1080450,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/previews/72ba7f37-de96-4e4a-b9da-245030b1625e.mp4"
+   },
+   "alt": "@azhassan 2087920863681413344 2160p",
+   "width": 1920,
+   "height": 1920,
+   "position": 0
+  }
+ ]
+}

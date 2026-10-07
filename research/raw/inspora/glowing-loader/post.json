@@ -1,0 +1,58 @@
+{
+ "id": "cf5aeb18-9701-471b-bfe8-e96e7d2c90eb",
+ "slug": "glowing-loader",
+ "title": "glowing loader",
+ "creator": {
+  "id": "15fb8827-dcf6-492c-a29e-926462cd2c79",
+  "name": "@sir_hsn",
+  "handle": "@sir_hsn",
+  "url": "https://x.com/sir_hsn",
+  "avatarUrl": "https://media.inspora.design/creators/cbd4a3c9-b3cb-444b-aba7-4d9fade56e15.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A polished glowing dotted orb animation cycling through AI states from Thinking to Ready.",
+ "category": "Motion",
+ "industries": [
+  "Tech",
+  "AI"
+ ],
+ "colors": [
+  "Peach",
+  "Orange",
+  "Red"
+ ],
+ "styles": [
+  "Clean",
+  "Modern",
+  "Minimal"
+ ],
+ "sourceUrl": "https://x.com/sir_hsn/status/2104474465317118390",
+ "createdAt": "2026-09-29T05:06:51.188Z",
+ "publishedAt": "2026-09-29T05:06:51.136Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "9efe06c8-dcad-4d33-8ab4-091422710bc8",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/ce2932cc-23c8-4ec2-a5b7-256a1974b355.mp4",
+   "posterUrl": "https://media.inspora.design/posts/e8327556-bc60-4a1a-ad8c-4835528705fe.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1216837,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/a00a61b8-a54e-47eb-822d-0d756d880d14.mp4",
+    "bytes": 940492,
+    "width": 1072,
+    "format": "mp4",
+    "height": 720,
+    "storageKey": "posts/a00a61b8-a54e-47eb-822d-0d756d880d14.mp4"
+   },
+   "alt": "IlgT gRytgOPLcE2",
+   "width": 1072,
+   "height": 720,
+   "position": 0
+  }
+ ]
+}

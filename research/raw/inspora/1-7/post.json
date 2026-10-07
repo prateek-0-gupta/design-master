@@ -1,0 +1,47 @@
+{
+ "id": "648e8af3-b1b8-4e7e-9f05-b87343033265",
+ "slug": "1-7",
+ "title": "X money",
+ "creator": {
+  "id": "7bcf4225-7e48-4e67-9b30-dff454754b16",
+  "name": "@alexabraham",
+  "handle": "@alexabraham",
+  "url": "https://x.com/alexabraham",
+  "avatarUrl": "https://media.inspora.design/creators/4c8b2409-8494-42a7-a153-d9e60c0f3954.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "X money",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/alexabraham/status/2082984238232502402",
+ "createdAt": "2026-08-07T08:36:21.568Z",
+ "publishedAt": "2026-08-07T08:36:21.328Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "74d73721-7bb8-4f58-95f2-bb04f32c87f6",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/d9a88e6f-ce76-47e3-8411-f2b04723f9e5.mp4",
+   "posterUrl": "https://media.inspora.design/posts/030a8ed8-e244-4805-8178-5bd663ac451a.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 766825,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/74d73721-7bb8-4f58-95f2-bb04f32c87f6.mp4",
+    "bytes": 683814,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/previews/74d73721-7bb8-4f58-95f2-bb04f32c87f6.mp4"
+   },
+   "alt": "X8HpDGN tErLeFJV",
+   "width": 1240,
+   "height": 1240,
+   "position": 0
+  }
+ ]
+}

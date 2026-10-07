@@ -1,0 +1,58 @@
+{
+ "id": "5baaa011-15a4-4500-a1a2-c6cef4044d6b",
+ "slug": "interactive-cards",
+ "title": "Interactive cards.",
+ "creator": {
+  "id": "5a63fc94-b983-4a20-bc57-dd01fc990e4e",
+  "name": "@kaolti",
+  "handle": "@kaolti",
+  "url": "https://x.com/kaolti",
+  "avatarUrl": "https://media.inspora.design/creators/621a3427-1dc3-4a48-9f94-8afe9a4598ab.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Interactive 3D data cards for productive days, spending, and busy hours with hover-responsive animated bars, pies, and glowing cylinders.",
+ "category": "Web",
+ "industries": [
+  "Productivity",
+  "finance"
+ ],
+ "colors": [
+  "Dark",
+  "cream",
+  "orange"
+ ],
+ "styles": [
+  "Minimal",
+  "3D",
+  "interactive"
+ ],
+ "sourceUrl": "https://x.com/kaolti/status/2101335516360647104",
+ "createdAt": "2026-09-20T05:38:07.619Z",
+ "publishedAt": "2026-09-20T05:38:07.568Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "45d1367b-794a-429a-b055-6f2ec0fee24c",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/19d6f23a-a235-40ca-a727-3131241ba85b.mp4",
+   "posterUrl": "https://media.inspora.design/posts/0673f53d-29b9-4c77-a7a1-531e8f0ccfcc.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2775854,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/d39282b9-4f23-4e2d-835c-94cb813c4eec.mp4",
+    "bytes": 683027,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/d39282b9-4f23-4e2d-835c-94cb813c4eec.mp4"
+   },
+   "alt": "aAbHqMx76AwsN665",
+   "width": 1916,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

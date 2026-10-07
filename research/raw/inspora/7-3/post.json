@@ -1,0 +1,47 @@
+{
+ "id": "d6fdb24c-d4fe-438c-a541-c69cbc365ecc",
+ "slug": "7-3",
+ "title": "Assets overview carousel",
+ "creator": {
+  "id": "26d7f383-5a84-4f33-bb37-59e5158ea0b4",
+  "name": "@proskuaaa",
+  "handle": "@proskuaaa",
+  "url": "https://x.com/proskuaaa",
+  "avatarUrl": "https://media.inspora.design/creators/eceeafd4-7180-454d-812f-1e0260c41c80.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Assets overview carousel",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/proskuaaa/status/2084279117449716119",
+ "createdAt": "2026-08-16T05:01:08.804Z",
+ "publishedAt": "2026-08-16T05:01:08.562Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "cdac9b6c-3f01-472f-becf-0e9c5c6fd216",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/33b185d0-9cda-419d-980f-51aeef81c7fe.mp4",
+   "posterUrl": "https://media.inspora.design/posts/306d12a9-4c71-4162-837c-3ae84625eb9c.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2685206,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/cdac9b6c-3f01-472f-becf-0e9c5c6fd216.mp4",
+    "bytes": 1225633,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/previews/cdac9b6c-3f01-472f-becf-0e9c5c6fd216.mp4"
+   },
+   "alt": "07sHEtg9I3TUF2Lt",
+   "width": 1920,
+   "height": 1920,
+   "position": 0
+  }
+ ]
+}

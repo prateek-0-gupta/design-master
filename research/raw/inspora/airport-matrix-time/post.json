@@ -1,0 +1,55 @@
+{
+ "id": "28733e7c-c3b9-4a79-9c75-7da67013dacf",
+ "slug": "airport-matrix-time",
+ "title": "Airport matrix time",
+ "creator": {
+  "id": "d1a50eaa-da94-4809-baf6-627fa047d41a",
+  "name": "HASSCO\u00a9",
+  "handle": "@itshassco",
+  "url": "https://x.com/itshassco",
+  "avatarUrl": "https://media.inspora.design/creators/1f51931e-3b9f-47e7-8105-fd7819acfac5.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Airport matrix time so you don't miss your flight!",
+ "category": "Motion",
+ "industries": [
+  "Aviation",
+  "Travel"
+ ],
+ "colors": [
+  "Black",
+  "White"
+ ],
+ "styles": [
+  "Dot-matrix LED"
+ ],
+ "sourceUrl": "https://x.com/itshassco/status/2106761271282737292",
+ "createdAt": "2026-10-05T05:38:13.170Z",
+ "publishedAt": "2026-10-05T05:38:13.121Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "2f8ab7b3-ac32-4419-8c10-5cf12534cd84",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/c7d90752-8adc-4c58-889f-8c233a7bd87b.mp4",
+   "posterUrl": "https://media.inspora.design/posts/ed7a2d6d-eee1-4a62-8371-8b1b6b31d277.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 3243005,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/4e3666ba-6ce2-4881-87a1-0bf339c9d445.mp4",
+    "bytes": 1313700,
+    "width": 1080,
+    "format": "mp4",
+    "height": 674,
+    "storageKey": "posts/4e3666ba-6ce2-4881-87a1-0bf339c9d445.mp4"
+   },
+   "alt": "Mbbr N3U9nkukgHh",
+   "width": 1728,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

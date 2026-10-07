@@ -1,0 +1,47 @@
+{
+ "id": "7e0142e4-7c44-4027-b73f-4e2c7e40adf8",
+ "slug": "1-21",
+ "title": "Brand story cards",
+ "creator": {
+  "id": "84b49451-2d73-480d-a118-ecfc89baedad",
+  "name": "@basit_designs",
+  "handle": "@basit_designs",
+  "url": "https://x.com/basit_designs",
+  "avatarUrl": "https://media.inspora.design/creators/848f5428-3415-489f-ae43-38127c6da526.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Brand story cards",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/basit_designs/status/2090722001132650986",
+ "createdAt": "2026-08-22T04:32:51.705Z",
+ "publishedAt": "2026-08-22T04:32:51.437Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "58a64808-8054-4dbf-9778-5a811823057f",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/696d36e4-d186-4092-86f7-87d3b61536fe.mp4",
+   "posterUrl": "https://media.inspora.design/posts/865def04-1dba-4545-b947-d215e9bc5619.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 379444,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/58a64808-8054-4dbf-9778-5a811823057f.mp4",
+    "bytes": 158877,
+    "width": 1080,
+    "format": "mp4",
+    "height": 760,
+    "storageKey": "posts/previews/58a64808-8054-4dbf-9778-5a811823057f.mp4"
+   },
+   "alt": "9nwJ6oBhxpW2qp 7",
+   "width": 1920,
+   "height": 1353,
+   "position": 0
+  }
+ ]
+}

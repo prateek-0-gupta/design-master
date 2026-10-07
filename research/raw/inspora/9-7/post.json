@@ -1,0 +1,47 @@
+{
+ "id": "2db23b19-4ebc-4ace-915d-1906219c4999",
+ "slug": "9-7",
+ "title": "OTP",
+ "creator": {
+  "id": "ee4cbfe9-2798-4d75-bb0a-cd94a6597701",
+  "name": "@bollmann0x",
+  "handle": "@bollmann0x",
+  "url": "https://x.com/bollmann0x",
+  "avatarUrl": "https://media.inspora.design/creators/cca772da-26cc-47ff-893e-72bbc8e081be.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "OTP",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/bollmann0x/status/1952821265489641912",
+ "createdAt": "2026-08-19T11:03:42.876Z",
+ "publishedAt": "2026-08-19T11:03:42.636Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "454dcbcc-0302-4c0b-af50-7a659c21d098",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/7c94de99-556f-4d4b-a233-9e4edc2a4a1b.mp4",
+   "posterUrl": "https://media.inspora.design/posts/51dd839f-ad6f-4387-a5af-efb86fbcc912.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 106086,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/454dcbcc-0302-4c0b-af50-7a659c21d098.mp4",
+    "bytes": 105452,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/previews/454dcbcc-0302-4c0b-af50-7a659c21d098.mp4"
+   },
+   "alt": "0FIGzpY37PUt2tXU",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

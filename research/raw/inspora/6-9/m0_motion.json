@@ -1,0 +1,32 @@
+{
+ "meta": {
+  "width": 1920,
+  "height": 1440,
+  "fps": 30.0,
+  "duration": 6.1,
+  "codec": "h264"
+ },
+ "frame_times": [
+  0.34,
+  1.02,
+  1.69,
+  2.37,
+  3.05,
+  3.73,
+  4.41,
+  5.08,
+  5.76
+ ],
+ "profile": {
+  "sample_fps": 30,
+  "threshold": 0.35,
+  "motion_fraction": 0.0,
+  "mean_energy": 0.19,
+  "p95_energy": 0.32,
+  "first_last_diff": 0.1,
+  "seamless_loop_likely": true,
+  "segments": [],
+  "segment_count": 0,
+  "median_segment_s": null
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "9cc229fb-ae04-4e53-b579-4a2cebed6754",
+ "slug": "404-page",
+ "title": "404 page",
+ "creator": {
+  "id": "b01dafb8-8cc7-4c98-be69-518c0ad39eb4",
+  "name": "elaya",
+  "handle": "@elayadesigns",
+  "url": "https://x.com/elayadesigns",
+  "avatarUrl": "https://media.inspora.design/creators/9af08497-6cd5-418f-b99a-ac79d8210338.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "An animated 404 website featuring a cinematic broken bridge scene, with subtle movement in the clouds, floating particles, and atmospheric elements.",
+ "category": "Web",
+ "industries": [
+  "Tech"
+ ],
+ "colors": [
+  "Blue"
+ ],
+ "styles": [
+  "Bold"
+ ],
+ "sourceUrl": "https://x.com/elayadesigns/status/2083074199225291169",
+ "createdAt": "2026-08-02T02:23:05.197Z",
+ "publishedAt": "2026-08-02T02:23:04.944Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "77562503-de23-4178-9d1f-61d87afa169b",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/b1727051-72a6-4a72-875a-3bb19b19bb21.mp4",
+   "posterUrl": "https://media.inspora.design/posts/7d4c754c-96e3-43d6-94a2-ce70f77e15dc.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2735715,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/77562503-de23-4178-9d1f-61d87afa169b.mp4",
+    "bytes": 1513101,
+    "width": 1080,
+    "format": "mp4",
+    "height": 662,
+    "storageKey": "posts/previews/77562503-de23-4178-9d1f-61d87afa169b.mp4"
+   },
+   "alt": "ssstwitter.com 1785632389869",
+   "width": 1760,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

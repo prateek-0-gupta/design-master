@@ -1,0 +1,47 @@
+{
+ "id": "9453ecf1-ff1b-417f-994b-e0747aba396e",
+ "slug": "9-6",
+ "title": "tabs animation",
+ "creator": {
+  "id": "32f06e45-a0f7-428e-8e62-0903a99b1b6b",
+  "name": "@marcelkargul",
+  "handle": "@marcelkargul",
+  "url": "https://x.com/marcelkargul",
+  "avatarUrl": "https://media.inspora.design/creators/02ad13e7-aeb5-4702-8b65-9916b13350bb.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "tabs animation",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/marcelkargul/status/2089632076370763821",
+ "createdAt": "2026-08-19T06:35:50.180Z",
+ "publishedAt": "2026-08-19T06:35:50.130Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "7b2791fc-cab3-4537-a835-01b0fe9ed2e6",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/380c26c2-3ef6-4111-93e4-b031adac1a87.mp4",
+   "posterUrl": "https://media.inspora.design/posts/57c94b8b-190e-4db9-ac49-c3bd26e69394.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 251077,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/7b2791fc-cab3-4537-a835-01b0fe9ed2e6.mp4",
+    "bytes": 121158,
+    "width": 1080,
+    "format": "mp4",
+    "height": 972,
+    "storageKey": "posts/previews/7b2791fc-cab3-4537-a835-01b0fe9ed2e6.mp4"
+   },
+   "alt": "@marcelkargul 2089632076370763821 2160p",
+   "width": 1920,
+   "height": 1728,
+   "position": 0
+  }
+ ]
+}

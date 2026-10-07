@@ -1,0 +1,56 @@
+{
+ "id": "123231f8-2005-4bdc-b29e-d71cb50ca175",
+ "slug": "onboarding-flow",
+ "title": "onboarding flow",
+ "creator": {
+  "id": "77eb5dff-4231-4638-95c4-27d4171df429",
+  "name": "@nickpylll",
+  "handle": "@nickpylll",
+  "url": "https://x.com/nickpylll",
+  "avatarUrl": "https://media.inspora.design/creators/8f3ac701-46d1-4ab4-bd05-7f92f9b7dd96.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "iPhone UI with shifting blue-orange-purple gradients, large clean type, and minimal buttons for a seedless wallet setup.",
+ "category": "Product",
+ "industries": [
+  "Fintech",
+  "Crypto"
+ ],
+ "colors": [
+  "Blue",
+  "orange",
+  "purple"
+ ],
+ "styles": [
+  "Minimalist"
+ ],
+ "sourceUrl": "https://x.com/nickpylll/status/1949745464338784725",
+ "createdAt": "2026-09-15T07:52:13.765Z",
+ "publishedAt": "2026-09-15T07:52:13.232Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "5247f5a0-7920-4113-b7df-5d3f39512966",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/d8138fef-c398-4100-b586-8c6327579b4a.mp4",
+   "posterUrl": "https://media.inspora.design/posts/2c0fc753-e733-4b25-8cbc-0d85ac7646a5.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1055404,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/b8e4ac01-b2bd-4c99-885d-68741a432a43.mp4",
+    "bytes": 1445533,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/b8e4ac01-b2bd-4c99-885d-68741a432a43.mp4"
+   },
+   "alt": "xDiSl1taRPX9QeUh (1)",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

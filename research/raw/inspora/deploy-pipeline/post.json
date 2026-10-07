@@ -1,0 +1,47 @@
+{
+ "id": "60911575-e457-4e6e-94b5-1587cd8b544c",
+ "slug": "deploy-pipeline",
+ "title": "Deploy Pipeline",
+ "creator": {
+  "id": "784bdadf-6bdb-44e9-a33d-eb09aa817032",
+  "name": "@jeetnirnejak",
+  "handle": "@jeetnirnejak",
+  "url": "https://x.com/jeetnirnejak/status/2088251238530105638",
+  "avatarUrl": "https://media.inspora.design/creators/fd89532e-8a58-45ed-b2f2-dcd63a0e1530.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Deploy Pipeline Component: Build, test, preview, production. With the logs streaming as each step runs.",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/jeetnirnejak/status/2060358955273195958",
+ "createdAt": "2026-09-02T17:28:05.012Z",
+ "publishedAt": "2026-09-02T17:28:04.863Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "f932869f-d7fe-40ee-bbb7-69f57f27c8c3",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/2bf5ea43-d073-4300-8aa5-b0dc27720354.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d2b7a761-4683-4321-9bee-8bfcbcebb2c9.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 558560,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/d94fd3fb-b307-4307-b939-09a7d1a2cd76.mp4",
+    "bytes": 227041,
+    "width": 1080,
+    "format": "mp4",
+    "height": 852,
+    "storageKey": "posts/d94fd3fb-b307-4307-b939-09a7d1a2cd76.mp4"
+   },
+   "alt": "HgxCoVXSgk7xNAnB",
+   "width": 1924,
+   "height": 1518,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "id": "258af8f1-2da3-44fa-9524-a3bd1a9dfd41",
+ "slug": "1-17",
+ "title": "analytics dashboard",
+ "creator": {
+  "id": "27f297c2-d936-4b13-9a06-549f8a36f05a",
+  "name": "@_heyrico",
+  "handle": "@_heyrico",
+  "url": "https://x.com/_heyrico",
+  "avatarUrl": "https://media.inspora.design/creators/ced40ac6-05ac-48d6-a3c4-cbd109a588ff.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "analytics dashboard",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/_heyrico/status/2007060067250794909",
+ "createdAt": "2026-08-21T05:01:42.663Z",
+ "publishedAt": "2026-08-21T05:01:42.423Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "de5b810a-5642-467a-9b47-cadf8d3b381b",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/fc9d622a-d524-4d45-a7f5-5e0e1edc70de.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 99978,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/8cf0f423-1b28-4ea2-afa7-7270c32db17d.webp",
+     "bytes": 18112,
+     "width": 640,
+     "format": "webp",
+     "height": 512,
+     "storageKey": "posts/8cf0f423-1b28-4ea2-afa7-7270c32db17d.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/29e37a85-83ea-427f-83f4-cc3c599c2ede.webp",
+     "bytes": 29090,
+     "width": 960,
+     "format": "webp",
+     "height": 768,
+     "storageKey": "posts/29e37a85-83ea-427f-83f4-cc3c599c2ede.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/51a4e6dd-4b71-49d8-a931-e7f6ae88367c.webp",
+     "bytes": 53712,
+     "width": 1600,
+     "format": "webp",
+     "height": 1280,
+     "storageKey": "posts/51a4e6dd-4b71-49d8-a931-e7f6ae88367c.webp"
+    }
+   ],
+   "alt": "G9qCfZ6awAAcXpr",
+   "width": 2560,
+   "height": 2048,
+   "position": 0
+  }
+ ]
+}

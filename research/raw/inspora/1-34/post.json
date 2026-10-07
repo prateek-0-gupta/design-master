@@ -1,0 +1,47 @@
+{
+ "id": "d7518bf7-d1e2-4d85-b008-7cbece08d6e2",
+ "slug": "1-34",
+ "title": "card details microinteraction",
+ "creator": {
+  "id": "5cf0893e-3425-4e89-9d42-3bd6591d666e",
+  "name": "@bodya_zhk",
+  "handle": "@bodya_zhk",
+  "url": "https://x.com/bodya_zhk",
+  "avatarUrl": "https://media.inspora.design/creators/7b24706c-3ade-4959-9be1-597dc1481eaa.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "card details microinteraction",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/bodya_zhk/status/2090854247604638145",
+ "createdAt": "2026-08-24T11:01:28.494Z",
+ "publishedAt": "2026-08-24T11:01:28.436Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "db7c97b0-c881-4c42-8265-a2dae8dd9411",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/3f8f07de-3409-4818-9f8e-a7c265c21d0a.mp4",
+   "posterUrl": "https://media.inspora.design/posts/52fe7568-fa95-4db3-bf2c-23c5df2d250b.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 463583,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/db7c97b0-c881-4c42-8265-a2dae8dd9411.mp4",
+    "bytes": 462497,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/previews/db7c97b0-c881-4c42-8265-a2dae8dd9411.mp4"
+   },
+   "alt": "ssstwitter.com 1787569205606",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

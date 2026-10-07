@@ -1,0 +1,47 @@
+{
+ "id": "9b4f99cd-6ce0-40d7-b625-4e96ef64d765",
+ "slug": "1-55",
+ "title": "Portfolio Boarding Pass",
+ "creator": {
+  "id": "eadc1798-caab-4d0b-b465-0154b9afe7c5",
+  "name": "@cameronmoll",
+  "handle": "@cameronmoll",
+  "url": "https://x.com/cameronmoll",
+  "avatarUrl": "https://media.inspora.design/creators/28bf00ef-5576-453c-a70e-2be46a70a147.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Portfolio Boarding Pass",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/cameronmoll/status/2093333082912829808",
+ "createdAt": "2026-08-28T20:00:41.028Z",
+ "publishedAt": "2026-08-28T20:00:40.787Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "96247730-177c-4345-bf9d-9ee2dd87123d",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/156823db-bd74-4620-8750-6d7eff658034.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d48d0efb-be31-4a70-aa59-b77e52cd803c.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2935745,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/a7e990a3-613b-4b4c-8ca5-efe779121f84.mp4",
+    "bytes": 690776,
+    "width": 1080,
+    "format": "mp4",
+    "height": 852,
+    "storageKey": "posts/a7e990a3-613b-4b4c-8ca5-efe779121f84.mp4"
+   },
+   "alt": "4b9ed Q4q j8hUfi",
+   "width": 2192,
+   "height": 1730,
+   "position": 0
+  }
+ ]
+}

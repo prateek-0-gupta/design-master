@@ -1,0 +1,55 @@
+{
+ "id": "b0397d72-8790-48c1-a6aa-8c81edb9ce9f",
+ "slug": "iquid-metal",
+ "title": "liquid metal",
+ "creator": {
+  "id": "b5b20b76-a6ef-4494-a369-6f8b0ab671ac",
+  "name": "Brett",
+  "handle": "@BrettFromDJ",
+  "url": "https://x.com/BrettFromDJ",
+  "avatarUrl": "https://media.inspora.design/creators/6083f22e-39b4-4295-a368-b3123b86de44.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Experimenting with liquid metal.",
+ "category": "Motion",
+ "industries": [
+  "Tech"
+ ],
+ "colors": [
+  "Black",
+  "Silver"
+ ],
+ "styles": [
+  "Dark",
+  "Minimal"
+ ],
+ "sourceUrl": "https://x.com/BrettFromDJ/status/2002114751078543846",
+ "createdAt": "2026-10-03T08:57:23.127Z",
+ "publishedAt": "2026-10-03T08:57:22.963Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "895e7fcb-872c-45f8-b296-8bdd6b823d10",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/87cdfa67-7160-49c4-bfd4-d97d95d22d02.mp4",
+   "posterUrl": "https://media.inspora.design/posts/5cf1fe77-abd3-4338-bc54-c8b04cda7b48.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1799527,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/727e0ad5-794b-4fab-96c6-9621e735a8ec.mp4",
+    "bytes": 323965,
+    "width": 1080,
+    "format": "mp4",
+    "height": 754,
+    "storageKey": "posts/727e0ad5-794b-4fab-96c6-9621e735a8ec.mp4"
+   },
+   "alt": "Q4tikkEVoe0B35bj",
+   "width": 3090,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

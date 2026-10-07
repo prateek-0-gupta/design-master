@@ -1,0 +1,58 @@
+{
+ "id": "346c8793-a021-49b2-81d8-55a2b1bdc705",
+ "slug": "eleven-v4",
+ "title": "Eleven v4",
+ "creator": {
+  "id": "8840ca27-404c-48d2-9fd3-033e1da4cef5",
+  "name": "@lorenzodossi",
+  "handle": "@lorenzodossi",
+  "url": "https://x.com/lorenzodossi",
+  "avatarUrl": "https://media.inspora.design/creators/d113dc85-6a2f-43f8-9bb0-b57cfcb98e32.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "ElevenLabs v4 that speaks lines in selectable emotions.",
+ "category": "Motion",
+ "industries": [
+  "AI voice",
+  "Creative tech"
+ ],
+ "colors": [
+  "White",
+  "Coral",
+  "Green"
+ ],
+ "styles": [
+  "Minimal",
+  "Kinetic",
+  "Editorial"
+ ],
+ "sourceUrl": "https://x.com/lorenzodossi/status/2104614174206939180",
+ "createdAt": "2026-09-29T05:16:52.155Z",
+ "publishedAt": "2026-09-29T05:16:52.105Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "6fb13fb2-4b83-415c-be34-eacf52fba467",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/ba35e6f0-b8de-4627-84b7-e8b2993a5156.mp4",
+   "posterUrl": "https://media.inspora.design/posts/2b32ce0e-bf38-46fd-baef-2045aedca626.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 20800939,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/cbd10805-9b8d-44ee-b7eb-154a60202a7e.mp4",
+    "bytes": 3286080,
+    "width": 1080,
+    "format": "mp4",
+    "height": 828,
+    "storageKey": "posts/cbd10805-9b8d-44ee-b7eb-154a60202a7e.mp4"
+   },
+   "alt": "TlZsHjtfUvjfcezv",
+   "width": 2814,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

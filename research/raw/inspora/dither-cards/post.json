@@ -1,0 +1,47 @@
+{
+ "id": "9fd37228-0ebd-4dfb-b9a3-e56a9844d59a",
+ "slug": "dither-cards",
+ "title": "Dither Cards",
+ "creator": {
+  "id": "de55c6c8-c670-4299-99ae-c66c44e060f3",
+  "name": "Praveen Kumar",
+  "handle": "@praveenisomer",
+  "url": "https://x.com/praveenisomer",
+  "avatarUrl": "https://media.inspora.design/creators/6609e34d-822c-4577-8496-dfbe60160ea6.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Dither Cards",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/praveenisomer/status/2094387224574108054",
+ "createdAt": "2026-09-02T03:18:11.903Z",
+ "publishedAt": "2026-09-02T03:18:11.367Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "db470ad9-f4c3-40e6-8f83-896f9ae3fa0d",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/6aa7c460-4288-41c8-b230-e73feb9726da.mp4",
+   "posterUrl": "https://media.inspora.design/posts/ca86835e-1b23-41e2-85d4-69cf1ee7c235.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 8945376,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/dffb659f-e57d-45fe-944e-4d31ee32e6e9.mp4",
+    "bytes": 5973441,
+    "width": 1080,
+    "format": "mp4",
+    "height": 810,
+    "storageKey": "posts/dffb659f-e57d-45fe-944e-4d31ee32e6e9.mp4"
+   },
+   "alt": "sZ8HgApAlVvrEXSM",
+   "width": 1920,
+   "height": 1440,
+   "position": 0
+  }
+ ]
+}

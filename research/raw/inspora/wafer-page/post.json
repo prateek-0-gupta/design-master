@@ -1,0 +1,47 @@
+{
+ "id": "40e0f92a-f0b4-4b31-a88b-781a103dc3ea",
+ "slug": "wafer-page",
+ "title": "Wafer page",
+ "creator": {
+  "id": "d904fcec-260b-4499-afa3-2b99020c9ae9",
+  "name": "@kazarov_d",
+  "handle": "@kazarov_d",
+  "url": "https://x.com/kazarov_d",
+  "avatarUrl": "https://media.inspora.design/creators/48db8a58-72e5-456b-9d82-a9b14ed6600f.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Wafer page",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/kazarov_d/status/2094551144613736669",
+ "createdAt": "2026-09-02T13:26:29.010Z",
+ "publishedAt": "2026-09-02T13:26:28.769Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "cf2e3ee9-bb0f-4e12-9112-deaa850adfa1",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/51c71c6f-5ce9-46cb-a073-3a8ecf94c499.mp4",
+   "posterUrl": "https://media.inspora.design/posts/3df82eba-ec7f-4145-bedc-62830f780141.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 10691893,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/9ffcc0b4-1ccb-46ef-883d-045e0ec0c117.mp4",
+    "bytes": 3311358,
+    "width": 1080,
+    "format": "mp4",
+    "height": 794,
+    "storageKey": "posts/9ffcc0b4-1ccb-46ef-883d-045e0ec0c117.mp4"
+   },
+   "alt": "ZeHzSHdEk3oTNgPu",
+   "width": 2938,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

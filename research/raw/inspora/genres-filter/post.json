@@ -1,0 +1,47 @@
+{
+ "id": "604e62c4-2452-420d-bceb-7af93f071e1d",
+ "slug": "genres-filter",
+ "title": "Genres filter",
+ "creator": {
+  "id": "26d7f383-5a84-4f33-bb37-59e5158ea0b4",
+  "name": "@proskuaaa",
+  "handle": "@proskuaaa",
+  "url": "https://x.com/proskuaaa",
+  "avatarUrl": "https://media.inspora.design/creators/eceeafd4-7180-454d-812f-1e0260c41c80.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Genres filter",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/proskuaaa/status/2084153539568492917",
+ "createdAt": "2026-08-30T04:48:27.548Z",
+ "publishedAt": "2026-08-30T04:48:27.016Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "431c3cd3-ae68-417b-b18d-337a73483bb0",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/4cf3044c-f461-44ca-a261-360a72f313b5.mp4",
+   "posterUrl": "https://media.inspora.design/posts/a95403fc-a91b-4432-92f9-3948f5c7df20.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1491002,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/449c959d-2081-49e7-a4fd-41fa9cb44297.mp4",
+    "bytes": 611029,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/449c959d-2081-49e7-a4fd-41fa9cb44297.mp4"
+   },
+   "alt": "f3HtBSQb7kQ8Qg8Q (1)",
+   "width": 1440,
+   "height": 1440,
+   "position": 0
+  }
+ ]
+}

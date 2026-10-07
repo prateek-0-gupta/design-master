@@ -1,0 +1,59 @@
+{
+ "id": "db0425a1-98bd-4df9-9eef-571cb92663ec",
+ "slug": "run-to-the-hills",
+ "title": "run to the hills",
+ "creator": {
+  "id": "701c5098-e52b-4136-8435-417292106c8b",
+  "name": "cem hasimi",
+  "handle": "@cemhah",
+  "url": "https://x.com/cemhah",
+  "avatarUrl": "https://media.inspora.design/creators/051a53aa-980d-4da4-82ad-6ea83b0eacd2.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A white outlined figure runs and leaps through a vibrant, pointillist flower-covered hillside under a black sky",
+ "category": "Illustration",
+ "industries": [
+  "Art",
+  "Animation"
+ ],
+ "colors": [
+  "Black",
+  "Purple",
+  "Pink",
+  "Green"
+ ],
+ "styles": [
+  "Dotted",
+  "Simple",
+  "Playful"
+ ],
+ "sourceUrl": "https://x.com/cemhah/status/1977119489809625273",
+ "createdAt": "2026-10-04T05:19:49.700Z",
+ "publishedAt": "2026-10-04T05:19:49.175Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "61aab8a9-1b7c-464f-a903-511e428df8dc",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/802b3b89-a66c-4b1b-ad53-b483a6df5ecc.mp4",
+   "posterUrl": "https://media.inspora.design/posts/bb1ece55-a032-4d1c-addd-a32db3c447d0.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1154020,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/b74a800b-d16e-4586-ae41-f415733842b3.mp4",
+    "bytes": 2950450,
+    "width": 1000,
+    "format": "mp4",
+    "height": 562,
+    "storageKey": "posts/b74a800b-d16e-4586-ae41-f415733842b3.mp4"
+   },
+   "alt": "G3AjbJbXIAEANmD",
+   "width": 1000,
+   "height": 562,
+   "position": 0
+  }
+ ]
+}

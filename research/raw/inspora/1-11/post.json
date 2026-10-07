@@ -1,0 +1,47 @@
+{
+ "id": "33e60db9-9c1d-476e-9b93-a9d3c780d196",
+ "slug": "1-11",
+ "title": "A highlighter marker",
+ "creator": {
+  "id": "3d35a0c5-8449-49f1-a22b-373efc17ad1d",
+  "name": "@msllrs",
+  "handle": "@msllrs",
+  "url": "https://x.com/msllrs",
+  "avatarUrl": "https://media.inspora.design/creators/b3eb1406-99f7-40b9-9f7a-b2e75df1b596.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A highlighter marker",
+ "category": "3D",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/msllrs/status/2089341415536922890",
+ "createdAt": "2026-08-19T22:21:01.881Z",
+ "publishedAt": "2026-08-19T22:21:01.642Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "e16a4641-3cd4-4bc4-b64d-38ad49a9cc1f",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/10d188e1-9c6a-422b-a1b4-72060409ac90.mp4",
+   "posterUrl": "https://media.inspora.design/posts/4f00d881-2836-4c4b-85e0-41c2b983fa2f.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 78980,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/e16a4641-3cd4-4bc4-b64d-38ad49a9cc1f.mp4",
+    "bytes": 64566,
+    "width": 1080,
+    "format": "mp4",
+    "height": 620,
+    "storageKey": "posts/previews/e16a4641-3cd4-4bc4-b64d-38ad49a9cc1f.mp4"
+   },
+   "alt": "gt7enJFGfAuJoZ M",
+   "width": 1242,
+   "height": 712,
+   "position": 0
+  }
+ ]
+}

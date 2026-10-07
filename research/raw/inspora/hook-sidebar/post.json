@@ -1,0 +1,47 @@
+{
+ "id": "03578123-2471-47e5-90fe-067d9e11d621",
+ "slug": "hook-sidebar",
+ "title": "Hook sidebar",
+ "creator": {
+  "id": "b1be8d8d-288b-4cd6-9939-8e7e293ee72a",
+  "name": "@SwamiMalode",
+  "handle": "@SwamiMalode",
+  "url": "https://x.com/SwamiMalode",
+  "avatarUrl": "https://media.inspora.design/creators/2988d10f-3803-4b44-ba5c-030388ddfa95.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Hook sidebar component",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/SwamiMalode/status/2094788685254570117",
+ "createdAt": "2026-09-01T16:45:32.515Z",
+ "publishedAt": "2026-09-01T16:45:32.358Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "dad2f01e-aa2f-4e69-8c3a-7be18279e3f0",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/58ca1d66-550f-4aa0-a4b9-a8baa2262741.mp4",
+   "posterUrl": "https://media.inspora.design/posts/0b76c9ab-b2d6-4cf6-99cb-964eece87df9.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2463411,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/48960437-bc36-4f9e-aeae-08c94c13cf3f.mp4",
+    "bytes": 221062,
+    "width": 1080,
+    "format": "mp4",
+    "height": 694,
+    "storageKey": "posts/48960437-bc36-4f9e-aeae-08c94c13cf3f.mp4"
+   },
+   "alt": "KMVOIMbSlr3SeFxR",
+   "width": 3362,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

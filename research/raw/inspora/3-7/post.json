@@ -1,0 +1,47 @@
+{
+ "id": "d4d79a41-2f3b-464b-bc40-c3404763a593",
+ "slug": "3-7",
+ "title": "Flight Card",
+ "creator": {
+  "id": "9443a594-e669-48f1-89f3-b228bd91ebc4",
+  "name": "@raul_dronca",
+  "handle": "@raul_dronca",
+  "url": "https://x.com/raul_dronca",
+  "avatarUrl": "https://media.inspora.design/creators/1c977eb1-3a8c-452f-a4d2-229cd361e4e0.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Flight Card",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/raul_dronca/status/2082813894322446337",
+ "createdAt": "2026-08-10T08:25:29.099Z",
+ "publishedAt": "2026-08-10T08:25:28.859Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "792d7576-eb27-473c-ae63-a9e863f289cc",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/e855e902-9254-4601-bded-9fd6e2c41784.mp4",
+   "posterUrl": "https://media.inspora.design/posts/43d3a261-13d8-440c-bc01-ce80a5956697.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 4263088,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/792d7576-eb27-473c-ae63-a9e863f289cc.mp4",
+    "bytes": 1259895,
+    "width": 1080,
+    "format": "mp4",
+    "height": 808,
+    "storageKey": "posts/previews/792d7576-eb27-473c-ae63-a9e863f289cc.mp4"
+   },
+   "alt": "E7Eo56wc9wH3NHQ",
+   "width": 1920,
+   "height": 1436,
+   "position": 0
+  }
+ ]
+}

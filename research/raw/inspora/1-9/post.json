@@ -1,0 +1,47 @@
+{
+ "id": "5e71dc90-8f46-430a-bef1-6ae43965b2a0",
+ "slug": "1-9",
+ "title": "Footer.mp4",
+ "creator": {
+  "id": "2b4a5410-23da-4c96-b897-769776900772",
+  "name": "@alimdesigner_",
+  "handle": "@alimdesigner_",
+  "url": "https://x.com/alimdesigner_",
+  "avatarUrl": "https://media.inspora.design/creators/e421d3e3-0716-46d1-8067-8d4c1b42b290.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "footer.mp4",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/alimdesigner_/status/2082449286642737341",
+ "createdAt": "2026-08-07T16:28:29.818Z",
+ "publishedAt": "2026-08-07T16:28:29.576Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "85f8f55d-7b7c-4738-b616-c920177f26c3",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/d9db12b7-3846-49ac-b30e-bc854b5472aa.mp4",
+   "posterUrl": "https://media.inspora.design/posts/1a7a1da9-5fdf-4301-80b7-e866badaa2b3.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2362923,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/85f8f55d-7b7c-4738-b616-c920177f26c3.mp4",
+    "bytes": 1002174,
+    "width": 1080,
+    "format": "mp4",
+    "height": 614,
+    "storageKey": "posts/previews/85f8f55d-7b7c-4738-b616-c920177f26c3.mp4"
+   },
+   "alt": "WZJfxJ4HMk80fshM",
+   "width": 1902,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

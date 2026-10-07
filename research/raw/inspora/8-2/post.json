@@ -1,0 +1,47 @@
+{
+ "id": "cd256f3a-9636-4d04-8b90-b7fd2fe1df58",
+ "slug": "8-2",
+ "title": "Liquid Glow Button",
+ "creator": {
+  "id": "e36a9ab7-7d0d-43ac-b1ff-89d6c5721c96",
+  "name": "@Designownow_",
+  "handle": "@Designownow_",
+  "url": "https://x.com/Designownow_",
+  "avatarUrl": "https://media.inspora.design/creators/e55bc58c-f6bb-491d-9420-a458570a5f23.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Liquid Glow Button animation",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/Designownow_/status/1899187534758068619",
+ "createdAt": "2026-08-15T13:43:36.042Z",
+ "publishedAt": "2026-08-15T13:43:35.707Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "57e22fd7-cd29-4862-8cce-3a4d2bc537f8",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/ad5996a8-fcd6-4db3-8579-5f5628a52f90.mp4",
+   "posterUrl": "https://media.inspora.design/posts/8cd14f93-c246-40db-a8d3-e5ef85270c29.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 427269,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/57e22fd7-cd29-4862-8cce-3a4d2bc537f8.mp4",
+    "bytes": 914229,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1078,
+    "storageKey": "posts/previews/57e22fd7-cd29-4862-8cce-3a4d2bc537f8.mp4"
+   },
+   "alt": "i2EwvRNgQOfd39nP",
+   "width": 1082,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

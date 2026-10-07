@@ -1,0 +1,47 @@
+{
+ "id": "0ebbfd95-b7f4-463e-8c61-30326596a96e",
+ "slug": "voice-effect",
+ "title": "Voice effect",
+ "creator": {
+  "id": "186bf7e4-3d37-40c6-89bc-4166a1d0725c",
+  "name": "@Jakubantalik",
+  "handle": "@Jakubantalik",
+  "url": "https://x.com/Jakubantalik",
+  "avatarUrl": "https://media.inspora.design/creators/4960f6c9-effd-4443-815b-5f242c1ebfc6.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Animated voice glow effect, no shades & zero dep, 3 types, multiple states, dark & light theme.",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/Jakubantalik/status/2100620796796502264",
+ "createdAt": "2026-09-17T18:02:52.793Z",
+ "publishedAt": "2026-09-17T18:02:52.641Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "d32504de-f302-443e-a763-78bc575dad49",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/27271ebe-79ca-4884-90bd-0a5dae40e9e5.mp4",
+   "posterUrl": "https://media.inspora.design/posts/726e1d8d-c95c-4067-98aa-bbc2f5e09fca.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 3846840,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/199bf0fa-ad95-45c8-9330-46b7c1b4c510.mp4",
+    "bytes": 1108983,
+    "width": 1080,
+    "format": "mp4",
+    "height": 812,
+    "storageKey": "posts/199bf0fa-ad95-45c8-9330-46b7c1b4c510.mp4"
+   },
+   "alt": "lXD aG7ARlV T1Ti",
+   "width": 1700,
+   "height": 1280,
+   "position": 0
+  }
+ ]
+}

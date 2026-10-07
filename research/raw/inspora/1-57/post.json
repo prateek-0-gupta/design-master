@@ -1,0 +1,47 @@
+{
+ "id": "2c9e0b9e-0852-49bf-b094-c04b102bd080",
+ "slug": "1-57",
+ "title": "404 page",
+ "creator": {
+  "id": "fb28959f-aad8-44de-b1f4-8717297ac357",
+  "name": "@dqnamo",
+  "handle": "@dqnamo",
+  "url": "https://x.com/dqnamo",
+  "avatarUrl": "https://media.inspora.design/creators/23e5ddc1-c988-4208-bf0f-db5a5c1a5abf.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "a retro handheld game console 404 page",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/dqnamo/status/2092620583293075867",
+ "createdAt": "2026-08-29T02:45:44.037Z",
+ "publishedAt": "2026-08-29T02:45:43.511Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "00c9e8f1-4baa-4a48-baa6-9108eb8b8a54",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/4493881d-f7c8-4f7e-91bd-583ee5ce2fa7.mp4",
+   "posterUrl": "https://media.inspora.design/posts/e5c18246-3383-461a-95a8-4929b43e87b2.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 3403405,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/0bd3f0ab-132b-4188-ae1a-f9b2007b1924.mp4",
+    "bytes": 234169,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/0bd3f0ab-132b-4188-ae1a-f9b2007b1924.mp4"
+   },
+   "alt": "7lDcN3Th6QUD2Bsb",
+   "width": 3840,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

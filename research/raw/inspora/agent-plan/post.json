@@ -1,0 +1,47 @@
+{
+ "id": "5de35fe0-639c-4ee2-86da-518be5610ce6",
+ "slug": "agent-plan",
+ "title": "Agent Plan",
+ "creator": {
+  "id": "784bdadf-6bdb-44e9-a33d-eb09aa817032",
+  "name": "@jeetnirnejak",
+  "handle": "@jeetnirnejak",
+  "url": "https://x.com/jeetnirnejak/status/2088251238530105638",
+  "avatarUrl": "https://media.inspora.design/creators/fd89532e-8a58-45ed-b2f2-dcd63a0e1530.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A component to review and the run the agent plan",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/jeetnirnejak/status/2051294751694192794",
+ "createdAt": "2026-09-10T15:33:01.004Z",
+ "publishedAt": "2026-09-10T15:33:00.812Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "c44e88d4-6b0d-4a91-8e20-ea14f201a6f9",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/97f6f169-609b-4634-b5db-b7a58bd1cef2.mp4",
+   "posterUrl": "https://media.inspora.design/posts/e3142ef5-6b68-4df8-a0ca-6f5afe115437.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1010442,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/82cbf83a-942f-456d-b214-6178501b9629.mp4",
+    "bytes": 594686,
+    "width": 1080,
+    "format": "mp4",
+    "height": 882,
+    "storageKey": "posts/82cbf83a-942f-456d-b214-6178501b9629.mp4"
+   },
+   "alt": "zi32Vo JTS9jJi5B",
+   "width": 1832,
+   "height": 1498,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "id": "7ba62014-13c9-4945-9408-40a3763b661d",
+ "slug": "fluid-liquid-card-carousel",
+ "title": "Fluid liquid card carousel.",
+ "creator": {
+  "id": "5fc788fb-1dda-4a48-b564-99af65b2e5cf",
+  "name": "Marcelo Design X",
+  "handle": "@MarceloDesignX",
+  "avatarUrl": "https://media.inspora.design/creators/f0cb9c9a-2417-481b-bf69-c3ea7138f372.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "a fluid interactive card carousel with liquid-like motion-blur transitions between colorful themed cards",
+ "category": "Motion",
+ "industries": [
+  "Lifestyle",
+  "Wellness"
+ ],
+ "colors": [
+  "Blue",
+  "Purple",
+  "Red"
+ ],
+ "styles": [
+  "Motion",
+  "Blur"
+ ],
+ "sourceUrl": "https://x.com/MarceloDesignX/status/2105079940232122481",
+ "createdAt": "2026-10-01T15:58:59.591Z",
+ "publishedAt": "2026-10-01T15:58:59.541Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "f8f8d19e-1bbe-42ad-940c-71c739fccc47",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/19a45876-1ff2-4bbc-a453-fd6be1037d3e.mp4",
+   "posterUrl": "https://media.inspora.design/posts/4e0a69b2-a75c-4d3a-9c92-fb3d42ee3d0b.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 3994201,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/01a14a41-f927-45ca-bc39-a4a52010d6e4.mp4",
+    "bytes": 1381095,
+    "width": 1080,
+    "format": "mp4",
+    "height": 548,
+    "storageKey": "posts/01a14a41-f927-45ca-bc39-a4a52010d6e4.mp4"
+   },
+   "alt": "0qNdd2HgcNPqEqNu",
+   "width": 2126,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "8e407dde-519a-4782-ae07-afc5aac77a74",
+ "slug": "onboarding-screen",
+ "title": "onboarding screen",
+ "creator": {
+  "id": "c8e88906-791a-4f8a-97f5-ad3d88b40872",
+  "name": "@FarzadGodarz",
+  "handle": "@FarzadGodarz",
+  "url": "https://x.com/FarzadGodarz/status/2096601915807187433",
+  "avatarUrl": "https://media.inspora.design/creators/38e964b4-36e7-4356-b691-9917546c2ff7.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "onboarding screen",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/FarzadGodarz/status/2096601915807187433",
+ "createdAt": "2026-09-07T11:56:23.969Z",
+ "publishedAt": "2026-09-07T11:56:23.715Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "8cea6641-a74b-4b8b-a3ea-559365f2fef1",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/828ad3c6-57d4-4288-ac1c-79447715d7cd.mp4",
+   "posterUrl": "https://media.inspora.design/posts/2cef02b8-de4f-4f29-ba61-5536d5bd7f01.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2263326,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/7aae416d-5cec-4c16-8aa0-80eeefcd40fa.mp4",
+    "bytes": 1556661,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1350,
+    "storageKey": "posts/7aae416d-5cec-4c16-8aa0-80eeefcd40fa.mp4"
+   },
+   "alt": "hkfc4xM w5dFvZ1Q",
+   "width": 1080,
+   "height": 1350,
+   "position": 0
+  }
+ ]
+}

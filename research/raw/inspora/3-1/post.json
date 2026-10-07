@@ -1,0 +1,47 @@
+{
+ "id": "d8035ef7-c0ce-41af-9a79-f8d229d8003a",
+ "slug": "3-1",
+ "title": "Boat loader",
+ "creator": {
+  "id": "607c614b-5385-4c30-b522-df31d1db1933",
+  "name": "@reijowrites",
+  "handle": "@reijowrites",
+  "url": "https://x.com/reijowrites",
+  "avatarUrl": "https://media.inspora.design/creators/0d94c56e-e259-426a-bc25-93c560cf2de8.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A 3D Boat loader",
+ "category": "3D",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/reijowrites/status/1993682958058717212",
+ "createdAt": "2026-08-08T08:53:03.661Z",
+ "publishedAt": "2026-08-08T08:53:03.415Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "c002fab1-0f8b-4438-af98-c1a1192f7266",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/c98390d8-502f-45a8-9ce0-c8657ef994d6.mp4",
+   "posterUrl": "https://media.inspora.design/posts/b67c6c6d-ebbd-4067-b442-dd0cfd7c0fdc.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1544018,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/c002fab1-0f8b-4438-af98-c1a1192f7266.mp4",
+    "bytes": 620882,
+    "width": 1080,
+    "format": "mp4",
+    "height": 810,
+    "storageKey": "posts/previews/c002fab1-0f8b-4438-af98-c1a1192f7266.mp4"
+   },
+   "alt": "1STJx1rMit1AgHu4",
+   "width": 1920,
+   "height": 1440,
+   "position": 0
+  }
+ ]
+}

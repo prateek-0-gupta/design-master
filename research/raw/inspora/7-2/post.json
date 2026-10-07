@@ -1,0 +1,63 @@
+{
+ "id": "682b58b3-17f8-4a80-83f3-505796db9102",
+ "slug": "7-2",
+ "title": "Sketch logo",
+ "creator": {
+  "id": "0beea640-eb1c-4274-b24a-b713e6ffada9",
+  "name": "@raphaellopesph",
+  "handle": "@raphaellopesph",
+  "url": "https://x.com/raphaellopesph",
+  "avatarUrl": "https://media.inspora.design/creators/0401c388-0d59-4f61-b0ce-96b4e0235a82.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Sketch logo",
+ "category": "Illustration",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/raphaellopesph/status/2088313058456166871",
+ "createdAt": "2026-08-15T16:15:09.368Z",
+ "publishedAt": "2026-08-15T16:15:09.316Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "398446ea-a444-4937-89e8-fb5cbb90e967",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/a1a99607-68fc-4f5f-8c64-f7f50eec7127.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 56892,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/e8fc54cb-86ac-43c7-8964-bf92f3b2c684.webp",
+     "bytes": 10786,
+     "width": 640,
+     "format": "webp",
+     "height": 541,
+     "storageKey": "posts/e8fc54cb-86ac-43c7-8964-bf92f3b2c684.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/098670d5-c55f-41fb-a629-51bef9a6a3e2.webp",
+     "bytes": 16388,
+     "width": 960,
+     "format": "webp",
+     "height": 811,
+     "storageKey": "posts/098670d5-c55f-41fb-a629-51bef9a6a3e2.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/14c3d4a7-dffd-4c02-ac9b-bd5f3896f8ad.webp",
+     "bytes": 31812,
+     "width": 1600,
+     "format": "webp",
+     "height": 1352,
+     "storageKey": "posts/14c3d4a7-dffd-4c02-ac9b-bd5f3896f8ad.webp"
+    }
+   ],
+   "alt": "HPstoCHXUAABs1n",
+   "width": 2424,
+   "height": 2048,
+   "position": 0
+  }
+ ]
+}

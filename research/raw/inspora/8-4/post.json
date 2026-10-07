@@ -1,0 +1,47 @@
+{
+ "id": "5f15e666-b3d8-4826-9a17-534df749d43b",
+ "slug": "8-4",
+ "title": "Same element, new position.",
+ "creator": {
+  "id": "c1dc28bb-b364-4d77-97b4-92464dc3a42e",
+  "name": "@shawn_kel",
+  "handle": "@shawn_kel",
+  "url": "https://x.com/shawn_kel",
+  "avatarUrl": "https://media.inspora.design/creators/94e8f3b2-f09b-4615-9701-474104a5dcdf.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Same element, new position.",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/shawn_kel/status/2087937950424129978",
+ "createdAt": "2026-08-17T04:31:49.307Z",
+ "publishedAt": "2026-08-17T04:31:49.257Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "0d0f7878-3daa-48ad-88d2-4e4dfedc1677",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/866b975f-3435-44ca-9559-0265ef086f40.mp4",
+   "posterUrl": "https://media.inspora.design/posts/6a86d10e-5566-42fd-afec-5c4c49e47166.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 796832,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/0d0f7878-3daa-48ad-88d2-4e4dfedc1677.mp4",
+    "bytes": 660482,
+    "width": 1080,
+    "format": "mp4",
+    "height": 606,
+    "storageKey": "posts/previews/0d0f7878-3daa-48ad-88d2-4e4dfedc1677.mp4"
+   },
+   "alt": "47bbWa3FTGN29cOz",
+   "width": 1282,
+   "height": 720,
+   "position": 0
+  }
+ ]
+}

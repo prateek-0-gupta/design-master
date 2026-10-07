@@ -1,0 +1,47 @@
+{
+ "id": "1c68174f-1b8c-46aa-8bd4-8a49e2309f3d",
+ "slug": "multi-action-button",
+ "title": "multi-action button",
+ "creator": {
+  "id": "77eb5dff-4231-4638-95c4-27d4171df429",
+  "name": "@nickpylll",
+  "handle": "@nickpylll",
+  "url": "https://x.com/nickpylll",
+  "avatarUrl": "https://media.inspora.design/creators/8f3ac701-46d1-4ab4-bd05-7f92f9b7dd96.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "multi-action button / interaction",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/nickpylll/status/1975480622773875178",
+ "createdAt": "2026-09-03T16:09:56.906Z",
+ "publishedAt": "2026-09-03T16:09:56.849Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "eae2eb96-91aa-4d2a-ad4f-15b7215f4750",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/341f53c8-d308-465c-b8b7-ea94d6304da6.mp4",
+   "posterUrl": "https://media.inspora.design/posts/00fc5bcd-cf1b-4cc1-ba46-2ae8e1100324.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 158786,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/3b08c9e2-3936-4006-8f0a-da88b2de98d8.mp4",
+    "bytes": 123863,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/3b08c9e2-3936-4006-8f0a-da88b2de98d8.mp4"
+   },
+   "alt": "wXqQbJUDlw0zm1ov",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

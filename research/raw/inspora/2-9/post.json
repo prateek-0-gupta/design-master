@@ -1,0 +1,47 @@
+{
+ "id": "5470b876-8f44-491e-b241-11de65f1c4c6",
+ "slug": "2-9",
+ "title": "Jelly Switch",
+ "creator": {
+  "id": "bfab431c-f5f3-48c7-9fb8-9877b9705435",
+  "name": "@iwoplaza",
+  "handle": "@iwoplaza",
+  "url": "https://x.com/iwoplaza",
+  "avatarUrl": "https://media.inspora.design/creators/31f06ba6-5aa1-4cba-b4f8-c582477ae671.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Jelly Switch",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/iwoplaza/status/1988556641583714392",
+ "createdAt": "2026-08-08T08:50:20.688Z",
+ "publishedAt": "2026-08-08T08:50:20.412Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "b5a613e7-57eb-40d0-a2a9-51562171c479",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/6f1623d6-820d-4de9-99f2-a8c07bfd4c25.mp4",
+   "posterUrl": "https://media.inspora.design/posts/6a7942c6-b5e9-44e9-a7c0-80356fcd8def.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1160096,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/b5a613e7-57eb-40d0-a2a9-51562171c479.mp4",
+    "bytes": 1151163,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/previews/b5a613e7-57eb-40d0-a2a9-51562171c479.mp4"
+   },
+   "alt": "@iwoplaza 1988556641583714392 1080p",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

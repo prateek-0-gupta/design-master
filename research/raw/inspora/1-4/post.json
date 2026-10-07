@@ -1,0 +1,47 @@
+{
+ "id": "8d921d21-36be-4e79-a5c3-e8d481f5833c",
+ "slug": "1-4",
+ "title": "Liquid gold",
+ "creator": {
+  "id": "64b71fe2-7f12-4e04-a559-02bfcda3ad73",
+  "name": "@staromlynski",
+  "handle": "@staromlynski",
+  "url": "https://x.com/staromlynski",
+  "avatarUrl": "https://media.inspora.design/creators/d507e520-2f29-4d15-9115-7b82a47c52b3.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Liquid gold",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/staromlynski/status/2016076600987541804",
+ "createdAt": "2026-08-07T08:06:31.609Z",
+ "publishedAt": "2026-08-07T08:06:31.073Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "2974c854-9901-4d8a-aad1-f7b31dd648bd",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/27910065-cb32-4bbb-a88b-138b5bb126bb.mp4",
+   "posterUrl": "https://media.inspora.design/posts/3df69d02-d34e-4952-b055-6ba3a5d9c344.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 539112,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/2974c854-9901-4d8a-aad1-f7b31dd648bd.mp4",
+    "bytes": 539729,
+    "width": 960,
+    "format": "mp4",
+    "height": 720,
+    "storageKey": "posts/previews/2974c854-9901-4d8a-aad1-f7b31dd648bd.mp4"
+   },
+   "alt": "a8w6urn0UdHmtcXI",
+   "width": 960,
+   "height": 720,
+   "position": 0
+  }
+ ]
+}

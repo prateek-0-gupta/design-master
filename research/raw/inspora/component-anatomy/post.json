@@ -1,0 +1,58 @@
+{
+ "id": "4267dcec-d325-423c-86f6-0ea4c587f176",
+ "slug": "component-anatomy",
+ "title": "Component Anatomy",
+ "creator": {
+  "id": "a53c09e6-7c7a-496c-9284-54777b47fc41",
+  "name": "@MSchwaibold",
+  "handle": "@MSchwaibold",
+  "url": "https://x.com/MSchwaibold",
+  "avatarUrl": "https://media.inspora.design/creators/8e1aecd9-40a3-4183-9371-4c61bba14b66.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "3D animation explodes a music-player card into stacked layout, grid, and color layers",
+ "category": "Motion",
+ "industries": [
+  "music app"
+ ],
+ "colors": [
+  "White",
+  "blush pink",
+  "lavender",
+  "pale blue"
+ ],
+ "styles": [
+  "layered",
+  "rounded",
+  "grid-based"
+ ],
+ "sourceUrl": "https://x.com/MSchwaibold/status/2097463320521445446",
+ "createdAt": "2026-09-12T11:24:13.563Z",
+ "publishedAt": "2026-09-12T11:24:13.507Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "fa606bfb-ccf7-427b-9b8c-4aa0388f50e3",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/9ca5ba97-c327-4c82-88c8-b5bfe7731912.mp4",
+   "posterUrl": "https://media.inspora.design/posts/67839412-9d57-4faa-81a2-cb6b0ab7c3b9.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 5607149,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/b7ce27f4-df1f-4c56-93df-b58872a959db.mp4",
+    "bytes": 1533266,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1168,
+    "storageKey": "posts/b7ce27f4-df1f-4c56-93df-b58872a959db.mp4"
+   },
+   "alt": "8KFr2rViEbsEgb5D",
+   "width": 1996,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

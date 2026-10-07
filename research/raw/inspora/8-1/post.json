@@ -1,0 +1,47 @@
+{
+ "id": "12deb1ae-bb04-4940-bcf0-325a4b2bb61b",
+ "slug": "8-1",
+ "title": "File cabinet slide",
+ "creator": {
+  "id": "3cbc8a7b-4a8b-4aa7-b8f2-b3f423843b86",
+  "name": "@samdape",
+  "handle": "@samdape",
+  "url": "https://x.com/samdape",
+  "avatarUrl": "https://media.inspora.design/creators/e26b51b5-6c95-452c-9b46-112248126a66.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "File cabinet slide",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/samdape/status/1936518319462367609",
+ "createdAt": "2026-08-17T14:40:13.686Z",
+ "publishedAt": "2026-08-17T14:40:13.635Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "469e3ead-83f5-42a8-a9ed-e2ab090a4dc2",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/f9373a6e-8a76-4407-a225-74c5a772bc53.mp4",
+   "posterUrl": "https://media.inspora.design/posts/99f62982-2e30-486e-921b-11d922200c13.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 700404,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/469e3ead-83f5-42a8-a9ed-e2ab090a4dc2.mp4",
+    "bytes": 1026000,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/previews/469e3ead-83f5-42a8-a9ed-e2ab090a4dc2.mp4"
+   },
+   "alt": "@samdape 1936518319462367609 1080p",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

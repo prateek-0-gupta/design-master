@@ -1,0 +1,47 @@
+{
+ "id": "76f678ec-15b4-4a99-b13c-7fdae8ef6512",
+ "slug": "1-60",
+ "title": "Ringwriter",
+ "creator": {
+  "id": "36e66bc3-d667-4398-a8ef-b05aa92a4bb5",
+  "name": "@edo_lunardi",
+  "handle": "@edo_lunardi",
+  "url": "https://x.com/edo_lunardi",
+  "avatarUrl": "https://media.inspora.design/creators/03f8e5bc-7700-45ff-bd74-ed19efb6e1be.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A phrase coiled across spinning rings. Cursor melts the glyphs to dots",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/edo_lunardi/status/2079129478630977948",
+ "createdAt": "2026-08-29T13:27:22.097Z",
+ "publishedAt": "2026-08-29T13:27:22.046Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "5b9e4667-19e7-44a2-94fa-6db09dfb85a1",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/6d134bd8-7e48-4cba-bcd7-7d29b9357b9b.mp4",
+   "posterUrl": "https://media.inspora.design/posts/c94dea48-ac75-421b-bf38-cb623c7d54f3.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 7583157,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/3824f586-e2e1-4fa2-9d92-be85fbb8d547.mp4",
+    "bytes": 9185069,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/3824f586-e2e1-4fa2-9d92-be85fbb8d547.mp4"
+   },
+   "alt": "c6N vba47wzn5dXy",
+   "width": 1728,
+   "height": 1728,
+   "position": 0
+  }
+ ]
+}

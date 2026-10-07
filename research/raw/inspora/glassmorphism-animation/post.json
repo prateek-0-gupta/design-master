@@ -1,0 +1,47 @@
+{
+ "id": "9413ce53-a8df-4052-9d34-689bcef3d622",
+ "slug": "glassmorphism-animation",
+ "title": "glassmorphism animation",
+ "creator": {
+  "id": "238747c2-043a-4e46-9590-dba51dc14d29",
+  "name": "@DesignGabor",
+  "handle": "@DesignGabor",
+  "url": "https://x.com/DesignGabor",
+  "avatarUrl": "https://media.inspora.design/creators/8851be74-214d-4494-b9f3-a71aa5f0318f.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "glassmorphism animation",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/DesignGabor/status/1866183848704250245",
+ "createdAt": "2026-09-10T10:57:27.322Z",
+ "publishedAt": "2026-09-10T10:57:27.082Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "3fcf7d29-4233-40aa-beab-1b7104b769c6",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/971074b4-b313-400c-936a-2e65050e3007.mp4",
+   "posterUrl": "https://media.inspora.design/posts/c544c8ea-8f42-4421-92ca-90156a9d4afc.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1368581,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/4e9588ed-9424-4b63-9842-ef2dd6bcb623.mp4",
+    "bytes": 1431946,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/4e9588ed-9424-4b63-9842-ef2dd6bcb623.mp4"
+   },
+   "alt": "sGhUPgK0oTooo 48",
+   "width": 1280,
+   "height": 720,
+   "position": 0
+  }
+ ]
+}

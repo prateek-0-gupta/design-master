@@ -1,0 +1,47 @@
+{
+ "id": "d17dfb65-5b4b-4bd7-9ecd-2c8a0649074b",
+ "slug": "iphone-duo",
+ "title": "This iPhone Duo animation",
+ "creator": {
+  "id": "68d3d7a6-8b9b-4fda-868f-3dfb61e73943",
+  "name": "@avstorm",
+  "handle": "@avstorm",
+  "url": "https://x.com/avstorm",
+  "avatarUrl": "https://media.inspora.design/creators/04b35e3c-79e9-4183-aec1-d92ed121b9e3.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "This iPhone Duo animation",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/avstorm/status/2097747002285072533",
+ "createdAt": "2026-09-10T04:53:31.801Z",
+ "publishedAt": "2026-09-10T04:53:39.479Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "ede8f07a-8ac8-4ac1-9420-e5d14f2cbb1d",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/a8546a7a-bb30-4b95-8fc1-4383ce723a17.mp4",
+   "posterUrl": "https://media.inspora.design/posts/0b399917-75a1-4711-83db-68480604df07.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1652328,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/40be7df4-ee53-42a0-8994-bf37c977717e.mp4",
+    "bytes": 416888,
+    "width": 1080,
+    "format": "mp4",
+    "height": 604,
+    "storageKey": "posts/40be7df4-ee53-42a0-8994-bf37c977717e.mp4"
+   },
+   "alt": "I5Zkr90GtwMVBFW5",
+   "width": 2840,
+   "height": 1590,
+   "position": 0
+  }
+ ]
+}

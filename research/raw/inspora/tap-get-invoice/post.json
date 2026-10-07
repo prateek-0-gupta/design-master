@@ -1,0 +1,56 @@
+{
+ "id": "71688d74-4531-48c6-87ba-c6c5e3d2f863",
+ "slug": "tap-get-invoice",
+ "title": "Tap Get Invoice",
+ "creator": {
+  "id": "60631b9e-c4d3-4d6d-ac8c-1aad347acf71",
+  "name": "@ankur5ahu",
+  "handle": "@ankur5ahu",
+  "url": "https://x.com/ankur5ahu",
+  "avatarUrl": "https://media.inspora.design/creators/392f28da-a0e8-4a29-809b-5601c8bbd7db.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Tap Get Invoice and a folded slip unfolds upward into a full receipt, down to the discount line and total",
+ "category": "Motion",
+ "industries": [
+  "invoicing",
+  "SaaS"
+ ],
+ "colors": [
+  "black",
+  "cream"
+ ],
+ "styles": [
+  "Paper",
+  "fold UI"
+ ],
+ "sourceUrl": "https://x.com/movindesign_/status/2101688131854483939",
+ "createdAt": "2026-09-23T08:39:46.236Z",
+ "publishedAt": "2026-09-23T08:39:45.971Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "264c9bfc-76cd-4496-a734-3f1ac3b07286",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/f590c603-6748-410b-b725-983efa9731b8.mp4",
+   "posterUrl": "https://media.inspora.design/posts/f6967f09-5cbc-44f3-a9a2-0b38f03a1cd7.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 769126,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/b6783163-24fd-4881-b459-7d19f7cc1f8a.mp4",
+    "bytes": 673709,
+    "width": 824,
+    "format": "mp4",
+    "height": 720,
+    "storageKey": "posts/b6783163-24fd-4881-b459-7d19f7cc1f8a.mp4"
+   },
+   "alt": "u4u0DnAM 8t2mx8S",
+   "width": 824,
+   "height": 720,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "629ce8e3-2f7a-4e3f-a542-92e600acc15a",
+ "slug": "6-1",
+ "title": "Light work",
+ "creator": {
+  "id": "e36a9ab7-7d0d-43ac-b1ff-89d6c5721c96",
+  "name": "@Designownow_",
+  "handle": "@Designownow_",
+  "url": "https://x.com/Designownow_",
+  "avatarUrl": "https://media.inspora.design/creators/e55bc58c-f6bb-491d-9420-a458570a5f23.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Casting icon shadows with progressive blur.",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/Designownow_/status/1921052041520041991",
+ "createdAt": "2026-08-14T04:40:49.718Z",
+ "publishedAt": "2026-08-14T04:40:49.193Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "373fc400-f33b-4aa0-9eb8-208d034aa74c",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/38140a58-b3c9-4956-be92-550663e95044.mp4",
+   "posterUrl": "https://media.inspora.design/posts/52c04aa2-8bd6-4891-86ca-fd8249b7f18d.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 540139,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/373fc400-f33b-4aa0-9eb8-208d034aa74c.mp4",
+    "bytes": 827479,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1078,
+    "storageKey": "posts/previews/373fc400-f33b-4aa0-9eb8-208d034aa74c.mp4"
+   },
+   "alt": "b9Ojau KNaLwa9DZ (1)",
+   "width": 1506,
+   "height": 1502,
+   "position": 0
+  }
+ ]
+}

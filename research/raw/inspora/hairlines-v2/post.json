@@ -1,0 +1,55 @@
+{
+ "id": "86723bab-c25a-4acf-8550-cf6afc037fda",
+ "slug": "hairlines-v2",
+ "title": "hairlines v0.2",
+ "creator": {
+  "id": "a51dd2b6-09fc-4b2b-930b-958bac4d749f",
+  "name": "Lucas",
+  "handle": "@lucasmarkes__",
+  "url": "https://x.com/lucasmarkes__",
+  "avatarUrl": "https://media.inspora.design/creators/ddbea9e9-a566-46d5-a996-f688e3a0b5f9.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "draw your own with the /hairline-create skill",
+ "category": "Illustration",
+ "industries": [
+  "Tech"
+ ],
+ "colors": [
+  "Gray",
+  "Soft black"
+ ],
+ "styles": [
+  "Isometric",
+  "Minimal"
+ ],
+ "sourceUrl": "https://x.com/lucasmarkes__/status/2106502812498632707",
+ "createdAt": "2026-10-05T05:35:35.128Z",
+ "publishedAt": "2026-10-05T05:35:34.887Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "31b92409-4bdc-44ab-9458-735a0cffd2bb",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/1d0ea241-072d-4ea3-8d7a-f8d94fc5626f.mp4",
+   "posterUrl": "https://media.inspora.design/posts/200b1cae-d570-457a-9727-4fbef4a1d027.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 10058758,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/09a956a0-6b77-432a-8ff6-3f8f4ede6f0f.mp4",
+    "bytes": 2212740,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/09a956a0-6b77-432a-8ff6-3f8f4ede6f0f.mp4"
+   },
+   "alt": "OzCc8l5PJgo4pY K",
+   "width": 3840,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

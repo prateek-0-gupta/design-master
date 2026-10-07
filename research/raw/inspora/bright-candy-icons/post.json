@@ -1,0 +1,70 @@
+{
+ "id": "fb4bc60d-235d-482f-899d-1e093b02f6e8",
+ "slug": "bright-candy-icons",
+ "title": "bright candy icons",
+ "creator": {
+  "id": "5e1e51f0-166b-40ff-84dc-995d2b876204",
+  "name": "@lucaisdesigning",
+  "handle": "@lucaisdesigning",
+  "url": "https://x.com/lucaisdesigning",
+  "avatarUrl": "https://media.inspora.design/creators/40d5ee37-af0e-4066-9ddf-ab9683161371.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Glossy candy-colored app icons for camera, chat, weather, video, book, and flower.",
+ "category": "Branding",
+ "industries": [
+  "Apps"
+ ],
+ "colors": [
+  "Bright"
+ ],
+ "styles": [
+  "Glossy",
+  "3D"
+ ],
+ "sourceUrl": "https://x.com/lucaisdesigning/status/2103579493956763797",
+ "createdAt": "2026-09-27T10:39:45.422Z",
+ "publishedAt": "2026-09-27T10:39:45.174Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "db54777d-fa7b-4685-a574-1806a546e40f",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/2d96fef5-b101-4501-b0ee-76c7467df546.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 89750,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/e1020ce4-c1fa-4a02-9edd-389605bca192.webp",
+     "bytes": 18498,
+     "width": 640,
+     "format": "webp",
+     "height": 373,
+     "storageKey": "posts/e1020ce4-c1fa-4a02-9edd-389605bca192.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/103cbd27-d79d-4cb8-916e-526f683911da.webp",
+     "bytes": 27346,
+     "width": 960,
+     "format": "webp",
+     "height": 560,
+     "storageKey": "posts/103cbd27-d79d-4cb8-916e-526f683911da.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/1815a1a4-206b-4cfa-9859-77e9049f882d.webp",
+     "bytes": 50028,
+     "width": 1600,
+     "format": "webp",
+     "height": 933,
+     "storageKey": "posts/1815a1a4-206b-4cfa-9859-77e9049f882d.webp"
+    }
+   ],
+   "alt": "HTFqO1LWYAEz91U",
+   "width": 2560,
+   "height": 1493,
+   "position": 0
+  }
+ ]
+}

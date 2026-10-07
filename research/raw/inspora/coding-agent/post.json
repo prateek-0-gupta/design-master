@@ -1,0 +1,57 @@
+{
+ "id": "e3c91745-d476-4bbf-b0a9-752f56646f7a",
+ "slug": "coding-agent",
+ "title": "Coding agent",
+ "creator": {
+  "id": "784bdadf-6bdb-44e9-a33d-eb09aa817032",
+  "name": "@jeetnirnejak",
+  "handle": "@jeetnirnejak",
+  "url": "https://x.com/jeetnirnejak/status/2088251238530105638",
+  "avatarUrl": "https://media.inspora.design/creators/fd89532e-8a58-45ed-b2f2-dcd63a0e1530.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A component showing a coding agent in action",
+ "category": "Product",
+ "industries": [
+  "AI",
+  "SaaS"
+ ],
+ "colors": [
+  "White",
+  "purple",
+  "blue",
+  "orange"
+ ],
+ "styles": [
+  "minimal"
+ ],
+ "sourceUrl": "https://x.com/jeetnirnejak/status/2049115937677447621",
+ "createdAt": "2026-09-17T16:37:17.684Z",
+ "publishedAt": "2026-09-17T16:37:17.535Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "bd34fa1e-20e5-4778-91cb-bf1452d8257f",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/14f9f67e-e8d5-4d11-8272-3873071c9b4a.mp4",
+   "posterUrl": "https://media.inspora.design/posts/f1be0873-35ac-4558-b9fc-bf1f12ba63c3.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1018048,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/a53596ee-3edb-4620-b1a7-7ae552bd3fe3.mp4",
+    "bytes": 504332,
+    "width": 1080,
+    "format": "mp4",
+    "height": 838,
+    "storageKey": "posts/a53596ee-3edb-4620-b1a7-7ae552bd3fe3.mp4"
+   },
+   "alt": "39WIAdi9MfBajYvs",
+   "width": 1878,
+   "height": 1458,
+   "position": 0
+  }
+ ]
+}

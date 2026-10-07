@@ -1,0 +1,47 @@
+{
+ "id": "6f03b6ae-bd41-42b3-9f60-378002898bc0",
+ "slug": "4-7",
+ "title": "Receipt Printer",
+ "creator": {
+  "id": "fb28959f-aad8-44de-b1f4-8717297ac357",
+  "name": "@dqnamo",
+  "handle": "@dqnamo",
+  "url": "https://x.com/dqnamo",
+  "avatarUrl": "https://media.inspora.design/creators/23e5ddc1-c988-4208-bf0f-db5a5c1a5abf.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A physical receipt printing out after a subscription payment",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/dqnamo/status/2087184765765943533",
+ "createdAt": "2026-08-12T05:34:51.300Z",
+ "publishedAt": "2026-08-12T05:34:51.038Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "d1c1501a-1c9c-42c8-af1f-f55a348d9fa6",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/5d289ffc-dd0e-4bdb-92ec-dddcb8a394a0.mp4",
+   "posterUrl": "https://media.inspora.design/posts/bd70957e-14c1-4c32-acf2-abf0b9db1e1b.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 271104,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/d1c1501a-1c9c-42c8-af1f-f55a348d9fa6.mp4",
+    "bytes": 122285,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/previews/d1c1501a-1c9c-42c8-af1f-f55a348d9fa6.mp4"
+   },
+   "alt": "DVlxpSnXyJpa4r V",
+   "width": 1920,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

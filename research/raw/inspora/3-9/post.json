@@ -1,0 +1,47 @@
+{
+ "id": "f995a2fb-13f0-4622-af5b-015b8b0592ee",
+ "slug": "3-9",
+ "title": "A brick button",
+ "creator": {
+  "id": "e36a9ab7-7d0d-43ac-b1ff-89d6c5721c96",
+  "name": "@Designownow_",
+  "handle": "@Designownow_",
+  "url": "https://x.com/Designownow_",
+  "avatarUrl": "https://media.inspora.design/creators/e55bc58c-f6bb-491d-9420-a458570a5f23.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A brick button",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/Designownow_/status/2072394692315247059",
+ "createdAt": "2026-08-10T22:16:16.310Z",
+ "publishedAt": "2026-08-10T22:16:16.073Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "977c2a83-1b7c-422d-8cc0-b3184c50a228",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/f63ba2d6-f487-4923-b599-4ce19dfcd24a.mp4",
+   "posterUrl": "https://media.inspora.design/posts/ad61d367-ee9b-45a4-8775-67e67be62aa6.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1467023,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/977c2a83-1b7c-422d-8cc0-b3184c50a228.mp4",
+    "bytes": 620538,
+    "width": 1080,
+    "format": "mp4",
+    "height": 592,
+    "storageKey": "posts/previews/977c2a83-1b7c-422d-8cc0-b3184c50a228.mp4"
+   },
+   "alt": "Su s vcJJhjaUexZ",
+   "width": 1920,
+   "height": 1054,
+   "position": 0
+  }
+ ]
+}

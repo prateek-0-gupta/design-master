@@ -1,0 +1,56 @@
+{
+ "id": "f31bb5c1-1046-48a3-92e7-2bc3904bda69",
+ "slug": "a-calendar-booking-page",
+ "title": "a calendar booking page",
+ "creator": {
+  "id": "756caef0-8727-4b66-ac93-8ada569bda61",
+  "name": "Jonathan Ouyang",
+  "handle": "@jonsouyang",
+  "url": "https://x.com/jonsouyang",
+  "avatarUrl": "https://media.inspora.design/creators/c799442f-a472-454c-a04e-9bbf531019f0.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "a personal Google Meet booking calendar whose Golden Gate Bridge background and clock change with the selected time of day.",
+ "category": "Product",
+ "industries": [
+  "Tech",
+  "Scheduling"
+ ],
+ "colors": [
+  "Black",
+  "White"
+ ],
+ "styles": [
+  "Cinematic",
+  "Glass"
+ ],
+ "sourceUrl": "https://x.com/jonsouyang/status/2105001165960466617",
+ "createdAt": "2026-10-01T05:16:48.755Z",
+ "publishedAt": "2026-10-01T05:16:48.703Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "ea35b8a2-3b42-4752-a85e-3a185b1e86af",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/97c4172f-df4a-49e7-a29b-a056a4698df2.mp4",
+   "posterUrl": "https://media.inspora.design/posts/6b687a40-c40a-46b8-b6ce-9dc7f9aad162.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 28103237,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/7715407d-3ada-497f-8926-fe89db0040c5.mp4",
+    "bytes": 6854364,
+    "width": 1080,
+    "format": "mp4",
+    "height": 610,
+    "storageKey": "posts/7715407d-3ada-497f-8926-fe89db0040c5.mp4"
+   },
+   "alt": "fhIo6u8gPGf5Bh8p",
+   "width": 2940,
+   "height": 1664,
+   "position": 0
+  }
+ ]
+}

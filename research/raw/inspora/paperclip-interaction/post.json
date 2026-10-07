@@ -1,0 +1,56 @@
+{
+ "id": "f1888b76-cb79-40d6-acb1-f0a1fa34d339",
+ "slug": "paperclip-interaction",
+ "title": "Paperclip interaction",
+ "creator": {
+  "id": "7f00e061-95fc-420e-b27e-55eec349a50a",
+  "name": "@SyadySyarief",
+  "handle": "@SyadySyarief",
+  "url": "https://x.com/SyadySyarief",
+  "avatarUrl": "https://media.inspora.design/creators/c5d79f04-f2aa-48b2-8803-f83ecd1d6972.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A short UI demo of a share modal where a paperclip clips onto a transcript card.",
+ "category": "Product",
+ "industries": [
+  "Productivity",
+  "SaaS"
+ ],
+ "colors": [
+  "White",
+  "Blue"
+ ],
+ "styles": [
+  "Minimal",
+  "micro-interaction"
+ ],
+ "sourceUrl": "https://x.com/SyadySyarief/status/2102974323745337845",
+ "createdAt": "2026-09-27T06:18:03.843Z",
+ "publishedAt": "2026-09-27T06:18:03.791Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "c1e6c8f6-f087-4f98-94cc-9d39e817f270",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/8c8ab2dc-d32c-4e79-85b1-d72d6b024534.mp4",
+   "posterUrl": "https://media.inspora.design/posts/74c6c948-8068-438c-b24d-3d616f8b647a.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 264339,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/c6701f23-0ef7-415b-8525-5d056d4c2150.mp4",
+    "bytes": 299881,
+    "width": 1080,
+    "format": "mp4",
+    "height": 982,
+    "storageKey": "posts/c6701f23-0ef7-415b-8525-5d056d4c2150.mp4"
+   },
+   "alt": "8MjuqjrxjUT e7WZ",
+   "width": 1186,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

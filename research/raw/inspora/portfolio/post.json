@@ -1,0 +1,55 @@
+{
+ "id": "3db3de3a-0339-4708-b4c1-b524d61244f8",
+ "slug": "portfolio",
+ "title": "portfolio",
+ "creator": {
+  "id": "cc5e4ad8-fe74-4136-ac00-5852c93dc2d1",
+  "name": "@moguzbulbul",
+  "handle": "@moguzbulbul",
+  "url": "https://x.com/moguzbulbul",
+  "avatarUrl": "https://media.inspora.design/creators/516d5569-cc2d-4aa4-814b-fd048fd61ef4.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "3D-animated UI portfolio shots of dashboards and product interfaces.",
+ "category": "Web",
+ "industries": [
+  "portfolio"
+ ],
+ "colors": [
+  "White",
+  "black",
+  "green"
+ ],
+ "styles": [
+  "Minimal 3D"
+ ],
+ "sourceUrl": "https://x.com/moguzbulbul/status/2102422579558400042",
+ "createdAt": "2026-09-25T00:24:22.763Z",
+ "publishedAt": "2026-09-25T00:24:22.521Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "7a84dddd-2b14-47df-b29d-aa3a80d55e12",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/cefbb359-ca31-4bb4-8309-cd5c1013b2df.mp4",
+   "posterUrl": "https://media.inspora.design/posts/2f3610e7-0e46-4724-adec-a61beb4a1c33.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 11440535,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/a6defd08-ce53-4459-872a-5b52abacdd01.mp4",
+    "bytes": 1179509,
+    "width": 1080,
+    "format": "mp4",
+    "height": 622,
+    "storageKey": "posts/a6defd08-ce53-4459-872a-5b52abacdd01.mp4"
+   },
+   "alt": "IhAbn1YXVYh5bkz",
+   "width": 3420,
+   "height": 1970,
+   "position": 0
+  }
+ ]
+}

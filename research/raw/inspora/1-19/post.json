@@ -1,0 +1,47 @@
+{
+ "id": "b3d457f3-f929-481a-8fd6-2614741ccfa7",
+ "slug": "1-19",
+ "title": "Sign-Up page",
+ "creator": {
+  "id": "1bef7129-7c9a-4222-9c21-88a07b3cea91",
+  "name": "@coleHardik",
+  "handle": "@coleHardik",
+  "url": "https://x.com/coleHardik",
+  "avatarUrl": "https://media.inspora.design/creators/ba72c152-6268-44b1-bff3-4386121b6a33.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Sign-Up page",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/coleHardik/status/2088237355153215551",
+ "createdAt": "2026-08-21T22:24:44.510Z",
+ "publishedAt": "2026-08-21T22:24:44.250Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "da314b92-4e20-472b-a350-1dd9a53621a9",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/cd94371d-c2f2-44e5-be69-fb4085d56ac9.mp4",
+   "posterUrl": "https://media.inspora.design/posts/896bc4d1-e529-4c21-9197-2b3119fc140a.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 5047316,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/da314b92-4e20-472b-a350-1dd9a53621a9.mp4",
+    "bytes": 1963605,
+    "width": 1080,
+    "format": "mp4",
+    "height": 676,
+    "storageKey": "posts/previews/da314b92-4e20-472b-a350-1dd9a53621a9.mp4"
+   },
+   "alt": "th9pgv2fTNXdVHeE",
+   "width": 1920,
+   "height": 1200,
+   "position": 0
+  }
+ ]
+}

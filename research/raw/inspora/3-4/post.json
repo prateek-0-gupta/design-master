@@ -1,0 +1,47 @@
+{
+ "id": "7013e5c8-3fac-4d24-97a6-85530e10d8e3",
+ "slug": "3-4",
+ "title": "Two-Step Dock Menu",
+ "creator": {
+  "id": "b538868e-f45e-4a99-9f03-c8936de428a0",
+  "name": "@tilljanek",
+  "handle": "@tilljanek",
+  "url": "https://x.com/tilljanek",
+  "avatarUrl": "https://media.inspora.design/creators/6a9a46bf-d749-42aa-ba60-2b8496680022.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Two-Step Dock Menu \u2013 built in Framer",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/tilljanek/status/2078873018219257881",
+ "createdAt": "2026-08-08T17:34:45.869Z",
+ "publishedAt": "2026-08-08T17:34:45.629Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "3a7fc84f-f8e6-4828-9e5c-c9f2ee4b3b79",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/dfa793df-c39a-43c2-ae02-3a8f1cbf4e39.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d5893430-3235-4dcb-a72d-4be09185d64f.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 645486,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/3a7fc84f-f8e6-4828-9e5c-c9f2ee4b3b79.mp4",
+    "bytes": 637764,
+    "width": 958,
+    "format": "mp4",
+    "height": 720,
+    "storageKey": "posts/previews/3a7fc84f-f8e6-4828-9e5c-c9f2ee4b3b79.mp4"
+   },
+   "alt": "@tilljanek 2078873018219257881 720p",
+   "width": 958,
+   "height": 720,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "78407955-2b36-42fc-83f2-f034b95bf622",
+ "slug": "2-5",
+ "title": "Glowing particle burst",
+ "creator": {
+  "id": "b935211b-d647-4fcf-be82-d92b6d6cd302",
+  "name": "@tojawuzik",
+  "handle": "@tojawuzik",
+  "url": "https://x.com/tojawuzik",
+  "avatarUrl": "https://media.inspora.design/creators/f560a7cb-5a6e-4c34-a072-3d91e66f5b9a.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Glowing particle burst",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/tojawuzik/status/2059026237599723933",
+ "createdAt": "2026-08-07T17:09:17.034Z",
+ "publishedAt": "2026-08-07T17:09:16.982Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "3191ee52-0727-4d78-922f-06d6f808c3c1",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/28457342-bb66-43ab-a53e-082ba4ca961e.mp4",
+   "posterUrl": "https://media.inspora.design/posts/48db9347-1cad-4a4b-8a43-46a60327106c.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2796218,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/3191ee52-0727-4d78-922f-06d6f808c3c1.mp4",
+    "bytes": 1196374,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/previews/3191ee52-0727-4d78-922f-06d6f808c3c1.mp4"
+   },
+   "alt": "AsoKTvp1qA12o18a",
+   "width": 1920,
+   "height": 1920,
+   "position": 0
+  }
+ ]
+}

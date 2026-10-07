@@ -1,0 +1,56 @@
+{
+ "id": "a1982463-71db-4cd7-97bf-e8dc49a19308",
+ "slug": "ai-keychain",
+ "title": "AI keychain.",
+ "creator": {
+  "id": "609ac002-458e-4b46-aad3-d3f33cda9aef",
+  "name": "T\u00e2n T\u00e2n Nguy\u1ec5n",
+  "handle": "@premiumtantan",
+  "url": "https://x.com/premiumtantan",
+  "avatarUrl": "https://media.inspora.design/creators/f09fc801-8dbe-40a0-a893-3c7e327c4d9b.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A playful interactive demo of cute AI bots (Dots, Muse, Instinct) living inside floating glass keychain charms",
+ "category": "Motion",
+ "industries": [
+  "AI"
+ ],
+ "colors": [
+  "White",
+  "Blue",
+  "Yellow"
+ ],
+ "styles": [
+  "Glass",
+  "3D"
+ ],
+ "sourceUrl": "https://x.com/premiumtantan/status/2105090941690454255",
+ "createdAt": "2026-10-01T05:44:00.288Z",
+ "publishedAt": "2026-10-01T05:44:00.238Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "9c132397-6420-4c51-8fb2-ed582a48c9a3",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/b4a0be20-4123-4f64-8661-1f7c6039b72e.mp4",
+   "posterUrl": "https://media.inspora.design/posts/adc53fe3-1d94-4ee3-8357-6b1d860619c8.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 31070544,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/1b3766af-c2d8-4a2d-9e7e-772b506aaf7f.mp4",
+    "bytes": 4227380,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/1b3766af-c2d8-4a2d-9e7e-772b506aaf7f.mp4"
+   },
+   "alt": "z5xgidJ2rT6xnAGP",
+   "width": 3840,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "c6370ef4-a43b-4ed9-b686-d07fa0f5eb7e",
+ "slug": "i-want-to-run-again",
+ "title": "I want to run again",
+ "creator": {
+  "id": "701c5098-e52b-4136-8435-417292106c8b",
+  "name": "cem hasimi",
+  "handle": "@cemhah",
+  "url": "https://x.com/cemhah",
+  "avatarUrl": "https://media.inspora.design/creators/051a53aa-980d-4da4-82ad-6ea83b0eacd2.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A 5-second generative art loop of a white outline figure running across vivid, particle-speckled hills of pink, green, and purple under a deep blue sky,",
+ "category": "Illustration",
+ "industries": [
+  "Digital art"
+ ],
+ "colors": [
+  "Blue",
+  "pink",
+  "green"
+ ],
+ "styles": [
+  "Animation"
+ ],
+ "sourceUrl": "https://x.com/cemhah/status/2104656179070923129",
+ "createdAt": "2026-09-30T05:29:43.572Z",
+ "publishedAt": "2026-09-30T05:29:43.423Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "12c95ab7-2367-4164-924d-271bb3e5b10f",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/b046c4e6-c00b-495e-824d-d988d8fa38c1.mp4",
+   "posterUrl": "https://media.inspora.design/posts/13c7d38c-aa27-4569-a49e-5a5c05cfd3a5.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1615732,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/fca4665c-c2e3-4a86-b5ff-2bec8d2e0b2b.mp4",
+    "bytes": 4633163,
+    "width": 900,
+    "format": "mp4",
+    "height": 506,
+    "storageKey": "posts/fca4665c-c2e3-4a86-b5ff-2bec8d2e0b2b.mp4"
+   },
+   "alt": "HTU9llEWkAA qt1",
+   "width": 900,
+   "height": 506,
+   "position": 0
+  }
+ ]
+}

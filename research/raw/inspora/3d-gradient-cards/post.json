@@ -1,0 +1,54 @@
+{
+ "id": "d7a3794b-6b3d-45ac-89ee-f8b1b496d884",
+ "slug": "3d-gradient-cards",
+ "title": "3D gradient cards",
+ "creator": {
+  "id": "84b49451-2d73-480d-a118-ecfc89baedad",
+  "name": "@basit_designs",
+  "handle": "@basit_designs",
+  "url": "https://x.com/basit_designs",
+  "avatarUrl": "https://media.inspora.design/creators/848f5428-3415-489f-ae43-38127c6da526.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Glowing 3D gradient cards flip and warp to show AI product features.",
+ "category": "Motion",
+ "industries": [
+  "AI",
+  "SaaS"
+ ],
+ "colors": [
+  "gradients"
+ ],
+ "styles": [
+  "3D glossy"
+ ],
+ "sourceUrl": "https://x.com/basit_designs/status/2099771881159098710",
+ "createdAt": "2026-09-17T06:11:36.424Z",
+ "publishedAt": "2026-09-17T06:11:36.268Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "a9ca0500-acf6-4da6-ab3b-075f84f39f9e",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/b7cbb94d-9a10-46bb-993f-1ef7abffeff8.mp4",
+   "posterUrl": "https://media.inspora.design/posts/b91825be-7513-4f77-a08a-e8ddb2d60ffe.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 15809665,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/ff061e76-5b5f-40fc-8b8e-206da6e3ab8c.mp4",
+    "bytes": 3193021,
+    "width": 1080,
+    "format": "mp4",
+    "height": 864,
+    "storageKey": "posts/ff061e76-5b5f-40fc-8b8e-206da6e3ab8c.mp4"
+   },
+   "alt": "y81QUw Yl71mEhQR",
+   "width": 2700,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

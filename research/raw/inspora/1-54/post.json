@@ -1,0 +1,47 @@
+{
+ "id": "accc3e8f-0418-494b-8ace-7f97ce525c63",
+ "slug": "1-54",
+ "title": "dropdown interaction",
+ "creator": {
+  "id": "de114cf5-f9bc-4d32-ad22-5e48213781aa",
+  "name": "@dejvdesign",
+  "handle": "@dejvdesign",
+  "url": "https://x.com/dejvdesign",
+  "avatarUrl": "https://media.inspora.design/creators/d071e30e-aa6a-421c-ac0e-18a1ea20f983.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Add new item - dropdown interaction",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/dejvdesign/status/2092547295950618961",
+ "createdAt": "2026-08-28T15:50:15.357Z",
+ "publishedAt": "2026-08-28T15:50:15.114Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "21bb4cf1-6c03-43d4-aaa3-8e010dc1fa93",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/4ecce390-4091-4141-93ac-5d55d1e14687.mp4",
+   "posterUrl": "https://media.inspora.design/posts/1be168fc-81d2-42c4-a879-564a8a15e686.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 725707,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/5b0727bb-dd87-49ef-acd4-acb46279e6db.mp4",
+    "bytes": 403889,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1123,
+    "storageKey": "posts/5b0727bb-dd87-49ef-acd4-acb46279e6db.mp4"
+   },
+   "alt": "5uOLPpL4Y g WPs",
+   "width": 1200,
+   "height": 1248,
+   "position": 0
+  }
+ ]
+}

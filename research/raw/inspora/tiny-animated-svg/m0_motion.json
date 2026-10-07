@@ -1,0 +1,113 @@
+{
+ "meta": {
+  "width": 1840,
+  "height": 1200,
+  "fps": 60.0,
+  "duration": 17.133333,
+  "codec": "h264"
+ },
+ "frame_times": [
+  0.95,
+  2.86,
+  4.76,
+  6.66,
+  8.57,
+  10.47,
+  12.37,
+  14.28,
+  16.18
+ ],
+ "profile": {
+  "sample_fps": 30,
+  "threshold": 0.35,
+  "motion_fraction": 0.54,
+  "mean_energy": 0.36,
+  "p95_energy": 0.53,
+  "first_last_diff": 5.28,
+  "seamless_loop_likely": false,
+  "segments": [
+   {
+    "start": 0.8,
+    "end": 1.17,
+    "duration": 0.37,
+    "peak_at": 0.77,
+    "energy_cv": 0.16,
+    "shape": "ease-in (slow start)"
+   },
+   {
+    "start": 1.27,
+    "end": 1.7,
+    "duration": 0.43,
+    "peak_at": 0.19,
+    "energy_cv": 0.2,
+    "shape": "ease-out (fast start)"
+   },
+   {
+    "start": 2.13,
+    "end": 2.3,
+    "duration": 0.17,
+    "peak_at": 0.9,
+    "energy_cv": 0.22,
+    "shape": "ease-in (slow start)"
+   },
+   {
+    "start": 2.9,
+    "end": 3.03,
+    "duration": 0.13,
+    "peak_at": 0.12,
+    "energy_cv": 0.1,
+    "shape": "ease-out (fast start)"
+   },
+   {
+    "start": 3.13,
+    "end": 5.63,
+    "duration": 2.5,
+    "peak_at": 0.41,
+    "energy_cv": 0.19,
+    "shape": "continuous/linear"
+   },
+   {
+    "start": 5.73,
+    "end": 6.0,
+    "duration": 0.27,
+    "peak_at": 0.31,
+    "energy_cv": 0.18,
+    "shape": "ease-out (fast start)"
+   },
+   {
+    "start": 7.43,
+    "end": 10.2,
+    "duration": 2.77,
+    "peak_at": 0.62,
+    "energy_cv": 0.2,
+    "shape": "continuous/linear"
+   },
+   {
+    "start": 10.37,
+    "end": 10.53,
+    "duration": 0.17,
+    "peak_at": 0.9,
+    "energy_cv": 0.09,
+    "shape": "ease-in (slow start)"
+   },
+   {
+    "start": 11.93,
+    "end": 14.43,
+    "duration": 2.5,
+    "peak_at": 0.82,
+    "energy_cv": 0.17,
+    "shape": "continuous/linear"
+   },
+   {
+    "start": 16.2,
+    "end": 17.1,
+    "duration": 0.9,
+    "peak_at": 0.28,
+    "energy_cv": 0.19,
+    "shape": "ease-out (fast start)"
+   }
+  ],
+  "segment_count": 10,
+  "median_segment_s": 0.4
+ }
+}

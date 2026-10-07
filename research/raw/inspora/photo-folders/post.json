@@ -1,0 +1,47 @@
+{
+ "id": "118406b3-2919-4605-994b-55d4ccc3cfaa",
+ "slug": "photo-folders",
+ "title": "photos folders",
+ "creator": {
+  "id": "9443a594-e669-48f1-89f3-b228bd91ebc4",
+  "name": "@raul_dronca",
+  "handle": "@raul_dronca",
+  "url": "https://x.com/raul_dronca",
+  "avatarUrl": "https://media.inspora.design/creators/1c977eb1-3a8c-452f-a4d2-229cd361e4e0.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Sorting photos into folders",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/raul_dronca/status/2094833092171100390",
+ "createdAt": "2026-09-04T19:28:13.765Z",
+ "publishedAt": "2026-09-04T19:28:13.237Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "cccefc5c-ed21-4c17-90db-77d3e517f348",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/22c78921-ddca-4217-941a-d45ec2bed847.mp4",
+   "posterUrl": "https://media.inspora.design/posts/33e88723-29b1-44e4-8cf3-f6318c5d3b53.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 11909338,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/0e2694cb-47f1-4ba9-9d28-15e97a26bd52.mp4",
+    "bytes": 1447851,
+    "width": 1080,
+    "format": "mp4",
+    "height": 810,
+    "storageKey": "posts/0e2694cb-47f1-4ba9-9d28-15e97a26bd52.mp4"
+   },
+   "alt": "YN6jd4JEzAKNwLAL",
+   "width": 2880,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

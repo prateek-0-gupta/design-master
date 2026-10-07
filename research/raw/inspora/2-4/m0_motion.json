@@ -1,0 +1,113 @@
+{
+ "meta": {
+  "width": 1842,
+  "height": 1052,
+  "fps": 30.0,
+  "duration": 10.9,
+  "codec": "h264"
+ },
+ "frame_times": [
+  0.61,
+  1.82,
+  3.03,
+  4.24,
+  5.45,
+  6.66,
+  7.87,
+  9.08,
+  10.29
+ ],
+ "profile": {
+  "sample_fps": 30,
+  "threshold": 1.32,
+  "motion_fraction": 0.35,
+  "mean_energy": 1.52,
+  "p95_energy": 6.6,
+  "first_last_diff": 12.62,
+  "seamless_loop_likely": false,
+  "segments": [
+   {
+    "start": 1.6,
+    "end": 2.13,
+    "duration": 0.53,
+    "peak_at": 0.84,
+    "energy_cv": 0.49,
+    "shape": "ease-in (slow start)"
+   },
+   {
+    "start": 2.67,
+    "end": 3.4,
+    "duration": 0.73,
+    "peak_at": 0.07,
+    "energy_cv": 0.74,
+    "shape": "ease-out (fast start)"
+   },
+   {
+    "start": 3.57,
+    "end": 3.97,
+    "duration": 0.4,
+    "peak_at": 0.79,
+    "energy_cv": 0.6,
+    "shape": "ease-in (slow start)"
+   },
+   {
+    "start": 5.33,
+    "end": 5.73,
+    "duration": 0.4,
+    "peak_at": 0.62,
+    "energy_cv": 0.52,
+    "shape": "ease-in-out (symmetric)"
+   },
+   {
+    "start": 5.87,
+    "end": 5.97,
+    "duration": 0.1,
+    "peak_at": 0.5,
+    "energy_cv": 0.6,
+    "shape": "ease-in-out (symmetric)"
+   },
+   {
+    "start": 6.27,
+    "end": 6.67,
+    "duration": 0.4,
+    "peak_at": 0.04,
+    "energy_cv": 0.68,
+    "shape": "ease-out (fast start)"
+   },
+   {
+    "start": 7.7,
+    "end": 8.2,
+    "duration": 0.5,
+    "peak_at": 0.5,
+    "energy_cv": 0.5,
+    "shape": "ease-in-out (symmetric)"
+   },
+   {
+    "start": 8.3,
+    "end": 8.4,
+    "duration": 0.1,
+    "peak_at": 0.5,
+    "energy_cv": 0.07,
+    "shape": "ease-in-out (symmetric)"
+   },
+   {
+    "start": 9.6,
+    "end": 10.07,
+    "duration": 0.47,
+    "peak_at": 0.75,
+    "energy_cv": 0.5,
+    "shape": "ease-in (slow start)"
+   },
+   {
+    "start": 10.27,
+    "end": 10.37,
+    "duration": 0.1,
+    "peak_at": 0.83,
+    "energy_cv": 0.13,
+    "shape": "ease-in (slow start)"
+   }
+  ],
+  "segment_count": 10,
+  "median_segment_s": 0.4
+ }
+}

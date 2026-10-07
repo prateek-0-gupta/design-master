@@ -1,0 +1,56 @@
+{
+ "id": "6961242d-ecfa-4152-8156-db97e27aefa9",
+ "slug": "payment-links",
+ "title": "payment links",
+ "creator": {
+  "id": "0bd10159-fa90-4845-98c3-cc3186764a03",
+  "name": "@gabriell_lab",
+  "handle": "@gabriell_lab",
+  "url": "https://x.com/gabriell_lab",
+  "avatarUrl": "https://media.inspora.design/creators/451965de-bdfb-47a1-a693-0ab6c1157dac.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "payment-link sharing modal with connected avatars and share buttons for Email, iMessage, LinkedIn, X, and WhatsApp.",
+ "category": "Product",
+ "industries": [
+  "Fintech",
+  "Payments"
+ ],
+ "colors": [
+  "White",
+  "gray"
+ ],
+ "styles": [
+  "Minimal",
+  "modern"
+ ],
+ "sourceUrl": "https://x.com/gabriell_lab/status/2102017214316441868",
+ "createdAt": "2026-09-22T08:29:14.985Z",
+ "publishedAt": "2026-09-22T08:29:14.461Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "617e8d2a-516c-4382-8fde-ea4ceac73674",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/d226e0b3-e5e6-41b6-8660-f855b6d50da1.mp4",
+   "posterUrl": "https://media.inspora.design/posts/77344901-cc0e-4bb9-a39e-7de79d672864.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1194022,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/02829c60-8d5f-43cf-a695-66d640ec99a8.mp4",
+    "bytes": 247371,
+    "width": 1080,
+    "format": "mp4",
+    "height": 810,
+    "storageKey": "posts/02829c60-8d5f-43cf-a695-66d640ec99a8.mp4"
+   },
+   "alt": "2HbniSOxkhJ7TCOQ",
+   "width": 2560,
+   "height": 1920,
+   "position": 0
+  }
+ ]
+}

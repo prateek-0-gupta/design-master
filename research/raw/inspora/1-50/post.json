@@ -1,0 +1,47 @@
+{
+ "id": "396df2dc-95e7-43c4-af91-1ab7966332d3",
+ "slug": "1-50",
+ "title": "onboarding modal",
+ "creator": {
+  "id": "c87a6d67-4f80-43ae-8325-75dae0a423a8",
+  "name": "Maxim Kuznetsov",
+  "handle": "@disarto_max",
+  "url": "https://x.com/disarto_max",
+  "avatarUrl": "https://media.inspora.design/creators/5dcebd3d-54d3-4465-9ee7-7519fec93644.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Welcome/onboarding modal for Layer-0 protocol",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/disarto_max/status/1982495605890105583",
+ "createdAt": "2026-08-27T16:02:14.778Z",
+ "publishedAt": "2026-08-27T16:02:14.626Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "40f66155-c621-48f9-891d-06a26485fee3",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/e5e29389-5f11-478b-af2a-84b0127e6861.mp4",
+   "posterUrl": "https://media.inspora.design/posts/3fb2f412-3997-4809-bacd-764de8643583.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 956576,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/03a01f03-6def-4356-b806-e872fc095769.mp4",
+    "bytes": 874804,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1081,
+    "storageKey": "posts/03a01f03-6def-4356-b806-e872fc095769.mp4"
+   },
+   "alt": "W F3oKO8Bsaz9Hfq",
+   "width": 1888,
+   "height": 1890,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "2c164ee6-b74c-4ab0-ac5c-f1d0a49b3ba5",
+ "slug": "3-2",
+ "title": "Take your wallet everywhere.",
+ "creator": {
+  "id": "b935211b-d647-4fcf-be82-d92b6d6cd302",
+  "name": "@tojawuzik",
+  "handle": "@tojawuzik",
+  "url": "https://x.com/tojawuzik",
+  "avatarUrl": "https://media.inspora.design/creators/f560a7cb-5a6e-4c34-a072-3d91e66f5b9a.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Take your wallet everywhere.",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/tojawuzik/status/2032549509889225121",
+ "createdAt": "2026-08-08T09:43:50.612Z",
+ "publishedAt": "2026-08-08T09:43:50.079Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "f84937c4-904a-4284-a4db-1a6a916a58d4",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/c83fa16b-46dd-4dc6-a17f-f9c505d1e04e.mp4",
+   "posterUrl": "https://media.inspora.design/posts/1f4bcd46-4ff8-40f5-b4d6-315abc9ef6b1.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 670961,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/f84937c4-904a-4284-a4db-1a6a916a58d4.mp4",
+    "bytes": 675857,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/previews/f84937c4-904a-4284-a4db-1a6a916a58d4.mp4"
+   },
+   "alt": "rWhpOEJ e 1luE2r",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

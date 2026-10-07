@@ -1,0 +1,47 @@
+{
+ "id": "10fd4fc6-0432-45e0-b888-9393572f26c4",
+ "slug": "1-29",
+ "title": "Speed Slider",
+ "creator": {
+  "id": "9443a594-e669-48f1-89f3-b228bd91ebc4",
+  "name": "@raul_dronca",
+  "handle": "@raul_dronca",
+  "url": "https://x.com/raul_dronca",
+  "avatarUrl": "https://media.inspora.design/creators/1c977eb1-3a8c-452f-a4d2-229cd361e4e0.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Speed Slider",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/raul_dronca/status/2090786420411547686",
+ "createdAt": "2026-08-23T13:47:13.114Z",
+ "publishedAt": "2026-08-23T13:47:12.588Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "49b8825b-949b-474b-a13d-955bd796732d",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/f63cd662-e310-4aae-8a93-c6eb41ced56f.mp4",
+   "posterUrl": "https://media.inspora.design/posts/55e41a03-3746-46e4-9057-16abc1790faa.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 3930688,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/49b8825b-949b-474b-a13d-955bd796732d.mp4",
+    "bytes": 300380,
+    "width": 1080,
+    "format": "mp4",
+    "height": 772,
+    "storageKey": "posts/previews/49b8825b-949b-474b-a13d-955bd796732d.mp4"
+   },
+   "alt": "BRrxbazeVg005kkY",
+   "width": 3024,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

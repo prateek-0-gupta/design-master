@@ -1,0 +1,55 @@
+{
+ "id": "06f8aa58-c6c1-4537-b81b-df52884b690a",
+ "slug": "club-playing-cards",
+ "title": "club playing cards",
+ "creator": {
+  "id": "368c3f5f-e1a9-4e82-90e7-7323fd785d2f",
+  "name": "@MaelieLusson",
+  "handle": "@MaelieLusson",
+  "url": "https://x.com/MaelieLusson",
+  "avatarUrl": "https://media.inspora.design/creators/9e7a9403-f9c1-4a82-a4ff-408d36a62d76.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "animation of club playing cards (3 then 8) whose pips dissolve into elegant black particle bursts that form star- and web-like patterns.",
+ "category": "Motion",
+ "industries": [
+  "Graphic design"
+ ],
+ "colors": [
+  "Black",
+  "white"
+ ],
+ "styles": [
+  "Minimal",
+  "Art"
+ ],
+ "sourceUrl": "https://x.com/MaelieLusson/status/2103254707536069117",
+ "createdAt": "2026-09-26T05:19:31.916Z",
+ "publishedAt": "2026-09-26T05:19:31.864Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "c2d31b30-28d6-43ff-857b-451578d5409c",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/cd952085-fbe0-478c-8532-c77ef789ef7b.mp4",
+   "posterUrl": "https://media.inspora.design/posts/2f9d44b2-a636-4875-b16d-aabb5f257ed0.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1144396,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/f59e126d-4e69-493f-907e-a631653b93e4.mp4",
+    "bytes": 1062797,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1350,
+    "storageKey": "posts/f59e126d-4e69-493f-907e-a631653b93e4.mp4"
+   },
+   "alt": "GQP0CA6hLaoZWZt8",
+   "width": 1080,
+   "height": 1350,
+   "position": 0
+  }
+ ]
+}

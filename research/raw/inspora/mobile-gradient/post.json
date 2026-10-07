@@ -1,0 +1,47 @@
+{
+ "id": "af263291-aff2-4035-99d5-f4cbf2a71e96",
+ "slug": "mobile-gradient",
+ "title": "Mobile Gradient UI",
+ "creator": {
+  "id": "84b49451-2d73-480d-a118-ecfc89baedad",
+  "name": "@basit_designs",
+  "handle": "@basit_designs",
+  "url": "https://x.com/basit_designs",
+  "avatarUrl": "https://media.inspora.design/creators/848f5428-3415-489f-ae43-38127c6da526.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Mobile Gradient UI",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/basit_designs/status/2096283130844029227",
+ "createdAt": "2026-09-06T04:25:56.524Z",
+ "publishedAt": "2026-09-06T04:25:56.374Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "6f8281a1-ff19-4255-9400-8eb3dd884825",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/9fb37821-9580-4578-93b4-9cd3289b5812.mp4",
+   "posterUrl": "https://media.inspora.design/posts/c0b04610-41af-4e09-af2e-bc0b611eb0e4.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 10990964,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/4aadd10c-951f-4e3b-8f6a-30c3da7e1504.mp4",
+    "bytes": 1742234,
+    "width": 1080,
+    "format": "mp4",
+    "height": 778,
+    "storageKey": "posts/4aadd10c-951f-4e3b-8f6a-30c3da7e1504.mp4"
+   },
+   "alt": "FrIHGZsLP0HKZ R5",
+   "width": 2998,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

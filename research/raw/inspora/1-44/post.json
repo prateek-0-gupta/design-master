@@ -1,0 +1,47 @@
+{
+ "id": "18f3d289-232e-426f-ba57-790ccfe95282",
+ "slug": "1-44",
+ "title": "Meeting Finder",
+ "creator": {
+  "id": "784bdadf-6bdb-44e9-a33d-eb09aa817032",
+  "name": "@jeetnirnejak",
+  "handle": "@jeetnirnejak",
+  "url": "https://x.com/jeetnirnejak/status/2088251238530105638",
+  "avatarUrl": "https://media.inspora.design/creators/fd89532e-8a58-45ed-b2f2-dcd63a0e1530.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Meeting Finder",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/jeetnirnejak/status/2084627211257339954",
+ "createdAt": "2026-08-26T03:12:34.296Z",
+ "publishedAt": "2026-08-26T03:12:33.770Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "9305c9de-9662-4def-b428-34fc83916a79",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/f0e2b882-7b0c-4030-9a5d-bc89e8bd995b.mp4",
+   "posterUrl": "https://media.inspora.design/posts/394db4e1-dbd0-4413-bc8e-e61af1fb0e73.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1011309,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/ee990a2c-aa60-4e86-b1b4-31aebc9d2011.mp4",
+    "bytes": 252099,
+    "width": 1080,
+    "format": "mp4",
+    "height": 852,
+    "storageKey": "posts/ee990a2c-aa60-4e86-b1b4-31aebc9d2011.mp4"
+   },
+   "alt": "qzx0xKoGtllL0FXh",
+   "width": 1924,
+   "height": 1518,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "1ea241c0-9bab-46e4-9fa1-17cfe9ee89ed",
+ "slug": "1-12",
+ "title": "Glass shader",
+ "creator": {
+  "id": "7d08cc68-b069-4eb6-ab1d-048f57ca1745",
+  "name": "@jmtrivedi",
+  "handle": "@jmtrivedi",
+  "url": "https://x.com/jmtrivedi",
+  "avatarUrl": "https://media.inspora.design/creators/1a2cbc62-3497-4c06-8b05-be6e3c9cf98d.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A custom glass shader that refracts + disperses light.",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/jmtrivedi/status/1986572630292631861",
+ "createdAt": "2026-08-20T07:26:39.288Z",
+ "publishedAt": "2026-08-20T07:26:39.046Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "628fad1e-3346-4927-b3d7-3448d8bcdc5c",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/13189b9d-a60e-4ee3-8bb1-f4a24d839048.mp4",
+   "posterUrl": "https://media.inspora.design/posts/2d250d3a-6001-4963-917f-237026b7b8e5.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 18095626,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/628fad1e-3346-4927-b3d7-3448d8bcdc5c.mp4",
+    "bytes": 19250369,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1920,
+    "storageKey": "posts/previews/628fad1e-3346-4927-b3d7-3448d8bcdc5c.mp4"
+   },
+   "alt": "CSb4Oj7DvIFN79sQ",
+   "width": 2000,
+   "height": 3556,
+   "position": 0
+  }
+ ]
+}

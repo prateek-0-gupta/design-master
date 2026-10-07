@@ -1,0 +1,47 @@
+{
+ "id": "3a61fc90-521c-4954-b672-bfbf310b85ee",
+ "slug": "tensorlake-brand",
+ "title": "tensorlake brand",
+ "creator": {
+  "id": "7d597d78-c73b-45c7-a354-a63a4dffaf7f",
+  "name": "@ayushsoni_io",
+  "handle": "@ayushsoni_io",
+  "url": "https://x.com/ayushsoni_io",
+  "avatarUrl": "https://media.inspora.design/creators/c6561063-3f83-45e2-9816-bf1d1ffcbd3b.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "really digging the tensorlake brand",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/ayushsoni_io/status/2096151409590968640",
+ "createdAt": "2026-09-09T11:48:11.398Z",
+ "publishedAt": "2026-09-09T11:48:11.248Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "1d283b7d-1c9c-441f-9af0-8ffc438c2fe8",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/e5869d3f-5db7-478b-bf54-552e8a1bb704.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d6efb340-afbb-49bd-9eb6-b269754bbc79.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 4653083,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/38fcf71f-a437-473b-a15f-2e2f6cd03d00.mp4",
+    "bytes": 602568,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/38fcf71f-a437-473b-a15f-2e2f6cd03d00.mp4"
+   },
+   "alt": "ijbSuZPBpbRB8D9v",
+   "width": 3840,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

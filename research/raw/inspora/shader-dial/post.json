@@ -1,0 +1,47 @@
+{
+ "id": "81c3a5e7-2e49-4046-a7c4-0048fa0b707a",
+ "slug": "shader-dial",
+ "title": "Shader Dial",
+ "creator": {
+  "id": "9443a594-e669-48f1-89f3-b228bd91ebc4",
+  "name": "@raul_dronca",
+  "handle": "@raul_dronca",
+  "url": "https://x.com/raul_dronca",
+  "avatarUrl": "https://media.inspora.design/creators/1c977eb1-3a8c-452f-a4d2-229cd361e4e0.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Shader Dial",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/raul_dronca/status/2097258328292249947",
+ "createdAt": "2026-09-08T11:35:07.642Z",
+ "publishedAt": "2026-09-08T11:35:07.493Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "db432f7c-863a-44cb-b083-7b134ca14b73",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/c681edde-13d5-4737-a4d8-3bbf993dcaa1.mp4",
+   "posterUrl": "https://media.inspora.design/posts/3aefd201-68fe-4aa8-82ce-357b0059ea1a.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 28727777,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/a2e2b2e9-47e5-4aaa-bb67-5cc0143af6ce.mp4",
+    "bytes": 2025235,
+    "width": 1080,
+    "format": "mp4",
+    "height": 810,
+    "storageKey": "posts/a2e2b2e9-47e5-4aaa-bb67-5cc0143af6ce.mp4"
+   },
+   "alt": "I9WQ3Ap YBSRPFgp",
+   "width": 2880,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

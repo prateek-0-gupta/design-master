@@ -1,0 +1,47 @@
+{
+ "id": "f814fd76-c29e-4a87-bd29-7f3a35961812",
+ "slug": "7-6",
+ "title": "Delete this file",
+ "creator": {
+  "id": "95add4e1-7446-42ae-bcf6-c8537795b08a",
+  "name": "@nilseller",
+  "handle": "@nilseller",
+  "url": "https://x.com/nilseller",
+  "avatarUrl": "https://media.inspora.design/creators/d77066f4-db41-49b0-91b6-4a2c50f9725b.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Delete this file animation, Let's make software fun again.",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/nilseller/status/2077423947004641474",
+ "createdAt": "2026-08-16T14:32:40.066Z",
+ "publishedAt": "2026-08-16T14:32:40.016Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "9a58076e-359e-4893-9372-c9a64def6809",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/6190f707-66f2-44fd-80f5-9cc241a5a61c.mp4",
+   "posterUrl": "https://media.inspora.design/posts/220d7294-71ac-4896-8bc9-e3601aec27d4.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 266295,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/9a58076e-359e-4893-9372-c9a64def6809.mp4",
+    "bytes": 109707,
+    "width": 1080,
+    "format": "mp4",
+    "height": 766,
+    "storageKey": "posts/previews/9a58076e-359e-4893-9372-c9a64def6809.mp4"
+   },
+   "alt": "EGq3R9u5VNTBJzhn",
+   "width": 1920,
+   "height": 1361,
+   "position": 0
+  }
+ ]
+}

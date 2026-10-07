@@ -1,0 +1,47 @@
+{
+ "id": "c28d6fa1-fed0-48d1-9c01-5ccb8bd58ad7",
+ "slug": "1-8",
+ "title": "Nsight Studio",
+ "creator": {
+  "id": "8692105a-ca11-42a3-9203-413279c2477b",
+  "name": "@danielrossluft",
+  "handle": "@danielrossluft",
+  "url": "https://x.com/danielrossluft",
+  "avatarUrl": "https://media.inspora.design/creators/e799e8ef-e2a2-4b38-bf52-273efd21e451.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A brand identity concept for Insight Studio built around an eye and star logomark",
+ "category": "Branding",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/danielrossluft/status/2084987818175058249",
+ "createdAt": "2026-08-07T16:21:36.753Z",
+ "publishedAt": "2026-08-07T16:21:36.493Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "477ef9c5-c623-491d-951c-0a0e212f1d6f",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/0c7c455b-c458-4e8d-885a-9f6040eaa576.mp4",
+   "posterUrl": "https://media.inspora.design/posts/9aa90fb4-e857-4a63-87bb-84b0b4f1b96b.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2081183,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/477ef9c5-c623-491d-951c-0a0e212f1d6f.mp4",
+    "bytes": 2033686,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1440,
+    "storageKey": "posts/previews/477ef9c5-c623-491d-951c-0a0e212f1d6f.mp4"
+   },
+   "alt": "pAxXS1y rES0Yhq4",
+   "width": 1080,
+   "height": 1440,
+   "position": 0
+  }
+ ]
+}

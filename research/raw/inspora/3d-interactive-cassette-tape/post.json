@@ -1,0 +1,56 @@
+{
+ "id": "36c738f5-c9c7-4fba-993f-66c9aaadeda8",
+ "slug": "3d-interactive-cassette-tape",
+ "title": "3D interactive cassette-tape",
+ "creator": {
+  "id": "4a52d9c9-ede6-42f1-98e9-eba014010de6",
+  "name": "@louis_bcqt",
+  "handle": "@louis_bcqt",
+  "url": "https://x.com/louis_bcqt",
+  "avatarUrl": "https://media.inspora.design/creators/9503dc8d-cd63-4414-bd08-c1fd44d2eddd.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "3D interactive cassette-tape library UI that fans through vintage tapes of famous music samples in a dark, retro player interface.",
+ "category": "Motion",
+ "industries": [
+  "Music",
+  "Design"
+ ],
+ "colors": [
+  "Black",
+  "Colorful"
+ ],
+ "styles": [
+  "Retro",
+  "3D"
+ ],
+ "sourceUrl": "https://x.com/louis_bcqt/status/2103456252298953188",
+ "createdAt": "2026-09-26T05:16:01.343Z",
+ "publishedAt": "2026-09-26T05:16:01.292Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "61848b10-e0f5-4fc1-88b8-0344953aa899",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/ed75e371-2110-4838-9d8c-4e71309c00d7.mp4",
+   "posterUrl": "https://media.inspora.design/posts/8bf4a3f7-b30e-4402-a00d-d43233ed0f86.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 570104,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/151d4450-9bf1-40e3-a2e9-a03171c1f390.mp4",
+    "bytes": 869646,
+    "width": 720,
+    "format": "mp4",
+    "height": 900,
+    "storageKey": "posts/151d4450-9bf1-40e3-a2e9-a03171c1f390.mp4"
+   },
+   "alt": "tZ0eXii1IWqGsG0H",
+   "width": 720,
+   "height": 900,
+   "position": 0
+  }
+ ]
+}

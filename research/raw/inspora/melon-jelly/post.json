@@ -1,0 +1,57 @@
+{
+ "id": "6a7445c8-80ea-4b55-a38c-754168a373ab",
+ "slug": "melon-jelly",
+ "title": "Melon Jelly",
+ "creator": {
+  "id": "70c2671e-7f36-42a8-ab29-73ae61a7f9de",
+  "name": "Three.js",
+  "handle": "@threejs",
+  "url": "https://x.com/threejs",
+  "avatarUrl": "https://media.inspora.design/creators/afc95fde-9ccc-4448-bde0-27c92ddd6ca1.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Claude-built \u201cMelon Jelly\u201d demo where you slice and stretch a wobbly watermelon jelly in the browser.",
+ "category": "Web",
+ "industries": [
+  "Web design",
+  "3D"
+ ],
+ "colors": [
+  "Red",
+  "Green"
+ ],
+ "styles": [
+  "Soft",
+  "glossy",
+  "playful"
+ ],
+ "sourceUrl": "https://x.com/threejs/status/2104422906281525621?ref=vibrant.design",
+ "createdAt": "2026-10-03T08:41:11.636Z",
+ "publishedAt": "2026-10-03T08:41:11.396Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "d56896a6-830a-4201-bc99-fad62a236e1e",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/ede18228-f506-4962-93c2-9931a1ab2e83.mp4",
+   "posterUrl": "https://media.inspora.design/posts/dcf7991a-08c3-442f-af43-7c23169e9ae6.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 5424451,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/1c1b69ac-bf7b-4728-a7a1-2f171ce404c1.mp4",
+    "bytes": 1618489,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/1c1b69ac-bf7b-4728-a7a1-2f171ce404c1.mp4"
+   },
+   "alt": "KPXhaYKlwbXqhNlU",
+   "width": 1920,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

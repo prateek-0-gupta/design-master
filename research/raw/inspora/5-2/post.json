@@ -1,0 +1,47 @@
+{
+ "id": "cbb2ff90-0118-49e0-8952-dfa25790b28f",
+ "slug": "5-2",
+ "title": "Balance details",
+ "creator": {
+  "id": "341588c0-0612-468b-9042-d4c1725e4801",
+  "name": "@malikyoloo",
+  "handle": "@malikyoloo",
+  "url": "https://x.com/malikyoloo",
+  "avatarUrl": "https://media.inspora.design/creators/06b0c70b-7e54-4d77-922c-5f81828d8716.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Balance details",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/malikyoloo/status/2086801283718303848",
+ "createdAt": "2026-08-12T19:04:18.865Z",
+ "publishedAt": "2026-08-12T19:04:18.341Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "a3682ce7-2657-41be-9a40-952b524c5267",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/4cfb2b3f-6e50-4e9f-95e5-aae1b4d04737.mp4",
+   "posterUrl": "https://media.inspora.design/posts/528c3bf3-8f01-4518-a956-d78abe44a09c.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2546033,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/a3682ce7-2657-41be-9a40-952b524c5267.mp4",
+    "bytes": 1237287,
+    "width": 1080,
+    "format": "mp4",
+    "height": 810,
+    "storageKey": "posts/previews/a3682ce7-2657-41be-9a40-952b524c5267.mp4"
+   },
+   "alt": "Ri ICMb4jgGKeLH5",
+   "width": 2000,
+   "height": 1500,
+   "position": 0
+  }
+ ]
+}

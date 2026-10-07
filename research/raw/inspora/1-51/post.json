@@ -1,0 +1,47 @@
+{
+ "id": "a634549c-05b9-4a51-b6db-01ef2fc568f9",
+ "slug": "1-51",
+ "title": "Payment plans",
+ "creator": {
+  "id": "de55c6c8-c670-4299-99ae-c66c44e060f3",
+  "name": "Praveen Kumar",
+  "handle": "@praveenisomer",
+  "url": "https://x.com/praveenisomer",
+  "avatarUrl": "https://media.inspora.design/creators/6609e34d-822c-4577-8496-dfbe60160ea6.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Payment plans animation",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/piyushkacha75/status/1953676339292029231",
+ "createdAt": "2026-08-27T17:52:43.293Z",
+ "publishedAt": "2026-08-27T17:52:43.050Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "5c1e50d0-85b0-4051-9188-1ba5e2e6f6a9",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/9bfbb4a4-6478-4e6b-9c5f-387c4fc2e8cf.mp4",
+   "posterUrl": "https://media.inspora.design/posts/37538873-90b2-4884-baba-57526d4c482a.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 6390573,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/2625840f-28d1-4c4f-9dda-8efb610e41c6.mp4",
+    "bytes": 1590927,
+    "width": 1080,
+    "format": "mp4",
+    "height": 706,
+    "storageKey": "posts/2625840f-28d1-4c4f-9dda-8efb610e41c6.mp4"
+   },
+   "alt": "x6PYTPK3cjwInp2k",
+   "width": 3304,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

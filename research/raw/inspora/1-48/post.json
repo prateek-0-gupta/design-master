@@ -1,0 +1,47 @@
+{
+ "id": "59c155c3-11bd-4a05-80b0-c6c2f63ba80b",
+ "slug": "1-48",
+ "title": "Agent Handoff",
+ "creator": {
+  "id": "784bdadf-6bdb-44e9-a33d-eb09aa817032",
+  "name": "@jeetnirnejak",
+  "handle": "@jeetnirnejak",
+  "url": "https://x.com/jeetnirnejak/status/2088251238530105638",
+  "avatarUrl": "https://media.inspora.design/creators/fd89532e-8a58-45ed-b2f2-dcd63a0e1530.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "watch a task move through four agents while the handoff log fills in below.",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/jeetnirnejak/status/2086804226777420177",
+ "createdAt": "2026-08-27T02:50:57.755Z",
+ "publishedAt": "2026-08-27T02:50:57.205Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "af94eb6e-5249-41ec-bd2c-73d02cbd8e75",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/9fa3d85b-3522-455f-a753-448b2223a1dc.mp4",
+   "posterUrl": "https://media.inspora.design/posts/72d47692-9269-488b-8666-01b1e8b26aa9.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1215798,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/a19aa3e5-6734-41ea-b6d4-4bc40c66d2b2.mp4",
+    "bytes": 382659,
+    "width": 1080,
+    "format": "mp4",
+    "height": 852,
+    "storageKey": "posts/a19aa3e5-6734-41ea-b6d4-4bc40c66d2b2.mp4"
+   },
+   "alt": "SSilMjjou2vlFmAd",
+   "width": 1924,
+   "height": 1518,
+   "position": 0
+  }
+ ]
+}

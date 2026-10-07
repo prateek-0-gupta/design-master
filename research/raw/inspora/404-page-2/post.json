@@ -1,0 +1,47 @@
+{
+ "id": "97c318eb-a881-44a0-9f16-30d0c688bb92",
+ "slug": "404-page-2",
+ "title": "404 page",
+ "creator": {
+  "id": "19d66bfc-52f1-484e-ba8e-92775f92aaa2",
+  "name": "@ozzyxs1a",
+  "handle": "@ozzyxs1a",
+  "url": "https://x.com/ozzyxs1a",
+  "avatarUrl": "https://media.inspora.design/creators/49c0b27c-3849-4f89-9a63-47ac1849eff6.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A clean and playful 404 error page featuring oversized gradient \"404\" typography, a minimalist white background, and an illustrated desk lamp searching for the missing page.",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/ozzyxs1a/status/2077833605305307494",
+ "createdAt": "2026-08-07T01:33:11.686Z",
+ "publishedAt": "2026-08-07T01:33:11.437Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "504a220b-8103-4d8c-aa0a-ce245ba2505c",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/452507b0-b3f2-4c73-b8ca-a9d3cf40f79a.mp4",
+   "posterUrl": "https://media.inspora.design/posts/7b09258d-785d-41ae-8bb2-de40ec96b63d.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 754184,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/504a220b-8103-4d8c-aa0a-ce245ba2505c.mp4",
+    "bytes": 362087,
+    "width": 1080,
+    "format": "mp4",
+    "height": 676,
+    "storageKey": "posts/previews/504a220b-8103-4d8c-aa0a-ce245ba2505c.mp4"
+   },
+   "alt": "Pril1WPGrUJ8dGg",
+   "width": 1920,
+   "height": 1200,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "id": "d77a311d-b802-4938-9ec7-20ee666dea9b",
+ "slug": "glowing-blue-orb",
+ "title": "glowing blue orb",
+ "creator": {
+  "id": "84b49451-2d73-480d-a118-ecfc89baedad",
+  "name": "@basit_designs",
+  "handle": "@basit_designs",
+  "url": "https://x.com/basit_designs",
+  "avatarUrl": "https://media.inspora.design/creators/848f5428-3415-489f-ae43-38127c6da526.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A sleek dark-mode nav bar with a pulsing, energy-filled glowing blue orb that adds vibrant hue against the matte black interface.",
+ "category": "Motion",
+ "industries": [
+  "AI",
+  "SaaS"
+ ],
+ "colors": [
+  "black",
+  "blue"
+ ],
+ "styles": [
+  "Dark mode",
+  "neon glow"
+ ],
+ "sourceUrl": "https://x.com/basit_designs/status/1972956640220729731",
+ "createdAt": "2026-09-18T05:51:22.598Z",
+ "publishedAt": "2026-09-18T05:51:22.448Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "a991c0c7-8d20-4067-a29f-836635d1b2ac",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/f620d19c-0177-4e63-8f3e-d4d13908b053.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d1fe452a-0237-4b43-a4a4-60d574db6e97.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1889543,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/83dfdf79-0d7a-4916-afde-8f6dbbf3acbf.mp4",
+    "bytes": 552969,
+    "width": 1080,
+    "format": "mp4",
+    "height": 926,
+    "storageKey": "posts/83dfdf79-0d7a-4916-afde-8f6dbbf3acbf.mp4"
+   },
+   "alt": "HjhrHeI3X30ddlaT",
+   "width": 2518,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

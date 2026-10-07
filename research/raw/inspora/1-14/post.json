@@ -1,0 +1,47 @@
+{
+ "id": "bfe70568-7266-41aa-a490-4a06d4ebcbd0",
+ "slug": "1-14",
+ "title": "Shader Stamps",
+ "creator": {
+  "id": "9443a594-e669-48f1-89f3-b228bd91ebc4",
+  "name": "@raul_dronca",
+  "handle": "@raul_dronca",
+  "url": "https://x.com/raul_dronca",
+  "avatarUrl": "https://media.inspora.design/creators/1c977eb1-3a8c-452f-a4d2-229cd361e4e0.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Shader Stamps",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/raul_dronca/status/2090037588639744306",
+ "createdAt": "2026-08-20T09:22:37.020Z",
+ "publishedAt": "2026-08-20T09:22:36.490Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "9c8a57f6-820a-4021-a4af-7895440d8635",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/0b32cd3d-c92d-4f6e-a4a4-1802f4c84b81.mp4",
+   "posterUrl": "https://media.inspora.design/posts/9d8539d2-515f-44d0-981b-946f4dbcaf47.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 21946615,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/9c8a57f6-820a-4021-a4af-7895440d8635.mp4",
+    "bytes": 1475712,
+    "width": 1080,
+    "format": "mp4",
+    "height": 606,
+    "storageKey": "posts/previews/9c8a57f6-820a-4021-a4af-7895440d8635.mp4"
+   },
+   "alt": "ClSYEe StLbvjc1S",
+   "width": 3840,
+   "height": 2156,
+   "position": 0
+  }
+ ]
+}

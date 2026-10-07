@@ -1,0 +1,57 @@
+{
+ "id": "6711d440-0422-4486-8230-c75739c0dda8",
+ "slug": "folder-icon-timeline",
+ "title": "macOS Folder Icon Timeline",
+ "creator": {
+  "id": "9443a594-e669-48f1-89f3-b228bd91ebc4",
+  "name": "@raul_dronca",
+  "handle": "@raul_dronca",
+  "url": "https://x.com/raul_dronca",
+  "avatarUrl": "https://media.inspora.design/creators/1c977eb1-3a8c-452f-a4d2-229cd361e4e0.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "nimation of the Mac folder icon evolving from 1984 pixel art to the 2025 design.",
+ "category": "Motion",
+ "industries": [
+  "software",
+  "Apple"
+ ],
+ "colors": [
+  "blue",
+  "white",
+  "black"
+ ],
+ "styles": [
+  "Pixel art",
+  "3D"
+ ],
+ "sourceUrl": "https://x.com/raul_dronca/status/2102715944938418349",
+ "createdAt": "2026-09-24T10:09:03.816Z",
+ "publishedAt": "2026-09-24T10:09:03.286Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "eb40ef29-3f70-4ce6-9da5-8785adfad2cc",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/1265ad9a-aa3e-49a6-b58f-e6ea1898d06a.mp4",
+   "posterUrl": "https://media.inspora.design/posts/82c7de79-a890-404e-ac3f-a3d19225d16a.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 6667444,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/889437b6-9268-4c0b-a2a2-8bb57e8f38b5.mp4",
+    "bytes": 803931,
+    "width": 1080,
+    "format": "mp4",
+    "height": 810,
+    "storageKey": "posts/889437b6-9268-4c0b-a2a2-8bb57e8f38b5.mp4"
+   },
+   "alt": "XOf94VkN3O vKsfr",
+   "width": 2876,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

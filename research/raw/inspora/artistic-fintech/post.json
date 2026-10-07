@@ -1,0 +1,54 @@
+{
+ "id": "9430bf5f-55a0-4192-8714-7a805641d95d",
+ "slug": "artistic-fintech",
+ "title": "Artistic fintech UI",
+ "creator": {
+  "id": "be05d138-354c-4978-a11e-a797fa78b300",
+  "name": "@MoizArshi29",
+  "handle": "@MoizArshi29",
+  "url": "https://x.com/MoizArshi29",
+  "avatarUrl": "https://media.inspora.design/creators/ea4b6b8f-ff2b-401c-b1c1-32874927b9c5.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "a painterly fintech app onboarding screen",
+ "category": "Product",
+ "industries": [
+  "Fintech"
+ ],
+ "colors": [
+  "Earthy",
+  "Greens"
+ ],
+ "styles": [
+  "Painterly"
+ ],
+ "sourceUrl": "https://x.com/MoizArshi29/status/2100228031113793717",
+ "createdAt": "2026-09-28T05:39:28.613Z",
+ "publishedAt": "2026-09-28T05:39:28.373Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "729094eb-0eba-4eab-82ff-e1f080ce79e3",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/76f6fcf4-3ede-4713-898c-65481637e408.mp4",
+   "posterUrl": "https://media.inspora.design/posts/3c87532b-3e9a-49e9-88b3-f8cd0ff75ea3.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 46745219,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/dfc557f9-f729-4a80-9c7e-c2f564cb8eb9.mp4",
+    "bytes": 3264395,
+    "width": 1080,
+    "format": "mp4",
+    "height": 716,
+    "storageKey": "posts/dfc557f9-f729-4a80-9c7e-c2f564cb8eb9.mp4"
+   },
+   "alt": "WUVDvHGklBHVZIKM",
+   "width": 3136,
+   "height": 2080,
+   "position": 0
+  }
+ ]
+}

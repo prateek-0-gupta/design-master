@@ -1,0 +1,47 @@
+{
+ "id": "a98aada1-3267-4978-a5e2-7e238b6cdd21",
+ "slug": "9-5",
+ "title": "Opt-in-performance",
+ "creator": {
+  "id": "c87a6d67-4f80-43ae-8325-75dae0a423a8",
+  "name": "Maxim Kuznetsov",
+  "handle": "@disarto_max",
+  "url": "https://x.com/disarto_max",
+  "avatarUrl": "https://media.inspora.design/creators/5dcebd3d-54d3-4465-9ee7-7519fec93644.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Opt-in-performance",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/disarto_max/status/2074182396363084162",
+ "createdAt": "2026-08-19T04:41:17.483Z",
+ "publishedAt": "2026-08-19T04:41:17.334Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "7544a762-f388-41f7-b423-3fc17df2f724",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/abbda00e-ff04-4366-abfc-2bb605f82a07.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d9f75e2e-8221-47af-ae08-393b8f8f12f9.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2657705,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/7544a762-f388-41f7-b423-3fc17df2f724.mp4",
+    "bytes": 445583,
+    "width": 1080,
+    "format": "mp4",
+    "height": 678,
+    "storageKey": "posts/previews/7544a762-f388-41f7-b423-3fc17df2f724.mp4"
+   },
+   "alt": "1K3BQq0GnZmIZ Zr",
+   "width": 3022,
+   "height": 1896,
+   "position": 0
+  }
+ ]
+}

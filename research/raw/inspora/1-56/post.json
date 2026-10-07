@@ -1,0 +1,63 @@
+{
+ "id": "b74b94f2-a8a9-44be-85f8-035bf63d75c5",
+ "slug": "1-56",
+ "title": "Spiderman icon",
+ "creator": {
+  "id": "04c5d113-8262-4f9f-ba26-389f3431e43a",
+  "name": "@exteedesign",
+  "handle": "@exteedesign",
+  "url": "https://x.com/exteedesign",
+  "avatarUrl": "https://media.inspora.design/creators/eb42c11a-1e18-4ba0-87c0-c0a02942e8d3.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Spiderman icon",
+ "category": "Branding",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/exteedesign/status/2092982543322947773",
+ "createdAt": "2026-08-28T16:11:28.552Z",
+ "publishedAt": "2026-08-28T16:11:28.501Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "8a8465d0-1e38-4f63-973e-bd5e44ad8a98",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/425dabbe-2b82-4ca9-b420-7fa4a3a72638.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 163054,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/f80ac24a-338c-48d4-9f2b-26d1e6a13e9c.webp",
+     "bytes": 25306,
+     "width": 640,
+     "format": "webp",
+     "height": 640,
+     "storageKey": "posts/f80ac24a-338c-48d4-9f2b-26d1e6a13e9c.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/46c6162a-cbf4-4e31-b65b-5f14c8c2c8b0.webp",
+     "bytes": 40452,
+     "width": 960,
+     "format": "webp",
+     "height": 960,
+     "storageKey": "posts/46c6162a-cbf4-4e31-b65b-5f14c8c2c8b0.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/f475007a-408c-4621-8095-96ff75d2da92.webp",
+     "bytes": 94468,
+     "width": 1600,
+     "format": "webp",
+     "height": 1600,
+     "storageKey": "posts/f475007a-408c-4621-8095-96ff75d2da92.webp"
+    }
+   ],
+   "alt": "HQvEhcyboAAdjz2",
+   "width": 2048,
+   "height": 2048,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "e5b5ccd2-feee-4547-bea2-371b5d515402",
+ "slug": "progress-bars",
+ "title": "progress bars",
+ "creator": {
+  "id": "19d66bfc-52f1-484e-ba8e-92775f92aaa2",
+  "name": "@ozzyxs1a",
+  "handle": "@ozzyxs1a",
+  "url": "https://x.com/ozzyxs1a",
+  "avatarUrl": "https://media.inspora.design/creators/49c0b27c-3849-4f89-9a63-47ac1849eff6.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "war stars progress bars",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/ozzyxs1a/status/2096799298243445098",
+ "createdAt": "2026-09-07T16:34:04.132Z",
+ "publishedAt": "2026-09-07T16:34:03.777Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "3e2be9ee-1c1a-4613-be6a-6ee1d867b8c8",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/2333d3a9-c470-405b-80c6-1d05338837b1.mp4",
+   "posterUrl": "https://media.inspora.design/posts/ad5bf802-f01d-47d5-b11f-df5197f1119d.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 428086,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/fb2be3fd-4534-4d19-b8f6-1e76f66c4b8a.mp4",
+    "bytes": 242639,
+    "width": 1080,
+    "format": "mp4",
+    "height": 600,
+    "storageKey": "posts/fb2be3fd-4534-4d19-b8f6-1e76f66c4b8a.mp4"
+   },
+   "alt": "uawXOFQRbFuLupCe",
+   "width": 2214,
+   "height": 1232,
+   "position": 0
+  }
+ ]
+}

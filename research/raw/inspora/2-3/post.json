@@ -1,0 +1,47 @@
+{
+ "id": "b1de3d8b-4539-42c0-b905-3cffe2598e3d",
+ "slug": "2-3",
+ "title": "Abstract gradient",
+ "creator": {
+  "id": "942a7639-a0b1-42b2-af54-d10af8d15d61",
+  "name": "@its_sslvr",
+  "handle": "@its_sslvr",
+  "url": "https://x.com/its_sslvr",
+  "avatarUrl": "https://media.inspora.design/creators/e0160478-87a8-4e41-865b-5b9c50d81f0c.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Abstract gradient",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/its_sslvr/status/2081250662579409156",
+ "createdAt": "2026-08-07T16:56:32.888Z",
+ "publishedAt": "2026-08-07T16:56:32.647Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "3c127b11-b747-4925-9bb1-c3c79814f325",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/fbd50842-3a71-4e32-963c-e3b499d84f73.mp4",
+   "posterUrl": "https://media.inspora.design/posts/3e365db5-eb04-47ae-be82-11691fd44870.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 3112593,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/3c127b11-b747-4925-9bb1-c3c79814f325.mp4",
+    "bytes": 977624,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/previews/3c127b11-b747-4925-9bb1-c3c79814f325.mp4"
+   },
+   "alt": "ngtVToURA1YsL2z5 (1)",
+   "width": 1920,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

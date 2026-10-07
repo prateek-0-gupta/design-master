@@ -1,0 +1,47 @@
+{
+ "id": "4c4c7d16-e736-4647-a1ba-3121b0135d8f",
+ "slug": "1-45",
+ "title": "Event Swatch",
+ "creator": {
+  "id": "3a9f6ec4-b4c6-4c68-bfd9-6944da7eb47c",
+  "name": "@artntek",
+  "handle": "@artntek",
+  "url": "https://x.com/artntek",
+  "avatarUrl": "https://media.inspora.design/creators/1ae6476e-3583-466f-95fb-0f5a8b0e954c.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Event Swatch",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/artntek/status/2092361432251703541",
+ "createdAt": "2026-08-26T12:37:10.346Z",
+ "publishedAt": "2026-08-26T12:37:10.295Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "ef9a12ec-9916-42aa-b00a-3b477e507b7a",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/8bce0f78-b688-4e5b-8c04-65d6693d98f9.mp4",
+   "posterUrl": "https://media.inspora.design/posts/a01ebde9-0178-4746-8b72-1bb663096430.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 4963186,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/c491a1ae-6fdf-442b-aead-8fc82c9cc57b.mp4",
+    "bytes": 2115597,
+    "width": 1080,
+    "format": "mp4",
+    "height": 810,
+    "storageKey": "posts/c491a1ae-6fdf-442b-aead-8fc82c9cc57b.mp4"
+   },
+   "alt": "Yb7XHlT lHquYZqJ",
+   "width": 1440,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

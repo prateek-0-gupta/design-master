@@ -1,0 +1,47 @@
+{
+ "id": "788fabf0-8d59-4184-b2b7-2f5fa0cc9e13",
+ "slug": "1-38",
+ "title": "Sidebar sub menu",
+ "creator": {
+  "id": "05637c0d-ca6a-4d60-855e-fc129cef4777",
+  "name": "@ThatsPranav",
+  "handle": "@ThatsPranav",
+  "url": "https://x.com/ThatsPranav",
+  "avatarUrl": "https://media.inspora.design/creators/5589da3b-2f66-47d6-bc30-189c5422bdd2.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Sidebar sub menu",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/ThatsPranav/status/2091478053025468727",
+ "createdAt": "2026-08-25T02:26:26.013Z",
+ "publishedAt": "2026-08-25T02:26:25.937Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "3197c698-0b33-49c6-bdb7-fb06da957ce9",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/f52b6a06-47b1-4cee-b260-39e95f0b128f.mp4",
+   "posterUrl": "https://media.inspora.design/posts/f5a8ab28-5200-4bb8-9531-1e88d1fa9338.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1312279,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/deb74632-beab-4607-8bf6-b0aad86733fb.mp4",
+    "bytes": 177289,
+    "width": 1080,
+    "format": "mp4",
+    "height": 644,
+    "storageKey": "posts/deb74632-beab-4607-8bf6-b0aad86733fb.mp4"
+   },
+   "alt": "mzedpYkacb0z6yC2",
+   "width": 3620,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

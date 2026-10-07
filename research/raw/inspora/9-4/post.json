@@ -1,0 +1,47 @@
+{
+ "id": "419fa08e-bfab-4b7d-9750-7e4097947adc",
+ "slug": "9-4",
+ "title": "toss your note to the bin",
+ "creator": {
+  "id": "26d7f383-5a84-4f33-bb37-59e5158ea0b4",
+  "name": "@proskuaaa",
+  "handle": "@proskuaaa",
+  "url": "https://x.com/proskuaaa",
+  "avatarUrl": "https://media.inspora.design/creators/eceeafd4-7180-454d-812f-1e0260c41c80.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "toss your note to the bin",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/proskuaaa/status/2089725253077651857",
+ "createdAt": "2026-08-18T16:07:57.117Z",
+ "publishedAt": "2026-08-18T16:07:56.593Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "152a7426-342e-4c6f-9044-a34e1dae9998",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/584c9392-2ac9-4589-9f3c-8f569e6fae70.mp4",
+   "posterUrl": "https://media.inspora.design/posts/13c22d36-fb9c-4813-a6eb-e3f48ee4038e.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1406229,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/152a7426-342e-4c6f-9044-a34e1dae9998.mp4",
+    "bytes": 615792,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/previews/152a7426-342e-4c6f-9044-a34e1dae9998.mp4"
+   },
+   "alt": "yHrtbSAoPvTeOIP",
+   "width": 1920,
+   "height": 1920,
+   "position": 0
+  }
+ ]
+}

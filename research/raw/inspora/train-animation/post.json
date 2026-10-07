@@ -1,0 +1,47 @@
+{
+ "id": "eea419ce-7411-4a20-bde8-16b0d1fac50f",
+ "slug": "train-animation",
+ "title": "footer train animation",
+ "creator": {
+  "id": "2b4a5410-23da-4c96-b897-769776900772",
+  "name": "@alimdesigner_",
+  "handle": "@alimdesigner_",
+  "url": "https://x.com/alimdesigner_",
+  "avatarUrl": "https://media.inspora.design/creators/e421d3e3-0716-46d1-8067-8d4c1b42b290.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "footer train animation",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/alimdesigner_/status/2097580771334893836",
+ "createdAt": "2026-09-09T12:42:23.108Z",
+ "publishedAt": "2026-09-09T12:42:22.578Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "f805b307-a27e-4a8d-ab94-69beedaacb5e",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/11c80b74-1499-4547-b0e0-df70aea1339f.mp4",
+   "posterUrl": "https://media.inspora.design/posts/e3776d1b-2d32-4585-b48f-673cd163a712.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2677604,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/3104446e-ee35-4ec4-953f-8bf741ad99d2.mp4",
+    "bytes": 1161333,
+    "width": 1080,
+    "format": "mp4",
+    "height": 604,
+    "storageKey": "posts/3104446e-ee35-4ec4-953f-8bf741ad99d2.mp4"
+   },
+   "alt": "2gj4U1Q K1rY7ZIm",
+   "width": 1928,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

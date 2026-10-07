@@ -1,0 +1,47 @@
+{
+ "id": "bd294ad4-8419-4d34-b69e-7f87e25b1837",
+ "slug": "4-6",
+ "title": "Hero Section",
+ "creator": {
+  "id": "b01dafb8-8cc7-4c98-be69-518c0ad39eb4",
+  "name": "elaya",
+  "handle": "@elayadesigns",
+  "url": "https://x.com/elayadesigns",
+  "avatarUrl": "https://media.inspora.design/creators/9af08497-6cd5-418f-b99a-ac79d8210338.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Hero Section Animated in Higgsfield Seedance 2.5",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/elayadesigns/status/2087063974252831121",
+ "createdAt": "2026-08-12T05:23:02.682Z",
+ "publishedAt": "2026-08-12T05:23:02.145Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "7fb19f7e-80f1-4e44-8f45-9da7770979a2",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/d7de6d71-c8c4-4e79-97a2-8009deff4a6d.mp4",
+   "posterUrl": "https://media.inspora.design/posts/51aa844f-17ef-4d8a-9cec-343fe79d2bd4.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1599013,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/7fb19f7e-80f1-4e44-8f45-9da7770979a2.mp4",
+    "bytes": 1118769,
+    "width": 1080,
+    "format": "mp4",
+    "height": 662,
+    "storageKey": "posts/previews/7fb19f7e-80f1-4e44-8f45-9da7770979a2.mp4"
+   },
+   "alt": "@elayadesigns 2087063974252831121 1080p",
+   "width": 1760,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

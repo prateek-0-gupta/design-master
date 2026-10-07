@@ -1,0 +1,47 @@
+{
+ "id": "27c4662e-9a44-4520-88cf-307bef8e23e3",
+ "slug": "4-5",
+ "title": "Gooey liquid effect",
+ "creator": {
+  "id": "186bf7e4-3d37-40c6-89bc-4166a1d0725c",
+  "name": "@Jakubantalik",
+  "handle": "@Jakubantalik",
+  "url": "https://x.com/Jakubantalik",
+  "avatarUrl": "https://media.inspora.design/creators/4960f6c9-effd-4443-815b-5f242c1ebfc6.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Gooey liquid effect",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/Jakubantalik/status/2087211438926348769",
+ "createdAt": "2026-08-12T04:59:43.483Z",
+ "publishedAt": "2026-08-12T04:59:43.242Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "58545691-b8d3-45d8-807c-9194a9eeea75",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/82c7cfd9-241d-4afa-9e28-40fbbc2796f0.mp4",
+   "posterUrl": "https://media.inspora.design/posts/b422846b-3a6d-43dc-aede-39f956b30efe.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 781256,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/58545691-b8d3-45d8-807c-9194a9eeea75.mp4",
+    "bytes": 433192,
+    "width": 1080,
+    "format": "mp4",
+    "height": 814,
+    "storageKey": "posts/previews/58545691-b8d3-45d8-807c-9194a9eeea75.mp4"
+   },
+   "alt": "@Jakubantalik 2087211438926348769 1280p",
+   "width": 1700,
+   "height": 1280,
+   "position": 0
+  }
+ ]
+}

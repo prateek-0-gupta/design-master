@@ -1,0 +1,63 @@
+{
+ "id": "d9779b9e-7dfc-4cf4-87ce-3f4e626e950b",
+ "slug": "3-6",
+ "title": "Liquid glass",
+ "creator": {
+  "id": "3488654e-56e3-405f-8147-709ae2b192cc",
+  "name": "@theatashka",
+  "handle": "@theatashka",
+  "url": "https://x.com/theatashka",
+  "avatarUrl": "https://media.inspora.design/creators/7bf14bf1-3af1-4226-b757-647239038f16.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Materials exploration.",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/theatashka/status/1942665979575636151",
+ "createdAt": "2026-08-08T19:06:42.939Z",
+ "publishedAt": "2026-08-08T19:06:42.699Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "40e4b772-aa8f-4b08-9ab0-2927c39c909c",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/d7f5ad1a-1d12-49ac-af8d-39e2d94c29a6.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 85314,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/862ca14b-9bde-4fab-b016-c840742e6c3f.webp",
+     "bytes": 12360,
+     "width": 640,
+     "format": "webp",
+     "height": 492,
+     "storageKey": "posts/862ca14b-9bde-4fab-b016-c840742e6c3f.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/20b5b438-df2a-4a14-9258-8bd86891855f.webp",
+     "bytes": 23652,
+     "width": 960,
+     "format": "webp",
+     "height": 739,
+     "storageKey": "posts/20b5b438-df2a-4a14-9258-8bd86891855f.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/b4cb5f0b-715d-4be6-9aaf-34b865483023.webp",
+     "bytes": 53868,
+     "width": 1600,
+     "format": "webp",
+     "height": 1231,
+     "storageKey": "posts/b4cb5f0b-715d-4be6-9aaf-34b865483023.webp"
+    }
+   ],
+   "alt": "GvW8SbYXkAAwsZI",
+   "width": 2160,
+   "height": 1662,
+   "position": 0
+  }
+ ]
+}

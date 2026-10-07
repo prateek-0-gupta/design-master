@@ -1,0 +1,55 @@
+{
+ "id": "11e1a59d-ad1b-4b00-9d82-89c78220d47b",
+ "slug": "order-status-card",
+ "title": "order-status card",
+ "creator": {
+  "id": "9f6c9948-8804-4e2e-8b41-c246094fc72a",
+  "name": "@zahragr8r",
+  "handle": "@zahragr8r",
+  "url": "https://x.com/zahragr8r",
+  "avatarUrl": "https://media.inspora.design/creators/3c44d74f-fb22-4511-b2f5-c744e74cda37.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "animation of an order-status card moving from \u201cPreparing\u201d to \u201cDelivered.\u201d",
+ "category": "Motion",
+ "industries": [
+  "apps"
+ ],
+ "colors": [
+  "Black",
+  "White"
+ ],
+ "styles": [
+  "Clean",
+  "Modern"
+ ],
+ "sourceUrl": "https://x.com/zahragr8r/status/2104058418223034382",
+ "createdAt": "2026-09-28T05:22:02.960Z",
+ "publishedAt": "2026-09-28T05:22:02.909Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "3b039a55-4ec0-4101-a91e-11933b9459e4",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/d544d068-4dfc-4bb0-9c0b-a88813a32880.mp4",
+   "posterUrl": "https://media.inspora.design/posts/ba589fed-b297-42d4-a90e-cb764f67e4cf.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2689536,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/7e2aa8e4-073d-4c4b-9c0e-c7abfab53ce1.mp4",
+    "bytes": 431153,
+    "width": 1080,
+    "format": "mp4",
+    "height": 810,
+    "storageKey": "posts/7e2aa8e4-073d-4c4b-9c0e-c7abfab53ce1.mp4"
+   },
+   "alt": "V6BUt4juCe9uGHZm",
+   "width": 2880,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

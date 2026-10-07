@@ -1,0 +1,47 @@
+{
+ "id": "8ed0dde7-c6f8-44c3-b2e6-4a434d698ddc",
+ "slug": "5-6",
+ "title": "Clucky Landing page",
+ "creator": {
+  "id": "53f4ded5-bacf-426b-b36e-c917fd2ad906",
+  "name": "@adrianabelarde_",
+  "handle": "@adrianabelarde_",
+  "url": "https://x.com/adrianabelarde_",
+  "avatarUrl": "https://media.inspora.design/creators/95564bf9-3726-4987-a948-ff927dfd4035.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Clucky Landing page",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/adrianabelarde_/status/2087798192662552813",
+ "createdAt": "2026-08-13T10:25:42.341Z",
+ "publishedAt": "2026-08-13T10:25:42.191Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "7648a9ca-b18e-4ce8-9641-3551e88aa4b9",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/ed5ae2c8-d1d1-4dce-a4e3-4a5a401880f3.mp4",
+   "posterUrl": "https://media.inspora.design/posts/6a326692-0f51-4585-9580-822389924088.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2290132,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/7648a9ca-b18e-4ce8-9641-3551e88aa4b9.mp4",
+    "bytes": 1334966,
+    "width": 1080,
+    "format": "mp4",
+    "height": 682,
+    "storageKey": "posts/previews/7648a9ca-b18e-4ce8-9641-3551e88aa4b9.mp4"
+   },
+   "alt": "wifcS0XGx8jr6VBZ",
+   "width": 1920,
+   "height": 1215,
+   "position": 0
+  }
+ ]
+}

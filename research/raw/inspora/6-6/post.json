@@ -1,0 +1,47 @@
+{
+ "id": "dea86cf0-b216-40bf-9507-f7caed379498",
+ "slug": "6-6",
+ "title": "Isometric animation",
+ "creator": {
+  "id": "f43f9f6d-fb9c-4e5f-b2ed-434800444760",
+  "name": "@mehmetozsoyart",
+  "handle": "@mehmetozsoyart",
+  "url": "https://x.com/mehmetozsoyart",
+  "avatarUrl": "https://media.inspora.design/creators/50beb91a-c57a-4f98-9953-23d069526bd1.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Isometric animation",
+ "category": "Illustration",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/mehmetozsoyart/status/2077017237571932378",
+ "createdAt": "2026-08-14T16:38:27.153Z",
+ "publishedAt": "2026-08-14T16:38:27.102Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "808ce92f-e3e9-4792-b3ab-ef8cdd49ed7e",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/da960124-f660-44b0-b676-bbefded20ed5.mp4",
+   "posterUrl": "https://media.inspora.design/posts/85a1fa8a-0333-47f5-953f-c505829e6528.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 3689340,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/808ce92f-e3e9-4792-b3ab-ef8cdd49ed7e.mp4",
+    "bytes": 1680968,
+    "width": 1080,
+    "format": "mp4",
+    "height": 726,
+    "storageKey": "posts/previews/808ce92f-e3e9-4792-b3ab-ef8cdd49ed7e.mp4"
+   },
+   "alt": "8MLfGEFIbx2kYoRN",
+   "width": 1920,
+   "height": 1293,
+   "position": 0
+  }
+ ]
+}

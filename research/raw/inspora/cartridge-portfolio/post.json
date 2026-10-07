@@ -1,0 +1,55 @@
+{
+ "id": "a3350b9a-8449-4bef-9d71-bdacdf41f86e",
+ "slug": "cartridge-portfolio",
+ "title": "Cartridge portfolio",
+ "creator": {
+  "id": "4749533f-89b6-4780-b920-5073983325e4",
+  "name": "@mamuso",
+  "handle": "@mamuso",
+  "url": "https://x.com/mamuso",
+  "avatarUrl": "https://media.inspora.design/creators/39ff4349-ae2a-46a4-9523-a45ed88e03ea.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A clean mobile portfolio with a short bio above a swipeable row of retro game cartridges that flip to reveal each job",
+ "category": "Motion",
+ "industries": [
+  "product design"
+ ],
+ "colors": [
+  "muted",
+  "neutrals"
+ ],
+ "styles": [
+  "retro",
+  "minimal"
+ ],
+ "sourceUrl": "https://x.com/mamuso/status/2097364642800787532",
+ "createdAt": "2026-09-12T04:59:45.088Z",
+ "publishedAt": "2026-09-12T04:59:45.038Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "62729f68-2372-4925-a333-9f4a8c8bfe88",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/e3f92de5-8a30-44ec-8e92-ad2e2f8fa1f8.mp4",
+   "posterUrl": "https://media.inspora.design/posts/8e3e4fe7-fc9b-4f3f-981e-519e77036c2d.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2519374,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/42265d28-5b69-4846-bc8a-ea876c0a590b.mp4",
+    "bytes": 3311164,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/42265d28-5b69-4846-bc8a-ea876c0a590b.mp4"
+   },
+   "alt": "eC14w7xNkJSbzLdO",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

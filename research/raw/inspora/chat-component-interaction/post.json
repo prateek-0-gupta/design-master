@@ -1,0 +1,56 @@
+{
+ "id": "0039895c-cbc8-4e1d-a0c7-6ac9be29d504",
+ "slug": "chat-component-interaction",
+ "title": "Chat component interaction",
+ "creator": {
+  "id": "6a297881-270c-4e36-9854-cfd339a44e35",
+  "name": "@flohoeller",
+  "handle": "@flohoeller",
+  "url": "https://x.com/flohoeller",
+  "avatarUrl": "https://media.inspora.design/creators/ff061957-e103-467e-a817-efe78fc70176.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Chat component interaction \u2013 made w/ Claude",
+ "category": "Product",
+ "industries": [
+  "AI",
+  "SaaS"
+ ],
+ "colors": [
+  "White",
+  "gray"
+ ],
+ "styles": [
+  "Soft",
+  "minimal"
+ ],
+ "sourceUrl": "https://x.com/flohoeller/status/2102660458658582913",
+ "createdAt": "2026-09-24T12:46:26.147Z",
+ "publishedAt": "2026-09-24T12:46:26.097Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "4902a94a-2bf8-4af0-bcff-1f1e753cd060",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/a1a68663-0943-49bd-8cb9-c5ac8723d24d.mp4",
+   "posterUrl": "https://media.inspora.design/posts/3dc77406-3bab-4b32-be8b-286edfc3690c.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 298465,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/17e5cb01-a1c2-47f1-84ce-27453fbf65f4.mp4",
+    "bytes": 141324,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1226,
+    "storageKey": "posts/17e5cb01-a1c2-47f1-84ce-27453fbf65f4.mp4"
+   },
+   "alt": "kf7 Ucs2UJdir0Ez",
+   "width": 1090,
+   "height": 1238,
+   "position": 0
+  }
+ ]
+}

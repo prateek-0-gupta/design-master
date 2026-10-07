@@ -1,0 +1,47 @@
+{
+ "id": "02c0c01c-4ac5-4168-8f62-26a4fdf347d2",
+ "slug": "1-33",
+ "title": "Hero section",
+ "creator": {
+  "id": "25a374ee-46cf-4fce-8674-6d40486bb590",
+  "name": "@neropursue",
+  "handle": "@neropursue",
+  "url": "https://x.com/neropursue",
+  "avatarUrl": "https://media.inspora.design/creators/4139b7e9-3c11-4b3a-8814-84ab8e373ce2.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Hero section",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/neropursue/status/2091795477717045265",
+ "createdAt": "2026-08-24T08:59:02.322Z",
+ "publishedAt": "2026-08-24T08:59:02.165Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "cb5e643a-b9e6-43f7-bf84-116482fd1ec1",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/b7cd2bbf-d18a-471a-bb3f-464549a2d25b.mp4",
+   "posterUrl": "https://media.inspora.design/posts/f00c735a-808b-4225-8488-eeed0a80bfe3.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2941126,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/cb5e643a-b9e6-43f7-bf84-116482fd1ec1.mp4",
+    "bytes": 1154888,
+    "width": 1080,
+    "format": "mp4",
+    "height": 660,
+    "storageKey": "posts/previews/cb5e643a-b9e6-43f7-bf84-116482fd1ec1.mp4"
+   },
+   "alt": "e0845wdsUCwuA477",
+   "width": 1920,
+   "height": 1173,
+   "position": 0
+  }
+ ]
+}

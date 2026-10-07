@@ -1,0 +1,113 @@
+{
+ "meta": {
+  "width": 2000,
+  "height": 2000,
+  "fps": 24.0,
+  "duration": 16.0,
+  "codec": "h264"
+ },
+ "frame_times": [
+  0.89,
+  2.67,
+  4.44,
+  6.22,
+  8.0,
+  9.78,
+  11.56,
+  13.33,
+  15.11
+ ],
+ "profile": {
+  "sample_fps": 24.0,
+  "threshold": 0.71,
+  "motion_fraction": 0.28,
+  "mean_energy": 0.73,
+  "p95_energy": 3.55,
+  "first_last_diff": 9.68,
+  "seamless_loop_likely": false,
+  "segments": [
+   {
+    "start": 1.04,
+    "end": 1.25,
+    "duration": 0.21,
+    "peak_at": 0.1,
+    "energy_cv": 0.29,
+    "shape": "ease-out (fast start)"
+   },
+   {
+    "start": 1.62,
+    "end": 2.5,
+    "duration": 0.88,
+    "peak_at": 0.5,
+    "energy_cv": 0.47,
+    "shape": "ease-in-out (symmetric)"
+   },
+   {
+    "start": 3.04,
+    "end": 3.71,
+    "duration": 0.67,
+    "peak_at": 0.91,
+    "energy_cv": 0.73,
+    "shape": "ease-in (slow start)"
+   },
+   {
+    "start": 5.38,
+    "end": 5.71,
+    "duration": 0.33,
+    "peak_at": 0.56,
+    "energy_cv": 0.26,
+    "shape": "ease-in-out (symmetric)"
+   },
+   {
+    "start": 6.83,
+    "end": 7.71,
+    "duration": 0.88,
+    "peak_at": 0.69,
+    "energy_cv": 0.77,
+    "shape": "ease-in (slow start)"
+   },
+   {
+    "start": 8.5,
+    "end": 9.0,
+    "duration": 0.5,
+    "peak_at": 0.12,
+    "energy_cv": 0.76,
+    "shape": "ease-out (fast start)"
+   },
+   {
+    "start": 9.83,
+    "end": 10.71,
+    "duration": 0.88,
+    "peak_at": 0.64,
+    "energy_cv": 0.4,
+    "shape": "ease-in-out (symmetric)"
+   },
+   {
+    "start": 12.08,
+    "end": 12.42,
+    "duration": 0.33,
+    "peak_at": 0.31,
+    "energy_cv": 0.64,
+    "shape": "ease-out (fast start)"
+   },
+   {
+    "start": 13.62,
+    "end": 13.75,
+    "duration": 0.12,
+    "peak_at": 0.83,
+    "energy_cv": 0.3,
+    "shape": "ease-in (slow start)"
+   },
+   {
+    "start": 14.21,
+    "end": 14.46,
+    "duration": 0.25,
+    "peak_at": 0.42,
+    "energy_cv": 0.24,
+    "shape": "ease-in-out (symmetric)"
+   }
+  ],
+  "segment_count": 10,
+  "median_segment_s": 0.42
+ }
+}

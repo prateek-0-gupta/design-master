@@ -1,0 +1,54 @@
+{
+ "id": "43a447f5-ec3e-4e33-86a6-8b4301236d29",
+ "slug": "progress-bar-animation",
+ "title": "progress bar animation",
+ "creator": {
+  "id": "83d49b92-6a58-4c9d-a489-403ac4028a3b",
+  "name": "Petar Cirkovic",
+  "handle": "@kippe07",
+  "url": "https://x.com/kippe07",
+  "avatarUrl": "https://media.inspora.design/creators/e5ebcac8-08a6-4f13-82b1-2c32677387c0.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "progress bar animation, but it squeezes when it's paused",
+ "category": "Motion",
+ "industries": [
+  "Software"
+ ],
+ "colors": [
+  "Blue",
+  "Orange"
+ ],
+ "styles": [
+  "Minimalist"
+ ],
+ "sourceUrl": "https://x.com/kippe07/status/2105216988855542196",
+ "createdAt": "2026-10-01T05:29:38.111Z",
+ "publishedAt": "2026-10-01T05:29:38.058Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "a8e4e0eb-5878-4270-b5f5-d753df8128de",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/b85fd425-322a-411e-85e6-dd79c160756c.mp4",
+   "posterUrl": "https://media.inspora.design/posts/835c046b-5513-4eae-9a98-dee85495a763.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 656195,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/8c75fd97-4815-4f2c-ba4e-2e3a0223025b.mp4",
+    "bytes": 169870,
+    "width": 1080,
+    "format": "mp4",
+    "height": 808,
+    "storageKey": "posts/8c75fd97-4815-4f2c-ba4e-2e3a0223025b.mp4"
+   },
+   "alt": "OwnmT0W7q24IyU8n",
+   "width": 1912,
+   "height": 1432,
+   "position": 0
+  }
+ ]
+}

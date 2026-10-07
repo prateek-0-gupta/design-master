@@ -1,0 +1,47 @@
+{
+ "id": "4f462bf2-77ab-4af5-837d-2b63d9cf8b53",
+ "slug": "1-6",
+ "title": "Liquid Glass",
+ "creator": {
+  "id": "e4631afc-6e88-42f9-bde8-386bfc605e86",
+  "name": "@chan_k",
+  "handle": "@chan_k",
+  "url": "https://x.com/chan_k",
+  "avatarUrl": "https://media.inspora.design/creators/fc385e8b-074a-41db-950b-99b37b3f700d.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Liquid Glass Design System",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/chan_k/status/1932185261162766459",
+ "createdAt": "2026-08-07T08:16:52.250Z",
+ "publishedAt": "2026-08-07T08:16:52.012Z",
+ "isFeatured": true,
+ "media": [
+  {
+   "id": "265bbe4f-3442-4ac9-8524-08cdd09854e1",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/bfe2d651-4611-4e8e-a363-4fbaae50bc17.mp4",
+   "posterUrl": "https://media.inspora.design/posts/42019690-6fd5-4518-81eb-07be1647bfca.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 10804654,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/265bbe4f-3442-4ac9-8524-08cdd09854e1.mp4",
+    "bytes": 7645016,
+    "width": 1080,
+    "format": "mp4",
+    "height": 764,
+    "storageKey": "posts/previews/265bbe4f-3442-4ac9-8524-08cdd09854e1.mp4"
+   },
+   "alt": "ssstwitter.com 1786090528519",
+   "width": 1528,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

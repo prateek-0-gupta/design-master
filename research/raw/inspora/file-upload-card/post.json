@@ -1,0 +1,47 @@
+{
+ "id": "1d6aacb8-163b-4bb7-bd2d-48c3732c8f6f",
+ "slug": "file-upload-card",
+ "title": "File upload card",
+ "creator": {
+  "id": "8e2bf92e-beda-4560-8d81-3f38d74c6060",
+  "name": "@DawoodUI",
+  "handle": "@DawoodUI",
+  "url": "https://x.com/DawoodUI",
+  "avatarUrl": "https://media.inspora.design/creators/e44782ad-ff79-4b5b-b3d1-2d49374bb799.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Dark UI clip of a PDF dropped into a glowing folder card.",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/dawoodui/status/1969430346845340148",
+ "createdAt": "2026-09-14T12:31:55.741Z",
+ "publishedAt": "2026-09-14T12:31:55.691Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "124e46d9-7925-409f-bcb5-0b82d898554e",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/ae36ffce-c247-416b-897e-5dfa26282169.mp4",
+   "posterUrl": "https://media.inspora.design/posts/57dd8b5c-579b-4887-a452-d5ae29b77aa9.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 135042,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/ce2f26de-9b58-4968-9d10-06901201e14f.mp4",
+    "bytes": 146802,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/ce2f26de-9b58-4968-9d10-06901201e14f.mp4"
+   },
+   "alt": "nH7px y8mj8ofBH8",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

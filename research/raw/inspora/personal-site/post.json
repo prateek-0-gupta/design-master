@@ -1,0 +1,56 @@
+{
+ "id": "bad3e999-f84b-4e8e-ab59-54b39117d05f",
+ "slug": "personal-site",
+ "title": "personal site",
+ "creator": {
+  "id": "54758ebc-fe6a-446f-a398-76ff211ed823",
+  "name": "Sam Cheng",
+  "handle": "@samfcheng",
+  "url": "https://x.com/samfcheng",
+  "avatarUrl": "https://media.inspora.design/creators/3c3d84b3-8097-4839-bc38-134b3f9874d7.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "new personal site, featuring a swinging interactive ID badge.",
+ "category": "Web",
+ "industries": [
+  "Portfolio"
+ ],
+ "colors": [
+  "Black",
+  "White",
+  "Blue"
+ ],
+ "styles": [
+  "Minimal",
+  "Interactive"
+ ],
+ "sourceUrl": "https://x.com/samfcheng/status/2104993779510047203",
+ "createdAt": "2026-10-02T10:00:42.425Z",
+ "publishedAt": "2026-10-02T10:00:42.372Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "4b7d3ffe-a6b2-439b-9143-b3091b08a4f2",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/1792a4fa-b73c-49d2-a482-58f573735329.mp4",
+   "posterUrl": "https://media.inspora.design/posts/8c5e2a04-d0a5-453e-8a43-fda508fb976f.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 24296386,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/0ccd9c25-faf9-41e3-b7ff-7af6c3c288d3.mp4",
+    "bytes": 2461721,
+    "width": 1080,
+    "format": "mp4",
+    "height": 748,
+    "storageKey": "posts/0ccd9c25-faf9-41e3-b7ff-7af6c3c288d3.mp4"
+   },
+   "alt": "jzDPLvTTa4iMgszP",
+   "width": 2920,
+   "height": 2026,
+   "position": 0
+  }
+ ]
+}

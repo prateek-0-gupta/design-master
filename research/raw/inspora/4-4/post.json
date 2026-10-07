@@ -1,0 +1,53 @@
+{
+ "id": "720983b2-5564-4ee8-ba77-425c4a2cff4f",
+ "slug": "4-4",
+ "title": "Earnings posters",
+ "creator": {
+  "id": "e57e92c4-fcc9-405a-970a-7b8ec3acfe80",
+  "name": "@oliverhamrin",
+  "handle": "@oliverhamrin",
+  "url": "https://x.com/oliverhamrin",
+  "avatarUrl": "https://media.inspora.design/creators/9f63a40d-4094-4780-b5c3-3cbca129b630.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Earnings posters",
+ "category": "Print",
+ "industries": [
+  "Tech"
+ ],
+ "colors": [
+  "Blue"
+ ],
+ "styles": [
+  "Bold"
+ ],
+ "sourceUrl": "https://x.com/oliverhamrin/status/2072697085061660994",
+ "createdAt": "2026-08-11T05:33:24.570Z",
+ "publishedAt": "2026-08-11T05:33:24.332Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "c5732700-34a9-41de-9659-17b892f7b614",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/7598a915-ac80-4a21-9eb0-5de658c57bc2.mp4",
+   "posterUrl": "https://media.inspora.design/posts/4b2c5f63-2c30-4f07-866f-e54fdbcde1b3.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2544573,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/c5732700-34a9-41de-9659-17b892f7b614.mp4",
+    "bytes": 2958906,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/previews/c5732700-34a9-41de-9659-17b892f7b614.mp4"
+   },
+   "alt": "@bestdesignsonx 2084549903842234739 1280p",
+   "width": 1280,
+   "height": 1280,
+   "position": 0
+  }
+ ]
+}

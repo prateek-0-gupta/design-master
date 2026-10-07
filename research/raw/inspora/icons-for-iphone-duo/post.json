@@ -1,0 +1,47 @@
+{
+ "id": "1ef913ee-a325-4672-acff-61beec95116b",
+ "slug": "icons-for-iphone-duo",
+ "title": "icons for iPhone Duo",
+ "creator": {
+  "id": "7613fe3c-85de-4560-8cab-c8ec5046ae1c",
+  "name": "@helvetiica",
+  "handle": "@helvetiica",
+  "url": "https://x.com/helvetiica",
+  "avatarUrl": "https://media.inspora.design/creators/d89dc641-7161-407a-bbfc-8c91379c5ba7.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "the new cellular, WiFi, and battery status icons for iPhone Duo",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/helvetiica/status/2097763549489586342",
+ "createdAt": "2026-09-10T05:06:19.694Z",
+ "publishedAt": "2026-09-10T05:06:19.639Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "ea5e6b79-c5b2-4046-80b5-766d14b54ad8",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/6e390123-a9f5-4169-abaa-83a5d6333fc1.mp4",
+   "posterUrl": "https://media.inspora.design/posts/4d20c868-bb7a-4f6d-af04-a3293ec8b7af.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 61492,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/8e442282-215c-4ccb-816f-ff2a54b164ed.mp4",
+    "bytes": 37421,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/8e442282-215c-4ccb-816f-ff2a54b164ed.mp4"
+   },
+   "alt": "8urWJR2azQdkOFHF",
+   "width": 1280,
+   "height": 720,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "8c49d580-a8ce-4c5e-8f62-47ba05f14b89",
+ "slug": "document-signature",
+ "title": "document signature",
+ "creator": {
+  "id": "77eb5dff-4231-4638-95c4-27d4171df429",
+  "name": "@nickpylll",
+  "handle": "@nickpylll",
+  "url": "https://x.com/nickpylll",
+  "avatarUrl": "https://media.inspora.design/creators/8f3ac701-46d1-4ab4-bd05-7f92f9b7dd96.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "document signature / mobile version",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/nickpylll/status/1830533429697392656",
+ "createdAt": "2026-09-05T01:21:59.362Z",
+ "publishedAt": "2026-09-05T01:21:59.210Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "32e82151-6c34-4bdc-a3c6-f793600ec52d",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/3b9c6c08-a97c-4a78-9092-d806f20f01b6.mp4",
+   "posterUrl": "https://media.inspora.design/posts/674becca-7709-44cf-84a1-0c976efefbd3.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 161619,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/931848ae-1e35-47f1-9d57-f4ec55219a28.mp4",
+    "bytes": 311761,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/931848ae-1e35-47f1-9d57-f4ec55219a28.mp4"
+   },
+   "alt": "ljlaUZVw4xdrfNsZ",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

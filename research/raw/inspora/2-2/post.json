@@ -1,0 +1,63 @@
+{
+ "id": "f39938a6-9130-4ab6-968b-a0664698bffc",
+ "slug": "2-2",
+ "title": "MacOS",
+ "creator": {
+  "id": "eed55ae3-0eb2-4000-bf44-f2f7eff45e75",
+  "name": "@AndreaCopellino",
+  "handle": "@AndreaCopellino",
+  "url": "https://x.com/AndreaCopellino",
+  "avatarUrl": "https://media.inspora.design/creators/3e4d10b6-4972-4833-bce8-78f507562125.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "MacOS but it's a GameCube controller",
+ "category": "Illustration",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/AndreaCopellino/status/2082934591917080863",
+ "createdAt": "2026-08-07T16:48:23.207Z",
+ "publishedAt": "2026-08-07T16:48:22.969Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "6d61f27f-8c6b-4363-8662-0cb9228c95f7",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/318a7f0d-3583-47ed-b1f1-2a19a07d93d3.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 297884,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/c754e6e3-490f-4724-b1d6-c2827d5adab9.webp",
+     "bytes": 28652,
+     "width": 640,
+     "format": "webp",
+     "height": 578,
+     "storageKey": "posts/c754e6e3-490f-4724-b1d6-c2827d5adab9.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/44971759-eec6-4295-b9a5-a25686b7347f.webp",
+     "bytes": 96504,
+     "width": 960,
+     "format": "webp",
+     "height": 867,
+     "storageKey": "posts/44971759-eec6-4295-b9a5-a25686b7347f.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/8ebe40d1-5e71-48b2-9662-fb57905a1845.webp",
+     "bytes": 281988,
+     "width": 1600,
+     "format": "webp",
+     "height": 1446,
+     "storageKey": "posts/8ebe40d1-5e71-48b2-9662-fb57905a1845.webp"
+    }
+   ],
+   "alt": "HOgRxelWIAAKfei",
+   "width": 1629,
+   "height": 1472,
+   "position": 0
+  }
+ ]
+}

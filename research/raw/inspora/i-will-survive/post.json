@@ -1,0 +1,56 @@
+{
+ "id": "d5f9391b-56a8-41d1-9ce0-7fb72485d355",
+ "slug": "i-will-survive",
+ "title": "I will survive",
+ "creator": {
+  "id": "62247374-0a1b-4557-a720-c0111d0bd1ef",
+  "name": "YUDHO",
+  "handle": "@YUDHO_XYZ",
+  "url": "https://x.com/YUDHO_XYZ",
+  "avatarUrl": "https://media.inspora.design/creators/604c79db-0a46-44d9-bdc2-f6784dd6e278.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A looping red pixel-art GIF of a sword rising from a skull in heavy diagonal rain, captioned in gothic type \u201cI will survive.\u201d",
+ "category": "Illustration",
+ "industries": [
+  "Digital art",
+  "NFT"
+ ],
+ "colors": [
+  "Red",
+  "Black"
+ ],
+ "styles": [
+  "Pixel art",
+  "Gothic"
+ ],
+ "sourceUrl": "https://x.com/YUDHO_XYZ/status/2105926694607704136",
+ "createdAt": "2026-10-03T08:49:38.596Z",
+ "publishedAt": "2026-10-03T08:49:38.545Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "d5eaa227-9d62-4b7b-9141-e65fbb04dae3",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/e291f670-ecae-4e0e-85f6-74c0fcfd9ed3.mp4",
+   "posterUrl": "https://media.inspora.design/posts/e82979fc-693e-4858-8e91-a8eb695f8079.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 705977,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/cf56291b-4b54-4777-9510-2b9bd9b92617.mp4",
+    "bytes": 1444939,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/cf56291b-4b54-4777-9510-2b9bd9b92617.mp4"
+   },
+   "alt": "HTm K6jaEAAMaNm",
+   "width": 1280,
+   "height": 1280,
+   "position": 0
+  }
+ ]
+}

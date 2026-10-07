@@ -1,0 +1,102 @@
+{
+ "id": "89defdfb-4086-4ae0-8fad-d8ea24d49318",
+ "slug": "4-2",
+ "title": "A soft-UI app icon",
+ "creator": {
+  "id": "ec943200-446b-4754-96ca-702c45450e07",
+  "name": "@luoyyisvic",
+  "handle": "@luoyyisvic",
+  "url": "https://x.com/luoyyisvic",
+  "avatarUrl": "https://media.inspora.design/creators/25788884-acef-4020-aa8e-e67a10f04cc8.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A soft-UI app icon redesign featuring vibrant 3D color dots on a white rounded square.",
+ "category": "Branding",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/luoyyisvic/status/2086570564504952882",
+ "createdAt": "2026-08-10T23:14:07.032Z",
+ "publishedAt": "2026-08-10T23:14:06.793Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "4c9a7b6c-2335-4f03-b2a1-ac8fd608f8e2",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/57534a72-de72-480b-80c7-bdb11963685c.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 33062,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/d0b5ff2e-6b03-49c9-807d-1ebd88145900.webp",
+     "bytes": 7060,
+     "width": 640,
+     "format": "webp",
+     "height": 640,
+     "storageKey": "posts/d0b5ff2e-6b03-49c9-807d-1ebd88145900.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/178b4757-437d-492a-9cfd-29f77e50943e.webp",
+     "bytes": 10920,
+     "width": 960,
+     "format": "webp",
+     "height": 960,
+     "storageKey": "posts/178b4757-437d-492a-9cfd-29f77e50943e.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/b91cc7f0-70c5-40ba-b096-64729bc2d879.webp",
+     "bytes": 21356,
+     "width": 1600,
+     "format": "webp",
+     "height": 1600,
+     "storageKey": "posts/b91cc7f0-70c5-40ba-b096-64729bc2d879.webp"
+    }
+   ],
+   "alt": "HPT8i1Qa4AA3oGF",
+   "width": 2160,
+   "height": 2160,
+   "position": 0
+  },
+  {
+   "id": "7baf44c7-8126-41d5-ba1d-2aae1f6bf53e",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/7358ce53-b8ce-492e-aea5-4c864cd9a7d4.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 86516,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/3b69d612-2363-4a77-9c83-75396a8c5581.webp",
+     "bytes": 16118,
+     "width": 640,
+     "format": "webp",
+     "height": 640,
+     "storageKey": "posts/3b69d612-2363-4a77-9c83-75396a8c5581.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/221ed230-81a7-437b-8fc8-e8dae95ec209.webp",
+     "bytes": 25232,
+     "width": 960,
+     "format": "webp",
+     "height": 960,
+     "storageKey": "posts/221ed230-81a7-437b-8fc8-e8dae95ec209.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/de79687a-7cbd-43c5-8c3b-7fdc81b4b302.webp",
+     "bytes": 52308,
+     "width": 1600,
+     "format": "webp",
+     "height": 1600,
+     "storageKey": "posts/de79687a-7cbd-43c5-8c3b-7fdc81b4b302.webp"
+    }
+   ],
+   "alt": "HPT8khub0AAtxaR",
+   "width": 2160,
+   "height": 2160,
+   "position": 1
+  }
+ ]
+}

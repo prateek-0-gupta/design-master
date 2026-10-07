@@ -1,0 +1,56 @@
+{
+ "id": "18d52fc8-914a-4799-a70f-2bdb38e8c841",
+ "slug": "feature-menu",
+ "title": "feature menu",
+ "creator": {
+  "id": "e88fc71e-b310-4e63-9bcc-06dd13909be0",
+  "name": "@mona_biasia",
+  "handle": "@mona_biasia",
+  "url": "https://x.com/mona_biasia",
+  "avatarUrl": "https://media.inspora.design/creators/47cf9491-9b47-43b3-9f1f-2a1d845ad1c9.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A sleek animated Offloop feature menu with hover-triggered panels",
+ "category": "Web",
+ "industries": [
+  "AI",
+  "SaaS"
+ ],
+ "colors": [
+  "dark glass",
+  "Navy teal"
+ ],
+ "styles": [
+  "Cinematic",
+  "glassmorphism"
+ ],
+ "sourceUrl": "https://x.com/mona_biasia/status/2098014279928861047",
+ "createdAt": "2026-09-12T04:51:13.825Z",
+ "publishedAt": "2026-09-12T04:51:13.589Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "fcd56ee5-1a42-47d9-89ea-84989e4103c9",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/989abe29-f666-4b12-b161-4253ca989f6d.mp4",
+   "posterUrl": "https://media.inspora.design/posts/9a338748-a7d0-4157-916b-62448f81ff94.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 5608878,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/68567939-2e5c-4c9b-84e1-4ab8229817c3.mp4",
+    "bytes": 3916251,
+    "width": 1080,
+    "format": "mp4",
+    "height": 734,
+    "storageKey": "posts/68567939-2e5c-4c9b-84e1-4ab8229817c3.mp4"
+   },
+   "alt": "g 9XEnFaoXFAjEfz",
+   "width": 1588,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

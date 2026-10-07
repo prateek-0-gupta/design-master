@@ -1,0 +1,53 @@
+{
+ "id": "9472281c-8c89-40bf-888a-7e1ba5bc7cee",
+ "slug": "ticket-stub",
+ "title": "ticket stub",
+ "creator": {
+  "id": "08c3127c-1934-49a9-bd44-b5aac723a100",
+  "name": "@darel023",
+  "handle": "@darel023",
+  "url": "https://x.com/darel023",
+  "avatarUrl": "https://media.inspora.design/creators/00ef287a-6db5-487a-bc1c-8ee77d4d6ae1.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Physics-powered ticket stub UI demo: realistic tilt, spring, and lighting that puts function first.",
+ "category": "Motion",
+ "industries": [
+  "Web"
+ ],
+ "colors": [
+  "Blue"
+ ],
+ "styles": [
+  "Interactive Motion"
+ ],
+ "sourceUrl": "https://x.com/darel023/status/2100915999956480403",
+ "createdAt": "2026-09-23T15:53:03.585Z",
+ "publishedAt": "2026-09-23T15:53:03.343Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "d772c477-16f9-4b10-a66c-f7ca710b76ec",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/1ba84bf9-a9d6-47d4-8d4a-a85fb7e45c53.mp4",
+   "posterUrl": "https://media.inspora.design/posts/2cdbd0cc-83b5-477e-b0df-ade5fd333cac.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 45219185,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/7a064a05-2e60-4471-bad1-60b548b124fa.mp4",
+    "bytes": 8414267,
+    "width": 1080,
+    "format": "mp4",
+    "height": 782,
+    "storageKey": "posts/7a064a05-2e60-4471-bad1-60b548b124fa.mp4"
+   },
+   "alt": "Ota8iS7aHaqDTWoW",
+   "width": 2778,
+   "height": 2012,
+   "position": 0
+  }
+ ]
+}

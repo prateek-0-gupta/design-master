@@ -1,0 +1,55 @@
+{
+ "id": "5c94067a-3e9e-4bd5-8f33-255712977cbf",
+ "slug": "downloading-an-invoice",
+ "title": "downloading an invoice",
+ "creator": {
+  "id": "8b4c93d1-fa4a-4846-af35-77ffa775f1fd",
+  "name": "Gabriel",
+  "handle": "@gabriell_lab",
+  "avatarUrl": "https://media.inspora.design/creators/18fbe9d4-389e-4b3a-9dea-5264b6b2fec2.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Small animation for downloading an invoice",
+ "category": "Product",
+ "industries": [
+  "Fintech"
+ ],
+ "colors": [
+  "White",
+  "Gray",
+  "Black"
+ ],
+ "styles": [
+  "Clean",
+  "Minimal"
+ ],
+ "sourceUrl": "https://x.com/gabriell_lab/status/2106368592786698733",
+ "createdAt": "2026-10-06T03:51:56.508Z",
+ "publishedAt": "2026-10-06T03:51:56.267Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "f7a7f343-8bdc-4d4d-b9dc-417330737c03",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/a2f56b7a-4f3b-4a64-89ac-b689586d4624.mp4",
+   "posterUrl": "https://media.inspora.design/posts/61817fcc-1595-4aab-ae27-e57e213fc88e.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 778863,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/9197fa8b-e851-40d1-8339-1b6cf83ec302.mp4",
+    "bytes": 78553,
+    "width": 1080,
+    "format": "mp4",
+    "height": 810,
+    "storageKey": "posts/9197fa8b-e851-40d1-8339-1b6cf83ec302.mp4"
+   },
+   "alt": "a ccooyGEk0sQ 3E",
+   "width": 2878,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

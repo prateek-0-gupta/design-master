@@ -1,0 +1,47 @@
+{
+ "id": "7bcb0564-b87f-4667-af68-7f73b731fca3",
+ "slug": "1-43",
+ "title": "Emotion Shader",
+ "creator": {
+  "id": "9443a594-e669-48f1-89f3-b228bd91ebc4",
+  "name": "@raul_dronca",
+  "handle": "@raul_dronca",
+  "url": "https://x.com/raul_dronca",
+  "avatarUrl": "https://media.inspora.design/creators/1c977eb1-3a8c-452f-a4d2-229cd361e4e0.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Emotion Shader",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/raul_dronca/status/2023027178477355308",
+ "createdAt": "2026-08-26T00:26:44.948Z",
+ "publishedAt": "2026-08-26T00:26:44.787Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "40a07b3b-b284-4b46-b860-8b360243f8e6",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/1dbb1e27-8659-493f-a79f-476cf1f838a6.mp4",
+   "posterUrl": "https://media.inspora.design/posts/136ff09f-3d27-4515-841d-3fd6f496ca36.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2010962,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/867ce384-dfcc-40c7-b3b9-a7b4d3f7a19a.mp4",
+    "bytes": 468689,
+    "width": 1080,
+    "format": "mp4",
+    "height": 811,
+    "storageKey": "posts/867ce384-dfcc-40c7-b3b9-a7b4d3f7a19a.mp4"
+   },
+   "alt": "Lvw 8lIUS0Qw4cAs",
+   "width": 2876,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

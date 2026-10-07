@@ -1,0 +1,47 @@
+{
+ "id": "24a8efb1-a4cc-403d-97ce-572a42aae3dd",
+ "slug": "time-zones",
+ "title": "Time for different time zones",
+ "creator": {
+  "id": "1c29a8d1-dd26-4fc4-a458-57f420c13012",
+  "name": "@tar_uniqueee",
+  "handle": "@tar_uniqueee",
+  "url": "https://x.com/tar_uniqueee",
+  "avatarUrl": "https://media.inspora.design/creators/c93ae0c8-d85a-45aa-9a74-83bf0489c1e6.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Time for different time zones",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/tar_uniqueee/status/2084571288866050111",
+ "createdAt": "2026-09-03T06:13:20.697Z",
+ "publishedAt": "2026-09-03T06:13:20.456Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "cc785211-561d-4ff2-a71f-345ed9b5a793",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/3a52e515-e665-4944-9744-e930048f6775.mp4",
+   "posterUrl": "https://media.inspora.design/posts/3984e8f8-e45c-402c-86a0-f0f2a888feea.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 961368,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/a47c0268-eea7-4061-a455-0d3a22950fe7.mp4",
+    "bytes": 743265,
+    "width": 936,
+    "format": "mp4",
+    "height": 936,
+    "storageKey": "posts/a47c0268-eea7-4061-a455-0d3a22950fe7.mp4"
+   },
+   "alt": "N 1VisqvdLo9uQfx",
+   "width": 936,
+   "height": 936,
+   "position": 0
+  }
+ ]
+}

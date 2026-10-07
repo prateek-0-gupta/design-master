@@ -1,0 +1,47 @@
+{
+ "id": "26899fbd-a926-4976-936b-3c388a8b0af4",
+ "slug": "7-5",
+ "title": "Folder interaction",
+ "creator": {
+  "id": "9443a594-e669-48f1-89f3-b228bd91ebc4",
+  "name": "@raul_dronca",
+  "handle": "@raul_dronca",
+  "url": "https://x.com/raul_dronca",
+  "avatarUrl": "https://media.inspora.design/creators/1c977eb1-3a8c-452f-a4d2-229cd361e4e0.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Folder interaction",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/raul_dronca/status/1992227756407685269",
+ "createdAt": "2026-08-16T09:56:59.340Z",
+ "publishedAt": "2026-08-16T09:56:58.989Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "f8c07406-07ae-4449-b097-71d99123bddb",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/529acb55-e45a-46b0-b213-18166243355e.mp4",
+   "posterUrl": "https://media.inspora.design/posts/0348967a-24d9-4bfd-8e2a-546c02f6c384.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 898383,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/f8c07406-07ae-4449-b097-71d99123bddb.mp4",
+    "bytes": 342897,
+    "width": 1080,
+    "format": "mp4",
+    "height": 712,
+    "storageKey": "posts/previews/f8c07406-07ae-4449-b097-71d99123bddb.mp4"
+   },
+   "alt": "cgjl1wqc1dTOcFKz",
+   "width": 1920,
+   "height": 1264,
+   "position": 0
+  }
+ ]
+}

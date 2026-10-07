@@ -1,0 +1,47 @@
+{
+ "id": "3c04a280-7518-4df8-b0c1-bce19d6df48d",
+ "slug": "6-8",
+ "title": "A sending animation",
+ "creator": {
+  "id": "07e60775-dff8-420a-860c-8b4e0e7b7f8e",
+  "name": "@privetavdey",
+  "handle": "@privetavdey",
+  "url": "https://x.com/privetavdey",
+  "avatarUrl": "https://media.inspora.design/creators/696b47ea-7682-495f-9019-ec34b8e44bc4.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A sending animation in Shield Wallet",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/privetavdey/status/2071567495723671903",
+ "createdAt": "2026-08-15T05:45:27.336Z",
+ "publishedAt": "2026-08-15T05:45:27.092Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "97029058-53a4-4924-8299-c30178069e1c",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/ccce66d4-991c-427e-8991-36d20d14ef43.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d7557565-a765-4bbe-8011-f18188ab1ef7.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1290158,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/97029058-53a4-4924-8299-c30178069e1c.mp4",
+    "bytes": 1185316,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/previews/97029058-53a4-4924-8299-c30178069e1c.mp4"
+   },
+   "alt": "v0pULr6MXBAF ID1",
+   "width": 1152,
+   "height": 1152,
+   "position": 0
+  }
+ ]
+}

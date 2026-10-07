@@ -1,0 +1,56 @@
+{
+ "id": "693402d8-c773-4d33-973a-fce20c14aa24",
+ "slug": "angry-sliders",
+ "title": "angry sliders",
+ "creator": {
+  "id": "571d82cf-e746-4961-a0b5-eb1a587a088d",
+  "name": "@ggsimm",
+  "handle": "@ggsimm",
+  "url": "https://x.com/ggsimm",
+  "avatarUrl": "https://media.inspora.design/creators/5edcd72d-79d2-4892-923f-9466d99234be.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A dark UI demo of sliders for Exposure, Bloom, FOV and Samples that lash, stretch and bounce like they\u2019re angry when dragged.",
+ "category": "Motion",
+ "industries": [
+  "3D tools"
+ ],
+ "colors": [
+  "charcoal",
+  "white",
+  "violet"
+ ],
+ "styles": [
+  "minimal",
+  "motion"
+ ],
+ "sourceUrl": "https://x.com/ggsimm/status/2099497518627184949",
+ "createdAt": "2026-09-16T04:57:07.918Z",
+ "publishedAt": "2026-09-16T04:57:07.868Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "d46ff370-b507-492b-bf49-88750d727365",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/a7bbf19d-5138-49d0-ab8c-7ace079b4265.mp4",
+   "posterUrl": "https://media.inspora.design/posts/e07de370-cd0a-45cb-a593-5869f026ef48.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1153381,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/2d555add-881e-4629-aad8-39aa04466066.mp4",
+    "bytes": 223195,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1170,
+    "storageKey": "posts/2d555add-881e-4629-aad8-39aa04466066.mp4"
+   },
+   "alt": "kQa5H5oDODGfnONq",
+   "width": 1466,
+   "height": 1588,
+   "position": 0
+  }
+ ]
+}

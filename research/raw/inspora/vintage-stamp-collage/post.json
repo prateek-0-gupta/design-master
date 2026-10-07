@@ -1,0 +1,58 @@
+{
+ "id": "7af41a7e-4b92-4609-a93c-960db36c4427",
+ "slug": "vintage-stamp-collage",
+ "title": "Vintage stamp collage",
+ "creator": {
+  "id": "f31539c1-4aac-4449-aac9-3e070cce6db9",
+  "name": "@jenny_wen",
+  "handle": "@jenny_wen",
+  "url": "https://x.com/jenny_wen",
+  "avatarUrl": "https://media.inspora.design/creators/0bd640c0-fe56-46aa-9d78-a0ccb82e2145.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "vintage postage-stamp collage of personal photos scattered on textured paper.",
+ "category": "Print",
+ "industries": [
+  "Graphic design",
+  "Print"
+ ],
+ "colors": [
+  "cream",
+  "Brown",
+  "Gold"
+ ],
+ "styles": [
+  "Vintage collage",
+  "Analog",
+  "Nostalgic"
+ ],
+ "sourceUrl": "https://x.com/jenny_wen/status/2101815817444729049",
+ "createdAt": "2026-09-29T05:10:59.829Z",
+ "publishedAt": "2026-09-29T05:10:59.591Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "70c2243a-a6a3-41fd-9526-1432caeba46a",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/153fccdf-1e73-4575-8217-597e2db9414e.mp4",
+   "posterUrl": "https://media.inspora.design/posts/649ae4e8-610e-4075-bcc0-1916175e185a.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 10153436,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/770abe49-cd4e-42ae-bd6d-6d727413f9c4.mp4",
+    "bytes": 6202569,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/770abe49-cd4e-42ae-bd6d-6d727413f9c4.mp4"
+   },
+   "alt": "9vvK17W6TRk7h F",
+   "width": 1660,
+   "height": 1660,
+   "position": 0
+  }
+ ]
+}

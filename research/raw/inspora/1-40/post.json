@@ -1,0 +1,47 @@
+{
+ "id": "a79be51e-0537-4187-be7d-b7c2ac4a4a07",
+ "slug": "1-40",
+ "title": "A bento card",
+ "creator": {
+  "id": "c87a6d67-4f80-43ae-8325-75dae0a423a8",
+  "name": "Maxim Kuznetsov",
+  "handle": "@disarto_max",
+  "url": "https://x.com/disarto_max",
+  "avatarUrl": "https://media.inspora.design/creators/5dcebd3d-54d3-4465-9ee7-7519fec93644.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A bento card",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/disarto_max/status/1979225796515410373",
+ "createdAt": "2026-08-25T11:34:57.686Z",
+ "publishedAt": "2026-08-25T11:34:57.346Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "8ff8a745-d9ca-48cb-90f9-c04cce0a3a33",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/01e7faa5-af8f-4455-93b5-b92191bc8a9d.mp4",
+   "posterUrl": "https://media.inspora.design/posts/68a74d48-2330-47e9-b79c-26a68b0ab7eb.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 978412,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/1e6dc8ea-0802-4afb-85ea-1e24f56eaf7b.mp4",
+    "bytes": 1250149,
+    "width": 1080,
+    "format": "mp4",
+    "height": 995,
+    "storageKey": "posts/1e6dc8ea-0802-4afb-85ea-1e24f56eaf7b.mp4"
+   },
+   "alt": "IQvBKEgLIFDFQ7SD",
+   "width": 2056,
+   "height": 1894,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "57e9a8e1-0a89-41ae-a005-56bdb851e457",
+ "slug": "mechanical-macropad",
+ "title": "mechanical macropad",
+ "creator": {
+  "id": "258ac1d7-1599-46d7-86dc-ee2d3d4967a5",
+  "name": "@skirano",
+  "handle": "@skirano",
+  "url": "https://x.com/skirano",
+  "avatarUrl": "https://media.inspora.design/creators/0e9bd6ba-08a3-49f1-84c8-dd0adb65f73a.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "3D mechanical macropad",
+ "category": "3D",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/skirano/status/2095595932335170031",
+ "createdAt": "2026-09-04T22:30:13.576Z",
+ "publishedAt": "2026-09-04T22:30:13.337Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "1eacd762-0eb0-490e-90f9-52e1bf0e2d83",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/0389eddd-6517-4011-881a-a516841bdc64.mp4",
+   "posterUrl": "https://media.inspora.design/posts/f23785e0-e175-451a-a4d6-4bac0b8bbd3a.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1761521,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/fedead13-38f4-4e05-bce0-ed7574d2177b.mp4",
+    "bytes": 2086063,
+    "width": 900,
+    "format": "mp4",
+    "height": 900,
+    "storageKey": "posts/fedead13-38f4-4e05-bce0-ed7574d2177b.mp4"
+   },
+   "alt": "mhKOKkknVPjh R 4",
+   "width": 900,
+   "height": 900,
+   "position": 0
+  }
+ ]
+}

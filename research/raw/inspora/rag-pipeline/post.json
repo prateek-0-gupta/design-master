@@ -1,0 +1,47 @@
+{
+ "id": "f7e2ce45-ee22-4dae-8bb6-ee253759a2fc",
+ "slug": "rag-pipeline",
+ "title": "RAG Pipeline",
+ "creator": {
+  "id": "784bdadf-6bdb-44e9-a33d-eb09aa817032",
+  "name": "@jeetnirnejak",
+  "handle": "@jeetnirnejak",
+  "url": "https://x.com/jeetnirnejak/status/2088251238530105638",
+  "avatarUrl": "https://media.inspora.design/creators/fd89532e-8a58-45ed-b2f2-dcd63a0e1530.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "RAG Pipeline: a five-stage retrieval-augmented generation flow, from query to streamed answer with citations.",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/jeetnirnejak/status/2095507715556831429",
+ "createdAt": "2026-09-06T10:11:33.837Z",
+ "publishedAt": "2026-09-06T10:11:33.306Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "1553dda0-60e7-42b5-91d6-d148a2ca6c99",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/853f7be4-b028-40dd-9a3f-35036e0ffd6d.mp4",
+   "posterUrl": "https://media.inspora.design/posts/765e1eec-9a0d-48f2-96c1-5c4848a1b03d.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2539025,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/3522122b-4771-44d4-b635-2431a48bdfeb.mp4",
+    "bytes": 787277,
+    "width": 1080,
+    "format": "mp4",
+    "height": 852,
+    "storageKey": "posts/3522122b-4771-44d4-b635-2431a48bdfeb.mp4"
+   },
+   "alt": "Z86QEUb2g7R5dPpi",
+   "width": 1924,
+   "height": 1518,
+   "position": 0
+  }
+ ]
+}

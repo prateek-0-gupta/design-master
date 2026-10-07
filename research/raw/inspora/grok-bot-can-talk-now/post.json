@@ -1,0 +1,57 @@
+{
+ "id": "9099d9ed-e70f-4254-89b1-02de0f876b66",
+ "slug": "grok-bot-can-talk-now",
+ "title": "Grok Bot can talk now",
+ "creator": {
+  "id": "d05aa9f7-70c5-4f1e-a90d-823cfec386cf",
+  "name": "@bot",
+  "handle": "@bot",
+  "url": "https://x.com/bot",
+  "avatarUrl": "https://media.inspora.design/creators/27189859-ee5a-4110-8c7c-51649c5092ca.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Minimal white iPhone chat UI on a purple gradient, with a floating voice pill and animated waveform.",
+ "category": "Motion",
+ "industries": [
+  "AI"
+ ],
+ "colors": [
+  "Purple",
+  "white",
+  "black"
+ ],
+ "styles": [
+  "Minimal",
+  "modern",
+  "clean"
+ ],
+ "sourceUrl": "https://x.com/bot/status/2100659463569170779",
+ "createdAt": "2026-09-19T13:10:07.601Z",
+ "publishedAt": "2026-09-19T13:10:07.550Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "12197324-8ba1-4d1f-a28e-4317ea0f89f6",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/74e46ab4-0a48-4b15-a633-9091859815a4.mp4",
+   "posterUrl": "https://media.inspora.design/posts/ac5249f5-c435-4ba2-b0a9-938d574c2375.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 9866653,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/8fd4a303-4e34-4f9f-b663-854ece4a7795.mp4",
+    "bytes": 3618449,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/8fd4a303-4e34-4f9f-b663-854ece4a7795.mp4"
+   },
+   "alt": "msKvVOFcrKahzVVg",
+   "width": 1920,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

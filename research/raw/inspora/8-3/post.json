@@ -1,0 +1,47 @@
+{
+ "id": "d7f326d4-ab54-4c5e-8229-ef0c6d777758",
+ "slug": "8-3",
+ "title": "Weather scrubber",
+ "creator": {
+  "id": "0c7e9b81-bf3e-47c0-b146-e3af768839d9",
+  "name": "@nihalnova",
+  "handle": "@nihalnova",
+  "url": "https://x.com/nihalnova",
+  "avatarUrl": "https://media.inspora.design/creators/a9a2eefc-ca02-4e57-b4c0-0d4d79d46710.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Weather scrubber",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/nihalnova/status/2066729231061844135",
+ "createdAt": "2026-08-16T18:53:37.287Z",
+ "publishedAt": "2026-08-16T18:53:37.235Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "3bbc3c24-0db8-4790-973e-30965bae9ad4",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/b86f8937-7457-41bf-8ca4-161496d47873.mp4",
+   "posterUrl": "https://media.inspora.design/posts/852b964f-061d-43cc-8058-ca7d08388c99.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 17059233,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/3bbc3c24-0db8-4790-973e-30965bae9ad4.mp4",
+    "bytes": 3278271,
+    "width": 1080,
+    "format": "mp4",
+    "height": 736,
+    "storageKey": "posts/previews/3bbc3c24-0db8-4790-973e-30965bae9ad4.mp4"
+   },
+   "alt": "ra64D4R7RaMkqfn0",
+   "width": 3170,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

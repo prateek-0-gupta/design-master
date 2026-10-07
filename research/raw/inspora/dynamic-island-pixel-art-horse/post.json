@@ -1,0 +1,57 @@
+{
+ "id": "f0030149-27e4-4117-b6fd-6208000f7714",
+ "slug": "dynamic-island-pixel-art-horse",
+ "title": "Dynamic Island pixel-art horse",
+ "creator": {
+  "id": "c5c0813e-e8e4-475f-a667-68e4aa475881",
+  "name": "@krispuckett",
+  "handle": "@krispuckett",
+  "url": "https://x.com/krispuckett",
+  "avatarUrl": "https://media.inspora.design/creators/4f533c56-8161-47f4-8712-805cb895533f.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Kris Puckett demos a Dynamic Island pixel-art horse (Shadowfax) for his AI agent",
+ "category": "Motion",
+ "industries": [
+  "Tech",
+  "AI"
+ ],
+ "colors": [
+  "Black",
+  "cream",
+  "green"
+ ],
+ "styles": [
+  "Pixel",
+  "Minimal"
+ ],
+ "sourceUrl": "https://x.com/krispuckett/status/2103342411581882811",
+ "createdAt": "2026-09-27T05:46:41.602Z",
+ "publishedAt": "2026-09-27T05:46:41.452Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "e60c17cb-52ea-4b3f-bcb3-966241fbcdd8",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/a1c3cfbe-524e-41b2-b906-fbd70d8d4b91.mp4",
+   "posterUrl": "https://media.inspora.design/posts/c7fd329e-5f61-422c-80e0-7d3861fd201c.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 386443,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/0dffac0d-48e1-45af-9c5d-be33c2b846be.mp4",
+    "bytes": 526999,
+    "width": 1080,
+    "format": "mp4",
+    "height": 536,
+    "storageKey": "posts/0dffac0d-48e1-45af-9c5d-be33c2b846be.mp4"
+   },
+   "alt": "QY2Fzq06ruz7eH4t",
+   "width": 1206,
+   "height": 600,
+   "position": 0
+  }
+ ]
+}

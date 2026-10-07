@@ -1,0 +1,47 @@
+{
+ "id": "54a45905-585e-466d-9fd4-360b81ffe801",
+ "slug": "maple-research-cards",
+ "title": "Maple Research cards",
+ "creator": {
+  "id": "7d597d78-c73b-45c7-a354-a63a4dffaf7f",
+  "name": "@ayushsoni_io",
+  "handle": "@ayushsoni_io",
+  "url": "https://x.com/ayushsoni_io",
+  "avatarUrl": "https://media.inspora.design/creators/c6561063-3f83-45e2-9816-bf1d1ffcbd3b.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A short kinetic-type loop of two Maple Research cards",
+ "category": "Branding",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/ayushsoni_io/status/2094361007053520968",
+ "createdAt": "2026-09-01T02:11:50.952Z",
+ "publishedAt": "2026-09-01T02:11:50.803Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "0af5285f-c53c-43b4-9b11-5d59149625c5",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/1ce10d3c-c9b0-43b0-b750-871bef9630c3.mp4",
+   "posterUrl": "https://media.inspora.design/posts/92151d9d-21b5-471e-a996-847e9fbf5b4a.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 11771273,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/48246bf3-690f-423d-98a3-a62872200963.mp4",
+    "bytes": 5770064,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/48246bf3-690f-423d-98a3-a62872200963.mp4"
+   },
+   "alt": "8BV2bzyRQxsBPm96",
+   "width": 2200,
+   "height": 2200,
+   "position": 0
+  }
+ ]
+}

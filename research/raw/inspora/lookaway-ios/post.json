@@ -1,0 +1,57 @@
+{
+ "id": "5d8cca66-8b5d-4a80-9ba8-975c968726ed",
+ "slug": "lookaway-ios",
+ "title": "LookAway iOS",
+ "creator": {
+  "id": "3812822f-bc25-40fa-a578-788c006987a1",
+  "name": "kush",
+  "handle": "@kushsolitary",
+  "url": "https://x.com/kushsolitary",
+  "avatarUrl": "https://media.inspora.design/creators/7951c6e3-c542-4a0d-be21-f4aca5a4c418.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "LookAway iOS demo: Mirror mode synced to a Mac, with the app icon cycling cute faces.",
+ "category": "Motion",
+ "industries": [
+  "Wellness",
+  "Productivity"
+ ],
+ "colors": [
+  "Purple",
+  "Pink"
+ ],
+ "styles": [
+  "Clean",
+  "Playful",
+  "Modern"
+ ],
+ "sourceUrl": "https://x.com/kushsolitary/status/1941905197279920211",
+ "createdAt": "2026-09-30T05:17:52.540Z",
+ "publishedAt": "2026-09-30T05:17:52.488Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "718ea7f6-fcfe-4481-9e12-b049a6047e92",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/2b41010e-b16a-4758-9c54-65582e0e86b8.mp4",
+   "posterUrl": "https://media.inspora.design/posts/fa515562-d19a-44e9-bb81-bc64e6ace676.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 760210,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/92c7ef24-f6c2-497f-bb8e-7e385f51631b.mp4",
+    "bytes": 1286961,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/92c7ef24-f6c2-497f-bb8e-7e385f51631b.mp4"
+   },
+   "alt": "hQSxhXbNuhGXWFaf",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

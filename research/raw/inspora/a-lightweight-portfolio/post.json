@@ -1,0 +1,55 @@
+{
+ "id": "ffda01f7-c80a-4da0-b301-168da512a504",
+ "slug": "a-lightweight-portfolio",
+ "title": "A lightweight portfolio",
+ "creator": {
+  "id": "915b1b9c-a546-4a78-a8dd-82c3ae7da6aa",
+  "name": "Blake",
+  "handle": "@cyze_dev",
+  "url": "https://x.com/cyze_dev",
+  "avatarUrl": "https://media.inspora.design/creators/cbf5ec60-00a9-40e4-9a21-1ac72984591b.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A lightweight portfolio entrance that turns a clickable yellow retro computer",
+ "category": "Web",
+ "industries": [
+  "Portfolio"
+ ],
+ "colors": [
+  "Yellow",
+  "White"
+ ],
+ "styles": [
+  "Retro",
+  "Minimal"
+ ],
+ "sourceUrl": "https://x.com/cyze_dev/status/2105719967328919792",
+ "createdAt": "2026-10-03T08:45:59.449Z",
+ "publishedAt": "2026-10-03T08:45:59.398Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "0221d455-bfbe-41c0-a37b-3db6fd035112",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/ed86cc10-22c2-45be-87cf-94b4a45a7f01.mp4",
+   "posterUrl": "https://media.inspora.design/posts/79b51a4e-3487-4a8e-9492-b6c15d1ffbaf.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1377097,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/25e1f615-b966-469c-aca5-3a87038787b3.mp4",
+    "bytes": 433276,
+    "width": 1080,
+    "format": "mp4",
+    "height": 708,
+    "storageKey": "posts/25e1f615-b966-469c-aca5-3a87038787b3.mp4"
+   },
+   "alt": "X54wMfhL4VNM7v0m",
+   "width": 1646,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

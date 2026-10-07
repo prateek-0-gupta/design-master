@@ -1,0 +1,47 @@
+{
+ "id": "2b8e8640-0cfb-4fd7-81e6-3ad6af2e89af",
+ "slug": "sidebar-active-state",
+ "title": "Sidebar Active State",
+ "creator": {
+  "id": "76a30b07-17bd-49a0-9854-b5933ecbf1d2",
+  "name": "@heyimgustavo",
+  "handle": "@heyimgustavo",
+  "url": "https://x.com/heyimgustavo",
+  "avatarUrl": "https://media.inspora.design/creators/03b3cb9b-0108-4fdf-994e-ec934e61aabc.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Sleek sidebar of advanced design options with \u201cNew\u201d badges over a scenic backdrop.",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/heyimgustavo/status/2098497808512745559",
+ "createdAt": "2026-09-14T05:37:18.326Z",
+ "publishedAt": "2026-09-14T05:37:18.086Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "d97613a6-d356-4aab-9342-47ce74039794",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/ab262cdd-a816-44be-a269-95bcf2530551.mp4",
+   "posterUrl": "https://media.inspora.design/posts/124b5cff-0e13-42a7-bf57-f98736ec96b8.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 652922,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/cd3852e6-e990-4b71-82e1-89a79dfa3047.mp4",
+    "bytes": 546131,
+    "width": 936,
+    "format": "mp4",
+    "height": 1190,
+    "storageKey": "posts/cd3852e6-e990-4b71-82e1-89a79dfa3047.mp4"
+   },
+   "alt": "fN8YpFezWtyJZWR",
+   "width": 936,
+   "height": 1190,
+   "position": 0
+  }
+ ]
+}

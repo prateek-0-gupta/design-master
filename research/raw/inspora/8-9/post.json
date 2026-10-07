@@ -1,0 +1,47 @@
+{
+ "id": "82c84c46-9424-4b25-b09d-94a71c81f6ff",
+ "slug": "8-9",
+ "title": "A calendar of your life",
+ "creator": {
+  "id": "784bdadf-6bdb-44e9-a33d-eb09aa817032",
+  "name": "@jeetnirnejak",
+  "handle": "@jeetnirnejak",
+  "url": "https://x.com/jeetnirnejak/status/2088251238530105638",
+  "avatarUrl": "https://media.inspora.design/creators/fd89532e-8a58-45ed-b2f2-dcd63a0e1530.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A calendar of your life",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/jeetnirnejak/status/2088251238530105638",
+ "createdAt": "2026-08-18T04:32:22.598Z",
+ "publishedAt": "2026-08-18T04:32:22.546Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "397b0752-6a8d-4391-b64e-72bbab90988c",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/f50d7b71-f991-44d2-849c-c3f5e583cb05.mp4",
+   "posterUrl": "https://media.inspora.design/posts/09d291d6-7635-4e2d-9a42-efd94da69dac.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2400637,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/397b0752-6a8d-4391-b64e-72bbab90988c.mp4",
+    "bytes": 747425,
+    "width": 1080,
+    "format": "mp4",
+    "height": 852,
+    "storageKey": "posts/previews/397b0752-6a8d-4391-b64e-72bbab90988c.mp4"
+   },
+   "alt": "CXPo2 3NzQ2njWQG",
+   "width": 1920,
+   "height": 1515,
+   "position": 0
+  }
+ ]
+}

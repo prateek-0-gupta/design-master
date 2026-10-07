@@ -1,0 +1,69 @@
+{
+ "id": "71f5329d-bb5f-4cef-8454-0fbe7a7da45e",
+ "slug": "footer-section",
+ "title": "footer section",
+ "creator": {
+  "id": "13bbb151-ae57-4eeb-87b7-abdf362c1304",
+  "name": "Pranav",
+  "handle": "@PranavOriginals",
+  "avatarUrl": "https://media.inspora.design/creators/311e4209-6678-40f6-a110-8abc6a1a6709.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "website footer with navigation links and a newsletter signup above a blue-and-cream desert illustration of a cowboy on horseback.",
+ "category": "Web",
+ "industries": [
+  "Tableware"
+ ],
+ "colors": [
+  "Blue",
+  "Cream"
+ ],
+ "styles": [
+  "Editorial"
+ ],
+ "sourceUrl": "https://x.com/PranavOriginals/status/2105346116388868364",
+ "createdAt": "2026-10-04T05:04:29.920Z",
+ "publishedAt": "2026-10-04T05:04:29.869Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "5c9470d2-2ce6-43dd-a658-aaf26feea186",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/889b9627-92d4-4a09-8755-0379c9eb3df5.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 411764,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/69c3db7a-5332-4a27-ae87-38429dc6c094.webp",
+     "bytes": 57412,
+     "width": 640,
+     "format": "webp",
+     "height": 360,
+     "storageKey": "posts/69c3db7a-5332-4a27-ae87-38429dc6c094.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/6af2d845-b3f1-43da-8eb7-ce05b0cced7b.webp",
+     "bytes": 155466,
+     "width": 960,
+     "format": "webp",
+     "height": 541,
+     "storageKey": "posts/6af2d845-b3f1-43da-8eb7-ce05b0cced7b.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/d00421c4-406b-4e71-b5be-e90d0aaab4eb.webp",
+     "bytes": 323978,
+     "width": 1600,
+     "format": "webp",
+     "height": 901,
+     "storageKey": "posts/d00421c4-406b-4e71-b5be-e90d0aaab4eb.webp"
+    }
+   ],
+   "alt": "HTewx0XbAAAsT35",
+   "width": 1671,
+   "height": 941,
+   "position": 0
+  }
+ ]
+}

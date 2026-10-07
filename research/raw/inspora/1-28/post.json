@@ -1,0 +1,180 @@
+{
+ "id": "de2d5642-a615-4f64-b1cd-87907351bfdf",
+ "slug": "1-28",
+ "title": "Liquid Glass",
+ "creator": {
+  "id": "5458c107-b5e0-427f-82c7-4a1d442af6ca",
+  "name": "@LynelDesign",
+  "handle": "@LynelDesign",
+  "url": "https://x.com/LynelDesign",
+  "avatarUrl": "https://media.inspora.design/creators/1e842d8e-6c91-4f79-8b7e-54dac8a95997.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Liquid Glass",
+ "category": "Illustration",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/LynelDesign/status/2084208630388388084",
+ "createdAt": "2026-08-23T05:02:09.557Z",
+ "publishedAt": "2026-08-23T05:02:09.310Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "8b48823f-37fc-425b-b387-f4d50a61303d",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/22f16a41-fd47-4f07-ad84-1054a463ca1b.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 33972,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/ed79a146-2013-4783-9f78-061c0d6197c9.webp",
+     "bytes": 6190,
+     "width": 640,
+     "format": "webp",
+     "height": 640,
+     "storageKey": "posts/ed79a146-2013-4783-9f78-061c0d6197c9.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/7a2a8863-11f3-4e90-9dfb-14934d60ddfa.webp",
+     "bytes": 9244,
+     "width": 960,
+     "format": "webp",
+     "height": 960,
+     "storageKey": "posts/7a2a8863-11f3-4e90-9dfb-14934d60ddfa.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/5b85219e-2ba0-4497-83e3-6c46ed5ca520.webp",
+     "bytes": 17864,
+     "width": 1600,
+     "format": "webp",
+     "height": 1600,
+     "storageKey": "posts/5b85219e-2ba0-4497-83e3-6c46ed5ca520.webp"
+    }
+   ],
+   "alt": "HOyYDJiaoAAQKnn",
+   "width": 2560,
+   "height": 2560,
+   "position": 0
+  },
+  {
+   "id": "62a55f54-1405-4b45-aacc-4c676acdfb94",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/e04db9b1-a23a-4309-bb64-818a007349b3.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 32978,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/83b0a618-f924-41fd-a37f-07dfaffc649a.webp",
+     "bytes": 5066,
+     "width": 640,
+     "format": "webp",
+     "height": 640,
+     "storageKey": "posts/83b0a618-f924-41fd-a37f-07dfaffc649a.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/da355efd-a5d2-427f-ae75-7912f8e95687.webp",
+     "bytes": 7904,
+     "width": 960,
+     "format": "webp",
+     "height": 960,
+     "storageKey": "posts/da355efd-a5d2-427f-ae75-7912f8e95687.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/de79e948-04ea-4044-8acd-2a9abb99b489.webp",
+     "bytes": 15832,
+     "width": 1600,
+     "format": "webp",
+     "height": 1600,
+     "storageKey": "posts/de79e948-04ea-4044-8acd-2a9abb99b489.webp"
+    }
+   ],
+   "alt": "HOyYGB9aUAAW0La",
+   "width": 2560,
+   "height": 2560,
+   "position": 1
+  },
+  {
+   "id": "da838cad-2717-456b-a1ed-cb9c7561c2ad",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/939abae4-f71d-4d84-a2dd-2ac37fed5fbe.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 31568,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/6cb268c3-97fb-49ad-bb61-606a8c02b937.webp",
+     "bytes": 5420,
+     "width": 640,
+     "format": "webp",
+     "height": 640,
+     "storageKey": "posts/6cb268c3-97fb-49ad-bb61-606a8c02b937.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/d6a8b8b2-5192-4207-b196-6a24e82450aa.webp",
+     "bytes": 8486,
+     "width": 960,
+     "format": "webp",
+     "height": 960,
+     "storageKey": "posts/d6a8b8b2-5192-4207-b196-6a24e82450aa.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/a2de3fac-e71f-4a4b-aca7-35a587118f6c.webp",
+     "bytes": 16252,
+     "width": 1600,
+     "format": "webp",
+     "height": 1600,
+     "storageKey": "posts/a2de3fac-e71f-4a4b-aca7-35a587118f6c.webp"
+    }
+   ],
+   "alt": "HOyYIEnbMAA1ks1",
+   "width": 2560,
+   "height": 2560,
+   "position": 2
+  },
+  {
+   "id": "dec704a2-3c62-4054-ba69-b82a1c416cf6",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/b0b21257-42ce-44f6-8021-248c33840463.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 34544,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/acd70c30-fbe3-452b-bca7-d80158419531.webp",
+     "bytes": 5886,
+     "width": 640,
+     "format": "webp",
+     "height": 640,
+     "storageKey": "posts/acd70c30-fbe3-452b-bca7-d80158419531.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/92c4eea0-5292-41b8-b3e0-5b983ae4f7ea.webp",
+     "bytes": 9302,
+     "width": 960,
+     "format": "webp",
+     "height": 960,
+     "storageKey": "posts/92c4eea0-5292-41b8-b3e0-5b983ae4f7ea.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/86314cdf-2d54-4f8a-992e-8cf7b377421f.webp",
+     "bytes": 17958,
+     "width": 1600,
+     "format": "webp",
+     "height": 1600,
+     "storageKey": "posts/86314cdf-2d54-4f8a-992e-8cf7b377421f.webp"
+    }
+   ],
+   "alt": "HOyYKiza0AAtvUg",
+   "width": 2560,
+   "height": 2560,
+   "position": 3
+  }
+ ]
+}

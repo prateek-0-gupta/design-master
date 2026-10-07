@@ -1,0 +1,112 @@
+{
+ "id": "3ea1edb0-debc-49d1-8ba2-4e5043a53170",
+ "slug": "agent-cards",
+ "title": "Agent cards",
+ "creator": {
+  "id": "310bbb24-a8c5-480f-b75f-777933519ca9",
+  "name": "Studio Sphere",
+  "handle": "@0xSphere",
+  "url": "https://x.com/0xSphere",
+  "avatarUrl": "https://media.inspora.design/creators/4fcfa587-fe3c-4ce3-bfbb-eb3000b94a76.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Agent cards that feel alive.",
+ "category": "Product",
+ "industries": [
+  "AI",
+  "Productivity"
+ ],
+ "colors": [
+  "Red",
+  "Green",
+  "Blue"
+ ],
+ "styles": [
+  "Soft",
+  "Glow"
+ ],
+ "sourceUrl": "https://x.com/0xSphere/status/2103092784026591293",
+ "createdAt": "2026-10-04T05:15:27.965Z",
+ "publishedAt": "2026-10-04T05:15:27.913Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "fe58045f-b0cf-4bcb-895a-3c3b3694f786",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/c137850e-7fa4-494b-b4e1-b04319a7466e.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 99996,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/24621c29-a74e-4a0d-bb67-32f862174b6d.webp",
+     "bytes": 18462,
+     "width": 640,
+     "format": "webp",
+     "height": 800,
+     "storageKey": "posts/24621c29-a74e-4a0d-bb67-32f862174b6d.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/1556d115-f02b-4d4b-862f-4338f454a835.webp",
+     "bytes": 31236,
+     "width": 960,
+     "format": "webp",
+     "height": 1200,
+     "storageKey": "posts/1556d115-f02b-4d4b-862f-4338f454a835.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/752275a8-9b4b-4590-9b58-3615b8b7c1e7.webp",
+     "bytes": 58542,
+     "width": 1600,
+     "format": "webp",
+     "height": 2000,
+     "storageKey": "posts/752275a8-9b4b-4590-9b58-3615b8b7c1e7.webp"
+    }
+   ],
+   "alt": "HS vfYTWkAASSTO",
+   "width": 2560,
+   "height": 3200,
+   "position": 0
+  },
+  {
+   "id": "d89c86b5-7b5b-4021-a800-33193413a52a",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/7de0077e-c93f-4a28-aa33-5234d9d8a9d1.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 121950,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/f17418ce-70f4-43d6-9932-7ec61195ef27.webp",
+     "bytes": 24512,
+     "width": 640,
+     "format": "webp",
+     "height": 800,
+     "storageKey": "posts/f17418ce-70f4-43d6-9932-7ec61195ef27.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/328b5057-04ed-4a7a-86f5-a960f7472da8.webp",
+     "bytes": 40192,
+     "width": 960,
+     "format": "webp",
+     "height": 1200,
+     "storageKey": "posts/328b5057-04ed-4a7a-86f5-a960f7472da8.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/1a61b0c6-0101-4471-8a95-f50a2df7d225.webp",
+     "bytes": 70542,
+     "width": 1600,
+     "format": "webp",
+     "height": 2000,
+     "storageKey": "posts/1a61b0c6-0101-4471-8a95-f50a2df7d225.webp"
+    }
+   ],
+   "alt": "HS vfYZWQAANQ2r",
+   "width": 2560,
+   "height": 3200,
+   "position": 1
+  }
+ ]
+}

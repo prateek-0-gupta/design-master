@@ -1,0 +1,56 @@
+{
+ "id": "a274177e-4977-4a4f-9016-6abfccc02511",
+ "slug": "ghost-pass",
+ "title": "ghost pass",
+ "creator": {
+  "id": "0bc7d909-4f9c-4ea8-935a-c45ab6c6df64",
+  "name": "@lochieaxon",
+  "handle": "@lochieaxon",
+  "url": "https://x.com/lochieaxon",
+  "avatarUrl": "https://media.inspora.design/creators/e194be5f-7a93-4f24-9785-7bc1638b7605.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A glossy pastel ticket with a cute glowing ghost and Aave stub, designed as a gift-code invite rather than a crypto card.",
+ "category": "Motion",
+ "industries": [
+  "Crypto",
+  "Fintech"
+ ],
+ "colors": [
+  "Lavender",
+  "Pink"
+ ],
+ "styles": [
+  "Glossy",
+  "Playful"
+ ],
+ "sourceUrl": "https://x.com/lochieaxon/status/2098484382935949553",
+ "createdAt": "2026-09-13T05:17:04.907Z",
+ "publishedAt": "2026-09-13T05:17:04.845Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "56c32b9c-5f05-4b64-867c-6595efd7b161",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/92e3ed02-2972-44b8-a4a1-266c345a0830.mp4",
+   "posterUrl": "https://media.inspora.design/posts/0114b05f-4415-48af-adca-458809b3c06a.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 5514862,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/238be0a4-9349-4f18-ae2c-ba85fcd33e97.mp4",
+    "bytes": 1593664,
+    "width": 1080,
+    "format": "mp4",
+    "height": 862,
+    "storageKey": "posts/238be0a4-9349-4f18-ae2c-ba85fcd33e97.mp4"
+   },
+   "alt": "0PqPo4UWSH0Y1RKo",
+   "width": 2336,
+   "height": 1866,
+   "position": 0
+  }
+ ]
+}

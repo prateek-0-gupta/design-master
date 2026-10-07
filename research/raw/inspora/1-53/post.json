@@ -1,0 +1,47 @@
+{
+ "id": "940dc798-9306-46b2-a973-0050753f78d7",
+ "slug": "1-53",
+ "title": "glossy orb animation",
+ "creator": {
+  "id": "84b49451-2d73-480d-a118-ecfc89baedad",
+  "name": "@basit_designs",
+  "handle": "@basit_designs",
+  "url": "https://x.com/basit_designs",
+  "avatarUrl": "https://media.inspora.design/creators/848f5428-3415-489f-ae43-38127c6da526.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "glossy orb animation",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/basit_designs/status/2091835143522840732",
+ "createdAt": "2026-08-28T03:07:25.585Z",
+ "publishedAt": "2026-08-28T03:07:25.058Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "7bedf671-95da-499a-af59-d5215d963bc8",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/42ea5b95-7775-4e58-8035-a97a4e10316c.mp4",
+   "posterUrl": "https://media.inspora.design/posts/7af5d816-4213-4123-b628-eef76d979d23.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 3959892,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/e7cb41a2-397e-4aae-acf0-aecdededef66.mp4",
+    "bytes": 505777,
+    "width": 1080,
+    "format": "mp4",
+    "height": 761,
+    "storageKey": "posts/e7cb41a2-397e-4aae-acf0-aecdededef66.mp4"
+   },
+   "alt": "TjgkqDU904XSR0y5",
+   "width": 3066,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

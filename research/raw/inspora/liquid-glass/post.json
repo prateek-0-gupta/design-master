@@ -1,0 +1,47 @@
+{
+ "id": "a86f5010-1df2-4a9a-a119-cd20ea3953da",
+ "slug": "liquid-glass",
+ "title": "Liquid glass",
+ "creator": {
+  "id": "6aa14b22-b76a-4a2a-9fbd-57b2697eaf2a",
+  "name": "@jesse_vermeulen",
+  "handle": "@jesse_vermeulen",
+  "url": "https://x.com/jesse_vermeulen",
+  "avatarUrl": "https://media.inspora.design/creators/0d9498e1-78e5-407f-9435-885ef27b0154.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Liquid glass nav bar",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/jesse_vermeulen/status/2068672515077992636",
+ "createdAt": "2026-09-08T04:32:11.974Z",
+ "publishedAt": "2026-09-08T04:32:11.922Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "c9dbf201-cfb5-4841-8012-ba7dcbd7a2e1",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/21b391f0-b9c4-42de-b85e-9501f823414e.mp4",
+   "posterUrl": "https://media.inspora.design/posts/0b77c028-a2c2-4c73-b5eb-193a1ec66a5e.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 8782622,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/5b315f3d-781d-4975-8429-80a70a22a421.mp4",
+    "bytes": 3811420,
+    "width": 1080,
+    "format": "mp4",
+    "height": 698,
+    "storageKey": "posts/5b315f3d-781d-4975-8429-80a70a22a421.mp4"
+   },
+   "alt": "nRSAaebbBZZG6j71",
+   "width": 1960,
+   "height": 1268,
+   "position": 0
+  }
+ ]
+}

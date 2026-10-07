@@ -1,0 +1,47 @@
+{
+ "id": "8d3fb9f5-0be7-4c24-a4b7-8093dc06c398",
+ "slug": "1-58",
+ "title": "Mini calendar",
+ "creator": {
+  "id": "784bdadf-6bdb-44e9-a33d-eb09aa817032",
+  "name": "@jeetnirnejak",
+  "handle": "@jeetnirnejak",
+  "url": "https://x.com/jeetnirnejak/status/2088251238530105638",
+  "avatarUrl": "https://media.inspora.design/creators/fd89532e-8a58-45ed-b2f2-dcd63a0e1530.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Mini calendar component",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/jeetnirnejak/status/2051643988910973241",
+ "createdAt": "2026-08-29T12:31:33.883Z",
+ "publishedAt": "2026-08-29T12:31:33.355Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "d36f8f42-5abe-416b-ad9a-2e882f415b42",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/187544ab-4d23-4958-a2d3-d01fd3dde43d.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d8cd8c04-b029-4632-b4aa-49d3068f2f9b.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 863585,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/f02141d9-643f-4fac-9404-3a214559fa23.mp4",
+    "bytes": 526942,
+    "width": 1080,
+    "format": "mp4",
+    "height": 888,
+    "storageKey": "posts/f02141d9-643f-4fac-9404-3a214559fa23.mp4"
+   },
+   "alt": "VJRzSIeNBPOXHJcm",
+   "width": 1870,
+   "height": 1538,
+   "position": 0
+  }
+ ]
+}

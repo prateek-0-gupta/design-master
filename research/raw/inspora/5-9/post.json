@@ -1,0 +1,47 @@
+{
+ "id": "9bbc8fbf-8870-4fc3-af80-25b8a3688965",
+ "slug": "5-9",
+ "title": "Motion blur",
+ "creator": {
+  "id": "aaa3f6d0-4fca-4ec1-afcd-a9d7076bc065",
+  "name": "@lucchaissac",
+  "handle": "@lucchaissac",
+  "url": "https://x.com/lucchaissac",
+  "avatarUrl": "https://media.inspora.design/creators/3d546f2e-b4de-44ba-8b30-aaaf839a7e52.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Motion blur",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/lucchaissac/status/2087520727289454834",
+ "createdAt": "2026-08-13T16:38:03.899Z",
+ "publishedAt": "2026-08-13T16:38:03.662Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "baaa5cab-36be-42c8-9278-c4ae2b234974",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/e26c520b-6c74-451c-8c8c-4e28ee2ed22a.mp4",
+   "posterUrl": "https://media.inspora.design/posts/7a148376-9102-429b-b481-e8f83d2f2e3d.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 3936854,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/baaa5cab-36be-42c8-9278-c4ae2b234974.mp4",
+    "bytes": 2240694,
+    "width": 1080,
+    "format": "mp4",
+    "height": 940,
+    "storageKey": "posts/previews/baaa5cab-36be-42c8-9278-c4ae2b234974.mp4"
+   },
+   "alt": "HQtkmfiDTSu9L43k",
+   "width": 1688,
+   "height": 1470,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "id": "c3615144-71b6-4e43-b51c-9de0b85fd966",
+ "slug": "paid-stamp",
+ "title": "3D paid stamp",
+ "creator": {
+  "id": "bfa7fdb5-b387-4d46-8b37-441e5d708bca",
+  "name": "@SolutionB2u",
+  "handle": "@SolutionB2u",
+  "url": "https://x.com/SolutionB2u",
+  "avatarUrl": "https://media.inspora.design/creators/bbc5548e-68bc-417b-b260-6b68b29bbc8d.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A Figma Motion prototype that turns a digital invoice into a physical document and stamps it \u201cPAID\u201d with a 3D effect.",
+ "category": "Motion",
+ "industries": [
+  "Fintech"
+ ],
+ "colors": [
+  "Off-white",
+  "red"
+ ],
+ "styles": [
+  "minimalism"
+ ],
+ "sourceUrl": "https://x.com/SolutionB2u/status/2099695046178083303",
+ "createdAt": "2026-09-15T20:11:30.921Z",
+ "publishedAt": "2026-09-15T20:11:30.682Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "7bec5ab8-e30c-43af-b6cd-a51b98a2bab8",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/24edaa82-80ac-4d90-88e2-9a7e2d1b6ef2.mp4",
+   "posterUrl": "https://media.inspora.design/posts/6eb9954b-d5d0-4edb-91bf-1fda1581d374.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 595073,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/6b1c7e37-d3ff-4990-a209-b6af62d6fb4d.mp4",
+    "bytes": 553701,
+    "width": 1080,
+    "format": "mp4",
+    "height": 720,
+    "storageKey": "posts/6b1c7e37-d3ff-4990-a209-b6af62d6fb4d.mp4"
+   },
+   "alt": "s03qKByL8vApYHUB",
+   "width": 1080,
+   "height": 720,
+   "position": 0
+  }
+ ]
+}

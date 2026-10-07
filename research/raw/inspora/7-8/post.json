@@ -1,0 +1,47 @@
+{
+ "id": "efdaee68-bd2a-4510-b325-122a6683f5d4",
+ "slug": "7-8",
+ "title": "Shader Credit Card",
+ "creator": {
+  "id": "9443a594-e669-48f1-89f3-b228bd91ebc4",
+  "name": "@raul_dronca",
+  "handle": "@raul_dronca",
+  "url": "https://x.com/raul_dronca",
+  "avatarUrl": "https://media.inspora.design/creators/1c977eb1-3a8c-452f-a4d2-229cd361e4e0.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Shader Credit Card",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/raul_dronca/status/2089314936509940162",
+ "createdAt": "2026-08-17T12:55:25.011Z",
+ "publishedAt": "2026-08-17T12:55:24.676Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "7faaf841-c3d3-4b08-835d-ec3dc6c4019d",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/4c68ed11-2406-4abd-9440-69c604bc3590.mp4",
+   "posterUrl": "https://media.inspora.design/posts/9dcc3d3c-c220-4d55-b52b-a946861b5a70.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 12135450,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/7faaf841-c3d3-4b08-835d-ec3dc6c4019d.mp4",
+    "bytes": 511997,
+    "width": 1080,
+    "format": "mp4",
+    "height": 606,
+    "storageKey": "posts/previews/7faaf841-c3d3-4b08-835d-ec3dc6c4019d.mp4"
+   },
+   "alt": "yet iXK4hLjqFdEP",
+   "width": 3840,
+   "height": 2156,
+   "position": 0
+  }
+ ]
+}

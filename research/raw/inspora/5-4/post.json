@@ -1,0 +1,47 @@
+{
+ "id": "abe07ca6-a0c4-4ae0-be0c-b593bd32ce33",
+ "slug": "5-4",
+ "title": "Floating cards",
+ "creator": {
+  "id": "73be3267-d858-4a04-9539-3c399cef0fa6",
+  "name": "@joshpuckett",
+  "handle": "@joshpuckett",
+  "url": "https://x.com/joshpuckett",
+  "avatarUrl": "https://media.inspora.design/creators/cdf7a23a-3ef7-4a68-a697-f0ad25e7caf8.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Floating cards",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/joshpuckett/status/2011092850172444697",
+ "createdAt": "2026-08-13T03:02:15.379Z",
+ "publishedAt": "2026-08-13T03:02:15.316Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "d6618905-abfa-4359-a90c-91aac2b6cd19",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/bcf8140a-2911-4a65-8aa2-df87490c7e8a.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d09a791c-5ed2-409d-a43c-6e359b77978c.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 6529793,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/d6618905-abfa-4359-a90c-91aac2b6cd19.mp4",
+    "bytes": 1783490,
+    "width": 1080,
+    "format": "mp4",
+    "height": 788,
+    "storageKey": "posts/previews/d6618905-abfa-4359-a90c-91aac2b6cd19.mp4"
+   },
+   "alt": "5lCKVCOQ0bxXSlKU",
+   "width": 2530,
+   "height": 1844,
+   "position": 0
+  }
+ ]
+}

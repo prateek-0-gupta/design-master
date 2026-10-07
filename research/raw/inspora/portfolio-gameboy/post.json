@@ -1,0 +1,47 @@
+{
+ "id": "177762fb-b66e-4c06-b31d-2a7d743e54fd",
+ "slug": "portfolio-gameboy",
+ "title": "Portfolio Gameboy",
+ "creator": {
+  "id": "323bc6b5-b3ea-4a41-88fb-78010cf2371d",
+  "name": "@Angaisb_",
+  "handle": "@Angaisb_",
+  "url": "https://x.com/Angaisb_",
+  "avatarUrl": "https://media.inspora.design/creators/c0972fe8-3a2a-41b0-bfbd-f7f3b8e86503.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Portfolio Gameboy build with  GPT-6 Astra",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/Angaisb_/status/2095964361105789424",
+ "createdAt": "2026-09-06T04:30:47.880Z",
+ "publishedAt": "2026-09-06T04:30:47.641Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "64b7ad78-6100-4de4-b3ce-4f9c790e63d4",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/ed0fca33-8b4e-4480-bda1-e702241cce79.mp4",
+   "posterUrl": "https://media.inspora.design/posts/b3783a90-7091-4d48-832c-92420b60fb79.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 4128038,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/3cc041c0-196d-4424-98f9-768158a8fe02.mp4",
+    "bytes": 574643,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/3cc041c0-196d-4424-98f9-768158a8fe02.mp4"
+   },
+   "alt": "ivy783a7INzbQAeN (1)",
+   "width": 2560,
+   "height": 1440,
+   "position": 0
+  }
+ ]
+}

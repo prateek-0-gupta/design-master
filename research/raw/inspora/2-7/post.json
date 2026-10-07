@@ -1,0 +1,47 @@
+{
+ "id": "f53de45a-0f6e-48a6-bc84-e07542cab461",
+ "slug": "2-7",
+ "title": "Stamp Folder animation",
+ "creator": {
+  "id": "f39aef4b-4fcc-4320-98fe-1ee976ad03dd",
+  "name": "@AdityaSur11",
+  "handle": "@AdityaSur11",
+  "url": "https://x.com/AdityaSur11",
+  "avatarUrl": "https://media.inspora.design/creators/afa063e5-5a0a-491d-a617-43dd836737bd.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Stamp Folder animation",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/AdityaSur11/status/2077958975140642936",
+ "createdAt": "2026-08-08T01:12:01.396Z",
+ "publishedAt": "2026-08-08T01:12:00.859Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "5b97be37-f19a-4728-98fa-59671b066d44",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/02b80340-2b54-4847-9b98-3d0f014b13d8.mp4",
+   "posterUrl": "https://media.inspora.design/posts/5fda9ddc-040e-42c0-96fc-399b3a6cc23e.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 4463506,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/5b97be37-f19a-4728-98fa-59671b066d44.mp4",
+    "bytes": 1773076,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1078,
+    "storageKey": "posts/previews/5b97be37-f19a-4728-98fa-59671b066d44.mp4"
+   },
+   "alt": "TNngdx vlGhqVr8",
+   "width": 1920,
+   "height": 1918,
+   "position": 0
+  }
+ ]
+}

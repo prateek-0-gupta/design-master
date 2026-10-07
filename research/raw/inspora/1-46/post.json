@@ -1,0 +1,47 @@
+{
+ "id": "da5aa40d-4827-4733-a580-9971ee055092",
+ "slug": "1-46",
+ "title": "Grid Reveal animation",
+ "creator": {
+  "id": "b1be8d8d-288b-4cd6-9939-8e7e293ee72a",
+  "name": "@SwamiMalode",
+  "handle": "@SwamiMalode",
+  "url": "https://x.com/SwamiMalode",
+  "avatarUrl": "https://media.inspora.design/creators/2988d10f-3803-4b44-ba5c-030388ddfa95.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Grid Reveal animation for AI image generation",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/SwamiMalode/status/2092578177092931724",
+ "createdAt": "2026-08-26T16:28:32.153Z",
+ "publishedAt": "2026-08-26T16:28:31.907Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "3c9ace41-9247-44c4-b98d-fd4b48acc56d",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/ca011acd-b9f0-4c03-9665-58fc0529111f.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d8b22c67-4d72-4311-9eef-e5ff94ed6170.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 744254,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/dd2fcc82-e11f-4f68-887f-e43840a60d5a.mp4",
+    "bytes": 369919,
+    "width": 1080,
+    "format": "mp4",
+    "height": 694,
+    "storageKey": "posts/dd2fcc82-e11f-4f68-887f-e43840a60d5a.mp4"
+   },
+   "alt": "qeFSHXjQNh Cv0jj",
+   "width": 1254,
+   "height": 806,
+   "position": 0
+  }
+ ]
+}

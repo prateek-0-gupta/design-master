@@ -1,0 +1,47 @@
+{
+ "id": "2f17f169-7cf9-4fc3-b82a-19e7dfb446ba",
+ "slug": "bento-cards",
+ "title": "Bento cards.",
+ "creator": {
+  "id": "5d3666cc-1f96-464f-9949-6afb6759a4f3",
+  "name": "@emblemo",
+  "handle": "@emblemo",
+  "url": "https://x.com/emblemo",
+  "avatarUrl": "https://media.inspora.design/creators/e591efef-86d9-4f32-9c11-5a5597829a16.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Bento cards animation",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/emblemo/status/2095421153716158947",
+ "createdAt": "2026-09-03T15:54:46.006Z",
+ "publishedAt": "2026-09-03T15:54:45.955Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "b8e9d954-577f-4a79-92ed-ec7755f7fdc2",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/82ec4d35-1531-48dc-a3fb-2194e45faff4.mp4",
+   "posterUrl": "https://media.inspora.design/posts/e6d57174-ad9b-455a-b591-6f4c7af291d3.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 300850,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/fd7c72b2-48a3-418c-9b3c-2b2764bec111.mp4",
+    "bytes": 118491,
+    "width": 1080,
+    "format": "mp4",
+    "height": 768,
+    "storageKey": "posts/fd7c72b2-48a3-418c-9b3c-2b2764bec111.mp4"
+   },
+   "alt": "ex0R2rhs1rQVnNxn",
+   "width": 1518,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

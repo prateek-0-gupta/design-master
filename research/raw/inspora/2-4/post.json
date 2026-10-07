@@ -1,0 +1,47 @@
+{
+ "id": "4b51d7c2-06e5-4dd6-b1b0-d58c857ad6a6",
+ "slug": "2-4",
+ "title": "Dynamic island lego",
+ "creator": {
+  "id": "19d66bfc-52f1-484e-ba8e-92775f92aaa2",
+  "name": "@ozzyxs1a",
+  "handle": "@ozzyxs1a",
+  "url": "https://x.com/ozzyxs1a",
+  "avatarUrl": "https://media.inspora.design/creators/49c0b27c-3849-4f89-9a63-47ac1849eff6.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Dynamic island lego",
+ "category": "Illustration",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/ozzyxs1a/status/2073734969667493914",
+ "createdAt": "2026-08-07T17:03:55.829Z",
+ "publishedAt": "2026-08-07T17:03:55.295Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "4624d78e-7ede-408e-9b69-835bb2d6b9d2",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/0a078137-c9fc-460f-96ce-fe8b74370eef.mp4",
+   "posterUrl": "https://media.inspora.design/posts/3ce30590-eb90-4ca2-9a81-d3dfa5995944.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1701437,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/4624d78e-7ede-408e-9b69-835bb2d6b9d2.mp4",
+    "bytes": 892672,
+    "width": 1080,
+    "format": "mp4",
+    "height": 616,
+    "storageKey": "posts/previews/4624d78e-7ede-408e-9b69-835bb2d6b9d2.mp4"
+   },
+   "alt": "qNf4j3pBt9Rn7UW",
+   "width": 1842,
+   "height": 1052,
+   "position": 0
+  }
+ ]
+}

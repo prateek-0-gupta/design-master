@@ -1,0 +1,47 @@
+{
+ "id": "c6456b3d-0be1-41b6-907d-1c56bd465ae4",
+ "slug": "6-7",
+ "title": "3D Rolling transition",
+ "creator": {
+  "id": "e36a9ab7-7d0d-43ac-b1ff-89d6c5721c96",
+  "name": "@Designownow_",
+  "handle": "@Designownow_",
+  "url": "https://x.com/Designownow_",
+  "avatarUrl": "https://media.inspora.design/creators/e55bc58c-f6bb-491d-9420-a458570a5f23.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Interaction for choosing product quantity",
+ "category": "Illustration",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/Designownow_/status/1904273807214576074",
+ "createdAt": "2026-08-15T04:58:17.094Z",
+ "publishedAt": "2026-08-15T04:58:16.755Z",
+ "isFeatured": true,
+ "media": [
+  {
+   "id": "9b787bc7-fd71-4b83-898c-351df672ef6f",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/7591c679-1d7b-4ce8-9676-16af0a9b218f.mp4",
+   "posterUrl": "https://media.inspora.design/posts/9db2e781-0406-4504-a5cd-c55aa1ce394a.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 258522,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/9b787bc7-fd71-4b83-898c-351df672ef6f.mp4",
+    "bytes": 375917,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/previews/9b787bc7-fd71-4b83-898c-351df672ef6f.mp4"
+   },
+   "alt": "VRSalVIlrT3JSHHs",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "a60d7739-7d4b-4b85-a0d5-314f97121d3b",
+ "slug": "gpt-6-astra",
+ "title": "generating UI using GPT-6 Astra",
+ "creator": {
+  "id": "02102da5-70e2-4352-b0f3-7b48b069cb7e",
+  "name": "@MSchwaibold",
+  "handle": "@MSchwaibold",
+  "url": "https://x.com/MSchwaibold",
+  "avatarUrl": "https://media.inspora.design/creators/a88e4e1c-3568-4f72-9b5d-fbfda3c07b92.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "GPT-6 Astra is really good at generating UI",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/MSchwaibold/status/2096059496812716307",
+ "createdAt": "2026-09-05T10:46:05.961Z",
+ "publishedAt": "2026-09-05T10:46:05.720Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "eaa4bca5-706e-4492-b42d-9fc19b371656",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/6484e83a-8ca3-44c6-b51a-0b07b3cd3473.mp4",
+   "posterUrl": "https://media.inspora.design/posts/04004ffe-7bdd-4042-aec7-7d042b9dd21e.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 32076323,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/37471d0f-77aa-4808-b605-a8659d02a1b7.mp4",
+    "bytes": 3731382,
+    "width": 1080,
+    "format": "mp4",
+    "height": 718,
+    "storageKey": "posts/37471d0f-77aa-4808-b605-a8659d02a1b7.mp4"
+   },
+   "alt": "5RVH4OvhQyJbrtkV",
+   "width": 3248,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

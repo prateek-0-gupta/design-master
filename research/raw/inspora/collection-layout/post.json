@@ -1,0 +1,56 @@
+{
+ "id": "f85c9dcb-99bf-44ca-9221-a7ddc18fefab",
+ "slug": "collection-layout",
+ "title": "interaction collection layout",
+ "creator": {
+  "id": "77eb5dff-4231-4638-95c4-27d4171df429",
+  "name": "@nickpylll",
+  "handle": "@nickpylll",
+  "url": "https://x.com/nickpylll",
+  "avatarUrl": "https://media.inspora.design/creators/8f3ac701-46d1-4ab4-bd05-7f92f9b7dd96.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A slick mobile demo of customizing a collection layout with crop and layer controls.",
+ "category": "Motion",
+ "industries": [
+  "mobile app"
+ ],
+ "colors": [
+  "White",
+  "black"
+ ],
+ "styles": [
+  "Clean",
+  "modern",
+  "playful"
+ ],
+ "sourceUrl": "https://x.com/nickpylll/status/1791439663187570886",
+ "createdAt": "2026-09-18T05:44:47.285Z",
+ "publishedAt": "2026-09-18T05:44:47.136Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "1ab5193f-a8db-4f8d-8fa3-d2f861edacdd",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/a73f19c7-fed9-498e-8ac0-83f2c6e60b94.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d85bf681-dbd9-4af8-9219-c925be6ec7f8.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 220848,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/caeb42d9-0786-4a3a-aa9d-190d6845c858.mp4",
+    "bytes": 396679,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/caeb42d9-0786-4a3a-aa9d-190d6845c858.mp4"
+   },
+   "alt": "I8CAxh0iX2XHZZj8",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

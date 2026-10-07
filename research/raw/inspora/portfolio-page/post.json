@@ -1,0 +1,47 @@
+{
+ "id": "c5faf74c-aa2b-4bc1-85e6-b764ebe9cc68",
+ "slug": "portfolio-page",
+ "title": "portfolio page",
+ "creator": {
+  "id": "84b49451-2d73-480d-a118-ecfc89baedad",
+  "name": "@basit_designs",
+  "handle": "@basit_designs",
+  "url": "https://x.com/basit_designs",
+  "avatarUrl": "https://media.inspora.design/creators/848f5428-3415-489f-ae43-38127c6da526.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "portfolio page",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/basit_designs/status/2095435397828628584",
+ "createdAt": "2026-09-04T02:41:21.399Z",
+ "publishedAt": "2026-09-04T02:41:21.249Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "237f8631-c433-4251-8fca-312570526f6c",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/0ffd4211-5a89-4873-8559-3f3c99bd478f.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d3fd77d0-48e9-4569-b3df-5c16ec5cf733.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 16614639,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/bb29e1d2-fece-46a9-843e-4204c01fffb7.mp4",
+    "bytes": 966905,
+    "width": 1080,
+    "format": "mp4",
+    "height": 656,
+    "storageKey": "posts/bb29e1d2-fece-46a9-843e-4204c01fffb7.mp4"
+   },
+   "alt": "Q1lh2DXb3Ay57yKE",
+   "width": 3548,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

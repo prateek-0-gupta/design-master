@@ -1,0 +1,47 @@
+{
+ "id": "982999cf-aaec-49b3-a111-2ace7d6e7b08",
+ "slug": "3d-animated-cards",
+ "title": "3D animated cards",
+ "creator": {
+  "id": "de55c6c8-c670-4299-99ae-c66c44e060f3",
+  "name": "Praveen Kumar",
+  "handle": "@praveenisomer",
+  "url": "https://x.com/praveenisomer",
+  "avatarUrl": "https://media.inspora.design/creators/6609e34d-822c-4577-8496-dfbe60160ea6.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "3D animated cards",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/praveenisomer/status/2078472355723264480",
+ "createdAt": "2026-09-09T04:46:20.859Z",
+ "publishedAt": "2026-09-09T04:46:20.331Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "1e8d42aa-8154-43f6-85d2-a64ac53ce480",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/6f085fbd-4c17-4dbb-9e98-29de1ec0794a.mp4",
+   "posterUrl": "https://media.inspora.design/posts/4b787147-b1bc-4cbc-bd7d-b29133ba9cd9.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2561038,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/a9339f70-4645-4579-a242-2fca354a5e12.mp4",
+    "bytes": 1029348,
+    "width": 1080,
+    "format": "mp4",
+    "height": 810,
+    "storageKey": "posts/a9339f70-4645-4579-a242-2fca354a5e12.mp4"
+   },
+   "alt": "9aq2NdmGcG3Kg876",
+   "width": 1600,
+   "height": 1200,
+   "position": 0
+  }
+ ]
+}

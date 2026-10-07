@@ -1,0 +1,180 @@
+{
+ "id": "aa74b673-b750-4593-bab2-cfcd4f7a0499",
+ "slug": "tracking-cards",
+ "title": "Tracking cards",
+ "creator": {
+  "id": "e3186e90-643b-4a6d-a8a4-b94107565bdb",
+  "name": "@JulienRenvoye",
+  "handle": "@JulienRenvoye",
+  "url": "https://x.com/JulienRenvoye",
+  "avatarUrl": "https://media.inspora.design/creators/cda093ab-25ec-4f82-abf6-d7bd0512ef34.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Dark rounded fitness cards showing Athletic Score plus color-coded sleep, strength, and progress metrics.",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/JulienRenvoye/status/2098075859055772158",
+ "createdAt": "2026-09-13T05:27:34.390Z",
+ "publishedAt": "2026-09-13T05:27:34.146Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "53394a30-534b-4cd0-b18a-74b336ef0808",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/19ab1100-e691-4ea2-9981-ea6758cc6f75.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 32510,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/ee63b8cf-65d3-4828-aeec-01f6a86dccef.webp",
+     "bytes": 8856,
+     "width": 640,
+     "format": "webp",
+     "height": 588,
+     "storageKey": "posts/ee63b8cf-65d3-4828-aeec-01f6a86dccef.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/6ddb3323-b99a-4e25-ad76-e6f16423c440.webp",
+     "bytes": 13502,
+     "width": 960,
+     "format": "webp",
+     "height": 882,
+     "storageKey": "posts/6ddb3323-b99a-4e25-ad76-e6f16423c440.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/bef0f60d-0700-4c21-a23a-80c11cf94ecc.webp",
+     "bytes": 24286,
+     "width": 1600,
+     "format": "webp",
+     "height": 1470,
+     "storageKey": "posts/bef0f60d-0700-4c21-a23a-80c11cf94ecc.webp"
+    }
+   ],
+   "alt": "HR3c1i5XUAs53kW",
+   "width": 2048,
+   "height": 1882,
+   "position": 0
+  },
+  {
+   "id": "379d29cb-b510-4b77-83e4-590d7872dbe6",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/2ab5b127-a611-4124-b8cc-3826d4284701.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 33758,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/1ace93c9-6150-4298-a0b9-4de8c2ec4377.webp",
+     "bytes": 9222,
+     "width": 640,
+     "format": "webp",
+     "height": 588,
+     "storageKey": "posts/1ace93c9-6150-4298-a0b9-4de8c2ec4377.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/1f3f9415-983c-4617-ab2c-9c77ce190641.webp",
+     "bytes": 13500,
+     "width": 960,
+     "format": "webp",
+     "height": 882,
+     "storageKey": "posts/1f3f9415-983c-4617-ab2c-9c77ce190641.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/3ded1686-d7d1-4e12-b10c-fb9b225abbba.webp",
+     "bytes": 24168,
+     "width": 1600,
+     "format": "webp",
+     "height": 1470,
+     "storageKey": "posts/3ded1686-d7d1-4e12-b10c-fb9b225abbba.webp"
+    }
+   ],
+   "alt": "HR3c2NIWcAE7orA",
+   "width": 2048,
+   "height": 1882,
+   "position": 1
+  },
+  {
+   "id": "ac13b668-7de0-43ea-8b90-ad05defb0255",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/c2ec94c2-8e23-43da-bfa1-c9d96d872248.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 46902,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/e6c8b664-0498-4b8c-aa6e-03a131b902db.webp",
+     "bytes": 13458,
+     "width": 640,
+     "format": "webp",
+     "height": 588,
+     "storageKey": "posts/e6c8b664-0498-4b8c-aa6e-03a131b902db.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/cf1a8fd4-5265-467c-b995-6303101ffeea.webp",
+     "bytes": 19246,
+     "width": 960,
+     "format": "webp",
+     "height": 882,
+     "storageKey": "posts/cf1a8fd4-5265-467c-b995-6303101ffeea.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/d1f32ffb-d41b-4077-8b38-18c02c77be6c.webp",
+     "bytes": 35234,
+     "width": 1600,
+     "format": "webp",
+     "height": 1470,
+     "storageKey": "posts/d1f32ffb-d41b-4077-8b38-18c02c77be6c.webp"
+    }
+   ],
+   "alt": "HR3c2u4a0AAB9NR",
+   "width": 2048,
+   "height": 1882,
+   "position": 2
+  },
+  {
+   "id": "a2ecfc07-0050-41bd-8ba4-24865625f4c1",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/6abb9424-b236-4722-947d-1d721cb2eda6.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 69678,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/c49eaa56-6bbb-4e11-b941-e4cbd572c34e.webp",
+     "bytes": 17932,
+     "width": 640,
+     "format": "webp",
+     "height": 588,
+     "storageKey": "posts/c49eaa56-6bbb-4e11-b941-e4cbd572c34e.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/e5856926-77b2-444a-b262-79e5daaee022.webp",
+     "bytes": 27336,
+     "width": 960,
+     "format": "webp",
+     "height": 882,
+     "storageKey": "posts/e5856926-77b2-444a-b262-79e5daaee022.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/3c8dfa69-4606-4faf-a7a6-aefd9978fe9a.webp",
+     "bytes": 48764,
+     "width": 1600,
+     "format": "webp",
+     "height": 1470,
+     "storageKey": "posts/3c8dfa69-4606-4faf-a7a6-aefd9978fe9a.webp"
+    }
+   ],
+   "alt": "HR3c3P7bUAAWUNO",
+   "width": 2048,
+   "height": 1882,
+   "position": 3
+  }
+ ]
+}

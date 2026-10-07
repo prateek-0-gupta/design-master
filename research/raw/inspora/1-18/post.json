@@ -1,0 +1,63 @@
+{
+ "id": "3c23cfa4-0ebc-4a33-87ea-95e6ecb3bab0",
+ "slug": "1-18",
+ "title": "waitlist screen",
+ "creator": {
+  "id": "5a97fa75-5731-422c-b036-1512c56916ac",
+  "name": "@nachidesigner",
+  "handle": "@nachidesigner",
+  "url": "https://x.com/nachidesigner",
+  "avatarUrl": "https://media.inspora.design/creators/5caedc62-b5d8-418a-ae0a-0f52a6e77dc5.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "waitlist screen",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/nachidesigner/status/2070211796607344948",
+ "createdAt": "2026-08-21T05:06:53.138Z",
+ "publishedAt": "2026-08-21T05:06:52.900Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "0b4c6377-787c-40ca-985f-38ff36633f1a",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/de1e8794-76b5-4bee-a62c-5ce3782025c1.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 88216,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/04310983-e043-4eb4-b8fa-be992692f99f.webp",
+     "bytes": 15806,
+     "width": 640,
+     "format": "webp",
+     "height": 433,
+     "storageKey": "posts/04310983-e043-4eb4-b8fa-be992692f99f.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/c9285359-118d-4d45-9cd9-d282f0b1696d.webp",
+     "bytes": 25032,
+     "width": 960,
+     "format": "webp",
+     "height": 650,
+     "storageKey": "posts/c9285359-118d-4d45-9cd9-d282f0b1696d.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/f734040c-0037-429e-a8d8-9864bda41a45.webp",
+     "bytes": 48338,
+     "width": 1600,
+     "format": "webp",
+     "height": 1083,
+     "storageKey": "posts/f734040c-0037-429e-a8d8-9864bda41a45.webp"
+    }
+   ],
+   "alt": "HLreaY0bUAAF68w",
+   "width": 2560,
+   "height": 1733,
+   "position": 0
+  }
+ ]
+}

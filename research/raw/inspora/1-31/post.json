@@ -1,0 +1,47 @@
+{
+ "id": "d4673ef6-9e1e-4cf6-bb21-e59a1cf42e38",
+ "slug": "1-31",
+ "title": "Liquid metal button",
+ "creator": {
+  "id": "b935211b-d647-4fcf-be82-d92b6d6cd302",
+  "name": "@tojawuzik",
+  "handle": "@tojawuzik",
+  "url": "https://x.com/tojawuzik",
+  "avatarUrl": "https://media.inspora.design/creators/f560a7cb-5a6e-4c34-a072-3d91e66f5b9a.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Liquid metal button",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/tojawuzik/status/2030958608112902316",
+ "createdAt": "2026-08-23T23:23:48.466Z",
+ "publishedAt": "2026-08-23T23:23:48.318Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "2c9864d2-98ec-4795-ac43-be0fb90eb4e0",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/1452914f-bf8d-43bb-94ce-4b678a4fd49e.mp4",
+   "posterUrl": "https://media.inspora.design/posts/9d77f336-f2a6-4ad6-88c2-ea444f1fb912.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 329114,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/2c9864d2-98ec-4795-ac43-be0fb90eb4e0.mp4",
+    "bytes": 513628,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/previews/2c9864d2-98ec-4795-ac43-be0fb90eb4e0.mp4"
+   },
+   "alt": "uaOPxIbkwVyYCE61",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "10cc254b-0544-4b7d-a3bd-4555fd2b0fde",
+ "slug": "1-26",
+ "title": "Wave thinking animations",
+ "creator": {
+  "id": "f39aef4b-4fcc-4320-98fe-1ee976ad03dd",
+  "name": "@AdityaSur11",
+  "handle": "@AdityaSur11",
+  "url": "https://x.com/AdityaSur11",
+  "avatarUrl": "https://media.inspora.design/creators/afa063e5-5a0a-491d-a617-43dd836737bd.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Wave thinking animations",
+ "category": "3D",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/AdityaSur11/status/2090718046604460498",
+ "createdAt": "2026-08-23T04:36:23.110Z",
+ "publishedAt": "2026-08-23T04:36:22.586Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "26e1f8d8-739d-4cbd-8b00-2655243a4edb",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/20cf0459-e7c9-4d78-99ad-383fadce0a8c.mp4",
+   "posterUrl": "https://media.inspora.design/posts/7f702702-1386-466f-bba0-8b74a8a2814b.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2179135,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/26e1f8d8-739d-4cbd-8b00-2655243a4edb.mp4",
+    "bytes": 875299,
+    "width": 1080,
+    "format": "mp4",
+    "height": 748,
+    "storageKey": "posts/previews/26e1f8d8-739d-4cbd-8b00-2655243a4edb.mp4"
+   },
+   "alt": "3h5di2iHdmrUarxc",
+   "width": 1920,
+   "height": 1329,
+   "position": 0
+  }
+ ]
+}

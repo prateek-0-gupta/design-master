@@ -1,0 +1,47 @@
+{
+ "id": "ef5ee423-a0f2-41c6-bb4b-4a8ea63fbaca",
+ "slug": "1-22",
+ "title": "wavy carousel",
+ "creator": {
+  "id": "7d08cc68-b069-4eb6-ab1d-048f57ca1745",
+  "name": "@jmtrivedi",
+  "handle": "@jmtrivedi",
+  "url": "https://x.com/jmtrivedi",
+  "avatarUrl": "https://media.inspora.design/creators/1a2cbc62-3497-4c06-8b05-be6e3c9cf98d.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "wavy carousel",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/jmtrivedi/status/2000678707137036637",
+ "createdAt": "2026-08-22T13:31:39.728Z",
+ "publishedAt": "2026-08-22T13:31:39.577Z",
+ "isFeatured": true,
+ "media": [
+  {
+   "id": "a12bfb01-d719-4a19-a0ce-211e7d74459f",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/5ce63a5f-f844-4b61-8468-e9be4b27f28f.mp4",
+   "posterUrl": "https://media.inspora.design/posts/80b777f0-e2f2-4b2c-8274-c93ef3c101bd.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 4180715,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/a12bfb01-d719-4a19-a0ce-211e7d74459f.mp4",
+    "bytes": 9163469,
+    "width": 934,
+    "format": "mp4",
+    "height": 1662,
+    "storageKey": "posts/previews/a12bfb01-d719-4a19-a0ce-211e7d74459f.mp4"
+   },
+   "alt": "ah4P TJZ2nLt9br3 (1)",
+   "width": 934,
+   "height": 1662,
+   "position": 0
+  }
+ ]
+}

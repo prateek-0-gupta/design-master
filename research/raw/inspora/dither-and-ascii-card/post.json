@@ -1,0 +1,56 @@
+{
+ "id": "83fabb2d-8397-44f1-83d4-b28e567f3663",
+ "slug": "dither-and-ascii-card",
+ "title": "Dither and Ascii card",
+ "creator": {
+  "id": "de55c6c8-c670-4299-99ae-c66c44e060f3",
+  "name": "Praveen Kumar",
+  "handle": "@praveenisomer",
+  "url": "https://x.com/praveenisomer",
+  "avatarUrl": "https://media.inspora.design/creators/6609e34d-822c-4577-8496-dfbe60160ea6.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "https://x.com/praveenisomer/status/2105983637615526301",
+ "category": "Motion",
+ "industries": [
+  "Fintech"
+ ],
+ "colors": [
+  "Green",
+  "Purple",
+  "white"
+ ],
+ "styles": [
+  "Dither",
+  "Asci"
+ ],
+ "sourceUrl": "https://x.com/praveenisomer/status/2105983637615526301",
+ "createdAt": "2026-10-03T16:59:28.333Z",
+ "publishedAt": "2026-10-03T16:59:28.182Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "3926cb71-7784-4367-bb69-c0f1c43f7eba",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/04ad0dfa-0071-4254-824c-7d91a24228c8.mp4",
+   "posterUrl": "https://media.inspora.design/posts/0328df3f-b1dd-4e07-8b3c-7acda1f7277c.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 8021029,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/5507bdb8-6bcc-4ce3-8984-7914ef4369b5.mp4",
+    "bytes": 6494639,
+    "width": 1080,
+    "format": "mp4",
+    "height": 810,
+    "storageKey": "posts/5507bdb8-6bcc-4ce3-8984-7914ef4369b5.mp4"
+   },
+   "alt": "cBAO89FIf3q48 1",
+   "width": 1920,
+   "height": 1440,
+   "position": 0
+  }
+ ]
+}

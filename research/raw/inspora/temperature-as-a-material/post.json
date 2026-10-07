@@ -1,0 +1,108 @@
+{
+ "id": "294f5714-005c-4c89-adba-f1d13d7caf3f",
+ "slug": "temperature-as-a-material",
+ "title": "Temperature as a material.",
+ "creator": {
+  "id": "4731f731-db50-4c1a-a07b-19dbc02d731b",
+  "name": "@0xSphere",
+  "handle": "@0xSphere",
+  "url": "https://x.com/0xSphere",
+  "avatarUrl": "https://media.inspora.design/creators/5874d7d0-155b-41b4-8697-b333f107c6a8.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Temperature as a material.\r\nFrosted glass, soft light, one gesture.",
+ "category": "Product",
+ "industries": [
+  "Apps"
+ ],
+ "colors": [
+  "blue"
+ ],
+ "styles": [
+  "Frosted glass"
+ ],
+ "sourceUrl": "https://x.com/0xsphere/status/2099830589759307973",
+ "createdAt": "2026-09-27T10:45:14.365Z",
+ "publishedAt": "2026-09-27T10:45:14.118Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "7587b128-baa1-4524-9f29-9ff8d2a99e2f",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/dae38f62-1186-4f4e-a306-845a881170ef.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 67010,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/ae473667-ece4-4fae-8700-e989cc0b9142.webp",
+     "bytes": 12546,
+     "width": 640,
+     "format": "webp",
+     "height": 800,
+     "storageKey": "posts/ae473667-ece4-4fae-8700-e989cc0b9142.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/c3536d73-9a58-4e96-a051-ad9554574444.webp",
+     "bytes": 20712,
+     "width": 960,
+     "format": "webp",
+     "height": 1200,
+     "storageKey": "posts/c3536d73-9a58-4e96-a051-ad9554574444.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/b78f7eb3-4120-4858-9641-b73bd278fabe.webp",
+     "bytes": 39216,
+     "width": 1600,
+     "format": "webp",
+     "height": 2000,
+     "storageKey": "posts/b78f7eb3-4120-4858-9641-b73bd278fabe.webp"
+    }
+   ],
+   "alt": "HR2uV2pXIAoeX n",
+   "width": 2560,
+   "height": 3200,
+   "position": 0
+  },
+  {
+   "id": "8c40352e-4ebe-4867-9849-393a8e7098cc",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/b25acfcd-4d3d-485d-b4a1-83a71a4d15b2.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 131722,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/52f1188d-befa-4b87-b577-e8e3958d7f15.webp",
+     "bytes": 18564,
+     "width": 640,
+     "format": "webp",
+     "height": 800,
+     "storageKey": "posts/52f1188d-befa-4b87-b577-e8e3958d7f15.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/b5f54188-3444-4124-9216-670cebe09570.webp",
+     "bytes": 32982,
+     "width": 960,
+     "format": "webp",
+     "height": 1200,
+     "storageKey": "posts/b5f54188-3444-4124-9216-670cebe09570.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/c40e9295-a27e-435a-86d5-0c3571f0a02c.webp",
+     "bytes": 69780,
+     "width": 1600,
+     "format": "webp",
+     "height": 2000,
+     "storageKey": "posts/c40e9295-a27e-435a-86d5-0c3571f0a02c.webp"
+    }
+   ],
+   "alt": "HR2uV3SbEAAldEn",
+   "width": 2560,
+   "height": 3200,
+   "position": 1
+  }
+ ]
+}

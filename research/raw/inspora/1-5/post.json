@@ -1,0 +1,47 @@
+{
+ "id": "ce19084c-8cc0-4dc1-a7f3-84973b7a06a8",
+ "slug": "1-5",
+ "title": "Date picker",
+ "creator": {
+  "id": "341588c0-0612-468b-9042-d4c1725e4801",
+  "name": "@malikyoloo",
+  "handle": "@malikyoloo",
+  "url": "https://x.com/malikyoloo",
+  "avatarUrl": "https://media.inspora.design/creators/06b0c70b-7e54-4d77-922c-5f81828d8716.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Date picker",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/malikyoloo/status/2085371287116136620",
+ "createdAt": "2026-08-07T08:09:32.311Z",
+ "publishedAt": "2026-08-07T08:09:32.063Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "bb2e5203-357d-4642-88b8-65456a45373c",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/ac92ef8a-1644-4ecc-bc86-3812424fa3a0.mp4",
+   "posterUrl": "https://media.inspora.design/posts/8bb48b28-ec6a-4a42-8abf-a53f6fce97bd.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 4642272,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/bb2e5203-357d-4642-88b8-65456a45373c.mp4",
+    "bytes": 1608313,
+    "width": 1080,
+    "format": "mp4",
+    "height": 810,
+    "storageKey": "posts/previews/bb2e5203-357d-4642-88b8-65456a45373c.mp4"
+   },
+   "alt": "T3lCO7AHQlRpShq6",
+   "width": 1920,
+   "height": 1440,
+   "position": 0
+  }
+ ]
+}

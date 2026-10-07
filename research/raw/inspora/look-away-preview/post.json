@@ -1,0 +1,58 @@
+{
+ "id": "9f044a88-c72f-42ad-9786-6eabccf7052a",
+ "slug": "look-away-preview",
+ "title": "Look Away preview",
+ "creator": {
+  "id": "3812822f-bc25-40fa-a578-788c006987a1",
+  "name": "kush",
+  "handle": "@kushsolitary",
+  "url": "https://x.com/kushsolitary",
+  "avatarUrl": "https://media.inspora.design/creators/7951c6e3-c542-4a0d-be21-f4aca5a4c418.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Look Away demo of a Mac widget that counts down to breaks and shows a perfect screen/focus score.",
+ "category": "Product",
+ "industries": [
+  "Wellness",
+  "Productivity"
+ ],
+ "colors": [
+  "Orange",
+  "Gold",
+  "Dark brown"
+ ],
+ "styles": [
+  "Clean",
+  "Modern",
+  "Glassmorphic"
+ ],
+ "sourceUrl": "https://x.com/kushsolitary/status/1988585065266168148",
+ "createdAt": "2026-09-30T05:23:39.141Z",
+ "publishedAt": "2026-09-30T05:23:38.797Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "70624eae-16eb-4eff-aeef-ac77c8bd9b2a",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/5f402b67-8975-457a-a504-128e02a607df.mp4",
+   "posterUrl": "https://media.inspora.design/posts/f3a7cf63-d176-40ab-b7a5-81e5ce901ce6.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 731618,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/4504bb1a-8169-42f9-9aba-ca614c4894d2.mp4",
+    "bytes": 1312480,
+    "width": 1080,
+    "format": "mp4",
+    "height": 960,
+    "storageKey": "posts/4504bb1a-8169-42f9-9aba-ca614c4894d2.mp4"
+   },
+   "alt": "OMafm2RItSwlEdeR",
+   "width": 1160,
+   "height": 1032,
+   "position": 0
+  }
+ ]
+}

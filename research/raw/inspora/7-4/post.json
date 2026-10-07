@@ -1,0 +1,47 @@
+{
+ "id": "7f966308-76df-43fb-9355-1d6601f68598",
+ "slug": "7-4",
+ "title": "Carousel animation",
+ "creator": {
+  "id": "846a0f95-3cfe-425e-aa1a-d06eb0a67ee0",
+  "name": "@YousufSoomroDev",
+  "handle": "@YousufSoomroDev",
+  "url": "https://x.com/YousufSoomroDev",
+  "avatarUrl": "https://media.inspora.design/creators/4a7f3b8e-86c2-47f8-b9ef-bcbe99ffef3b.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Carousel animation",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/YousufSoomroDev/status/2088657289410687111",
+ "createdAt": "2026-08-16T07:00:31.326Z",
+ "publishedAt": "2026-08-16T07:00:31.078Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "72eb780c-9c06-4109-9cfc-6f93839a651e",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/2072adf4-6702-48a7-9992-21091f5410a2.mp4",
+   "posterUrl": "https://media.inspora.design/posts/42471b29-3622-49e4-a899-57d51ad08e9a.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 23294414,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/72eb780c-9c06-4109-9cfc-6f93839a651e.mp4",
+    "bytes": 5274961,
+    "width": 1080,
+    "format": "mp4",
+    "height": 686,
+    "storageKey": "posts/previews/72eb780c-9c06-4109-9cfc-6f93839a651e.mp4"
+   },
+   "alt": "rqVlyg5VJm38Iyri",
+   "width": 2560,
+   "height": 1626,
+   "position": 0
+  }
+ ]
+}

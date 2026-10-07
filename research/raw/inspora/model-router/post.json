@@ -1,0 +1,56 @@
+{
+ "id": "60a32c0d-6fb5-408c-a319-d05ecce00204",
+ "slug": "model-router",
+ "title": "Model router",
+ "creator": {
+  "id": "c87a6d67-4f80-43ae-8325-75dae0a423a8",
+  "name": "Maxim Kuznetsov",
+  "handle": "@disarto_max",
+  "url": "https://x.com/disarto_max",
+  "avatarUrl": "https://media.inspora.design/creators/5dcebd3d-54d3-4465-9ee7-7519fec93644.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "AI model router splitting traffic across models by cost, quality, or balance, with live stats and fallback controls.",
+ "category": "Product",
+ "industries": [
+  "Tech",
+  "AI"
+ ],
+ "colors": [
+  "White",
+  "Gray"
+ ],
+ "styles": [
+  "Simple",
+  "Modern"
+ ],
+ "sourceUrl": "https://x.com/disarto_max/status/2106420376548815238",
+ "createdAt": "2026-10-06T03:44:17.312Z",
+ "publishedAt": "2026-10-06T03:44:17.157Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "14f33a80-4a50-4cb0-ad4e-75a2ca81d82c",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/0bafe420-76c6-4f09-ac17-ebb3c4ef0714.mp4",
+   "posterUrl": "https://media.inspora.design/posts/2a94dc49-6aac-4134-93d2-6dca9d0ad657.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 5224318,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/25ebd1bb-a73a-4557-b457-a5d7457c4aea.mp4",
+    "bytes": 782198,
+    "width": 1080,
+    "format": "mp4",
+    "height": 676,
+    "storageKey": "posts/25ebd1bb-a73a-4557-b457-a5d7457c4aea.mp4"
+   },
+   "alt": "DItScAv6B5yuwM Z",
+   "width": 3024,
+   "height": 1896,
+   "position": 0
+  }
+ ]
+}

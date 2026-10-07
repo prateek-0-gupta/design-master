@@ -1,0 +1,47 @@
+{
+ "id": "c360f67f-22d3-4536-9609-1fc985b67fbd",
+ "slug": "8-0",
+ "title": "Timeline concept",
+ "creator": {
+  "id": "d2408009-065b-4990-a443-4e2b53044054",
+  "name": "@guerriero_se",
+  "handle": "@guerriero_se",
+  "url": "https://x.com/guerriero_se",
+  "avatarUrl": "https://media.inspora.design/creators/61680ed0-c552-4952-8d27-890f4b3f1141.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "timeline concept",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/guerriero_se/status/2042249935022612725",
+ "createdAt": "2026-08-18T09:45:20.907Z",
+ "publishedAt": "2026-08-18T09:45:20.857Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "de43e204-01d0-4b86-acd1-1ec47786bbe8",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/1b243d0a-7d0a-4bc9-a3f3-ddd9dcc8c0ae.mp4",
+   "posterUrl": "https://media.inspora.design/posts/ed55334a-32fc-460a-a162-a9db4bacbb3b.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 359794,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/de43e204-01d0-4b86-acd1-1ec47786bbe8.mp4",
+    "bytes": 358409,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/previews/de43e204-01d0-4b86-acd1-1ec47786bbe8.mp4"
+   },
+   "alt": "AlQwXFjJHCowNCBF",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

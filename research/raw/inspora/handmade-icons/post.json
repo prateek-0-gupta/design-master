@@ -1,0 +1,58 @@
+{
+ "id": "a92f55de-c319-4d8e-b2c4-4d5e0c0f52c5",
+ "slug": "handmade-icons",
+ "title": "Handmade icons",
+ "creator": {
+  "id": "5f54da35-ba8c-40e3-8642-e736a81cb2e0",
+  "name": "Alex Socoloff",
+  "handle": "@socoloffalex",
+  "url": "https://x.com/alex_barashkov",
+  "avatarUrl": "https://media.inspora.design/creators/9135c19f-de4c-484f-9466-34b292d6b435.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "handmade 3D app icons, including a warm pixel-grid tile, a glossy blue \u201cA\u201d key, and a tactile gray mixer with knobs.",
+ "category": "Branding",
+ "industries": [
+  "Tech",
+  "design",
+  "audio"
+ ],
+ "colors": [
+  "Orange",
+  "blue",
+  "gray"
+ ],
+ "styles": [
+  "3D",
+  "tactile"
+ ],
+ "sourceUrl": "https://x.com/alex_barashkov/status/2103144303254024253",
+ "createdAt": "2026-09-26T05:07:05.023Z",
+ "publishedAt": "2026-09-26T05:07:04.971Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "e8f5520a-5a54-4059-9188-758d6ddb1740",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/74889d15-17e6-4c7d-be34-6c66a3e2e31d.mp4",
+   "posterUrl": "https://media.inspora.design/posts/ad27dc2c-643d-452d-8e50-d439de194539.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 498166,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/facf434d-18b3-4c47-8648-cea6dd810e94.mp4",
+    "bytes": 432889,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/facf434d-18b3-4c47-8648-cea6dd810e94.mp4"
+   },
+   "alt": "aeJxNJaMJzL0RQjt",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

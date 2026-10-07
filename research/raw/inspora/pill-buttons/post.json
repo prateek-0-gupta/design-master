@@ -1,0 +1,56 @@
+{
+ "id": "557f763b-7135-4af9-898f-e61fdfc12f2a",
+ "slug": "pill-buttons",
+ "title": "pill buttons",
+ "creator": {
+  "id": "75032afe-d5b5-4a52-97c4-ca0c7fc2c7a0",
+  "name": "@wherescz",
+  "handle": "@wherescz",
+  "url": "https://x.com/wherescz",
+  "avatarUrl": "https://media.inspora.design/creators/6d52a3cb-c5ee-47f8-ae58-2bd0144cfd10.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Compact pill buttons that smoothly expand into detailed cards with blur, fade, and scale.",
+ "category": "Product",
+ "industries": [
+  "SaaS",
+  "Travel",
+  "Fintech"
+ ],
+ "colors": [
+  "Black",
+  "Off-white"
+ ],
+ "styles": [
+  "Minimal"
+ ],
+ "sourceUrl": "https://x.com/wherescz/status/2100473433897222224",
+ "createdAt": "2026-09-18T05:24:51.929Z",
+ "publishedAt": "2026-09-18T05:24:51.876Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "f4be661e-b2de-4099-abef-345fd25d8e0e",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/b2909ab7-5353-4fc0-b009-daccd391ced6.mp4",
+   "posterUrl": "https://media.inspora.design/posts/c9f255e1-463e-47b3-bb17-d3b4fad31f7a.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 6083712,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/07e91691-4a33-4180-8208-8ababe0f94a0.mp4",
+    "bytes": 2167104,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/07e91691-4a33-4180-8208-8ababe0f94a0.mp4"
+   },
+   "alt": "qjbYjuFIVrx0MJT",
+   "width": 1920,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

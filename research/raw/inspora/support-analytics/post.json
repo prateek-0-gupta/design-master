@@ -1,0 +1,55 @@
+{
+ "id": "66ad5e62-5e19-4e1e-ba64-359780a73ffc",
+ "slug": "support-analytics",
+ "title": "Support analytics",
+ "creator": {
+  "id": "c87a6d67-4f80-43ae-8325-75dae0a423a8",
+  "name": "Maxim Kuznetsov",
+  "handle": "@disarto_max",
+  "url": "https://x.com/disarto_max",
+  "avatarUrl": "https://media.inspora.design/creators/5dcebd3d-54d3-4465-9ee7-7519fec93644.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A dark, polished support-analytics dashboard demo with ticket charts, channel filters, SLA metrics, and smooth interactions.",
+ "category": "Product",
+ "industries": [
+  "SaaS"
+ ],
+ "colors": [
+  "Dark",
+  "green",
+  "white"
+ ],
+ "styles": [
+  "Minimal"
+ ],
+ "sourceUrl": "https://x.com/disarto_max/status/2099609107787337930",
+ "createdAt": "2026-09-15T08:00:05.923Z",
+ "publishedAt": "2026-09-15T08:00:05.777Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "e16b9a0f-7f12-4a0b-ba29-5df397f7c511",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/ab7dd26f-20c5-4b8b-a8e4-f7c7420c7b49.mp4",
+   "posterUrl": "https://media.inspora.design/posts/5e5047b0-a58c-47b0-869a-62490f1c0a6f.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 6625294,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/87c01249-5e00-49c2-8cae-2d860397b598.mp4",
+    "bytes": 1060805,
+    "width": 1080,
+    "format": "mp4",
+    "height": 676,
+    "storageKey": "posts/87c01249-5e00-49c2-8cae-2d860397b598.mp4"
+   },
+   "alt": "XmLNkGyy55f qaq4",
+   "width": 3024,
+   "height": 1896,
+   "position": 0
+  }
+ ]
+}

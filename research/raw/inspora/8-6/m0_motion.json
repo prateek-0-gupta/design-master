@@ -1,0 +1,73 @@
+{
+ "meta": {
+  "width": 1080,
+  "height": 1080,
+  "fps": 60.0,
+  "duration": 12.5,
+  "codec": "h264"
+ },
+ "frame_times": [
+  0.69,
+  2.08,
+  3.47,
+  4.86,
+  6.25,
+  7.64,
+  9.03,
+  10.42,
+  11.81
+ ],
+ "profile": {
+  "sample_fps": 30,
+  "threshold": 1.45,
+  "motion_fraction": 0.22,
+  "mean_energy": 1.32,
+  "p95_energy": 7.27,
+  "first_last_diff": 3.6,
+  "seamless_loop_likely": false,
+  "segments": [
+   {
+    "start": 1.2,
+    "end": 1.43,
+    "duration": 0.23,
+    "peak_at": 0.21,
+    "energy_cv": 0.37,
+    "shape": "ease-out (fast start)"
+   },
+   {
+    "start": 2.9,
+    "end": 3.97,
+    "duration": 1.07,
+    "peak_at": 0.42,
+    "energy_cv": 0.54,
+    "shape": "ease-in-out (symmetric)"
+   },
+   {
+    "start": 5.57,
+    "end": 6.03,
+    "duration": 0.47,
+    "peak_at": 0.25,
+    "energy_cv": 0.49,
+    "shape": "ease-out (fast start)"
+   },
+   {
+    "start": 9.77,
+    "end": 10.07,
+    "duration": 0.3,
+    "peak_at": 0.17,
+    "energy_cv": 0.35,
+    "shape": "ease-out (fast start)"
+   },
+   {
+    "start": 10.93,
+    "end": 11.7,
+    "duration": 0.77,
+    "peak_at": 0.67,
+    "energy_cv": 0.42,
+    "shape": "ease-in (slow start)"
+   }
+  ],
+  "segment_count": 5,
+  "median_segment_s": 0.47
+ }
+}

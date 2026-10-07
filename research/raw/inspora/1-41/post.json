@@ -1,0 +1,47 @@
+{
+ "id": "2da0c04d-a880-4009-822d-14c939af349e",
+ "slug": "1-41",
+ "title": "A country picker",
+ "creator": {
+  "id": "19d66bfc-52f1-484e-ba8e-92775f92aaa2",
+  "name": "@ozzyxs1a",
+  "handle": "@ozzyxs1a",
+  "url": "https://x.com/ozzyxs1a",
+  "avatarUrl": "https://media.inspora.design/creators/49c0b27c-3849-4f89-9a63-47ac1849eff6.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "a country picker",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/ozzyxs1a/status/2074723991835566303",
+ "createdAt": "2026-08-25T11:38:17.099Z",
+ "publishedAt": "2026-08-25T11:38:16.952Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "df19e5f4-60fe-4795-9036-a73a6118a0ba",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/eb0616e8-573f-4b78-933f-02a3ce958329.mp4",
+   "posterUrl": "https://media.inspora.design/posts/90c563f0-1de7-4182-baec-01fe1cf9b42c.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1166272,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/b4783326-9b93-4649-b5da-6fe8128df602.mp4",
+    "bytes": 227161,
+    "width": 1080,
+    "format": "mp4",
+    "height": 620,
+    "storageKey": "posts/b4783326-9b93-4649-b5da-6fe8128df602.mp4"
+   },
+   "alt": "vUYoztFxGbN0yguo",
+   "width": 2410,
+   "height": 1384,
+   "position": 0
+  }
+ ]
+}

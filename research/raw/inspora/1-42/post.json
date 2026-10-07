@@ -1,0 +1,47 @@
+{
+ "id": "48972d07-469c-4079-9c98-c73594873556",
+ "slug": "1-42",
+ "title": "Morphing braille loader",
+ "creator": {
+  "id": "73d76871-4a5f-4da3-b894-91157e63330c",
+  "name": "@kianbazza",
+  "handle": "@kianbazza",
+  "url": "https://x.com/kianbazza",
+  "avatarUrl": "https://media.inspora.design/creators/5c5c46aa-f293-4515-a2f6-5234ed5fa50b.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Morphing braille loader for async item creation",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/kianbazza/status/2023881894920937728",
+ "createdAt": "2026-08-25T16:02:18.115Z",
+ "publishedAt": "2026-08-25T16:02:18.064Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "5a5ab5c5-eba2-4902-b654-fbaeff9bf69c",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/5b19f6dd-f337-4b72-813c-36ed98ae19d6.mp4",
+   "posterUrl": "https://media.inspora.design/posts/09262efd-707b-43b3-a05f-515146d529f9.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 978422,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/bd3e230a-0a7d-4700-8171-12f69d94d173.mp4",
+    "bytes": 380862,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1029,
+    "storageKey": "posts/bd3e230a-0a7d-4700-8171-12f69d94d173.mp4"
+   },
+   "alt": "EpDlcAQ8kd5 LIGj",
+   "width": 2268,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

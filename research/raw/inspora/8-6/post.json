@@ -1,0 +1,47 @@
+{
+ "id": "534a62e7-f5e3-4b2b-a134-f7b003c86e66",
+ "slug": "8-6",
+ "title": "Invoices style",
+ "creator": {
+  "id": "26d7f383-5a84-4f33-bb37-59e5158ea0b4",
+  "name": "@proskuaaa",
+  "handle": "@proskuaaa",
+  "url": "https://x.com/proskuaaa",
+  "avatarUrl": "https://media.inspora.design/creators/eceeafd4-7180-454d-812f-1e0260c41c80.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Invoices style",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/proskuaaa/status/2059284420599914974",
+ "createdAt": "2026-08-17T06:52:06.358Z",
+ "publishedAt": "2026-08-17T06:52:05.835Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "042e8ab4-5cc9-4216-a77b-13faad55bbf4",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/12c8a853-1559-407a-97e1-cf792f7aa0a4.mp4",
+   "posterUrl": "https://media.inspora.design/posts/2aa5f4c9-e03c-494d-bea1-91a1a7642b8b.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 993313,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/042e8ab4-5cc9-4216-a77b-13faad55bbf4.mp4",
+    "bytes": 1465597,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/previews/042e8ab4-5cc9-4216-a77b-13faad55bbf4.mp4"
+   },
+   "alt": "@proskuaaa 2059284420599914974 1080p",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

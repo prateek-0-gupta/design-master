@@ -1,0 +1,47 @@
+{
+ "id": "ae10f670-20c7-488b-8bef-7018b9c69cfc",
+ "slug": "boarding-pass-printer",
+ "title": "boarding pass printer",
+ "creator": {
+  "id": "58f0fc07-f07e-4694-916d-b4f0aa17b56d",
+  "name": "Damir Sokolovsky",
+  "handle": "@heydamir",
+  "url": "https://x.com/heydamir",
+  "avatarUrl": "https://media.inspora.design/creators/6de6dbb5-b4aa-4bbd-9050-e04ce47826ea.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "boarding pass printer",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/heydamir/status/2094779813072363554",
+ "createdAt": "2026-09-03T02:10:22.476Z",
+ "publishedAt": "2026-09-03T02:10:22.227Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "fc95cdd8-5e20-499b-9587-2a25556be96c",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/04006e6a-3677-4fe5-8239-a319a4797052.mp4",
+   "posterUrl": "https://media.inspora.design/posts/2b3a26d6-5a30-425a-8845-2dc8985768c8.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2777079,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/e2700785-6e0e-487d-b5cd-cc89bac1ed6d.mp4",
+    "bytes": 1630554,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1874,
+    "storageKey": "posts/e2700785-6e0e-487d-b5cd-cc89bac1ed6d.mp4"
+   },
+   "alt": "59AMXGr0CiRoFPMs",
+   "width": 1244,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "id": "80309b26-2881-4a25-9362-bc6310d0b1b3",
+ "slug": "enter-the-unknown",
+ "title": "Enter the Unknown",
+ "creator": {
+  "id": "701c5098-e52b-4136-8435-417292106c8b",
+  "name": "cem hasimi",
+  "handle": "@cemhah",
+  "url": "https://x.com/cemhah",
+  "avatarUrl": "https://media.inspora.design/creators/051a53aa-980d-4da4-82ad-6ea83b0eacd2.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A line-drawn figure in a box blasting colorful particles into a dotted black tunnel.",
+ "category": "Illustration",
+ "industries": [
+  "Digital art",
+  "NFT"
+ ],
+ "colors": [
+  "Black",
+  "white"
+ ],
+ "styles": [
+  "Abstract",
+  "minimal line"
+ ],
+ "sourceUrl": "https://x.com/cemhah/status/1725922786466525660",
+ "createdAt": "2026-09-20T12:55:09.097Z",
+ "publishedAt": "2026-09-20T12:55:09.045Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "99c300d1-2633-47e5-9c47-b52dea43f38b",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/3f73282a-23e9-4d98-9b0f-c288c75893af.mp4",
+   "posterUrl": "https://media.inspora.design/posts/bd44df67-641e-42af-8044-7c4f2883107d.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 826684,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/7c3b3fa2-922c-4b32-a0d2-39f286a66535.mp4",
+    "bytes": 3233029,
+    "width": 1080,
+    "format": "mp4",
+    "height": 832,
+    "storageKey": "posts/7c3b3fa2-922c-4b32-a0d2-39f286a66535.mp4"
+   },
+   "alt": "F O1lQbXAAAPnFY",
+   "width": 1280,
+   "height": 986,
+   "position": 0
+  }
+ ]
+}

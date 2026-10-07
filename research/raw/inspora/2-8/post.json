@@ -1,0 +1,47 @@
+{
+ "id": "cb0e4a1b-e5ae-4ff6-85ab-1784056f90b6",
+ "slug": "2-8",
+ "title": "AI Motion",
+ "creator": {
+  "id": "e09dbf22-7ab0-4d4c-bf11-f28b33d0ab1a",
+  "name": "@__causasui",
+  "handle": "@__causasui",
+  "url": "https://x.com/__causasui",
+  "avatarUrl": "https://media.inspora.design/creators/d11660cb-8d37-4d9e-b5a2-a9958f438c26.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Blending classical visual reference with glitchy AI-inference aesthetics.",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/__causasui/status/2042632462548050088",
+ "createdAt": "2026-08-08T01:20:06.996Z",
+ "publishedAt": "2026-08-08T01:20:06.753Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "ab267d15-b45b-4f0d-8efa-d96705eeff13",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/a37fad59-6ca6-4d93-b9e7-05531a5fa198.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d7c2477c-445a-40c3-b290-1cb95685de95.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 764081,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/ab267d15-b45b-4f0d-8efa-d96705eeff13.mp4",
+    "bytes": 762857,
+    "width": 700,
+    "format": "mp4",
+    "height": 700,
+    "storageKey": "posts/previews/ab267d15-b45b-4f0d-8efa-d96705eeff13.mp4"
+   },
+   "alt": "ssstwitter.com 1786151801439",
+   "width": 700,
+   "height": 700,
+   "position": 0
+  }
+ ]
+}

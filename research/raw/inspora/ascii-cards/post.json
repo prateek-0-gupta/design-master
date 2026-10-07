@@ -1,0 +1,47 @@
+{
+ "id": "f8790e75-1de3-4649-9dd3-71a9105ea94d",
+ "slug": "ascii-cards",
+ "title": "ASCII cards",
+ "creator": {
+  "id": "de55c6c8-c670-4299-99ae-c66c44e060f3",
+  "name": "Praveen Kumar",
+  "handle": "@praveenisomer",
+  "url": "https://x.com/praveenisomer",
+  "avatarUrl": "https://media.inspora.design/creators/6609e34d-822c-4577-8496-dfbe60160ea6.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "ASCII cards",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/praveenisomer/status/2092222962153697540",
+ "createdAt": "2026-09-07T03:44:47.834Z",
+ "publishedAt": "2026-09-07T03:44:47.682Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "816f14ab-aea5-4742-bcdc-9cd0eb2b643b",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/babe8be1-918b-461a-93e2-b5be96a850c1.mp4",
+   "posterUrl": "https://media.inspora.design/posts/25242704-b4e4-4b21-8bbb-de6a81145cd4.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 4698410,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/7a18d400-ea25-4322-9bcb-3661ae1a7d2f.mp4",
+    "bytes": 2172736,
+    "width": 1080,
+    "format": "mp4",
+    "height": 780,
+    "storageKey": "posts/7a18d400-ea25-4322-9bcb-3661ae1a7d2f.mp4"
+   },
+   "alt": "2aHBJ8RKJyNNSKv5",
+   "width": 1920,
+   "height": 1386,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "id": "1bbee439-56d7-4c0d-a02a-5cc865e3d71e",
+ "slug": "medicine-to-my-soul",
+ "title": "medicine to my soul",
+ "creator": {
+  "id": "701c5098-e52b-4136-8435-417292106c8b",
+  "name": "cem hasimi",
+  "handle": "@cemhah",
+  "url": "https://x.com/cemhah",
+  "avatarUrl": "https://media.inspora.design/creators/051a53aa-980d-4da4-82ad-6ea83b0eacd2.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Artist @cemhah shares a thread of short particle-art animations depicting stages of grief after losing their cat, calling art \u201cmedicine to my soul.",
+ "category": "Illustration",
+ "industries": [
+  "Art",
+  "Animation"
+ ],
+ "colors": [
+  "Dark Blue",
+  "Red"
+ ],
+ "styles": [
+  "Abstraction",
+  "Moving"
+ ],
+ "sourceUrl": "https://x.com/cemhah/status/1807826314339987963",
+ "createdAt": "2026-09-26T05:29:15.403Z",
+ "publishedAt": "2026-09-26T05:29:14.874Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "4c7f9557-eeaf-40db-84bd-5f573bf90a0d",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/92a22cdb-5c0e-4d2f-8ab0-d3c7bd9b198c.mp4",
+   "posterUrl": "https://media.inspora.design/posts/8096e46a-2da9-4f39-bacd-af4f4ee7ed26.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 589794,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/ffb6f662-04d0-4fba-89ed-364a7f39d3a8.mp4",
+    "bytes": 1595080,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/ffb6f662-04d0-4fba-89ed-364a7f39d3a8.mp4"
+   },
+   "alt": "GRaqW1abMAAiEdc",
+   "width": 1280,
+   "height": 1280,
+   "position": 0
+  },
+  {
+   "id": "3bff4072-0d84-4a48-ab29-b31e191c81b5",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/34a71d26-a2c4-4ba2-96e9-3f8000df6cb6.mp4",
+   "posterUrl": "https://media.inspora.design/posts/2e9b05be-7080-4c28-89ab-edc9ea63fa94.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 787444,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/0e638c83-e8b4-4692-bdbb-7313f7d9c59f.mp4",
+    "bytes": 2090607,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/0e638c83-e8b4-4692-bdbb-7313f7d9c59f.mp4"
+   },
+   "alt": "GRaqefDXsAA2EoB",
+   "width": 1280,
+   "height": 1280,
+   "position": 1
+  },
+  {
+   "id": "e2bc2110-aa57-4b8d-88a1-9e05d6ad4ff0",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/5514c968-a6c7-4518-8f4b-509ff0554912.mp4",
+   "posterUrl": "https://media.inspora.design/posts/04a2dbd3-7885-45e2-9fdd-2496e6628c62.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 885568,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/a24824db-3eec-4cad-bc78-08b313d63fb9.mp4",
+    "bytes": 2292632,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/a24824db-3eec-4cad-bc78-08b313d63fb9.mp4"
+   },
+   "alt": "GRaqt6TXgAM5D4",
+   "width": 1280,
+   "height": 1280,
+   "position": 2
+  },
+  {
+   "id": "8315d2ac-dc16-42da-a448-83be0d6d83be",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/435a74b6-5f19-4e5b-9b36-4f6ced9562f9.mp4",
+   "posterUrl": "https://media.inspora.design/posts/31a06d91-a7f7-4efc-acd5-bd5cc9184e27.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 927353,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/40eae744-f0c5-4954-8e21-2346ed2a5824.mp4",
+    "bytes": 2515013,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/40eae744-f0c5-4954-8e21-2346ed2a5824.mp4"
+   },
+   "alt": "GRarCtYb0AMU8V4",
+   "width": 1280,
+   "height": 1280,
+   "position": 3
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "34f2195c-2af7-4b83-852a-eee56c9d1427",
+ "slug": "app-review",
+ "title": "App review",
+ "creator": {
+  "id": "a66ba2ed-b9d3-4ff2-a16d-e0b4b9928f78",
+  "name": "@RobSwish",
+  "handle": "@RobSwish",
+  "url": "https://x.com/RobSwish",
+  "avatarUrl": "https://media.inspora.design/creators/d3aae3da-af3c-4689-89c0-1af379d9592d.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Polished iPhone UI that turns app review into weather: sunny \u201cSent,\u201d rainy \u201cRejected.\u201d",
+ "category": "Motion",
+ "industries": [
+  "Mobile apps"
+ ],
+ "colors": [
+  "Purple",
+  "blue",
+  "navy"
+ ],
+ "styles": [
+  "Cinematic"
+ ],
+ "sourceUrl": "https://x.com/RobSwish/status/2099231722449641749",
+ "createdAt": "2026-09-17T06:06:57.969Z",
+ "publishedAt": "2026-09-17T06:06:57.917Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "75ee6081-117c-46b5-b50f-6cb943fec811",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/0faf5b16-ff38-4237-93c9-2d0c97529c30.mp4",
+   "posterUrl": "https://media.inspora.design/posts/605be05f-371f-47e1-b002-c774d359da3b.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 21671945,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/e2bed39d-8fa6-4b55-a897-fffb38db97c0.mp4",
+    "bytes": 6688565,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/e2bed39d-8fa6-4b55-a897-fffb38db97c0.mp4"
+   },
+   "alt": "wjFwPdofkucIjybB (1)",
+   "width": 2160,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

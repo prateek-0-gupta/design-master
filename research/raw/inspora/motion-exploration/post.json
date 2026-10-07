@@ -1,0 +1,56 @@
+{
+ "id": "15f1af3e-83bd-45a5-aebc-e344ef1fbdee",
+ "slug": "motion-exploration",
+ "title": "Personal brand \u2014 motion exploration",
+ "creator": {
+  "id": "74a9d80b-0c88-4538-af72-10b52543f254",
+  "name": "@iamnotsrc",
+  "handle": "@iamnotsrc",
+  "url": "https://x.com/iamnotsrc",
+  "avatarUrl": "https://media.inspora.design/creators/78cc8004-4fb7-4ac9-a5f5-28161942cf5b.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A glossy icon morphs through scenic textures and logos, then resolves into \u201ciamnotsrc.\u201d",
+ "category": "Branding",
+ "industries": [
+  "personal branding"
+ ],
+ "colors": [
+  "green",
+  "white",
+  "black"
+ ],
+ "styles": [
+  "minimal",
+  "soft blur"
+ ],
+ "sourceUrl": "https://x.com/iamnotsrc/status/1939014685069553830",
+ "createdAt": "2026-09-13T19:44:37.236Z",
+ "publishedAt": "2026-09-13T19:44:37.185Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "d62ef4d2-5b38-4050-9deb-c1c9c20509dc",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/ca0cda93-ad05-4148-8d28-418fe44e2ae4.mp4",
+   "posterUrl": "https://media.inspora.design/posts/484968d1-bb96-4688-be39-e603ecac0e4a.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2556870,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/c408efb2-8c1f-4f3c-b637-53f5cf40a7d5.mp4",
+    "bytes": 1144448,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/c408efb2-8c1f-4f3c-b637-53f5cf40a7d5.mp4"
+   },
+   "alt": "ukLwI1YDFqumg l5 (1)",
+   "width": 1920,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

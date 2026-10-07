@@ -1,5 +1,10 @@
-# Third-party copyrighted material captured for research only
-research/raw/
+# Raw captures are committed (images, metadata, extracted text) except bulky/duplicate sources:
+research/raw/**/*.pdf
+research/raw/**/*.part
+research/raw/**/*.html
+research/raw/**/*.css
+research/raw/**/shots/
+research/raw/probe/
 node_modules/
-*.log
 __pycache__/
+*.log

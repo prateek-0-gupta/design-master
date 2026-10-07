@@ -1,0 +1,47 @@
+{
+ "id": "0d1f25bb-ce9d-4286-8176-e9c51c31fff7",
+ "slug": "1-35",
+ "title": "Print Receipt",
+ "creator": {
+  "id": "784bdadf-6bdb-44e9-a33d-eb09aa817032",
+  "name": "@jeetnirnejak",
+  "handle": "@jeetnirnejak",
+  "url": "https://x.com/jeetnirnejak/status/2088251238530105638",
+  "avatarUrl": "https://media.inspora.design/creators/fd89532e-8a58-45ed-b2f2-dcd63a0e1530.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Print Receipt Component",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/jeetnirnejak/status/2056007595400527987",
+ "createdAt": "2026-08-24T11:38:20.609Z",
+ "publishedAt": "2026-08-24T11:38:20.081Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "afc9c9ac-4a9c-4a24-b7f0-119160f585f1",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/08a5bf4f-6659-4d27-8dac-87c3fb638891.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d8b73e6d-e688-4303-9a28-91aba2f79bb2.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 270572,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/afc9c9ac-4a9c-4a24-b7f0-119160f585f1.mp4",
+    "bytes": 211118,
+    "width": 1080,
+    "format": "mp4",
+    "height": 852,
+    "storageKey": "posts/previews/afc9c9ac-4a9c-4a24-b7f0-119160f585f1.mp4"
+   },
+   "alt": "J1tkpQpyuCuEQegI (1)",
+   "width": 1924,
+   "height": 1518,
+   "position": 0
+  }
+ ]
+}

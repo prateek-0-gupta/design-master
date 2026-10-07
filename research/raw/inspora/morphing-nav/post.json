@@ -1,0 +1,47 @@
+{
+ "id": "0296e573-b243-4266-9b79-75e9f0415c92",
+ "slug": "morphing-nav",
+ "title": "morphing nav bar",
+ "creator": {
+  "id": "4c8cfdbd-5361-494f-8ec9-06660698e6d1",
+  "name": "@renzobianchi_",
+  "handle": "@renzobianchi_",
+  "url": "https://x.com/renzobianchi_",
+  "avatarUrl": "https://media.inspora.design/creators/1f0a5d2c-e281-48fb-8590-c7c9cfe9ef73.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "a morphing nav as a tiny lab.",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/renzobianchi_/status/2097400239162351924",
+ "createdAt": "2026-09-09T05:57:15.021Z",
+ "publishedAt": "2026-09-09T05:57:14.972Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "def82431-17dd-4bab-9733-163072ed3e37",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/bf58853c-c9a4-4c75-b1cb-bcaef1118f42.mp4",
+   "posterUrl": "https://media.inspora.design/posts/57aa980b-1203-44fc-b61a-a003f1329ca6.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 4224565,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/51b2d68a-abc4-4046-a84b-c67a9608efab.mp4",
+    "bytes": 1981508,
+    "width": 1080,
+    "format": "mp4",
+    "height": 774,
+    "storageKey": "posts/51b2d68a-abc4-4046-a84b-c67a9608efab.mp4"
+   },
+   "alt": "rm42ccsNGVZZMQc8",
+   "width": 1840,
+   "height": 1320,
+   "position": 0
+  }
+ ]
+}

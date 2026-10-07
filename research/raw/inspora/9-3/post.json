@@ -1,0 +1,47 @@
+{
+ "id": "444ca032-e0c6-4423-9738-5162f2dfb7ca",
+ "slug": "9-3",
+ "title": "Retro CRT",
+ "creator": {
+  "id": "c7bc566e-bd7d-4111-9751-4f7ea7f7945a",
+  "name": "@bartuiux",
+  "handle": "@bartuiux",
+  "url": "https://x.com/bartuiux",
+  "avatarUrl": "https://media.inspora.design/creators/bdf510ad-04d1-4b1b-b7cd-08165e0a838e.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Retro CRT",
+ "category": "Illustration",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/bartuiux/status/2060345468131963179",
+ "createdAt": "2026-08-18T15:45:24.265Z",
+ "publishedAt": "2026-08-18T15:45:24.022Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "bc387e4f-db26-4470-a147-84c5546d4368",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/0703e2af-d03d-406c-bec0-ccd36c0d166d.mp4",
+   "posterUrl": "https://media.inspora.design/posts/39974090-509f-44d1-91a3-c5d723edadc3.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 153035,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/bc387e4f-db26-4470-a147-84c5546d4368.mp4",
+    "bytes": 151777,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/previews/bc387e4f-db26-4470-a147-84c5546d4368.mp4"
+   },
+   "alt": "V8OadpU3Ku89 V7R",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

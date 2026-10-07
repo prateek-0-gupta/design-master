@@ -1,0 +1,55 @@
+{
+ "id": "b4ec7720-d37c-49d9-876a-c469f822a982",
+ "slug": "hypnotizing-ui",
+ "title": "hypnotizing UI",
+ "creator": {
+  "id": "aff57299-b575-4e00-a37a-f40d92022d1b",
+  "name": "@k_grajeda",
+  "handle": "@k_grajeda",
+  "url": "https://x.com/k_grajeda",
+  "avatarUrl": "https://media.inspora.design/creators/f268bcde-b44d-4495-8975-0cb73c14ae25.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A hypnotic notch HUD animating an AI as it reads files, thinks, and builds a prototype.",
+ "category": "Motion",
+ "industries": [
+  "AI"
+ ],
+ "colors": [
+  "Cream",
+  "black",
+  "glow"
+ ],
+ "styles": [
+  "Hypnotic"
+ ],
+ "sourceUrl": "https://x.com/k_grajeda/status/2008640405886382541",
+ "createdAt": "2026-09-21T06:01:10.403Z",
+ "publishedAt": "2026-09-21T06:01:10.162Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "c702e460-c776-4c06-aa49-a5fc537d148f",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/9f9a0da6-f2fd-469e-b789-822d5a40b79c.mp4",
+   "posterUrl": "https://media.inspora.design/posts/69ff99fa-4e0d-4002-ac8f-c8152acbada0.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1891964,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/8a30161b-2be4-4210-a48b-ff8246a3eee5.mp4",
+    "bytes": 700923,
+    "width": 1080,
+    "format": "mp4",
+    "height": 878,
+    "storageKey": "posts/8a30161b-2be4-4210-a48b-ff8246a3eee5.mp4"
+   },
+   "alt": "wIhyrMnhDaPi9aRn",
+   "width": 2038,
+   "height": 1658,
+   "position": 0
+  }
+ ]
+}

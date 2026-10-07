@@ -1,0 +1,47 @@
+{
+ "id": "7e7223c8-6b7a-4db6-bcb6-f5e4b7f77ef5",
+ "slug": "orb-interation",
+ "title": "Orb  interaction",
+ "creator": {
+  "id": "830280b9-931e-4b63-b74f-6ca8cea13443",
+  "name": "@vanjek",
+  "handle": "@vanjek",
+  "url": "https://x.com/vanjek",
+  "avatarUrl": "https://media.inspora.design/creators/146fbf40-f986-4ba7-9391-bce30535e061.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Orb  interaction",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/vanjek/status/2090399194096005618",
+ "createdAt": "2026-08-30T04:43:29.184Z",
+ "publishedAt": "2026-08-30T04:43:28.933Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "dad2f245-4de0-4f59-aa41-43790a23528b",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/0f63c0a7-54a8-4a64-806c-f4cbc3740c4a.mp4",
+   "posterUrl": "https://media.inspora.design/posts/0f05287e-aa8c-4456-9c3e-06a13966d2a0.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1435341,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/eb99945c-cb2a-47cc-8a27-889b265c3348.mp4",
+    "bytes": 552230,
+    "width": 1080,
+    "format": "mp4",
+    "height": 806,
+    "storageKey": "posts/eb99945c-cb2a-47cc-8a27-889b265c3348.mp4"
+   },
+   "alt": "s4brgGfaMTNalJqg (1)",
+   "width": 1282,
+   "height": 958,
+   "position": 0
+  }
+ ]
+}

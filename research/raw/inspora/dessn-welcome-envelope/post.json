@@ -1,0 +1,59 @@
+{
+ "id": "4f712abc-ceaf-4684-a16c-35957184a5e5",
+ "slug": "dessn-welcome-envelope",
+ "title": "DESSN welcome envelope",
+ "creator": {
+  "id": "fd263c63-6b6e-47fb-aa07-048017e407d5",
+  "name": "@eminimnim",
+  "handle": "@eminimnim",
+  "url": "https://x.com/eminimnim",
+  "avatarUrl": "https://media.inspora.design/creators/24dec2d4-cf4a-4d31-825f-10e7146bebef.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "DESSN welcome envelope being sealed with a glossy, flower-shaped wax stamp.",
+ "category": "Motion",
+ "industries": [
+  "Design",
+  "branding",
+  "tech"
+ ],
+ "colors": [
+  "Green",
+  "teal",
+  "orange"
+ ],
+ "styles": [
+  "Clean",
+  "organic",
+  "3D"
+ ],
+ "sourceUrl": "https://x.com/eminimnim/status/2102147385237389413?s=52",
+ "createdAt": "2026-09-22T15:41:28.662Z",
+ "publishedAt": "2026-09-22T15:41:28.610Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "34283648-b60f-4dde-b100-f2f455a613cf",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/296e8574-1299-4628-b9c2-9f1857c44975.mp4",
+   "posterUrl": "https://media.inspora.design/posts/c4b16315-f4d5-496b-9466-8dd328f34c8f.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 488371,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/cf0f4d4c-5971-4d62-a66b-11931c132cd9.mp4",
+    "bytes": 1227704,
+    "width": 768,
+    "format": "mp4",
+    "height": 432,
+    "storageKey": "posts/cf0f4d4c-5971-4d62-a66b-11931c132cd9.mp4"
+   },
+   "alt": "xmoJzEaMKUsLqTLK",
+   "width": 768,
+   "height": 432,
+   "position": 0
+  }
+ ]
+}

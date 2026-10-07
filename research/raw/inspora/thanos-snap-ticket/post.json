@@ -1,0 +1,57 @@
+{
+ "id": "4df94653-a8d0-46f8-9fb2-144e89b32dc2",
+ "slug": "thanos-snap-ticket",
+ "title": "Thanos snap ticket",
+ "creator": {
+  "id": "f5878226-a1d7-4f24-8cb3-8eb5b09a1688",
+  "name": "Rehan Ahmed",
+  "handle": "@rehanxahmed",
+  "url": "https://x.com/rehanxahmed",
+  "avatarUrl": "https://media.inspora.design/creators/7fb5d019-6a8a-419c-a6c9-56d2a13c7d96.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "OS train-journey app demo where the Tokyo\u2013Kyoto Shinkansen ticket UI snaps away into particles like a Thanos disintegration.",
+ "category": "Motion",
+ "industries": [
+  "Travel"
+ ],
+ "colors": [
+  "White",
+  "Black",
+  "Pink"
+ ],
+ "styles": [
+  "Minimal",
+  "iOS",
+  "Illustrated"
+ ],
+ "sourceUrl": "https://x.com/rehanxahmed/status/2103826960686436759",
+ "createdAt": "2026-10-01T05:38:13.261Z",
+ "publishedAt": "2026-10-01T05:38:12.732Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "c1b37f77-f85d-427c-aea5-c6d9d717b065",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/9716faa0-fc4d-4e03-9111-508ca55c3446.mp4",
+   "posterUrl": "https://media.inspora.design/posts/0b14b744-a2da-4f6a-8cf0-9d57205a30d4.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 4090553,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/e2ebb326-bf9b-4168-9fec-72a18501cd37.mp4",
+    "bytes": 1845837,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/e2ebb326-bf9b-4168-9fec-72a18501cd37.mp4"
+   },
+   "alt": "UTvhYhA6RRTUc0fb",
+   "width": 2000,
+   "height": 2000,
+   "position": 0
+  }
+ ]
+}

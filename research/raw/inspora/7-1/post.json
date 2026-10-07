@@ -1,0 +1,47 @@
+{
+ "id": "327520cb-a5c4-4cb7-8eab-af60df0a41ec",
+ "slug": "7-1",
+ "title": "Button motion",
+ "creator": {
+  "id": "b5b20b76-a6ef-4494-a369-6f8b0ab671ac",
+  "name": "Brett",
+  "handle": "@BrettFromDJ",
+  "url": "https://x.com/BrettFromDJ",
+  "avatarUrl": "https://media.inspora.design/creators/6083f22e-39b4-4295-a368-b3123b86de44.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Button motion",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/BrettFromDJ/status/2072696308536685044",
+ "createdAt": "2026-08-15T09:55:09.471Z",
+ "publishedAt": "2026-08-15T09:55:08.934Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "b36d70cb-3932-49e3-b860-cec6759c1aec",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/58b1baad-3e1b-4be5-ac27-a4e533dd1150.mp4",
+   "posterUrl": "https://media.inspora.design/posts/b8b3f10b-585e-4a75-b568-86a20ddc259e.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1251535,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/b36d70cb-3932-49e3-b860-cec6759c1aec.mp4",
+    "bytes": 476440,
+    "width": 1080,
+    "format": "mp4",
+    "height": 768,
+    "storageKey": "posts/previews/b36d70cb-3932-49e3-b860-cec6759c1aec.mp4"
+   },
+   "alt": "9GKCbgo5MhX iHAD",
+   "width": 1920,
+   "height": 1365,
+   "position": 0
+  }
+ ]
+}

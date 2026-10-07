@@ -1,0 +1,58 @@
+{
+ "id": "ecfb3570-7279-40c0-ac70-d77874730a11",
+ "slug": "color-text-in-notes",
+ "title": "color text in Notes",
+ "creator": {
+  "id": "58f0fc07-f07e-4694-916d-b4f0aa17b56d",
+  "name": "Damir Sokolovsky",
+  "handle": "@heydamir",
+  "url": "https://x.com/heydamir",
+  "avatarUrl": "https://media.inspora.design/creators/6de6dbb5-b4aa-4bbd-9050-e04ce47826ea.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "a Notes-style color picker that recolors selected text",
+ "category": "Motion",
+ "industries": [
+  "Notes app"
+ ],
+ "colors": [
+  "Pink",
+  "Green",
+  "Purple",
+  "Yellow"
+ ],
+ "styles": [
+  "Dark theme",
+  "Color picker",
+  "Highlighted text"
+ ],
+ "sourceUrl": "https://x.com/heydamir/status/2106779932659470606",
+ "createdAt": "2026-10-06T03:49:03.955Z",
+ "publishedAt": "2026-10-06T03:49:03.805Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "85721bed-e5e5-4986-af3f-580772f9156a",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/3189baba-24cf-4df9-96e6-06d98c6e408a.mp4",
+   "posterUrl": "https://media.inspora.design/posts/105273d2-2282-4f3d-95f9-e0bc839611d6.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 7459330,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/2620049a-9317-475d-b03f-656fd5aadd3c.mp4",
+    "bytes": 2991794,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1296,
+    "storageKey": "posts/2620049a-9317-475d-b03f-656fd5aadd3c.mp4"
+   },
+   "alt": "Fw mY0TIvWoodX5Q",
+   "width": 1800,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

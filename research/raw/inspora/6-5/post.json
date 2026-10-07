@@ -1,0 +1,47 @@
+{
+ "id": "1abc09e3-9881-4a62-8529-62a37a0ac7f8",
+ "slug": "6-5",
+ "title": "Liquid metal",
+ "creator": {
+  "id": "b5b20b76-a6ef-4494-a369-6f8b0ab671ac",
+  "name": "Brett",
+  "handle": "@BrettFromDJ",
+  "url": "https://x.com/BrettFromDJ",
+  "avatarUrl": "https://media.inspora.design/creators/6083f22e-39b4-4295-a368-b3123b86de44.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Liquid metal",
+ "category": "Illustration",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/BrettFromDJ/status/2074924933918892124",
+ "createdAt": "2026-08-14T16:06:31.535Z",
+ "publishedAt": "2026-08-14T16:06:31.484Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "8f11d420-0bcf-4912-927c-2089bfde0e04",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/a468c479-19ed-434c-937a-3a72bee62bf3.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d70d6065-b6de-4961-b8e5-04c33acef7f3.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 98614,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/8f11d420-0bcf-4912-927c-2089bfde0e04.mp4",
+    "bytes": 71884,
+    "width": 1080,
+    "format": "mp4",
+    "height": 768,
+    "storageKey": "posts/previews/8f11d420-0bcf-4912-927c-2089bfde0e04.mp4"
+   },
+   "alt": "3GIiVQs3PSlQfMVP",
+   "width": 1440,
+   "height": 1024,
+   "position": 0
+  }
+ ]
+}

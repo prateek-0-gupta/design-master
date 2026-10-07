@@ -1,0 +1,47 @@
+{
+ "id": "c6539493-c0f6-4682-9794-e75caffdf3ca",
+ "slug": "3-5",
+ "title": "Notification Cards",
+ "creator": {
+  "id": "942a7639-a0b1-42b2-af54-d10af8d15d61",
+  "name": "@its_sslvr",
+  "handle": "@its_sslvr",
+  "url": "https://x.com/its_sslvr",
+  "avatarUrl": "https://media.inspora.design/creators/e0160478-87a8-4e41-865b-5b9c50d81f0c.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Gradient Notification Cards",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/its_sslvr/status/2081967890589450714",
+ "createdAt": "2026-08-08T18:59:56.133Z",
+ "publishedAt": "2026-08-08T18:59:55.609Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "41e97466-2d61-4087-9ea3-5099b6318d0c",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/3f23aaff-204e-4af3-97cf-cea19e69f085.mp4",
+   "posterUrl": "https://media.inspora.design/posts/db31f525-0ae5-4735-a5ba-a6a4dcbde0af.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 652336,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/41e97466-2d61-4087-9ea3-5099b6318d0c.mp4",
+    "bytes": 238166,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/previews/41e97466-2d61-4087-9ea3-5099b6318d0c.mp4"
+   },
+   "alt": "XxLxbQ35t1Kq1aS (2)",
+   "width": 1920,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

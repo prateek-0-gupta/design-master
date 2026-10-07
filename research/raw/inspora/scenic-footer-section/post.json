@@ -1,0 +1,58 @@
+{
+ "id": "0bdaa83b-edb4-439f-89c2-e4a78745301a",
+ "slug": "scenic-footer-section",
+ "title": "Scenic Footer Section",
+ "creator": {
+  "id": "b01dafb8-8cc7-4c98-be69-518c0ad39eb4",
+  "name": "elaya",
+  "handle": "@elayadesigns",
+  "url": "https://x.com/elayadesigns",
+  "avatarUrl": "https://media.inspora.design/creators/9af08497-6cd5-418f-b99a-ac79d8210338.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Footer section blending an illustrated natural landscape with elegant navigation and a sophisticated editorial-inspired web layout",
+ "category": "Web",
+ "industries": [
+  "SaaS",
+  "Tech"
+ ],
+ "colors": [
+  "Blue",
+  "Cream",
+  "Navy"
+ ],
+ "styles": [
+  "Classic",
+  "Illustrated",
+  "Elegant"
+ ],
+ "sourceUrl": "https://x.com/elayadesigns/status/2101943446789673427",
+ "createdAt": "2026-09-22T08:51:18.043Z",
+ "publishedAt": "2026-09-22T08:51:17.705Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "e759ea4c-2e42-4189-90ad-420160396286",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/55bc250f-af52-45c4-824d-c8d60837aba6.mp4",
+   "posterUrl": "https://media.inspora.design/posts/eb839c4b-842c-4944-9e3f-59dd78568f12.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 760970,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/a81b0ddb-e6c9-438d-9d74-91303478905a.mp4",
+    "bytes": 1399981,
+    "width": 1044,
+    "format": "mp4",
+    "height": 720,
+    "storageKey": "posts/a81b0ddb-e6c9-438d-9d74-91303478905a.mp4"
+   },
+   "alt": "iYgXzIiyvlvhagyz",
+   "width": 1044,
+   "height": 720,
+   "position": 0
+  }
+ ]
+}

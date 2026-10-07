@@ -1,0 +1,47 @@
+{
+ "id": "6f5a35c4-fbfd-4901-9e1e-bfbabf35d65d",
+ "slug": "task-card",
+ "title": "Task Card",
+ "creator": {
+  "id": "f88a1d7f-711a-42f8-8729-82dbc2a409c2",
+  "name": "@adriankuleszo",
+  "handle": "@adriankuleszo",
+  "url": "https://x.com/adriankuleszo",
+  "avatarUrl": "https://media.inspora.design/creators/60ed1ff8-231f-47ee-b996-0f8dfabb3ff7.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Swipe through your daily tasks, set reminders, delegate options.",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/adriankuleszo/status/2094402386383208575",
+ "createdAt": "2026-09-11T07:22:37.301Z",
+ "publishedAt": "2026-09-11T07:22:37.154Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "a79e3a4e-211a-4e27-8aee-a386e8415521",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/064cccc0-d6e2-42b0-bcd7-26d3722ed6e2.mp4",
+   "posterUrl": "https://media.inspora.design/posts/633c9881-e0ac-4fa2-9fd0-9b977e33083f.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 383661,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/5bd7cdbd-27bf-462a-a3ee-02a95a93348b.mp4",
+    "bytes": 341843,
+    "width": 960,
+    "format": "mp4",
+    "height": 720,
+    "storageKey": "posts/5bd7cdbd-27bf-462a-a3ee-02a95a93348b.mp4"
+   },
+   "alt": "vcdSe6h6WrnbnoMC",
+   "width": 960,
+   "height": 720,
+   "position": 0
+  }
+ ]
+}

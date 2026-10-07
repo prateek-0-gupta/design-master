@@ -1,0 +1,57 @@
+{
+ "id": "a74c5b00-4334-4352-9f16-96a6e88410ea",
+ "slug": "the-lord-of-horses",
+ "title": "The Lord of Horses.",
+ "creator": {
+  "id": "c5c0813e-e8e4-475f-a667-68e4aa475881",
+  "name": "@krispuckett",
+  "handle": "@krispuckett",
+  "url": "https://x.com/krispuckett",
+  "avatarUrl": "https://media.inspora.design/creators/4f533c56-8161-47f4-8712-805cb895533f.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "a custom home with a pixel horse that runs across the chat bar as you type.",
+ "category": "Motion",
+ "industries": [
+  "AI assistants"
+ ],
+ "colors": [
+  "White",
+  "gray",
+  "navy"
+ ],
+ "styles": [
+  "playful",
+  "pixel",
+  "animation"
+ ],
+ "sourceUrl": "https://x.com/krispuckett/status/2102779394645459363",
+ "createdAt": "2026-09-26T05:11:13.083Z",
+ "publishedAt": "2026-09-26T05:11:13.032Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "6c601057-f346-42d8-9015-a4d3be50b4bb",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/a34b17c9-41f1-4e5a-9c84-57a51b0a71be.mp4",
+   "posterUrl": "https://media.inspora.design/posts/a0db2ef5-6474-4741-8ab1-084de4ad1f52.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 17084186,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/2cf96b92-c10a-4aa5-a1a6-830ee10dcf86.mp4",
+    "bytes": 1942019,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/2cf96b92-c10a-4aa5-a1a6-830ee10dcf86.mp4"
+   },
+   "alt": "BWmIWUc JecNQwH3",
+   "width": 3840,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

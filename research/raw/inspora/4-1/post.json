@@ -1,0 +1,47 @@
+{
+ "id": "d9e3e1ff-a867-4980-ba6e-fcceacd6460c",
+ "slug": "4-1",
+ "title": "Age Progression slider",
+ "creator": {
+  "id": "f39aef4b-4fcc-4320-98fe-1ee976ad03dd",
+  "name": "@AdityaSur11",
+  "handle": "@AdityaSur11",
+  "url": "https://x.com/AdityaSur11",
+  "avatarUrl": "https://media.inspora.design/creators/afa063e5-5a0a-491d-a617-43dd836737bd.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Age Progression slider",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/AdityaSur11/status/2086384491040317846",
+ "createdAt": "2026-08-10T22:23:44.163Z",
+ "publishedAt": "2026-08-10T22:23:43.643Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "726d95ef-5fe2-4fb5-a105-7f86f44b9d2b",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/a34df74b-a76a-4c1a-a362-5a926390e9d6.mp4",
+   "posterUrl": "https://media.inspora.design/posts/f4f83046-c67f-450c-96b8-3eb243696e4d.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 6169173,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/726d95ef-5fe2-4fb5-a105-7f86f44b9d2b.mp4",
+    "bytes": 1065522,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1070,
+    "storageKey": "posts/previews/726d95ef-5fe2-4fb5-a105-7f86f44b9d2b.mp4"
+   },
+   "alt": "zi9TlfY7vvuC55RB (1)",
+   "width": 2180,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

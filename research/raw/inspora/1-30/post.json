@@ -1,0 +1,47 @@
+{
+ "id": "ed960e74-fe03-434b-b6ad-e676c9025ab3",
+ "slug": "1-30",
+ "title": "Date Range Picker",
+ "creator": {
+  "id": "784bdadf-6bdb-44e9-a33d-eb09aa817032",
+  "name": "@jeetnirnejak",
+  "handle": "@jeetnirnejak",
+  "url": "https://x.com/jeetnirnejak/status/2088251238530105638",
+  "avatarUrl": "https://media.inspora.design/creators/fd89532e-8a58-45ed-b2f2-dcd63a0e1530.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Date Range Picker",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/jeetnirnejak/status/2085725970720591984",
+ "createdAt": "2026-08-23T15:05:18.066Z",
+ "publishedAt": "2026-08-23T15:05:17.730Z",
+ "isFeatured": true,
+ "media": [
+  {
+   "id": "46cf6035-8cdc-43d1-ba5b-bd7acb087d58",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/b554849c-189c-441f-8889-c5a72d1778d3.mp4",
+   "posterUrl": "https://media.inspora.design/posts/99a2bff2-4f20-410a-9477-db673fa5850e.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2180506,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/46cf6035-8cdc-43d1-ba5b-bd7acb087d58.mp4",
+    "bytes": 559756,
+    "width": 1080,
+    "format": "mp4",
+    "height": 852,
+    "storageKey": "posts/previews/46cf6035-8cdc-43d1-ba5b-bd7acb087d58.mp4"
+   },
+   "alt": "iEi8Dz5L0SKah7rC",
+   "width": 1924,
+   "height": 1518,
+   "position": 0
+  }
+ ]
+}

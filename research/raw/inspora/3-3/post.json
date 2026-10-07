@@ -1,0 +1,47 @@
+{
+ "id": "09211b7f-fafe-4d97-a040-996162149d40",
+ "slug": "3-3",
+ "title": "Testimonials puzzle",
+ "creator": {
+  "id": "19d66bfc-52f1-484e-ba8e-92775f92aaa2",
+  "name": "@ozzyxs1a",
+  "handle": "@ozzyxs1a",
+  "url": "https://x.com/ozzyxs1a",
+  "avatarUrl": "https://media.inspora.design/creators/49c0b27c-3849-4f89-9a63-47ac1849eff6.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "testimonials puzzle",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/ozzyxs1a/status/2084697716475547856",
+ "createdAt": "2026-08-08T09:49:08.467Z",
+ "publishedAt": "2026-08-08T09:49:07.945Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "ded648c0-babd-4cfd-87c2-43830844ec5d",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/cd775509-3530-4bb9-ac2a-7988f9aee4ac.mp4",
+   "posterUrl": "https://media.inspora.design/posts/f688a26a-ea3c-4c99-9482-b3268ac5f05a.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 318245,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/ded648c0-babd-4cfd-87c2-43830844ec5d.mp4",
+    "bytes": 149997,
+    "width": 1080,
+    "format": "mp4",
+    "height": 688,
+    "storageKey": "posts/previews/ded648c0-babd-4cfd-87c2-43830844ec5d.mp4"
+   },
+   "alt": "SFaIVLgD6sgbQx7r",
+   "width": 1920,
+   "height": 1222,
+   "position": 0
+  }
+ ]
+}

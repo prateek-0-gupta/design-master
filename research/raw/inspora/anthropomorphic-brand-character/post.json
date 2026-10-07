@@ -1,0 +1,58 @@
+{
+ "id": "7cf29ae5-eb6e-4c60-92a8-88a975029ad0",
+ "slug": "anthropomorphic-brand-character",
+ "title": "anthropomorphic brand character.",
+ "creator": {
+  "id": "5f54da35-ba8c-40e3-8642-e736a81cb2e0",
+  "name": "Alex Socoloff",
+  "handle": "@socoloffalex",
+  "url": "https://x.com/alex_barashkov",
+  "avatarUrl": "https://media.inspora.design/creators/9135c19f-de4c-484f-9466-34b292d6b435.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "a short animation of a blocky green-and-black anthropomorphic brand mascot",
+ "category": "Branding",
+ "industries": [
+  "Streetwear",
+  "Branding",
+  "Fashion"
+ ],
+ "colors": [
+  "green",
+  "black",
+  "cream"
+ ],
+ "styles": [
+  "Geometric",
+  "Anthropomorphic"
+ ],
+ "sourceUrl": "https://x.com/socoloffalex/status/2104791084891001290?s=20",
+ "createdAt": "2026-10-03T09:04:33.744Z",
+ "publishedAt": "2026-10-03T09:04:33.596Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "b60bee61-d0bf-4308-9a9a-ab2ba41e9ac1",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/67034046-32e4-4bfc-8806-2e5e5d47bd13.mp4",
+   "posterUrl": "https://media.inspora.design/posts/5dd55ba8-a0cd-48fd-b759-684238d0beb9.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 3058001,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/33f5a66f-9a06-42f5-bf4c-1c37414b03e7.mp4",
+    "bytes": 595043,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/33f5a66f-9a06-42f5-bf4c-1c37414b03e7.mp4"
+   },
+   "alt": "1tYnk5ST85gdfcz6",
+   "width": 3840,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

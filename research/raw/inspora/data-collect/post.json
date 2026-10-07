@@ -1,0 +1,47 @@
+{
+ "id": "ee04172e-008b-4db1-8ecb-6425d873fb7b",
+ "slug": "data-collect",
+ "title": "Data Collect",
+ "creator": {
+  "id": "e6bb9456-f261-446d-b0e7-051eb409e5cc",
+  "name": "@slavakornilov",
+  "handle": "@slavakornilov",
+  "url": "https://x.com/slavakornilov",
+  "avatarUrl": "https://media.inspora.design/creators/06f5eb64-ad7b-4245-80a3-5952570949e3.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Data Collect mobile apps",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/slavakornilov/status/2079295477510468068",
+ "createdAt": "2026-09-11T13:28:58.802Z",
+ "publishedAt": "2026-09-11T13:28:58.562Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "e7af3dea-0120-4cde-89f7-4966f6ebceae",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/341f4ee4-9683-49f6-b29c-66239e67ec6b.mp4",
+   "posterUrl": "https://media.inspora.design/posts/2c72c4e0-7418-4e1f-ab26-89ea837949d3.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 11875882,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/1cf1a992-85e7-41b0-9177-5606280c076b.mp4",
+    "bytes": 7010636,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/1cf1a992-85e7-41b0-9177-5606280c076b.mp4"
+   },
+   "alt": "XMghB0OfECfBUO2n",
+   "width": 1600,
+   "height": 1600,
+   "position": 0
+  }
+ ]
+}

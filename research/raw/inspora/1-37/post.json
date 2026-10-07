@@ -1,0 +1,47 @@
+{
+ "id": "b4e91477-68dc-4b8d-b02a-2deeaabb5022",
+ "slug": "1-37",
+ "title": "AI Agent Approval Cards",
+ "creator": {
+  "id": "e8a64013-5a79-427a-9443-51a9abf584b6",
+  "name": "@kvnkld",
+  "handle": "@kvnkld",
+  "url": "https://x.com/kvnkld",
+  "avatarUrl": "https://media.inspora.design/creators/c072c3d7-b59c-43a3-b689-6d7c964d8ab5.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "AI Agent Approval Cards",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/kvnkld/status/2091872121857437849",
+ "createdAt": "2026-08-24T21:21:38.165Z",
+ "publishedAt": "2026-08-24T21:21:38.112Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "7cce349b-9770-450b-ba83-21e1260dc5d5",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/242bff16-45c2-4886-bd9c-fb4de946a504.mp4",
+   "posterUrl": "https://media.inspora.design/posts/91a6f7ff-d2cc-41e3-a71d-14bc3f553297.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 983464,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/7cce349b-9770-450b-ba83-21e1260dc5d5.mp4",
+    "bytes": 477000,
+    "width": 1080,
+    "format": "mp4",
+    "height": 876,
+    "storageKey": "posts/previews/7cce349b-9770-450b-ba83-21e1260dc5d5.mp4"
+   },
+   "alt": "2GFftF5YzzJD f 0",
+   "width": 1920,
+   "height": 1557,
+   "position": 0
+  }
+ ]
+}

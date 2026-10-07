@@ -1,0 +1,47 @@
+{
+ "id": "32fc9a09-7df6-459a-8629-aa2ee8c5875e",
+ "slug": "1-52",
+ "title": "curved browser tabs",
+ "creator": {
+  "id": "cf2ef7ce-d5c7-44fd-915b-e94daa862cf9",
+  "name": "@Ryan__Stephen",
+  "handle": "@Ryan__Stephen",
+  "url": "https://x.com/Ryan__Stephen",
+  "avatarUrl": "https://media.inspora.design/creators/be5bc880-7918-493d-b79b-135dad990707.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "curved browser tabs",
+ "category": "Illustration",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/Ryan__Stephen/status/1907802257992618039",
+ "createdAt": "2026-08-28T03:05:22.588Z",
+ "publishedAt": "2026-08-28T03:05:22.339Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "c5596688-52ba-4673-b79c-8acdbfcdd77a",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/b92627b3-4529-4ac6-933d-81e87e918cca.mp4",
+   "posterUrl": "https://media.inspora.design/posts/c4ce101f-e40f-4629-81ea-9030153fb5d3.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 489904,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/c15a5dd9-ebcc-4774-99be-beb0d01d6954.mp4",
+    "bytes": 813708,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/c15a5dd9-ebcc-4774-99be-beb0d01d6954.mp4"
+   },
+   "alt": "NSTm07bNsQo stTW",
+   "width": 1080,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

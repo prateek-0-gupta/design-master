@@ -1,0 +1,55 @@
+{
+ "id": "4d667943-b6a7-41fc-a67d-9726068e063e",
+ "slug": "onboarding",
+ "title": "Onboarding",
+ "creator": {
+  "id": "5012b214-9d3d-4a4e-a961-250ac42d6395",
+  "name": "@LgyLight",
+  "handle": "@LgyLight",
+  "url": "https://x.com/LgyLight",
+  "avatarUrl": "https://media.inspora.design/creators/3a48d88c-077a-45de-907d-d32476821c01.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "tap a black cat that flips, then enter the Sketcha app menu.",
+ "category": "Motion",
+ "industries": [
+  "Mobile"
+ ],
+ "colors": [
+  "Cyan",
+  "black",
+  "pastels"
+ ],
+ "styles": [
+  "Playful"
+ ],
+ "sourceUrl": "https://x.com/LgyLight/status/2102044194122666257",
+ "createdAt": "2026-09-24T10:21:05.569Z",
+ "publishedAt": "2026-09-24T10:21:05.520Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "23779e03-38ef-457d-9b80-e5331978d025",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/2f02fb62-8b6e-4dd4-8722-02143bd53b8e.mp4",
+   "posterUrl": "https://media.inspora.design/posts/721d4266-ce1a-49e8-ba5b-f2884b0b649e.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 18947613,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/17705b9e-a676-4fdb-87a0-30f00213176f.mp4",
+    "bytes": 9436659,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1920,
+    "storageKey": "posts/17705b9e-a676-4fdb-87a0-30f00213176f.mp4"
+   },
+   "alt": "eOFnb0gqGOlFbdpq",
+   "width": 2160,
+   "height": 3840,
+   "position": 0
+  }
+ ]
+}

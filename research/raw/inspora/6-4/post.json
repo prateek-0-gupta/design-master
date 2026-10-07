@@ -1,0 +1,180 @@
+{
+ "id": "4c0bcd21-9fcf-4761-a9ba-22dc92ec3bdd",
+ "slug": "6-4",
+ "title": "hero concepts for a hiring platform",
+ "creator": {
+  "id": "88849e0c-c68e-4fe0-892f-4318ca0d37f2",
+  "name": "@DevDsgn",
+  "handle": "@DevDsgn",
+  "url": "https://x.com/DevDsgn",
+  "avatarUrl": "https://media.inspora.design/creators/7656d92a-2c0d-494a-a831-c3938d072e9e.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "hero concepts for a hiring platform",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/DevDsgn/status/2086694034647781685",
+ "createdAt": "2026-08-14T11:38:15.608Z",
+ "publishedAt": "2026-08-14T11:38:15.495Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "dd24d56b-936f-4e09-91b3-156ccbbde382",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/f48e5346-52cc-4fbe-a3aa-15b74c58448e.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 190826,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/9cac91bf-a217-40f3-9a54-90597288f092.webp",
+     "bytes": 19140,
+     "width": 640,
+     "format": "webp",
+     "height": 360,
+     "storageKey": "posts/9cac91bf-a217-40f3-9a54-90597288f092.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/edabf310-5a50-4c2f-822e-96b50a8f7189.webp",
+     "bytes": 44206,
+     "width": 960,
+     "format": "webp",
+     "height": 540,
+     "storageKey": "posts/edabf310-5a50-4c2f-822e-96b50a8f7189.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/ae311242-9fd7-43a0-ab9b-82b954b3e63e.webp",
+     "bytes": 82848,
+     "width": 1600,
+     "format": "webp",
+     "height": 900,
+     "storageKey": "posts/ae311242-9fd7-43a0-ab9b-82b954b3e63e.webp"
+    }
+   ],
+   "alt": "HPUb3uDa4AAu5Al",
+   "width": 2560,
+   "height": 1440,
+   "position": 0
+  },
+  {
+   "id": "60526c59-c17b-4778-a62d-a5ba7c1321c3",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/1fac0a31-26c5-4d6d-a9ea-61bcb084b8e4.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 205744,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/2a8aa6dc-b366-4ff1-82e3-701969dd6591.webp",
+     "bytes": 22962,
+     "width": 640,
+     "format": "webp",
+     "height": 360,
+     "storageKey": "posts/2a8aa6dc-b366-4ff1-82e3-701969dd6591.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/bc394e71-2916-4171-b000-a4495ad28ed5.webp",
+     "bytes": 49488,
+     "width": 960,
+     "format": "webp",
+     "height": 540,
+     "storageKey": "posts/bc394e71-2916-4171-b000-a4495ad28ed5.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/2853110c-d196-4861-9a51-48a327b4a1da.webp",
+     "bytes": 88242,
+     "width": 1600,
+     "format": "webp",
+     "height": 900,
+     "storageKey": "posts/2853110c-d196-4861-9a51-48a327b4a1da.webp"
+    }
+   ],
+   "alt": "HPUb8GKbQAAIjBw",
+   "width": 2560,
+   "height": 1440,
+   "position": 1
+  },
+  {
+   "id": "4a4a45c7-18f1-46ed-b76d-ff1da9a15c51",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/0936ba41-98e6-459e-86c7-04b7e487983c.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 280748,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/c6d5fae8-bf6e-4592-a123-ba3ff71a23d8.webp",
+     "bytes": 24710,
+     "width": 640,
+     "format": "webp",
+     "height": 360,
+     "storageKey": "posts/c6d5fae8-bf6e-4592-a123-ba3ff71a23d8.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/293d017e-48a4-4ef4-9d25-11b5de8506d9.webp",
+     "bytes": 59610,
+     "width": 960,
+     "format": "webp",
+     "height": 540,
+     "storageKey": "posts/293d017e-48a4-4ef4-9d25-11b5de8506d9.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/8118ba09-e195-4446-890d-6e988d872ca7.webp",
+     "bytes": 119328,
+     "width": 1600,
+     "format": "webp",
+     "height": 900,
+     "storageKey": "posts/8118ba09-e195-4446-890d-6e988d872ca7.webp"
+    }
+   ],
+   "alt": "HPUb9b4a4AAhD l",
+   "width": 2560,
+   "height": 1440,
+   "position": 2
+  },
+  {
+   "id": "ac8c1e68-6e00-410a-be8e-775238f57c1b",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/4f11b820-f3ef-4169-a13b-f9cbd8ceaf1b.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 215896,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/10131894-e4fb-45b3-8961-2e06f677d6f0.webp",
+     "bytes": 23648,
+     "width": 640,
+     "format": "webp",
+     "height": 360,
+     "storageKey": "posts/10131894-e4fb-45b3-8961-2e06f677d6f0.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/4d453684-0cc8-4f17-8422-90c841893f3a.webp",
+     "bytes": 54438,
+     "width": 960,
+     "format": "webp",
+     "height": 540,
+     "storageKey": "posts/4d453684-0cc8-4f17-8422-90c841893f3a.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/2faf8512-5abc-4037-9d03-894b9b3ec823.webp",
+     "bytes": 100944,
+     "width": 1600,
+     "format": "webp",
+     "height": 900,
+     "storageKey": "posts/2faf8512-5abc-4037-9d03-894b9b3ec823.webp"
+    }
+   ],
+   "alt": "HPUb jBbUAAHWlK",
+   "width": 2560,
+   "height": 1440,
+   "position": 3
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "dcf6942a-e830-4566-b327-cc87f8a58eac",
+ "slug": "sticky-note-app",
+ "title": "Sticky-note app",
+ "creator": {
+  "id": "f5878226-a1d7-4f24-8cb3-8eb5b09a1688",
+  "name": "Rehan Ahmed",
+  "handle": "@rehanxahmed",
+  "url": "https://x.com/rehanxahmed",
+  "avatarUrl": "https://media.inspora.design/creators/7fb5d019-6a8a-419c-a6c9-56d2a13c7d96.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A swipeable sticky-note UI for pinning and browsing daily meetings in a productivity app.",
+ "category": "Product",
+ "industries": [
+  "Productivity"
+ ],
+ "colors": [
+  "Yellows",
+  "Greens"
+ ],
+ "styles": [
+  "Clean",
+  "Modern"
+ ],
+ "sourceUrl": "https://x.com/rehanxahmed/status/2104103142766076328",
+ "createdAt": "2026-09-28T05:29:11.717Z",
+ "publishedAt": "2026-09-28T05:29:11.663Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "6480c89f-6a0c-4396-92db-5f5a0c182818",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/1fa28472-c665-4d6d-9ca0-726a1738b332.mp4",
+   "posterUrl": "https://media.inspora.design/posts/0455be11-10aa-4895-82fa-1ee19f59f6bc.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 5494150,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/ec1ba973-8526-4659-a44a-7e1faaad5f46.mp4",
+    "bytes": 1837042,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/ec1ba973-8526-4659-a44a-7e1faaad5f46.mp4"
+   },
+   "alt": "iIdaWf4R8uo5VMR7",
+   "width": 2000,
+   "height": 2000,
+   "position": 0
+  }
+ ]
+}

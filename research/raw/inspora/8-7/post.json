@@ -1,0 +1,52 @@
+{
+ "id": "eb903558-62de-4f0e-a0f7-2e5067c92bd4",
+ "slug": "8-7",
+ "title": "Apple's new macOS window controls",
+ "creator": {
+  "id": "504b9073-1dce-4d61-bb7d-eab12bee27ed",
+  "name": "@avstorm",
+  "handle": "@avstorm",
+  "url": "https://x.com/avstorm",
+  "avatarUrl": "https://media.inspora.design/creators/93921b0f-5b85-43db-8f84-b8a27a9b817b.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Apple's new macOS window controls",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/avstorm/status/2089414274280009782",
+ "createdAt": "2026-08-17T18:56:56.339Z",
+ "publishedAt": "2026-08-17T18:56:56.100Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "83b8f8f3-b1e6-43a4-8f15-03650d2eae8a",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/6f5edb60-4edf-43ef-9092-03b412371b35.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/png",
+   "sizeBytes": 4160,
+   "variants": [],
+   "alt": "HP8W 9FXMAAwLtv",
+   "width": 438,
+   "height": 388,
+   "position": 0
+  },
+  {
+   "id": "799f89fe-2bfa-4f81-8161-592cf1a126ed",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/9662a7db-6a21-4e23-abae-4e0085ab4780.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/png",
+   "sizeBytes": 4228,
+   "variants": [],
+   "alt": "HP8W OPXgAA95Ev",
+   "width": 464,
+   "height": 360,
+   "position": 1
+  }
+ ]
+}

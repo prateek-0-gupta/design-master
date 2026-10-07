@@ -1,0 +1,47 @@
+{
+ "id": "b442bfb5-c4be-46fc-aa77-4ef072109174",
+ "slug": "gooey-navbar-component",
+ "title": "navbar component",
+ "creator": {
+  "id": "b1be8d8d-288b-4cd6-9939-8e7e293ee72a",
+  "name": "@SwamiMalode",
+  "handle": "@SwamiMalode",
+  "url": "https://x.com/SwamiMalode",
+  "avatarUrl": "https://media.inspora.design/creators/2988d10f-3803-4b44-ba5c-030388ddfa95.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "a gooey navbar component",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/SwamiMalode/status/2094065656648134690",
+ "createdAt": "2026-09-09T15:45:54.744Z",
+ "publishedAt": "2026-09-09T15:45:54.595Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "3f0d2acd-33c7-48f3-ac8b-7d07ce3cc9f2",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/486004e7-0841-4114-8a64-ba79aef54f13.mp4",
+   "posterUrl": "https://media.inspora.design/posts/f8bf66fc-83ed-4c70-8e2b-dc49f404041b.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1255084,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/6fec4168-62c8-4802-90f8-5df95556d83e.mp4",
+    "bytes": 176416,
+    "width": 1080,
+    "format": "mp4",
+    "height": 612,
+    "storageKey": "posts/6fec4168-62c8-4802-90f8-5df95556d83e.mp4"
+   },
+   "alt": "42mcEn nXjyJCrvJ",
+   "width": 2474,
+   "height": 1404,
+   "position": 0
+  }
+ ]
+}

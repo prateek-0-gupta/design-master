@@ -1,0 +1,47 @@
+{
+ "id": "ea842fae-4fe7-4f50-8750-190510be6f97",
+ "slug": "heic-file-upload",
+ "title": "HEIC File Upload",
+ "creator": {
+  "id": "7d9fa399-13bd-46f1-9e8e-4d95988fc8b2",
+  "name": "@yanhladchenko",
+  "handle": "@yanhladchenko",
+  "url": "https://x.com/yanhladchenko",
+  "avatarUrl": "https://media.inspora.design/creators/8cd33fe6-1c08-46c8-8822-5c4ddb518fff.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "heic photos are a pain to share. built a converter to fix it",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/yanhladchenko/status/2092915788206211251",
+ "createdAt": "2026-09-07T03:39:19.424Z",
+ "publishedAt": "2026-09-07T03:39:19.372Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "d0f845ba-3c16-4616-8ff2-0ce1b87c24b5",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/3068d333-d04a-4ba7-a0a5-5cf79ec19f40.mp4",
+   "posterUrl": "https://media.inspora.design/posts/c4c60192-e04f-4f87-ad65-97feee200849.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 6538842,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/a81dea24-617c-4d73-853c-77ab3d89a006.mp4",
+    "bytes": 1988867,
+    "width": 1080,
+    "format": "mp4",
+    "height": 958,
+    "storageKey": "posts/a81dea24-617c-4d73-853c-77ab3d89a006.mp4"
+   },
+   "alt": "I P V3pO8z pBJYM",
+   "width": 2432,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

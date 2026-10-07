@@ -1,0 +1,72 @@
+{
+ "id": "62712f8b-5207-4661-bf30-d0463c15eb79",
+ "slug": "stamp-style-cards",
+ "title": "stamp-style cards",
+ "creator": {
+  "id": "52928ac1-5966-4701-b3f0-fb969ca44a8a",
+  "name": "@devxnuj",
+  "handle": "@devxnuj",
+  "url": "https://x.com/devxnuj",
+  "avatarUrl": "https://media.inspora.design/creators/07738235-e62c-494e-86ac-3b0a38a93527.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Three stamp cards pairing Japanese landscapes with calm co-pilot app copy.",
+ "category": "Branding",
+ "industries": [
+  "Productivity",
+  "wellness"
+ ],
+ "colors": [
+  "Cream",
+  "black",
+  "earthy"
+ ],
+ "styles": [
+  "Japanese stamps"
+ ],
+ "sourceUrl": "https://x.com/devxnuj/status/2004205160231587851",
+ "createdAt": "2026-09-13T10:18:25.267Z",
+ "publishedAt": "2026-09-13T10:18:25.217Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "1ad55991-928e-43d8-8d9c-de5edbe688b7",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/91e78cd3-a1fd-4617-b606-c4d1c758eacd.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 247706,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/df9003c4-5833-44ff-8eeb-0d28d22dd01b.webp",
+     "bytes": 33090,
+     "width": 640,
+     "format": "webp",
+     "height": 360,
+     "storageKey": "posts/df9003c4-5833-44ff-8eeb-0d28d22dd01b.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/56832ca5-ebe5-40a4-977f-c41332feee60.webp",
+     "bytes": 54234,
+     "width": 960,
+     "format": "webp",
+     "height": 540,
+     "storageKey": "posts/56832ca5-ebe5-40a4-977f-c41332feee60.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/ddd83e09-2eae-43ee-9009-4848d317e152.webp",
+     "bytes": 117450,
+     "width": 1600,
+     "format": "webp",
+     "height": 900,
+     "storageKey": "posts/ddd83e09-2eae-43ee-9009-4848d317e152.webp"
+    }
+   ],
+   "alt": "G9Bd3YeawAAEpEZ",
+   "width": 2560,
+   "height": 1440,
+   "position": 0
+  }
+ ]
+}

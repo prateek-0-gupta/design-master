@@ -1,0 +1,57 @@
+{
+ "id": "2a979760-0674-4bca-b319-8ee3d6b1cbae",
+ "slug": "folder-interaction",
+ "title": "folder interaction",
+ "creator": {
+  "id": "678a2db8-68b1-4c9a-9ca4-cd3c8dabef9f",
+  "name": "@shedsgns",
+  "handle": "@shedsgns",
+  "url": "https://x.com/shedsgns",
+  "avatarUrl": "https://media.inspora.design/creators/e7ac1975-58c7-4c69-86fc-6a027830815e.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "creating a new folder from a context menu, then instantly customizing its color, renaming it and adding a hand-drawn heart.",
+ "category": "Motion",
+ "industries": [
+  "Software",
+  "design"
+ ],
+ "colors": [
+  "Blue",
+  "pink",
+  "red"
+ ],
+ "styles": [
+  "Clean",
+  "glossy"
+ ],
+ "sourceUrl": "https://x.com/shedsgns/status/2101668953567199247?",
+ "createdAt": "2026-09-23T09:11:42.363Z",
+ "publishedAt": "2026-09-23T09:11:42.121Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "523ee4a9-b726-432f-85cf-a01f95e1c78a",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/4400a874-9cdf-4097-8150-97570075fa7c.mp4",
+   "posterUrl": "https://media.inspora.design/posts/7f9cf58c-ac55-4fa3-a8bc-3f7d1c3ba840.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1870528,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/6328d49c-3b84-47e5-921a-cbf9c01cce92.mp4",
+    "bytes": 194506,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/6328d49c-3b84-47e5-921a-cbf9c01cce92.mp4"
+   },
+   "alt": "AW9CHHpNIkYf5TgF",
+   "width": 2880,
+   "height": 2880,
+   "position": 0
+  }
+ ]
+}

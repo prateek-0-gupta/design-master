@@ -1,0 +1,47 @@
+{
+ "id": "0bfd4305-a974-422b-b3e5-fe62b6f1d52b",
+ "slug": "morph-shap",
+ "title": "Morph.",
+ "creator": {
+  "id": "4580e4fb-f9f9-474e-bff8-e343137746bf",
+  "name": "@acream_1",
+  "handle": "@acream_1",
+  "url": "https://x.com/acream_1",
+  "avatarUrl": "https://media.inspora.design/creators/21cb16b9-5974-4583-8d21-91cc3e86f163.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Morph.",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/acream_1/status/2096218045140398541",
+ "createdAt": "2026-09-11T12:58:23.003Z",
+ "publishedAt": "2026-09-11T12:58:22.765Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "37ab78bf-57b1-4001-8651-0eb3dac70971",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/6ab5d5e1-877c-488e-a412-b9bfd316d4a2.mp4",
+   "posterUrl": "https://media.inspora.design/posts/9ed70a85-2c66-4150-b900-b3ff8334fa70.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 305838,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/9b809c00-d4a4-4f78-9227-addfb90fb9ba.mp4",
+    "bytes": 356937,
+    "width": 720,
+    "format": "mp4",
+    "height": 720,
+    "storageKey": "posts/9b809c00-d4a4-4f78-9227-addfb90fb9ba.mp4"
+   },
+   "alt": "15IpFJCv5wweE87z",
+   "width": 720,
+   "height": 720,
+   "position": 0
+  }
+ ]
+}

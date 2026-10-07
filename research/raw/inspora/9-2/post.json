@@ -1,0 +1,47 @@
+{
+ "id": "fc734313-633d-4dab-9cd9-f96d08fe503e",
+ "slug": "9-2",
+ "title": "status tags with glass bubble",
+ "creator": {
+  "id": "e36a9ab7-7d0d-43ac-b1ff-89d6c5721c96",
+  "name": "@Designownow_",
+  "handle": "@Designownow_",
+  "url": "https://x.com/Designownow_",
+  "avatarUrl": "https://media.inspora.design/creators/e55bc58c-f6bb-491d-9420-a458570a5f23.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "status tags with glass bubble",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/Designownow_/status/1935022476192534954",
+ "createdAt": "2026-08-18T12:52:09.164Z",
+ "publishedAt": "2026-08-18T12:52:09.009Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "b3f22a71-77c0-43c5-a6bc-a2083ae37bda",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/0e52d677-20e9-4335-86c4-5eca8bbf06f8.mp4",
+   "posterUrl": "https://media.inspora.design/posts/3efd333b-159c-4007-be29-761b6c29eba6.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2498104,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/b3f22a71-77c0-43c5-a6bc-a2083ae37bda.mp4",
+    "bytes": 922697,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1026,
+    "storageKey": "posts/previews/b3f22a71-77c0-43c5-a6bc-a2083ae37bda.mp4"
+   },
+   "alt": "2crL4M2SOqy4UjmB",
+   "width": 1920,
+   "height": 1825,
+   "position": 0
+  }
+ ]
+}

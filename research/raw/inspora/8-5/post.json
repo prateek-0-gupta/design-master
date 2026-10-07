@@ -1,0 +1,47 @@
+{
+ "id": "39da290d-ae60-4d70-927f-2abc72c820fc",
+ "slug": "8-5",
+ "title": "Liquid glass buttons",
+ "creator": {
+  "id": "231ae6c1-d16b-4ea0-a33d-41d92e471325",
+  "name": "@tranmautritam",
+  "handle": "@tranmautritam",
+  "url": "https://x.com/tranmautritam",
+  "avatarUrl": "https://media.inspora.design/creators/e72134fa-da88-4a7e-9229-d587a426c99f.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Liquid glass buttons",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/tranmautritam/status/2079207566526259654",
+ "createdAt": "2026-08-17T04:40:03.470Z",
+ "publishedAt": "2026-08-17T04:40:03.420Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "a4d27ba9-cf63-4005-a269-096f0d0dfd54",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/e91b03bc-64a2-4379-abdb-3780893f3234.mp4",
+   "posterUrl": "https://media.inspora.design/posts/a27a32a7-d829-4172-8243-5318c9825366.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1084835,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/a4d27ba9-cf63-4005-a269-096f0d0dfd54.mp4",
+    "bytes": 1262567,
+    "width": 960,
+    "format": "mp4",
+    "height": 720,
+    "storageKey": "posts/previews/a4d27ba9-cf63-4005-a269-096f0d0dfd54.mp4"
+   },
+   "alt": "@tranmautritam 2079207566526259654 720p",
+   "width": 960,
+   "height": 720,
+   "position": 0
+  }
+ ]
+}

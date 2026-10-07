@@ -1,0 +1,47 @@
+{
+ "id": "e1f047d4-3cae-4e16-a7fa-77ea39aeaf5a",
+ "slug": "1-49",
+ "title": "App icon concepts",
+ "creator": {
+  "id": "4aff16c5-4135-46a4-a0f7-cc3595fd610c",
+  "name": "@dmiiiitrii",
+  "handle": "@dmiiiitrii",
+  "url": "https://x.com/dmiiiitrii",
+  "avatarUrl": "https://media.inspora.design/creators/39a706d9-a3fc-4d02-a8a9-72aa1c22efa5.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "set of glossy app icon concepts",
+ "category": "Branding",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/dmiiiitrii/status/2066491158164045957",
+ "createdAt": "2026-08-27T03:07:26.427Z",
+ "publishedAt": "2026-08-27T03:07:25.915Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "a212262c-7ec3-470e-a7af-0a1fe945c52a",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/8161b1f2-c903-45d4-a609-2846ee56a145.mp4",
+   "posterUrl": "https://media.inspora.design/posts/ad3f4134-540e-4967-a9bc-8f62efa5098f.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 163117,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/6d865208-f04c-413c-8e42-3092af9cab64.mp4",
+    "bytes": 398820,
+    "width": 1080,
+    "format": "mp4",
+    "height": 899,
+    "storageKey": "posts/6d865208-f04c-413c-8e42-3092af9cab64.mp4"
+   },
+   "alt": "ssstwitter.com 1787799830183",
+   "width": 1280,
+   "height": 1066,
+   "position": 0
+  }
+ ]
+}

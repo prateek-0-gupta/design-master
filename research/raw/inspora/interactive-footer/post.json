@@ -1,0 +1,47 @@
+{
+ "id": "8f83085c-cf21-4616-af40-4515cee133e0",
+ "slug": "interactive-footer",
+ "title": "interactive footer",
+ "creator": {
+  "id": "f39aef4b-4fcc-4320-98fe-1ee976ad03dd",
+  "name": "@AdityaSur11",
+  "handle": "@AdityaSur11",
+  "url": "https://x.com/AdityaSur11",
+  "avatarUrl": "https://media.inspora.design/creators/afa063e5-5a0a-491d-a617-43dd836737bd.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "interactive footer using Hailuo_AI",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/AdityaSur11/status/2096948017819701605",
+ "createdAt": "2026-09-08T11:09:05.782Z",
+ "publishedAt": "2026-09-08T11:09:05.633Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "707b437e-1c25-48b5-8c1f-9dc762ebd60d",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/7ede4a17-cded-4b16-be77-917b803176a8.mp4",
+   "posterUrl": "https://media.inspora.design/posts/c381acb5-fbc4-41ad-a6f1-1d4460256837.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 24779188,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/b43357dd-95a9-4db4-9a92-8caf3f6abf1f.mp4",
+    "bytes": 3929018,
+    "width": 1080,
+    "format": "mp4",
+    "height": 674,
+    "storageKey": "posts/b43357dd-95a9-4db4-9a92-8caf3f6abf1f.mp4"
+   },
+   "alt": "m1xPkUXw3w0b 76N",
+   "width": 3456,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

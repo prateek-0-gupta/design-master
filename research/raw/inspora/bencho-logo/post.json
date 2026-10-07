@@ -1,0 +1,56 @@
+{
+ "id": "7cd55683-75ff-4e2e-bb0c-c097a35a143a",
+ "slug": "bencho-logo",
+ "title": "Bencho logo",
+ "creator": {
+  "id": "ec44f4b4-9d6a-4fd5-bb9a-63018f39ed68",
+  "name": "@cabralorenzo",
+  "handle": "@cabralorenzo",
+  "url": "https://x.com/cabralorenzo",
+  "avatarUrl": "https://media.inspora.design/creators/832c075a-e392-4e9f-a299-53d30369f888.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A minimal white geometric goat icon in side profile, used as Bencho\u2019s logo.",
+ "category": "Branding",
+ "industries": [
+  "design tool"
+ ],
+ "colors": [
+  "Black",
+  "off-white"
+ ],
+ "styles": [
+  "Geometric",
+  "playful",
+  "minimal"
+ ],
+ "sourceUrl": "https://x.com/cabralorenzo/status/2095922411103301786",
+ "createdAt": "2026-09-15T08:06:57.977Z",
+ "publishedAt": "2026-09-15T08:06:57.737Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "c140ae45-3e0b-4f22-a8b7-ff861b447d63",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/4c5f608b-ee17-4b33-824b-f0d7e8ffe68b.mp4",
+   "posterUrl": "https://media.inspora.design/posts/26f46e8d-554f-48c0-b6c7-e903452555ef.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 550678,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/a5e6fd69-5e22-42d5-8a2e-94bef1016bfb.mp4",
+    "bytes": 89108,
+    "width": 1080,
+    "format": "mp4",
+    "height": 796,
+    "storageKey": "posts/a5e6fd69-5e22-42d5-8a2e-94bef1016bfb.mp4"
+   },
+   "alt": "KECOXVpvxOFlo5cL",
+   "width": 1720,
+   "height": 1270,
+   "position": 0
+  }
+ ]
+}

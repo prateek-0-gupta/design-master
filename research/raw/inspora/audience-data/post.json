@@ -1,0 +1,56 @@
+{
+ "id": "679e955c-f979-4bc8-a3e5-2e013c779cdc",
+ "slug": "audience-data",
+ "title": "audience data",
+ "creator": {
+  "id": "cc5e4ad8-fe74-4136-ac00-5852c93dc2d1",
+  "name": "@moguzbulbul",
+  "handle": "@moguzbulbul",
+  "url": "https://x.com/moguzbulbul",
+  "avatarUrl": "https://media.inspora.design/creators/516d5569-cc2d-4aa4-814b-fd048fd61ef4.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "ashboard cards showing audience sentiment (48% positive with a critical-to-loved gradient) and comment analytics for \u201cMoosehead.\u201d",
+ "category": "Product",
+ "industries": [
+  "SaaS",
+  "Media"
+ ],
+ "colors": [
+  "White",
+  "Blue"
+ ],
+ "styles": [
+  "Minimal",
+  "soft UI"
+ ],
+ "sourceUrl": "https://x.com/moguzbulbul/status/2102770266506232308",
+ "createdAt": "2026-09-27T06:29:32.463Z",
+ "publishedAt": "2026-09-27T06:29:32.316Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "95c4d216-dc13-4827-8584-b70768fc599e",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/caac9713-30a6-4cd1-bb38-1fb88483406f.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d6f4eb0f-066f-49d3-91e2-fc1f431f0850.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 291557,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/9b3cda7a-5f4d-4a0c-bd12-9744f39d3968.mp4",
+    "bytes": 82450,
+    "width": 1080,
+    "format": "mp4",
+    "height": 810,
+    "storageKey": "posts/9b3cda7a-5f4d-4a0c-bd12-9744f39d3968.mp4"
+   },
+   "alt": "SPSm9lMnCrh Vws3",
+   "width": 1600,
+   "height": 1200,
+   "position": 0
+  }
+ ]
+}

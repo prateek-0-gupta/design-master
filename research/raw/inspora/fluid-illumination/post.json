@@ -1,0 +1,56 @@
+{
+ "id": "94fab883-ab11-466b-877c-ba6a97b77ee0",
+ "slug": "fluid-illumination",
+ "title": "fluid illumination",
+ "creator": {
+  "id": "46b398b8-4775-438f-b785-626c89b12129",
+  "name": "sasha birukoff",
+  "handle": "@sashabirukoff",
+  "url": "https://x.com/sashabirukoff",
+  "avatarUrl": "https://media.inspora.design/creators/51eb55cf-7f86-4331-af62-ea2b2c8ed454.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A softly glowing purple-blue gradient card fluidly morphs between rounded shapes",
+ "category": "Motion",
+ "industries": [
+  "AI",
+  "Design tools"
+ ],
+ "colors": [
+  "Purple",
+  "Blue"
+ ],
+ "styles": [
+  "Soft gradient",
+  "Fluid morphing"
+ ],
+ "sourceUrl": "https://x.com/sashabirukoff/status/2105335164532355314",
+ "createdAt": "2026-10-06T03:54:33.929Z",
+ "publishedAt": "2026-10-06T03:54:33.689Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "2bbf5e13-6d22-4c9c-9f81-6fad9abf346e",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/e0a2e3f6-8861-4593-b0f9-16a0931e179a.mp4",
+   "posterUrl": "https://media.inspora.design/posts/05fc652d-094f-4f24-bfbb-2d0b37ea86b9.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2886126,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/a204b3d4-277e-4a73-af6d-592b1b6638c1.mp4",
+    "bytes": 358884,
+    "width": 1080,
+    "format": "mp4",
+    "height": 718,
+    "storageKey": "posts/a204b3d4-277e-4a73-af6d-592b1b6638c1.mp4"
+   },
+   "alt": "4G4bDRVKlw8vpbm6",
+   "width": 2560,
+   "height": 1702,
+   "position": 0
+  }
+ ]
+}

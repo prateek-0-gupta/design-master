@@ -1,0 +1,103 @@
+{
+ "id": "87ea9140-652b-4788-aadd-dca922ac9942",
+ "slug": "glass-circle-with-a-gradient",
+ "title": "glass circle with a gradient",
+ "creator": {
+  "id": "eab6b144-76a9-4899-bbf5-c0a81afea2f9",
+  "name": "Bakers Studio",
+  "handle": "@studiobakers",
+  "url": "https://x.com/studiobakers",
+  "avatarUrl": "https://media.inspora.design/creators/8e23fdea-4cf7-4d51-8aca-ce2d06207ce2.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A glossy glass sphere with a soft white-to-red-to-black gradient, shown alone and inside the dark Giza DeFi app",
+ "category": "Product",
+ "industries": [
+  "DeFi",
+  "Fintech"
+ ],
+ "colors": [
+  "White",
+  "Red",
+  "Navy"
+ ],
+ "styles": [
+  "Glassmorphism",
+  "Gradient"
+ ],
+ "sourceUrl": "https://x.com/studiobakers/status/2101986043469652277",
+ "createdAt": "2026-10-05T05:42:08.650Z",
+ "publishedAt": "2026-10-05T05:42:08.119Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "6d9840a8-52a7-4fff-b30e-60f6ca16412c",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/a547fef3-87d6-4feb-b3f2-b25ac99f4360.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 26300,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/daec4024-c554-40f1-bdf4-0d8e394d2ccc.webp",
+     "bytes": 16580,
+     "width": 640,
+     "format": "webp",
+     "height": 905,
+     "storageKey": "posts/daec4024-c554-40f1-bdf4-0d8e394d2ccc.webp"
+    }
+   ],
+   "alt": "HSu07CCaMAAW51B",
+   "width": 849,
+   "height": 1200,
+   "position": 0
+  },
+  {
+   "id": "a756e8cd-3ca7-4eda-91e8-638e4b73d803",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/060b825f-b8d7-48e3-8ea0-b1b7db7b1270.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 10436,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/18d1a8dd-6897-450b-b6ea-5c7133cc7e11.webp",
+     "bytes": 6996,
+     "width": 640,
+     "format": "webp",
+     "height": 905,
+     "storageKey": "posts/18d1a8dd-6897-450b-b6ea-5c7133cc7e11.webp"
+    }
+   ],
+   "alt": "HSu07CDbUAAb2Cs",
+   "width": 849,
+   "height": 1200,
+   "position": 1
+  },
+  {
+   "id": "382249b9-a607-4953-ace9-fed483e8d6e9",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/83faacb9-bece-4b96-a1c9-e3bb389fc859.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 31264,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/394ddfbb-a696-468c-90f4-7a7f7094fbd4.webp",
+     "bytes": 19486,
+     "width": 640,
+     "format": "webp",
+     "height": 905,
+     "storageKey": "posts/394ddfbb-a696-468c-90f4-7a7f7094fbd4.webp"
+    }
+   ],
+   "alt": "HSu07CObsAA1v4O",
+   "width": 849,
+   "height": 1200,
+   "position": 2
+  }
+ ]
+}

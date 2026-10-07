@@ -1,0 +1,47 @@
+{
+ "id": "82034489-c463-4f51-bdef-a92b523e2f46",
+ "slug": "dropdown-component",
+ "title": "Dropdown Component",
+ "creator": {
+  "id": "0bd10159-fa90-4845-98c3-cc3186764a03",
+  "name": "@gabriell_lab",
+  "handle": "@gabriell_lab",
+  "url": "https://x.com/gabriell_lab",
+  "avatarUrl": "https://media.inspora.design/creators/451965de-bdfb-47a1-a693-0ab6c1157dac.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Dropdown Component Animation",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/gabriell_lab/status/2086065082279079968",
+ "createdAt": "2026-09-05T10:14:08.401Z",
+ "publishedAt": "2026-09-05T10:14:07.866Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "8da4a79c-2dbe-473a-8374-20a49ca94d90",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/525a4e4b-a95a-417d-99fe-84c1816f5c31.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d18a8cd3-d2ca-45fd-958e-5767adb2d034.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1188849,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/816cd1f5-5cc6-4a1e-bfe3-a4a4d929a407.mp4",
+    "bytes": 405094,
+    "width": 1080,
+    "format": "mp4",
+    "height": 810,
+    "storageKey": "posts/816cd1f5-5cc6-4a1e-bfe3-a4a4d929a407.mp4"
+   },
+   "alt": "XHNsxytAu5kwySCP",
+   "width": 1920,
+   "height": 1440,
+   "position": 0
+  }
+ ]
+}

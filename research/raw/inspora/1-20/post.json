@@ -1,0 +1,47 @@
+{
+ "id": "ea58336a-eeb7-4186-9631-9a9f80d8b692",
+ "slug": "1-20",
+ "title": "Toggle to premium plans",
+ "creator": {
+  "id": "e36a9ab7-7d0d-43ac-b1ff-89d6c5721c96",
+  "name": "@Designownow_",
+  "handle": "@Designownow_",
+  "url": "https://x.com/Designownow_",
+  "avatarUrl": "https://media.inspora.design/creators/e55bc58c-f6bb-491d-9420-a458570a5f23.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Toggle to premium plans",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/Designownow_/status/1905697958676582844",
+ "createdAt": "2026-08-22T04:19:59.366Z",
+ "publishedAt": "2026-08-22T04:19:58.841Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "a3d9a3ba-28f3-4991-a3f5-d954e44070e4",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/956194a5-7fc9-41c4-9b7c-9f6037e9d700.mp4",
+   "posterUrl": "https://media.inspora.design/posts/bd6c1035-5c23-484b-a772-439eab325505.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1064645,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/a3d9a3ba-28f3-4991-a3f5-d954e44070e4.mp4",
+    "bytes": 856912,
+    "width": 1080,
+    "format": "mp4",
+    "height": 752,
+    "storageKey": "posts/previews/a3d9a3ba-28f3-4991-a3f5-d954e44070e4.mp4"
+   },
+   "alt": "XQVSGzTlRA7A5ESb",
+   "width": 1550,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

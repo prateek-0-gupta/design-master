@@ -1,0 +1,59 @@
+{
+ "id": "e27442af-36c8-47a4-a4dd-38a48f5f2497",
+ "slug": "infinite-faq",
+ "title": "infinite faq",
+ "creator": {
+  "id": "76a30b07-17bd-49a0-9854-b5933ecbf1d2",
+  "name": "@heyimgustavo",
+  "handle": "@heyimgustavo",
+  "url": "https://x.com/heyimgustavo",
+  "avatarUrl": "https://media.inspora.design/creators/03b3cb9b-0108-4fdf-994e-ec934e61aabc.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "infinite FAQ UI that mixes preset questions with an AI chat box so users can instantly ask anything else and get a generated answer.",
+ "category": "Web",
+ "industries": [
+  "Tech",
+  "SaaS",
+  "Software"
+ ],
+ "colors": [
+  "Black",
+  "white",
+  "gray"
+ ],
+ "styles": [
+  "Minimal",
+  "dark",
+  "modern"
+ ],
+ "sourceUrl": "https://x.com/heyimgustavo/status/2100728786694136224",
+ "createdAt": "2026-09-19T15:33:32.543Z",
+ "publishedAt": "2026-09-19T15:33:32.389Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "bcb91e93-eeaa-4372-a5e0-3c323a2001c2",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/4015c574-2551-4118-b588-799cb2a8d287.mp4",
+   "posterUrl": "https://media.inspora.design/posts/04a62197-fd95-41ba-8604-3f4d4a7b0b7f.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 689899,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/8b52ba2a-4901-4c24-a3e5-61bfea3d079b.mp4",
+    "bytes": 134953,
+    "width": 1080,
+    "format": "mp4",
+    "height": 492,
+    "storageKey": "posts/8b52ba2a-4901-4c24-a3e5-61bfea3d079b.mp4"
+   },
+   "alt": "kCEWOmN0dUzSsoyW",
+   "width": 2908,
+   "height": 1326,
+   "position": 0
+  }
+ ]
+}

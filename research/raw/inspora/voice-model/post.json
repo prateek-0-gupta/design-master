@@ -1,0 +1,56 @@
+{
+ "id": "f8bd4b74-0065-4403-8e4b-d848c167e29a",
+ "slug": "voice-model",
+ "title": "voice model",
+ "creator": {
+  "id": "eab6b144-76a9-4899-bbf5-c0a81afea2f9",
+  "name": "Bakers Studio",
+  "handle": "@studiobakers",
+  "url": "https://x.com/studiobakers",
+  "avatarUrl": "https://media.inspora.design/creators/8e23fdea-4cf7-4d51-8aca-ce2d06207ce2.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "mixing ui motion with voice model",
+ "category": "Motion",
+ "industries": [
+  "Ecommerce",
+  "SaaS"
+ ],
+ "colors": [
+  "Orange",
+  "Cream"
+ ],
+ "styles": [
+  "Soft",
+  "Fluid"
+ ],
+ "sourceUrl": "https://x.com/studiobakers/status/2105646091064791283",
+ "createdAt": "2026-10-02T10:06:34.713Z",
+ "publishedAt": "2026-10-02T10:06:34.563Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "ad21b593-d546-4a0f-b294-a0fce36140a3",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/6f8079b5-e6bb-4c84-aa70-8eb63c190b6f.mp4",
+   "posterUrl": "https://media.inspora.design/posts/ed4cc659-0317-47f2-aa20-41851e82cfa2.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 3049404,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/fdef0446-6f0a-4e1d-95d8-8252f9c04e7d.mp4",
+    "bytes": 845191,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/fdef0446-6f0a-4e1d-95d8-8252f9c04e7d.mp4"
+   },
+   "alt": "QODkVRGm2yLunv 7",
+   "width": 1570,
+   "height": 1570,
+   "position": 0
+  }
+ ]
+}

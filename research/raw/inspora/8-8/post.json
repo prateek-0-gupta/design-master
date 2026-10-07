@@ -1,0 +1,47 @@
+{
+ "id": "172382a5-4c9e-4e1c-a948-1878d9f5dcad",
+ "slug": "8-8",
+ "title": "ipod AI agent",
+ "creator": {
+  "id": "95add4e1-7446-42ae-bcf6-c8537795b08a",
+  "name": "@nilseller",
+  "handle": "@nilseller",
+  "url": "https://x.com/nilseller",
+  "avatarUrl": "https://media.inspora.design/creators/d77066f4-db41-49b0-91b6-4a2c50f9725b.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "ipod AI agent",
+ "category": "Illustration",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/nilseller/status/2089383501749485870",
+ "createdAt": "2026-08-18T04:28:49.426Z",
+ "publishedAt": "2026-08-18T04:28:49.276Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "d3ebc6a4-0ec3-4766-aed3-253f05fef37b",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/3799c4d2-e767-490d-8b68-80c66b4bd7d8.mp4",
+   "posterUrl": "https://media.inspora.design/posts/6fa2297e-47ca-4018-b7d9-1d35971e6887.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1117977,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/d3ebc6a4-0ec3-4766-aed3-253f05fef37b.mp4",
+    "bytes": 449721,
+    "width": 1080,
+    "format": "mp4",
+    "height": 720,
+    "storageKey": "posts/previews/d3ebc6a4-0ec3-4766-aed3-253f05fef37b.mp4"
+   },
+   "alt": "IlekG0AsX17URPoP",
+   "width": 1920,
+   "height": 1280,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "646eeed7-9bed-4962-bbbb-5b8c539c08a3",
+ "slug": "unlocking-keypad",
+ "title": "Unlocking keypad",
+ "creator": {
+  "id": "607c614b-5385-4c30-b522-df31d1db1933",
+  "name": "@reijowrites",
+  "handle": "@reijowrites",
+  "url": "https://x.com/reijowrites",
+  "avatarUrl": "https://media.inspora.design/creators/0d94c56e-e259-426a-bc25-93c560cf2de8.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "now  discribe this in just one line a short Blender 3D animation of a brushed-metal PIN keypad that unlocks after a code is entered.",
+ "category": "3D",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/reijowrites/status/1877426335104041031?s=52",
+ "createdAt": "2026-09-14T05:18:51.654Z",
+ "publishedAt": "2026-09-14T05:18:51.127Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "2bec90a6-c194-4413-8ee8-542340577d1a",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/4324f80f-46ba-4e92-8a69-ac6632398b0f.mp4",
+   "posterUrl": "https://media.inspora.design/posts/6f8ff660-4e4d-4f64-96e0-1651b25ea22d.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1254597,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/b9494fd2-47e6-48c6-94a5-7adbb6277902.mp4",
+    "bytes": 1250486,
+    "width": 1080,
+    "format": "mp4",
+    "height": 810,
+    "storageKey": "posts/b9494fd2-47e6-48c6-94a5-7adbb6277902.mp4"
+   },
+   "alt": "s aNP1igkW9X6x2o",
+   "width": 1440,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

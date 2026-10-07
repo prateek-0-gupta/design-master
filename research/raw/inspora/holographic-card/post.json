@@ -1,0 +1,56 @@
+{
+ "id": "0c112dbf-6fb9-40b9-8789-1562c352e9cf",
+ "slug": "holographic-card",
+ "title": "holographic card",
+ "creator": {
+  "id": "f725c73f-9fb5-4b99-9a89-ce6adeb431c0",
+  "name": "@matiNotFound",
+  "handle": "@matiNotFound",
+  "url": "https://x.com/matiNotFound",
+  "avatarUrl": "https://media.inspora.design/creators/ac89c254-82da-40fd-8899-1bb8b0c3d355.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "A dark WebGPU card whose triangle fractal blooms with rainbow holographic light as you move the mouse.",
+ "category": "Illustration",
+ "industries": [
+  "Tech",
+  "collectibles"
+ ],
+ "colors": [
+  "Black",
+  "rainbow"
+ ],
+ "styles": [
+  "holographic",
+  "futuristic"
+ ],
+ "sourceUrl": "https://x.com/matiNotFound/status/2101004423438688296",
+ "createdAt": "2026-09-20T05:23:12.395Z",
+ "publishedAt": "2026-09-20T05:23:12.339Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "7025d21c-13e5-4b70-8881-c76a2ffa27c5",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/2254a917-878a-456a-bd9b-5178852023e6.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d35bfebd-feff-4d36-8884-6d01edbe1cf5.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 3584406,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/d505d611-935a-4bf1-9ec0-4f864805bc77.mp4",
+    "bytes": 782375,
+    "width": 1080,
+    "format": "mp4",
+    "height": 744,
+    "storageKey": "posts/d505d611-935a-4bf1-9ec0-4f864805bc77.mp4"
+   },
+   "alt": "LD36k yVYOzCMeYU",
+   "width": 2490,
+   "height": 1716,
+   "position": 0
+  }
+ ]
+}

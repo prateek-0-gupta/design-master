@@ -1,0 +1,55 @@
+{
+ "id": "e8c71422-43a2-4c61-bd8d-a748c9c36b5a",
+ "slug": "ai-ends-motion-hiring",
+ "title": "AI ends motion hiring.",
+ "creator": {
+  "id": "c583bc7c-44ac-42f6-94d0-579b50f4762d",
+  "name": "Miles",
+  "handle": "@uxmiles",
+  "avatarUrl": "https://media.inspora.design/creators/dc1e87cc-5638-4b82-85c4-46386098d75a.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "AI-generated UI animation (slider, notifications, keyboard) made with Opus 5.5 in just three prompts.",
+ "category": "Motion",
+ "industries": [
+  "Motion design"
+ ],
+ "colors": [
+  "Black",
+  "Blue",
+  "White"
+ ],
+ "styles": [
+  "Dark",
+  "Minimal"
+ ],
+ "sourceUrl": "https://x.com/uxmiles/status/2104962333936353601",
+ "createdAt": "2026-10-04T05:10:47.079Z",
+ "publishedAt": "2026-10-04T05:10:47.029Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "331e65f7-5ef5-4086-b41e-75d1cae5cebe",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/5b92c213-a197-4d26-ba2e-c4ab1aeb922d.mp4",
+   "posterUrl": "https://media.inspora.design/posts/22a15e29-76e1-4e2b-884a-7a83df9c9efa.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 3938423,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/6733e054-a6fe-4216-ae1b-9929aeb53f84.mp4",
+    "bytes": 1013409,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/6733e054-a6fe-4216-ae1b-9929aeb53f84.mp4"
+   },
+   "alt": "eDeYiqR7cJjJQyNI",
+   "width": 1920,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

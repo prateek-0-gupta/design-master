@@ -1,0 +1,47 @@
+{
+ "id": "39c32b8d-43ee-4aa2-8075-25af83bfa673",
+ "slug": "1-3",
+ "title": "Dither Motion",
+ "creator": {
+  "id": "5f571016-3d7d-4c6b-b81b-6892735d3246",
+  "name": "@Oriku175",
+  "handle": "@Oriku175",
+  "url": "https://x.com/Oriku175",
+  "avatarUrl": "https://media.inspora.design/creators/1c754d39-7df1-424b-bc81-ffca519983fa.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Dither Motion..",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/Oriku175/status/2079192780581339453",
+ "createdAt": "2026-08-07T08:00:06.805Z",
+ "publishedAt": "2026-08-07T08:00:06.550Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "2d262261-8c2a-4556-a6c3-3c0deb03a285",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/24786451-9993-41f0-b2e2-1d9c93725989.mp4",
+   "posterUrl": "https://media.inspora.design/posts/70fca62e-0ac7-46ae-b4d7-77627306ed91.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 10044191,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/2d262261-8c2a-4556-a6c3-3c0deb03a285.mp4",
+    "bytes": 3473119,
+    "width": 1080,
+    "format": "mp4",
+    "height": 610,
+    "storageKey": "posts/previews/2d262261-8c2a-4556-a6c3-3c0deb03a285.mp4"
+   },
+   "alt": "PmzWbUulOCDuFUE",
+   "width": 1920,
+   "height": 1084,
+   "position": 0
+  }
+ ]
+}

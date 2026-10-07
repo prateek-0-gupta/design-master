@@ -1,0 +1,47 @@
+{
+ "id": "768a1996-7c29-477f-8f30-29b0ff818541",
+ "slug": "2-6",
+ "title": "e-signature field",
+ "creator": {
+  "id": "53f4ded5-bacf-426b-b36e-c917fd2ad906",
+  "name": "@adrianabelarde_",
+  "handle": "@adrianabelarde_",
+  "url": "https://x.com/adrianabelarde_",
+  "avatarUrl": "https://media.inspora.design/creators/95564bf9-3726-4987-a948-ff927dfd4035.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "e-signature field but etch a sketch",
+ "category": "Illustration",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/adrianabelarde_/status/2076290018193424792",
+ "createdAt": "2026-08-07T19:03:10.328Z",
+ "publishedAt": "2026-08-07T19:03:10.075Z",
+ "isFeatured": true,
+ "media": [
+  {
+   "id": "aab865a4-4129-4899-9e81-05c55ad225da",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/00e801ab-787f-49e1-bed7-42b4aaa44717.mp4",
+   "posterUrl": "https://media.inspora.design/posts/8f7fb4e0-019d-4fce-9550-1bbeb1ae8fac.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 8732361,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/aab865a4-4129-4899-9e81-05c55ad225da.mp4",
+    "bytes": 3269592,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/previews/aab865a4-4129-4899-9e81-05c55ad225da.mp4"
+   },
+   "alt": "4jea1gFwMcq5JkGQ",
+   "width": 1920,
+   "height": 1920,
+   "position": 0
+  }
+ ]
+}

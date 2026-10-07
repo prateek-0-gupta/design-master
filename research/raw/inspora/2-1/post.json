@@ -1,0 +1,47 @@
+{
+ "id": "4ce1693f-1f06-4e0b-8b4f-67e2c806f757",
+ "slug": "2-1",
+ "title": "Confidential file animation",
+ "creator": {
+  "id": "f39aef4b-4fcc-4320-98fe-1ee976ad03dd",
+  "name": "@AdityaSur11",
+  "handle": "@AdityaSur11",
+  "url": "https://x.com/AdityaSur11",
+  "avatarUrl": "https://media.inspora.design/creators/afa063e5-5a0a-491d-a617-43dd836737bd.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Confidential file animation",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/AdityaSur11/status/2084844344259776904",
+ "createdAt": "2026-08-07T16:42:29.412Z",
+ "publishedAt": "2026-08-07T16:42:29.160Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "b674a8e2-5084-4abd-b2ac-a37c397d6eb3",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/3be05702-3fc9-41a2-b40b-0c9f9d2c5e68.mp4",
+   "posterUrl": "https://media.inspora.design/posts/baf5e8a6-a01e-4c42-afad-79f3ad53f29a.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1207667,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/b674a8e2-5084-4abd-b2ac-a37c397d6eb3.mp4",
+    "bytes": 950175,
+    "width": 1080,
+    "format": "mp4",
+    "height": 866,
+    "storageKey": "posts/previews/b674a8e2-5084-4abd-b2ac-a37c397d6eb3.mp4"
+   },
+   "alt": "ssstwitter.com 1786120820637",
+   "width": 1346,
+   "height": 1080,
+   "position": 0
+  }
+ ]
+}

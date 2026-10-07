@@ -1,0 +1,47 @@
+{
+ "id": "561a5f58-2b60-4bdf-a115-c2eb14c0565d",
+ "slug": "1-25",
+ "title": "Team section",
+ "creator": {
+  "id": "e9036b39-15bd-422c-8eb9-6550e66f2139",
+  "name": "@dawood_adib",
+  "handle": "@dawood_adib",
+  "url": "https://x.com/dawood_adib/status/2090437307761328634",
+  "avatarUrl": "https://media.inspora.design/creators/1034a36c-b023-43d1-bd81-72fec43861ab.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Team section morph effect",
+ "category": "Web",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/dawood_adib/status/2090437307761328634",
+ "createdAt": "2026-08-22T18:48:30.995Z",
+ "publishedAt": "2026-08-22T18:48:30.943Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "94762909-8e30-469d-be62-26c068adc059",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/e22d9cbc-e3f9-46ac-8d92-0295f065bcf9.mp4",
+   "posterUrl": "https://media.inspora.design/posts/171a3366-357a-4f4a-b60e-258c7a0f6167.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 3727763,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/94762909-8e30-469d-be62-26c068adc059.mp4",
+    "bytes": 5588433,
+    "width": 1080,
+    "format": "mp4",
+    "height": 590,
+    "storageKey": "posts/previews/94762909-8e30-469d-be62-26c068adc059.mp4"
+   },
+   "alt": "5L16PHAWZVWYnkij",
+   "width": 1316,
+   "height": 720,
+   "position": 0
+  }
+ ]
+}

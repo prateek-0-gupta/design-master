@@ -1,0 +1,47 @@
+{
+ "id": "44d2b8af-7e8b-4ecc-b261-8d3c2a1bc66a",
+ "slug": "4-9",
+ "title": "Expandable Tab Bar",
+ "creator": {
+  "id": "2c57fbf6-5acd-4eaf-bd7e-2941af74ceaa",
+  "name": "@HeyAliux",
+  "handle": "@HeyAliux",
+  "url": "https://x.com/HeyAliux",
+  "avatarUrl": "https://media.inspora.design/creators/8534cb36-07a3-4a4e-a06a-d150b54fc3dc.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Expandable Tab Bar",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/HeyAliux/status/2035625121231303027",
+ "createdAt": "2026-08-12T11:25:08.462Z",
+ "publishedAt": "2026-08-12T11:25:08.220Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "13a55bd8-f2aa-4515-871d-43d770f77573",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/55e4e60e-12c8-44d2-92e4-f918bb318156.mp4",
+   "posterUrl": "https://media.inspora.design/posts/81da96ee-b1a1-4354-aad6-cb060977c90f.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 324471,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/13a55bd8-f2aa-4515-871d-43d770f77573.mp4",
+    "bytes": 420108,
+    "width": 720,
+    "format": "mp4",
+    "height": 720,
+    "storageKey": "posts/previews/13a55bd8-f2aa-4515-871d-43d770f77573.mp4"
+   },
+   "alt": "1uuOL6ZB15Tdg33w",
+   "width": 720,
+   "height": 720,
+   "position": 0
+  }
+ ]
+}

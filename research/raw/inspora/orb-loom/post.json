@@ -1,0 +1,47 @@
+{
+ "id": "f8d52050-16e9-490c-a4de-8d8ebb242f61",
+ "slug": "orb-loom",
+ "title": "orbloom",
+ "creator": {
+  "id": "88f8aeff-805b-4624-8ad5-0d0a88dee138",
+  "name": "@rickybharti",
+  "handle": "@rickybharti",
+  "url": "https://x.com/rickybharti",
+  "avatarUrl": "https://media.inspora.design/creators/0703cb65-f90d-4b11-a2d0-def5c428bea1.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "introducing orbloom inspired from grok voice",
+ "category": "Product",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/rickybharti/status/2097293882153177142",
+ "createdAt": "2026-09-09T16:07:46.264Z",
+ "publishedAt": "2026-09-09T16:07:46.211Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "c8e0b32e-a597-49c7-9b12-d1e18a9f9b89",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/ab339907-4040-4c53-843e-2f12eab5d982.mp4",
+   "posterUrl": "https://media.inspora.design/posts/8561a77f-db9f-4cde-998f-3490d2e3ba8c.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 12726364,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/844226ad-f66a-4473-a223-c9ff5d77449e.mp4",
+    "bytes": 1823153,
+    "width": 1080,
+    "format": "mp4",
+    "height": 650,
+    "storageKey": "posts/844226ad-f66a-4473-a223-c9ff5d77449e.mp4"
+   },
+   "alt": "9y2XZ68OLX8uANal",
+   "width": 2644,
+   "height": 1594,
+   "position": 0
+  }
+ ]
+}

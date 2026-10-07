@@ -1,0 +1,56 @@
+{
+ "id": "79ea7332-84cc-4795-bd63-65aeaba4ca98",
+ "slug": "wos-island-animations",
+ "title": "WOS Island Animations",
+ "creator": {
+  "id": "5d539b1d-6eaa-4186-9320-cfb2d81beb70",
+  "name": "Murat",
+  "handle": "@murattenil",
+  "url": "https://x.com/murattenil",
+  "avatarUrl": "https://media.inspora.design/creators/d214cb5c-7d42-4ff1-a9df-095b85593c06.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Dynamic Island concept for WOS live actions.",
+ "category": "Motion",
+ "industries": [
+  "Product design"
+ ],
+ "colors": [
+  "Black",
+  "white",
+  "red"
+ ],
+ "styles": [
+  "Minimal",
+  "Motion"
+ ],
+ "sourceUrl": "https://x.com/murattenil/status/2104628145458675789",
+ "createdAt": "2026-09-30T05:34:59.125Z",
+ "publishedAt": "2026-09-30T05:34:59.075Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "942dc693-6a12-4db0-ba4e-08c6761a9810",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/f2799ef4-6ea4-483b-8f04-44fe07db649a.mp4",
+   "posterUrl": "https://media.inspora.design/posts/f065c4d0-7546-4aab-a97f-a7ad6e07ef1f.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1779461,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/97187a5a-06c5-49f2-bf68-5bbeb8c12f5e.mp4",
+    "bytes": 784113,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/97187a5a-06c5-49f2-bf68-5bbeb8c12f5e.mp4"
+   },
+   "alt": "KVYZ7tZ1UtkAr W2",
+   "width": 1440,
+   "height": 1440,
+   "position": 0
+  }
+ ]
+}

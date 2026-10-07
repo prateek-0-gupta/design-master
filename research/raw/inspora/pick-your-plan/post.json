@@ -1,0 +1,57 @@
+{
+ "id": "0fdfff98-c6c4-4ab4-9b49-67a8d49ddd07",
+ "slug": "pick-your-plan",
+ "title": "Pick your Plan",
+ "creator": {
+  "id": "84b49451-2d73-480d-a118-ecfc89baedad",
+  "name": "@basit_designs",
+  "handle": "@basit_designs",
+  "url": "https://x.com/basit_designs",
+  "avatarUrl": "https://media.inspora.design/creators/848f5428-3415-489f-ae43-38127c6da526.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Clean animated \u201cPick your Plan\u201d mobile UI with colorful abstract cards.",
+ "category": "Product",
+ "industries": [
+  "Telecom"
+ ],
+ "colors": [
+  "White",
+  "pink",
+  "purple"
+ ],
+ "styles": [
+  "Clean",
+  "modern",
+  "minimal"
+ ],
+ "sourceUrl": "https://x.com/basit_designs/status/2060761601893118387",
+ "createdAt": "2026-09-19T13:05:51.517Z",
+ "publishedAt": "2026-09-19T13:05:51.368Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "da84327e-a716-496c-9848-4e920f7ea431",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/cb300d96-19df-4507-ab6c-0996b34c9eb4.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d2988682-ef2e-48d4-9f2f-afd2c21e0c5b.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1544171,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/bc7f8765-aaf5-42f6-95be-89d40c8859df.mp4",
+    "bytes": 877282,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1308,
+    "storageKey": "posts/bc7f8765-aaf5-42f6-95be-89d40c8859df.mp4"
+   },
+   "alt": "jHedbDnhgbts35ZU",
+   "width": 1902,
+   "height": 2304,
+   "position": 0
+  }
+ ]
+}

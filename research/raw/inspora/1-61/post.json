@@ -1,0 +1,47 @@
+{
+ "id": "bd3235e6-20a2-46c5-b491-b007f73a26b0",
+ "slug": "1-61",
+ "title": "Window controlled Dark mode",
+ "creator": {
+  "id": "ce4d8669-e87f-4c92-be56-0ab2d06704cc",
+  "name": "@mjbarton_",
+  "handle": "@mjbarton_",
+  "url": "https://x.com/mjbarton_",
+  "avatarUrl": "https://media.inspora.design/creators/317915c6-3326-45d6-a610-92e6b0942eda.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Window controlled Dark mode",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/mjbarton_/status/2093354383379399012",
+ "createdAt": "2026-08-29T22:49:12.922Z",
+ "publishedAt": "2026-08-29T22:49:12.671Z",
+ "isFeatured": true,
+ "media": [
+  {
+   "id": "5cc3bb85-e5a1-4eaa-b478-4d05c2184074",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/05a923d1-458e-4d81-8a0f-19f31d31b523.mp4",
+   "posterUrl": "https://media.inspora.design/posts/a7fe7fec-6909-4718-9b74-6f0fa337f558.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 313344,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/f189974b-6af5-4c48-adea-429879bd56ee.mp4",
+    "bytes": 355645,
+    "width": 1080,
+    "format": "mp4",
+    "height": 686,
+    "storageKey": "posts/f189974b-6af5-4c48-adea-429879bd56ee.mp4"
+   },
+   "alt": "KByYHetXO4 wGuUU",
+   "width": 1132,
+   "height": 720,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "id": "bb09ec7c-5e0d-4692-bc48-2171b92a8b1a",
+ "slug": "session-progress-and-recovery-timeline",
+ "title": "Session progress and recovery timeline",
+ "creator": {
+  "id": "5a5f6739-efda-473e-a11d-0349d666d58c",
+  "name": "@ShohanUIX",
+  "handle": "@ShohanUIX",
+  "url": "https://x.com/ShohanUIX",
+  "avatarUrl": "https://media.inspora.design/creators/f09dc292-a6aa-4c2d-8821-2fe53528a3b3.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Dark UI shots of Aivo, a mindfulness app with session progress and recovery timeline.",
+ "category": "Product",
+ "industries": [
+  "Wellness",
+  "mindfulness",
+  "health"
+ ],
+ "colors": [
+  "Dark",
+  "orange"
+ ],
+ "styles": [
+  "rounded",
+  "dashboard"
+ ],
+ "sourceUrl": "https://x.com/ShohanUIX/status/2100619974125424683",
+ "createdAt": "2026-09-20T12:46:05.480Z",
+ "publishedAt": "2026-09-20T12:46:05.423Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "a5287606-b83d-44cc-b004-49bd53ffbe9f",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/5c4a2cc9-319a-400c-b85c-d2f7f07466e2.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 20772,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/74cd470b-f54a-4fd9-acb4-a57d42e5e7ec.webp",
+     "bytes": 10692,
+     "width": 640,
+     "format": "webp",
+     "height": 704,
+     "storageKey": "posts/74cd470b-f54a-4fd9-acb4-a57d42e5e7ec.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/ed13be9d-1cb6-4f8c-b378-8ae9d974d77b.webp",
+     "bytes": 16522,
+     "width": 960,
+     "format": "webp",
+     "height": 1056,
+     "storageKey": "posts/ed13be9d-1cb6-4f8c-b378-8ae9d974d77b.webp"
+    }
+   ],
+   "alt": "HSbmu xWEAA9 eH",
+   "width": 1091,
+   "height": 1200,
+   "position": 0
+  },
+  {
+   "id": "af8ce2d1-fbb0-4e0a-bbc7-ef3ccfb401a4",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/70f0769a-e229-47d7-80e9-637c00d93500.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 14482,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/2362219c-c532-44d6-b56b-02d7d1c8406e.webp",
+     "bytes": 7560,
+     "width": 640,
+     "format": "webp",
+     "height": 704,
+     "storageKey": "posts/2362219c-c532-44d6-b56b-02d7d1c8406e.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/3de45b18-9e18-4ab4-b3cf-ce934f094c9d.webp",
+     "bytes": 11598,
+     "width": 960,
+     "format": "webp",
+     "height": 1056,
+     "storageKey": "posts/3de45b18-9e18-4ab4-b3cf-ce934f094c9d.webp"
+    }
+   ],
+   "alt": "HSbmu qWkAEZh3g",
+   "width": 1091,
+   "height": 1200,
+   "position": 1
+  },
+  {
+   "id": "d970ea67-dc72-41f8-ae94-4dafc357ab28",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/17a53744-cbad-46ed-9430-99c3960c3740.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 19574,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/b3d15872-844b-4896-a2b1-afa085502476.webp",
+     "bytes": 10304,
+     "width": 640,
+     "format": "webp",
+     "height": 704,
+     "storageKey": "posts/b3d15872-844b-4896-a2b1-afa085502476.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/10868d3b-92c2-4fd5-b258-ffed6a7784ca.webp",
+     "bytes": 15852,
+     "width": 960,
+     "format": "webp",
+     "height": 1056,
+     "storageKey": "posts/10868d3b-92c2-4fd5-b258-ffed6a7784ca.webp"
+    }
+   ],
+   "alt": "HSbmu iXcAEJNrV",
+   "width": 1091,
+   "height": 1200,
+   "position": 2
+  },
+  {
+   "id": "d2d62cad-b01e-4800-aa2c-0cb92b485e9f",
+   "type": "image",
+   "url": "https://media.inspora.design/posts/443afb2a-aace-4ce4-abdd-f540b8ba83eb.webp",
+   "storageProvider": "r2",
+   "mimeType": "image/webp",
+   "sourceMimeType": "image/jpeg",
+   "sizeBytes": 24854,
+   "variants": [
+    {
+     "url": "https://media.inspora.design/posts/d8c3d908-73ee-44d8-b7c1-c696d4dd66a9.webp",
+     "bytes": 13282,
+     "width": 640,
+     "format": "webp",
+     "height": 704,
+     "storageKey": "posts/d8c3d908-73ee-44d8-b7c1-c696d4dd66a9.webp"
+    },
+    {
+     "url": "https://media.inspora.design/posts/60621999-abc7-463e-a912-29adfcfca6e5.webp",
+     "bytes": 20166,
+     "width": 960,
+     "format": "webp",
+     "height": 1056,
+     "storageKey": "posts/60621999-abc7-463e-a912-29adfcfca6e5.webp"
+    }
+   ],
+   "alt": "HSbmu uWkAArz38",
+   "width": 1091,
+   "height": 1200,
+   "position": 3
+  }
+ ]
+}

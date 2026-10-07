@@ -1,0 +1,47 @@
+{
+ "id": "b5a892f1-5567-48f3-8e79-674adb498b25",
+ "slug": "7-7",
+ "title": "Stamp designs",
+ "creator": {
+  "id": "95add4e1-7446-42ae-bcf6-c8537795b08a",
+  "name": "@nilseller",
+  "handle": "@nilseller",
+  "url": "https://x.com/nilseller",
+  "avatarUrl": "https://media.inspora.design/creators/d77066f4-db41-49b0-91b6-4a2c50f9725b.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Stamp designs",
+ "category": "Print",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/nilseller/status/2086846031501947103",
+ "createdAt": "2026-08-16T16:26:30.416Z",
+ "publishedAt": "2026-08-16T16:26:29.893Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "18dc5c78-a74b-49b1-9990-c92944e1ebc9",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/7d63340d-e566-4b42-a5a0-05d0ddebd8d1.mp4",
+   "posterUrl": "https://media.inspora.design/posts/1c05c0fb-c35d-4274-890c-67cc7f8a1db4.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 637957,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/18dc5c78-a74b-49b1-9990-c92944e1ebc9.mp4",
+    "bytes": 963682,
+    "width": 960,
+    "format": "mp4",
+    "height": 720,
+    "storageKey": "posts/previews/18dc5c78-a74b-49b1-9990-c92944e1ebc9.mp4"
+   },
+   "alt": "@nilseller 2086846031501947103.gif",
+   "width": 960,
+   "height": 720,
+   "position": 0
+  }
+ ]
+}

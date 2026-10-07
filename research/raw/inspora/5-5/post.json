@@ -1,0 +1,47 @@
+{
+ "id": "d0e3da5e-b58d-43a4-9cc8-b66b9b5a33e7",
+ "slug": "5-5",
+ "title": "Book animation",
+ "creator": {
+  "id": "db32d53e-447a-40fd-a8e6-5752e227fa20",
+  "name": "@cambreedesigns",
+  "handle": "@cambreedesigns",
+  "url": "https://x.com/cambreedesigns",
+  "avatarUrl": "https://media.inspora.design/creators/4cc87c66-035c-465a-b83c-fbea36fcf700.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "book animation",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/cambreedesigns/status/2077509154021966106",
+ "createdAt": "2026-08-13T04:41:12.640Z",
+ "publishedAt": "2026-08-13T04:41:12.590Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "fbc10988-40b3-4304-8df8-7cc692b5890e",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/886dec03-0aa6-4ae1-858d-980812653229.mp4",
+   "posterUrl": "https://media.inspora.design/posts/4a5aa7d8-da7c-4515-a254-a0962aee4eea.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2551006,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/fbc10988-40b3-4304-8df8-7cc692b5890e.mp4",
+    "bytes": 1019697,
+    "width": 1080,
+    "format": "mp4",
+    "height": 664,
+    "storageKey": "posts/previews/fbc10988-40b3-4304-8df8-7cc692b5890e.mp4"
+   },
+   "alt": "Mem0Z99xS1IzTKI1",
+   "width": 1921,
+   "height": 1180,
+   "position": 0
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "id": "6816549c-bc75-430d-a69b-ab002cc01b0c",
+ "slug": "beveled-cards",
+ "title": "beveled cards",
+ "creator": {
+  "id": "7f9fdfed-def4-4865-b9d1-5b6587613ba5",
+  "name": "@RachitThakur146",
+  "handle": "@RachitThakur146",
+  "url": "https://x.com/RachitThakur146",
+  "avatarUrl": "https://media.inspora.design/creators/b9bc02b4-cab3-4b67-9e02-c1604c23b6c2.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Three beveled cards on a dark grid: orange concentric targets plus two cream geometric drawings that redraw on hover.",
+ "category": "Web",
+ "industries": [
+  "AI",
+  "SaaS"
+ ],
+ "colors": [
+  "Orange",
+  "cream",
+  "charcoal"
+ ],
+ "styles": [
+  "Geometric"
+ ],
+ "sourceUrl": "https://x.com/RachitThakur146/status/2096551196832248195",
+ "createdAt": "2026-09-12T11:10:12.382Z",
+ "publishedAt": "2026-09-12T11:10:12.333Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "4343bcab-8f15-4980-90ce-deebe3069939",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/897ca6cc-d49a-498c-a874-070658cdd176.mp4",
+   "posterUrl": "https://media.inspora.design/posts/d881de13-700b-4d0a-aa16-fdadd58bc631.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 995086,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/6ec4197a-bb63-481e-acee-ad3e68c8501f.mp4",
+    "bytes": 894006,
+    "width": 1080,
+    "format": "mp4",
+    "height": 608,
+    "storageKey": "posts/6ec4197a-bb63-481e-acee-ad3e68c8501f.mp4"
+   },
+   "alt": "XW1JKD fiPdVyxWZ",
+   "width": 1280,
+   "height": 720,
+   "position": 0
+  }
+ ]
+}

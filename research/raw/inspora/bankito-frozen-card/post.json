@@ -1,0 +1,47 @@
+{
+ "id": "26787857-6d22-4d3b-b328-ee00e19a7a76",
+ "slug": "bankito-frozen-card",
+ "title": "bankito\u00ae frozen card",
+ "creator": {
+  "id": "96c2e288-a74f-46b7-8255-1f8174f8a7ab",
+  "name": "@tyka_dominik",
+  "handle": "@tyka_dominik",
+  "url": "https://x.com/tyka_dominik",
+  "avatarUrl": "https://media.inspora.design/creators/da925a57-b6cd-4f29-aaa4-009a0283ff1a.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "bankito\u00ae frozen card",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/tyka_dominik/status/2053774403373068355",
+ "createdAt": "2026-09-02T01:26:35.779Z",
+ "publishedAt": "2026-09-02T01:26:35.540Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "c7a2124f-751b-4f7d-baf0-ae9a1646cb21",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/c11f3a30-6fe9-4f46-9b60-bd561a6cf2aa.mp4",
+   "posterUrl": "https://media.inspora.design/posts/11201ff1-8cbf-4a91-8570-a8a5610b9bdb.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1586222,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/febb09b6-65e6-426e-99e6-395713ad8e7a.mp4",
+    "bytes": 946571,
+    "width": 1080,
+    "format": "mp4",
+    "height": 730,
+    "storageKey": "posts/febb09b6-65e6-426e-99e6-395713ad8e7a.mp4"
+   },
+   "alt": "R7Pc8abM3No4OGX7",
+   "width": 2260,
+   "height": 1530,
+   "position": 0
+  }
+ ]
+}

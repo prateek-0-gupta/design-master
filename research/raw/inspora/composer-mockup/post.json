@@ -1,0 +1,57 @@
+{
+ "id": "a90e8539-7d98-4454-a295-c249df67daf6",
+ "slug": "composer-mockup",
+ "title": "composer mockup",
+ "creator": {
+  "id": "2035349b-5973-448e-8b02-3bb942eb31f0",
+  "name": "@SebCornelius",
+  "handle": "@SebCornelius",
+  "url": "https://x.com/SebCornelius",
+  "avatarUrl": "https://media.inspora.design/creators/7cc68758-eed2-4db1-b43f-af8f002cab05.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "composer mockup that lets users drop icons and files into a polished X-style card with smooth animations.",
+ "category": "Motion",
+ "industries": [
+  "Software"
+ ],
+ "colors": [
+  "Orange",
+  "Black",
+  "Blue"
+ ],
+ "styles": [
+  "Minimal",
+  "Dark",
+  "3D"
+ ],
+ "sourceUrl": "https://x.com/SebCornelius/status/2101052847940943918?s=20",
+ "createdAt": "2026-09-23T13:51:56.532Z",
+ "publishedAt": "2026-09-23T13:51:56.289Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "aeb11bd1-6629-4626-8029-126a68ac11cd",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/f65e4de8-3d2b-4aff-961e-6949e0a6999d.mp4",
+   "posterUrl": "https://media.inspora.design/posts/3645d822-9c66-4e43-83cb-fd5ce87ae3cf.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 1858875,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/48663958-c1f5-40e3-b6b7-0fa4a6f73b66.mp4",
+    "bytes": 671019,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/48663958-c1f5-40e3-b6b7-0fa4a6f73b66.mp4"
+   },
+   "alt": "6pwQyMBSgI9qh2y",
+   "width": 2160,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}

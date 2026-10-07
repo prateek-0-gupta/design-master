@@ -1,0 +1,47 @@
+{
+ "id": "ac4d6323-f5a0-46f1-8b55-a12ad9eba34a",
+ "slug": "1-24",
+ "title": "Spider-Man web dropdown",
+ "creator": {
+  "id": "77733668-afbd-4ae0-af25-e9244a71fc66",
+  "name": "@nurpraditya",
+  "handle": "@nurpraditya",
+  "url": "https://x.com/nurpraditya",
+  "avatarUrl": "https://media.inspora.design/creators/cb36e080-7ce8-49b3-b6bc-9c5c503ba956.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Spider-Man web dropdown",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/nurpraditya/status/2091155383230529703",
+ "createdAt": "2026-08-22T18:44:54.510Z",
+ "publishedAt": "2026-08-22T18:44:54.259Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "ce52c641-c6cc-4a1a-9c88-8a44463438dc",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/6353988e-6f9e-4c31-a9a0-289344d4fa4e.mp4",
+   "posterUrl": "https://media.inspora.design/posts/5ff54953-a90d-411d-beb9-fc7de13085ce.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 2543790,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/previews/ce52c641-c6cc-4a1a-9c88-8a44463438dc.mp4",
+    "bytes": 1970275,
+    "width": 1080,
+    "format": "mp4",
+    "height": 606,
+    "storageKey": "posts/previews/ce52c641-c6cc-4a1a-9c88-8a44463438dc.mp4"
+   },
+   "alt": "ZHzyftqSvzz3mr6Q",
+   "width": 1282,
+   "height": 720,
+   "position": 0
+  }
+ ]
+}

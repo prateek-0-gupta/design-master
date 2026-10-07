@@ -1,0 +1,47 @@
+{
+ "id": "b3bfc61c-f805-4a45-ab9c-79aea5da55ef",
+ "slug": "follower-count",
+ "title": "Follower Count",
+ "creator": {
+  "id": "f39aef4b-4fcc-4320-98fe-1ee976ad03dd",
+  "name": "@AdityaSur11",
+  "handle": "@AdityaSur11",
+  "url": "https://x.com/AdityaSur11",
+  "avatarUrl": "https://media.inspora.design/creators/afa063e5-5a0a-491d-a617-43dd836737bd.webp",
+  "avatarStorageProvider": "r2"
+ },
+ "description": "Follower Count",
+ "category": "Motion",
+ "industries": [],
+ "colors": [],
+ "styles": [],
+ "sourceUrl": "https://x.com/AdityaSur11/status/2094991203997774303",
+ "createdAt": "2026-09-03T15:49:02.538Z",
+ "publishedAt": "2026-09-03T15:49:02.004Z",
+ "isFeatured": false,
+ "media": [
+  {
+   "id": "73a4937e-b2b5-4021-921c-90e210689d0f",
+   "type": "video",
+   "url": "https://media.inspora.design/posts/3b70a510-4988-4d3d-9908-f0f35d91af82.mp4",
+   "posterUrl": "https://media.inspora.design/posts/4fe2674f-00bb-46fd-8857-7b012e744846.webp",
+   "storageProvider": "r2",
+   "mimeType": "video/mp4",
+   "sourceMimeType": "video/mp4",
+   "sizeBytes": 7762771,
+   "variants": [],
+   "videoPreview": {
+    "url": "https://media.inspora.design/posts/861ae9ce-af86-49b4-9aab-7816fe5db325.mp4",
+    "bytes": 2078935,
+    "width": 1080,
+    "format": "mp4",
+    "height": 1080,
+    "storageKey": "posts/861ae9ce-af86-49b4-9aab-7816fe5db325.mp4"
+   },
+   "alt": "JfATTMvJZf8kgDzv",
+   "width": 2160,
+   "height": 2160,
+   "position": 0
+  }
+ ]
+}
