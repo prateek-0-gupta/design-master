@@ -1,0 +1,162 @@
+{
+ "cadence-landing": {
+  "with_skill": {
+   "raw": 65,
+   "capped": 65,
+   "gates": "6/6",
+   "axes": {
+    "direction": 8,
+    "typography": 9,
+    "colour": 8,
+    "layout": 8,
+    "craft": 8,
+    "motion": 7,
+    "ux": 8,
+    "content": 9
+   }
+  },
+  "without_skill": {
+   "raw": 51,
+   "capped": 50,
+   "gates": "3/6",
+   "axes": {
+    "direction": 6,
+    "typography": 7,
+    "colour": 7,
+    "layout": 7,
+    "craft": 5,
+    "motion": 6,
+    "ux": 6,
+    "content": 7
+   }
+  }
+ },
+ "bramble-dashboard": {
+  "with_skill": {
+   "raw": 61,
+   "capped": 61,
+   "gates": "6/6",
+   "axes": {
+    "direction": 8,
+    "typography": 8,
+    "colour": 7,
+    "layout": 7,
+    "craft": 8,
+    "motion": 6,
+    "ux": 8,
+    "content": 9
+   }
+  },
+  "without_skill": {
+   "raw": 43,
+   "capped": 43,
+   "gates": "2/6",
+   "axes": {
+    "direction": 5,
+    "typography": 6,
+    "colour": 6,
+    "layout": 6,
+    "craft": 5,
+    "motion": 4,
+    "ux": 5,
+    "content": 6
+   }
+  }
+ },
+ "sprout-onboarding": {
+  "with_skill": {
+   "raw": 63,
+   "capped": 63,
+   "gates": "6/6",
+   "axes": {
+    "direction": 8,
+    "typography": 8,
+    "colour": 7,
+    "layout": 7,
+    "craft": 8,
+    "motion": 8,
+    "ux": 9,
+    "content": 8
+   }
+  },
+  "without_skill": {
+   "raw": 55,
+   "capped": 50,
+   "gates": "5/6",
+   "axes": {
+    "direction": 7,
+    "typography": 7,
+    "colour": 7,
+    "layout": 7,
+    "craft": 6,
+    "motion": 7,
+    "ux": 6,
+    "content": 8
+   }
+  }
+ },
+ "halcyon-brand": {
+  "with_skill": {
+   "raw": 66,
+   "capped": 50,
+   "gates": "6/6",
+   "axes": {
+    "direction": 9,
+    "typography": 9,
+    "colour": 8,
+    "layout": 8,
+    "craft": 7,
+    "motion": 8,
+    "ux": 8,
+    "content": 9
+   }
+  },
+  "without_skill": {
+   "raw": 46,
+   "capped": 46,
+   "gates": "4/6",
+   "axes": {
+    "direction": 6,
+    "typography": 7,
+    "colour": 7,
+    "layout": 6,
+    "craft": 5,
+    "motion": 4,
+    "ux": 5,
+    "content": 6
+   }
+  }
+ },
+ "mira-portfolio": {
+  "with_skill": {
+   "raw": 65,
+   "capped": 65,
+   "gates": "6/6",
+   "axes": {
+    "direction": 8,
+    "typography": 9,
+    "colour": 8,
+    "layout": 8,
+    "craft": 8,
+    "motion": 7,
+    "ux": 8,
+    "content": 9
+   }
+  },
+  "without_skill": {
+   "raw": 56,
+   "capped": 50,
+   "gates": "4/6",
+   "axes": {
+    "direction": 7,
+    "typography": 8,
+    "colour": 7,
+    "layout": 7,
+    "craft": 6,
+    "motion": 7,
+    "ux": 6,
+    "content": 8
+   }
+  }
+ }
+}

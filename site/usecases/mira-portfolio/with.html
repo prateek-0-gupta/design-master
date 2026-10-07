@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mira Okafor — Product designer, Berlin</title>
+<meta name="description" content="Mira Okafor is an independent product designer in Berlin. Four selected case studies in fintech, energy, public infrastructure and health.">
+<!--
+Product / subject:  Portfolio of Mira Okafor, independent product designer, Berlin
+Audience & job:     Hiring leads / founders; feel her rigour + warmth, then email her
+Content inventory:  intro, line-map index, 4 case studies, about + practice, contact (form w/ states)
+Tone:               exact, warm, unhurried
+Direction:          Editorial Warm base + ONE layer: type-as-image hero. Signature = the "Linie M" transit diagram
+                    (Berlin U-Bahn line) whose four stops ARE the four case studies; it is the index and it prints the active stop's data.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --canvas:#f6f3ee; --surface-1:#efebe4; --surface-2:#e6e0d6; --ink-band:#1c1917;
+  --hairline:rgb(28 25 23/.12); --border-control:#857c74;
+  --text-1:#1c1917; --text-2:#57534e; --text-3:#6b645e;
+  --on-ink:#f6f3ee; --on-ink-2:#cfc8be; --accent-on-ink:#ff9a76;
+  --accent:#b3401f; --accent-ink:#b3401f; --on-accent:#ffffff; --accent-soft:#f3dfd5;
+  --success-ink:#2f6b3a; --danger-ink:#a3271b;
+  --font-display:"Instrument Serif",Georgia,serif; --font-sans:"Inter",ui-sans-serif,system-ui,sans-serif; --font-mono:"JetBrains Mono",ui-monospace,monospace;
+  --radius-1:4px; --radius-2:10px; --radius-pill:9999px;
+  --dur-1:120ms; --dur-2:200ms; --dur-3:320ms; --dur-4:560ms; --ease-out:cubic-bezier(.2,.8,.2,1);
+  --shadow-2:0 2px 4px rgb(28 25 23/.04),0 18px 40px -12px rgb(60 40 20/.18);
+  --highlight:inset 0 1px 0 rgb(255 255 255/.5);
+  --focus-ring:0 0 0 2px var(--canvas),0 0 0 4px var(--text-1);
+  --margin:clamp(16px,6vw,104px);
+  --fs-s:.8125rem; --fs-b:1.0625rem; --fs-l:1.5rem; --fs-xl:2rem; --fs-2xl:clamp(2.25rem,3.4vw + 1rem,3.75rem); --fs-hero:clamp(4.5rem,17vw,17rem);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{font:400 var(--fs-b)/1.55 var(--font-sans);background:var(--canvas);color:var(--text-1);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+:focus-visible{outline:none;box-shadow:var(--focus-ring);border-radius:var(--radius-1)}
+.band :focus-visible{box-shadow:0 0 0 2px var(--ink-band),0 0 0 4px var(--on-ink)}
+a{color:inherit}
+p{text-wrap:pretty}
+h1,h2,h3{text-wrap:balance;font-weight:400}
+.mono{font:500 12px/1.3 var(--font-mono);letter-spacing:.08em;text-transform:uppercase}
+.skip{position:absolute;left:var(--margin);top:-60px;background:var(--text-1);color:var(--canvas);padding:12px 16px;z-index:20}
+.skip:focus{top:8px}
+
+/* top bar */
+header.top{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:8px var(--margin);border-bottom:1px solid var(--hairline);position:sticky;top:0;background:rgb(246 243 238/.93);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);z-index:10}
+.mark{font:400 1.5rem/1 var(--font-display);text-decoration:none;display:inline-flex;align-items:center;min-height:44px;letter-spacing:-.01em}
+.mark i{color:var(--accent-ink)}
+header.top nav{display:flex;gap:2px}
+header.top nav a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;text-decoration:none;color:var(--text-2);font-size:.9375rem;transition:color var(--dur-1)}
+header.top nav a:hover{color:var(--text-1);text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px}
+header.top nav a[aria-current="true"]{color:var(--text-1);text-decoration:underline;text-underline-offset:6px;text-decoration-color:var(--accent)}
+
+/* hero */
+.hero{padding:clamp(40px,7vw,96px) var(--margin) 0;position:relative;border-bottom:1px solid var(--hairline)}
+.hero .kicker{display:flex;justify-content:space-between;gap:16px;color:var(--text-3);flex-wrap:wrap}
+.hero h1{font:400 var(--fs-hero)/.82 var(--font-display);letter-spacing:-.04em;margin:clamp(24px,4vw,56px) 0 0 -.04em;white-space:nowrap}
+.hero h1 span{display:block}
+.hero h1 .l2{padding-left:clamp(0px,14vw,240px);font-style:italic;letter-spacing:-.03em}
+.hero h1 .l2 b{font-weight:400;color:var(--accent-ink)}
+.hero-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:24px;margin-top:clamp(32px,5vw,72px);padding-bottom:0}
+.lede{grid-column:1/6;font:400 clamp(1.5rem,1rem + 1.5vw,2.1rem)/1.22 var(--font-display);letter-spacing:-.01em;max-width:24ch}
+.lede em{color:var(--accent-ink)}
+.status{grid-column:1/6;margin-top:20px;color:var(--text-2);max-width:44ch}
+.status .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--success-ink);margin-right:8px;vertical-align:1px}
+
+/* line map */
+.linemap{grid-column:6/-1;grid-row:1/3;align-self:end;position:relative}
+.linemap-head{display:flex;justify-content:space-between;color:var(--text-3);margin-bottom:12px}
+.map{position:relative;padding:8px 0 0}
+.map svg{display:block;width:100%;height:auto;overflow:visible}
+.track{stroke:var(--text-1);stroke-width:8;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.track-ghost{stroke:var(--hairline);stroke-width:8;fill:none;stroke-linecap:round}
+.js .track{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.4s var(--ease-out) .2s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.stops{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:0}
+.stop a{display:block;text-decoration:none;padding:14px 8px 12px 0;min-height:44px;border-top:1px solid transparent}
+.stop .n{color:var(--text-3);display:block}
+.stop .t{font:400 1.375rem/1.1 var(--font-display);display:block;margin-top:4px;letter-spacing:-.01em}
+.stop a:hover .t,.stop a.on .t{color:var(--accent-ink)}
+.stop a.on .n{color:var(--accent-ink)}
+.node{fill:var(--canvas);stroke:var(--text-1);stroke-width:5;transition:r var(--dur-2) var(--ease-out),fill var(--dur-2)}
+.node.on{fill:var(--accent);stroke:var(--text-1)}
+.ticket{margin-top:20px;background:var(--surface-1);box-shadow:var(--highlight),var(--shadow-2);border-radius:0;padding:16px 20px;display:grid;grid-template-columns:1fr auto;gap:4px 24px;position:relative;
+  -webkit-mask:radial-gradient(9px at 0 50%,#0000 97%,#000) left/51% 100% no-repeat,radial-gradient(9px at 100% 50%,#0000 97%,#000) right/51% 100% no-repeat;
+  mask:radial-gradient(9px at 0 50%,#0000 97%,#000) left/51% 100% no-repeat,radial-gradient(9px at 100% 50%,#0000 97%,#000) right/51% 100% no-repeat}
+.ticket .tk-l{color:var(--text-3)}
+.ticket .tk-main{font:400 1.5rem/1.15 var(--font-display);letter-spacing:-.01em;grid-column:1}
+.ticket .tk-stat{grid-row:1/3;grid-column:2;text-align:right;align-self:center;font:400 2.5rem/1 var(--font-display);font-variant-numeric:tabular-nums;color:var(--accent-ink)}
+.ticket .tk-stat small{display:block;font:500 12px/1.3 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--text-3);margin-top:6px}
+.ticket .tk-sub{grid-column:1;color:var(--text-2);font-size:.9375rem}
+.ticket.flip .tk-main,.ticket.flip .tk-stat{animation:tick var(--dur-3) var(--ease-out)}
+@keyframes tick{from{opacity:0;filter:blur(6px);transform:translateY(6px)}to{opacity:1;filter:none;transform:none}}
+.hero-foot{display:flex;justify-content:space-between;gap:16px;border-top:1px solid var(--hairline);margin-top:clamp(40px,6vw,80px);padding:14px 0;color:var(--text-3);flex-wrap:wrap}
+
+/* sections */
+section{padding:clamp(72px,10vw,144px) var(--margin);border-bottom:1px solid var(--hairline)}
+.sec-head{display:grid;grid-template-columns:repeat(12,1fr);gap:24px;margin-bottom:clamp(40px,6vw,88px);align-items:end}
+.sec-head .idx{grid-column:1/4;color:var(--text-3)}
+.sec-head h2{grid-column:4/-1;font:400 var(--fs-2xl)/1.02 var(--font-display);letter-spacing:-.025em;max-width:18ch}
+.sec-head h2 em{color:var(--accent-ink)}
+
+/* case studies */
+.case{display:grid;grid-template-columns:repeat(12,1fr);gap:24px;padding:clamp(32px,4vw,56px) 0;border-top:1px solid var(--hairline);scroll-margin-top:72px}
+.case:last-child{border-bottom:1px solid var(--hairline)}
+.case .art{grid-column:1/8;aspect-ratio:7/5;background:var(--surface-1);border-radius:0;position:relative;overflow:hidden;box-shadow:var(--highlight)}
+.case:nth-child(even) .art{grid-column:6/-1;grid-row:1}
+.case:nth-child(even) .txt{grid-column:1/6;grid-row:1}
+.case .art svg{position:absolute;inset:0;width:100%;height:100%}
+.case .txt{grid-column:8/-1;display:flex;flex-direction:column;gap:16px;align-self:end}
+.case .meta{color:var(--text-3);display:flex;gap:16px;flex-wrap:wrap}
+.case h3{font:400 clamp(2rem,2.2vw + 1rem,3rem)/1 var(--font-display);letter-spacing:-.025em}
+.case h3 em{color:var(--accent-ink)}
+.case p{color:var(--text-2);max-width:46ch}
+.facts{display:grid;grid-template-columns:repeat(2,auto);justify-content:start;gap:8px 40px;margin-top:4px;padding-top:16px;border-top:1px solid var(--hairline)}
+.facts dt{color:var(--text-3)}
+.facts dd{font:400 2.25rem/1 var(--font-display);font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.facts dd small{font:400 1rem var(--font-sans);color:var(--text-3);margin-left:4px;letter-spacing:0}
+.link{align-self:flex-start;display:inline-flex;align-items:center;gap:10px;min-height:44px;text-decoration:none;font-weight:500;border-bottom:1px solid var(--text-1);padding:0 0 2px;transition:gap var(--dur-2) var(--ease-out),color var(--dur-1)}
+.link:hover{gap:16px;color:var(--accent-ink);border-color:var(--accent)}
+.link:active{transform:translateY(1px)}
+.art .a-stroke{stroke:var(--text-1);fill:none;stroke-width:2}
+.art .a-fill{fill:var(--text-1)}
+.art .a-acc{fill:var(--accent)}
+.art .a-soft{fill:var(--surface-2)}
+.art text{font:500 11px var(--font-mono);letter-spacing:.08em;fill:var(--text-2)}
+
+/* about */
+.about{display:grid;grid-template-columns:repeat(12,1fr);gap:24px}
+.portrait{grid-column:1/5;aspect-ratio:4/5;background:var(--surface-2);position:relative;overflow:hidden}
+.portrait svg{position:absolute;inset:0;width:100%;height:100%}
+.about .copy{grid-column:6/-1}
+.about .copy p{font:400 clamp(1.4rem,.9rem + 1.2vw,2rem)/1.3 var(--font-display);letter-spacing:-.01em;max-width:30ch;margin-bottom:24px}
+.about .copy p.sm{font:400 var(--fs-b)/1.6 var(--font-sans);color:var(--text-2);max-width:60ch;letter-spacing:0}
+.about .copy p em{color:var(--accent-ink)}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px;padding-top:24px;border-top:1px solid var(--hairline)}
+.cols h3{font:500 12px/1.3 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--text-3);margin-bottom:12px}
+.cols ul{list-style:none;color:var(--text-2);font-size:.9375rem}
+.cols li{padding:6px 0;border-bottom:1px solid var(--hairline)}
+.cols li span{font-variant-numeric:tabular-nums;color:var(--text-3);margin-right:8px}
+
+/* contact (ink band) */
+.band{background:var(--ink-band);color:var(--on-ink);border-bottom:0}
+.band .sec-head .idx{color:var(--on-ink-2)}
+.band .sec-head h2 em{color:var(--accent-on-ink)}
+.contact{display:grid;grid-template-columns:repeat(12,1fr);gap:24px}
+.contact .left{grid-column:1/6}
+.contact .left p{color:var(--on-ink-2);max-width:38ch;margin-bottom:28px}
+.mail{display:inline-block;font:400 clamp(1.5rem,1rem + 2vw,2.75rem)/1.1 var(--font-display);letter-spacing:-.02em;text-decoration:none;border-bottom:1px solid var(--accent-on-ink);word-break:break-word;padding-bottom:2px}
+.mail:hover{color:var(--accent-on-ink)}
+.row{display:flex;gap:12px;align-items:center;margin-top:20px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 22px;border-radius:var(--radius-pill);font:500 1rem var(--font-sans);cursor:pointer;border:1px solid transparent;transition:background var(--dur-1),transform var(--dur-1),color var(--dur-1),border-color var(--dur-1)}
+.btn:active{transform:translateY(1px) scale(.99)}
+.btn-primary{background:var(--accent-on-ink);color:var(--ink-band)}
+.btn-primary:hover{background:#ffb092}
+.btn-ghost{background:transparent;color:var(--on-ink);border-color:#8c857b}
+.btn-ghost:hover{border-color:var(--on-ink)}
+.btn[disabled]{opacity:1;background:#4a4540;color:#d8d2c8;cursor:progress}
+.form{grid-column:7/-1;display:grid;gap:20px}
+.field{display:grid;gap:8px}
+.field label{color:var(--on-ink-2)}
+.field input,.field textarea,.field select{font:400 1rem var(--font-sans);color:var(--on-ink);background:transparent;border:1px solid #8c857b;border-radius:var(--radius-2);padding:12px 14px;min-height:48px;transition:border-color var(--dur-1)}
+.field textarea{min-height:128px;resize:vertical}
+.field select option{color:#1c1917;background:#f6f3ee}
+.field input:hover,.field textarea:hover,.field select:hover{border-color:var(--on-ink)}
+.field input:focus-visible,.field textarea:focus-visible,.field select:focus-visible{border-color:var(--on-ink);box-shadow:0 0 0 2px var(--ink-band),0 0 0 4px var(--on-ink)}
+.field[data-error="true"] input,.field[data-error="true"] textarea{border-color:#ff9f93}
+.err{display:none;color:#ffb3a8;font-size:.9375rem}
+.err::before{content:"! ";font-weight:500}
+.field[data-error="true"] .err{display:block}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.sent{display:none;border:1px dashed var(--accent-on-ink);border-radius:var(--radius-2);padding:28px;gap:8px}
+.sent h3{font:400 2rem/1.1 var(--font-display);letter-spacing:-.02em}
+.sent p{color:var(--on-ink-2)}
+.form.done .fields{display:none}.form.done .sent{display:grid}
+.fields{display:grid;gap:20px}
+footer{background:var(--ink-band);color:var(--on-ink-2);padding:24px var(--margin) 40px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;border-top:1px solid #3a3531}
+footer a{display:inline-flex;align-items:center;min-height:44px}
+.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,16px);background:var(--text-1);color:var(--on-ink);padding:12px 18px;border-radius:var(--radius-pill);opacity:0;pointer-events:none;transition:opacity var(--dur-2),transform var(--dur-2) var(--ease-out);z-index:30;font-size:.9375rem}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+/* reveal: progressive enhancement */
+.js .reveal{opacity:0;transform:translateY(12px);transition:opacity var(--dur-4) var(--ease-out),transform var(--dur-4) var(--ease-out)}
+.js .reveal.in{opacity:1;transform:none}
+
+@media (max-width:960px){
+  .hero-grid,.about,.contact,.sec-head,.case{display:block}
+  .lede{max-width:20ch}
+  .linemap{margin-top:40px}
+  .sec-head .idx{margin-bottom:12px}
+  .case .art{margin-bottom:24px}
+  .portrait{max-width:320px;margin-bottom:32px}
+  .contact .left{margin-bottom:40px}
+  .cols{grid-template-columns:1fr}
+}
+@media (max-width:560px){
+  header.top nav a{padding:0 8px;font-size:.875rem}
+  header.top nav a.opt{display:none}
+  .stops{grid-template-columns:repeat(2,1fr)}
+  .two{grid-template-columns:1fr}
+  .ticket{padding:14px 18px}
+  .ticket .tk-stat{font-size:2rem}
+  .hero h1 .l2{padding-left:8vw}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+  .js .track{stroke-dashoffset:0;animation:none}
+  .js .reveal{transform:none;transition:opacity 120ms linear}
+  .ticket.flip .tk-main,.ticket.flip .tk-stat{animation:none}
+}
+@media print{.js .reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#work">Skip to work</a>
+<header class="top">
+  <a class="mark" href="#top" aria-label="Mira Okafor, home">Mira Okafor<i>.</i></a>
+  <nav aria-label="Primary">
+    <a href="#work">Work</a><a href="#about">About</a><a class="opt" href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+<div class="hero">
+  <div class="kicker mono"><span>Independent product designer</span><span>Berlin · 52.52° N, 13.40° E</span></div>
+  <h1 aria-label="Mira Okafor"><span>Mira</span><span class="l2">Oka<b>f</b>or</span></h1>
+  <div class="hero-grid">
+    <p class="lede">I design the parts of software people <em>only notice</em> when they go wrong.</p>
+    <p class="status"><span class="dot" aria-hidden="true"></span>Booking two projects for January 2027. Eleven years in fintech, energy and health, now working alone with small, serious teams.</p>
+    <div class="linemap">
+      <div class="linemap-head mono"><span>Linie M — selected work</span><span>4 stops</span></div>
+      <div class="map" aria-hidden="true">
+        <svg viewBox="0 0 600 70" preserveAspectRatio="none" focusable="false">
+          <path class="track-ghost" d="M10 40 H590"/>
+          <path class="track" pathLength="1" d="M10 40 H590"/>
+          <circle class="node on" data-i="0" cx="75" cy="40" r="13"/>
+          <circle class="node" data-i="1" cx="225" cy="40" r="13"/>
+          <circle class="node" data-i="2" cx="375" cy="40" r="13"/>
+          <circle class="node" data-i="3" cx="525" cy="40" r="13"/>
+        </svg>
+      </div>
+      <ol class="stops" aria-label="Case studies">
+        <li class="stop"><a href="#halde" data-i="0" class="on"><span class="n mono">M1</span><span class="t">Halde</span></a></li>
+        <li class="stop"><a href="#nordlicht" data-i="1"><span class="n mono">M2</span><span class="t">Nordlicht</span></a></li>
+        <li class="stop"><a href="#pfand" data-i="2"><span class="n mono">M3</span><span class="t">Pfand</span></a></li>
+        <li class="stop"><a href="#kiez" data-i="3"><span class="n mono">M4</span><span class="t">Kiez</span></a></li>
+      </ol>
+      <div class="ticket" id="ticket" aria-live="polite">
+        <span class="tk-l mono" id="tk-l">Fahrschein · M1 · 2024</span>
+        <span class="tk-main" id="tk-main">Tax set-aside for freelancers</span>
+        <span class="tk-sub" id="tk-sub">Halde, Berlin fintech</span>
+        <span class="tk-stat"><span id="tk-stat">−31%</span><small id="tk-unit">late VAT filings</small></span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-foot mono"><span>Scroll for the work</span><span>Ride time: 4 case studies, about 6 minutes</span></div>
+</div>
+
+<section id="work" aria-labelledby="work-h">
+  <div class="sec-head reveal">
+    <p class="idx mono">01 — Selected work, 2021–2025</p>
+    <h2 id="work-h">Four projects, one habit: <em>find the moment of doubt</em> and design it out.</h2>
+  </div>
+
+  <article class="case reveal" id="halde" data-i="0">
+    <div class="art" role="img" aria-label="Illustration: five jar-shaped bars filling to different heights, one marked in vermilion as the tax reserve">
+      <svg viewBox="0 0 700 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <g class="a-stroke"><path d="M60 420 H640"/></g>
+        <g>
+          <rect class="a-soft" x="100" y="120" width="70" height="300"/><rect class="a-fill" x="100" y="250" width="70" height="170"/>
+          <rect class="a-soft" x="215" y="120" width="70" height="300"/><rect class="a-fill" x="215" y="200" width="70" height="220"/>
+          <rect class="a-soft" x="330" y="120" width="70" height="300"/><rect class="a-acc" x="330" y="165" width="70" height="255"/>
+          <rect class="a-soft" x="445" y="120" width="70" height="300"/><rect class="a-fill" x="445" y="285" width="70" height="135"/>
+          <rect class="a-soft" x="560" y="120" width="70" height="300"/><rect class="a-fill" x="560" y="320" width="70" height="100"/>
+        </g>
+        <g class="a-stroke"><path d="M330 165 H400" stroke-dasharray="3 4"/></g>
+        <text x="100" y="448">RENT</text><text x="215" y="448">FOOD</text><text x="330" y="448">USt · TAX</text><text x="445" y="448">TOOLS</text><text x="560" y="448">FREE</text>
+        <text x="100" y="80">HALDE · EINNAHMEN 4.280 €</text>
+      </svg>
+    </div>
+    <div class="txt">
+      <p class="meta mono"><span>M1</span><span>Fintech</span><span>2024</span></p>
+      <h3>Halde: money for the tax bill <em>before</em> it is spent.</h3>
+      <p>Freelancers in Germany owe VAT quarterly, and most learn the number too late. I redesigned Halde's income flow so every invoice quietly fills a tax jar, then tested the language with 22 sole traders until nobody asked "is this mine to spend?"</p>
+      <dl class="facts"><div><dt class="mono">Late VAT filings</dt><dd>−31<small>%</small></dd></div><div><dt class="mono">Time to first jar</dt><dd>48<small>sec</small></dd></div></dl>
+      <a class="link" href="#contact">Read the full story on request <span aria-hidden="true">→</span></a>
+    </div>
+  </article>
+
+  <article class="case reveal" id="nordlicht" data-i="1">
+    <div class="art" role="img" aria-label="Illustration: a thermostat dial with concentric rings and a vermilion arc set at 21 degrees">
+      <svg viewBox="0 0 700 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <circle class="a-soft" cx="350" cy="250" r="190"/>
+        <circle cx="350" cy="250" r="190" class="a-stroke"/>
+        <circle cx="350" cy="250" r="150" class="a-stroke" stroke-dasharray="2 8"/>
+        <path d="M350 80 A170 170 0 1 1 188 303" fill="none" stroke="var(--accent)" stroke-width="14" stroke-linecap="round"/>
+        <circle cx="188" cy="303" r="16" fill="var(--canvas)" stroke="var(--text-1)" stroke-width="4"/>
+        <circle cx="350" cy="250" r="96" fill="var(--canvas)"/>
+        <circle cx="350" cy="250" r="96" class="a-stroke"/>
+        <text x="350" y="262" text-anchor="middle" style="font:400 64px var(--font-display);letter-spacing:-.02em;fill:var(--text-1)">21°</text>
+        <text x="350" y="292" text-anchor="middle">VORLAUF 38°</text>
+        <text x="60" y="450">WP-07 · KELLER</text><text x="520" y="450">COP 3,9</text>
+      </svg>
+    </div>
+    <div class="txt">
+      <p class="meta mono"><span>M2</span><span>Energy</span><span>2023</span></p>
+      <h3>Nordlicht: a heat pump that explains <em>itself</em>.</h3>
+      <p>A municipal utility shipped heat pumps with an app full of flow temperatures. I replaced the dial with one question, "how warm do you want it by 7 am?", and moved the physics into a quiet weekly note. Support calls fell as installs rose.</p>
+      <dl class="facts"><div><dt class="mono">Support calls</dt><dd>−44<small>%</small></dd></div><div><dt class="mono">Households</dt><dd>12.400</dd></div></dl>
+      <a class="link" href="#contact">Read the full story on request <span aria-hidden="true">→</span></a>
+    </div>
+  </article>
+
+  <article class="case reveal" id="pfand" data-i="2">
+    <div class="art" role="img" aria-label="Illustration: a deposit-return receipt with a row of bottles and a total of 4 euros 25">
+      <svg viewBox="0 0 700 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <g transform="translate(95 50)">
+          <path d="M0 0 H210 V400 L195 388 L175 400 L155 388 L135 400 L115 388 L95 400 L75 388 L55 400 L35 388 L15 400 L0 388 Z" fill="var(--canvas)" stroke="var(--text-1)" stroke-width="2"/>
+          <text x="20" y="40">PFAND · RÜCKGABE</text>
+          <path d="M20 56 H190" class="a-stroke" stroke-dasharray="3 4"/>
+          <text x="20" y="92">PET 0,25 × 11</text><text x="150" y="92">2,75</text>
+          <text x="20" y="122">GLAS 0,08 × 6</text><text x="150" y="122">0,48</text>
+          <text x="20" y="152">DOSE 0,25 × 4</text><text x="150" y="152">1,00</text>
+          <path d="M20 176 H190" class="a-stroke" stroke-dasharray="3 4"/>
+          <text x="20" y="210" style="font-size:13px;fill:var(--text-1)">SUMME</text>
+          <text x="20" y="262" style="font:400 56px var(--font-display);letter-spacing:-.02em;fill:var(--accent)">4,23</text>
+        </g>
+        <g transform="translate(380 90)">
+          <g class="a-fill"><rect x="0" y="50" width="46" height="200" rx="18"/><rect x="14" y="0" width="18" height="60"/></g>
+          <g class="a-acc"><rect x="70" y="80" width="46" height="170" rx="18"/><rect x="84" y="30" width="18" height="60"/></g>
+          <g class="a-fill"><rect x="140" y="50" width="46" height="200" rx="18"/><rect x="154" y="0" width="18" height="60"/></g>
+          <rect class="a-soft" x="210" y="120" width="46" height="130" rx="6"/>
+          <path d="M-20 250 H290" class="a-stroke"/>
+          <text x="0" y="285">SCAN · KLACK · FERTIG</text>
+        </g>
+      </svg>
+    </div>
+    <div class="txt">
+      <p class="meta mono"><span>M3</span><span>Public infrastructure</span><span>2022</span></p>
+      <h3>Pfand: the receipt is the <em>interface</em>.</h3>
+      <p>Bottle-return machines fail loudly: jams, rejected cans, a queue behind you. For a retail group's 310 machines I designed the flow around the receipt, so every rejection tells you what to do and what it cost you, in plain German and in English.</p>
+      <dl class="facts"><div><dt class="mono">Failed returns</dt><dd>−58<small>%</small></dd></div><div><dt class="mono">Machines</dt><dd>310</dd></div></dl>
+      <a class="link" href="#contact">Read the full story on request <span aria-hidden="true">→</span></a>
+    </div>
+  </article>
+
+  <article class="case reveal" id="kiez" data-i="3">
+    <div class="art" role="img" aria-label="Illustration: a calendar grid of appointment slots, most outlined, several filled, one vermilion for the next free slot">
+      <svg viewBox="0 0 700 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <g id="slots"></g>
+        <text x="60" y="64">KIEZ PRAXIS · NEUKÖLLN · KW 14</text>
+        <text x="60" y="458">NÄCHSTER FREIER TERMIN · MI 09:20</text>
+      </svg>
+    </div>
+    <div class="txt">
+      <p class="meta mono"><span>M4</span><span>Health</span><span>2025</span></p>
+      <h3>Kiez Praxis: booking for people with <em>no spare Tuesday</em>.</h3>
+      <p>Neighbourhood clinics lose a fifth of their slots to no-shows. I spent three weeks in two waiting rooms, then designed booking around the shift workers who miss appointments, with a next-free-slot first screen and a one-tap swap instead of a cancel.</p>
+      <dl class="facts"><div><dt class="mono">No-shows</dt><dd>−27<small>%</small></dd></div><div><dt class="mono">Booking time</dt><dd>1:12<small>min</small></dd></div></dl>
+      <a class="link" href="#contact">Read the full story on request <span aria-hidden="true">→</span></a>
+    </div>
+  </article>
+</section>
+
+<section id="about" aria-labelledby="about-h">
+  <div class="sec-head reveal">
+    <p class="idx mono">02 — About</p>
+    <h2 id="about-h">Born in Lagos, trained in Weimar, <em>working from Neukölln</em>.</h2>
+  </div>
+  <div class="about reveal">
+    <div class="portrait" role="img" aria-label="Abstract portrait: a vermilion circle above a dark rounded shoulder shape">
+      <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <rect width="400" height="500" fill="var(--surface-2)"/>
+        <circle cx="200" cy="190" r="78" fill="var(--accent)"/>
+        <path d="M40 500 C40 360 120 310 200 310 C280 310 360 360 360 500 Z" fill="var(--text-1)"/>
+        <path d="M0 440 H400" stroke="var(--hairline)" stroke-width="1"/>
+      </svg>
+    </div>
+    <div class="copy">
+      <p>I left a bank's design team in 2021 because I wanted to <em>finish</em> things, not hand them over.</p>
+      <p class="sm">Now I work alone, with one or two clients at a time, usually for three to six months. I do research, interaction design and the unglamorous final 10%: error states, empty states, the email nobody reviewed. I write specs engineers actually read, and I will sit in your Slack. I work in English, German and Yoruba, in that order of confidence.</p>
+      <div class="cols">
+        <div><h3>Practice</h3><ul><li><span>01</span>Product strategy sprints</li><li><span>02</span>Interaction &amp; service design</li><li><span>03</span>Design systems, lightweight</li></ul></div>
+        <div><h3>Recently</h3><ul><li><span>25</span>Kiez Praxis, product lead</li><li><span>24</span>Halde, design partner</li><li><span>23</span>Guest critic, UdK Berlin</li></ul></div>
+        <div><h3>Tools</h3><ul><li>Figma, Origami, Framer</li><li>Plain HTML when it is faster</li><li>A very good notebook</li></ul></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="band" aria-labelledby="contact-h">
+  <div class="sec-head reveal">
+    <p class="idx mono">03 — Contact</p>
+    <h2 id="contact-h">Have a messy problem? <em>Tell me where it hurts.</em></h2>
+  </div>
+  <div class="contact reveal">
+    <div class="left">
+      <p>I answer every message within two working days, usually sooner. For project enquiries, a few lines on the problem and the timeline is plenty.</p>
+      <a class="mail" id="mail" href="mailto:hallo@miraokafor.studio">hallo@miraokafor.studio</a>
+      <div class="row">
+        <button class="btn btn-ghost" id="copy" type="button">Copy address</button>
+      </div>
+    </div>
+    <form class="form" id="form" novalidate>
+      <div class="fields">
+        <div class="two">
+          <div class="field" data-field="name"><label class="mono" for="name">Your name</label><input id="name" name="name" autocomplete="name" aria-describedby="name-e" required><span class="err" id="name-e">Add your name so I know who to answer.</span></div>
+          <div class="field" data-field="email"><label class="mono" for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" aria-describedby="email-e" required><span class="err" id="email-e">Enter an email like name@company.de.</span></div>
+        </div>
+        <div class="field"><label class="mono" for="kind">Project type</label>
+          <select id="kind" name="kind"><option>Product design sprint</option><option>Embedded design partner</option><option>Design review or critique</option><option>Something else</option></select></div>
+        <div class="field" data-field="msg"><label class="mono" for="msg">What is going on?</label><textarea id="msg" name="msg" aria-describedby="msg-e" required></textarea><span class="err" id="msg-e">A sentence or two helps. What is the problem, and by when?</span></div>
+        <div class="row" style="margin-top:0"><button class="btn btn-primary" id="send" type="submit">Send message</button><span class="mono" id="status" role="status" style="color:var(--on-ink-2)"></span></div>
+      </div>
+      <div class="sent" role="status" tabindex="-1" id="sent"><h3>Danke. Message sent.</h3><p id="sent-p">I will reply within two working days.</p><div class="row"><button class="btn btn-ghost" id="again" type="button">Write another</button></div></div>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="mono"><span>© 2026 Mira Okafor · Berlin</span><span><a href="#top">Back to top ↑</a></span></footer>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+document.documentElement.classList.add('js');
+(function(){
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // appointment grid art
+  var g=document.getElementById('slots'),ns='http://www.w3.org/2000/svg',h='';
+  var filled={3:1,4:1,8:1,9:1,10:1,15:1,16:1,22:1,23:1,24:1,29:1,30:1,31:1,32:1,17:1,11:1};
+  for(var r=0;r<5;r++)for(var c=0;c<7;c++){var i=r*7+c,x=60+c*84,y=100+r*58;
+    var cls=i===23?'':(filled[i]?'a-fill':'a-soft');
+    if(i===16){h+='<rect x="'+x+'" y="'+y+'" width="68" height="42" class="a-acc"/>';}
+    else h+='<rect x="'+x+'" y="'+y+'" width="68" height="42" class="'+(filled[i]?'a-fill':'a-soft')+'"/>';}
+  g.innerHTML=h;
+
+  // line map -> ticket
+  var data=[
+    {l:'Fahrschein · M1 · 2024',m:'Tax set-aside for freelancers',s:'Halde, Berlin fintech',v:'−31%',u:'late VAT filings'},
+    {l:'Fahrschein · M2 · 2023',m:'A heat pump that explains itself',s:'Nordlicht, municipal energy',v:'−44%',u:'support calls'},
+    {l:'Fahrschein · M3 · 2022',m:'Deposit returns, receipt first',s:'Pfand, 310 return machines',v:'−58%',u:'failed returns'},
+    {l:'Fahrschein · M4 · 2025',m:'Booking for people with no spare Tuesday',s:'Kiez Praxis, Neukölln',v:'−27%',u:'no-shows'}];
+  var links=[].slice.call(document.querySelectorAll('.stop a')),nodes=[].slice.call(document.querySelectorAll('.node')),t=document.getElementById('ticket'),cur=-1;
+  function set(i){ if(i===cur)return; cur=i;
+    links.forEach(function(a,k){a.classList.toggle('on',k===i)});
+    nodes.forEach(function(n,k){n.classList.toggle('on',k===i)});
+    var d=data[i];
+    document.getElementById('tk-l').textContent=d.l;document.getElementById('tk-main').textContent=d.m;document.getElementById('tk-sub').textContent=d.s;document.getElementById('tk-stat').textContent=d.v;document.getElementById('tk-unit').textContent=d.u;
+    if(!reduce){t.classList.remove('flip');void t.offsetWidth;t.classList.add('flip');}
+  }
+  links.forEach(function(a,k){['mouseenter','focus'].forEach(function(ev){a.addEventListener(ev,function(){set(k)})})});
+  var cases=[].slice.call(document.querySelectorAll('.case'));
+  // scroll: active stop follows the article in view; nav aria-current
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){set(+e.target.dataset.i)}})},{rootMargin:'-40% 0px -50% 0px'});
+    cases.forEach(function(c){io.observe(c)});
+    var navs=[].slice.call(document.querySelectorAll('header nav a'));
+    var io2=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){navs.forEach(function(a){a.removeAttribute('aria-current');if(a.getAttribute('href')==='#'+e.target.id)a.setAttribute('aria-current','true')})}})},{rootMargin:'-45% 0px -50% 0px'});
+    ['work','about','contact'].forEach(function(id){io2.observe(document.getElementById(id))});
+    var rv=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');rv.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});
+    [].forEach.call(document.querySelectorAll('.reveal'),function(el){rv.observe(el)});
+    setTimeout(function(){[].forEach.call(document.querySelectorAll('.reveal:not(.in)'),function(el){var r=el.getBoundingClientRect();if(r.top<innerHeight)el.classList.add('in')})},600);
+  } else {[].forEach.call(document.querySelectorAll('.reveal'),function(el){el.classList.add('in')})}
+
+  // toast + copy
+  var toast=document.getElementById('toast'),tt;
+  function say(m){toast.textContent=m;toast.classList.add('show');clearTimeout(tt);tt=setTimeout(function(){toast.classList.remove('show')},2200)}
+  document.getElementById('copy').addEventListener('click',function(){
+    var a='hallo@miraokafor.studio';
+    (navigator.clipboard?navigator.clipboard.writeText(a):Promise.reject()).then(function(){say('Address copied')},function(){say('Copy failed. Select the address above.')});
+  });
+
+  // form states
+  var f=document.getElementById('form'),send=document.getElementById('send'),st=document.getElementById('status');
+  function bad(name,on){var fl=f.querySelector('[data-field="'+name+'"]');fl.dataset.error=on?'true':'false';fl.querySelector('input,textarea').setAttribute('aria-invalid',on?'true':'false');}
+  ['name','email','msg'].forEach(function(n){var el=f.querySelector('[name="'+n+'"]');el.addEventListener('input',function(){if(el.value.trim())bad(n,false)})});
+  f.addEventListener('submit',function(e){e.preventDefault();
+    var n=f.name.value.trim(),m=f.email.value.trim(),g=f.msg.value.trim();
+    var okN=!!n,okE=/^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test(m),okG=!!g;
+    bad('name',!okN);bad('email',!okE);bad('msg',!okG);
+    if(!(okN&&okE&&okG)){st.textContent='Fix 1+ fields';(!okN?f.name:!okE?f.email:f.msg).focus();return}
+    send.disabled=true;send.textContent='Sending…';st.textContent='';
+    setTimeout(function(){f.classList.add('done');document.getElementById('sent-p').textContent='Thanks, '+n.split(' ')[0]+'. I will reply to '+m+' within two working days.';document.getElementById('sent').focus();send.disabled=false;send.textContent='Send message'},900);
+  });
+  document.getElementById('again').addEventListener('click',function(){f.reset();f.classList.remove('done');f.name.focus()});
+})();
+</script>
+</body>
+</html>

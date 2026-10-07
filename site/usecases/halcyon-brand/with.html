@@ -1,0 +1,770 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Halcyon Coffee Roasters — Brand identity</title>
+<!--
+ Brief: Halcyon Coffee Roasters, specialty roaster, Lisbon. Audience: café partners, designers, printers who must apply the brand correctly.
+ Tone: calm, sun-warmed, exact (not rustic, not hipster-minimal, not loud).
+ Direction: Editorial Warm base + ONE expressive layer: the "roast curve" as brand device (drawn, scrubbable, reused on bags/signage).
+ Signature moment: scrub the roast curve and the readout names the stage; the same curve ends every application.
+ Brand-page anatomy: numbered chapters, rule -> mono spec -> proof -> do/don't -> copy/download.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* brand colours */
+  --paper:#f5f0e6; --paper-2:#ebe4d6; --espresso:#231a14; --atlantic:#1d3b4f; --ember:#b4431c; --crema:#d8bd92; --ember-glow:#e9a27f;
+  /* roles */
+  --canvas:var(--paper); --surface-1:var(--paper-2); --ink-band:var(--espresso);
+  --hairline:rgb(35 26 20/.14); --border-control:#857c74;
+  --text-1:#231a14; --text-2:#5a4d43; --text-3:#6b5e53;
+  --on-ink:#f5f0e6; --on-ink-2:#d6cdbf; --accent:var(--ember); --on-accent:#f5f0e6; --danger:#a3271b;
+  --font-display:"Instrument Serif",Georgia,serif; --font-sans:"Hanken Grotesk",ui-sans-serif,system-ui,sans-serif; --font-mono:"JetBrains Mono",ui-monospace,monospace;
+  --radius-1:4px; --radius-2:12px; --radius-pill:9999px;
+  --dur-1:120ms; --dur-2:200ms; --dur-3:320ms; --ease-out:cubic-bezier(.2,.8,.2,1);
+  --shadow-2:0 2px 4px rgb(35 26 20/.05),0 18px 40px -14px rgb(60 40 20/.25);
+  --highlight:inset 0 1px 0 rgb(255 255 255/.5);
+  --focus-ring:0 0 0 2px var(--canvas),0 0 0 4px var(--text-1);
+  --margin:clamp(16px,6vw,104px);
+  color-scheme:light;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{font:400 17px/1.55 var(--font-sans);background:var(--canvas);color:var(--text-1);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+:focus-visible{outline:none;box-shadow:var(--focus-ring);border-radius:var(--radius-1)}
+.band :focus-visible{box-shadow:0 0 0 2px var(--ink-band),0 0 0 4px var(--on-ink)}
+a{color:inherit}
+.mono{font:500 12px/1.3 var(--font-mono);letter-spacing:.08em;text-transform:uppercase}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:8px;top:-60px;background:var(--text-1);color:var(--on-ink);padding:12px 16px;z-index:20;border-radius:var(--radius-1)}
+.skip:focus{top:8px}
+svg.mk{display:block;width:100%;height:auto}
+
+/* header */
+header.top{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:6px var(--margin);border-bottom:1px solid var(--hairline);position:sticky;top:0;background:rgb(245 240 230/.94);backdrop-filter:blur(10px);z-index:10}
+.brandlink{min-width:44px;justify-content:center;display:inline-flex;align-items:center;gap:10px;text-decoration:none;min-height:44px;font:400 26px/1 var(--font-display);letter-spacing:-.02em;flex:none}
+.brandlink svg{width:24px;height:24px;color:var(--ember);--cut:var(--paper)}
+header.top nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;min-width:0}
+header.top nav a{display:inline-flex;align-items:center;min-height:44px;padding:0 10px;text-decoration:none;color:var(--text-2);white-space:nowrap;font-size:14px}
+header.top nav a b{font:500 12px var(--font-mono);color:var(--text-3);margin-right:6px}
+header.top nav a:hover{color:var(--text-1);background:var(--surface-1);border-radius:var(--radius-1)}
+
+/* hero */
+.hero{padding:clamp(32px,5vw,72px) var(--margin) 0;position:relative;overflow:hidden}
+.hero-top{display:grid;grid-template-columns:repeat(12,1fr);gap:24px;align-items:start}
+.hero-copy{grid-column:1/8;padding-top:8px}
+.hero-copy .mono{color:var(--text-3)}
+.hero-copy .idea{font:400 clamp(1.7rem,1.8vw + 1.1rem,2.7rem)/1.15 var(--font-display);letter-spacing:-.015em;max-width:21ch;margin-top:20px}
+.hero-copy .idea em{color:var(--accent)}
+.hero-copy .sub{margin-top:24px;max-width:46ch;color:var(--text-2)}
+.hero-copy .stamp{margin-top:28px;display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-flex;align-items:center;height:28px;padding:0 12px;border:1px solid var(--border-control);border-radius:var(--radius-pill);font:500 12px/1 var(--font-mono);letter-spacing:.06em;color:var(--text-2)}
+.sun{grid-column:8/13;color:var(--ember);--cut:var(--paper);width:min(100%,520px);justify-self:end;margin-right:calc(var(--margin)*-.45);aspect-ratio:1;transform:rotate(-8deg)}
+.hero h1{font:400 clamp(4.2rem,19.5vw,21rem)/.8 var(--font-display);letter-spacing:-.045em;margin:clamp(8px,2vw,28px) 0 0 -.035em;white-space:nowrap}
+.hero h1 em{font-style:italic;letter-spacing:-.03em;color:var(--ember)}
+.hero-foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:20px 0 24px;border-top:1px solid var(--hairline);margin-top:clamp(8px,1.5vw,24px);color:var(--text-3)}
+
+/* chapters */
+section.ch{padding:clamp(64px,9vw,128px) var(--margin);border-top:1px solid var(--hairline);display:grid;grid-template-columns:repeat(12,1fr);gap:24px}
+.ch>.head{grid-column:1/4}
+.ch>.head .num{color:var(--text-3)}
+.ch>.body{grid-column:4/-1;min-width:0}
+.ch h2{font:400 clamp(2.4rem,3vw + 1rem,3.9rem)/1 var(--font-display);letter-spacing:-.025em;margin-top:12px}
+.ch h2 em{color:var(--accent)}
+.ch>.head p{margin-top:16px;color:var(--text-2);font-size:15px;max-width:30ch}
+.rule{font:400 clamp(1.5rem,1.1vw + 1.1rem,2rem)/1.22 var(--font-display);letter-spacing:-.01em;max-width:36ch}
+.rule em{color:var(--accent)}
+.spec{color:var(--text-3);margin-top:12px}
+.sub-h{margin-top:56px;margin-bottom:16px;color:var(--text-3);display:flex;gap:12px;align-items:center}
+.sub-h::after{content:"";flex:1;height:1px;background:var(--hairline)}
+.btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 18px;border-radius:var(--radius-pill);border:1px solid var(--border-control);background:transparent;font:500 14px/1 var(--font-sans);color:var(--text-1);cursor:pointer;text-decoration:none;transition:background var(--dur-1) var(--ease-out),transform var(--dur-1) var(--ease-out)}
+.btn:hover{background:var(--surface-1)}
+.btn:active{transform:translateY(1px)}
+.btn.primary{background:var(--ember);border-color:var(--ember);color:var(--on-accent)}
+.btn.primary:hover{background:#9c3917}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+
+/* band (device) */
+.band{background:var(--ink-band);color:var(--on-ink);padding:clamp(64px,9vw,120px) var(--margin);display:grid;grid-template-columns:repeat(12,1fr);gap:24px}
+.band .head{grid-column:1/5}
+.band .head .num{color:var(--ember-glow)}
+.band h2{font:400 clamp(2.4rem,3vw + 1rem,3.9rem)/1 var(--font-display);letter-spacing:-.025em;margin-top:12px}
+.band h2 em{color:var(--ember-glow)}
+.band .head p{margin-top:16px;color:var(--on-ink-2);max-width:34ch}
+.band .curve{grid-column:5/-1;min-width:0}
+.plot{position:relative;border:1px solid rgb(245 240 230/.16);border-radius:var(--radius-2);padding:20px 16px 8px;background:linear-gradient(180deg,rgb(245 240 230/.04),transparent)}
+.plot svg{display:block;width:100%;height:auto;overflow:visible}
+.grid-l{stroke:rgb(245 240 230/.12);stroke-width:1}
+.curve-p{fill:none;stroke:var(--ember-glow);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+.curve-done{fill:none;stroke:var(--on-ink);stroke-width:5;stroke-linecap:round}
+.dot{fill:var(--on-ink);stroke:var(--ember-glow);stroke-width:5}
+.readout{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}
+.readout div{border-top:1px solid rgb(245 240 230/.2);padding-top:10px}
+.readout dt{color:var(--on-ink-2)}
+.readout dd{font:400 clamp(1.7rem,1.5vw + 1rem,2.4rem)/1.1 var(--font-display);margin-top:6px;font-variant-numeric:tabular-nums}
+.scrub{display:flex;align-items:center;gap:16px;margin-top:20px}
+.scrub label{flex:none;color:var(--on-ink-2)}
+input[type=range]{flex:1;min-height:44px;accent-color:var(--ember-glow);background:transparent;cursor:pointer}
+.stages{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:20px;list-style:none;padding:0}
+.stages li button{width:100%;text-align:left;min-height:44px;background:transparent;border:1px solid rgb(245 240 230/.22);border-radius:var(--radius-1);padding:10px 12px;color:var(--on-ink-2);font:500 12px/1.4 var(--font-mono);letter-spacing:.04em;cursor:pointer;transition:background var(--dur-1),color var(--dur-1)}
+.stages li button:hover{background:rgb(245 240 230/.08);color:var(--on-ink)}
+.stages li button[aria-pressed=true]{background:var(--on-ink);color:var(--espresso);border-color:var(--on-ink)}
+.formula{grid-column:5/-1;display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:8px}
+.formula div{border-top:1px solid rgb(245 240 230/.2);padding-top:12px;color:var(--on-ink-2);font-size:15px}
+.formula b{display:block;color:var(--on-ink);font:500 12px var(--font-mono);letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px}
+
+/* values */
+.values{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:40px;list-style:none;padding:0}
+.values li{border-top:2px solid var(--text-1);padding-top:16px}
+.values h3{font:400 32px/1.05 var(--font-display);letter-spacing:-.015em}
+.values p{color:var(--text-2);margin-top:8px;font-size:16px}
+.values .nv{display:block;margin-top:12px;color:var(--text-3)}
+
+/* logo */
+.logo-stage{margin-top:40px;display:grid;grid-template-columns:1.5fr 1fr;gap:16px}
+.stage{border-radius:var(--radius-2);background:var(--surface-1);display:grid;place-items:center;padding:clamp(24px,5vw,56px);position:relative;min-height:280px;overflow:hidden}
+.stage .tag{position:absolute;left:14px;top:12px;color:var(--text-3)}
+.lockup{display:inline-flex;align-items:center;gap:.28em;color:var(--espresso);--cut:var(--paper);font-family:var(--font-display);line-height:1;white-space:nowrap}
+.lockup svg{width:1.05em;height:1.05em;color:var(--ember);flex:none;overflow:visible}
+.lockup .w{font-size:1em;letter-spacing:-.03em;display:block}
+.lockup .w small{display:block;font:500 max(12px,.17em)/1 var(--font-mono);letter-spacing:.2em;text-transform:uppercase;margin-top:.5em;margin-left:.1em;opacity:.9}
+.lockup.stacked{flex-direction:column;gap:.15em;text-align:center}
+.lockup.stacked .w small{margin-left:0;margin-top:.45em}
+.clear{position:relative;padding:24px;outline:1px dashed var(--border-control);background:
+  repeating-linear-gradient(45deg,transparent 0 5px,rgb(180 67 28/.18) 5px 6px);background-clip:border-box}
+.clear-inner{background:var(--surface-1);position:relative;font-size:84px}
+.clear-wrap{position:relative;display:inline-block;max-width:100%;padding:clamp(12px,3vw,24px);outline:1px dashed var(--ember);background:repeating-linear-gradient(45deg,transparent 0 5px,rgb(180 67 28/.2) 5px 6px)}
+.clear-wrap .inner{background:var(--surface-1);font-size:clamp(34px,9vw,68px);padding:0}
+.clear-wrap i{position:absolute;font:500 12px var(--font-mono);color:#8f3414;background:var(--surface-1);padding:0 4px;border-radius:2px;font-style:normal}
+.clear-wrap i.x1{left:8px;top:2px}.clear-wrap i.x2{right:8px;bottom:2px}
+.minrow{display:flex;align-items:flex-end;gap:32px;flex-wrap:wrap}
+.minrow figure{display:grid;gap:8px;justify-items:start}
+.minrow figcaption{color:var(--text-3)}
+.matrix{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.matrix figure{border-radius:var(--radius-2);padding:28px 12px 12px;display:grid;gap:20px;justify-items:center;min-height:170px;align-content:space-between;border:1px solid var(--hairline)}
+.matrix figcaption{font:500 12px/1.3 var(--font-mono);letter-spacing:.04em;justify-self:start}
+.m-paper{background:var(--paper);color:var(--text-3)}
+.m-ember{background:var(--ember);color:var(--on-accent)}
+.m-atl{background:var(--atlantic);color:var(--on-ink)}
+.m-esp{background:var(--espresso);color:var(--on-ink-2)}
+.m-ember .lockup{color:var(--paper);--cut:var(--ember)} .m-ember .lockup svg{color:var(--paper)}
+.m-atl .lockup{color:var(--paper);--cut:var(--atlantic)} .m-atl .lockup svg{color:var(--crema)}
+.m-esp .lockup{color:var(--paper);--cut:var(--espresso)} .m-esp .lockup svg{color:var(--ember-glow)}
+.misuse{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.misuse figure{position:relative;border-radius:var(--radius-2);background:var(--surface-1);overflow:hidden;min-height:170px;display:grid;place-items:center;padding:20px 12px 52px}
+.misuse figure::after{content:"";position:absolute;inset:0;background:linear-gradient(to top right,transparent calc(50% - .75px),var(--danger) calc(50% - .75px),var(--danger) calc(50% + .75px),transparent calc(50% + .75px));opacity:.9;pointer-events:none}
+.misuse figcaption{position:absolute;left:0;right:0;bottom:0;padding:10px 14px;background:var(--surface-1);border-top:1px solid var(--hairline);font-size:14px;color:var(--text-2);z-index:1}
+.misuse figcaption b{color:var(--danger);font:500 12px var(--font-mono);letter-spacing:.08em;margin-right:6px}
+.misuse .lockup{font-size:34px}
+.dd{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:24px}
+.dd>div{border-top:2px solid var(--text-1);padding-top:12px;color:var(--text-2);font-size:15px}
+.dd>div.no{border-color:var(--danger)}
+.dd b{display:block;font:500 12px var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--text-1);margin-bottom:6px}
+.dd .no b{color:var(--danger)}
+.tools{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}
+
+/* colour */
+.swatches{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:40px}
+.sw{border-radius:var(--radius-2);overflow:hidden;border:1px solid var(--hairline);background:var(--canvas);display:flex;flex-direction:column}
+.sw .chip-c{aspect-ratio:3/4;padding:14px;display:flex;flex-direction:column;justify-content:space-between}
+.sw .chip-c b{font:400 30px/1 var(--font-display);letter-spacing:-.01em}
+.sw .chip-c span{font:500 12px var(--font-mono);letter-spacing:.06em;text-transform:uppercase}
+.sw dl{padding:12px 14px 4px;display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font:400 12px/1.4 var(--font-mono);color:var(--text-2)}
+.sw dt{color:var(--text-3)} .sw dd{margin:0;font-variant-numeric:tabular-nums}
+.sw .btn{margin:10px 14px 14px;min-height:44px;justify-content:center;font-size:13px}
+.prop{display:flex;height:56px;border-radius:var(--radius-2);overflow:hidden;margin-top:12px;border:1px solid var(--hairline)}
+.prop span{display:flex;align-items:flex-end;padding:8px 10px;font:500 12px var(--font-mono)}
+.pairs{width:100%;border-collapse:collapse;font-size:15px}
+.pairs th{font:500 12px var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--text-3);text-align:left;padding:8px 12px 8px 0;border-bottom:1px solid var(--text-1)}
+.pairs td{padding:12px 12px 12px 0;border-bottom:1px solid var(--hairline);vertical-align:middle}
+.pairs .demo{display:inline-flex;align-items:center;justify-content:center;width:112px;height:44px;border-radius:var(--radius-1);font:400 24px/1 var(--font-display)}
+.pairs .r{font:500 14px var(--font-mono);font-variant-numeric:tabular-nums}
+.badge{display:inline-flex;align-items:center;gap:6px;height:24px;padding:0 10px;border-radius:var(--radius-pill);font:500 12px/1 var(--font-mono);border:1px solid currentColor;width:max-content}
+.badge.ok{color:#2f6b3a}.badge.no{color:var(--danger)}
+.ladder{display:grid;grid-template-columns:repeat(5,1fr);height:104px;border-radius:var(--radius-2);overflow:hidden;margin-top:12px;border:1px solid var(--hairline)}
+.ladder div{padding:10px;display:flex;flex-direction:column;justify-content:flex-end;font:500 12px/1.3 var(--font-mono)}
+
+/* type */
+.specimen{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:40px}
+.spec-card{border-radius:var(--radius-2);background:var(--surface-1);padding:28px;overflow:hidden}
+.spec-card .aa{font:400 clamp(7rem,12vw,11rem)/.85 var(--font-display);letter-spacing:-.04em}
+.spec-card.dark{background:var(--espresso);color:var(--on-ink)}
+.spec-card.dark .aa{font-family:var(--font-sans);font-weight:500;letter-spacing:-.04em;font-size:clamp(6rem,10vw,9rem)}
+.spec-card .mono{color:var(--text-3)} .spec-card.dark .mono{color:var(--on-ink-2)}
+.spec-card p.gl{margin-top:20px;font-size:20px;line-height:1.4;overflow-wrap:anywhere}
+.scale{margin-top:32px;border-top:1px solid var(--hairline)}
+.scale>div{display:grid;grid-template-columns:200px 1fr;gap:24px;align-items:baseline;padding:18px 0;border-bottom:1px solid var(--hairline)}
+.scale .s{color:var(--text-3);line-height:1.5}
+.scale .s b{display:block;color:var(--text-1)}
+.scale .t{min-width:0;overflow-wrap:anywhere}
+.num-demo{font:500 15px/1.5 var(--font-sans);font-variant-numeric:tabular-nums;display:grid;grid-template-columns:auto auto;gap:4px 24px;justify-content:start;margin-top:16px}
+.num-demo span:nth-child(even){text-align:right}
+.num-demo small{color:var(--text-3);font-size:.8em}
+
+/* photography */
+.frames{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:12px;margin-top:40px}
+.frame{border-radius:var(--radius-1);overflow:hidden;position:relative;aspect-ratio:4/5;background:var(--espresso)}
+.frame:nth-child(1){aspect-ratio:auto;grid-row:span 1}
+.frame svg{position:absolute;inset:0;width:100%;height:100%}
+.frame figcaption{position:absolute;left:0;right:0;bottom:0;padding:28px 14px 12px;background:linear-gradient(to top,rgb(35 26 20/.88),rgb(35 26 20/.88) 55%,transparent);color:var(--on-ink);font-size:13px;line-height:1.4}
+.frame figcaption b{display:block;font:500 12px var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ember-glow);margin-bottom:2px}
+.recipe{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:32px}
+.recipe div{border-top:1px solid var(--hairline);padding-top:12px}
+.recipe dt{color:var(--text-3)} .recipe dd{margin:6px 0 0;color:var(--text-1);font-size:16px}
+.donts{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+.donts span{display:inline-flex;align-items:center;gap:8px;min-height:36px;padding:0 14px;border-radius:var(--radius-pill);border:1px solid var(--danger);color:var(--danger);font-size:14px;text-decoration:line-through;text-decoration-thickness:1.5px}
+
+/* voice */
+.attrs{display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px;margin-top:40px}
+.attr{border-top:2px solid var(--text-1);padding:16px 0 28px}
+.attr h3{font:400 36px/1.05 var(--font-display);letter-spacing:-.015em}
+.attr h3 span{color:var(--text-3);font-size:.6em;font-family:var(--font-mono);letter-spacing:.08em;vertical-align:middle;margin-left:8px}
+.attr p{color:var(--text-2);margin-top:8px;font-size:16px}
+.say{display:grid;gap:8px;margin-top:16px}
+.say q{display:block;quotes:none;padding:10px 14px;border-radius:var(--radius-1);font-size:15px;line-height:1.4}
+.say .y{background:var(--surface-1)} .say .y::before{content:"Say  ";font:500 12px var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:#2f6b3a}
+.say .n{border:1px solid var(--hairline);color:var(--text-3)} .say .n::before{content:"Not  ";font:500 12px var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--danger)}
+.dial{margin-top:48px;border:1px solid var(--hairline);border-radius:var(--radius-2);overflow:hidden;background:var(--canvas);box-shadow:var(--highlight)}
+.tabs{display:flex;border-bottom:1px solid var(--hairline);overflow-x:auto;scrollbar-width:none;background:var(--surface-1)}
+.tabs button{flex:1 0 auto;min-height:48px;padding:0 20px;border:0;background:transparent;font:500 14px var(--font-sans);color:var(--text-2);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;transition:color var(--dur-1),background var(--dur-1)}
+.tabs button:hover{color:var(--text-1)}
+.tabs button[aria-selected=true]{color:var(--text-1);background:var(--canvas);border-bottom-color:var(--ember)}
+.panel{padding:clamp(20px,3vw,36px);display:grid;grid-template-columns:1.4fr 1fr;gap:32px}
+.panel .sample{font:400 clamp(1.5rem,1.2vw + 1.1rem,2.1rem)/1.22 var(--font-display);letter-spacing:-.01em}
+.panel .sample small{display:block;margin-top:12px;font:500 12px var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--text-3)}
+.meters{display:grid;gap:14px;align-content:start}
+.meter{display:grid;grid-template-columns:90px 1fr auto;align-items:center;gap:10px;font-size:14px;color:var(--text-2)}
+.meter .bar{display:flex;gap:4px}
+.meter .bar i{width:100%;height:8px;border-radius:2px;background:var(--surface-2,#e6e0d6);background:var(--paper-2);border:1px solid var(--hairline)}
+.meter .bar i.on{background:var(--ember);border-color:var(--ember)}
+.meter span.v{font:500 12px var(--font-mono);color:var(--text-3)}
+.mech{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:40px}
+.mech div{border-top:1px solid var(--hairline);padding-top:12px;font-size:15px;color:var(--text-2)}
+.mech b{display:block;font:500 12px var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--text-1);margin-bottom:6px}
+
+/* applications */
+.apps{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;margin-top:40px}
+.app{border-radius:var(--radius-2);background:var(--surface-1);position:relative;overflow:hidden;padding:clamp(20px,3vw,36px);display:flex;flex-direction:column;justify-content:space-between;gap:20px}
+.app .cap{color:var(--text-3)}
+.app .cap b{display:block;color:var(--text-1);font:400 24px/1.1 var(--font-display);letter-spacing:-.01em;text-transform:none;margin-bottom:4px}
+.a-bags{grid-column:1/-1;background:var(--crema)}
+.a-bags .cap{color:var(--espresso)} .a-bags .cap b{color:var(--espresso)}
+.a-cup{grid-column:1/6}
+.a-sign{grid-column:6/-1;background:var(--paper-2)}
+.bags{display:grid;grid-template-columns:repeat(3,minmax(0,220px));gap:clamp(16px,4vw,56px);justify-content:center;align-items:end;padding:8px 0}
+.bag{position:relative;aspect-ratio:3/4.3;border-radius:6px 6px 12px 12px;padding:30px 16px 16px;display:flex;flex-direction:column;box-shadow:var(--shadow-2),var(--highlight);transition:transform var(--dur-3) var(--ease-out)}
+.bag:hover{transform:translateY(-6px) rotate(-1deg)}
+.bag::before{content:"";position:absolute;left:0;right:0;top:0;height:16px;border-radius:6px 6px 0 0;background:repeating-linear-gradient(90deg,rgb(0 0 0/.16) 0 2px,transparent 2px 6px);opacity:.5}
+.bag .m{width:36px;height:36px}
+.bag .name{font:400 clamp(1.5rem,2.4vw,2.1rem)/.95 var(--font-display);letter-spacing:-.025em;margin-top:12px}
+.bag .name em{display:block}
+.bag .meta{margin-top:auto;display:grid;gap:6px;font:500 12px/1.3 var(--font-mono);letter-spacing:.04em}
+.bag .roast{display:flex;gap:4px;margin:2px 0 4px}
+.bag .roast i{flex:1;height:5px;border-radius:2px;background:currentColor;opacity:.3}
+.bag .roast i.on{opacity:1}
+.bag .curvemini{position:absolute;right:0;top:56px;width:62%;opacity:.9}
+.bag.b1{background:var(--ember);color:var(--paper);--cut:var(--ember)} .bag.b1 .m{color:var(--paper)}
+.bag.b2{background:var(--atlantic);color:var(--paper);--cut:var(--atlantic)} .bag.b2 .m{color:var(--crema)}
+.bag.b3{background:var(--espresso);color:var(--paper);--cut:var(--espresso)} .bag.b3 .m{color:var(--ember-glow)}
+.app svg.art{width:100%;height:auto;display:block;max-height:480px}
+
+/* use */
+.use{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:40px}
+.use div{border-top:1px solid var(--hairline);padding-top:12px;font-size:15px;color:var(--text-2)}
+.use b{display:block;font:500 12px var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--text-1);margin-bottom:6px}
+.log{margin-top:40px;border-top:1px solid var(--hairline)}
+.log div{display:grid;grid-template-columns:120px 1fr;gap:24px;padding:12px 0;border-bottom:1px solid var(--hairline);font-size:15px;color:var(--text-2)}
+.log span{color:var(--text-3)}
+footer{background:var(--espresso);color:var(--on-ink-2);padding:56px var(--margin);display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:flex-end}
+footer .lockup{font-size:56px;color:var(--paper);--cut:var(--espresso)} footer .lockup svg{color:var(--ember-glow)}
+footer a{color:var(--on-ink);display:inline-flex;align-items:center;min-height:44px}
+.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,16px);background:var(--text-1);color:var(--on-ink);padding:12px 18px;border-radius:var(--radius-pill);font:500 14px var(--font-sans);opacity:0;pointer-events:none;transition:opacity var(--dur-2) var(--ease-out),transform var(--dur-2) var(--ease-out);z-index:30}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+/* curve draw (progressive enhancement) */
+.js .curve-p{stroke-dasharray:var(--len,2400);stroke-dashoffset:var(--len,2400);animation:draw 1.6s var(--ease-out) .2s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+
+@media (max-width:1000px){
+  .hero-copy{grid-column:1/-1}.sun{grid-column:1/-1;position:absolute;right:-18vw;top:56px;width:58vw;opacity:1;margin:0;z-index:0}
+  .hero-copy{position:relative;z-index:1}.hero-copy .idea{max-width:14ch}
+  section.ch,.band{grid-template-columns:1fr}
+  .ch>.head,.ch>.body,.band .head,.band .curve,.formula{grid-column:1/-1}
+  .swatches{grid-template-columns:repeat(2,1fr)}
+  .a-cup,.a-sign{grid-column:1/-1}
+  .frames{grid-template-columns:1fr 1fr}.frame:nth-child(1){grid-column:1/-1;aspect-ratio:16/10}
+  .logo-stage,.specimen,.panel{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  header.top .brandlink span{display:none}
+  .values,.recipe,.mech,.use,.formula,.attrs,.dd{grid-template-columns:1fr}
+  .matrix{grid-template-columns:repeat(2,1fr)}.misuse{grid-template-columns:repeat(2,1fr)}
+  .stages{grid-template-columns:repeat(2,1fr)}.readout{grid-template-columns:1fr 1fr}.readout div:last-child{grid-column:1/-1}
+  .scale>div{grid-template-columns:1fr;gap:6px}
+  .frames{grid-template-columns:1fr}.frame{aspect-ratio:4/3}
+  .bags{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.bag{padding:22px 8px 10px}.bag .meta{font-size:12px}.bag .m{width:24px;height:24px}
+  .bag .hide-s{display:none}
+  .pairs .demo{width:64px}.pairs td:nth-child(4),.pairs th:nth-child(4){display:none}.pairs td{padding-right:8px}.pairs{font-size:14px}
+  .log div{grid-template-columns:1fr;gap:2px}
+  .meter{grid-template-columns:76px 1fr auto}
+  .hero h1{font-size:24vw}
+  .scrub{flex-direction:column;align-items:stretch;gap:0}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-delay:0s!important;transition-duration:.01ms!important}
+  .js .curve-p{stroke-dashoffset:0;animation:none}
+  .bag:hover{transform:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- Symbol: the Calm Bean. A sun-disc cut by one roast crease. Colour via currentColor, crease via --cut. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="mark" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="currentColor"/><path d="M13 67C33 40 57 86 87 33" fill="none" stroke="var(--cut,#f5f0e6)" stroke-width="7" stroke-linecap="round"/></symbol>
+</svg>
+
+<header class="top">
+  <a class="brandlink" href="#top" aria-label="Halcyon Coffee Roasters, top of page"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg><span>Halcyon</span></a>
+  <nav aria-label="Chapters">
+    <a href="#idea"><b>01</b>Idea</a><a href="#logo"><b>02</b>Logo</a><a href="#colour"><b>03</b>Colour</a><a href="#type"><b>04</b>Type</a><a href="#photo"><b>05</b>Photography</a><a href="#voice"><b>06</b>Voice</a><a href="#apps"><b>07</b>Applications</a><a href="#use"><b>08</b>Use</a>
+  </nav>
+</header>
+
+<main id="main">
+<div class="hero" id="top">
+  <div class="hero-top">
+    <div class="hero-copy">
+      <p class="mono">Brand identity · Version 2.1 · October 2026</p>
+      <p class="idea">Coffee roasted to the exact point where the <em>day goes quiet.</em></p>
+      <p class="sub">Halcyon is a specialty roaster on Rua da Madalena, Lisbon. This guide is how we look, sound and show up, in one place, with every rule measured so a printer in Porto and a designer in Berlin get the same result.</p>
+      <div class="stamp"><span class="chip">38.71°N 9.14°W</span><span class="chip">Roasted in 15 kg batches</span><span class="chip">Est. 2017</span></div>
+    </div>
+    <svg class="sun mk" viewBox="0 0 100 100" role="img" aria-label="The Halcyon mark: an ember-coloured disc cut by a single wave-shaped crease"><use href="#mark"/></svg>
+  </div>
+  <h1 aria-label="Halcyon">Halcy<em>on</em></h1>
+  <div class="hero-foot mono"><span>Coffee Roasters — Lisbon</span><span>Torrefação artesanal desde 2017</span></div>
+</div>
+
+<!-- DEVICE -->
+<section class="band" id="device" aria-labelledby="h-device">
+  <div class="head">
+    <p class="mono num">00 — The device</p>
+    <h2 id="h-device">Every roast is a <em>curve.</em> So is every Halcyon layout.</h2>
+    <p>Scrub the profile of a real Ethiopia Guji light roast. The same curve closes every bag, sign and page we make: it always rises left to right, and it always ends on a dot.</p>
+  </div>
+  <div class="curve">
+    <div class="plot">
+      <svg viewBox="0 0 1200 300" role="img" aria-label="Roast profile: bean temperature rising from a 90 degree turning point at 1 minute 30 to a 212 degree drop at 11 minutes 30">
+        <g>
+          <line class="grid-l" x1="100" x2="1150" y1="240" y2="240"/><line class="grid-l" x1="100" x2="1150" y1="165" y2="165"/><line class="grid-l" x1="100" x2="1150" y1="90" y2="90"/><line class="grid-l" x1="100" x2="1150" y1="15" y2="15"/>
+        </g>
+        <path id="curveBase" class="curve-p" d="M100 90C150 200 190 255 235 255C330 245 420 200 505 165C650 105 820 100 955 96C1040 90 1090 80 1135 72"/>
+        <path id="curveDone" class="curve-done" d="" />
+        <circle id="dot" class="dot" cx="955" cy="96" r="11"/>
+      </svg>
+      <dl class="readout" aria-live="polite">
+        <div><dt class="mono">Time</dt><dd id="rt">09:30</dd></div>
+        <div><dt class="mono">Bean temp</dt><dd id="rtemp">196 °C</dd></div>
+        <div><dt class="mono">Stage</dt><dd id="rstage">First crack</dd></div>
+      </dl>
+      <div class="scrub"><label class="mono" for="scrubber">Roast time</label><input id="scrubber" type="range" min="0" max="1000" value="820" step="1" aria-valuetext="09:30, 196 degrees, first crack"></div>
+      <ul class="stages" id="stages" aria-label="Jump to stage">
+        <li><button type="button" data-t="0.11" aria-pressed="false">00:01 Turning point</button></li>
+        <li><button type="button" data-t="0.35" aria-pressed="false">04:30 Dry end</button></li>
+        <li><button type="button" data-t="0.82" aria-pressed="true">09:30 First crack</button></li>
+        <li><button type="button" data-t="1" aria-pressed="false">11:30 Drop</button></li>
+      </ul>
+    </div>
+  </div>
+  <div class="formula">
+    <div><b>Stroke</b>Curve weight = longest edge ÷ 240. Never thinner than 2px on screen.</div>
+    <div><b>Direction</b>Ascends left to right. Never mirrored, never looped, never closed into a shape.</div>
+    <div><b>Frequency</b>Once per spread or screen, ending on a dot placed at the drop point (≈ 95% of width).</div>
+  </div>
+</section>
+
+<!-- 01 IDEA -->
+<section class="ch" id="idea" aria-labelledby="h-idea">
+  <div class="head"><p class="mono num">01</p><h2 id="h-idea">Brand <em>idea</em></h2><p>Why Halcyon exists and what it will never be.</p></div>
+  <div class="body">
+    <p class="rule">Halcyon days are the calm stretch of weather in midwinter when the sea goes flat. We roast for that feeling: <em>clear, unhurried, warm.</em></p>
+    <p class="spec mono">Promise: a quiet, exact cup, every morning</p>
+    <ul class="values">
+      <li><h3>Patient</h3><p>Slow drying phases, long rests, no rush to a headline. We wait four days before a coffee leaves the roastery.</p><span class="nv mono">We are patient, never slow</span></li>
+      <li><h3>Exact</h3><p>Every bag prints its roast date, drop temperature and water recipe. Precision is how we show care.</p><span class="nv mono">We are exact, never fussy</span></li>
+      <li><h3>Sun-warm</h3><p>Lisbon light, terracotta roofs, tiled walls. Warmth comes from materials and colour, not from slogans.</p><span class="nv mono">We are warm, never twee</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- 02 LOGO -->
+<section class="ch" id="logo" aria-labelledby="h-logo">
+  <div class="head"><p class="mono num">02</p><h2 id="h-logo">The <em>logo</em></h2><p>A sun-disc, a bean and a wave in one mark. Use these files; never redraw them.</p></div>
+  <div class="body">
+    <p class="rule">One disc, one crease. The crease is the only line we ever draw through the mark, and it is always <em>ember on paper.</em></p>
+    <p class="spec mono">Crease: 7% of diameter · Round cap · Ends 13% inside the circle</p>
+    <div class="logo-stage">
+      <div class="stage"><span class="tag mono">Primary lockup</span><div class="lockup" style="font-size:clamp(48px,9vw,96px)"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg><span class="w">Halcyon<small>Coffee Roasters</small></span></div></div>
+      <div class="stage"><span class="tag mono">Stacked · Mark only</span>
+        <div style="display:flex;gap:32px;align-items:center;flex-wrap:wrap;justify-content:center">
+          <div class="lockup stacked" style="font-size:52px"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg><span class="w">Halcyon<small>Coffee Roasters</small></span></div>
+          <svg viewBox="0 0 100 100" style="width:72px;height:72px;color:var(--ember);--cut:var(--surface-1)" role="img" aria-label="Mark only"><use href="#mark"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="sub-h mono">Clearspace and minimum size</h3>
+    <div class="logo-stage" style="grid-template-columns:1fr 1fr">
+      <div class="stage" style="padding:40px 16px">
+        <span class="tag mono">Clearspace x = ¼ mark diameter</span>
+        <div class="clear-wrap"><i class="x1">x</i><i class="x2">x</i><div class="inner lockup"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg><span class="w">Halcyon<small>Coffee Roasters</small></span></div></div>
+      </div>
+      <div class="stage" style="padding:40px 16px;place-items:center start">
+        <span class="tag mono">Minimum sizes (shown at 100%)</span>
+        <div class="minrow">
+          <figure><div class="lockup" style="font-size:28px"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg><span class="w">Halcyon</span></div><figcaption class="mono">Wordmark · 96 px · 24 mm</figcaption></figure>
+          <figure><svg viewBox="0 0 100 100" style="width:16px;height:16px;color:var(--ember);--cut:var(--surface-1)" role="img" aria-label="Mark at minimum size"><use href="#mark"/></svg><figcaption class="mono">Mark · 16 px · 5 mm</figcaption></figure>
+        </div>
+      </div>
+    </div>
+    <p class="spec mono">Below 140 px wide drop the descriptor “Coffee Roasters”. Below 96 px use the mark alone.</p>
+
+    <h3 class="sub-h mono">Colourways and backgrounds</h3>
+    <div class="matrix">
+      <figure class="m-paper"><div class="lockup" style="font-size:30px"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg><span class="w">Halcyon</span></div><figcaption>Paper · full colour</figcaption></figure>
+      <figure class="m-ember"><div class="lockup" style="font-size:30px"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg><span class="w">Halcyon</span></div><figcaption>Ember · reversed</figcaption></figure>
+      <figure class="m-atl"><div class="lockup" style="font-size:30px"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg><span class="w">Halcyon</span></div><figcaption>Atlantic · crema mark</figcaption></figure>
+      <figure class="m-esp"><div class="lockup" style="font-size:30px"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg><span class="w">Halcyon</span></div><figcaption>Espresso · glow mark</figcaption></figure>
+    </div>
+    <p class="spec mono">Switch to the reversed logo on any background darker than 55% lightness. On photography, use a solid zone, never the raw image.</p>
+
+    <h3 class="sub-h mono">Misuse</h3>
+    <div class="misuse">
+      <figure><div class="lockup" style="transform:scaleX(1.5)"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg><span class="w">Halcyon</span></div><figcaption><b>01</b>Don’t stretch or squash</figcaption></figure>
+      <figure><div class="lockup" style="transform:rotate(-14deg)"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg><span class="w">Halcyon</span></div><figcaption><b>02</b>Don’t rotate</figcaption></figure>
+      <figure><div class="lockup" style="filter:hue-rotate(110deg) saturate(1.8)"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg><span class="w">Halcyon</span></div><figcaption><b>03</b>Don’t recolour off-palette</figcaption></figure>
+      <figure><div class="lockup" style="filter:drop-shadow(4px 4px 0 rgb(35 26 20/.35)) drop-shadow(0 0 8px #e9a27f)"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg><span class="w">Halcyon</span></div><figcaption><b>04</b>Don’t add shadows or glows</figcaption></figure>
+      <figure><div class="lockup" style="background:var(--espresso);padding:14px 18px;border-radius:var(--radius-1)"><svg viewBox="0 0 100 100" style="color:var(--ember);--cut:var(--espresso)" aria-hidden="true"><use href="#mark"/></svg><span class="w" style="color:var(--ember)">Halcyon</span></div><figcaption><b>05</b>Don’t use ember on espresso (3.1:1)</figcaption></figure>
+      <figure><div class="lockup" style="font-family:var(--font-sans);font-weight:700;text-transform:uppercase;letter-spacing:.04em"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg><span class="w" style="letter-spacing:.04em">Halcyon</span></div><figcaption><b>06</b>Don’t retype the wordmark</figcaption></figure>
+    </div>
+    <div class="tools">
+      <button class="btn primary" type="button" id="dlMark">Download mark (SVG)</button>
+      <button class="btn" type="button" id="cpMark">Copy mark SVG code</button>
+    </div>
+  </div>
+</section>
+
+<!-- 03 COLOUR -->
+<section class="ch" id="colour" aria-labelledby="h-colour">
+  <div class="head"><p class="mono num">03</p><h2 id="h-colour"><em>Colour</em></h2><p>Five colours, one signal. Ratios and contrast are computed, not guessed.</p></div>
+  <div class="body">
+    <p class="rule">Paper does the talking. Ember is the <em>spark</em>, never more than a twentieth of any surface.</p>
+    <p class="spec mono">Proportion: 50 paper · 25 espresso · 12 atlantic · 8 crema · 5 ember</p>
+    <div class="swatches" id="swatches"></div>
+    <div class="prop" role="img" aria-label="Colour proportions: paper 50 percent, espresso 25, atlantic 12, crema 8, ember 5">
+      <span style="flex:50;background:var(--paper);color:var(--espresso)">50</span><span style="flex:25;background:var(--espresso);color:var(--paper)">25</span><span style="flex:12;background:var(--atlantic);color:var(--paper)">12</span><span style="flex:8;background:var(--crema);color:var(--espresso)">8</span><span style="flex:5;background:var(--ember);color:var(--paper);padding:8px 4px">5</span>
+    </div>
+
+    <h3 class="sub-h mono">Approved text pairs</h3>
+    <table class="pairs">
+      <thead><tr><th scope="col">Pair</th><th scope="col">Ratio</th><th scope="col">Status</th><th scope="col">Use</th></tr></thead>
+      <tbody id="pairs"></tbody>
+    </table>
+
+    <h3 class="sub-h mono">Roast ladder</h3>
+    <p class="spec mono" style="margin-top:0">Tints that colour-code roast level on bags and menus</p>
+    <div class="ladder" id="ladder"></div>
+    <div class="tools"><button class="btn" type="button" id="cpTokens">Copy all colours as CSS</button></div>
+  </div>
+</section>
+
+<!-- 04 TYPE -->
+<section class="ch" id="type" aria-labelledby="h-type">
+  <div class="head"><p class="mono num">04</p><h2 id="h-type"><em>Typography</em></h2><p>An editorial serif for the voice, a quiet grotesk for the work, mono for the facts.</p></div>
+  <div class="body">
+    <p class="rule">Instrument Serif speaks. Hanken Grotesk <em>explains.</em> JetBrains Mono records.</p>
+    <p class="spec mono">Display tracking −0.045em at 96 px · labels +0.08em · max 2 weights per family</p>
+    <div class="specimen">
+      <div class="spec-card"><p class="mono">Display · Instrument Serif · Regular, Italic</p><div class="aa" aria-hidden="true">Aa<span style="font-style:italic;color:var(--ember)">ç</span></div><p class="gl">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz ção · pão · água · à · é · ô</p></div>
+      <div class="spec-card dark"><p class="mono">Text · Hanken Grotesk · 400, 500, 600</p><div class="aa" aria-hidden="true">Aa</div><p class="gl">Roasted 02.10.26 · 250 g<br>Fallback: system-ui, “Segoe UI”, sans-serif</p></div>
+    </div>
+    <div class="scale" role="table" aria-label="Type scale">
+      <div role="row"><div class="s mono" role="cell"><b>Display</b>96/0.92 · −0.045em</div><div class="t" role="cell" style="font:400 min(96px,15vw)/.92 var(--font-display);letter-spacing:-.045em">Quiet <i style="color:var(--ember)">mornings</i></div></div>
+      <div role="row"><div class="s mono" role="cell"><b>Heading 1</b>56/1.0 · −0.03em</div><div class="t" role="cell" style="font:400 min(56px,11vw)/1 var(--font-display);letter-spacing:-.03em">Guji, Ethiopia — natural</div></div>
+      <div role="row"><div class="s mono" role="cell"><b>Heading 2</b>34/1.1 · −0.02em</div><div class="t" role="cell" style="font:400 min(34px,8vw)/1.1 var(--font-display);letter-spacing:-.02em">Notes of bergamot, peach tea and honey</div></div>
+      <div role="row"><div class="s mono" role="cell"><b>Lead</b>20/1.45 · 0</div><div class="t" role="cell" style="font:400 20px/1.45 var(--font-sans);max-width:56ch;color:var(--text-2)">We roast on Tuesday and Friday, rest every lot for four days, and ship the morning it is ready.</div></div>
+      <div role="row"><div class="s mono" role="cell"><b>Body</b>16/1.55 · 0</div><div class="t" role="cell" style="font:400 16px/1.55 var(--font-sans);max-width:62ch">Grind to the size of coarse sea salt. Use 15 g of coffee to 250 g of water at 94 °C. Bloom for thirty seconds, then pour in slow circles until 2:45.</div></div>
+      <div role="row"><div class="s mono" role="cell"><b>Label</b>12/1.3 · +0.08em caps</div><div class="t mono" role="cell">Roast date · Lot 0412 · Drop 212 °C</div></div>
+    </div>
+    <h3 class="sub-h mono">Numerals and localisation</h3>
+    <div class="num-demo"><span>Espresso<small> (single)</small></span><span>€1,80</span><span>Flat white</span><span>€3,40</span><span>Guji 250 g<small> bag</small></span><span>€14,50</span></div>
+    <p class="spec mono">Tabular figures, right-aligned. Euro sign and units one step lighter. Decimal comma in Portuguese, point in English. Always test ç ã õ é ô à.</p>
+  </div>
+</section>
+
+<!-- 05 PHOTOGRAPHY -->
+<section class="ch" id="photo" aria-labelledby="h-photo">
+  <div class="head"><p class="mono num">05</p><h2 id="h-photo"><em>Photography</em></h2><p>Real light, real hands, real Lisbon. Directed like an Atlantic morning.</p></div>
+  <div class="body">
+    <p class="rule">One window, low sun, side-lit. Let the shadow carry <em>half the frame.</em></p>
+    <p class="spec mono">Natural light only · 5200–5800 K · f/2.8–f/4 · 35 or 50 mm</p>
+    <div class="frames">
+      <figure class="frame">
+        <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e9a27f"/><stop offset=".5" stop-color="#d8bd92"/><stop offset="1" stop-color="#6b4a2f"/></linearGradient><linearGradient id="beam" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5f0e6" stop-opacity=".75"/><stop offset="1" stop-color="#f5f0e6" stop-opacity="0"/></linearGradient></defs><rect width="400" height="300" fill="url(#g1)"/><polygon points="40,0 150,0 330,300 150,300" fill="url(#beam)"/><rect x="0" y="210" width="400" height="90" fill="#3f2a1c"/><ellipse cx="238" cy="212" rx="64" ry="10" fill="#231a14" opacity=".5"/><path d="M190 150h96l-10 58q-4 10-14 10h-48q-10 0-14-10z" fill="#f5f0e6"/><ellipse cx="238" cy="150" rx="48" ry="9" fill="#2a1c14"/><path d="M286 162q26 4 18 24t-26 14" fill="none" stroke="#f5f0e6" stroke-width="7" stroke-linecap="round"/><path d="M222 128q-10-18 2-34t0-30M246 126q-8-16 2-30" fill="none" stroke="#f5f0e6" stroke-width="3" stroke-linecap="round" opacity=".6"/></svg>
+        <figcaption><b>Morning window</b>Hero frame. Side light, steam visible, 40% shadow.</figcaption>
+      </figure>
+      <figure class="frame">
+        <svg viewBox="0 0 300 375" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="300" height="375" fill="#2a1c14"/><g fill="#6b4a2f"><ellipse cx="80" cy="90" rx="62" ry="44" transform="rotate(-28 80 90)"/><ellipse cx="210" cy="130" rx="66" ry="46" transform="rotate(20 210 130)"/><ellipse cx="110" cy="230" rx="64" ry="45" transform="rotate(12 110 230)"/><ellipse cx="240" cy="270" rx="60" ry="42" transform="rotate(-30 240 270)"/><ellipse cx="60" cy="330" rx="58" ry="40" transform="rotate(22 60 330)"/></g><g fill="none" stroke="#231a14" stroke-width="6" stroke-linecap="round"><path d="M32 106Q80 70 128 74"/><path d="M160 152Q210 112 262 108"/><path d="M62 248Q110 210 160 220"/><path d="M196 288Q240 250 290 258"/></g><rect width="300" height="375" fill="url(#beam)" opacity=".4"/></svg>
+        <figcaption><b>Macro beans</b>Fill the frame. Shallow depth. Crease facing the light.</figcaption>
+      </figure>
+      <figure class="frame">
+        <svg viewBox="0 0 300 375" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><pattern id="tile" width="60" height="60" patternUnits="userSpaceOnUse"><rect width="60" height="60" fill="#e9eef0"/><path d="M30 6l8 16 16 8-16 8-8 16-8-16-16-8 16-8z" fill="#1d3b4f"/><circle cx="0" cy="0" r="6" fill="#1d3b4f"/><circle cx="60" cy="0" r="6" fill="#1d3b4f"/><circle cx="0" cy="60" r="6" fill="#1d3b4f"/><circle cx="60" cy="60" r="6" fill="#1d3b4f"/></pattern></defs><rect width="300" height="375" fill="url(#tile)"/><rect width="300" height="375" fill="#f5f0e6" opacity=".18"/><polygon points="0,0 180,0 40,375 0,375" fill="#231a14" opacity=".35"/><circle cx="170" cy="215" r="70" fill="#231a14" opacity=".28"/><circle cx="160" cy="200" r="68" fill="#f5f0e6"/><circle cx="160" cy="200" r="52" fill="#3f2a1c"/><path d="M118 214Q148 170 200 188" fill="none" stroke="#d8bd92" stroke-width="5" stroke-linecap="round" opacity=".9"/></svg>
+        <figcaption><b>Lisbon surface</b>Cup from above on tile, stone or wood. Never plain white.</figcaption>
+      </figure>
+    </div>
+    <dl class="recipe">
+      <div><dt class="mono">Light</dt><dd>One window source. Fill with a paper-coloured card, never a flash.</dd></div>
+      <div><dt class="mono">People</dt><dd>Our team and neighbours at work, hands and profile before faces, mixed ages, no posed smiles.</dd></div>
+      <div><dt class="mono">Grade</dt><dd>Lift shadows toward espresso (#231a14), warm highlights toward crema. Saturation −8%. No filters.</dd></div>
+    </dl>
+    <div class="donts" aria-label="Photography don’ts"><span>Overhead flash</span><span>Latte-art hearts</span><span>Stock hands holding mugs</span><span>Burlap sacks as props</span><span>Teal-and-orange grading</span></div>
+  </div>
+</section>
+
+<!-- 06 VOICE -->
+<section class="ch" id="voice" aria-labelledby="h-voice">
+  <div class="head"><p class="mono num">06</p><h2 id="h-voice">Tone of <em>voice</em></h2><p>Four attributes, one dial, and the mechanical rules that keep us consistent.</p></div>
+  <div class="body">
+    <p class="rule">We talk like the person who <em>hands you the cup</em>: warm, specific, never in a hurry to sell.</p>
+    <div class="attrs">
+      <div class="attr"><h3>Calm<span>01</span></h3><p>Short sentences, no exclamation marks, space between ideas.</p><div class="say"><q class="y">Your coffee is resting. It will be ready on Friday.</q><q class="n">OMG, hang tight, your amazing coffee is coming!!!</q></div></div>
+      <div class="attr"><h3>Exact<span>02</span></h3><p>Give the number, the unit, the name of the farm.</p><div class="say"><q class="y">Washed Caturra, 1,850 m, Finca La Esperanza.</q><q class="n">Grown high up by passionate farmers.</q></div></div>
+      <div class="attr"><h3>Warm<span>03</span></h3><p>Address one person. Use “you” and “we”. A little Lisbon humour is welcome.</p><div class="say"><q class="y">Bom dia. The first pour is on the house if it’s raining.</q><q class="n">Valued customers are advised that hot beverages are available.</q></div></div>
+      <div class="attr"><h3>Plain<span>04</span></h3><p>Say what it tastes like, not how special it is.</p><div class="say"><q class="y">Peach tea, honey, a little bergamot.</q><q class="n">An artisanal, elevated, curated flavour journey.</q></div></div>
+    </div>
+
+    <div class="dial">
+      <div class="tabs" role="tablist" aria-label="Tone by context" id="tabs">
+        <button role="tab" type="button" id="tab-0" aria-selected="true" aria-controls="panel" tabindex="0">On the bag</button>
+        <button role="tab" type="button" id="tab-1" aria-selected="false" aria-controls="panel" tabindex="-1">Instagram</button>
+        <button role="tab" type="button" id="tab-2" aria-selected="false" aria-controls="panel" tabindex="-1">Error message</button>
+        <button role="tab" type="button" id="tab-3" aria-selected="false" aria-controls="panel" tabindex="-1">Wholesale email</button>
+      </div>
+      <div class="panel" role="tabpanel" id="panel" aria-labelledby="tab-0" tabindex="0">
+        <p class="sample" id="sample"></p>
+        <div class="meters" id="meters"></div>
+      </div>
+    </div>
+
+    <div class="mech">
+      <div><b>Numbers</b>Digits for everything over nine. 15 g, 94 °C, 2:45. Euro before the figure in English (€3.40), after in Portuguese (3,40 €).</div>
+      <div><b>Dates and time</b>DD.MM.YY on packaging. 24-hour clock. “Tuesday” not “Tue”.</div>
+      <div><b>Names</b>“Halcyon” on its own after the first mention. Lisbon in English, Lisboa in Portuguese. Never “Halcyon Coffee Co.”</div>
+      <div><b>Banned words</b>artisanal · curated · elevate · journey · premium · perfect · barista-crafted</div>
+      <div><b>Capitalisation</b>Sentence case everywhere. Caps only for mono labels of three words or fewer.</div>
+      <div><b>Portuguese</b>Written by a native speaker, not translated. Same rules, same temperature.</div>
+    </div>
+  </div>
+</section>
+
+<!-- 07 APPLICATIONS -->
+<section class="ch" id="apps" aria-labelledby="h-apps">
+  <div class="head"><p class="mono num">07</p><h2 id="h-apps"><em>Applications</em></h2><p>The system under load: packaging, cup and signage. Each ends with the curve.</p></div>
+  <div class="body">
+    <p class="rule">The colour changes with the roast. The <em>grid, type and curve</em> never do.</p>
+    <p class="spec mono">Bag margin = width ÷ 14 · Mark top-left · Roast ladder always bottom</p>
+    <div class="apps">
+      <div class="app a-bags">
+        <div class="bags">
+          <div class="bag b1">
+            <svg class="m" viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg>
+            <svg class="curvemini" viewBox="0 0 120 60" fill="none" aria-hidden="true"><path d="M2 14C14 40 22 52 34 52C54 50 74 36 90 26C102 18 112 12 118 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="118" cy="10" r="4" fill="currentColor"/></svg>
+            <div class="name">Guji<em>Natural</em></div>
+            <div class="meta"><span class="hide-s">Etiópia · 1.950 m</span><span class="hide-s">Pêssego · Bergamota</span><div class="roast" aria-label="Light roast"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div><span>Roasted 02.10.26</span><span>250 g · €14,50</span></div>
+          </div>
+          <div class="bag b2">
+            <svg class="m" viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg>
+            <svg class="curvemini" viewBox="0 0 120 60" fill="none" aria-hidden="true"><path d="M2 14C14 40 22 52 34 52C54 50 74 36 90 26C102 18 112 12 118 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="118" cy="10" r="4" fill="currentColor"/></svg>
+            <div class="name">Cerrado<em>Washed</em></div>
+            <div class="meta"><span class="hide-s">Brasil · 1.100 m</span><span class="hide-s">Avelã · Cacau</span><div class="roast" aria-label="Medium roast"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div><span>Roasted 02.10.26</span><span>250 g · €12,00</span></div>
+          </div>
+          <div class="bag b3">
+            <svg class="m" viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg>
+            <svg class="curvemini" viewBox="0 0 120 60" fill="none" aria-hidden="true"><path d="M2 14C14 40 22 52 34 52C54 50 74 36 90 26C102 18 112 12 118 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="118" cy="10" r="4" fill="currentColor"/></svg>
+            <div class="name">Casa<em>Espresso</em></div>
+            <div class="meta"><span class="hide-s">Blend · Brasil, Peru</span><span class="hide-s">Chocolate · Figo</span><div class="roast" aria-label="Dark roast"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div><span>Roasted 02.10.26</span><span>250 g · €11,00</span></div>
+          </div>
+        </div>
+        <p class="cap mono"><b>250 g bag · three roast levels</b>Bag colour = roast level: ember light, atlantic medium, espresso dark. Text pairs are all AA (≥ 4.9:1).</p>
+      </div>
+
+      <div class="app a-cup">
+        <svg class="art" viewBox="0 0 320 360" role="img" aria-label="Paper takeaway cup with an ember sleeve carrying the Halcyon mark and the line Bom dia">
+          <ellipse cx="160" cy="336" rx="96" ry="12" fill="#231a14" opacity=".18"/>
+          <path d="M82 70h156l-18 258q-1 8-9 8h-102q-8 0-9-8z" fill="#f5f0e6" stroke="#231a14" stroke-opacity=".14"/>
+          <path d="M96 168h128l-8 104h-112z" fill="#b4431c"/>
+          <g color="#f5f0e6" style="--cut:#b4431c"><svg x="136" y="178" width="48" height="48" viewBox="0 0 100 100"><use href="#mark"/></svg></g>
+          <text x="160" y="248" text-anchor="middle" font-family="Instrument Serif, serif" font-size="28" fill="#f5f0e6" letter-spacing="-.5">Bom dia.</text>
+          <path d="M104 262C124 270 140 264 160 258" fill="none" stroke="#f5f0e6" stroke-width="2" stroke-linecap="round" opacity="0"/>
+          <rect x="72" y="40" width="176" height="34" rx="9" fill="#231a14"/>
+          <rect x="84" y="28" width="152" height="18" rx="7" fill="#3f2a1c"/>
+          <rect x="144" y="22" width="32" height="8" rx="4" fill="#231a14"/>
+          <path d="M108 70v-6M212 70v-6" stroke="#f5f0e6" stroke-opacity=".12"/>
+        </svg>
+        <p class="cap mono"><b>8 oz takeaway cup</b>Ember sleeve, mark centred at 1/3 height, one line of greeting in Instrument Serif. Lid and rim in espresso.</p>
+      </div>
+
+      <div class="app a-sign">
+        <svg class="art" viewBox="0 0 560 400" role="img" aria-label="Shopfront on Rua da Madalena: espresso fascia reading Halcyon Coffee Roasters, an ember hanging blade sign with the mark, and an Atlantic azulejo tile plinth">
+          <defs>
+            <pattern id="azulejo" width="40" height="40" patternUnits="userSpaceOnUse"><rect width="40" height="40" fill="#e9eef0"/><path d="M20 5l5 10 10 5-10 5-5 10-5-10-10-5 10-5z" fill="#1d3b4f"/><circle cx="0" cy="0" r="4" fill="#1d3b4f"/><circle cx="40" cy="0" r="4" fill="#1d3b4f"/><circle cx="0" cy="40" r="4" fill="#1d3b4f"/><circle cx="40" cy="40" r="4" fill="#1d3b4f"/><rect width="40" height="40" fill="none" stroke="#1d3b4f" stroke-opacity=".25"/></pattern>
+            <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9a27f" stop-opacity=".55"/><stop offset="1" stop-color="#f5f0e6" stop-opacity=".9"/></linearGradient>
+          </defs>
+          <rect width="560" height="400" fill="#d8bd92" opacity=".35"/>
+          <rect x="40" y="30" width="480" height="370" fill="#f5f0e6"/>
+          <rect x="40" y="290" width="480" height="110" fill="url(#azulejo)"/>
+          <rect x="40" y="286" width="480" height="6" fill="#1d3b4f"/>
+          <rect x="40" y="62" width="480" height="62" fill="#231a14"/>
+          <text x="280" y="106" text-anchor="middle" font-family="Instrument Serif, serif" font-size="46" fill="#f5f0e6" letter-spacing="-1.5">Halcyon <tspan font-style="italic" fill="#e9a27f">coffee roasters</tspan></text>
+          <rect x="64" y="150" width="170" height="120" rx="3" fill="url(#glass)" stroke="#231a14" stroke-width="5"/>
+          <rect x="326" y="150" width="170" height="120" rx="3" fill="url(#glass)" stroke="#231a14" stroke-width="5"/>
+          <path d="M96 270q8-40 24-42t24 42" fill="#231a14" opacity=".12"/>
+          <rect x="248" y="140" width="64" height="150" rx="3" fill="#b4431c"/>
+          <circle cx="302" cy="218" r="4" fill="#f5f0e6"/>
+          <text x="280" y="176" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="13" fill="#f5f0e6" letter-spacing="1.5">ABERTO</text>
+          <text x="280" y="196" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" fill="#f5f0e6">08–18h</text>
+          <rect x="468" y="132" width="52" height="4" fill="#231a14"/>
+          <path d="M520 134v18" stroke="#231a14" stroke-width="3"/>
+          <g transform="translate(486 150)"><circle cx="30" cy="30" r="30" fill="#b4431c" stroke="#231a14" stroke-width="3"/><svg x="8" y="8" width="44" height="44" viewBox="0 0 100 100" style="color:#f5f0e6;--cut:#b4431c"><use href="#mark"/></svg></g>
+          <text x="280" y="330" text-anchor="middle" font-family="Instrument Serif, serif" font-size="28" fill="#231a14" fill-opacity="0">x</text>
+        </svg>
+        <p class="cap mono"><b>Shopfront, Rua da Madalena</b>Espresso fascia, ember blade sign (min. 60 cm), azulejo plinth in the Atlantic star tile. Hours in mono, never in script.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 08 USE -->
+<section class="ch" id="use" aria-labelledby="h-use">
+  <div class="head"><p class="mono num">08</p><h2 id="h-use">Using <em>this guide</em></h2><p>Who to ask, what to download and what has changed.</p></div>
+  <div class="body">
+    <p class="rule">If a case isn’t covered, choose the option that is <em>calmer and more exact.</em></p>
+    <div class="use">
+      <div><b>Questions</b>Brand desk · <a href="mailto:brand@halcyoncoffee.example">brand@halcyoncoffee.example</a> · replies in two working days.</div>
+      <div><b>Print approvals</b>Send a PDF proof for any run over 200 pieces. We check colour against the Pantone and CMYK values above.</div>
+      <div><b>Legal</b>Halcyon® is a registered mark in Portugal and the EU. Co-branding needs written approval.</div>
+    </div>
+    <div class="log">
+      <div><span class="mono">v2.1 · Oct 2026</span>Roast curve device added; ember-on-espresso ruled out for text.</div>
+      <div><span class="mono">v2.0 · Mar 2026</span>New mark and Instrument Serif wordmark replace the 2017 script logo.</div>
+      <div><span class="mono">v1.0 · Jun 2017</span>First guide, written at the roastery on Rua da Madalena.</div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="lockup"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg><span class="w">Halcyon</span></div>
+  <p class="mono">Rua da Madalena 112 · 1100-319 Lisboa · <a href="#top">Back to top</a></p>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+document.documentElement.classList.add('js');
+const $=s=>document.querySelector(s);
+const toast=(m)=>{const t=$('#toast');t.textContent=m;t.classList.add('show');clearTimeout(toast._t);toast._t=setTimeout(()=>t.classList.remove('show'),1800)};
+const copy=async(txt,msg)=>{try{await navigator.clipboard.writeText(txt)}catch(e){const a=document.createElement('textarea');a.value=txt;document.body.appendChild(a);a.select();try{document.execCommand('copy')}catch(_){}a.remove()}toast(msg||'Copied')};
+
+/* contrast */
+const lum=h=>{const c=[1,3,5].map(i=>parseInt(h.slice(i,i+2),16)/255).map(v=>v<=.03928?v/12.92:Math.pow((v+.055)/1.055,2.4));return .2126*c[0]+.7152*c[1]+.0722*c[2]};
+const cr=(a,b)=>{const x=lum(a),y=lum(b);return (Math.max(x,y)+.05)/(Math.min(x,y)+.05)};
+const best=bg=>cr('#231a14',bg)>=cr('#f5f0e6',bg)?'#231a14':'#f5f0e6';
+
+/* swatches */
+const SW=[
+ {n:'Paper',r:'Canvas · 50%',hex:'#f5f0e6',rgb:'245 240 230',cmyk:'3 4 9 0',pms:'9224 C'},
+ {n:'Espresso',r:'Ink · 25%',hex:'#231a14',rgb:'35 26 20',cmyk:'0 26 43 86',pms:'4975 C'},
+ {n:'Atlantic',r:'Support · 12%',hex:'#1d3b4f',rgb:'29 59 79',cmyk:'63 25 0 69',pms:'7476 C'},
+ {n:'Crema',r:'Warm tint · 8%',hex:'#d8bd92',rgb:'216 189 146',cmyk:'0 13 32 15',pms:'7502 C'},
+ {n:'Ember',r:'Signal · 5%',hex:'#b4431c',rgb:'180 67 28',cmyk:'0 63 84 29',pms:'7585 C'}
+];
+$('#swatches').innerHTML=SW.map((s,i)=>{const fg=best(s.hex);const a=cr(fg,s.hex);return `<article class="sw"><div class="chip-c" style="background:${s.hex};color:${fg}"><span>${s.r}</span><b>${s.n}</b></div><dl><dt>HEX</dt><dd>${s.hex.toUpperCase()}</dd><dt>RGB</dt><dd>${s.rgb}</dd><dt>CMYK</dt><dd>${s.cmyk}</dd><dt>PMS</dt><dd>${s.pms}</dd></dl><button class="btn" type="button" data-copy="${s.hex.toUpperCase()}" aria-label="Copy ${s.n} hex ${s.hex.toUpperCase()}">Copy HEX</button></article>`}).join('');
+document.addEventListener('click',e=>{const b=e.target.closest('[data-copy]');if(b){copy(b.dataset.copy,'Copied '+b.dataset.copy)}});
+
+/* pairs */
+const PAIRS=[
+ ['Espresso on Paper','#231a14','#f5f0e6','All body text and headings'],
+ ['Paper on Atlantic','#f5f0e6','#1d3b4f','Reversed panels, signage'],
+ ['Paper on Ember','#f5f0e6','#b4431c','Bag text, buttons, cup sleeve'],
+ ['Ember on Paper','#b4431c','#f5f0e6','Accent words ≥ 20 px, links'],
+ ['Crema on Espresso','#d8bd92','#231a14','Dark packaging details'],
+ ['Ember glow on Espresso','#e9a27f','#231a14','Accent text on dark'],
+ ['Ember on Espresso','#b4431c','#231a14','Graphics only. Never text']
+];
+$('#pairs').innerHTML=PAIRS.map(p=>{const r=cr(p[1],p[2]);const aaa=r>=7,aa=r>=4.5;return `<tr><td><span class="demo" style="color:${p[1]};background:${p[2]};border:1px solid rgb(35 26 20/.14)" aria-hidden="true">Aa</span> <span style="margin-left:8px">${p[0]}</span></td><td class="r">${r.toFixed(2)}:1</td><td><span class="badge ${aa?'ok':'no'}">${aaa?'✓ AAA':aa?'✓ AA':'✕ Not for text'}</span></td><td>${p[3]}</td></tr>`}).join('');
+
+/* ladder */
+const LAD=[['Light','#d8bd92'],['Medium-light','#b98d5c'],['Medium','#8a5f3c'],['Medium-dark','#5a3d29'],['Dark','#231a14']];
+$('#ladder').innerHTML=LAD.map(l=>`<div style="background:${l[1]};color:${best(l[1])}"><span>${l[0]}</span><span>${l[1].toUpperCase()}</span></div>`).join('');
+
+/* tokens copy */
+$('#cpTokens').addEventListener('click',()=>copy(`:root{\n`+SW.map(s=>`  --halcyon-${s.n.toLowerCase()}: ${s.hex.toUpperCase()};`).join('\n')+`\n  --halcyon-ember-glow: #E9A27F; /* ember text on espresso */\n}`,'Colour tokens copied'));
+
+/* mark download */
+const MARK=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="400" height="400"><title>Halcyon mark</title><circle cx="50" cy="50" r="50" fill="#B4431C"/><path d="M13 67C33 40 57 86 87 33" fill="none" stroke="#F5F0E6" stroke-width="7" stroke-linecap="round"/></svg>`;
+$('#dlMark').addEventListener('click',()=>{const u=URL.createObjectURL(new Blob([MARK],{type:'image/svg+xml'}));const a=document.createElement('a');a.href=u;a.download='halcyon-mark.svg';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),500);toast('halcyon-mark.svg downloaded')});
+$('#cpMark').addEventListener('click',()=>copy(MARK,'Mark SVG copied'));
+
+/* roast curve */
+(()=>{
+ const path=$('#curveBase'),done=$('#curveDone'),dot=$('#dot'),sl=$('#scrubber');
+ const L=path.getTotalLength();path.style.setProperty('--len',Math.ceil(L)+1);
+ const stages=[[1.5,'Turning point'],[4.5,'Drying'],[9.5,'Maillard'],[11.2,'First crack'],[99,'Drop']];
+ const buttons=[...document.querySelectorAll('#stages button')];
+ function set(f){
+  const p=path.getPointAtLength(L*f);
+  dot.setAttribute('cx',p.x);dot.setAttribute('cy',p.y);
+  const m=Math.max(0,(p.x-100)/90),T=Math.round(80+(270-p.y)/1.5);
+  const mm=Math.floor(m),ss=Math.round((m-mm)*60);const tm=String(mm).padStart(2,'0')+':'+String(ss===60?59:ss).padStart(2,'0');
+  let st=f>=.985?'Drop':m<1.5?'Charge':m<4.5?'Drying':m<9.2?'Maillard':'First crack';
+  if(f>=.985)st='Drop';
+  $('#rt').textContent=tm;$('#rtemp').textContent=T+' °C';$('#rstage').textContent=st;
+  sl.setAttribute('aria-valuetext',tm+', '+T+' degrees, '+st);
+  buttons.forEach(b=>b.setAttribute('aria-pressed',String(Math.abs(parseFloat(b.dataset.t)-f)<.04)));
+  const pts=[];for(let i=0;i<=40;i++){const q=path.getPointAtLength(L*f*i/40);pts.push((i?'L':'M')+q.x.toFixed(1)+' '+q.y.toFixed(1))}done.setAttribute('d',pts.join(''));
+ }
+ sl.addEventListener('input',()=>set(sl.value/1000));
+ buttons.forEach(b=>b.addEventListener('click',()=>{sl.value=Math.round(parseFloat(b.dataset.t)*1000);set(parseFloat(b.dataset.t))}));
+ set(.82);
+})();
+
+/* tabs */
+(()=>{
+ const T=[
+  {s:'Natural process, 1,950 metres. Peach tea, bergamot, a little honey. Rest it four days; we already did.',w:4,e:2,wit:1,d:3,tag:'250 g bag · back panel'},
+  {s:'Rain on Rua da Madalena. First pour’s on us until ten.',w:5,e:2,wit:4,d:3,tag:'Instagram · caption'},
+  {s:'We couldn’t take your payment. Nothing was charged. Please try again, or ask us at the counter.',w:3,e:4,wit:1,d:5,tag:'Checkout · error'},
+  {s:'Olá Inês, here are three lots we think suit Café Alfama this autumn. Samples ship Thursday, roasted that morning.',w:4,e:5,wit:2,d:4,tag:'Wholesale · first email'}
+ ];
+ const tabs=[...document.querySelectorAll('#tabs [role=tab]')],panel=$('#panel');
+ function show(i,focus){
+  tabs.forEach((t,j)=>{t.setAttribute('aria-selected',String(i===j));t.tabIndex=i===j?0:-1});
+  const d=T[i];panel.setAttribute('aria-labelledby','tab-'+i);
+  $('#sample').innerHTML=d.s+'<small>'+d.tag+'</small>';
+  const bar=(n)=>'<span class="bar" aria-hidden="true">'+[1,2,3,4,5].map(k=>'<i class="'+(k<=n?'on':'')+'"></i>').join('')+'</span>';
+  $('#meters').innerHTML=[['Warmth',d.w],['Exactness',d.e],['Wit',d.wit],['Directness',d.d]].map(m=>`<div class="meter"><span>${m[0]}</span>${bar(m[1])}<span class="v">${m[1]}/5</span></div>`).join('');
+  if(focus)tabs[i].focus();
+ }
+ tabs.forEach((t,i)=>{t.addEventListener('click',()=>show(i));t.addEventListener('keydown',e=>{let n=null;if(e.key==='ArrowRight')n=(i+1)%tabs.length;if(e.key==='ArrowLeft')n=(i+tabs.length-1)%tabs.length;if(e.key==='Home')n=0;if(e.key==='End')n=tabs.length-1;if(n!==null){e.preventDefault();show(n,true)}})});
+ show(0);
+})();
+</script>
+</body>
+</html>

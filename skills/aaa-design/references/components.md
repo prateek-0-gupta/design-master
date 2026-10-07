@@ -117,3 +117,7 @@ The references almost never designed these, which is where you can stand out.
 - **Colour:** series colours ≥ 3:1 against the background. Category hues match the rest of the UI.
 - **Big numbers:** tabular, with the unit at 50–60% size in text-2, and the delta with a sign and arrow plus colour.
 - **Accessibility:** provide a text summary for screen readers ("Revenue up 12% to $48.2k").
+
+## Visually-hidden content
+- Screen-reader-only text and tables (`.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}`) must sit inside a positioned ancestor (`position:relative`).
+- Without one, they escape to the page edge and create horizontal overflow at 390px. This bug appeared twice during the skill's own builds. Tables ignore `width:1px`; wrap them in a hidden `div` instead.

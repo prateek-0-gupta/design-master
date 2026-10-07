@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>aaa-design — a design skill for Claude, built from 348 references</title>
+<meta name="description" content="A Claude skill distilled from 348 real design references. Crafted like the best of them, and correct where 89% of them fail.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* ───────────────── tokens (committed before any component; every text pair verified with contrast.py) ───────────────── */
+:root{
+  --canvas:#f6f6f3; --surface-1:#ffffff; --surface-2:#ecece7; --ink-band:#141413;
+  --hairline:rgb(20 20 19/.12); --hairline-strong:rgb(20 20 19/.22); --border-control:#8a8a82;     /* 3.2:1 */
+  --text-1:#141413;  /* 17.0:1 on canvas */
+  --text-2:#4a4a46;  /*  8.2:1 */
+  --text-3:#64645e;  /*  5.5:1 on canvas, 5.0:1 on surface-2 */
+  --on-ink-1:#f6f6f3; --on-ink-2:#a3a39b;                                         /* 17.0 / 7.3 on ink band */
+  --why:#2747d6; --why-on-ink:#8fa3ff;                                            /* 6.6:1 on canvas · 7.8:1 on ink — the ONLY hue */
+  --font-display:"Bricolage Grotesque","Inter",system-ui,sans-serif;
+  --font-sans:"Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-mono:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,monospace;
+  --fs-xs:12px; --fs-sm:14px; --fs-base:16px; --fs-md:19px; --fs-lg:24px;
+  --fs-h2:clamp(2rem,2.4vw + 1rem,3.25rem); --fs-hero:clamp(2.75rem,5.6vw + .5rem,6.25rem);
+  --r-1:6px; --r-2:12px; --r-pill:9999px;
+  --margin:clamp(16px,4.5vw,72px); --container:1280px;
+  --dur-1:120ms; --dur-2:200ms; --dur-3:320ms; --dur-4:560ms; --dur-5:900ms;
+  --ease-out:cubic-bezier(.2,.8,.2,1); --ease-in:cubic-bezier(.5,0,.75,0); --ease-in-out:cubic-bezier(.65,0,.35,1);
+  --focus:0 0 0 2px var(--canvas),0 0 0 4px var(--text-1);
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{font:400 var(--fs-base)/1.55 var(--font-sans);color:var(--text-1);background:var(--canvas);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-feature-settings:"cv11","ss01"}
+a{color:inherit;text-underline-offset:3px}
+:focus-visible{outline:none;box-shadow:var(--focus);border-radius:var(--r-1)}
+.wrap{max-width:var(--container);margin:0 auto;padding-inline:var(--margin)}
+.mono{font:500 var(--fs-xs)/1.35 var(--font-mono);letter-spacing:.08em;text-transform:uppercase}
+.num{font-variant-numeric:tabular-nums}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.skip{position:absolute;left:-999px;top:12px;background:var(--surface-1);padding:10px 14px;border-radius:var(--r-1);z-index:20}.skip:focus{left:12px}
+
+/* ───────────────── the Reasons layer (signature) ───────────────── */
+[data-why]{transition:outline-color var(--dur-2) var(--ease-out)}
+.reasons [data-why]{outline:1px dashed var(--why);outline-offset:8px;border-radius:2px}
+.reasons [data-why]::after{content:"Why — " attr(data-why);display:block;margin-top:14px;padding:8px 0 0;border-top:1px dashed var(--why);
+  font:400 13px/1.5 var(--font-mono);letter-spacing:0;text-transform:none;font-style:normal;color:var(--why);max-width:60ch;text-align:left;white-space:normal;grid-column:1/-1;flex-basis:100%}
+.band.reasons-host [data-why]::after,.reasons .band [data-why]::after{color:var(--why-on-ink);border-color:var(--why-on-ink)}
+.reasons .band [data-why]{outline-color:var(--why-on-ink)}
+
+/* ───────────────── header ───────────────── */
+header.top{position:sticky;top:0;z-index:10;background:rgb(246 246 243/.88);backdrop-filter:blur(12px) saturate(1.2);-webkit-backdrop-filter:blur(12px) saturate(1.2);border-bottom:1px solid var(--hairline)}
+.bar{display:flex;align-items:center;gap:24px;height:68px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font:500 15px/1 var(--font-mono);letter-spacing:-.01em}
+.brand svg{width:22px;height:22px}
+.top nav{margin-left:auto}
+.top nav ul{display:flex;gap:2px;list-style:none;padding:0}
+.top nav a{display:inline-flex;align-items:center;height:44px;padding:0 12px;border-radius:var(--r-pill);text-decoration:none;color:var(--text-2);font-size:var(--fs-sm);transition:background var(--dur-1) var(--ease-out),color var(--dur-1)}
+.top nav a:hover{background:var(--surface-2);color:var(--text-1)}
+.toggle{display:inline-flex;align-items:center;gap:10px;height:44px;padding:0 8px 0 16px;border-radius:var(--r-pill);border:1px solid var(--border-control);background:var(--surface-1);
+  font:500 var(--fs-sm)/1 var(--font-sans);color:var(--text-1);cursor:pointer;transition:border-color var(--dur-2) var(--ease-out),background var(--dur-2)}
+.toggle:hover{background:var(--canvas)}
+.toggle .sw{width:34px;height:20px;border-radius:var(--r-pill);background:var(--surface-2);border:1px solid var(--border-control);position:relative;transition:background var(--dur-2) var(--ease-out)}
+.toggle .sw::after{content:"";position:absolute;top:2px;left:2px;width:14px;height:14px;border-radius:50%;background:var(--text-1);transition:transform var(--dur-2) var(--ease-out)}
+.toggle[aria-pressed=true]{border-color:var(--why)} .toggle[aria-pressed=true] .sw{background:var(--why);border-color:var(--why)}
+.toggle[aria-pressed=true] .sw::after{transform:translateX(14px);background:#fff}
+.toggle kbd{font:500 12px/1 var(--font-mono);color:var(--text-3);border:1px solid var(--hairline-strong);border-radius:var(--r-1);padding:3px 5px}
+.menu-btn{display:none}
+
+/* ───────────────── buttons ───────────────── */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;height:48px;padding:0 22px;border-radius:var(--r-pill);font:500 15px/1 var(--font-sans);text-decoration:none;border:1px solid transparent;cursor:pointer;
+  transition:transform var(--dur-1) var(--ease-out),background var(--dur-1) var(--ease-out)}
+.btn:active{transform:translateY(1px) scale(.985)}
+.btn-ink{background:var(--text-1);color:var(--on-ink-1);box-shadow:inset 0 1px 0 rgb(255 255 255/.14)}
+.btn-ink:hover{background:#2a2a28}
+.btn-line{background:transparent;color:var(--text-1);border-color:var(--border-control)} .btn-line:hover{background:var(--surface-1)}
+
+/* ───────────────── hero ───────────────── */
+.hero{display:grid;grid-template-columns:7fr 5fr;gap:clamp(32px,5vw,80px);align-items:end;padding-block:clamp(56px,9vw,120px) 72px}
+.eyebrow{display:flex;gap:14px;align-items:center;color:var(--text-3)}
+.eyebrow i{width:28px;height:1px;background:var(--text-3)}
+h1{font:600 var(--fs-hero)/.98 var(--font-display);letter-spacing:-.034em;margin:24px 0 28px;text-wrap:balance;font-variation-settings:"opsz" 96}
+h1 .quiet{color:var(--text-3)}
+.lead{font-size:var(--fs-md);line-height:1.5;color:var(--text-2);max-width:44ch}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:36px}
+.field{background:var(--surface-1);border:1px solid var(--hairline);border-radius:var(--r-2);padding:20px 20px 16px;box-shadow:inset 0 1px 0 #fff,0 1px 2px rgb(20 20 19/.04),0 18px 40px -18px rgb(20 20 19/.18)}
+.field header{display:flex;justify-content:space-between;align-items:baseline;color:var(--text-3);margin-bottom:14px}
+.field svg{width:100%;height:auto;display:block}
+.field svg rect{transition:opacity var(--dur-2)}
+.field .legend{display:flex;gap:20px;flex-wrap:wrap;margin-top:14px;font-size:var(--fs-sm);color:var(--text-2)}
+.legend span{display:inline-flex;align-items:center;gap:8px}
+.legend b{display:inline-block;width:12px;height:12px;border-radius:2px}
+.legend .hollow{border:1.5px solid var(--text-1)} .legend .solid{background:var(--text-1)}
+.field .big{font:600 clamp(2.5rem,4vw,3.5rem)/1 var(--font-display);letter-spacing:-.03em}
+.field .big small{font-size:.45em;color:var(--text-3);letter-spacing:0;margin-left:4px}
+.field-cap{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-top:6px}
+.field-cap p{font-size:var(--fs-sm);color:var(--text-2);max-width:30ch}
+.reveal-sweep{animation:sweep var(--dur-5) var(--ease-out) both}
+@keyframes sweep{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+
+/* stats strip */
+.strip{display:grid;grid-template-columns:repeat(4,1fr);border-block:1px solid var(--hairline)}
+.strip div{padding:24px 0 22px;border-right:1px solid var(--hairline);padding-left:20px}
+.strip div:first-child{padding-left:0}.strip div:last-child{border-right:0}
+.strip .n{font:600 clamp(1.75rem,2.4vw,2.5rem)/1 var(--font-display);letter-spacing:-.03em}
+.strip p{color:var(--text-3);font-size:var(--fs-sm);margin-top:8px;max-width:22ch}
+
+/* sections */
+section.s{padding-block:clamp(80px,10vw,136px)}
+.shead{display:grid;grid-template-columns:3fr 9fr;gap:32px;margin-bottom:56px;align-items:start}
+.shead .mono{color:var(--text-3);padding-top:14px}
+h2{font:600 var(--fs-h2)/1.02 var(--font-display);letter-spacing:-.028em;text-wrap:balance;max-width:20ch}
+.sub{color:var(--text-2);font-size:var(--fs-md);max-width:52ch;margin-top:18px;line-height:1.5}
+
+/* insights */
+.insights{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--hairline)}
+.ins{padding:28px 28px 32px 0;border-bottom:1px solid var(--hairline)}
+.ins:not(:nth-child(3n)){border-right:1px solid var(--hairline)}
+.ins:not(:nth-child(3n+1)){padding-left:28px}
+.ins .k{font:600 2.75rem/1 var(--font-display);letter-spacing:-.03em}
+.ins .k small{font-size:.42em;color:var(--text-3);margin-left:2px;letter-spacing:0}
+.ins h3{font:600 var(--fs-md)/1.25 var(--font-sans);letter-spacing:-.01em;margin:18px 0 8px}
+.ins p{color:var(--text-2);font-size:15px}
+
+/* method */
+.steps{counter-reset:s;display:grid;grid-template-columns:repeat(6,1fr);position:relative;list-style:none;padding:0}
+.steps::before{content:"";position:absolute;left:0;right:0;top:15px;height:1px;background:var(--hairline-strong)}
+.steps li{position:relative;padding-right:20px}
+.steps li::before{counter-increment:s;content:counter(s,decimal-leading-zero);display:inline-grid;place-items:center;width:32px;height:32px;border-radius:50%;background:var(--canvas);border:1px solid var(--text-1);font:500 12px/1 var(--font-mono);position:relative}
+.steps li:last-child::before{background:var(--text-1);color:var(--on-ink-1)}
+.steps h3{font:600 17px/1.3 var(--font-sans);margin:20px 0 8px;letter-spacing:-.01em}
+.steps p{color:var(--text-2);font-size:var(--fs-sm)}
+.loop{margin-top:40px;display:flex;gap:14px;align-items:center;color:var(--text-2);font-size:var(--fs-sm)}
+.loop svg{flex:none}
+
+/* evidence */
+.ev{display:grid;grid-template-columns:7fr 5fr;gap:48px;align-items:start}
+.chart{position:relative;background:var(--surface-1);border:1px solid var(--hairline);border-radius:var(--r-2);padding:24px}
+.chart svg{width:100%;height:auto;display:block;overflow:visible}
+.chart text{font-family:var(--font-mono);font-size:12px;fill:var(--text-3)}
+.chart .lab{font-family:var(--font-sans);font-size:14px;fill:var(--text-1)}
+.chart .val{font-family:var(--font-mono);font-size:12px;fill:var(--text-1)}
+.gates{display:grid;gap:22px}
+.gate .row{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px}
+.gate .row b{font:600 1.75rem/1 var(--font-display);letter-spacing:-.02em}
+.track{display:grid;grid-template-columns:repeat(30,1fr);gap:3px}
+.track i{height:18px;border-radius:2px;border:1.5px solid var(--text-1)}
+.track i.on{background:var(--text-1)}
+.note{color:var(--text-3);font-size:var(--fs-sm);margin-top:28px;max-width:62ch}
+
+/* use cases */
+.cases{display:grid;grid-template-columns:repeat(6,1fr);gap:20px}
+.case{grid-column:span 2;background:var(--surface-1);border:1px solid var(--hairline);border-radius:var(--r-2);overflow:hidden;display:flex;flex-direction:column}
+.case.wide{grid-column:span 3}
+.case figure{position:relative;aspect-ratio:16/10;background:var(--surface-2);border-bottom:1px solid var(--hairline);overflow:hidden}
+.case figure img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;transition:opacity var(--dur-3) var(--ease-out)}
+.case figure img.alt{opacity:0}
+.case[data-show=without] img.alt{opacity:1}
+.case .body{padding:18px 20px 20px;display:flex;flex-direction:column;gap:12px;flex:1}
+.case h3{font:600 var(--fs-md)/1.2 var(--font-sans);letter-spacing:-.01em}
+.case p{color:var(--text-2);font-size:var(--fs-sm)}
+.seg{display:inline-flex;padding:3px;background:var(--surface-2);border-radius:var(--r-pill);gap:2px;align-self:flex-start}
+.seg button{height:44px;padding:0 14px;border-radius:var(--r-pill);border:0;background:transparent;font:500 13px/1 var(--font-sans);color:var(--text-2);cursor:pointer;transition:background var(--dur-2) var(--ease-out),color var(--dur-2)}
+.seg button[aria-pressed=true]{background:var(--surface-1);color:var(--text-1);box-shadow:0 1px 2px rgb(20 20 19/.08),inset 0 1px 0 #fff}
+.score{display:flex;gap:18px;align-items:baseline;margin-top:auto;padding-top:12px;border-top:1px solid var(--hairline)}
+.score span{font:500 13px/1.2 var(--font-mono);color:var(--text-3)}
+.score b{font:600 1.5rem/1 var(--font-display);color:var(--text-1);letter-spacing:-.02em}
+.case .links{display:flex;gap:16px;font-size:var(--fs-sm)}
+.case .links a{display:inline-flex;align-items:center;min-height:44px;color:var(--text-1)}
+
+/* tokens */
+.tok{display:grid;grid-template-columns:repeat(12,1fr);gap:20px}
+.panel{background:var(--surface-1);border:1px solid var(--hairline);border-radius:var(--r-2);padding:24px}
+.panel h3{margin-bottom:18px;color:var(--text-3)}
+.p-type{grid-column:span 7}.p-col{grid-column:span 5}.p-rad{grid-column:span 5}.p-mot{grid-column:span 7}
+.spec{display:grid;grid-template-columns:120px 1fr;gap:16px;align-items:baseline;padding:12px 0;border-top:1px solid var(--hairline)}
+.spec .mono{color:var(--text-3)}
+.chips{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.chip{border-radius:var(--r-1);padding:12px;min-height:96px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid var(--hairline)}
+.chip span{font:500 12px/1.3 var(--font-mono)}
+.radii{display:flex;gap:16px;align-items:flex-end}
+.radii div{width:76px;height:76px;border:1.5px solid var(--text-1);display:grid;place-items:end start;padding:8px;font:500 12px/1 var(--font-mono);color:var(--text-2)}
+.stage{position:relative;height:96px;border-radius:var(--r-2);background:var(--canvas);border:1px solid var(--hairline);overflow:hidden;margin:4px 0 16px}
+.sheet{position:absolute;left:12px;right:12px;bottom:-80px;height:72px;border-radius:var(--r-2);background:var(--text-1);color:var(--on-ink-1);display:flex;align-items:center;padding:0 18px;font-size:var(--fs-sm);transition:transform var(--dur-2) var(--ease-in)}
+.stage[data-open] .sheet{transform:translateY(-92px);transition:transform var(--dur-3) var(--ease-out)}
+.mot-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+
+/* install band */
+.band{background:var(--ink-band);color:var(--on-ink-1)}
+.band .mono,.band .sub{color:var(--on-ink-2)}
+.band h2{color:var(--on-ink-1)}
+.inst{display:grid;grid-template-columns:5fr 7fr;gap:48px;align-items:start}
+.code{position:relative;background:#1f1f1d;border:1px solid rgb(246 246 243/.12);border-radius:var(--r-2);padding:18px 96px 18px 20px;font:400 14px/1.7 var(--font-mono);color:var(--on-ink-1);overflow-x:auto}
+.code .c{color:var(--on-ink-2)}
+.code + .code{margin-top:16px}
+.copy{position:absolute;top:8px;right:8px;height:44px;padding:0 12px;border-radius:var(--r-pill);border:1px solid rgb(246 246 243/.28);background:transparent;color:var(--on-ink-1);font:500 12px/1 var(--font-sans);cursor:pointer}
+.copy:hover{background:rgb(246 246 243/.08)}
+.tree{font:400 14px/1.9 var(--font-mono);color:var(--on-ink-2)}
+.tree b{color:var(--on-ink-1);font-weight:500}
+.band :focus-visible{box-shadow:0 0 0 2px var(--ink-band),0 0 0 4px var(--on-ink-1)}
+footer{padding:40px 0 56px;color:var(--text-3);font-size:var(--fs-sm)}
+footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,16px);opacity:0;background:var(--text-1);color:var(--on-ink-1);padding:12px 18px;border-radius:var(--r-pill);font-size:var(--fs-sm);transition:opacity var(--dur-2) var(--ease-in),transform var(--dur-2) var(--ease-in);pointer-events:none;z-index:30}
+.toast[data-show]{opacity:1;transform:translate(-50%,0);transition-duration:var(--dur-3);transition-timing-function:var(--ease-out)}
+
+/* ───────────────── responsive: redesigned, not shrunk ───────────────── */
+@media (max-width:1080px){
+  .hero,.ev,.inst{grid-template-columns:1fr}
+  .steps{grid-template-columns:repeat(3,1fr);row-gap:40px}.steps::before{display:none}
+  .cases{grid-template-columns:repeat(2,1fr)}.case,.case.wide{grid-column:span 1}
+  .p-type,.p-col,.p-rad,.p-mot{grid-column:span 12}
+}
+@media (max-width:760px){
+  .top nav{display:none}.toggle kbd{display:none}.toggle{margin-left:auto}
+  .shead{grid-template-columns:1fr;gap:8px}
+  .strip{grid-template-columns:1fr 1fr}.strip div:nth-child(2){border-right:0}.strip div:nth-child(3){padding-left:0;border-top:1px solid var(--hairline)}.strip div:nth-child(4){border-top:1px solid var(--hairline)}
+  .insights{grid-template-columns:1fr}.ins,.ins:not(:nth-child(3n+1)){padding:24px 0;border-right:0!important}
+  .steps{grid-template-columns:1fr}.cases{grid-template-columns:1fr}
+  .chips{grid-template-columns:1fr 1fr}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition-duration:120ms!important;transition-property:opacity,color,background-color,border-color!important}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="#" aria-label="aaa-design home">
+      <svg viewBox="0 0 22 22" aria-hidden="true"><rect x="1" y="1" width="9" height="9" rx="1.5" fill="#141413"/><rect x="12" y="1" width="9" height="9" rx="1.5" fill="none" stroke="#141413" stroke-width="1.5"/><rect x="1" y="12" width="9" height="9" rx="1.5" fill="none" stroke="#141413" stroke-width="1.5"/><rect x="12" y="12" width="9" height="9" rx="1.5" fill="#141413"/></svg>
+      aaa-design
+    </a>
+    <nav aria-label="Sections"><ul>
+      <li><a href="#research">Research</a></li><li><a href="#method">Method</a></li><li><a href="#evidence">Evidence</a></li><li><a href="#cases">Use cases</a></li><li><a href="#install">Install</a></li>
+    </ul></nav>
+    <button class="toggle" id="why-toggle" aria-pressed="false" aria-describedby="why-hint">Show reasons <span class="sw" aria-hidden="true"></span><kbd aria-hidden="true">R</kbd></button>
+    <span id="why-hint" class="sr">Annotates every design decision on this page with the rule and the evidence behind it.</span>
+  </div>
+</header>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="wrap hero" aria-labelledby="h">
+    <div>
+      <p class="eyebrow mono"><i aria-hidden="true"></i>A Claude skill · v2 · October 2026</p>
+      <h1 id="h" data-why="Display voice is Bricolage Grotesque at 600, tracked −0.034em. In blind tests, pages set entirely in Inter lost on typography; a characterful display face with a quiet text face won.">Design that holds up <span class="quiet">after the screenshot.</span></h1>
+      <p class="lead" data-why="Lead set at 19px / 1.5 in text-2 (8.2:1), measure capped at 44ch. Real sites use a 15–16px body; the lead steps up one scale notch, not three.">aaa-design teaches Claude to build interfaces as crafted as the best work in the galleries — and to get right what 89% of that work gets wrong.</p>
+      <div class="cta" data-why="One primary action in ink, one quiet outline. The page's only colour is reserved for explanations, so the CTA earns emphasis from contrast and weight instead of hue.">
+        <a class="btn btn-ink" href="#install">Install the skill <span aria-hidden="true">→</span></a>
+        <a class="btn btn-line" href="#evidence">See the evidence</a>
+      </div>
+    </div>
+    <figure class="field" aria-labelledby="field-cap" data-why="The hero art is the dataset itself: one square per reference, ordered by its worst text contrast. Hollow means it ships text below WCAG AA. Shape, not colour, carries the meaning, so it reads in greyscale and for colour-blind viewers.">
+      <header class="mono"><span>347 references · worst text pair</span><span class="num">1.0 → 21:1</span></header>
+      <svg id="field" viewBox="0 0 460 280" role="img" aria-label="347 squares, one per studied reference. 309 are hollow because they ship text below WCAG AA contrast; 38 are solid because they pass."></svg>
+      <div class="field-cap">
+        <p id="field-cap">Each square is one reference we studied, sorted by its least-readable text. Hollow: below 4.5:1.</p>
+        <p class="big num" aria-hidden="true">89<small>%</small></p>
+      </div>
+      <div class="legend"><span><b class="hollow" aria-hidden="true"></b>309 fail AA</span><span><b class="solid" aria-hidden="true"></b>38 pass</span></div>
+    </figure>
+  </section>
+
+  <div class="wrap">
+    <div class="strip" data-why="Four numbers, all measured, never rounded up. Tabular figures keep the strip aligned; hairline dividers at 12% ink structure it without boxes.">
+      <div><p class="n num">353</p><p>examples enumerated across two showcases</p></div>
+      <div><p class="n num">1,368</p><p>UI transitions timed frame by frame</p></div>
+      <div><p class="n num">41</p><p>live brand sites measured from computed CSS</p></div>
+      <div><p class="n num">86</p><p>craft checks distilled from the top quartile</p></div>
+    </div>
+  </div>
+
+  <!-- RESEARCH -->
+  <section class="s wrap" id="research" aria-labelledby="r-h">
+    <div class="shead">
+      <p class="mono">01 — What we learned</p>
+      <div><h2 id="r-h">The best work is quiet, with one idea that does a job.</h2>
+      <p class="sub">Every reference was analysed by looking at its pixels: hexes sampled, contrast computed, motion measured. These six findings shape the skill.</p></div>
+    </div>
+    <div class="insights" data-why="A 3-column grid ruled by hairlines instead of cards: findings are peers, so no single one is elevated. Each leads with its number because the claim is only as good as its measurement.">
+      <article class="ins"><p class="k num">1<small>+1</small></p><h3>One base, one expressive layer</h3><p>Top references pair a restrained structure with exactly one expressive device. Stacking glass, aurora and gradient-mesh produced the lowest scores.</p></article>
+      <article class="ins"><p class="k num">0.33<small>s</small></p><h3>Motion has a house style</h3><p>Median UI transition across 1,368 measured moves. 44% ease out; menus open 1.5–3× slower than they close.</p></article>
+      <article class="ins"><p class="k num">1.17</p><h3>Real type scales are gentle</h3><p>Median step ratio on live sites, with a 15–16px body. Display runs about 3.75× body; tracking tightens to −0.01 to −0.03em.</p></article>
+      <article class="ins"><p class="k num">89<small>%</small></p><h3>Contrast is the blind spot</h3><p>Ship text below AA. Judges barely penalised it (6.64 vs 6.68 usability), so the skill measures contrast instead of judging it.</p></article>
+      <article class="ins"><p class="k num">2–3</p><h3>Radius systems are small</h3><p>Pill, one card radius and a nested inner radius. Zero is reserved for things that should feel like paper.</p></article>
+      <article class="ins"><p class="k num">4<small>/348</small></p><h3>States are the gap</h3><p>Only four references show an empty, error or 404 state, and none a reduced-motion variant. The happy path is over-designed.</p></article>
+    </div>
+  </section>
+
+  <!-- METHOD -->
+  <section class="s wrap" id="method" aria-labelledby="m-h" style="padding-top:0">
+    <div class="shead">
+      <p class="mono">02 — The method</p>
+      <div><h2 id="m-h">Six steps, in order. The last one loops.</h2>
+      <p class="sub">The skill is procedural on purpose: tokens are committed before any component, and nothing ships until it has been rendered and looked at.</p></div>
+    </div>
+    <ol class="steps" data-why="A tick-ruler timeline: position reads without labels, and the filled final node marks the step that repeats. Steps are an ordered list so screen readers announce the sequence.">
+      <li><h3>Read the brief</h3><p>Audience, job, real content, three tone words — and one signature moment.</p></li>
+      <li><h3>Choose a direction</h3><p>One structural base, one expressive layer, a characterful display voice.</p></li>
+      <li><h3>Commit tokens</h3><p>Colour roles, type scale, radii, motion — every text pair verified for contrast.</p></li>
+      <li><h3>Lay out &amp; set type</h3><p>12-column grid, one focal point, measure ≤ 72ch, tabular numbers.</p></li>
+      <li><h3>Build every state</h3><p>Hover, focus, active, disabled, loading, error, empty — and reduced motion.</p></li>
+      <li><h3>Render, audit, iterate</h3><p>Screenshots at 390 / 768 / 1440, six hard gates, a rubric score, three fixes.</p></li>
+    </ol>
+    <p class="loop"><svg width="40" height="16" viewBox="0 0 40 16" aria-hidden="true"><path d="M2 8h30m0 0-6-5m6 5-6 5" fill="none" stroke="#141413" stroke-width="1.5"/></svg>Stops when every gate passes and every axis scores ≥ 7 — or after three loops, with what's left reported honestly.</p>
+  </section>
+
+  <!-- EVIDENCE -->
+  <section class="s wrap" id="evidence" aria-labelledby="e-h" style="padding-top:0">
+    <div class="shead">
+      <p class="mono">03 — Evidence</p>
+      <div><h2 id="e-h">Blind-tested against the same model without it.</h2>
+      <p class="sub">Five briefs, built twice by the same model. Fresh graders scored both versions as A and B, without knowing which used the skill.</p></div>
+    </div>
+    <div class="ev">
+      <figure class="chart" data-why="A dumbbell chart, because the story is the gap between two scores per brief. Hollow dot = without the skill, solid = with it — the same shape language as the hero, so it needs no colour key.">
+        <svg id="dumbbell" viewBox="0 0 640 300" role="img" aria-labelledby="db-t"><title id="db-t">Raw rubric scores out of 80 per brief, without vs with the skill</title></svg>
+        <div class="sr"><table id="db-table"><caption>Blind raw scores out of 80</caption><thead><tr><th>Brief</th><th>Without skill</th><th>With skill</th></tr></thead><tbody></tbody></table></div>
+      </figure>
+      <div>
+        <div class="gates" data-why="30 boxes per row because there were 30 gate checks per arm (5 briefs × 6 gates). Counting boxes makes the comparison literal rather than a percentage you have to trust.">
+          <div class="gate"><div class="row"><span class="mono">With skill · hard gates passed</span><b class="num">30/30</b></div><div class="track" id="g-with" aria-hidden="true"></div></div>
+          <div class="gate"><div class="row"><span class="mono">Without · hard gates passed</span><b class="num">18/30</b></div><div class="track" id="g-without" aria-hidden="true"></div></div>
+        </div>
+        <p class="note">Gates: AA contrast, no overflow at 390px, visible keyboard focus, reduced motion, text ≥ 12px, alt text and names. Mean raw score <b class="num">64.0</b> vs <b class="num">50.2</b>. Caveats are published with the results: one build per arm, model graders, about ±6 points of grader noise — smaller than every margin.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- USE CASES -->
+  <section class="s wrap" id="cases" aria-labelledby="c-h" style="padding-top:0">
+    <div class="shead">
+      <p class="mono">04 — Use cases</p>
+      <div><h2 id="c-h">Five briefs. Same model. Flip each one.</h2>
+      <p class="sub">These are the blind-tested builds, unedited. Toggle any card to see what the same model made from the same brief without the skill.</p></div>
+    </div>
+    <div class="cases" id="case-grid" data-why="Two wide cards then three, so the grid has rhythm without a fake 'hero' case. Each before/after toggle changes only the image and keeps card height fixed — no layout shift between states."></div>
+  </section>
+
+  <!-- TOKENS -->
+  <section class="s wrap" id="tokens" aria-labelledby="t-h" style="padding-top:0">
+    <div class="shead">
+      <p class="mono">05 — This page, explained</p>
+      <div><h2 id="t-h">Built with the skill. Here are its tokens.</h2>
+      <p class="sub">Everything on this page comes from a dozen decisions made before a single component. They're live below.</p></div>
+    </div>
+    <div class="tok">
+      <div class="panel p-type" data-why="Three families with three jobs: Bricolage speaks, Inter explains, JetBrains Mono measures. Six named sizes on a ~1.2 ratio, with tracking set per size rather than once.">
+        <h3 class="mono">Type</h3>
+        <div class="spec"><span class="mono">Display 100</span><span style="font:600 clamp(2.4rem,5vw,4rem)/1 var(--font-display);letter-spacing:-.034em">Holds up</span></div>
+        <div class="spec"><span class="mono">H2 52</span><span style="font:600 2rem/1.05 var(--font-display);letter-spacing:-.028em">One idea that does a job</span></div>
+        <div class="spec"><span class="mono">Body 16 / 1.55</span><span>Write the real content first; design around it.</span></div>
+        <div class="spec"><span class="mono">Meta 12 +8%</span><span class="mono">Measured · not rounded</span></div>
+      </div>
+      <div class="panel p-col" data-why="Neutral paper and tinted ink instead of #fff and #000. One hue in the whole system, and it only appears when the page is explaining itself.">
+        <h3 class="mono">Colour · computed</h3>
+        <div class="chips">
+          <div class="chip" style="background:#f6f6f3"><span>Paper<br>#F6F6F3</span><span class="num">17.0:1</span></div>
+          <div class="chip" style="background:#141413;color:#f6f6f3"><span>Ink<br>#141413</span><span class="num">17.0:1</span></div>
+          <div class="chip" style="background:#ecece7"><span>Surface<br>#ECECE7</span><span class="num">5.0:1 t3</span></div>
+          <div class="chip" style="background:#fff;color:#4a4a46"><span>Text 2<br>#4A4A46</span><span class="num">8.2:1</span></div>
+          <div class="chip" style="background:#fff;color:#64645e"><span>Text 3<br>#64645E</span><span class="num">6.0:1</span></div>
+          <div class="chip" style="background:#fff;color:#2747d6;border-color:#2747d6"><span>Why<br>#2747D6</span><span class="num">7.1:1</span></div>
+        </div>
+      </div>
+      <div class="panel p-rad" data-why="Three radii: 6 for controls, 12 for containers, pill for actions. Fewer values make nesting predictable: inner radius = outer − padding.">
+        <h3 class="mono">Radius</h3>
+        <div class="radii"><div style="border-radius:6px">6</div><div style="border-radius:12px">12</div><div style="border-radius:9999px;place-items:center;padding:0">pill</div></div>
+      </div>
+      <div class="panel p-mot" data-why="Durations from the measured median (0.33s). Ease-out for things arriving, ease-in for things leaving, and closing faster than opening. Try it; under reduced motion it becomes a 120ms fade.">
+        <h3 class="mono">Motion · 320ms out / 200ms in</h3>
+        <div class="stage" id="stage"><span class="mono" style="position:absolute;top:14px;left:16px;color:var(--text-3)">Press open — then close. Feel the difference.</span><div class="sheet" aria-hidden="true">A sheet that opens slower than it closes.</div></div>
+        <div class="mot-row"><button class="btn btn-line" id="mot" aria-controls="stage" aria-expanded="false">Open sheet</button><span class="mono" style="color:var(--text-3)">cubic-bezier(.2,.8,.2,1)</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTALL -->
+  <section class="s band" id="install" aria-labelledby="i-h">
+    <div class="wrap">
+      <div class="shead">
+        <p class="mono">06 — Install</p>
+        <div><h2 id="i-h">Drop it into Claude Code. Ask for anything visual.</h2>
+        <p class="sub">The skill triggers on design and UI requests — landing pages, dashboards, onboarding, brand pages — even when the word "design" never appears.</p></div>
+      </div>
+      <div class="inst" data-why="An ink band for the one section you act on, so it reads as a different mode. On ink the reasons switch to a lighter blue (7.8:1) — the same role, re-tuned for the surface instead of reused.">
+        <div class="tree" aria-label="Files in the skill">
+          <b>aaa-design/</b><br>├─ SKILL.md · six steps<br>├─ rubric.md · 6 gates, 8 axes<br>├─ references/ · 9 files<br>├─ scripts/audit.mjs · renders &amp; gates<br>├─ scripts/contrast.py · checks &amp; fixes<br>└─ examples/ · 3 audited pages
+        </div>
+        <div>
+          <div class="code"><button class="copy" data-copy="cp -r skills/aaa-design ~/.claude/skills/">Copy</button><span class="c"># install for every project</span><br>cp -r skills/aaa-design ~/.claude/skills/</div>
+          <div class="code"><button class="copy" data-copy="Build a pricing page for Northwind, a bookkeeping app for studios. Three tiers, an FAQ, and make it unmistakably ours.">Copy</button><span class="c"># then just ask</span><br>Build a pricing page for Northwind, a bookkeeping app for studios. Three tiers, an FAQ, and make it unmistakably ours.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap"><span>aaa-design · distilled from inspora.design and brandguidelines.net · analyses and principles in our own words</span><span>Press <span class="mono">R</span> to see why everything is where it is.</span></div></footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+/* ── data (from research/ and skills/aaa-design/EVALS.md) ── */
+const CASES=[
+ {slug:'cadence-landing',name:'Cadence · SaaS landing',desc:'Two-way SMS reminders for clinics. Signature: reply "C" in the hero phone and the appointment slip stamps CONFIRMED.',w:65,wo:51,g:'6/6',go:'3/6',wide:true},
+ {slug:'bramble-dashboard',name:'Bramble & Co · Ops dashboard',desc:'The big revenue figure doubles as the chart readout; low stock becomes shelf tags with days of cover and Undo.',w:61,wo:43,g:'6/6',go:'2/6',wide:true},
+ {slug:'sprout-onboarding',name:'Sprout · Mobile onboarding',desc:'Plants you pick become the pots on your shelf. Includes the denied-permission state.',w:63,wo:55,g:'6/6',go:'5/6'},
+ {slug:'halcyon-brand',name:'Halcyon · Brand identity',desc:'A scrubbable roast curve is both the brand device and the bag art; contrast pairs are computed.',w:66,wo:46,g:'6/6',go:'4/6'},
+ {slug:'mira-portfolio',name:'Mira Okafor · Portfolio',desc:'Case studies are stops on a U-Bahn line; each prints its headline stat on a ticket.',w:65,wo:56,g:'6/6',go:'4/6'}];
+
+/* ── hero field: 347 references, worst contrast pair each ── */
+(function(){
+  const vals=[1.01, 1.05, 1.07, 1.07, 1.07, 1.08, 1.09, 1.1, 1.1, 1.1, 1.11, 1.12, 1.12, 1.13, 1.13, 1.14, 1.16, 1.16, 1.16, 1.16, 1.17, 1.17, 1.19, 1.19, 1.19, 1.19, 1.19, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.21, 1.22, 1.23, 1.24, 1.25, 1.25, 1.28, 1.3, 1.3, 1.31, 1.31, 1.31, 1.32, 1.33, 1.34, 1.34, 1.36, 1.36, 1.37, 1.37, 1.38, 1.39, 1.39, 1.4, 1.42, 1.43, 1.44, 1.46, 1.46, 1.46, 1.47, 1.48, 1.5, 1.5, 1.51, 1.52, 1.52, 1.52, 1.54, 1.56, 1.57, 1.59, 1.59, 1.59, 1.59, 1.6, 1.61, 1.61, 1.63, 1.64, 1.64, 1.65, 1.66, 1.66, 1.66, 1.67, 1.67, 1.67, 1.68, 1.68, 1.69, 1.7, 1.71, 1.72, 1.73, 1.73, 1.74, 1.74, 1.75, 1.75, 1.77, 1.77, 1.79, 1.79, 1.8, 1.8, 1.81, 1.82, 1.82, 1.82, 1.82, 1.82, 1.82, 1.82, 1.83, 1.83, 1.84, 1.84, 1.85, 1.85, 1.85, 1.87, 1.89, 1.91, 1.92, 1.92, 1.92, 1.92, 1.93, 1.95, 1.98, 1.98, 1.98, 2.0, 2.0, 2.03, 2.04, 2.06, 2.09, 2.09, 2.1, 2.1, 2.1, 2.11, 2.12, 2.12, 2.13, 2.13, 2.15, 2.15, 2.15, 2.17, 2.17, 2.17, 2.2, 2.22, 2.22, 2.22, 2.24, 2.24, 2.24, 2.25, 2.25, 2.27, 2.27, 2.27, 2.32, 2.32, 2.33, 2.35, 2.36, 2.38, 2.38, 2.39, 2.39, 2.39, 2.44, 2.45, 2.47, 2.48, 2.48, 2.48, 2.49, 2.49, 2.5, 2.51, 2.52, 2.52, 2.52, 2.52, 2.52, 2.54, 2.55, 2.56, 2.57, 2.58, 2.58, 2.59, 2.59, 2.6, 2.6, 2.61, 2.62, 2.63, 2.63, 2.64, 2.66, 2.67, 2.67, 2.67, 2.69, 2.71, 2.73, 2.73, 2.74, 2.77, 2.78, 2.78, 2.81, 2.81, 2.81, 2.81, 2.81, 2.82, 2.82, 2.83, 2.84, 2.85, 2.85, 2.86, 2.87, 2.88, 2.88, 2.91, 2.91, 2.91, 2.91, 2.92, 2.93, 2.94, 2.94, 2.97, 2.99, 2.99, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.04, 3.05, 3.07, 3.1, 3.1, 3.13, 3.14, 3.15, 3.15, 3.17, 3.18, 3.2, 3.22, 3.22, 3.22, 3.24, 3.25, 3.26, 3.27, 3.27, 3.27, 3.28, 3.29, 3.3, 3.34, 3.36, 3.4, 3.43, 3.44, 3.45, 3.45, 3.48, 3.49, 3.53, 3.58, 3.58, 3.58, 3.6, 3.61, 3.63, 3.66, 3.68, 3.7, 3.75, 3.76, 3.77, 3.78, 3.79, 3.84, 3.95, 3.95, 4.01, 4.1, 4.11, 4.25, 4.52, 4.53, 4.55, 4.59, 4.62, 4.63, 4.7, 4.72, 4.75, 4.92, 4.92, 4.94, 4.95, 4.98, 5.07, 5.13, 5.28, 5.33, 5.33, 5.36, 5.37, 5.49, 5.77, 5.99, 6.08, 6.27, 6.97, 7.43, 8.1, 8.33, 8.74, 8.75, 9.21, 9.46, 14.18, 17.0, 18.08, 20.0]; /* worst reported text-pair ratio per reference, sorted (research/analysis, §4) */
+  const svg=document.getElementById('field'); const cols=23,size=16,gap=4; let html='';
+  vals.forEach((v,i)=>{const x=(i%cols)*(size+gap), y=Math.floor(i/cols)*(size+gap); const pass=v>=4.5;
+    html+=`<rect x="${x+.75}" y="${y+.75}" width="${size-1.5}" height="${size-1.5}" rx="2" ${pass?'fill="#141413"':'fill="none" stroke="#141413" stroke-width="1.5"'}><title>worst text pair ${v}:1</title></rect>`;});
+  svg.setAttribute('viewBox',`0 0 ${cols*(size+gap)-gap} ${Math.ceil(vals.length/cols)*(size+gap)-gap}`); svg.innerHTML=html; svg.classList.add('reveal-sweep');
+})();
+
+/* ── dumbbell chart ── */
+(function(){
+  const svg=document.getElementById('dumbbell'), tb=document.querySelector('#db-table tbody');
+  const L=150,R=600,min=40,max=70,X=v=>L+(v-min)/(max-min)*(R-L); let s='';
+  for(let v=40;v<=70;v+=10){s+=`<line x1="${X(v)}" x2="${X(v)}" y1="18" y2="282" stroke="rgb(20 20 19/.12)"/><text x="${X(v)}" y="12" text-anchor="middle">${v}</text>`;}
+  CASES.forEach((c,i)=>{const y=48+i*54;
+    s+=`<text class="lab" x="0" y="${y+5}">${c.name.split(' · ')[1]}</text>
+        <line x1="${X(c.wo)}" x2="${X(c.w)}" y1="${y}" y2="${y}" stroke="#141413" stroke-width="2"/>
+        <circle cx="${X(c.wo)}" cy="${y}" r="7" fill="#fff" stroke="#141413" stroke-width="2"/><circle cx="${X(c.w)}" cy="${y}" r="7" fill="#141413"/>
+        <text class="val" x="${X(c.wo)-14}" y="${y+4}" text-anchor="end">${c.wo}</text><text class="val" x="${X(c.w)+14}" y="${y+4}">${c.w}</text>`;
+    tb.insertAdjacentHTML('beforeend',`<tr><th>${c.name}</th><td>${c.wo}</td><td>${c.w}</td></tr>`);});
+  svg.insertAdjacentHTML('beforeend',s);
+  const fill=(id,n)=>{document.getElementById(id).innerHTML=Array.from({length:30},(_,i)=>`<i class="${i<n?'on':''}"></i>`).join('');};
+  fill('g-with',30); fill('g-without',18);
+})();
+
+/* ── use case cards with before/after ── */
+document.getElementById('case-grid').innerHTML=CASES.map(c=>`
+  <article class="case${c.wide?' wide':''}" data-show="with" aria-labelledby="ct-${c.slug}">
+    <figure><img src="usecases/${c.slug}/with-hero.jpg" alt="${c.name}, built with the skill: first screen at 1440px" loading="lazy" width="960" height="600">
+      <img class="alt" src="usecases/${c.slug}/without-hero.jpg" alt="" loading="lazy" width="960" height="600"></figure>
+    <div class="body"><h3 id="ct-${c.slug}">${c.name}</h3><p>${c.desc}</p>
+      <div class="seg" role="group" aria-label="Show version"><button aria-pressed="true" data-v="with">With skill</button><button aria-pressed="false" data-v="without">Without</button></div>
+      <div class="score"><span>With <b class="num">${c.w}</b></span><span>Without <b class="num">${c.wo}</b></span><span>Gates ${c.g} vs ${c.go}</span></div>
+      <div class="links"><a href="usecases/${c.slug}/with.html">Open with skill ↗</a><a href="usecases/${c.slug}/without.html">Open without ↗</a></div></div></article>`).join('');
+document.querySelectorAll('.case').forEach(card=>card.querySelectorAll('.seg button').forEach(b=>b.addEventListener('click',()=>{
+  card.dataset.show=b.dataset.v; card.querySelectorAll('.seg button').forEach(x=>x.setAttribute('aria-pressed',x===b));
+  const [a,alt]=card.querySelectorAll('img'); const name=card.querySelector('h3').textContent;
+  a.alt=b.dataset.v==='with'?`${name}, built with the skill: first screen at 1440px`:''; alt.alt=b.dataset.v==='without'?`${name}, built without the skill: first screen at 1440px`:'';
+})));
+
+/* ── Reasons layer: button, R key, ?reasons in the URL ── */
+const tgl=document.getElementById('why-toggle'), toast=document.getElementById('toast');
+function setWhy(on,announce){document.documentElement.classList.toggle('reasons',on); tgl.setAttribute('aria-pressed',on); tgl.firstChild.textContent=on?'Hide reasons ':'Show reasons ';
+  const u=new URL(location); on?u.searchParams.set('reasons',''):u.searchParams.delete('reasons'); history.replaceState(null,'',u);
+  if(announce) say(on?`${document.querySelectorAll('[data-why]').length} decisions annotated`:'Reasons hidden');}
+function say(t){toast.textContent=t; toast.setAttribute('data-show',''); clearTimeout(say.t); say.t=setTimeout(()=>toast.removeAttribute('data-show'),2200);}
+tgl.addEventListener('click',()=>setWhy(tgl.getAttribute('aria-pressed')!=='true',true));
+addEventListener('keydown',e=>{ if(e.key==='Escape'&&document.documentElement.classList.contains('reasons')) setWhy(false,true);
+  if((e.key==='r'||e.key==='R')&&!e.metaKey&&!e.ctrlKey&&!e.altKey&&!/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) setWhy(tgl.getAttribute('aria-pressed')!=='true',true);});
+if(new URL(location).searchParams.has('reasons')) setWhy(true,false);
+
+/* ── motion demo: open 320ms ease-out, close 200ms ease-in ── */
+const mot=document.getElementById('mot'), stage=document.getElementById('stage');
+mot.addEventListener('click',()=>{const open=!stage.hasAttribute('data-open'); stage.toggleAttribute('data-open',open); mot.setAttribute('aria-expanded',open); mot.textContent=open?'Close sheet':'Open sheet';});
+
+/* ── copy buttons ── */
+document.querySelectorAll('.copy').forEach(b=>b.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(b.dataset.copy);}catch{} b.textContent='Copied'; say('Copied to clipboard'); setTimeout(()=>b.textContent='Copy',1600);}));
+</script>
+</body>
+</html>
