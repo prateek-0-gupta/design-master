@@ -7,18 +7,21 @@ const { launch, sleep } = require('./lib'); const fs = require('fs'); const path
   await p.goto(url, { timeout: 60000 }); await sleep(7000);
   await p.getByRole('button', { name: 'Decline' }).click({ timeout: 3000 }).catch(() => {});
   await p.getByRole('button', { name: /close/i }).first().click({ timeout: 2000 }).catch(() => {});
-  const total = parseInt((await p.evaluate(() => document.body.innerText.match(/Page \d+ of (\d+)/)?.[1])) || '0');
+  const total = parseInt((await p.evaluate(() => document.body.innerText.match(/Page \d+ of (\d+)\b/)?.[1])) || '0');
   const seen = new Set();
   for (let step = 0; step < total * 4 && seen.size < total; step++) {
     const pages = await p.$$('div[class*="_page_"]');
     for (const el of pages) {
       const info = await el.evaluate(e => { const r = e.getBoundingClientRect(); const img = e.querySelector('img'); return { top: r.top, bottom: r.bottom, h: r.height, off: e.offsetTop, ok: !!(img && img.complete && img.naturalWidth > 0) }; });
-      if (!info.ok || info.top < 0 || info.bottom > 1200) continue;
+      if (!info.ok) continue;
       const idx = Math.round(info.off / (info.h + 16)) + 1;   // approximate; corrected below by unique sort
       const key = info.off; if (seen.has(key)) continue; seen.add(key);
       await el.screenshot({ path: path.join(out, `_off${String(key).padStart(7, '0')}.jpg`), type: 'jpeg', quality: 88 });
     }
-    await p.mouse.move(600, 700); await p.mouse.wheel(0, 500); await sleep(900);
+    const moved = await p.evaluate(() => { let best = null; for (const el of document.querySelectorAll('*')) { const s = getComputedStyle(el); if (/(auto|scroll)/.test(s.overflowY) && el.scrollHeight > el.clientHeight + 100 && (!best || el.scrollHeight > best.scrollHeight)) best = el; }
+      if (!best) return -1; const before = best.scrollTop; best.scrollTop += Math.round(best.clientHeight * 0.45); return best.scrollTop - before; });
+    if (moved === 0 && step > 2) break;
+    await sleep(1200);
   }
   // rename by offset order -> p001..
   const files = fs.readdirSync(out).filter(f => f.startsWith('_off')).sort();
